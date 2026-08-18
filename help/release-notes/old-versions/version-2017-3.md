@@ -55,7 +55,7 @@ Se um backup for criado, mas o projeto não tiver sido salvo (também conhecido 
 
 ![](../../assets/gradient-rust.jpg)
 
-O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente ****, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**e criar **novas formas**.
+O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente **&#x200B;**, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**&#x200B;e criar **novas formas**.
 
 O controle deslizante principal (quantidade de cores) define o número de cores totais que são usadas para criar o gradiente. O botão logo abaixo define o modo de mesclagem de cores (sRGB ou Linear). Isso é importante se você quiser ter uma mistura adequada entre as cores. Por exemplo, mesclar um vermelho puro e um verde puro deve produzir um amarelo agradável no meio. Isso não acontecerá se o botão estiver desativado (ele exibirá um marrom escuro como alternativa). Ao remapear a height ou qualquer outro canal de tons de cinza, esse botão deve ser desativado para evitar a conversão da gama.
 

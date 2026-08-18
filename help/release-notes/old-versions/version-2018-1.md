@@ -144,7 +144,7 @@ Também adicionamos algum conteúdo novo nesta versão:
   A direção pode ser definida com duas posições 3D, que podem ser escolhidas diretamente no mapa de posições.\
   Exemplo:
 
-1. 
+1. &#x200B;
    1. Crie o gerador de máscaras **3D linear gradient** em uma de suas camadas
    1. Alterne a exibição do visor para “**Posição**” (por meio do menu suspenso do visor ou usando a tecla “**B**”)
    1. Clique no parâmetro “**Início da Posição 3D**” para abrir o pop-up **Seletor de Cores**

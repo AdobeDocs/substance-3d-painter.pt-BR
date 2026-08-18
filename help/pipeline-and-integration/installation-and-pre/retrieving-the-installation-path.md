@@ -27,7 +27,7 @@ Esta página reagrupa informações sobre maneiras de recuperar o caminho de ins
 ### Creative Cloud para desktop
 
 1. Abra o editor do Registro do Windows (**regedit**).
-1. Navegue até a chave de registro: ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
+1. Navegue até a chave de registro: **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
 1. Abra a subchave denominada **Adobe Substance 3D Painter.exe**
 1. O valor da chave contém o caminho para o executável do aplicativo no qual ela está instalada
 

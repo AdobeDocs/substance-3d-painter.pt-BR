@@ -97,7 +97,7 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 * [Script] Adicionar funções de retorno de chamada Antes e Depois ao exportar texturas
 * [Iray] Atualização para o SDK 2017.1 (suporte a Volta GPUs)
 
-****Corrigido:****
+**&#x200B;**&#x200B;Corrigido:**&#x200B;**
 
 * Falha ao sair do aplicativo antes que a janela principal seja exibida
 * [MAC] Falha ao carregar mapas em tons de cinza com IRAY
