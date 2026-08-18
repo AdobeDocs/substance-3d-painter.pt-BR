@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/settings.html"
 breadcrumb-title: ''
 description: Acesse e defina as configurações no Substance 3D Painter para personalizar as preferências, os atalhos e o comportamento do aplicativo.
 helpx_creative_field: ""

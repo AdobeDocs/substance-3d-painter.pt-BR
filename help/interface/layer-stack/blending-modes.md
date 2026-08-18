@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/blending-modes.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/blending-modes.html"
 breadcrumb-title: ''
 description: Saiba como usar modos de mesclagem no Substance 3D Painter para combinar camadas e criar vários efeitos de mesclagem de textura.
 helpx_creative_field: ""

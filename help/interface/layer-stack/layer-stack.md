@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack.html"
 breadcrumb-title: ''
 description: Saiba como usar a pilha de camadas no Substance 3D Painter para organizar e gerenciar várias camadas de pintura de textura.
 helpx_creative_field: ""

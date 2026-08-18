@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/properties.html"
 breadcrumb-title: ''
 description: Saiba como usar o painel Propriedades no Substance 3D Painter para ajustar parâmetros de camada, material e ferramenta.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../assets/properties-window.png)
 
-A janela Propriedades é onde os parâmetros de ferramenta e pincel, bem como as propriedades da camada, podem ser modificados. A janela Propriedades pode ser acessada usando a [Barra de Ferramentas de Encaixe](toolbars.md) ou simplesmente **clicando com o botão direito do mouse** no [menu Visor](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html).
+A janela Propriedades é onde os parâmetros de ferramenta e pincel, bem como as propriedades da camada, podem ser modificados. A janela Propriedades pode ser acessada usando a [Barra de Ferramentas de Encaixe](toolbars.md) ou simplesmente **clicando com o botão direito do mouse** no [menu Visor](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html).
 
 Para obter mais informações sobre quais parâmetros estão disponíveis e o que eles fazem, consulte a documentação de cada ferramenta e camada:
 

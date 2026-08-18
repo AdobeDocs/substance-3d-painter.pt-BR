@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
 breadcrumb-title: ''
 description: Aprenda a usar o SpaceMouse por conexão 3D com o Substance 3D Painter para navegação 3D aprimorada e controle de visor.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/anchor-point.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/anchor-point.html"
 breadcrumb-title: ''
 description: Saiba como usar efeitos de ponto de ancoragem no Substance 3D Painter para referenciar texturas de outras camadas para composição avançada.
 helpx_creative_field: ""

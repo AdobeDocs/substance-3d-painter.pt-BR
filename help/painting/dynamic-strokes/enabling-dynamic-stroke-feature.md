@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
 breadcrumb-title: ''
 description: Saiba como ativar o recurso de traçado dinâmico no Substance 3D Painter para criar traçados de pincel responsivos com efeitos variáveis.
 helpx_creative_field: ""

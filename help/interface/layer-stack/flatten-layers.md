@@ -2,7 +2,7 @@
 title: Achatar camadas
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/flatten-layers.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/flatten-layers.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '883'

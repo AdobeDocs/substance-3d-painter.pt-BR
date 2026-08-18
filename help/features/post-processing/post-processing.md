@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
 description: Saiba como usar os efeitos de pós-processamento no Substance 3D Painter para aprimorar a renderização do visor com correção de cores e efeitos visuais.
 helpx_creative_field: ""

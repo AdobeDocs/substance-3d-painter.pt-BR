@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing/color-profile.html"
 breadcrumb-title: ''
 description: Saiba como usar o pós-processamento de perfil de cores no Substance 3D Painter para aplicar a correção de cores e as transformações de LUT.
 helpx_creative_field: ""
@@ -84,4 +84,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 Basta abrir a janela de importação (ou arrastar e soltar a LUT na prateleira). Ao importar a textura LUT no Substance 3D Painter, atribua o uso de &quot; **colorlut** &quot; **ao novo recurso.** Caso contrário, o recurso não estará visível corretamente na prateleira.
 
-Para obter mais informações, consulte a documentação sobre a importação de novos recursos: [Adicionando recursos por meio da janela de importação](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Para obter mais informações, consulte a documentação sobre a importação de novos recursos: [Adicionando recursos por meio da janela de importação](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

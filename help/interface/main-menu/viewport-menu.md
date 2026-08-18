@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ''
 description: Saiba como usar o menu Visor no Substance 3D Painter para acessar as configurações e opções de exibição do visor.
 helpx_creative_field: ""

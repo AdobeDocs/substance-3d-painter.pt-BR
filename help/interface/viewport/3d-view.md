@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/3d-view.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/viewport/3d-view.html"
 breadcrumb-title: ''
 description: Saiba como usar a visualização 3D no Substance 3D Painter para visualizar e interagir com seus modelos 3D durante a pintura de textura.
 helpx_creative_field: ""

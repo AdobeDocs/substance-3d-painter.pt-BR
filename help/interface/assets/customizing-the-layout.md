@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/assets/customizing-the-layout.html"
 breadcrumb-title: ''
 description: Saiba como personalizar o layout do painel Ativos no Substance 3D Painter para otimizar sua experiência de navegação de recursos.
 helpx_creative_field: ""

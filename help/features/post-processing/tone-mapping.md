@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing/tone-mapping.html"
 breadcrumb-title: ''
 description: Saiba como usar o pós-processamento do mapeamento de tom no Substance 3D Painter para ajustar a exposição e a correção de cores no visor.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
 breadcrumb-title: ''
 description: Saiba como ativar a dispersão superficial em projetos do Substance 3D Painter para criar efeitos de material translúcido realistas.
 helpx_creative_field: ""

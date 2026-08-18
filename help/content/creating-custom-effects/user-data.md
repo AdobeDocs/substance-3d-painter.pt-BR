@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/creating-custom-effects/user-data.html"
 breadcrumb-title: ''
 description: Saiba como usar dados do usuário em efeitos personalizados para que o Substance 3D Painter passe informações personalizadas para efeitos de sombreador.
 helpx_creative_field: ""
