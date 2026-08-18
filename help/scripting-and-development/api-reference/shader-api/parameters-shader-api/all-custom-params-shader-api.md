@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência Todos os parâmetros de API de sombreamento personalizados para que o Substance 3D Painter defina e controle os parâmetros de sombreador personalizados.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
 breadcrumb-title: ''
 description: Saiba como corrigir problemas de carregamento de plug-in Substance Source no Substance 3D Painter para acessar a biblioteca de recursos.
 helpx_creative_field: ""

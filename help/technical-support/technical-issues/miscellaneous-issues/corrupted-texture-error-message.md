@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
 breadcrumb-title: ''
 description: Saiba como corrigir mensagens de erro de textura corrompidas no Substance 3D Painter para restaurar a funcionalidade da textura.
 helpx_creative_field: ""

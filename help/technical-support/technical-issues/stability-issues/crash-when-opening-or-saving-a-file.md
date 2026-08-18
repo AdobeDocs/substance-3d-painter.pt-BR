@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
 description: Saiba como corrigir falhas do Substance 3D Painter ao abrir ou salvar arquivos para gerenciamento de projeto confiável.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
 breadcrumb-title: ''
 description: Saiba como editar preferências de prateleira usando scripts Python no Substance 3D Painter para o gerenciamento automatizado de caminhos de recursos.
 helpx_creative_field: ""

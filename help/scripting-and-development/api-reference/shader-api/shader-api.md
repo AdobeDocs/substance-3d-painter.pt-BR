@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento do Substance 3D Painter para criar sombreadores personalizados e estender os recursos de renderização.
 helpx_creative_field: ""

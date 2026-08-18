@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
 breadcrumb-title: ''
 description: Saiba como corrigir falhas do Substance 3D Painter causadas por memória virtual insuficiente para garantir um desempenho estável do aplicativo.
 helpx_creative_field: ""

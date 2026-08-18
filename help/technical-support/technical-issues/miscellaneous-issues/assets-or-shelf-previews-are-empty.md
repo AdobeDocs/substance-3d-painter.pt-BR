@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
 breadcrumb-title: ''
 description: Saiba como corrigir visualizações vazias de ativos e prateleiras no Substance 3D Painter para restaurar a funcionalidade de exibição em miniaturas.
 helpx_creative_field: ""

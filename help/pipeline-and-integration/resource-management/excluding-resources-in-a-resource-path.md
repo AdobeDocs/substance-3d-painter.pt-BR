@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
 breadcrumb-title: ''
 description: Saiba como excluir recursos específicos de caminhos de recursos no Substance 3D Painter para uma melhor organização de prateleira.
 helpx_creative_field: ""

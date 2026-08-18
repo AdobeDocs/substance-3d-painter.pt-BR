@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento de animação do Substance 3D Painter para criar efeitos de renderização personalizados no estilo de animação.
 helpx_creative_field: ""

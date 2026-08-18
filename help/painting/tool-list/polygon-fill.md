@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/polygon-fill.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
 description: Use a ferramenta Preenchimento de polígono no Substance 3D Painter para preencher polígonos selecionados com pintura, proporcionando uma textura eficiente.
 helpx_creative_field: ""

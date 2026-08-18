@@ -8,7 +8,7 @@ ht-degree: 1%
 # Gerador de problemas conhecidos — Substance 3D Painter
 
 Automatiza a geração do documento de marcação de problemas conhecidos para o Substance 3D Painter, publicado em:
-`https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html`
+`https://helpx.adobe.com/br/substance-3d-painter/release-notes/know-issues.html`
 
 Os problemas foram originados do épico Jira `SBSFOUR-6267`. O script busca todos os problemas, filtra tudo o que já foi corrigido na versão de destino e gera um arquivo de markdown formatado pronto para confirmação.
 
@@ -172,7 +172,7 @@ O script gera a saída de `known-issues.md` com:
 
 ```markdown
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/know-issues.html"
 ...
 ---
 

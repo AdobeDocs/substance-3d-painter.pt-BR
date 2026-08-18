@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência da API de sombreamento Lib Bayer para o Substance 3D Painter para criar padrões de pontilhamento Bayer em sombreadores personalizados.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
 description: Use a ferramenta Borracha no Substance 3D Painter para remover pintura e texturas de seus modelos 3D com controle de precisão.
 helpx_creative_field: ""

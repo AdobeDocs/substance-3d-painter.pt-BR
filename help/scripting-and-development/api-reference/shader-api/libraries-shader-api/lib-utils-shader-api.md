@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento de Utilitários de Lib para o Substance 3D Painter usar funções utilitárias no desenvolvimento de sombreador personalizado.
 helpx_creative_field: ""

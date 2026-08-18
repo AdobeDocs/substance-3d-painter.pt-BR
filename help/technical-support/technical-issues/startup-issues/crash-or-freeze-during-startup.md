@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
 description: Saiba como corrigir falhas e congelamentos durante a inicialização do Substance 3D Painter para uma inicialização estável do aplicativo.
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ Se o aplicativo congelar logo ao ser inicializado no Windows (levando a uma tela
 * Um aplicativo externo está criando um conflito. Consulte [Conflitos de software](software-conflicts.md) para saber quais conflitos estão ocorrendo.
 * Algumas janelas do aplicativo foram abertas em outro monitor. Restaurar a interface para o layout padrão permite iniciar o aplicativo normalmente:
   1. Abra o editor do Registro (**regedit** do menu Iniciar)
-  1. Navegue até as preferências do aplicativo (consulte: [Preferências e local dos dados do aplicativo](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
+  1. Navegue até as preferências do aplicativo (consulte: [Preferências e local dos dados do aplicativo](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
   1. Expandir a chave do **Adobe Substance 3D Painter**
   1. Selecione a chave da **janela principal 2018** e exclua-a
   1. Reiniciar o aplicativo

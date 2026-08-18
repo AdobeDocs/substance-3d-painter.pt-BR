@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência Lib Sampler API de sombreamento para Substance 3D Painter para obter amostras de texturas e dados no desenvolvimento de sombreador personalizado.
 helpx_creative_field: ""

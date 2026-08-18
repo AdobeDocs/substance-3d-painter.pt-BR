@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento Materiais de vinculação de camada para que o Substance 3D Painter vincule materiais em fluxos de trabalho em camadas.
 helpx_creative_field: ""

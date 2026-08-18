@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
 description: Use a correspondência de preenchimento por bloco UV no Substance 3D Painter para combinar padrões de textura em blocos UV para obter uma divisão perfeita.
 helpx_creative_field: ""

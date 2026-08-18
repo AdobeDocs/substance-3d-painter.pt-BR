@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento Declarar pilhas de camada para que o Substance 3D Painter crie pilhas de camadas de material personalizadas.
 helpx_creative_field: ""

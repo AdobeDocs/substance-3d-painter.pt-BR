@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/tri-planar-projection.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/tri-planar-projection.html"
 breadcrumb-title: ''
 description: Use a projeção triplanar no Substance 3D Painter para projetar texturas de três planos ortogonais para uma cobertura contínua.
 helpx_creative_field: ""

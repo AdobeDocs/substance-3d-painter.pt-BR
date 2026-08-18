@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência API de sombreamento esparsa da biblioteca para que o Substance 3D Painter funcione com amostragem de textura esparsa em sombreadores personalizados.
 helpx_creative_field: ""

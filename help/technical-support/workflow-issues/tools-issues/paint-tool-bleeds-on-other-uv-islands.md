@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
 breadcrumb-title: ''
 description: Saiba como corrigir o sangramento da ferramenta de pintura nas Ilhas UV do Substance 3D Painter para manter limites de textura limpos.
 helpx_creative_field: ""
