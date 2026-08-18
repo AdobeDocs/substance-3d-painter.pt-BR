@@ -79,7 +79,7 @@ Para criar uma instância em vários Conjuntos de texturas:
 
 >[!NOTE]
 >
-> O ponto de exclamação ao lado do nome de um Conjunto de Texturas indica uma incompatibilidade de canal ****. Isso significa que, se uma instância for criada nesses Conjuntos de texturas, ela não será renderizada corretamente, pois um canal está ausente.
+> O ponto de exclamação ao lado do nome de um Conjunto de Texturas indica uma incompatibilidade de canal **&#x200B;**. Isso significa que, se uma instância for criada nesses Conjuntos de texturas, ela não será renderizada corretamente, pois um canal está ausente.
 
 ## Alternar entre uma instância e sua origem
 

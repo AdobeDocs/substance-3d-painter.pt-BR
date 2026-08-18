@@ -190,7 +190,7 @@ Para localizar o projeto, use a entrada de menu **Arquivo** > **Abrir Amostra...
 
 (Lançado em 25 de setembro de 2018)
 
-****Corrigido:****
+**&#x200B;**&#x200B;Corrigido:**&#x200B;**
 
 * [2D View] A visualização 2D é quebrada com algumas malhas ao criar um novo projeto
 * [Falha] Alternar de Projeção UV para projeção triplanar leva a um travamento

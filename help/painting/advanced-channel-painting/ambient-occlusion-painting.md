@@ -22,7 +22,7 @@ ht-degree: 0%
 
 O canal da oclusão ambiente permite pintar detalhes nas sombras ambientes de um objeto. Ele pode ser usado para adicionar detalhes do AO provenientes de materiais ou simplesmente corrigir erros de cozimento manual quando necessário.
 
->> 
+&#x200B;>> 
 
 Em gráficos de computador, a oclusão ambiente é uma técnica de sombreamento e renderização usada para calcular como cada ponto exposto em uma cena é à iluminação ambiente. Normalmente, o interior de um tubo é mais ocluído (e, portanto, mais escuro) do que as superfícies externas expostas, e quanto mais fundo você vai no interior do tubo, mais ocluída (e mais escura) se torna a iluminação. A oclusão ambiente pode ser vista como um valor de acessibilidade calculado para cada ponto da superfície.\
 Fonte: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>
