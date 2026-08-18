@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
 breadcrumb-title: ''
 description: Use a projeção cilíndrica no Substance 3D Painter para projetar texturas de um cilindro para quebrar texturas em torno de objetos cilíndricos.
 helpx_creative_field: ""

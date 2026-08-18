@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/spherical-projection.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/spherical-projection.html"
 breadcrumb-title: ''
 description: Use projeção esférica no Substance 3D Painter para projetar texturas de uma esfera para quebrar texturas em torno de objetos.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
 description: Saiba como corrigir falhas do Substance 3D Painter durante as operações de cozimento para obter fluxos de trabalho de cozimento de textura confiáveis.
 helpx_creative_field: ""

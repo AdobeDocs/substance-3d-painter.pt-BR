@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
 description: Use a ferramenta Faixa de opções no Substance 3D Painter para criar traçados de pintura tipo faixa de opções ao longo de caminhos para a pintura de texturas decorativas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/path.html"
 breadcrumb-title: ''
 description: Use a ferramenta Caminho no Substance 3D Painter para criar e editar caminhos para uma pintura de textura precisa e o posicionamento do traçado.
 helpx_creative_field: ""

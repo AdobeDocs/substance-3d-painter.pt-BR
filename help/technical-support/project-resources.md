@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/project-resources.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/project-resources.html"
 breadcrumb-title: ''
 description: Acesse os recursos do projeto e a documentação técnica do Substance 3D Painter para aprimorar seu fluxo de trabalho e solução de problemas.
 helpx_creative_field: ""

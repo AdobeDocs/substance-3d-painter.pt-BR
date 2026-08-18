@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/shader-settings.html"
 breadcrumb-title: ''
 description: Saiba como definir as configurações de sombreador no Substance 3D Painter para personalizar a renderização do material e a aparência visual.
 helpx_creative_field: ""

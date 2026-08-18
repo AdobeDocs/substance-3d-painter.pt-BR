@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as considerações sobre o desempenho do traçado dinâmico no Substance 3D Painter para otimizar a renderização e a capacidade de resposta do traçado de pincel.
 helpx_creative_field: ""

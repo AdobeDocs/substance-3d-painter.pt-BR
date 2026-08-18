@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/advanced-channel-painting.html"
 breadcrumb-title: ''
 description: Aprenda técnicas avançadas de pintura de canal no Substance 3D Painter para pintar diretamente em canais de textura específicos para um controle preciso.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/window-menu.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/window-menu.html"
 breadcrumb-title: ''
 description: Saiba como usar o menu Janela no Substance 3D Painter para gerenciar painéis de interface e personalizar o layout do seu espaço de trabalho.
 helpx_creative_field: ""

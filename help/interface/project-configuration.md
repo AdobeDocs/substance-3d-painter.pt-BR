@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/project-configuration.html'
+helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: Saiba como definir as configurações do projeto no Substance 3D Painter para definir a resolução da textura, os canais e as propriedades do projeto.
 helpx_creative_field: ''

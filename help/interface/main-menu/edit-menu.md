@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: Saiba como usar o menu Editar no Substance 3D Painter para acessar as operações de desfazer, refazer e edição.
 helpx_creative_field: ""

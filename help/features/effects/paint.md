@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/paint.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
 description: Saiba como usar o efeito Pintura no Substance 3D Painter para aplicar traçados de tinta e efeitos de pintura de textura a camadas.
 helpx_creative_field: ""

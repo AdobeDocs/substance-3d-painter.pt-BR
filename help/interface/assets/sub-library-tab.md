@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/assets/sub-library-tab.html"
 breadcrumb-title: ''
 description: Saiba como usar a guia subbiblioteca no Substance 3D Painter para organizar e acessar bibliotecas de recursos aninhados.
 helpx_creative_field: ""

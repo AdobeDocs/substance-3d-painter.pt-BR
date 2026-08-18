@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
 breadcrumb-title: ''
 description: Aprenda a pintar mapas de oclusão ambiente diretamente no Substance 3D Painter para adicionar sombreamento e profundidade realistas às texturas.
 helpx_creative_field: ""

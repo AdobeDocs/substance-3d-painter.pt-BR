@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
 description: Saiba como usar o mouse preguiçoso no Substance 3D Painter para criar traçados fluidos e suaves com resposta atrasada do cursor.
 helpx_creative_field: ""

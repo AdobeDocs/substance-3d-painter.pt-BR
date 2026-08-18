@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/straight-line.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/straight-line.html"
 breadcrumb-title: ''
 description: Use a ferramenta de linha reta no Substance 3D Painter para criar traçados de tinta reta precisos para pintura de textura.
 helpx_creative_field: ""

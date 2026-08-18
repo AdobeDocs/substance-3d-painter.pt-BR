@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing/glare.html"
 breadcrumb-title: ''
 description: Saiba como usar o efeito de pós-processamento de brilho no Substance 3D Painter para adicionar efeitos de reflexo de flash e de flor de lente a áreas brilhantes.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
 description: Use a ferramenta Borrar no Substance 3D Painter para mesclar e borrar traçados de tinta para criar transições de textura suaves.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/quick-mask.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/quick-mask.html"
 breadcrumb-title: ''
 description: Use a ferramenta Máscara rápida no Substance 3D Painter para criar e editar rapidamente máscaras para um controle preciso de pintura de textura.
 helpx_creative_field: ""

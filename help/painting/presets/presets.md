@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets.html"
 breadcrumb-title: ''
 description: Saiba como usar e gerenciar predefinições de pincel no Substance 3D Painter para simplificar o fluxo de trabalho de pintura de textura.
 helpx_creative_field: ""
@@ -30,6 +30,6 @@ As predefinições são salvas no disco na pasta [Ativos](../../interface/assets
 
 Para gerenciar suas predefinições, consulte:
 
-* [Criação e salvamento de predefinições](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [Criação e salvamento de predefinições](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [Criando predefinições de partículas](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [Predefinições de pincel Photoshop (ABR)](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)

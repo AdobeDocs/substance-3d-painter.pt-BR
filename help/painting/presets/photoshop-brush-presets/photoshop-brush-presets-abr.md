@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html"
 breadcrumb-title: ''
 description: Saiba como usar as predefinições de pincel do Photoshop (arquivos ABR) no Substance 3D Painter para aproveitar a coleção de pincéis existente.
 helpx_creative_field: ""

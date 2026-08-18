@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
 breadcrumb-title: ''
 description: Saiba como configurar a localização de prateleira e ativos no Substance 3D Painter para organizar e acessar sua biblioteca de recursos.
 helpx_creative_field: ""
