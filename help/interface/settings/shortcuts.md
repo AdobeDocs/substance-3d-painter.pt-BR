@@ -74,8 +74,8 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Selecionar a ferramenta Clonar (origem relativa)** | 6 | 6 |  |
 | **Selecione a ferramenta Clonar (origem absoluta)** | Ctrl+6 | ⌘+6 |  |
 | **Criar mapas de malha** | Ctrl+Shift+B | ⌘+Shift+B | Abra a janela Configurações de cozimento. |
-| **Aumentar tamanho da ferramenta** | **&amp;rbrack;** | **&amp;rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
-| **Diminuir tamanho da ferramenta** | **&amp;lbrack;** | **&amp;lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
+| **Aumentar tamanho da ferramenta** | **&rbrack;** | **&rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
+| **Diminuir tamanho da ferramenta** | **&lbrack;** | **&lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
 | **Ferramenta Inverter tons de cinza** | X | X | Inverta o valor atual da escala de cinza se a ferramenta de pintura estiver em uma máscara. |
 | **Escolher material de traçado** | P | P | Ative a ferramenta de seleção de material. |
 | **Mouse Preguiçoso** | D | D | Habilita o comportamento do mouse preguiçoso na ferramenta atual. |

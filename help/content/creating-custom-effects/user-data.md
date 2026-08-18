@@ -96,7 +96,7 @@ Exemplo de sintaxe:
 
 Por padrão, as entradas de imagem de um gráfico de Substance não têm nenhum preenchimento, a área fora da Ilha UV é geralmente preenchida com uma cor uniforme por motivos de desempenho. Em vez disso, a configuração de preenchimento pode ser usada para solicitar dilatação infinita, que pode ser usada para filtros a fim de evitar a criação de emendas, por exemplo.
 
-Exemplo de sintaxe: **p****adding=extension**
+Exemplo de sintaxe: **p**&#x200B;**adding=extension**
 
 ## Desativar uma saída por padrão
 

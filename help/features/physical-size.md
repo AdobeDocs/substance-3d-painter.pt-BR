@@ -28,7 +28,7 @@ Para usar tamanho físico, aplique um material que tenha essa propriedade com um
 
 Para obter mais informações, consulte:
 
-* <b>Parâmetros de {Tamanho físico</b> em [Projeções de preenchimento](../painting/fill-projections/fill-projections.md)
+* <b>Parâmetros de &lbrace;Tamanho físico</b> em [Projeções de preenchimento](../painting/fill-projections/fill-projections.md)
 * Parâmetros da <b>grade</b> em [configurações do visor](../interface/display-settings/viewport-settings.md)
 * <b>Deslocamento baseado no tamanho físico</b> em [Configurações do sombreador](../interface/shader-settings/shader-settings.md)
 
