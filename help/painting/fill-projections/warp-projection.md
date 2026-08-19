@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Use Distorcer projeção no Substance 3D Painter para projetar texturas com efeitos de distorção para pintura de textura criativa.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorcer projeção
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 5ab9709e1630071fddf0db0f03a292e92b84b31f
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Os tipos de recursos compatíveis são:
 
 | Configuração | Descrição |
 | --- | --- |
-| **Filtragem** | Controla como a textura ou o material será filtrado. Essa configuração pode afetar a aparência da textura quando repetida várias vezes. Com valores de dimensionamento altos, o uso de um filtro diferente do padrão pode produzir resultados com melhor aparência. Configurações atuais disponíveis:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinear | HQ</strong> (padrão): filtragem bilinear avançada que tenta melhorar a qualidade da textura quando os valores de divisão em blocos gráficos estão altos.</li><li data-preserve-html="true"><strong>Bilinear | Nítido</strong>: filtragem bilinear simples que suaviza ligeiramente a textura, mas tenta preservar os detalhes.</li><li data-preserve-html="true"><strong>Mais próximo</strong>: sem filtragem, útil se a filtragem Bilinear fornecer um resultado desfocado e quebrar detalhes finos. É possível introduzir suavização na textura.</li></ul> |
+| **Filtragem** | Controla como a textura ou o material será filtrado. Essa configuração pode afetar a aparência da textura quando repetida várias vezes. Com valores de dimensionamento altos, o uso de um filtro diferente do padrão pode produzir resultados com melhor aparência. Configurações atuais disponíveis:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>HQ `\|` bilinear</strong> (padrão): uma filtragem bilinear avançada que tenta melhorar a qualidade da textura quando os valores de divisão em blocos gráficos são altos.</li><li data-preserve-html="true"><strong>Bilinear `\|` Sharp</strong>: filtragem bilinear simples que suaviza ligeiramente a textura, mas tenta preservar os detalhes.</li><li data-preserve-html="true"><strong>Mais próximo</strong>: sem filtragem, útil se a filtragem Bilinear fornecer um resultado desfocado e quebrar detalhes finos. É possível introduzir suavização na textura.</li></ul> |
 | **Envoltório UV** | Controla como a textura se repete dentro da projeção. Os valores possíveis são:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nenhuma</strong>: a textura não se repete. Qualquer item fora da textura é preto/transparente.</li><li data-preserve-html="true"><strong>Repetir horizontalmente</strong>: a textura se repete apenas horizontalmente.</li><li data-preserve-html="true"><strong>Repetir verticalmente</strong>: a textura só se repete verticalmente.</li><li data-preserve-html="true"><strong>Repetição</strong> (padrão): a textura se repete em ambos os eixos.</li></ul> |
 | **Corte da forma** | Defina se a textura projetada deve ser visível fora da área de projeção. Os valores possíveis são:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Projeto cortado na forma</strong>: a projeção está confinada dentro da área de projeção.</li><li data-preserve-html="true"><strong>A projeção se estende para fora da forma</strong> (padrão): a projeção continua além da área de projeção.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-extend.jpg" width="500px"/></div> |
 | **profundidade de projeção** | Controla o quanto a projeção vai ao longo do eixo Z. Essa configuração ajuda a alcançar a superfície da malha quando o ponto da grade ou o plano de projeção estiver muito longe.As setas verdes indicam a direção e a distância da projeção para cada ponto da grade. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-depth.gif"/></div> **Alerta:** um valor alto pode afetar gravemente o desempenho. É recomendável manter esse parâmetro no nível mais baixo possível. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
 description: Use a ferramenta Pincel no Substance 3D Painter para pintar texturas diretamente em modelos 3D com configurações de pincel personalizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pincel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Os parâmetros Pincel são o que define a aparência do traçado do pincel quand
 | **Tremulação de fluxo** | Aplique um valor de fluxo aleatório por carimbo dentro do traçado do pincel. Um valor de 0 significa que não há aleatoriedade, e um valor de 1 significa que há aleatoriedade completa. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **Tremulação de ângulo** | Aplique um ângulo de rotação adicional aleatório por carimbo dentro do traçado do pincel. Um valor de 0 significa que não há aleatoriedade, e um valor de 1 significa que há aleatoriedade completa. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **Tremulação de Posição** | Aplique um deslocamento de posição aleatório por carimbo dentro do traçado do pincel. Um valor de 0 significa que não há aleatoriedade, e um valor de 1 significa que há aleatoriedade completa. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
-| **Alinhamento** | Determina como os carimbos dentro do traçado do pincel serão projetados/orientados na superfície da malha 3D. Os seguintes valores estão disponíveis:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Câmera </strong> : orienta o carimbo em direção ao ponto de vista do visor</li><li data-preserve-html="true"><strong> Tangente | Quebra automática (padrão) </strong> : orienta o carimbo para alinhar com a superfície de malha 3D. O carimbo também será deformado para se adequar à superfície.</li><li data-preserve-html="true"><strong> Tangente | Planar </strong> : Oriente o carimbo para alinhá-lo com a superfície de malha 3D. O carimbo esmaecerá sua borda se estiver muito longe da superfície da malha 3D. </li><li data-preserve-html="true"><strong> UV </strong> : orienta o carimbo com base nos UVs de malha 3D.</li></ul> |
+| **Alinhamento** | Determina como os carimbos dentro do traçado do pincel serão projetados/orientados na superfície da malha 3D. Os seguintes valores estão disponíveis:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Câmera </strong> : orienta o carimbo em direção ao ponto de vista do visor</li><li data-preserve-html="true"><strong> Tangente `\|` Quebra automática (padrão) </strong> : orienta o carimbo para alinhar com a superfície de malha 3D. O carimbo também será deformado para se adequar à superfície.</li><li data-preserve-html="true"><strong> Tangente `\|` Planar </strong>: Oriente o carimbo para alinhá-lo com a superfície de malha 3D. O carimbo esmaecerá sua borda se estiver muito longe da superfície da malha 3D. </li><li data-preserve-html="true"><strong> UV </strong> : orienta o carimbo com base nos UVs de malha 3D.</li></ul> |
 | **Remoção de Backface** | Permite ignorar superfícies na malha 3D que não estão alinhadas com a estampa. Para calcular quais partes da malha 3D devem ser ignoradas, o mecanismo de pintura olha para o normal na superfície da malha 3D e compara seu ângulo com o valor definido. |
 | **Tamanho de espaço** | Controla em qual espaço relativo o tamanho do pincel é calculado. Os valores possíveis são:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Objeto (padrão) </strong> : o tamanho do pincel está sincronizado com o tamanho da malha 3D. Mover a câmera no visor afetará o tamanho para mantê-la relativa à malha 3D.</li><li data-preserve-html="true"><strong> Viewport </strong> : O tamanho do pincel está vinculado ao visor. O redimensionamento da interface afetará o tamanho do pincel. Mover a câmera não terá nenhum efeito.</li><li data-preserve-html="true"><strong> Textura </strong>: O tamanho do pincel está vinculado ao nível de zoom do visor 2D.</li></ul> |
 
