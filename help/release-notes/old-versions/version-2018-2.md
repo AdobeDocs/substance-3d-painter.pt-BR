@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2018.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -190,7 +190,7 @@ Para localizar o projeto, use a entrada de menu **Arquivo** > **Abrir Amostra...
 
 (Lançado em 25 de setembro de 2018)
 
-**&#x200B;**&#x200B;Corrigido:**&#x200B;**
+****Corrigido:****
 
 * [2D View] A visualização 2D é quebrada com algumas malhas ao criar um novo projeto
 * [Falha] Alternar de Projeção UV para projeção triplanar leva a um travamento

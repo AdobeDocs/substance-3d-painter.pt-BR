@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2018.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -144,7 +144,7 @@ Também adicionamos algum conteúdo novo nesta versão:
   A direção pode ser definida com duas posições 3D, que podem ser escolhidas diretamente no mapa de posições.\
   Exemplo:
 
-1. &#x200B;
+1. 
    1. Crie o gerador de máscaras **3D linear gradient** em uma de suas camadas
    1. Alterne a exibição do visor para “**Posição**” (por meio do menu suspenso do visor ou usando a tecla “**B**”)
    1. Clique no parâmetro “**Início da Posição 3D**” para abrir o pop-up **Seletor de Cores**
