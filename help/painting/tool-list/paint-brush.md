@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
 description: Use a ferramenta Pincel no Substance 3D Painter para pintar texturas diretamente em modelos 3D com configurações de pincel personalizáveis.
 helpx_creative_field: ""

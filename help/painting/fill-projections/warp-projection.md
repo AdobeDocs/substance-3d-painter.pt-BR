@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Use Distorcer projeção no Substance 3D Painter para projetar texturas com efeitos de distorção para pintura de textura criativa.
 helpx_creative_field: ""
