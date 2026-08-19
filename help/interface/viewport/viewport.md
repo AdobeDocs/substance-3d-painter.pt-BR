@@ -1,11 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
 description: Saiba como usar a viewport no Substance 3D Painter para visualizar texturas e modelos 3D durante o processo de pintura.
 helpx_description: Painter > Interface > Viewport
 title: Janela de visualização
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -74,19 +74,19 @@ O layout padrão coloca a exibição 3D à esquerda e a exibição 2D à direita
     <th><em>Descrição</em></th>
   </tr>
   <tr>
-    <td><strong>Modo de Visor</strong><br>![](../../assets/viewport-viewmode.png)</td>
+    <td><strong>Modo Viewport</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>Estas configurações controlam o layout do visor:<br><ul><li><strong>3D/2D</strong> (padrão): exibe as exibições 3D e 2D no visor</li><li><strong>Somente 3D</strong>: maximize a exibição 3D e oculte a exibição 2D.</li><li><strong>Somente 2D</strong>: maximize a exibição 2D e oculte a exibição 3D.</li><li><strong>Trocar 3D/2D</strong>: troque a ordem na qual as exibições são exibidas. Se a visualização 3D estiver à esquerda, ela ficará à direita após a escolha desta ação.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modo de Perspectiva</strong><br>![](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>Modo de perspectiva</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>Estas configurações controlam como a malha 3D será exibida na visualização 3D:<br><ul><li><strong>Exibição de perspectiva</strong> (padrão): exibe a malha 3D como ela seria vista pelo olho humano ou por uma câmera.</li><li><strong>Exibição ortográfica</strong>: exibe a malha 3D como todas as direções que medem o mesmo comprimento.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modo de rotação da câmera</strong><br>![](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>Modo de rotação da câmera</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>Estas configurações controlam em quantos eixos a câmera do visor pode girar.<br><ul><li><strong>Rotação livre</strong>: a câmera gira nos eixos X, Y e Z.</li><li><strong>Rotação restrita</strong> (padrão): a câmera gira apenas nos eixos X e Y (sem rolagem).</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modo de renderização</strong><br>![](../../assets/viewport-rendering.png)</td>
+    <td><strong>Modo de renderização</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td>Alterne para o <a href="../../features/iray-renderer/iray-renderer.md">modo de renderização</a>.</td>
   </tr>
 </table>
