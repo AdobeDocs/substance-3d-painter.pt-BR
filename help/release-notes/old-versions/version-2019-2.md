@@ -180,7 +180,7 @@ Resumo: **Correção de erros**
 **Corrigido:**
 
 * [Plug-in] A origem do plug-in não funciona
-* [MacOS][Shader] Mac OS 10.14.5 e AMD: a disposição em camadas de material não funciona conforme o esperado
+* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 e AMD: a disposição em camadas de material não funciona conforme o esperado
 
 **Problemas Conhecidos:**
 
@@ -205,7 +205,7 @@ Resumo: **Correção de erros**
 
 **Corrigido:**
 
-* [Mac][USD] Arquivos USDZ exportados do MacOS não podem ser abertos
+* [Mac]&#x200B;[USD] Arquivos USDZ exportados do MacOS não podem ser abertos
 * [Conjunto de texturas] Não é possível isolar um conjunto de texturas com o modificador ALT
 * [Prateleira] Predefinições, Materiais inteligentes e Máscaras inteligentes são sempre modificados ao sair do aplicativo
 * [Pilha de camadas] Não é possível selecionar o efeito após excluir outro efeito
@@ -229,13 +229,13 @@ Resumo: **Versão principal com atualizações dos padeiros em termos de desempe
 
 * [Padarias] Suporte adicionado para Rastreamento de raios do GPU com DXR e OptiX (Oclusão ambiente, Thickness)
 * [Bakers] Otimizações e acelerações para o rastreamento de raio da CPU
-* [Padeiros][Modo Vis][IU] Novo modo de visualização de cozimento no visor
-* [Bakers][Preferences][UI] Nova opção de cozimento para ativar/desativar o Rastreamento de raios do GPU
-* [Padeiros][IU] Retrabalho da caixa de diálogo da barra de progresso
+* [Padeiros]&#x200B;[Modo Vis]&#x200B;[IU] Novo modo de visualização de cozimento no visor
+* [Bakers]&#x200B;[Preferences]&#x200B;[UI] Nova opção de cozimento para ativar/desativar o Rastreamento de raios do GPU
+* [Padeiros]&#x200B;[IU] Retrabalho da caixa de diálogo da barra de progresso
 * [Padeiros] Melhoria das mensagens de aviso e de erro
 * [Padeiros] Permitem o cancelamento mais responsivo do processo de cozimento
 * [Padeiros] Reabrir a janela do bolo após clicar em Cancelar
-* [Proj][UX] Melhoria da usabilidade do manipulador de rotação
+* [Proj]&#x200B;[UX] Melhoria da usabilidade do manipulador de rotação
 * [Settings] Opção para melhorar o desempenho reduzindo a resolução do visor para telas HDPI
 * [Script] Alterar resolução do conjunto de texturas
 * [Script] Obter conjunto de textura selecionado

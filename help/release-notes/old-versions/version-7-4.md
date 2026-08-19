@@ -173,9 +173,9 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 
 **Adicionado:**
 
-* [SpaceMouse][Windows] Suporte ao SpaceMouse 3Dconnection na Janela de Visualização 3D para navegação
-* [SpaceMouse][Windows] Atalhos/teclas básicos para modelos Pro e Enterprise SpaceMouse no visor 3D
-* [SpaceMouse][Windows] Ícone do centro de rotação dedicado no visor 3D
+* [SpaceMouse]&#x200B;[Windows] Suporte ao SpaceMouse 3Dconnection na Janela de Visualização 3D para navegação
+* [SpaceMouse]&#x200B;[Windows] Atalhos/teclas básicos para modelos Pro e Enterprise SpaceMouse no visor 3D
+* [SpaceMouse]&#x200B;[Windows] Ícone do centro de rotação dedicado no visor 3D
 * [Gerenciamento de cores] Use funções da configuração OCIO para alterar as configurações padrão
 * [Gerenciamento de cores] Gerenciamento de cores na janela de propriedades dos widgets de cores
 * [Gerenciamento de cores] Gerenciamento de cores na janela de propriedades para visualização de material
@@ -193,7 +193,7 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 * [Gerenciamento de cores] Desativar menu suspenso Exibição do seletor de cores para canais de dados
 * [Otimização] A grade de distorção recalcula apenas blocos UV cobertos
 * [Exportar] Permitir a exportação de projetos de Bloco UV para Sketchfab, USD e glTF
-* [Scripting][Python] Permitir a alteração da função de mapeamento de tom
+* [Scripting]&#x200B;[Python] Permitir a alteração da função de mapeamento de tom
 
 **Corrigido:**
 
@@ -209,9 +209,9 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 * [Gerenciamento de cores] A ferramenta Preenchimento de polígono exibe a cor errada
 * [Gerenciamento de cores] O mapeador de tons ACES é aplicado a canais no modo solo
 * [Gerenciamento de cores] A visualização da ferramenta de iluminação da esfera não é gerenciada por cores
-* [Gerenciamento de cores][Exportar] Mapas convertidos aplicam uma conversão incorreta
-* [Scripting][Python][Color Management] Os projetos criados com o modelo e a variável de ambiente OCIO estão no modo Legado
-* [Scripting][Python] Não é possível usar a função de avaliação JavaScript na inicialização
+* [Gerenciamento de cores]&#x200B;[Exportar] Mapas convertidos aplicam uma conversão incorreta
+* [Scripting]&#x200B;[Python]&#x200B;[Color Management] Os projetos criados com o modelo e a variável de ambiente OCIO estão no modo Legado
+* [Scripting]&#x200B;[Python] Não é possível usar a função de avaliação JavaScript na inicialização
 * [Oferta de Adobe 3D] Não é possível iniciar o Painter ao usar configurações regionais com idiomas não compatíveis por padrão
 
 **Problemas Conhecidos:**
@@ -232,15 +232,15 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 * [Gerenciamento de cores] Expanda a seção Gerenciamento de cores, por padrão, quando o OCIO for selecionado nas novas janelas de configurações do projeto e do projeto
 * [Gerenciamento de cores] Adicionar o mapeador de tons ACES no modo herdado
 * [Gerenciamento de cores] Ajuste as configurações padrão
-* [Gerenciamento de cores][Exportar] Preencher $colorSpace nos nomes de arquivos para canais de dados
+* [Gerenciamento de cores]&#x200B;[Exportar] Preencher $colorSpace nos nomes de arquivos para canais de dados
 * [Exportar] Exportar projeto de Bloco UV para o Stager
 * [Interoperabilidade] Não disponível para as edições Steam e Substance
 * [Interoperabilidade] Permitir o envio de um projeto de Bloco UV para o Stager
 
 **Corrigido:**
 
-* [MacOS][Falha] O Painter não começa com o Catalina
-* [Gerenciamento de cores][Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
+* [MacOS]&#x200B;[Falha] O Painter não começa com o Catalina
+* [Gerenciamento de cores]&#x200B;[Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
 * [Gerenciamento de cores] Recursos usados como tons de cinza no novo menu Espaço de cores de exibição de máscara
 * [Gerenciamento de cores] O canal do usuário é mais escuro na viewport no modo legado + visualização individual
 * [Gerenciamento de cores] O mapa de ambiente é sempre linear quando usado no iRay
@@ -272,18 +272,18 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 * [Gerenciamento de cores] Extrair o nome do espaço de cores do nome de arquivo bitmap importado
 * [Gerenciamento de cores] Permite substituir o espaço de cores por um espaço de cores da configuração na janela Propriedades
 * [Gerenciamento de cores] Adicione opções de gerenciamento de cores nas Configurações do conjunto de texturas
-* [Gerenciamento de cores][Janela de visualização] Permita o gerenciamento de cores de exibições 2D e 3D separadamente
+* [Gerenciamento de cores]&#x200B;[Janela de visualização] Permita o gerenciamento de cores de exibições 2D e 3D separadamente
 * [Gerenciamento de cores] Carregue e converta o mapa de ambiente para o espaço de cores de trabalho
 * [Gerenciamento de cores] Ajustar o seletor e editor de cores com o espaço de cores atual
 * [Gerenciamento de cores] Permite selecionar o espaço da cor de transformação de vídeo no visor com um novo menu suspenso
 * [Gerenciamento de cores] Aplicar transformação de exibição com resultados de renderização de matriz
 * [Gerenciamento de cores] Exportar texturas com espaços de cores diferentes
-* [Gerenciamento de cores][Python] Aplicar configurações de gerenciamento de cores da variável de ambiente (OCIO) aos novos projetos
+* [Gerenciamento de cores]&#x200B;[Python] Aplicar configurações de gerenciamento de cores da variável de ambiente (OCIO) aos novos projetos
 * [Visor] Permite desencaixar o visor 2D ou 3D
 * [Desempacotamento automático] Nova opção para evitar ilhas alongadas
 * [Scripting Python] Chamar funções JavaScript da API Python
 * [Janela Novo projeto] Tornar a seção de mapas importados flexível
-* [Projeção][Distorcer] Permite ocultar normais como uma opção nas configurações de Distorção
+* [Projeção]&#x200B;[Distorcer] Permite ocultar normais como uma opção nas configurações de Distorção
 * [Conteúdo] 11 novos mapas de desgaste
 * [Conteúdo] 8 novas predefinições de ferramenta (zíper, cabo de aperto, brilho)
 * [Conteúdo] 8 novos materiais (cicatriz, bolso, ...)
@@ -292,10 +292,10 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 **Problemas Conhecidos:**
 
 * [Mac M1] Os materiais inteligentes não são exibidos corretamente
-* [Gerenciamento de cores][Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
+* [Gerenciamento de cores]&#x200B;[Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
 * [Gerenciamento de cores] O seletor de cores não seleciona o valor correto para o canal de dados no modo herdado
-* [Gerenciamento de cores][Iray] Salvar a renderização em EXR ou TIFF enquanto o Gerenciamento de cores está ativado na janela de visualização sempre será salvo em linear
+* [Gerenciamento de cores]&#x200B;[Iray] Salvar a renderização em EXR ou TIFF enquanto o Gerenciamento de cores está ativado na janela de visualização sempre será salvo em linear
 * [Gerenciamento de cores] Os recursos usados como tons de cinza na máscara exibem o menu Espaço de cores errado
-* [Color Management][Iray] O mapa de ambiente é sempre linear quando usado em Iray
-* [Gerenciamento de cores][Exportar] Os mapas convertidos não são exportados como canais gerenciados por cores
-* [Gerenciamento de cores][Exportar] A exportação ignora se o canal do usuário é gerenciado por cores ou não com o modo legado
+* [Color Management]&#x200B;[Iray] O mapa de ambiente é sempre linear quando usado em Iray
+* [Gerenciamento de cores]&#x200B;[Exportar] Os mapas convertidos não são exportados como canais gerenciados por cores
+* [Gerenciamento de cores]&#x200B;[Exportar] A exportação ignora se o canal do usuário é gerenciado por cores ou não com o modo legado

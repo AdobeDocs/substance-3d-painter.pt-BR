@@ -226,16 +226,16 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 <b>Adicionado</b>:
 
 * [Illustrator] Usar arquivos do Illustrator com painéis de arte no Painter
-* [Illustrator][SVG] Adicionar visualizações na seleção de escopo
+* [Illustrator]&#x200B;[SVG] Adicionar visualizações na seleção de escopo
 * [Substance 3D Assets] Procure, selecione e baixe ativos 3D diretamente no Painter
-* [Substance 3D Assets][IU] Novo painel
+* [Substance 3D Assets]&#x200B;[IU] Novo painel
 * [Substance 3D Assets] Mapas e materiais do ambiente de suporte
 * [Substance 3D Assets] Permitir recarregamento e navegar e abrir a pasta de local em novo painel do Substance 3D Assets
 * [Substance 3D Assets] Adição de um gerenciador de downloads
 * [Recurso de texto] Permitir o uso de fontes incorporáveis
 * [Recurso de texto] Permite renderizar uma fonte/texto em uma malha
 * [Recurso de texto] Exibir fontes do usuário e outros caminhos compartilhados no painel Ativos com uma nova categoria
-* [Recurso de texto][Propriedades] Adicionar suporte para propriedades avançadas de fonte
+* [Recurso de texto]&#x200B;[Propriedades] Adicionar suporte para propriedades avançadas de fonte
 * [Recurso de texto] Permitir pesquisar/exibir fontes em miniprateleiras
 * [Recurso de texto] Adicionar mensagem/caixa de diálogo de erro ao importar uma fonte incompatível
 * Diversos
@@ -298,9 +298,9 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 <b>Problemas Conhecidos</b>:
 
 * [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Crash][Linux][AMD] Arrastar e soltar recursos na pilha de camadas no sistema operacional Wayland
-* [Regression][UI] O menu do clique com o botão direito é muito pequeno em telas HD
-* [Crash][Python] Exportação de USD acionada por TextureStateEvent
+* [Crash]&#x200B;[Linux]&#x200B;[AMD] Arrastar e soltar recursos na pilha de camadas no sistema operacional Wayland
+* [Regression]&#x200B;[UI] O menu do clique com o botão direito é muito pequeno em telas HD
+* [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
 * [Salvar] O arquivo de projeto Spp é perdido quando “salvar como” falha
 * [MacOS Intel] Falha ao importar algumas predefinições
 * [Illustrator] Não é possível importar arquivos Ai após o travamento do servidor sem reiniciar o Painter

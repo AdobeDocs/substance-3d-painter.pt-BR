@@ -299,7 +299,7 @@ Resumo: **Correção de erro com atualização para o Iray 2019.3**
 * [Tablet] Detecção incorreta ao mover controles deslizantes
 * [Atalhos] Não é possível configurar nenhum atalho com “Ctrl+Alt+Clique do Mouse”
 * [Prateleira] Não é possível ver a dica de ferramenta do recurso ao usar um tablet com caneta
-* [2D View][Export] A predefinição de exibição 2D não leva em consideração as informações normais
+* [2D View]&#x200B;[Export] A predefinição de exibição 2D não leva em consideração as informações normais
 * Congela ao pintar em alinhamento UV com determinados pincéis
 * Pintar sob um filtro cria artefatos no traçado em andamento
 * [Visor] Cache de textura incorreto no visor após a reimportação de uma malha
@@ -380,28 +380,28 @@ Resumo: **Versão principal com melhoria na experiência do usuário de pintura 
 * [Desencapsulamento UV] Desencapsulamento UV automático em Substance Painter quando nenhum UV presente ou UVs parciais
 * [Desencapsulamento UV] Uma configuração global para ativá-lo e desativá-lo
 * [Desencapsulamento UV] Versão relatada no arquivo de log
-* [Desencapsulamento UV][IU] Indicar progresso do desencapsulamento UV
+* [Desencapsulamento UV]&#x200B;[IU] Indicar progresso do desencapsulamento UV
 * [UI] Novas configurações na barra de ferramentas contextual para selecionar a visualização do pincel: visualização completa, contorno e mira
 * [Ferramenta] Novo modo de mesclagem avançado na seção alfa: Clarear (máximo) além de Normal
 * [Pilha de camadas] Opção de correção de gama por camada para alfa ou máscara (menu do botão direito do mouse)
-* [Pilha de camadas][IU] Adicionar ícone &#39;i&#39; quando um alfa de camada for corrigido para a gama
-* [Tablet][Ferramenta] Expor a pressão mínima para tamanho e fluxo
-* [Tablet][IU] Nova configuração na barra de ferramentas contextual para selecionar a pressão da curva: linear, fácil de entrar, fácil de sair
-* [Tablet][UX] Adicionar Ctrl+Alt+clique para rolar
+* [Pilha de camadas]&#x200B;[IU] Adicionar ícone &#39;i&#39; quando um alfa de camada for corrigido para a gama
+* [Tablet]&#x200B;[Ferramenta] Expor a pressão mínima para tamanho e fluxo
+* [Tablet]&#x200B;[IU] Nova configuração na barra de ferramentas contextual para selecionar a pressão da curva: linear, fácil de entrar, fácil de sair
+* [Tablet]&#x200B;[UX] Adicionar Ctrl+Alt+clique para rolar
 * Importar predefinições de pincel do Photoshop (formato ABR)
 * [ABR] Suporte a parâmetros de forma
 * [ABR] Suporte a parâmetros de dinâmica de forma
 * [ABR] Parâmetros de transferência de suporte
 * [ABR] Parâmetros de dispersão de suporte
-* [ABR][Traçados dinâmicos] Redondez e giro de suporte
-* [ABR][Prateleira] Expor a estrutura de pastas de pincéis no Editor de filtros
-* [ABR][Prateleira] Adicionar ícone do Photoshop em miniaturas
-* [ABR][Prateleira] Adicionar lista de parâmetros não suportados na miniatura detalhada do ABR
-* [Ferramenta][Traçados dinâmicos] Nova configuração de traçado dinâmico para controlar a quantidade de semente aleatória a ser gerada
-* [Ferramenta][IU] Adicionar nova distribuição e configurações de eixo para dispersão de tremulação
+* [ABR]&#x200B;[Traçados dinâmicos] Redondez e giro de suporte
+* [ABR]&#x200B;[Prateleira] Expor a estrutura de pastas de pincéis no Editor de filtros
+* [ABR]&#x200B;[Prateleira] Adicionar ícone do Photoshop em miniaturas
+* [ABR]&#x200B;[Prateleira] Adicionar lista de parâmetros não suportados na miniatura detalhada do ABR
+* [Ferramenta]&#x200B;[Traçados dinâmicos] Nova configuração de traçado dinâmico para controlar a quantidade de semente aleatória a ser gerada
+* [Ferramenta]&#x200B;[IU] Adicionar nova distribuição e configurações de eixo para dispersão de tremulação
 * [Atalho] Adicione Ctrl+Shift+B para abrir a janela Cozimento
-* [UI][Menu] Adicionar entrada no menu “Editar” para abrir a janela Cozimento
-* [UI][Configurações] Aprimoramento do alinhamento da lista de atalhos
+* [UI]&#x200B;[Menu] Adicionar entrada no menu “Editar” para abrir a janela Cozimento
+* [UI]&#x200B;[Configurações] Aprimoramento do alinhamento da lista de atalhos
 * [IU] Substituir ícones de controles de pressão (tamanho e fluxo) por botões de ligar/desligar
 * [Janela de visualização] Permitir focalizar as portas de visualização 2D e 3D separadamente
 * Atualize para QT 5.12.5
@@ -432,9 +432,9 @@ Resumo: **Versão principal com melhoria na experiência do usuário de pintura 
 * [Tablet] Os atalhos para modificar pincéis com caneta resultam em baixo desempenho em casos raros
 * [Tablet] Atraso ao pintar em uma camada específica
 * Texturas desfocadas podem ocorrer em casos raros ao alternar entre viewport
-* [UI][Substance] As entradas de imagem nem sempre são exibidas
+* [UI]&#x200B;[Substance] As entradas de imagem nem sempre são exibidas
 * Limpar não remove as predefinições da prateleira que foram importadas em um projeto
-* [Tool][Dynamic Stroke] Problema de desempenho ao ajustar a contagem de ciclos de carimbo
+* [Tool]&#x200B;[Dynamic Stroke] Problema de desempenho ao ajustar a contagem de ciclos de carimbo
 * Problemas de atualização ao pintar no modo de visor 3D/2D em casos raros
 * Pintar um traçado muito longo pode causar congelamento
 * [Ferramenta] Problema de desempenho ao pintar com traçados dinâmicos específicos

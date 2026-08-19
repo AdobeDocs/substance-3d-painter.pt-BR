@@ -156,7 +156,7 @@ Resumo: <b>Versão principal, conteúdo novo: máscara de área de preenchimento
 * [VFX Platform 2024] Atualização para Python 3.11
 * [VFX Platform 2024] Atualização para OpenEXR 3.2
 * [VFX Platform 2024] [USD] Atualização do OpenSubdiv 3.6.0
-* [VFX Platform 2024][Gerenciamento de cores] Atualização para OCIO 2.3.2
+* [VFX Platform 2024]&#x200B;[Gerenciamento de cores] Atualização para OCIO 2.3.2
 * [Linux] Migração para o Linux RedHat
 * [Linux] Atualize a versão mínima do driver Nvidia para 535.171.04
 * [Importar] Adicionar uma opção para inverter o mapa normal ao importar uma malha GLTF
@@ -170,10 +170,10 @@ Resumo: <b>Versão principal, conteúdo novo: máscara de área de preenchimento
 <b>Corrigido</b>:
 
 * [Illustrator] Falha ao exportar um bloco UV com gráfico .ai em casos específicos
-* [Traçados dinâmicos][Caminho] O aleatório por traçado não funciona em um caminho
-* [UI][Propriedades] O bloqueio é habilitado quando a divisão em blocos gráficos não é uniforme
+* [Traçados dinâmicos]&#x200B;[Caminho] O aleatório por traçado não funciona em um caminho
+* [UI]&#x200B;[Propriedades] O bloqueio é habilitado quando a divisão em blocos gráficos não é uniforme
 * &#x200B;O arquivo TXT de depuração é criado ao clicar duas vezes no projeto do Painter
-* [USD][Export] Algumas texturas podem estar ausentes
+* [USD]&#x200B;[Export] Algumas texturas podem estar ausentes
 * [ASM] O canal de dispersão de cores ignora metais
 * [Conteúdo] O filtro de desfoque não funciona no espaço de cores “trabalho”
 * [Conteúdo] O filtro Ajustar Height também modifica o alfa da camada
@@ -181,9 +181,9 @@ Resumo: <b>Versão principal, conteúdo novo: máscara de área de preenchimento
 <b>Problemas Conhecidos</b>:
 
 * [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Win][Crash] [ACE] Não usar espaço da cor sRGB ICE para transformação de exibição
-* [Regression][UI] O menu do botão direito do mouse é muito pequeno em telas HD
-* [Crash][Python] Exportação de USD acionada por TextureStateEvent
+* [Win]&#x200B;[Crash] [ACE] Não usar espaço da cor sRGB ICE para transformação de exibição
+* [Regression]&#x200B;[UI] O menu do botão direito do mouse é muito pequeno em telas HD
+* [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
 * [MacOS Intel] Falha ao importar algumas predefinições
 * [Falha] Realocar recurso e salvar projeto
 * [Engine] Pintar com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente

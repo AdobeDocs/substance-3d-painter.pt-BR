@@ -144,7 +144,7 @@ Também adicionamos algum conteúdo novo nesta versão:
   A direção pode ser definida com duas posições 3D, que podem ser escolhidas diretamente no mapa de posições.\
   Exemplo:
 
-1. 
+1. &#x200B;
    1. Crie o gerador de máscaras **3D linear gradient** em uma de suas camadas
    1. Alterne a exibição do visor para “**Posição**” (por meio do menu suspenso do visor ou usando a tecla “**B**”)
    1. Clique no parâmetro “**Início da Posição 3D**” para abrir o pop-up **Seletor de Cores**
@@ -253,7 +253,7 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 * [Drivers] Atualização dos requisitos mínimos de drivers
 * [3Dview] Normais não gerados corretamente em malhas UDIM sem informações normais
 * [Intel] Falha com o Substance Painter 2018.1.0
-* [Intel][Visor] Problema com preenchimento (artefatos pretos)
+* [Intel]&#x200B;[Visor] Problema com preenchimento (artefatos pretos)
 
 **Problemas Conhecidos:**
 

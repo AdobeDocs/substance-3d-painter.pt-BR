@@ -129,18 +129,18 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 
 **Adicionado:**
 
-* [Projeção][Distorcer] Expor distorção 3D como um novo modo de projeção
-* [Projeção][Distorcer] Permitir modo de decalque para Alpha, Texturas e Procedimentos com arrastar e soltar no visor
-* [Projeção][Distorcer] Usar projeção de distorção com atalho de decalque (ALT)
-* [Projeção][Distorcer][Barra de ferramentas] Transformar distorção como um todo ou por vértices
-* [Projeção][Distorcer][Barra de ferramentas] Adicionar pontos de grade com opções dividir distorção cruzada, horizontal ou verticalmente
-* [Projeção][Distorção][Barra de ferramentas] Menu dedicado para ações de redefinição
-* [Projeção][Distorção][Barra de ferramentas] Opção para ajustar automaticamente as tangentes ao mover os pontos
-* [Projection][Warp][Toolbar] Menu dedicado para edição de grade (tamanho, redefinição, cor e tamanho da alça)
-* [Projeção][Distorcer] Novo atalho de teclado para alternar o modo de edição de distorção de vértices inteiros (SHIFT+V)
-* [Projeção][Distorcer] Clicar + Ctrl permite alternar entre a ferramenta de superfície e outras ferramentas
-* [Projeção][Cilíndrica] Expor o modo de projeção cilíndrica
-* [Projeção][Barra de ferramentas] Configurações do manipulador de grupo (tamanho, etapas da grade, etapas do ângulo)
+* [Projeção]&#x200B;[Distorcer] Expor distorção 3D como um novo modo de projeção
+* [Projeção]&#x200B;[Distorcer] Permitir modo de decalque para Alpha, Texturas e Procedimentos com arrastar e soltar no visor
+* [Projeção]&#x200B;[Distorcer] Usar projeção de distorção com atalho de decalque (ALT)
+* [Projeção]&#x200B;[Distorcer]&#x200B;[Barra de ferramentas] Transformar distorção como um todo ou por vértices
+* [Projeção]&#x200B;[Distorcer]&#x200B;[Barra de ferramentas] Adicionar pontos de grade com opções dividir distorção cruzada, horizontal ou verticalmente
+* [Projeção]&#x200B;[Distorção]&#x200B;[Barra de ferramentas] Menu dedicado para ações de redefinição
+* [Projeção]&#x200B;[Distorção]&#x200B;[Barra de ferramentas] Opção para ajustar automaticamente as tangentes ao mover os pontos
+* [Projection]&#x200B;[Warp]&#x200B;[Toolbar] Menu dedicado para edição de grade (tamanho, redefinição, cor e tamanho da alça)
+* [Projeção]&#x200B;[Distorcer] Novo atalho de teclado para alternar o modo de edição de distorção de vértices inteiros (SHIFT+V)
+* [Projeção]&#x200B;[Distorcer] Clicar + Ctrl permite alternar entre a ferramenta de superfície e outras ferramentas
+* [Projeção]&#x200B;[Cilíndrica] Expor o modo de projeção cilíndrica
+* [Projeção]&#x200B;[Barra de ferramentas] Configurações do manipulador de grupo (tamanho, etapas da grade, etapas do ângulo)
 * [Seletor de cores] Nova interface do seletor de cores
 * [Seletor de cores] Usar valores sRGB nos widgets do seletor de cores
 * [Seletor de cores] Permite salvar e excluir amostras de cores
@@ -151,9 +151,9 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 * [Seletor de cores] Pressionar Esc fecha a janela do seletor de cores
 * Melhoria de desempenho para interação de interface e ao pintar
 * [Engine] Atualização para a nova versão do mecanismo de Substance (8.3.0)
-* [Scripting][Python] Permite recarregar a malha do projeto atual
-* [Scripting][Python] Permitir atualização de recursos em projetos
-* [Scripting][Python] Permite definir e consultar a resolução de blocos UV
+* [Scripting]&#x200B;[Python] Permite recarregar a malha do projeto atual
+* [Scripting]&#x200B;[Python] Permitir atualização de recursos em projetos
+* [Scripting]&#x200B;[Python] Permite definir e consultar a resolução de blocos UV
 * [Interoperabilidade] Não disponível para as edições Steam e Substance
 * [Interoperabilidade] Receber vários recursos do Bridge
 
@@ -168,9 +168,9 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 
 **Problemas Conhecidos:**
 
-* [Projeção][Distorcer] A opção Dividir permanece selecionada após a conclusão da divisão
-* [Projeção][Distorcer] O recurso Inverter não funciona quando a transformação está definida como espaço global
-* [Projeção][Distorção] Linhas de artefato entre correções em alguns casos raros
-* [Projeção][UV] O ponto dinâmico é redefinido ao inverter a projeção
+* [Projeção]&#x200B;[Distorcer] A opção Dividir permanece selecionada após a conclusão da divisão
+* [Projeção]&#x200B;[Distorcer] O recurso Inverter não funciona quando a transformação está definida como espaço global
+* [Projeção]&#x200B;[Distorção] Linhas de artefato entre correções em alguns casos raros
+* [Projeção]&#x200B;[UV] O ponto dinâmico é redefinido ao inverter a projeção
 * [Mac M1] Os materiais inteligentes não são exibidos corretamente
-* [M1][Regressão] Camadas de material não funcionando
+* [M1]&#x200B;[Regressão] Camadas de material não funcionando
