@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2017.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Data de lançamento: *28 de setembro de 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Um dos novos exportadores que incluímos nesta versão é o suporte ao Material padrão da Adobe a ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Material padrão da Adobe**” na janela de texturas de exportação. Para obter mais informações, consulte: [http://www.adobe.com/br/products/dimension.html](https://www.adobe.com/br/products/dimension.html)
+Um dos novos exportadores que incluímos nesta versão é o suporte ao Material padrão da Adobe a ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Material padrão da Adobe**” na janela de texturas de exportação. Para obter mais informações, consulte: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Você também pode conferir nossa postagem sobre isso no blog: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +55,7 @@ Se um backup for criado, mas o projeto não tiver sido salvo (também conhecido 
 
 ![](../../assets/gradient-rust.jpg)
 
-O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente **&#x200B;**, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**&#x200B;e criar **novas formas**.
+O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente ****, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**e criar **novas formas**.
 
 O controle deslizante principal (quantidade de cores) define o número de cores totais que são usadas para criar o gradiente. O botão logo abaixo define o modo de mesclagem de cores (sRGB ou Linear). Isso é importante se você quiser ter uma mistura adequada entre as cores. Por exemplo, mesclar um vermelho puro e um verde puro deve produzir um amarelo agradável no meio. Isso não acontecerá se o botão estiver desativado (ele exibirá um marrom escuro como alternativa). Ao remapear a height ou qualquer outro canal de tons de cinza, esse botão deve ser desativado para evitar a conversão da gama.
 
