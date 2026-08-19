@@ -266,15 +266,15 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 
 * A malha às vezes desaparece da viewport 3D (pressione F para redefinir a câmera)
 * [glTF] Atualize o carregador do Substance Painter Sketchfab com os novos tipos de licença do Sketchfab
-* [Import][glTF] Manipulação incorreta de modulação de textura de entrada conforme definido nos arquivos glTF
-* [Import][glTF] O plano horizontal é exibido incorretamente com a importação de glTF em alguns casos
-* [Export][USD] A opacidade não funciona no Arkit
-* [Export][USD] A exportação de USDz falha em alguns casos
-* [Export][USD] Exportar para USD sem salvar leva a falha
-* [Export][USD] Modo de divisão incorreto para texturas, modo de subdivisão para malhas e tipos de saída para sombreadores
-* [Export][USD] Exportações esparsas de apenas alguns conjuntos de textura com toda a geometria
+* [Import]&#x200B;[glTF] Manipulação incorreta de modulação de textura de entrada conforme definido nos arquivos glTF
+* [Import]&#x200B;[glTF] O plano horizontal é exibido incorretamente com a importação de glTF em alguns casos
+* [Export]&#x200B;[USD] A opacidade não funciona no Arkit
+* [Export]&#x200B;[USD] A exportação de USDz falha em alguns casos
+* [Export]&#x200B;[USD] Exportar para USD sem salvar leva a falha
+* [Export]&#x200B;[USD] Modo de divisão incorreto para texturas, modo de subdivisão para malhas e tipos de saída para sombreadores
+* [Export]&#x200B;[USD] Exportações esparsas de apenas alguns conjuntos de textura com toda a geometria
 * [Instância] Falha ao tentar excluir uma camada de instância quebrada
-* [Regressão][Exportar] Alguns mapas não são exportados na profundidade de bits escolhida
+* [Regressão]&#x200B;[Exportar] Alguns mapas não são exportados na profundidade de bits escolhida
 * [Linux] Problema com a biblioteca libtbb.so.2
 
 **Problemas Conhecidos:**
@@ -324,7 +324,7 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 **Adicionado:**
 
 * Resumo: hotfix
-* [Simetria][Janela de visualização] A pintura de simetria na exibição 2D está de volta e agora apresenta uma visualização de pincel de clone corrigida
+* [Simetria]&#x200B;[Janela de visualização] A pintura de simetria na exibição 2D está de volta e agora apresenta uma visualização de pincel de clone corrigida
 
 **Corrigido:**
 
@@ -347,25 +347,25 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 <b><b>Adicionado:</b></b>
 
 * Resumo: atualizações de viewport, exportação adequada de visualização em 2D, novos auxiliares de interface, uma ferramenta de simetria aprimorada, novo conteúdo e um enorme aumento no desempenho
-* [Suavização de borda][Janela de visualização] Nova filtragem de suavizações temporais para a janela de visualização 3D (através das Configurações de exibição)
+* [Suavização de borda]&#x200B;[Janela de visualização] Nova filtragem de suavizações temporais para a janela de visualização 3D (através das Configurações de exibição)
 * [Exportar] Exporta o conteúdo da viewport 2D como uma textura única
-* [Exportar][Pontilhamento] Expor pontilhamento na exportação
+* [Exportar]&#x200B;[Pontilhamento] Expor pontilhamento na exportação
 * [Pilha de camadas] Cores em camadas e pastas
 * [Pilha de camadas] Ativação e desativação rápidas de várias camadas e efeitos
 * [Pilha de camadas] Navegação mais fácil para modos de mesclagem com teclas para cima e rolagem do mouse
-* [Proj][UI] Manipulador de rotação adicional nos três eixos para triplanar
-* [Proj][Atalhos] - e + para alterar o tamanho do manipulador de Projeção UV
+* [Proj]&#x200B;[UI] Manipulador de rotação adicional nos três eixos para triplanar
+* [Proj]&#x200B;[Atalhos] - e + para alterar o tamanho do manipulador de Projeção UV
 * [Shader] Controle os parâmetros de camada com canais no sombreador revestido por PBR
 * [Substance] Expor novas entradas de textura com base em malha para filtros e geradores
-* [Simetria][Visor][IU] Controla o deslocamento de simetria com manipuladores
-* [Simetria][Barra de ferramentas contextual][IU] Novo painel de simetria com opções
+* [Simetria]&#x200B;[Visor]&#x200B;[IU] Controla o deslocamento de simetria com manipuladores
+* [Simetria]&#x200B;[Barra de ferramentas contextual]&#x200B;[IU] Novo painel de simetria com opções
 * [Simetria] Novo modo de interseção de linha de simetria
 * [Simetria] Novo cursor de clone de simetria
-* [Simetria][Atalhos] Q para ocultar e -, + para alterar o tamanho e shift para ajustar
+* [Simetria]&#x200B;[Atalhos] Q para ocultar e -, + para alterar o tamanho e shift para ajustar
 * [Log] Aprimorar mensagens de erro quando não for possível exportar texturas
 * [Script] Permitir a alteração ou atualização dos recursos em Configurações de exibição
 * [Script] Permitir a criação ou a remoção de canais em Conjuntos de Textura
-* [Content][Shaders] Adicionar suporte para anisotropia com um sombreador dedicado (pbr-metal-rough-anisotropia-angle)
+* [Content]&#x200B;[Shaders] Adicionar suporte para anisotropia com um sombreador dedicado (pbr-metal-rough-anisotropia-angle)
 * [Conteúdo] Atualização da esfera de visualização com anisotropia e ângulo modificado
 * [Content] shutline matFx atualizado
 * [Content] New Texturing.XYZ varredura de rosto sem emenda
@@ -374,16 +374,16 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 * [Content] Novo mapa ambiental: estúdio automotivo neutro
 * [Content] Novo modelo de projeto: PBR - ângulo de Anisotropia de aspereza metálica (com canais de anisotropia)
 * [Content] Novo modelo de projeto: PBR - aspereza metálica revestida
-* [SVT][Engine] Texturas virtuais esparsas (SVT)
-* [SVT][Preferências][IU] Opção de aceleração de suporte a hardware SVT
-* [SVT][Log] Informações adicionais para o recurso Texturização Virtual Esparsa (por exemplo, tamanho do disco)
-* [SVT][UI] Janela de mensagem na inicialização se o tamanho no disco for muito baixo para o cache
-* Localização do cache global de Substance Painter [SVT][Preferências][UI]
+* [SVT]&#x200B;[Engine] Texturas virtuais esparsas (SVT)
+* [SVT]&#x200B;[Preferências]&#x200B;[IU] Opção de aceleração de suporte a hardware SVT
+* [SVT]&#x200B;[Log] Informações adicionais para o recurso Texturização Virtual Esparsa (por exemplo, tamanho do disco)
+* [SVT]&#x200B;[UI] Janela de mensagem na inicialização se o tamanho no disco for muito baixo para o cache
+* Localização do cache global de Substance Painter [SVT]&#x200B;[Preferências]&#x200B;[UI]
 * [SVT] Nova variável de ambiente para especificar o caminho do cache de Substance Painter
 * [SVT] Nova variável de ambiente para ativar a aceleração de suporte de hardware SVT
 * [SVT] Detectar suporte esparso por hardware
-* [SVT][Dispersão de hardware] Aumentar a versão mínima do driver para a GPU Nvidia
-* [SVT][Shader][Viewport][UI] Avisa o usuário se artefatos presentes com Texturização virtual esparsa na abertura do projeto
+* [SVT]&#x200B;[Dispersão de hardware] Aumentar a versão mínima do driver para a GPU Nvidia
+* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Avisa o usuário se artefatos presentes com Texturização virtual esparsa na abertura do projeto
 
 <b><b>Corrigido:</b>\
 </b>
@@ -391,7 +391,7 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 * [Seletor de cores] Cursor de pintura que aparece ao tentar selecionar uma cor
 * A falha ao selecionar ou cancelar a seleção de camadas em uma ordem específica pode causar falha
 * Falha ao colar como uma ocorrência uma camada com uma máscara
-* [User Channel][Regression] Falha ao renomear canal de usuário
+* [User Channel]&#x200B;[Regression] Falha ao renomear canal de usuário
 * [User Channel] Visualização do pincel esmaecido
 * [Alembic] Somente uma textura definida de vários materiais após a importação
 * [Engine] A textura exportada é diferente da viewport para carimbos de pincel
@@ -401,7 +401,7 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 * Os links de mapas de malha não são atualizados corretamente ao reorganizar ou instanciar camadas
 * [Substance] O espaço de cor UserData não funciona no normal de malha cozida solicitado como entrada
 * Incompatibilidade de associação MDL ao usar várias instâncias de sombreadores
-* [Simetria][Camada de preenchimento] Plano de simetria e seu manipulador ativo na Camada de preenchimento
+* [Simetria]&#x200B;[Camada de preenchimento] Plano de simetria e seu manipulador ativo na Camada de preenchimento
 * [Visor] O ponto dinâmico para tradução nem sempre é atualizado após clicar
 * [UI] Ícones corrigidos e remoção de espaços reservados para monitores HDPI
 

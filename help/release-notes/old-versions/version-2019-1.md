@@ -280,7 +280,7 @@ Resumo: **Correção de erro com 2 novos recursos**
 * [TextureSet] Falha ao clicar entre máscaras
 * [SVT] O Deslocamento não é exibido corretamente e pisca em alguns casos
 * [Alembic] Falha com malha usando normais de ponto em vez de normais de vértice
-* [Alembic][Log] Relata um erro no Log se o arquivo Alembic não for suportado durante a importação
+* [Alembic]&#x200B;[Log] Relata um erro no Log se o arquivo Alembic não for suportado durante a importação
 
 ### 2019.1.2
 
@@ -303,9 +303,9 @@ Resumo: **HotFix**
 **Corrigido:**
 
 * [Substance] Visível Se não for levado em consideração para Imagens de entrada
-* [SVT][Mecanismo] Alterar a resolução do conjunto de texturas leva a uma falha em alguns casos
+* [SVT]&#x200B;[Mecanismo] Alterar a resolução do conjunto de texturas leva a uma falha em alguns casos
 * [Engine] Texturas pretas aleatórias aparecem em alguns casos
-* [Pilha de camadas][IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
+* [Pilha de camadas]&#x200B;[IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
 * [Pilha de camadas] A opacidade não tem efeito no efeito Pintura com o modo de mistura Passagem
 * [Pilha de camadas] A entrada do filtro Height para normal não é atualizada corretamente com o traçado do pincel de borracha
 * [LayersStack] Falha ao desfazer o soltar de uma máscara inteligente
@@ -334,38 +334,38 @@ Resumo: **Traço dinâmico com novo conteúdo dedicado, Deslocamento e mosaico e
 * [Traço dinâmico] Leve em consideração o parâmetro $time
 * [Traço dinâmico] Gera novo parâmetro $randomseed por traço e por carimbo
 * [Traçado dinâmico] Iniciar um índice de traçado dinâmico a partir de um número aleatório
-* [Dynamic stroke][Prateleira] Ajuda a encontrar um recurso de traçado dinâmico com novo ícone dedicado
+* [Dynamic stroke]&#x200B;[Prateleira] Ajuda a encontrar um recurso de traçado dinâmico com novo ícone dedicado
 * Deslocamento e mosaico em viewport em tempo real
 * Deslocamento e mosaico em Irlanda
-* [Configurações do sombreador][IU] Nova guia para controlar deslocamento e mosaico
+* [Configurações do sombreador]&#x200B;[IU] Nova guia para controlar deslocamento e mosaico
 * [Pilha de camadas] Novo efeito CompareMask: gerar uma máscara comparando dois canais
-* [Pilha de camadas][IU] Nova entrada no menu do botão direito do mouse “Adicionar máscara com combinação de height” para inserir um efeito CompareMask
+* [Pilha de camadas]&#x200B;[IU] Nova entrada no menu do botão direito do mouse “Adicionar máscara com combinação de height” para inserir um efeito CompareMask
 * [Simetria] Novo modo de simetria: pintura radial
 * [Configurações de simetria] Expande as duas seções “Configurações” e “Exibição”
-* [Configurações de simetria][IU] Visualização para pintura radial
+* [Configurações de simetria]&#x200B;[IU] Visualização para pintura radial
 * Exponha dois novos modos de projeção: planar e esférico
 * [Proj] Novo modo de corte de forma para todas as projeções
 * [Proj] Modo planar com novo manipulador: ferramenta Superfície
-* [Proj][Atalho] Atalho SHIFT+W para a ferramenta Superfície
+* [Proj]&#x200B;[Atalho] Atalho SHIFT+W para a ferramenta Superfície
 * [Proj] Máscara de projeção planar com seleção de profundidade e abate de backface
 * [Manipulador] Melhoria do manipulador de rotação nos três eixos para triplanar
-* [Tool][UX] Clicar com a tecla Alt pressionada em um canal focaliza esse canal (ativa ou desativa todos os outros)
+* [Tool]&#x200B;[UX] Clicar com a tecla Alt pressionada em um canal focaliza esse canal (ativa ou desativa todos os outros)
 * [Engine] Atualização para a versão mais recente do Substance Engine
 * [Conjunto de textura] Seleção múltipla e resolução de alteração
 * [Conjunto de textura] Ativação e desativação rápidas dos conjuntos de textura
 * [Conjunto de texturas] Combina solo e todas as opções em um novo menu
-* [Conjunto de texturas][Pilha de camadas] Novo ícone para ativação e desativação
-* [Pilha de camadas][UX] Inserir efeitos acima dos já selecionados
-* [Pilha de camadas][IU] Retrabalhar o estilo de seleção da exibição da pilha de camadas
+* [Conjunto de texturas]&#x200B;[Pilha de camadas] Novo ícone para ativação e desativação
+* [Pilha de camadas]&#x200B;[UX] Inserir efeitos acima dos já selecionados
+* [Pilha de camadas]&#x200B;[IU] Retrabalhar o estilo de seleção da exibição da pilha de camadas
 * [Pilha de camadas] O modo de mesclagem para camadas instanciadas agora está no modo de Passagem por padrão
 * [Exportar] Opção para ativar e desativar o pontilhamento
 * [Plug-in] Suporte ao modificador de precisão para controles deslizantes (SHIFT)
-* [Plug-in][IU] Novo ícone para salvamento automático
+* [Plug-in]&#x200B;[IU] Novo ícone para salvamento automático
 * [Scripts] Lista o conteúdo de uma pasta
 * [Script] Permitir exclusão de arquivos
 * [Scripts] Ler todas as informações da pilha, inclusive os recursos usados
-* [Conteúdo][Traçado dinâmico] Novas ferramentas e predefinições de pincel
-* [Conteúdo][Traço dinâmico] Dois novos gradientes de procedimento: Matiz de gradiente e Construtor de gradiente
+* [Conteúdo]&#x200B;[Traçado dinâmico] Novas ferramentas e predefinições de pincel
+* [Conteúdo]&#x200B;[Traço dinâmico] Dois novos gradientes de procedimento: Matiz de gradiente e Construtor de gradiente
 * [Content] 11 novos filtros: Pintura de descascamento MatFx, gotas de água MatFx e muito mais
 * [Content] 7 novos geradores: Auto Stitcher, Cor aleatória UV, Densidade de texel UV e muito mais
 * [Content] 93 novos alfas: novos textos, setas e várias outras formas
@@ -388,4 +388,4 @@ Resumo: **Traço dinâmico com novo conteúdo dedicado, Deslocamento e mosaico e
 **Problemas Conhecidos:**
 
 * Clicar duas vezes no nome do conjunto de texturas o selecionará antes de entrar no modo de renomeação
-* [Pilha de camadas][IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
+* [Pilha de camadas]&#x200B;[IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
