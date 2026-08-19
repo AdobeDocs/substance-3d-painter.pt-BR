@@ -271,9 +271,9 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Atualização automática] Manter a atualização automática desativada por padrão
 * [Atualização automática] Tornar a atualização opcional se os parâmetros de recurso não corresponderem (.sbsar, .glsl, .ai, .svg)
 * [Atualização automática] Adicionar variável de ambiente para desativar o recurso de atualização automática
-* [Atualização automática][SBSAR] Tornar a atualização opcional se os parâmetros de recurso não corresponderem
+* [Atualização automática]&#x200B;[SBSAR] Tornar a atualização opcional se os parâmetros de recurso não corresponderem
 * Caminho preenchido
-* [Caminho][Preenchimento] Adiciona nova ferramenta para criar caminhos preenchidos
+* [Caminho]&#x200B;[Preenchimento] Adiciona nova ferramenta para criar caminhos preenchidos
 * Melhorias de caminho
 * [Caminho] Criar um caminho que se ajusta aos polígonos
 * [Caminho] Permite alternar tipos de caminho
@@ -283,7 +283,7 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Caminho] Feche a forma com um único clique
 * [Caminho] Exibir informações de caminho
 * [Caminho] Permite dimensionar e girar vértices de caminho
-* [Path][UX] Facilitar o acesso aos gizmos de transformação
+* [Path]&#x200B;[UX] Facilitar o acesso aos gizmos de transformação
 * [Caminho] Adicionar visualização de caminho
 * [Caminho] Desativar a visualização do caminho com Shift + P
 * [Caminho] Melhorar a edição da tangente da vista lateral
@@ -291,7 +291,7 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Caminho] Os vértices devem manter o status da seleção ao ativar e desativar a interface novamente
 * [Caminho] Permite excluir o caminho usando Backspace
 * [Caminho] Mantém a lista de caminhos aberta se o usuário a expandir
-* [Caminho][Pilha de camadas] Renomear duplicatas corretamente ao copiar/colar
+* [Caminho]&#x200B;[Pilha de camadas] Renomear duplicatas corretamente ao copiar/colar
 * Melhorias na interface do usuário [Caminho] e nas dicas de ferramenta
 * Desempenho
 * [Desempenho] Aprimorar o desempenho do visor ao usar um alto nível de mosaico
@@ -305,11 +305,11 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Content] Adicione 3 novos geradores de textura (Tile Random, Triangle Grid, Scratches Generator)
 * [Conteúdo] Renomear modelo do Unreal Engine e exportar predefinições
 * Python
-* [Shelf][Python] Salvar material inteligente ou máscara inteligente em disco do Python
+* [Shelf]&#x200B;[Python] Salvar material inteligente ou máscara inteligente em disco do Python
 * [Python] Adicionar gaiola automática de cozimento à API do Python
 * [Python] Permitir a edição de nomes e descrições de Conjuntos de texturas/Blocos UV
 * [Python] Compartilhar configurações de resolução em fontes vetoriais e de fonte
-* [Atualização automática][Python] Expor as funcionalidades de atualização automática do projeto no Python
+* [Atualização automática]&#x200B;[Python] Expor as funcionalidades de atualização automática do projeto no Python
 * Diversos
 * [Exportar] Facilite o acesso às opções de Enviar para com um novo painel
 * [Nvidia] Adicionar aviso sobre os drivers Nvidia mais recentes (572.16)
@@ -321,7 +321,7 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 
 <b>Corrigido</b>:
 
-* [Nvidia][Preparação] Os resultados do padeiro de oclusão ambiente têm artefatos
+* [Nvidia]&#x200B;[Preparação] Os resultados do padeiro de oclusão ambiente têm artefatos
 * [Falha] Pressione a tecla Alt e clique para alternar a visibilidade de um conjunto de textura desativado leva a uma falha
 * [Cozimento] Gaiola é tida em conta com poli baixo como alto poli param
 * [Cozimento] A cor do material para o padeiro do mapa de ID não funciona com o formato de arquivo USD
@@ -338,8 +338,8 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 <b>Problemas Conhecidos</b>:
 
 * [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Regression][UI] O menu do botão direito do mouse é muito pequeno em telas HD
-* [Crash][Python] Exportação de USD acionada por TextureStateEvent
+* [Regression]&#x200B;[UI] O menu do botão direito do mouse é muito pequeno em telas HD
+* [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
 * [Engine] Pintar com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
 * [Python] O widget fantasma aparece excluído pelo script ainda em funcionamento
 * [RedHat] Problemas no seletor de cores

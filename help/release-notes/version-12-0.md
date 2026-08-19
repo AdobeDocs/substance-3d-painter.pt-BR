@@ -130,7 +130,7 @@ Resumo: <b>Esta é uma versão principal. Esta versão contém os recursos de ca
 * [Pós-efeitos] Substituir pós-efeitos pela adição de novos
 * [Pós-efeitos] Atualizar mapeador de tom
 * [Pós-efeitos] Adicionar novo uso para ativos de Pós-efeitos
-* [Conteúdo][Pós-efeitos] Integrar ativos de pós-efeitos padrão na biblioteca
+* [Conteúdo]&#x200B;[Pós-efeitos] Integrar ativos de pós-efeitos padrão na biblioteca
 * [Novo projeto] Aprimorar a interface do usuário para criação de projetos
 * [Novo projeto] Alterações na funcionalidade de malha de reimportação
 * [Novo projeto] Permitir que arquivos \*.geo.usd sejam abertos
@@ -148,5 +148,5 @@ Resumo: <b>Esta é uma versão principal. Esta versão contém os recursos de ca
 * [Import] As texturas EXR são forçadas para sRGB em vez de lineares ao importar arquivos USD
 * [Blocos UV] A sequência de imagens com uma única imagem também preenche outros blocos UV
 * [Preparação] O AO é diferente entre a CPU e a preparação de GPU
-* [Gerenciamento de cores][MacOS] Viewport BaseColor não corresponde ao selecionador de cores
+* [Gerenciamento de cores]&#x200B;[MacOS] Viewport BaseColor não corresponde ao selecionador de cores
 * [USD] Valores uniformes não são importados em alguns casos

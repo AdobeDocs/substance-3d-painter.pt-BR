@@ -247,21 +247,21 @@ Resumo: <b>Versão principal que apresenta suporte a SVG e transparência, bem c
 <b>Adicionado:</b>
 
 * [SVG] Permitir a importação de arquivos vetoriais (SVG)
-* [SVG][UI] Adicionar suporte para propriedades específicas de SVG
+* [SVG]&#x200B;[UI] Adicionar suporte para propriedades específicas de SVG
 * [SVG] Adicione uma opção para preservar facilmente as proporções da imagem original
 * [SVG] Permite usar automaticamente alfa de SVG com transparência
 * [Interop] Permitir o envio de uma malha texturizada para o After Effects (Ae 24.1 beta)
 * [Interoperabilidade] Adicionar configurações de Envio ao After Effects
-* [QoL][Assets][UI] Importar ativo automaticamente ao arrastar e soltar no slot da interface
+* [QoL]&#x200B;[Assets]&#x200B;[UI] Importar ativo automaticamente ao arrastar e soltar no slot da interface
 * [QoL] Permitir arrastar e soltar ativos externos na pilha de camadas
-* [QoL][Pilha de camadas] Arrastar e soltar texturas do painel Ativos na Pilha de camadas
-* [QoL][Janela de visualização] Permite arrastar e soltar o gerador, filtros na malha
-* [QoL][Visor] Permitir soltar ativos externos na malha
-* [QoL][Projeção] Adicionar novo conjunto UV ao modo de projeção do conjunto UV
+* [QoL]&#x200B;[Pilha de camadas] Arrastar e soltar texturas do painel Ativos na Pilha de camadas
+* [QoL]&#x200B;[Janela de visualização] Permite arrastar e soltar o gerador, filtros na malha
+* [QoL]&#x200B;[Visor] Permitir soltar ativos externos na malha
+* [QoL]&#x200B;[Projeção] Adicionar novo conjunto UV ao modo de projeção do conjunto UV
 * [QoL] Arrastar e soltar Máscaras inteligentes como novas camadas no visor e na Pilha de camadas
 * [QoL] Adicionar seletor para Geradores com várias saídas quando usado em máscara
 * [QoL] Permitir arrastar e soltar imagens de canal único sobre um efeito de preenchimento
-* [QoL][Pilha de camadas] Use modificadores CTRL/ALT com arrastar e soltar para especificar onde/como criar efeitos/camada
+* [QoL]&#x200B;[Pilha de camadas] Use modificadores CTRL/ALT com arrastar e soltar para especificar onde/como criar efeitos/camada
 * [Caminho] Alterna a visibilidade dos caminhos individualmente no painel Caminho
 * [Caminho] Permitir o uso de manipuladores de transformação para pontos de caminho
 * [Caminho] Permite controlar manualmente as tangentes por vértice
@@ -281,7 +281,7 @@ Resumo: <b>Versão principal que apresenta suporte a SVG e transparência, bem c
 * [Desempenho] Aplique compactação sem perdas em imagens de 16 bits para reduzir o espaço ocupado pelo projeto
 * [Python] Permitir manipular a câmera padrão na visualização 3D
 * [Python] Expor a capacidade de exportar malha por meio de scripts
-* [Conteúdo][Amostras] Adicionar novo projeto de amostra “Mesa de restaurante francês”
+* [Conteúdo]&#x200B;[Amostras] Adicionar novo projeto de amostra “Mesa de restaurante francês”
 * [Content] Atualize o logotipo do Substance para a nova versão
 * [Conteúdo] Adicione três filtros de material focados em SVG (adesivo personalizado, spray personalizado e gráfico para o material)
 
@@ -296,18 +296,18 @@ Resumo: <b>Versão principal que apresenta suporte a SVG e transparência, bem c
 * [UI] A seta da barra de ferramentas contextual não aparece em alguns casos
 * [Substance] Botão lado a lado para valores booleanos não suportado
 * [Level] Rótulo de canal incorreto quando usado na máscara
-* [Export][glTF] Os arquivos glTF/GLB exportados do Painter não têm uma unidade de tamanho físico
+* [Export]&#x200B;[glTF] Os arquivos glTF/GLB exportados do Painter não têm uma unidade de tamanho físico
 * [Conteúdo] A intensidade do filtro de desfoque é fixada em 16
 * [Conteúdo] A entrada da imagem de “cor de destino” do filtro Correspondência de Cores não está visível
 
 <b>Problemas conhecidos:</b>
 
 * [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Crash][Linux] com Linux Wayland no AMD ao arrastar e soltar recursos na pilha de camadas
-* [Crash][Mac] Alterar o valor da filtragem anisotrópica no sistema operacional Monterey
+* [Crash]&#x200B;[Linux] com Linux Wayland no AMD ao arrastar e soltar recursos na pilha de camadas
+* [Crash]&#x200B;[Mac] Alterar o valor da filtragem anisotrópica no sistema operacional Monterey
 * [Falha] Exr usado como entrada de imagem
 * [Falha] Usar o mapa de ambiente de 16K
 * [Desbobinar automaticamente] Problema de interface do usuário para controle de densidade de texel
-* [Regression][UI] O menu do clique com o botão direito é muito pequeno na tela hd
+* [Regression]&#x200B;[UI] O menu do clique com o botão direito é muito pequeno na tela hd
 * [Python] Falha ao exportar USD acionada por TextureStateEvent
 * [QoL] Arrastar e soltar o recurso Alpha no modo de decalque cria Projeção UV na máscara

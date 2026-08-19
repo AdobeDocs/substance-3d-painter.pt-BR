@@ -196,10 +196,10 @@ Agora as malhas são cortadas em Ilhas UV separadas usando um método se aproxim
 * [Gerenciamento de cores] Permitir a entrada de valores de cor linear no Seletor de cores com o modo Legado
 * [Gerenciamento de cores] Permite especificar o perfil de cores usado para escolher a cor fora da interface do usuário
 * [Gerenciamento de cores] Lembrar o último valor de exibição escolhido na viewport
-* [Gerenciamento de cores][Substance] Faça com que os geradores/filtros funcionem corretamente com o Gerenciamento de cores
-* [Gerenciamento de cores][Substance] Adicionar novas palavras-chave de substituição colorspace $working e $standardsrgb
-* [Tamanho físico][Mecanismo] Extrair informações de tamanho físico da malha
-* Cálculo do Tamanho físico [Tamanho físico][Mecanismo]
+* [Gerenciamento de cores]&#x200B;[Substance] Faça com que os geradores/filtros funcionem corretamente com o Gerenciamento de cores
+* [Gerenciamento de cores]&#x200B;[Substance] Adicionar novas palavras-chave de substituição colorspace $working e $standardsrgb
+* [Tamanho físico]&#x200B;[Mecanismo] Extrair informações de tamanho físico da malha
+* Cálculo do Tamanho físico [Tamanho físico]&#x200B;[Mecanismo]
 * [Tamanho físico] Expor as opções para usar o tamanho físico na interface do usuário
 * [Tamanho físico] Adicionar auxiliares visuais na viewport
 * [Preparação] Adicionar Height
@@ -235,13 +235,13 @@ Agora as malhas são cortadas em Ilhas UV separadas usando um método se aproxim
 
 * [glTF] Não é possível abrir glTF com caractere especial
 * [Engine] Artefatos com anisotropia e SVT desativados
-* [MacOS][M1] Os materiais inteligentes não são exibidos corretamente
+* [MacOS]&#x200B;[M1] Os materiais inteligentes não são exibidos corretamente
 * [Processamento de malha] Não é possível importar malhas do Modeler
 * [UI] Barra de rolagem horizontal na janela do novo projeto com o Gerenciamento de cores ativado
 * [Gerenciamento de cores] Valor do espaço de trabalho ausente no seletor de cores com algumas configurações OCIO
 * [Gerenciamento de cores] A visualização do pincel na janela de visualização não é gerenciada por cores
 * [SpaceMouse] A tabela dinâmica não é atualizada imediatamente com alteração de foco e às vezes fora do modelo
-* [Export][USD] Os arquivos USD exportados têm uma estrutura incorreta
+* [Export]&#x200B;[USD] Os arquivos USD exportados têm uma estrutura incorreta
 * [USD] Problema de Oclusão ambiente ao exportar
 * [Conteúdo] Atualizar a malha da miniatura para corresponder ao projeto de amostra da esfera de visualização
 

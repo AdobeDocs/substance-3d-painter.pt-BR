@@ -208,10 +208,10 @@ Resumo: **Versão principal com novo modo de preparo, nova importação e export
 * [USD] Importar malhas com pele em USD em um quadro específico
 
   Ao criar um novo projeto com um arquivo de malha USD que contém animação, é possível selecionar o quadro usando um controle deslizante que reflete a sequência de linha do tempo incorporada. O quadro pode ser modificador por meio da Configuração do projeto.
-* [USD][Exportar] Adicione uma opção para exportar arquivos USD
+* [USD]&#x200B;[Exportar] Adicione uma opção para exportar arquivos USD
 
   Nova caixa de seleção Exportar USD adicionada à janela Exportar texturas. Quando marcada, permite exportar arquivos USD, bem como mapas de textura usando qualquer modelo.
-* [USD][Exportar] Adicionar formato de arquivo USD à exportação de malha
+* [USD]&#x200B;[Exportar] Adicionar formato de arquivo USD à exportação de malha
 * [USD] Renomeie a predefinição de exportação “USD PBR Metal Roughness” existente para mais explícita
 
   O modelo de exportação para USD anteriormente conhecido como “USD PBR Metal Roughness” ainda é acessível por meio de Exportar texturas > Modelo de saída > USDz (Apple AR).
@@ -224,13 +224,13 @@ Resumo: **Versão principal com novo modo de preparo, nova importação e export
 * [Tamanho físico] Expor tamanho físico para Projeção UV
 
   O dimensionamento de tamanhos físicos agora está disponível para Projeção UV. Ele ativa o redimensionamento automático de um material com base no tamanho físico de uma malha. Pode ser selecionado por meio de Escala > Tamanho físico na janela Propriedades da camada de preenchimento ou do efeito.
-* [Scripting][Python] Permite consultar a versão do aplicativo
-* [Script][JavaScript] Atualizar API para corresponder aos novos parâmetros de criação
-* [Scripting][Python] Módulo de cozimento: editar parâmetros de cozimento
-* [Scripting][Python] Módulo de cozimento: iniciar/cancelar cozimento
-* [Scripting][Python] Módulo de preparo: selecionar o método de curvatura
-* [Scripting][Python] Módulo de cozedura: seleção de padeiros / azulejos uv
-* [Scripting][Python] Módulo de preparo: sincronizar as configurações do padeiro em todos os conjuntos de texturas
+* [Scripting]&#x200B;[Python] Permite consultar a versão do aplicativo
+* [Script]&#x200B;[JavaScript] Atualizar API para corresponder aos novos parâmetros de criação
+* [Scripting]&#x200B;[Python] Módulo de cozimento: editar parâmetros de cozimento
+* [Scripting]&#x200B;[Python] Módulo de cozimento: iniciar/cancelar cozimento
+* [Scripting]&#x200B;[Python] Módulo de preparo: selecionar o método de curvatura
+* [Scripting]&#x200B;[Python] Módulo de cozedura: seleção de padeiros / azulejos uv
+* [Scripting]&#x200B;[Python] Módulo de preparo: sincronizar as configurações do padeiro em todos os conjuntos de texturas
 * [SVT] Habilitar suporte a hardware esparso em GPUs AMD
 
   A aceleração de hardware para o sistema de texturas virtuais esparsas agora pode ser ativada com as GPUs da AMD. Essa configuração é ativada automaticamente nas preferências gerais.
@@ -249,10 +249,10 @@ Resumo: **Versão principal com novo modo de preparo, nova importação e export
 **Corrigido:**
 
 * [Falha] Alterar canais no filtro com pilha específica
-* [Mac][M1] Falha ao criar uma camada de preenchimento e sair da pilha de camadas
+* [Mac]&#x200B;[M1] Falha ao criar uma camada de preenchimento e sair da pilha de camadas
 
   Esse problema pode ser corrigido atualizando para o Mac OS 13 (Ventura).
-* [Scripting][Python] Falha ao usar ui.add\_dock\_widget() com tipo errado
+* [Scripting]&#x200B;[Python] Falha ao usar ui.add\_dock\_widget() com tipo errado
 * [Preparação] Mensagem de erro incompleta no log quando um bake falha
 * [Preparação] A memória não é liberada quando a cozedura é concluída
 * [Engine] O cache de textura não é atualizado ao alterar a visibilidade do efeito

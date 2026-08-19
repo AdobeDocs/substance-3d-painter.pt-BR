@@ -303,7 +303,7 @@ Resumo: **Versão principal com novos painéis de integração (novo painel de b
 * Falha ao usar exr 16k
 * [Falha] Ctrl Z Após excluir uma instância de sombreador
 * [Iray] IoR bloqueada em 1 para alguns sombreadores
-* [Win][Panificação] Algum alto poli falha ao carregar
+* [Win]&#x200B;[Panificação] Algum alto poli falha ao carregar
 * [Gerenciamento de cores] Nome do espaço de cores incorreto na interface do usuário com filtros
 * [Python] Os objetos de recurso retornados pela função de importação não têm um tipo
 
