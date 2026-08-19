@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Revise todas as alterações e atualizações nas versões do Substance 3D Painter para acompanhar a evolução e as melhorias de recursos ao longo do tempo.
 helpx_creative_field: ''
@@ -39,7 +39,7 @@ Resumo: **Versão secundária**
 
 * \[Falha\] Alguns Substance podem levar a uma falha quando renderizados
 * \[Falha\] Reimportar malha enquanto estiver no modo de cozimento
-* \&lbrack;Falha ao inicializar a exibição de gráficos pode levar a uma falha
+* \[Falha ao inicializar a exibição de gráficos pode levar a uma falha
 * \[Falha\] A exportação de texturas pode falhar em alguns casos ao atualizar o registro
 * \[Falha\] Falha no modo de cozimento em alguns casos ao carregar/atualizar o mapa do ambiente
 * \[Preparação\] Reiniciar o bake após modificar o arquivo poli alto pode levar a um congelamento
@@ -123,7 +123,7 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias pa
 * [Caixa automática] Carga infinita quando o caminho de arquivo poli alto é inválido
 * [Linux][Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
 * [Ferramenta Preenchimento de polígono] A ferramenta não funciona com fontes não PBR
-* &lbrack;[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
+* [[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
 * [USD] Nem todas as instâncias do sombreador foram detectadas corretamente
 * [Substance] Somente o primeiro uso de um nó de entrada/saída é levado em consideração
 * [Shader] A Oclusão ambiente é aplicada duas vezes com conjuntos de texturas usando diferentes métodos de mistura
