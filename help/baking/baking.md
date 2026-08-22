@@ -37,4 +37,4 @@ Para uma rápida visão geral do modo de cozimento, confira nosso tutorial em v�
 
 >[!NOTE]
 >
-> Para saber mais sobre cozimento em geral, confira a [Documentação de cozimento](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dedicada.
+> Para saber mais sobre cozimento em geral, confira a [Documentação de cozimento](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/home) dedicada.

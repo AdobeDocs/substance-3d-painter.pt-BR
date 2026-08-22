@@ -24,7 +24,7 @@ Abaixo há uma lista de Modelos de saída adicionais fornecidos por padrão.  O
 
 >[!NOTE]
 >
-> Alguns outros softwares não listados aqui também podem ter suporte (como o **Octano**). Para obter mais informações, consulte o [ecossistema e plug-ins](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
+> Alguns outros softwares não listados aqui também podem ter suporte (como o **Octano**). Para obter mais informações, consulte o [ecossistema e plug-ins](https://experienceleague.adobe.com/pt-br/docs/substance-3d/ecosystem/home).
 
 | *Predefinição* | *Descrição* |
 | --- | --- |

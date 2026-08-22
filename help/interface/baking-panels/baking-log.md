@@ -19,6 +19,6 @@ O **painel de Log de cozimento** mostra saída técnica relacionada à cozedura.
 
 >[!TIP]
 >
-> Informações sobre como corresponder ativos por nome estão disponíveis na [documentação de Padeiros](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name).
+> Informações sobre como corresponder ativos por nome estão disponíveis na [documentação de Padeiros](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)
