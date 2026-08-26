@@ -2,9 +2,9 @@
 title: Versão 12.1
 description: Notas de versão da versão 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,24 @@ Dê uma olhada em nosso tutorial mais recente no YouTube:
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Notas de versão
+
+### 12.1.3
+
+Data de lançamento: **2026/08/25**
+
+Resumo: **Versão secundária**
+
+**Adicionado:**
+
+* Atualize o mecanismo de Substance para a versão 9.4.6v
+
+**Corrigido:**
+
+* O seletor [Escala de cinza] permanece aberto após a alteração da ferramenta
+* [Inclinar cozimento] Inclinar as interrupções da correção ao pintar e desfazer
+* [A interação Janela de Projeção] foi bloqueada pela ferramenta de projeção
+* [Traço dinâmico] Parâmetros de traço dinâmico ausentes nas propriedades do pincel
+* Exportar para uma rede não funciona mais
 
 ### 12.1.2
 

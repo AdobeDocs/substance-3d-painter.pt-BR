@@ -11,9 +11,9 @@ title: Todas as alterações
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 9bb3d9d70fb00c8817a11c2938292aa337279b74
 workflow-type: tm+mt
-source-wordcount: '33932'
+source-wordcount: '33992'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,24 @@ Esta página contém notas de versão de todas as versões anteriores do Substan
 > Para exibir os problemas conhecidos que podem afetar o Painter, consulte a [página de documentação dedicada](known-issues.md).
 
 ## Versão 12
+
+### 12.1.3
+
+Data de lançamento: **2026/08/26**
+
+Resumo: **Versão secundária**
+
+**Adicionado:**
+
+* Atualize o mecanismo de Substance para a versão 9.4.6
+
+**Corrigido:**
+
+* O seletor [Escala de cinza] permanece aberto após a alteração da ferramenta
+* [Inclinar cozimento] Inclinar as interrupções da correção ao pintar e desfazer
+* [A interação Janela de Projeção] foi bloqueada pela ferramenta de projeção
+* [Traço dinâmico] Parâmetros de traço dinâmico ausentes nas propriedades do pincel
+* Exportar para uma rede não funciona mais
 
 ### 12.1.2
 

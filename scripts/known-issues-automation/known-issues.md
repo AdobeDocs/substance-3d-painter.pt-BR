@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemas conhecidos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99ba6e8d891dab9cebbf6035a6850bab331e7472
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 0%
 
 # Problemas conhecidos
 
-Esta página lista todos os problemas conhecidos ativos presentes na v12.1.0 do Substance 3D Painter:
-
-* `[Engine]` Erro ao usar materiais inteligentes se o Conjunto de texturas não tiver bloco 1001
-* `[Engine]` Pintura com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
-* A máscara de geometria `[Engine]` mostra artefatos em bordas UV com camadas instanciadas
-* `[Engine]` O preenchimento UV do modo “Vizinho do Espaço 3D” não funciona bem em triângulos finos
-* O resultado do ponto de ancoragem `[Engine]` não é renderizado entre uma máscara e um canal de cor
+Esta página lista todos os problemas conhecidos ativos presentes na v12.1.3 do Substance 3D Painter:
 
 * `[Baking]` AO incorreto em cubos simples
 * `[Baking]` Correspondência por interpretação de sufixo de nome incorreta
 * `[Baking]` emendas Uv não aparecem após a reimportação de mes
 * `[Baking]` artefatos tipo grade com algumas configurações
+* `[Baking]` A Oclusão do ambiente Ignorar a face de fundo pelo nome da malha não funciona
+* `[Baking]` `[AMD]` Dispositivo perdido ao assar com malhas pesadas de alta poli
 
 * `[Substance]` Vários erros ortográficos nos recursos
 * `[Substance]` Espaço em branco interrompe a condição de visibilidade
 * `[Substance]` Predefinições para alguns materiais levam muito tempo para carregar
 * `[Substance]` Não é possível importar o recurso com usos mistos
+
+* `[Engine]` Erro ao usar materiais inteligentes se o Conjunto de texturas não tiver bloco 1001
+* `[Engine]` Pintura com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
+* A máscara de geometria `[Engine]` mostra artefatos em bordas UV com camadas instanciadas
 
 * `[Color Management]` Associações incompatíveis com gerador não usadas na máscara
 * A saída do filtro `[Color Management]` não foi considerada corretamente
@@ -50,6 +50,9 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.0 do 
 
 * `[Scripting]` Erro de digitação `[Javascript]` “Desabilitado” ao especificar o parâmetro de pontilhamento em funções de exportação
 * `[Scripting]` `[Python]` Vários erros de digitação no módulo substance_painter.project
+
+* `[USD]` Atribuição usda incorreta em alguns casos
+* `[USD]` A geometria exportada em USD está deslizando ao longo das bordas UV
 
 * O projeto `[Single Channel View]` salvo na exibição de cor base parece mais escuro após a atualização da versão do Painter
 * O projeto `[Single Channel View]` salvo na exibição de cor base parece mais escuro após a atualização da versão do Painter
@@ -91,15 +94,10 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.0 do 
 * A seleção de geometria `[Mask]` ainda está ativa após alternar para o modo empilhado
 * `[Sonoma]` Ícones não aparecem nos menus
 * `[Path]` a mesclagem de Height de vários caminhos pode causar artefatos
-* `[USD]` Atribuição usda incorreta em alguns casos
 * `[Polygon Fill]` A alteração do espaço de cores da cor base não atualiza o seletor de cores
-* `[Paint Skew]` A ferramenta selecionada na inclinação de pintura permanece selecionada após alternar para o Modo de Pintura
-* O seletor `[Color Picker]` permanece aberto após a alteração da ferramenta
 * `[UV Padding]` artefatos ao aumentar a textura de 4k para 8k na exportação
-* `[Baking Common Settings]` As configurações de Distância da Gaiola não atualizam a visualização do wireframe e do sombreador da gaiola
-* `[Send to Photoshop]` Falha ao exportar a máscara da camada
-* `[Skew Baking]` A correção de inclinação é interrompida ao pintar e desfazer
-* A interação do visor `[Projection Tool]` foi bloqueada pela ferramenta de projeção
+* `[Performances]` Painter monopoliza o uso de VRAM
+* `[Generator]` A configuração “usar textura” como false não desabilita o uso da entrada de textura
 * Os recursos não quadrados são esticados quando usados nos slots do canal de pincel
 * Falha ao decodificar a substância
 * UVs não perfeitamente sobrepostos podem criar artefatos
@@ -118,7 +116,8 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.0 do 
 * As modificações dos parâmetros de pincel na barra de ferramentas contextual não aparecem no histórico
 * Não é possível renomear ou excluir predefinições de exportação se você já as excluiu e recriou nesta sessão
 * O mapeamento de canal não funciona para a visualização da ferramenta de projeção em alguns casos
-* Abrir e salvar alguns projetos pode demorar mais do que o normal
+* O visor congela ao salvar enquanto edita a projeção 3D
+* A resolução da camada de material é muito baixa
 
 ## Estabilidade
 
@@ -130,7 +129,3 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.0 do 
 * `[Crash]` Retornando ao modo de pintura após a perda do dispositivo na cozedura
 * `[Crash]` Sair do Painter após cancelar a exportação de mapas
 * `[Crash]` Exportando malha com alguns símbolos especiais no nome da câmera
-* `[Crash]` A exclusão de um canal no modo de exibição de máscara leva a uma falha
-* `[Crash]` Alguns Substance podem levar a uma falha quando renderizados
-* `[Crash]` Reimportar malha enquanto estiver no modo de cozimento
-* `[Crash]` Recarregar várias malhas pode levar a uma falha
