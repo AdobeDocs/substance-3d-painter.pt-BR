@@ -2,9 +2,9 @@
 title: Versão 12.1
 description: Notas de versão da versão 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,24 @@ Dê uma olhada em nosso tutorial mais recente no YouTube:
 
 ## Notas de versão
 
+### 12.1.3
+
+Data de lançamento: **2026/08/25**
+
+Resumo: **Versão secundária**
+
+**Adicionado:**
+
+* Atualize o mecanismo de Substance para a versão 9.4.6v
+
+**Corrigido:**
+
+* O seletor [Escala de cinza] permanece aberto após a alteração da ferramenta
+* [Inclinar cozimento] Inclinar as interrupções da correção ao pintar e desfazer
+* [A interação Janela de Projeção] foi bloqueada pela ferramenta de projeção
+* [Traço dinâmico] Parâmetros de traço dinâmico ausentes nas propriedades do pincel
+* Exportar para uma rede não funciona mais
+
 ### 12.1.2
 
 Data de lançamento: **08/2026/03**
@@ -160,7 +178,7 @@ Resumo: **Versão secundária**
 
 * \[Falha\] Alguns Substance podem levar a uma falha quando renderizados
 * \[Falha\] Reimportar malha enquanto estiver no modo de cozimento
-* \&lbrack;Falha ao inicializar a exibição de gráficos pode levar a uma falha
+* \[Falha ao inicializar a exibição de gráficos pode levar a uma falha
 * \[Falha\] A exportação de texturas pode falhar em alguns casos ao atualizar o registro
 * \[Falha\] Falha no modo de cozimento em alguns casos ao carregar/atualizar o mapa do ambiente
 * \[Preparação\] Reiniciar o bake após modificar o arquivo poli alto pode levar a um congelamento
@@ -218,7 +236,7 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias pa
 * [OpenPBR] Exportar materiais e texturas do OpenPBR via USD
 * [OpenPBR] Janela Atualizar Texturas de Exportação para mostrar a convenção de nomeação do OpenPBR
 * [OpenPBR] Adicionar documentação sobre alterações para suportar o OpenPBR
-* [OpenPBR]&#x200B;[Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
+* [OpenPBR][Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
 * Várias pequenas melhorias nas exportações em USD
 * [UI] Adicionar aviso no visor ao tentar pintar em outro conjunto de texturas
 * [Nivelar] Permite nivelar todas as camadas da instância nos Conjuntos de textura
@@ -237,14 +255,14 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias pa
 
 <b>Corrigido</b>:
 
-* [Falha]&#x200B;[Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
+* [Falha][Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
 * [Crash] Ao assar a curvatura do mapa sem espaço mundial normal
-* [Falha]&#x200B;[Preparação] Cozimento com caixa personalizada ativada, mas nenhum arquivo selecionado falha
+* [Falha][Preparação] Cozimento com caixa personalizada ativada, mas nenhum arquivo selecionado falha
 * [Falha] Cancelando cozimento de AO
 * [Caixa automática] Carga infinita quando o caminho de arquivo poli alto é inválido
-* [Linux]&#x200B;[Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
+* [Linux][Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
 * [Ferramenta Preenchimento de polígono] A ferramenta não funciona com fontes não PBR
-* &lbrack;[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
+* [[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
 * [USD] Nem todas as instâncias do sombreador foram detectadas corretamente
 * [Substance] Somente o primeiro uso de um nó de entrada/saída é levado em consideração
 * [Shader] A Oclusão ambiente é aplicada duas vezes com conjuntos de texturas usando diferentes métodos de mistura
