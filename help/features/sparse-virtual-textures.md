@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/sparse-virtual-textures.html"
 breadcrumb-title: ''
 description: Aprenda a usar texturas virtuais dispersas no Substance 3D Painter para trabalhar com texturas de alta resolução de forma eficiente.
 helpx_creative_field: ""
@@ -60,7 +60,7 @@ Para obter mais conhecimento técnico, consulte: [Texturas Virtuais Esparsas](ht
 ![](../assets/settings-temp.png)
 
 Quando não houver memória do sistema (Ram) suficiente disponível para armazenar o cache SVT, o Substance 3D Painter mudará para o disco rígido do computador em vez de armazenar o cache.\
-O local desse cache é, por padrão, a pasta Operating System Temporary Files (Arquivos temporários do sistema operacional). Este local pode ser alterado acessando as configurações principais do aplicativo, consulte as [Preferências gerais](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html).
+O local desse cache é, por padrão, a pasta Operating System Temporary Files (Arquivos temporários do sistema operacional). Este local pode ser alterado acessando as configurações principais do aplicativo, consulte as [Preferências gerais](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/general-71008262.html).
 
 ## Compatibilidade de sombreador
 
@@ -69,7 +69,7 @@ Para tirar o máximo proveito do SVT, os Sombreadores têm que solicitar e ler t
 Para atualizar os Sombreadores:
 
 * Para o **sombreador padrão do Substance 3D Painter**: siga o procedimento passo a passo na página [Atualizando um sombreador](../interface/shader-settings/updating-a-shader.md).
-* Para **sombreador personalizado** : dê uma olhada na(s) mensagem(ns) de erro no log, bem como na página [API de sombreamento](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Para **sombreador personalizado** : dê uma olhada na(s) mensagem(ns) de erro no log, bem como na página [API de sombreamento](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

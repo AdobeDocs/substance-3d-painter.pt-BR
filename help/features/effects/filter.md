@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/filter.html"
 breadcrumb-title: ''
 description: Saiba como usar efeitos de filtro no Substance 3D Painter para aplicar filtros de processamento de imagem e ajustes de textura.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.html"
 breadcrumb-title: ''
 description: Saiba como corrigir artefatos e falhas de renderização no macOS com GPUs personalizadas no Substance 3D Painter para um desempenho estável.
 helpx_creative_field: ""
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 Em caso de falhas, falhas ou até mesmo artefatos aparecem no sistema operacional do Mac ao executar uma GPU personalizada com drivers personalizados, uma solução alternativa pode ser excluir os arquivos **listados corretamente** relacionados ao aplicativo.
 
-Para saber qual arquivo remover, consulte: [Preferências e local dos dados de aplicativo](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Para saber qual arquivo remover, consulte: [Preferências e local dos dados de aplicativo](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

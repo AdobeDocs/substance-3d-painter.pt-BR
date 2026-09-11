@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/advanced-search-queries.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/assets/advanced-search-queries.html"
 breadcrumb-title: ''
 description: Saiba como criar consultas de pesquisa avançada no Substance 3D Painter para encontrar ativos específicos usando critérios de pesquisa complexos.
 helpx_creative_field: ""

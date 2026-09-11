@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/subsurface-scattering.html"
 breadcrumb-title: ''
 description: Saiba como usar a dispersão superficial no Substance 3D Painter para criar materiais translúcidos realistas, como pele e cera.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/layer-instancing.html"
 breadcrumb-title: ''
 description: Saiba como usar instâncias de camada no Substance 3D Painter para reutilizar camadas em vários conjuntos de texturas de maneira eficiente.
 helpx_creative_field: ""

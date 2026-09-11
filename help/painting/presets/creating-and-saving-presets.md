@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
 description: Saiba como criar e salvar predefinições de pincel no Substance 3D Painter para criar uma biblioteca reutilizável de ferramentas de pintura personalizadas.
 helpx_creative_field: ""

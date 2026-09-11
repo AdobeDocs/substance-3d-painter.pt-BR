@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: Saiba como usar o desencapsulamento automático de UV no Substance 3D Painter para gerar layouts UV para seus modelos 3D automaticamente.
 helpx_creative_field: ""

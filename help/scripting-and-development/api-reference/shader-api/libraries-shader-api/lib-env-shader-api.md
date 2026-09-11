@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento de ambiente da biblioteca para que o Substance 3D Painter funcione com mapas de ambiente e iluminação em sombreadores personalizados.
 helpx_creative_field: ""

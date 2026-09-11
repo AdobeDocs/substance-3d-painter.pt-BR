@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
 breadcrumb-title: ''
 description: Saiba como tinta mapas normais diretamente no Substance 3D Painter para adicionar detalhes da superfície e profundidade às suas texturas.
 helpx_creative_field: ""

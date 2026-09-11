@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
 breadcrumb-title: ''
 description: Saiba como usar entradas baseadas em malha em efeitos personalizados para que o Substance 3D Painter crie efeitos de textura sensíveis à geometria.
 helpx_creative_field: ""

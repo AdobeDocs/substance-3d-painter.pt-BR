@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/managing-layers.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/managing-layers.html"
 breadcrumb-title: ''
 description: Saiba como gerenciar camadas no Substance 3D Painter para organizar, reordenar e controlar o fluxo de trabalho de pintura de textura.
 helpx_creative_field: ""

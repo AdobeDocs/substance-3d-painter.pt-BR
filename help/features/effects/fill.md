@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
 description: Saiba como usar o efeito Preenchimento no Substance 3D Painter para preencher camadas com cores sólidas, texturas ou materiais.
 helpx_creative_field: ""

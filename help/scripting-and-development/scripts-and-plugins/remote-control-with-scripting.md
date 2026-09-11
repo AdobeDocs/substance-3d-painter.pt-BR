@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/remote-control-with-scripting.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/scripts-and-plugins/remote-control-with-scripting.html"
 breadcrumb-title: ''
 description: Saiba como usar scripts de controle remoto no Substance 3D Painter para automatizar fluxos de trabalho e controlar o aplicativo programaticamente.
 helpx_creative_field: ""

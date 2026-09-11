@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência Lib POM API de sombreamento para o Substance 3D Painter para criar efeitos de mapeamento de oclusão de paralaxe em sombreadores personalizados.
 helpx_creative_field: ""

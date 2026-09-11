@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Saiba como ativar e gerenciar licenças do Substance 3D Painter para começar a usar o aplicativo para pintura de textura.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ O processo de ativação depende de onde você adquiriu ou tem acesso ao Painter
 
 | Tipo de Aplicativo | Processo de ativação |
 | --- | --- |
-| Creative Cloud para desktop | Consulte a página dedicada na [documentação do HelpX](https://helpx.adobe.com/download-install/using/download-creative-cloud-apps.html). Caso haja problemas, a [documentação do Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) poderá fornecer respostas adicionais. |
+| Creative Cloud para desktop | Consulte a página dedicada na [documentação do HelpX](https://helpx.adobe.com/br/download-install/using/download-creative-cloud-apps.html). Caso haja problemas, a [documentação do Creative Cloud](https://helpx.adobe.com/br/creative-cloud/user-guide.html) poderá fornecer respostas adicionais. |
 | Vapor | Inicie o produto diretamente da biblioteca do Steam. |
 | Substance 3D autônomo | Consulte o processo de ativação descrito abaixo. |
 
@@ -44,7 +44,7 @@ Se você tiver um arquivo de licença perpétuo baixado do site da Substance 3D 
 
 O Assistente de ativação tem 3 opções:
 
-* <b>Avalie este produto</b>: as versões de avaliação herdadas não estão mais disponíveis. Em vez disso, [você pode iniciar uma avaliação de 30 dias para cada aplicativo da Substance 3D aqui](https://www.adobe.com/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af) ou com o Creative Cloud Desktop.
+* <b>Avalie este produto</b>: as versões de avaliação herdadas não estão mais disponíveis. Em vez disso, [você pode iniciar uma avaliação de 30 dias para cada aplicativo da Substance 3D aqui](https://www.adobe.com/br/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af) ou com o Creative Cloud Desktop.
 * <b>Ativar usando um arquivo de licença</b>: ative o produto com um arquivo de licença (<b>\*.key</b>) baixado da página da sua conta no site da Substance 3D antes de 30 de setembro de 2022.
 * <b>Ative usando sua conta</b>: contas do substance herdadas não podem mais ser usadas para ativação.
 

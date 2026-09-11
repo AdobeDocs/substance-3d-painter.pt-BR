@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/geometry-mask.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/geometry-mask.html"
 breadcrumb-title: ''
 description: Saiba como usar máscaras de geometria no Substance 3D Painter para mascarar camadas com base na geometria da malha e nas propriedades de superfície.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
 description: Saiba como usar o efeito de pós-processamento de vinheta no Substance 3D Painter para adicionar escurecimento ao redor das bordas da viewport.
 helpx_creative_field: ""

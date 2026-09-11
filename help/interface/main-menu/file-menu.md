@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
 description: Saiba como usar o menu Arquivo no Substance 3D Painter para gerenciar projetos, importar ativos e exportar texturas.
 helpx_creative_field: ""

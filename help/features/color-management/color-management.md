@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/color-management.html"
 breadcrumb-title: ''
 description: Saiba como configurar o gerenciamento de cores no Substance 3D Painter para garantir uma precisão de cores consistente em todo o fluxo de trabalho.
 helpx_creative_field: ""

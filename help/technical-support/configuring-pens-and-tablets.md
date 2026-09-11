@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
 breadcrumb-title: ''
 description: Saiba como configurar canetas e tablets no Substance 3D Painter para obter a sensibilidade à pressão e a experiência de desenho ideais.
 helpx_creative_field: ""

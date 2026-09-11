@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
 description: Saiba como usar o efeito Níveis no Substance 3D Painter para ajustar o brilho, o contraste e a gama tonal das texturas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/export-presets.html"
 breadcrumb-title: ''
 description: Saiba como usar modelos de saída no Substance 3D Painter para configurar formatos de exportação de textura e mapeamentos de canal.
 helpx_creative_field: ""

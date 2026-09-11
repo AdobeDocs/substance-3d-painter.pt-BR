@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/settings/shortcuts.html'
+helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Saiba como personalizar os atalhos de teclado no Substance 3D Painter para simplificar seu fluxo de trabalho e melhorar a eficiência.
 helpx_creative_field: ''
@@ -26,7 +26,7 @@ Esta página lista todos os atalhos de teclado e mouse disponíveis.
 
 ## Visão geral de atalhos
 
-Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/br/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Como alterar um atalho
 

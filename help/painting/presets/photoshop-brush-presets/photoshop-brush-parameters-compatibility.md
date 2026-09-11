@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
 breadcrumb-title: ''
 description: Saiba mais sobre a compatibilidade de parâmetros de pincel do Photoshop no Substance 3D Painter ao importar predefinições de pincel ABR.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Ao olhar dentro do arquivo ABR, o Substance 3D Painter recuperará apenas predef
 
 ## Parâmetros
 
-Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html).
+Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/br/photoshop/using/creating-modifying-brushes.html).
 
 Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legenda para saber o status de cada parâmetro descrito abaixo:
 

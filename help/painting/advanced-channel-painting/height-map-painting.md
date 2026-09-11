@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
 breadcrumb-title: ''
 description: Saiba como tinta mapas de altura diretamente no Substance 3D Painter para criar efeitos de elevação de deslocamento e superfície.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/projection.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
 description: Use a ferramenta Projeção no Substance 3D Painter para projetar imagens 2D em superfícies 3D para fluxos de trabalho de pintura de textura.
 helpx_creative_field: ""

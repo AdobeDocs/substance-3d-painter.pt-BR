@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
 description: Saiba como definir as configurações de visualização de fça bake no Substance 3D Painter para visualizar e depurar os resultados da faz bake do mapa de malha.
 helpx_creative_field: ""

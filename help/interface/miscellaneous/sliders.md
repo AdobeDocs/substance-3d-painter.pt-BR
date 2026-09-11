@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/sliders.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/miscellaneous/sliders.html"
 breadcrumb-title: ''
 description: Saiba como usar controles deslizantes no Substance 3D Painter para ajustar valores numéricos e parâmetros com controle de precisão.
 helpx_creative_field: ""

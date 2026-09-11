@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
 description: Saiba como usar a ferramenta caminho preenchido no Substance 3D Painter para criar formas e caminhos preenchidos para pintura de textura.
 helpx_creative_field: ""

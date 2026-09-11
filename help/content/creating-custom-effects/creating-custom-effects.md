@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/creating-custom-effects.html"
 breadcrumb-title: ''
 description: Saiba como criar efeitos personalizados para que o Substance 3D Painter amplie a funcionalidade com filtros, geradores e materiais personalizados.
 helpx_creative_field: ""
@@ -24,13 +24,13 @@ Os efeitos de Substance devem ser compilados de uma maneira específica no **Sub
 
 >[!NOTE]
 >
-> Efeitos personalizados podem ser importados em um projeto da prateleira padrão. Consulte: [Importando ativos](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+> Efeitos personalizados podem ser importados em um projeto da prateleira padrão. Consulte: [Importando ativos](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 Consulte as páginas a seguir para criar efeitos personalizados nos detalhes:
 
 * [Filtro genérico](generic-filter.md)
 * [Filtro específico do canal](channel-specific-filter.md)
 * [Geradores](generators.md)
-* [Mapa de malha](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
+* [Mapa de malha](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
 * [Entrada baseada em malha](mesh-based-input.md)
 * [Dados do usuário](user-data.md)

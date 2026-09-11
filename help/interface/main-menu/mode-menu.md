@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/mode-menu.html'
+helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/mode-menu.html'
 breadcrumb-title: ''
 description: Saiba como usar o menu Modo no Substance 3D Painter para alternar entre diferentes modos de aplicativo e fluxos de trabalho.
 helpx_creative_field: ''

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/universal-scene-description-usd.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/universal-scene-description-usd.html"
 breadcrumb-title: ''
 description: Saiba mais sobre como trabalhar com arquivos Universal Scene Description (USD) no Substance 3D Painter para uma integração moderna de pipeline.
 helpx_creative_field: ""
