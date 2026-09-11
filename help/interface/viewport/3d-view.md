@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/viewport/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/3d-view.html"
 breadcrumb-title: ''
 description: Saiba como usar a visualização 3D no Substance 3D Painter para visualizar e interagir com seus modelos 3D durante a pintura de textura.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ![](../../assets/3d-view.jpg){width="370px"}
 
-A Visualização 3D mostra o modelo 3D em condições de iluminação, o que ajuda a ver como o material da superfície é definido. É também aqui que é possível pintar diretamente sobre o modelo 3D.
+A Visualização 3D mostra o modelo 3D em condições de iluminação, o que ajuda a ver como o material da superfície é definido. Também é possível tinta diretamente sobre o modelo 3D.
 
 ## Perfil
 

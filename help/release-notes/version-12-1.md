@@ -60,7 +60,7 @@ O fluxo de trabalho de cozimento foi reformulado para oferecer suporte a recozim
 
 >[!NOTE]
 >
-> Para obter mais informações sobre panificação, consulte a [página de documentação dedicada](../baking/baking.md).
+> Para obter mais informações sobre como fazer bake, consulte a [página de documentação dedicada](../baking/baking.md).
 
 ### Suporte a OpenPBR
 
@@ -82,13 +82,13 @@ O modelo de sombreamento de OpenPBR agora é suportado no Painter e é usado com
 
 * <b>convenção de nomenclatura de OpenPBR na exportação</b>
 
-  A janela <b>Exportar Texturas</b> tem um novo menu suspenso para escolher a convenção de nomenclatura. O padrão é OpenPBR quando pelo menos um sombreador no projeto o usa e o esquema selecionado é refletido na lista de mapas de cada Conjunto de texturas.
+  A janela <b>Exportar Textura</b> possui um novo menu suspenso para escolher a convenção de nomenclatura. O padrão é OpenPBR quando pelo menos um sombreador no projeto o utiliza e o esquema selecionado é refletido na lista de mapas de cada Conjunto de texturas.
 
   ![](../assets/v12/v12_openpbr_export.png)
 
 * <b>Suporte a USD e MDL</b>
 
-  Os materiais de OpenPBR são compatíveis com o formato USD. Uma nova MDL também foi adicionada para permitir a renderização de materiais de OpenPBR em Iray, fornecendo representações de materiais mais precisas.
+  Os materiais de OpenPBR são suportados por meio do formato USD. Uma nova MDL também foi adicionada para permitir a renderização de materiais de OpenPBR em Iray, fornecendo representações de materiais mais precisas.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Recursos e aprimoramentos adicionais foram adicionados nesta versão:
 
 * <b>Histórico de desfazer unificado</b>
 
-  Os modos de cozimento e pintura agora compartilham o mesmo histórico de desfazer. Alternar entre os modos Pintura e Pintura é gravado como uma etapa despossível, portanto, as ações podem ser desfeitas somente no modo em que ocorreram.
+  Os modos de fazer bake e pintar agora compartilham o mesmo histórico de desfazer. Alternar entre o modo de Fça bake e o modo de Tinta é gravado como uma etapa que pode ser desfeita, portanto, as ações podem ser desfeitas somente no modo em que ocorreram.
 
 ## Tutorials
 
@@ -163,7 +163,7 @@ Resumo: **Versão secundária**
 **Corrigido:**
 
 * O seletor [Escala de cinza] permanece aberto após a alteração da ferramenta
-* [Inclinar cozimento] Inclinar as interrupções da correção ao pintar e desfazer
+* [Inclinar Fazendo bake] Inclinar as interrupções da correção ao pintar e desfazer
 * [A interação Janela de Projeção] foi bloqueada pela ferramenta de projeção
 * [Traço dinâmico] Parâmetros de traço dinâmico ausentes nas propriedades do pincel
 * Exportar para uma rede não funciona mais
@@ -177,11 +177,11 @@ Resumo: **Versão secundária**
 **Corrigido:**
 
 * \[Falha\] Alguns Substance podem levar a uma falha quando renderizados
-* \[Falha\] Reimportar malha enquanto estiver no modo de cozimento
-* \&lbrack;Falha ao inicializar a exibição de gráficos pode levar a uma falha
+* \[Falha\] Reimportar malha enquanto estiver no modo de fça bake
+* \[Falha ao inicializar a exibição de gráficos pode levar a uma falha
 * \[Falha\] A exportação de texturas pode falhar em alguns casos ao atualizar o registro
-* \[Falha\] Falha no modo de cozimento em alguns casos ao carregar/atualizar o mapa do ambiente
-* \[Preparação\] Reiniciar o bake após modificar o arquivo poli alto pode levar a um congelamento
+* \[Falha\] Falha no modo de fça bake em alguns casos ao carregar/atualizar o mapa de ambiente
+* \[Fazer bake\] Reiniciar o faço bake após modificar um arquivo poly alto pode levar a um congelamento
 * \[Enviar para o Photoshop\] Falha ao exportar a máscara da camada
 * O resultado do ponto de ancoragem do \[Mecanismo\] não é renderizado entre uma máscara e um canal de cor
 
@@ -193,8 +193,8 @@ Resumo: versão secundária
 
 Adicionado:
 
-* [Cozimento de inclinação] Expor o modo normal da base de inclinação: malha ou por triângulo
-* [Propriedades] Faça com que as cores uniformes sejam sempre redefinidas para o valor padrão do canal
+* [Fça bake de inclinação] Expor o modo normal da base de inclinação: malha ou por triângulo
+* [Propriedades] Faça com que o cor uniforme sempre redefina o valor padrão do canal
 * [OpenPBR] Reagrupe canais por categorias na janela Exportar Texturas para criação de modelos de saída
 * Atualize o mecanismo de Substance para a versão 9.4.5
 
@@ -204,8 +204,8 @@ Corrigido:
 * [Falha] Recarregar várias malhas pode levar a uma falha
 * [Falha] ao excluir um canal durante o modo de exibição de máscara, o que leva a uma falha
 * [Falha] Alguns Substance podem levar a uma falha quando renderizados
-* [Inclinação de pintura] A ferramenta selecionada na inclinação de pintura permanece selecionada após alternar para o Modo de Pintura
-* [Preparando Configurações Comuns] As configurações de Distância da Gaiola não atualizam a visualização do wireframe e do sombreador da gaiola
+* [Inclinação da Tinta] A ferramenta selecionada na inclinação da tinta permanece selecionada após alternar para o Modo de Pintura
+* [Fazendo bake Configurações Comuns] As configurações de Distância da Gaiola não atualizam a visualização de wireframe e sombreador da gaiola
 * [O ] preenchimento UV do modo “Vizinho do Espaço 3D” não funciona bem em triângulos finos
 * O resultado do ponto de ancoragem do [Mecanismo] não é renderizado entre uma máscara e um canal de cor
 
@@ -213,7 +213,7 @@ Corrigido:
 
 Data de lançamento: <b>2026/06/23</b>
 
-Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias para PANELAS com Novo estado de interface de usuário padrão de cozimento, mapa de inclinação da pintura, retoque automático, nova opção de desencapsulamento automático UV para malhas de superfície dura e OpenPBR. Para obter mais detalhes, consulte as notas de versão completas.</b>
+Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias de baker com Novo estado de interface do usuário padrão de fça bake, mapa de inclinação da pintura, retoque automático, nova opção de desencapsulamento automático UV para malhas de superfície dura e OpenPBR. Para obter mais detalhes, consulte as notas de versão completas.</b>
 
 <b>Adicionado</b>:
 
@@ -236,7 +236,7 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias pa
 * [OpenPBR] Exportar materiais e texturas do OpenPBR via USD
 * [OpenPBR] Janela Atualizar Texturas de Exportação para mostrar a convenção de nomeação do OpenPBR
 * [OpenPBR] Adicionar documentação sobre alterações para suportar o OpenPBR
-* [OpenPBR]&#x200B;[Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
+* [OpenPBR][Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
 * Várias pequenas melhorias nas exportações em USD
 * [UI] Adicionar aviso no visor ao tentar pintar em outro conjunto de texturas
 * [Nivelar] Permite nivelar todas as camadas da instância nos Conjuntos de textura
@@ -255,20 +255,20 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias pa
 
 <b>Corrigido</b>:
 
-* [Falha]&#x200B;[Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
+* [Falha][Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
 * [Crash] Ao assar a curvatura do mapa sem espaço mundial normal
-* [Falha]&#x200B;[Preparação] Cozimento com caixa personalizada ativada, mas nenhum arquivo selecionado falha
+* [Falha][Preparação] Cozimento com caixa personalizada ativada, mas nenhum arquivo selecionado falha
 * [Falha] Cancelando cozimento de AO
 * [Caixa automática] Carga infinita quando o caminho de arquivo poli alto é inválido
-* [Linux]&#x200B;[Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
+* [Linux][Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
 * [Ferramenta Preenchimento de polígono] A ferramenta não funciona com fontes não PBR
-* &lbrack;[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
+* [[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
 * [USD] Nem todas as instâncias do sombreador foram detectadas corretamente
 * [Substance] Somente o primeiro uso de um nó de entrada/saída é levado em consideração
 * [Shader] A Oclusão ambiente é aplicada duas vezes com conjuntos de texturas usando diferentes métodos de mistura
 * [Engine] Texturas normais com canal azul vazio (preto) podem levar a resultados incorretos de mesclagem
-* [Importação de GLTF] a mesclagem de Alpha está ativada em todos os conjuntos de texturas
-* [Exportação GLTF] A mesclagem de Alpha é sempre ativada na exportação
+* [Importação de GLTF] A mesclagem de alfa é ativada em todos os conjuntos de texturas
+* [Exportação GLTF] A mesclagem de alfa sempre é habilitada na exportação
 * [Exportar] A geometria de dupla face é sempre desativada ao importar um arquivo GLTF
 * [Javascript] A modificação das configurações de sombreadores não contribui para o histórico de desfazer
 * [Amostras] A dispersão da subsuperfície não está ativada nas configurações de exibição do fosco de reunião

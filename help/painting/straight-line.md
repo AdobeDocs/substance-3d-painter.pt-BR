@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/straight-line.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/straight-line.html"
 breadcrumb-title: ''
-description: Use a ferramenta de linha reta no Substance 3D Painter para criar traçados de tinta reta precisos para pintura de textura.
+description: Use a ferramenta de linha reta no Substance 3D Painter para criar traçados de tinta retos precisos para pintura de textura.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Straight line
 helpx_experience_level: ""
@@ -30,7 +30,7 @@ A posição de linha reta é calculada a partir da viewport, o que significa que
 
 ## Ativando Linha Reta
 
-Basta pressionar “Shift” no teclado quando uma ferramenta de pintura estiver selecionada para mostrar as linhas pontilhadas indicando o caminho que a ferramenta de pintura seguirá. Quando “Shift” estiver sendo pressionado, clicar em qualquer lugar desenhará a linha.
+Basta pressionar “Shift” no teclado quando uma ferramenta de pintura estiver selecionada para mostrar as linhas pontilhadas indicando o caminho que a ferramenta de tinta seguirá. Quando “Shift” estiver sendo pressionado, clicar em qualquer lugar desenhará a linha.
 
 ![](../assets/straight-line-optim.gif){width="400px"}
 

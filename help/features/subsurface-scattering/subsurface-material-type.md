@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
 description: Saiba como usar tipos de materiais de subsuperfície no Substance 3D Painter para criar pele, cera e materiais orgânicos realistas.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ Esta página lista os vários tipos de materiais que podem ser criados com o rec
 Para um bom material da pele requer:
 
 * Uma boa textura de base : para um caractere realista, isso significa uma boa quantidade de detalhes e várias cores.
-* Uma textura forte de height/normal : o efeito de subsuperfície suavizará os detalhes da superfície, tendo detalhes fortes em primeiro lugar, compensará.
+* Um height forte/textura normal : o efeito de subsuperfície suavizará os detalhes da superfície, tendo detalhes fortes em primeiro lugar, que compensarão.
 
 | *Configuração* | *Descrição* |
 | --- | --- |

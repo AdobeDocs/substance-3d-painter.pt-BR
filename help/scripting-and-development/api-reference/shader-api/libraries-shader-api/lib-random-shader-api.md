@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a referência de API de sombreamento Aleatória da biblioteca para que o Substance 3D Painter gere valores aleatórios no desenvolvimento de sombreador personalizado.
+description: Acesse a referência de API de sombreamento aleatória da biblioteca para que o Substance 3D Painter gere valores aleatórios no desenvolvimento de sombreador personalizado.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API
 helpx_experience_level: ""

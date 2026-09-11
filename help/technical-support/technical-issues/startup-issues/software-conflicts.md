@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
 breadcrumb-title: ''
 description: Saiba como resolver conflitos de software que impedem que o Substance 3D Painter seja iniciado corretamente no sistema.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Esta página contém uma lista de problemas conhecidos com outros softwares que 
 | <b> Alienware/Computadores Dell</b> | Consulte esta página para obter mais informações: [Falha ao abrir ou salvar um arquivo](../stability-issues/crash-when-opening-or-saving-a-file.md). |
 | **APFS pelo Software Paragon** | Este software pode registrar um local na variável de ambiente Caminho do Windows que pode travar o aplicativo na inicialização. A desinstalação do software pode não ser suficiente e a variável de ambiente pode precisar ser removida manualmente. Exemplo de local problemático: `C:Program Files (x86)Paragon SoftwareAPFS for Windowsï–›éŒ à €è¸€ì‡ì‡ç¿¹` |
 | **Avecto** | Ter uma versão mais antiga do Avecto em execução pode causar lentidão e falhas. Certifique-se de atualizá-la para a versão mais recente. |
-| **Ajuste da GPU Asus** | Esse software pode causar problemas durante a compilação de shaders no Substance 3D Painter ou até mesmo impedir o início da compilação de shader. Se esse problema for encontrado, recomendamos desinstalar o software para ver se ele corrige o problema. |
+| **Ajuste da GPU Asus** | Esse software pode causar problemas durante a compilação de shaders dentro do Substance 3D Painter ou até mesmo impedir o início da compilação de sombreador. Se esse problema for encontrado, recomendamos desinstalar o software para ver se ele corrige o problema. |
 | **Asus RAMCache** | Esse software pode impedir que o Substance 3D Painter seja iniciado corretamente ou torná-lo instável durante a execução. Recomendamos desativar ou instalar o Asus RAMCache se você estiver com problemas de estabilidade. |
 | **Asus Sonic Suite** | Em computadores com uma placa-mãe ASUS, o <b>Asus Sonic Suite</b> pode estar instalado por padrão. A desinstalação deste software pode corrigir alguns problemas de exibição/interface no Substance 3D Painter. |
 | **Software de Backup na Nuvem** **(** OneDrive,**GDrive,** **Dropbox,** **Filestream etc.)** | O software de backup em nuvem pode ser a origem de várias falhas ao salvar um projeto. Se isso acontecer, é recomendável trabalhar e salvar o arquivo de projeto em uma pasta não sincronizada e, em vez disso, copiar os arquivos de projeto de volta na unidade na nuvem assim que as alterações não forem mais feitas. |

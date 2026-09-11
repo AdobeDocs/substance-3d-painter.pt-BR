@@ -39,7 +39,7 @@ ht-degree: 14%
     + [Configurações da janela de visualização](/help/interface/display-settings/viewport-settings.md)
   + [Histórico](/help/interface/history.md)
   + Pilha de camadas{#layer-stack}
-    + [Visão geral da pilha de camadas](/help/interface/layer-stack/layer-stack.md)
+    + [Visão geral da Pilha de camadas](/help/interface/layer-stack/layer-stack.md)
     + [Criação de camadas](/help/interface/layer-stack/creating-layers.md)
     + [Gerenciamento de camadas](/help/interface/layer-stack/managing-layers.md)
     + [Mascaramento e efeitos](/help/interface/layer-stack/masking-and-effects.md)
@@ -64,8 +64,8 @@ ht-degree: 14%
     + [Atalhos](/help/interface/settings/shortcuts.md)
     + [Configuração de bibliotecas](/help/interface/settings/libraries-configuration.md)
   + Configurações do sombreamento{#shader-settings}
-    + [Visão geral das configurações do sombreador](/help/interface/shader-settings/shader-settings.md)
-    + [Atualização de um sombreador](/help/interface/shader-settings/updating-a-shader.md)
+    + [visão geral das configurações de sombreador](/help/interface/shader-settings/shader-settings.md)
+    + [Atualizando um sombreador](/help/interface/shader-settings/updating-a-shader.md)
   + Conjunto de texturas{#texture-set}
     + [Visão geral do conjunto de texturas](/help/interface/texture-set/texture-set.md)
     + [Lista do conjunto de texturas](/help/interface/texture-set/texture-set-list.md)
@@ -85,12 +85,12 @@ ht-degree: 14%
     + [Bakers de mapa de malha](/help/interface/baking-panels/mesh-map-bakers.md)
     + [Configurações comuns](/help/interface/baking-panels/common-mesh-map-settings.md)
     + [Painel de configurações do mapa de malha](/help/interface/baking-panels/mesh-map-settings.md)
-    + [Tronco de cozedura](/help/interface/baking-panels/baking-log.md)
+    + [Fazendo bake log](/help/interface/baking-panels/baking-log.md)
 + Pintura{#painting}
   + [Visão geral da pintura](/help/painting/painting.md)
   + Ferramenta Pintar{#paint-tools}
-    + [Visão geral da ferramenta de pintura](/help/painting/tool-list/tool-list.md)
-    + [Pincel](/help/painting/tool-list/paint-brush.md)
+    + [Visão geral da ferramenta Tinta](/help/painting/tool-list/tool-list.md)
+    + [Pincel de tinta](/help/painting/tool-list/paint-brush.md)
     + [Borracha](/help/painting/tool-list/eraser.md)
     + [Projeção](/help/painting/tool-list/projection.md)
     + [Preenchimento de polígono](/help/painting/tool-list/polygon-fill.md)
@@ -104,12 +104,12 @@ ht-degree: 14%
   + [Linha reta](/help/painting/straight-line.md)
   + [Mouse lento](/help/painting/lazy-mouse.md)
   + Simetria{#symmetry}
-    + [Visão geral de simetria](/help/painting/symmetry/symmetry.md)
+    + [Visão geral da Simetria](/help/painting/symmetry/symmetry.md)
     + [Simetria de espelho](/help/painting/symmetry/mirror-symmetry.md)
     + [Simetria de radial](/help/painting/symmetry/radial-symmetry.md)
   + Preencher projeções{#fill-projections}
     + [Visão geral das projeções de preenchimento](/help/painting/fill-projections/fill-projections.md)
-    + [Preenchimento - corresponder por bloco UV](/help/painting/fill-projections/fill-match-per-uv-tile.md)
+    + [Preenchimento - correspondência por Bloco UV](/help/painting/fill-projections/fill-match-per-uv-tile.md)
     + [Projeção UV](/help/painting/fill-projections/uv-projection.md)
     + [Projeção triplanar](/help/painting/fill-projections/tri-planar-projection.md)
     + [Projeção planar](/help/painting/fill-projections/planar-projection.md)
@@ -138,7 +138,7 @@ ht-degree: 14%
     + [Visão geral da pintura de canal](/help/painting/advanced-channel-painting/advanced-channel-painting.md)
     + [Oclusão de ambiente](/help/painting/advanced-channel-painting/ambient-occlusion-painting.md)
     + [Mapa de Fluxo](/help/painting/advanced-channel-painting/flow-map-painting.md)
-    + [Mapa do height](/help/painting/advanced-channel-painting/height-map-painting.md)
+    + [Mapa de altura](/help/painting/advanced-channel-painting/height-map-painting.md)
     + [Mapa normal](/help/painting/advanced-channel-painting/normal-map-painting.md)
   + [Gráfico vetorial - .svg .ai](/help/painting/vector-graphic-svg.md)
   + [Recurso de texto](/help/painting/text-resource.md)
@@ -160,7 +160,7 @@ ht-degree: 14%
     + [Editor de máscara](/help/features/effects/generators/mask-editor.md)
     + [Edge Wear de metal](/help/features/effects/generators/metal-edge-wear.md)
     + [Posição](/help/features/effects/generators/position.md)
-    + [Tri-Planar Avançado](/help/features/effects/generators/tri-planar-advanced.md)
+    + [Avançado Tri-Planar](/help/features/effects/generators/tri-planar-advanced.md)
     + [Distância da borda UV](/help/features/effects/generators/uv-border-distance.md)
     + [Verificador UV](/help/features/effects/generators/uv-checker.md)
     + [Cor aleatória UV](/help/features/effects/generators/uv-random-color.md)
@@ -174,9 +174,9 @@ ht-degree: 14%
   + [Filtro](/help/features/effects/filter.md)
   + [Ponto de ancoragem](/help/features/effects/anchor-point.md)
 + Baking{#baking}
-  + [Visão geral da cozedura](/help/baking/baking.md)
+  + [Fazendo bake visão geral](/help/baking/baking.md)
   + [Interface de cozimento](/help/baking/baking-interface.md)
-  + [Como preparar mapas de malha](/help/baking/how-to-bake-mesh-maps.md)
+  + [Como fazer bake mapas de malha](/help/baking/how-to-bake-mesh-maps.md)
   + [Correção de distorção](/help/baking/skew-correction.md)
   + [Configurações do mapa de malha](/help/baking/mesh-map-settings.md)
   + [Configurações de visualização de preparo](/help/baking/baking-visualization-settings.md)
@@ -198,7 +198,7 @@ ht-degree: 14%
   + [Atualização automática de recursos](/help/features/auto-update.md)
   + [Desempacotamento automático de UV](/help/features/automatic-uv-unwrapping.md)
   + [Tamanho físico](/help/features/physical-size.md)
-  + [Materiais e máscaras inteligentes](/help/features/smart-materials-and-masks.md)
+  + [Materiais inteligentes e máscaras](/help/features/smart-materials-and-masks.md)
   + Dispersão de subsuperfície{#subsurface-scattering}
     + [Visão geral de dispersão de subsuperfície](/help/features/subsurface-scattering/subsurface-scattering.md)
     + [Ativando o Subsurface em um projeto](/help/features/subsurface-scattering/enabling-subsurface-in-a-project.md)
@@ -207,12 +207,12 @@ ht-degree: 14%
   + [Camadas de material dinâmico](/help/features/dynamic-material-layering.md)
   + [Reprojeção UV](/help/features/uv-reprojection.md)
   + Blocos UV{#uv-tiles}
-    + [Visão geral de Blocos UV](/help/features/uv-tiles/uv-tiles.md)
+    + [Visão geral dos Blocos UV](/help/features/uv-tiles/uv-tiles.md)
     + [Sequência de imagens](/help/features/uv-tiles/image-sequence.md)
   + Gerenciamento de Cores{#color-management}
     + [Visão geral do gerenciamento de cores](/help/features/color-management/color-management.md)
     + [Gerenciamento de cores com Adobe ACE - ICC](/help/features/color-management/color-management-with-adobe-ace-icc.md)
-    + [Gerenciamento de cores com o OpenColorIO](/help/features/color-management/color-management-with-opencolorio.md)
+    + [Gerenciamento de cores com OpenColorIO](/help/features/color-management/color-management-with-opencolorio.md)
   + Pós-processamento{#post-processing}
     + [Visão geral](/help/features/post-processing/post-processing.md)
     + [Profundidade de campo](/help/features/post-processing/depth-of-field.md)
@@ -252,7 +252,7 @@ ht-degree: 14%
     + Modelos de saída padrão{#default-output-templates}
       + [Modelos de saída padrão](/help/export/export-presets/default-presets.md)
       + [Modelos de saída predefinidos](/help/export/export-presets/predefined-presets/predefined-presets.md)
-      + [Predefinição de aspereza metálica PBR USD](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
+      + [Predefinição de aspereza metálica USD PBR](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
     + [Criação de Modelos de saída](/help/export/creating-export-presets.md)
 + Suporte técnico{#technical-support}
   + Diretrizes de desempenho{#performance-guidelines}
@@ -284,7 +284,7 @@ ht-degree: 14%
       + [Conflitos de software](/help/technical-support/technical-issues/startup-issues/software-conflicts.md)
     + Problemas de renderização{#rendering-issues}
       + [Artefatos e falhas no Mac OS com GPUs personalizadas](/help/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.md)
-      + [Artefatos de blocos aparecem em texturas na viewport](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
+      + [Artefatos de blocos aparecem nas texturas da viewport](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
       + [A malha aparece em rosa no visor](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
       + [A malha flash para branco ao mover a câmera](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
       + [Alguns valores de escala HDPI não estão funcionando](/help/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.md)
@@ -292,7 +292,7 @@ ht-degree: 14%
     + Problemas de estabilidade{#stability-issues}
       + [Falha durante a exportação](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
       + [Falha ao abrir ou salvar um arquivo](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
-      + [Falha durante a cozedura](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
+      + [Falha ao fazer bake](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
       + [Falha com pouca memória virtual](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
       + [Windows Blue Screens](/help/technical-support/technical-issues/stability-issues/windows-blue-screens.md)
     + Problemas diversos{#miscellaneous-issues}
@@ -309,7 +309,7 @@ ht-degree: 14%
       + [Dilatação ou preenchimento da textura](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + Problemas com ferramentas{#tools-issues}
       + [O mapa normal parece incorreto](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
-      + [Pintar sangrias da ferramenta em outras Ilhas UV](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
+      + [A ferramenta Tinta sangra em outras Ilhas UV](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
     + Problemas do projeto{#project-issues}
       + [Arquivo de projeto corrompido](/help/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.md)
       + [Carregando arquivos de uma rede](/help/technical-support/workflow-issues/project-issues/loading-files-from-a-network.md)
@@ -320,7 +320,7 @@ ht-degree: 14%
       + [Erro ao importar uma fonte](/help/technical-support/workflow-issues/shelf-issues/font-import.md)
     + Problemas no visor{#viewport-issues}
       + [Os rostos de malha desaparecem ao olhar para eles por trás](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
-      + [As viewports e as texturas são desfocadas ou não possuem nitidez](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
+      + [Os viewports e as texturas estão desfocados ou não possuem nitidez](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
     + Problemas com plug-ins{#plugins-issues}
       + [O plug-in do Substance Source não carrega](/help/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.md)
     + Problemas de licença{#license-issues}
@@ -356,7 +356,7 @@ ht-degree: 14%
       + [Alpha da biblioteca - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.md)
       + [Lib Bayer - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.md)
       + [Definições de bibliotecas - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.md)
-      + [Lib Emissive - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
+      + [Emissivo de biblioteca - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
       + [Ambiente da biblioteca - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.md)
       + [Bib Normal - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.md)
       + [Lib PBR - API de sombreamento](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.md)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2017.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -26,11 +26,11 @@ Data de lançamento: *28 de setembro de 2017*
 
 ## Principais recursos
 
-### Predefinição de exportação de material padrão da Adobe
+### predefinição de exportação de Adobe Standard Material
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Um dos novos exportadores que incluímos nesta versão é o suporte ao Material padrão da Adobe a ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Material padrão da Adobe**” na janela de texturas de exportação. Para obter mais informações, consulte: [http://www.adobe.com/br/products/dimension.html](https://www.adobe.com/br/products/dimension.html)
+Um dos novos exportadores que incluímos nesta versão é o suporte ao Material padrão da Adobe a ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Adobe Standard Material**” na janela de exportação do textura. Para obter mais informações, consulte: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Você também pode conferir nossa postagem sobre isso no blog: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +38,7 @@ Você também pode conferir nossa postagem sobre isso no blog: <https://www.alle
 
 ![](../../assets/gltf-export.jpg)
 
-Também adicionamos suporte para o formato de arquivo **glTF**, com a exportação da **malha de cena** e das **texturas PBR** (metálico/rugosidade). Para acessá-la, basta escolher “**glTF PBR Metal Roughness**” na janela de exportação de texturas. **glTF** é um formato de arquivo de código aberto dirigido pelo grupo Khronos. Você pode exibir o arquivo glTF no **Windows 10** ou usar um visualizador WebGL, como o [**Babylon**](http://sandbox.babylonjs.com/).
+Também adicionamos suporte para o formato de arquivo **glTF**, com a exportação da **malha de cena** e das **texturas PBR** (metálico/rugosidade). Para acessá-la, basta escolher “**glTF PBR Metal Roughness**” na janela de exportação do textura. **glTF** é um formato de arquivo de código aberto dirigido pelo grupo Khronos. Você pode exibir o arquivo glTF no **Windows 10** ou usar um visualizador WebGL, como o [**Babylon**](http://sandbox.babylonjs.com/).
 
 Para obter mais informações, consulte: <https://github.com/KhronosGroup/glTF>
 
@@ -55,11 +55,11 @@ Se um backup for criado, mas o projeto não tiver sido salvo (também conhecido 
 
 ![](../../assets/gradient-rust.jpg)
 
-O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente **&#x200B;**, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**&#x200B;e criar **novas formas**.
+O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente ****, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**e criar **novas formas**.
 
 O controle deslizante principal (quantidade de cores) define o número de cores totais que são usadas para criar o gradiente. O botão logo abaixo define o modo de mesclagem de cores (sRGB ou Linear). Isso é importante se você quiser ter uma mistura adequada entre as cores. Por exemplo, mesclar um vermelho puro e um verde puro deve produzir um amarelo agradável no meio. Isso não acontecerá se o botão estiver desativado (ele exibirá um marrom escuro como alternativa). Ao remapear a height ou qualquer outro canal de tons de cinza, esse botão deve ser desativado para evitar a conversão da gama.
 
-O botão na parte superior permite substituir o resultado do filtro pelo próprio gradiente, para visualizar o gradiente na visualização 2D.
+O botão na parte superior permite substituir o resultado do filtro pelo próprio gradiente, para visualizar o gradiente no Visualização 2D.
 
 ![](../../assets/gradient-height-demo.jpg)
 
@@ -101,10 +101,10 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 
 **Corrigido:**
 
-* [Mac] A pintura leva a quadrados pretos e corrupções de textura
+* [Mac] A pintura resulta em quadrados pretos e corrupções de textura
 * [Engine] Às vezes, o cache pode desaparecer no visor
 * [Engine] Artefatos de bloco aparecem quando o acionador de compactação de memória
-* [Preparação] Mensagens de erro estranhas ao assar malhas específicas
+* [Fazendo bake] Mensagens de erro estranhas ao fazer bake malhas específicas
 * [Export] PSD são gravados incorretamente e não são reconhecidos corretamente pelo Photoshop
 * [Camadas] Não deveria ser possível copiar/colar camadas em vários projetos
 * [Substance] O espaço de cores UserData para a entrada Normal é invertido em alguns casos
@@ -130,7 +130,7 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 * Falha ao excluir várias subprateleiras
 * Falha ao alternar de um nível para algo diferente durante um cálculo do mecanismo
 * [Mac] Falha na GPU Intel durante cálculos de mecanismo
-* [Mac]&#x200B;[Viewport] Desempenho insatisfatório quando o pontilhamento está habilitado
+* [Mac][Viewport] Desempenho insatisfatório quando o pontilhamento está habilitado
 * [Mac] O MacOS 10.13 é reconhecido como “Versão desconhecida” no arquivo de log
 * [Baker] Cozinhar com uma gaiola não funciona mais
 * [Camadas] O atalho Ctrl + C (ação de cópia) não funciona mais

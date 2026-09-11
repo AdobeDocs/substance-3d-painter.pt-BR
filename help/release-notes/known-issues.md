@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ''
 description: Analise os problemas conhecidos do Substance 3D Painter para se manter informado sobre as limitações atuais e as soluções alternativas da versão mais recente.
 helpx_creative_field: ""
@@ -26,21 +26,21 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.3 do 
 * `[Baking]` Correspondência por interpretação de sufixo de nome incorreta
 * `[Baking]` emendas Uv não aparecem após a reimportação de mes
 * `[Baking]` artefatos tipo grade com algumas configurações
-* `[Baking]` A Oclusão do ambiente Ignorar a face de fundo pelo nome da malha não funciona
-* `[Baking]` `[AMD]` Dispositivo perdido ao assar com malhas pesadas de alta poli
+* A Oclusão de ambiente `[Baking]` Ignorar face de fundo pelo nome da malha não funciona
+* `[Baking]` `[AMD]` Dispositivo perdido ao fazer bake com malhas pesadas de alta poli
 
 * `[Substance]` Vários erros ortográficos nos recursos
 * `[Substance]` Espaço em branco interrompe a condição de visibilidade
 * `[Substance]` Predefinições para alguns materiais levam muito tempo para carregar
 * `[Substance]` Não é possível importar o recurso com usos mistos
 
-* `[Engine]` Erro ao usar materiais inteligentes se o Conjunto de texturas não tiver bloco 1001
-* `[Engine]` Pintura com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
+* `[Engine]` Erro ao usar Materiais inteligentes se o Conjunto de Textura não tiver bloco 1001
+* `[Engine]` Pintura com a ferramenta Clonar nas cores normais de mudança de canal incorreta
 * A máscara de geometria `[Engine]` mostra artefatos em bordas UV com camadas instanciadas
 
 * `[Color Management]` Associações incompatíveis com gerador não usadas na máscara
 * A saída do filtro `[Color Management]` não foi considerada corretamente
-* `[Color Management]` conversões de espaço de cores HDR com ACE no Linux produzem cores vivas
+* `[Color Management]` conversões de espaço de cores HDR com ACE no Linux produzem cores apertadas
 
 * Os recursos `[Shelf]` obtêm o uso incorreto se colocados em uma pasta com um nome específico
 * `[Shelf]` `[Substance]` Dados do usuário não levados em conta para geração de miniatura de prateleira
@@ -52,12 +52,12 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.3 do 
 * `[Scripting]` `[Python]` Vários erros de digitação no módulo substance_painter.project
 
 * `[USD]` Atribuição usda incorreta em alguns casos
-* `[USD]` A geometria exportada em USD está deslizando ao longo das bordas UV
+* `[USD]` A geometria USD exportada está deslizando ao longo das bordas UV
 
-* O projeto `[Single Channel View]` salvo na exibição de cor base parece mais escuro após a atualização da versão do Painter
-* O projeto `[Single Channel View]` salvo na exibição de cor base parece mais escuro após a atualização da versão do Painter
+* O projeto `[Single Channel View]` salvo na exibição de cor de base parece mais escuro após a atualização da versão do Painter
+* O projeto `[Single Channel View]` salvo na exibição de cor de base parece mais escuro após a atualização da versão do Painter
 
-* `[gltf]` Não é possível abrir arquivos exportados pelo Babylon Exporter
+* `[gltf]` Não é possível abrir arquivos exportados pelo Babylon Exportador
 * `[Displacement]` Falha ao pintar
 * `[Polygon Fill Tool]` Seleção incorreta com simetria
 * `[2D view]` Os traços às vezes não aparecem ao pintar
@@ -71,17 +71,17 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.3 do 
 * `[Anchor point]` referências quebradas ao copiar e colar conteúdo da máscara
 * `[Mesh export]` Não considera novos nomes de conjuntos de texturas
 * `[Anchor Points]` Cor incorreta quando usada no gerador
-* O padeiro do Mapa de Identificação do `[Bakers]` não leva em consideração o Material Físico do 3ds Max 2021
+* O baker de Mapas de ID do `[Bakers]` não leva em consideração o Material Físico do 3ds Max 2021
 * `[UV Tiles]` Nenhuma mensagem de erro ao sobrepor espaços UV com uma malha específica
 * `[GLTF]` `[Crash]` Criar um projeto com arquivo gltf compactado causa uma falha
 * `[UV Tile sequence]` mapas de posição não foram importados corretamente
-* A máscara de combinação de Height `[UVTiles]` não está atualizada com a Máscara de bloco UV
+* A máscara de combinação de Height `[UVTiles]` não é atualizada com a máscara de Bloco UV
 * `[Import]` Não é possível importar o arquivo obj com valores “nan”
 * `[Export]` exportações de GLTF no tamanho incorreto
 * O nome `[Texture Set]` pode estar vazio
 * `[Layer stack]` Copiar para alternar máscara para modo de material
 * `[UI]` Erro de ortografia nas configurações do criador de pincel
-* `[Texture Set Settings]` Nome de instância de sombreador incorreto após renomeação
+* `[Texture Set Settings]` Nome de instância de sombreamento incorreto após renomeação
 * `[Blending]` O modo de mesclagem de cor e saturação também altera o brilho
 * `[Librairies]` A largura das janelas Pesquisas salvas e filtrar por caminho não é salva quando alterada
 * `[Geometry mask]` Problema ao reimportar a malha e a camada de instância
@@ -91,20 +91,20 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.3 do 
 * `[Regression]` `[UI]` O Menu do Clique com o Botão Direito é muito pequeno na tela hd
 * `[Resources]` mapas de malha importados são ignorados pela atualização automática
 * A visualização do espaço de mistura de cores `[User Channels]` está incorreta
-* A seleção de geometria `[Mask]` ainda está ativa após alternar para o modo empilhado
+* A seleção de geometria `[Mask]` ainda está ativa após alternar para o modo fazer bake
 * `[Sonoma]` Ícones não aparecem nos menus
 * `[Path]` a mesclagem de Height de vários caminhos pode causar artefatos
-* `[Polygon Fill]` A alteração do espaço de cores da cor base não atualiza o seletor de cores
+* `[Polygon Fill]` A alteração do espaço de cores da cor de base não atualiza o seletor de cores
 * `[UV Padding]` artefatos ao aumentar a textura de 4k para 8k na exportação
 * `[Performances]` Painter monopoliza o uso de VRAM
-* `[Generator]` A configuração “usar textura” como false não desabilita o uso da entrada de textura
+* `[Generator]` A configuração “usar textura” como falso não desabilita o uso da entrada de textura
 * Os recursos não quadrados são esticados quando usados nos slots do canal de pincel
 * Falha ao decodificar a substância
 * UVs não perfeitamente sobrepostos podem criar artefatos
 * Normais de malha inválidas com algum fbx
 * A visualização não é atualizada ao mudar o canal afetado por um nível
-* Projetos com um conjunto de texturas são reabertos no modo Base Color solo
-* A interface do botão de canal nas propriedades de material/pintura pode ser quebrada
+* Projetos com um conjunto de texturas são reabertos no modo Cor de base sozinho
+* A interface do botão de canal nas propriedades de material/tinta pode ser quebrada
 * A ordem dos canais em Propriedades pode ser quebrada
 * Os traçados feitos em L16F e RBG16F podem exibir artefatos
 * O comportamento do botão Restaurar não interage com a tecla de bloqueio nas configurações da câmera
@@ -126,6 +126,6 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.3 do 
 * `[Crash]` Selecione “Exportar malha” quando a malha falhar ao carregar
 * `[Crash]` Clicando em “Iniciar pintura” após tentar abrir um projeto antigo
 * `[Crash]` A criação de textos muito longos na Faixa de Opções pode falhar
-* `[Crash]` Retornando ao modo de pintura após a perda do dispositivo na cozedura
+* `[Crash]` Retornando ao modo de pintura após a perda do dispositivo na faz bake
 * `[Crash]` Sair do Painter após cancelar a exportação de mapas
 * `[Crash]` Exportando malha com alguns símbolos especiais no nome da câmera

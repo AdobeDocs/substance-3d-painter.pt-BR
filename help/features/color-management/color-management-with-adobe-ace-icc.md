@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
 breadcrumb-title: ''
 description: Saiba como usar o gerenciamento de cores ACE e ICC do Adobe no Substance 3D Painter para obter fluxos de trabalho de cores consistentes.
 helpx_creative_field: ""
@@ -36,11 +36,11 @@ As configurações disponíveis são:
 
 | Seção | Configuração | Descrição |
 | --- | --- | --- |
-| **Configuração** | **Gerenciamento de cores** | Defina qual mecanismo usar para gerenciar cores.Valores possíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Legado</strong> (padrão): use a correção de cores gama sRGB/sRGB linear predefinida.</li> <li data-preserve-html="true"><strong>OpenColorIO</strong>: use a integração OCIO.</li> <li data-preserve-html="true"><strong>Adobe ACE</strong>: Adobe Color Engine, para suportar perfis ICC.</li> </ul> |
+| **Configuração** | **Gerenciamento de cores** | Defina qual mecanismo usar para gerenciar cores.Valores possíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Legado</strong> (padrão): use a correção de cores gama sRGB/sRGB linear predefinida.</li> <li data-preserve-html="true"><strong>OpenColorIO</strong>: usar integração com OCIO.</li> <li data-preserve-html="true"><strong>Adobe ACE</strong>: Adobe Color Engine, para suportar perfis ICC.</li> </ul> |
 |  | **Usar um arquivo de predefinição** | Se ativada, permita que o tod oriente as configurações de gerenciamento de cores por meio de um arquivo de configuração json. |
 |  | **Arquivo predefinido** | Caminho para o arquivo de predefinição, em formato json. Para obter mais detalhes, consulte abaixo. |
 |  |  |  |
-| **Configurações de cores** | **Espaço de cores de trabalho** | O espaço de cores usado pelo mecanismo para trabalhar dentro do aplicativo. Corresponde ao espaço de cores a partir do qual as texturas podem ser convertidas em (importação) ou de (exportação). Os valores possíveis são:<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Linear sRGB IEC61966-2.1</strong> (padrão)</li> <li data-preserve-html="true"><strong>Espaço de trabalho ACES ACES AMPAS S-2014-004</strong> do ACEScg</li> <li data-preserve-html="true"><strong>Adobe RGB linear (1998)</strong></li> </ul> |
+| **Configurações de cores** | **Espaço de cores de trabalho** | O espaço de cores usado pelo mecanismo para trabalhar dentro do aplicativo. Este é o espaço de cores a partir do qual as texturas podem ser convertidas para (importar) ou de (exportar). Os valores possíveis são:<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Linear sRGB IEC61966-2.1</strong> (padrão)</li> <li data-preserve-html="true"><strong>Espaço de Trabalho ACEScg ACE AMPAS S-2014-004</strong></li> <li data-preserve-html="true"><strong>Adobe RGB linear (1998)</strong></li> </ul> |
 |  | **Método de renderização** | Especifique o método usado para converter cores entre espaços de cores.Valores possíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Perceptual</strong></li> <li data-preserve-html="true"><strong>Saturação</strong> (padrão)</li> <li data-preserve-html="true"><strong>Cromático relativo</strong></li> <li data-preserve-html="true"><strong>Cromático absoluto</strong></li> </ul> |
 |  |  |  |
 | **Padrões de espaço de cores de importação de bitmap** | **Imagens de 8 bits** | Espaço de cores a ser usado por padrão ao importar arquivos de imagem de 8 bits. |

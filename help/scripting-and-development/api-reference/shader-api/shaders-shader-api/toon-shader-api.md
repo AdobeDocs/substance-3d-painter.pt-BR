@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento de animação do Substance 3D Painter para criar efeitos de renderização personalizados no estilo de animação.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Toon - API de sombreamento
 
-## Sombreador de tom básico
+## Sombreador toon básico
 
 Importar das bibliotecas.
 
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-**Associamos** a **cor base** do canal do documento ao nosso **basecolor\_tex** uniforme.
+**Associamos** o canal **cor de base** do documento ao nosso **basecolor\_tex** uniforme.
 
 ```
 //: param auto channel_basecolor 
@@ -54,7 +54,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-Nós **vinculamos** a **curvatura da malha** ao nosso **curvatura\_tex** uniforme. Se nenhuma curvatura estiver disponível, a textura transparente será fornecida.
+Nós **vinculamos** a **curvatura da malha** ao nosso **curvatura\_tex** uniforme. Se não houver curvatura disponível, é fornecida uma textura transparente.
 
 ```
 //: param auto texture_curvature 

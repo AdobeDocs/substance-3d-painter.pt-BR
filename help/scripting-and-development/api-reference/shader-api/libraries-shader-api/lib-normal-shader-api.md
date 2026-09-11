@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento Normal da Biblioteca para que o Substance 3D Painter funcione com mapas normais e normais de superfície em sombreadores personalizados.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ const float HEIGHT_FACTOR = 400.0;
 ```
 
 
-Executar a mesclagem entre dois mapas normais
+Faça a mesclagem entre 2 mapas normais
 
 Isso é baseado na mesclagem do Whiteout http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -89,7 +89,7 @@ vec3 normalBlend(vec3 baseNormal, vec3 overNormal)
 ```
 
 
-Executar uma mesclagem orientada por detalhes entre dois mapas normais
+Executar uma mesclagem orientada por detalhes entre 2 mapas normais
 
 Isso é baseado na mesclagem orientada a detalhes http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -319,7 +319,7 @@ vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 n
 ```
 
 
-Auxiliar para calcular o espaço global normal do espaço tangente normal dado por getTSNormal helpers, e o quadro local da malha.
+Auxiliar para calcular o espaço global normal do espaço tangente normal dado por getTSNormal helpers, e quadro local da malha.
 
 ```
 vec3 computeWSNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 

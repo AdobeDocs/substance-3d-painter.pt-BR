@@ -2,7 +2,7 @@
 title: Versão 12.0
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-12-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-12-0.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '1138'
@@ -29,14 +29,14 @@ Data de lançamento: <b>9 de março de 2026</b>
 
 Uma nova ação <b>Achatar</b> agora está disponível no menu de contexto do botão direito do mouse da pilha de camadas. É possível mesclar várias camadas rapidamente agrupando-as (<b>Ctrl/Cmd + G</b>) e criando uma cópia achatada (<b>Ctrl/Cmd + M</b>). O grupo de origem é desabilitado automaticamente, deixando a opção de excluí-lo ou salvá-lo como um <b>Material Inteligente</b> para edição posterior.
 
-Os elementos achatados da pilha de camadas também podem ser exportados diretamente para o disco para iterações rápidas em outros aplicativos. Grupos, camadas ou máscaras podem ser exportados individualmente ou em lote por meio do menu de contexto da pilha de camadas.
+Elementos achatados da pilha de camadas também podem ser exportados diretamente para disco para iterações rápidas em outros aplicativos. Grupos, camadas ou máscaras podem ser exportados individualmente ou em lote por meio do menu de contexto da pilha de camadas.
 
 * <b>Achatar texturas diretamente na pilha de camadas</b>\
   Para nivelar qualquer grupo, pressione <b>Ctrl/Cmd + M</b> ou selecione a entrada <b>Nivelar grupo</b> no menu contextual do botão direito do mouse. Isso gera uma cópia mesclada do conteúdo selecionado e desativa automaticamente o grupo de origem, mantendo as camadas originais intactas até que seja tomada a decisão de removê-las ou restaurá-las.
 
   ![](../assets/v12_flatten_menu.jpg)
-* <b>Nivelar e exportar texturas para o disco</b>\
-  Uma ação de exportação dedicada no menu do botão direito do mouse salva o resultado nivelado de uma camada, máscara ou grupo e o salva diretamente no disco. Isso é útil para transferir conteúdo preparado para outros aplicativos sem passar pelo pipeline de exportação de textura completa.
+* <b>Achatar e exportar texturas para o disco</b>\
+  Uma ação de exportação dedicada no menu do botão direito do mouse salva o resultado nivelado de uma camada, máscara ou grupo e o salva diretamente no disco. Isso é útil para transferir conteúdo feito bake para outros aplicativos sem passar pelo pipeline de exportação de textura completo.
 * <b>Operações em lote</b>\
   Várias camadas, grupos ou máscaras podem ser selecionados de uma só vez e nivelados ou exportados individualmente em uma única operação, tornando mais eficiente o processamento de grandes partes de uma pilha de camadas em uma só etapa.
 
@@ -69,7 +69,7 @@ Decalques agora podem se adaptar automaticamente a superfícies complexas, reduz
 >
 > Para obter mais informações sobre a projeção de distorção, confira a [página de documentação dedicada](../painting/fill-projections/warp-projection.md).
 
-### Novos efeitos de postagem
+### Novos Pós-efeitos
 
 ![](../assets/v12_banner_post_effects2.jpg)
 
@@ -90,9 +90,9 @@ Veja um exemplo do que você pode alcançar com os novos efeitos:
   * <b>Reflexo</b>: cria listras de luz ao redor das fontes de luz.
   * <b>Clarão da lente</b>: simula reflexos ópticos da lente quando uma luz brilhante brilha na câmera.
   * <b>Aberração lateral</b>: simula dispersão cromática nas bordas da imagem causada por imperfeições da lente.
-  * <b>Vinheta</b>: escurece os cantos e bordas do quadro para chamar a atenção para o centro.
+  * <b>Vinheta</b>: escurece os cantos e bordas da quadro para chamar a atenção para o centro.
   * <b>Nitidez</b>: aumenta o contraste da borda para tornar a imagem renderizada mais nítida.
-  * <b>Granulação do filme</b>: sobrepõe um ruído sutil para replicar a textura de um filme analógico.
+  * <b>Granulação do filme</b>: sobrepõe um ruído sutil para replicar a textura de filme analógico.
   * <b>Mapeamento de tons</b>: remapeia valores de luminância HDR para um intervalo exibível para uma aparência mais cinematográfica.
   * <b>Correção de cores</b>: ajusta o contraste, a saturação, o brilho e a temperatura para ajustar o equilíbrio geral de cores.
 
@@ -130,7 +130,7 @@ Resumo: <b>Esta é uma versão principal. Esta versão contém os recursos de ca
 * [Pós-efeitos] Substituir pós-efeitos pela adição de novos
 * [Pós-efeitos] Atualizar mapeador de tom
 * [Pós-efeitos] Adicionar novo uso para ativos de Pós-efeitos
-* [Conteúdo]&#x200B;[Pós-efeitos] Integrar ativos de pós-efeitos padrão na biblioteca
+* [Conteúdo][Pós-efeitos] Integrar ativos de pós-efeitos padrão na biblioteca
 * [Novo projeto] Aprimorar a interface do usuário para criação de projetos
 * [Novo projeto] Alterações na funcionalidade de malha de reimportação
 * [Novo projeto] Permitir que arquivos \*.geo.usd sejam abertos
@@ -148,5 +148,5 @@ Resumo: <b>Esta é uma versão principal. Esta versão contém os recursos de ca
 * [Import] As texturas EXR são forçadas para sRGB em vez de lineares ao importar arquivos USD
 * [Blocos UV] A sequência de imagens com uma única imagem também preenche outros blocos UV
 * [Preparação] O AO é diferente entre a CPU e a preparação de GPU
-* [Gerenciamento de cores]&#x200B;[MacOS] Viewport BaseColor não corresponde ao selecionador de cores
+* [Gerenciamento de cores][MacOS] Viewport BaseColor não corresponde ao selecionador de cores
 * [USD] Valores uniformes não são importados em alguns casos

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html"
 breadcrumb-title: ''
 description: Saiba como usar efeitos de filtro no Substance 3D Painter para aplicar filtros de processamento de imagem e ajustes de textura.
 helpx_creative_field: ""
@@ -61,7 +61,7 @@ Selecione o filtro que deseja usar na prateleira. Arraste-o e solte-o na pilha d
 
 ![](../../assets/filter-dragdrop.gif)
 
-Observe como no exemplo acima o filtro solto já tem um modo de Mesclagem de passagem. Isso é verdadeiro para todos os canais do documento.
+Observe como no exemplo acima o filtro solto já tem um modo de mesclagem Transparência. Isso é verdadeiro para todos os canais do documento.
 
 ## Adição de novos tipos de filtros
 

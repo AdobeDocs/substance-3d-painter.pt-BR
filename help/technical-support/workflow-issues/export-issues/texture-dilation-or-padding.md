@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ''
-description: Saiba como usar a dilatação e o preenchimento de texturas no Substance 3D Painter para impedir artefatos de borda em texturas exportadas.
+description: Saiba como usar a dilatação e o preenchimento de textura no Substance 3D Painter para impedir artefatos de borda em texturas exportadas.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
 helpx_experience_level: ""
@@ -46,7 +46,7 @@ Aqui está um exemplo de como o preenchimento infinito funciona:
 
 ## MipMaps
 
-Em gráficos 3D do computador, os **mipmaps** são sequências de texturas otimizadas pré-calculadas, cada uma das quais é uma representação de resolução progressivamente mais baixa da mesma imagem. O objetivo é aumentar a velocidade de renderização e reduzir os artefatos de suavização. Uma imagem mipmap de alta resolução é usada para objetos próximos à câmera. Imagens de resolução mais baixa são usadas à medida que o objeto fica mais distante. Essa é uma maneira eficiente de renderizar ou ler todos os pixels da textura original. Os mipmaps (cada nível) são incorporados dentro da própria textura (quando suportado pelo formato de arquivo).
+Em gráficos 3D do computador, os **mipmaps** são sequências pré-calculadas e otimizadas de texturas, cada uma das quais é uma representação de resolução progressivamente mais baixa da mesma imagem. O objetivo é aumentar a velocidade de renderização e reduzir os artefatos de suavização. Uma imagem mipmap de alta resolução é usada para objetos próximos à câmera. Imagens de resolução mais baixa são usadas à medida que o objeto fica mais distante. Essa é uma maneira eficiente de renderizar ou ler todos os pixels da textura original. Os mipmaps (cada nível) são incorporados dentro da própria textura (quando suportado pelo formato de arquivo).
 
 O preenchimento é muito importante para mipmaps, pois evita que cores incorretas sangrem dentro dos UVs da malha ao diminuir as resoluções de textura.
 
@@ -75,6 +75,6 @@ Em um aplicativo 3D, este é o resultado:
 
 O Substance 3D Painter permite alterar o comportamento da geração de preenchimento (como desativá-la) em diferentes locais:
 
-* **Ao assar** : consulte a [documentação de cozimento](../../../baking/baking.md) para obter mais informações.
-* **Ao gerar texturas para um Conjunto de Texturas**: consulte a documentação [Configurações do Conjunto de Texturas](../../../interface/texture-set/texture-set-settings.md) para obter mais informações.
-* **Ao exportar texturas** : consulte a seção “Configurações de preenchimento” da documentação de [configurações de exportação](../../../export/export-window/export-window.md) para obter mais informações.
+* **Ao fazer bake**: consulte a [documentação de faz bake](../../../baking/baking.md) para obter mais informações.
+* **Ao gerar texturas para um Conjunto de Texturas**: consulte a documentação das [configurações do Conjunto de Texturas](../../../interface/texture-set/texture-set-settings.md) para obter mais informações.
+* **Ao exportar textura** : consulte a seção “Configurações de preenchimento” da documentação de [configurações de exportação](../../../export/export-window/export-window.md) para obter mais informações.

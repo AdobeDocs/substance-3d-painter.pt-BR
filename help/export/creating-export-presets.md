@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/creating-export-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ''
 description: Saiba como criar modelos de saída personalizados no Substance 3D Painter para definir suas próprias configurações de exportação de textura.
 helpx_creative_field: ""
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Criar Modelos de saída
 
-Esta página explica como criar e modificar Modelos de saída personalizados. Modelos de saída controlam o nome e a configuração das texturas exportadas. A criação de um Modelo de saída personalizado permite configurar as exportações para que correspondam perfeitamente ao fluxo de trabalho.
+Esta página explica como criar e modificar Modelos de saída personalizados. Modelos de saída controlam o nome e a configuração de texturas exportadas. A criação de um Modelo de saída personalizado permite configurar as exportações para que correspondam perfeitamente ao fluxo de trabalho.
 
 A guia de configuração da janela de exportação é dividida em três partes principais:
 
 * <b>Lista de predefinições:</b> (à esquerda) permite escolher qual modelo editar ou duplicar e renomear modelos existentes.
-* <b>Lista de texturas de saída</b>: (no meio) lista o conteúdo de uma predefinição selecionada e exibe a convenção de nomenclatura e as opções de embalagem de canal.
-* <b>Lista de Canais</b> e <b>Texturas convertidas</b>: lista (à direita) de canais e texturas a serem usados para compor o conteúdo de uma textura exportada.
+* <b>Lista de textura de saída</b>: (no meio) lista o conteúdo de uma predefinição selecionada e exibe a convenção de nomenclatura e as opções de embalagem de canal.
+* <b>Lista de Canais</b> e <b>texturas Convertidas</b>: (à direita)lista de canais e texturas a serem usados para compor o conteúdo de uma textura exportada.
 
 ![](../assets/image2018-4-25-13-36-44.png){width="800px"}
 
@@ -113,14 +113,14 @@ Alguns sinalizadores estão disponíveis para gerar automaticamente o nome da te
 Existem diferentes tipos de mapas:
 
 * <b>Mapas de entrada</b>: canais diretos que podem ser adicionados em um conjunto de texturas. Por meio do painel de configurações do TextureSet.
-* <b> Mapas de malha</b>: texturas presentes nos slots de mapa adicionais de um Conjunto de texturas (texturas assadas).
+* <b> Mapas de malha</b>: Texturas presentes nos slots de mapa adicionais de um Conjunto de Textura (texturas feitas bake).
 * <b> Mapas convertidos:</b> texturas virtuais, elas são geradas durante a exportação com base nos canais presentes no documento.
-  * <b>Normal OpenGL/DirectX</b> : gera um normal no espaço dedicado combinando o normal dos mapas adicionais, o height e o canal normal.
-  * <b>AO</b> misto: combine o mapa adicional de Oclusão ambiente com o canal de Oclusão ambiente.
-  * <b>Difusa</b>: cor difusa gerada a partir da BaseColor e de canais Metálicos (as partes metálicas serão substituídas por uma cor preta).
+  * <b>OpenGL normal/DirectX</b> : gera um normal no espaço dedicado combinando o normal dos mapas adicionais, o height e o canal normal.
+  * <b>AO</b> misto: combine o mapa adicional de Oclusão de ambiente com o canal de Oclusão de ambiente.
+  * <b>Difusão</b>: cor da Difusão gerada a partir de BaseColor e canais Metálicos (as partes metálicas serão substituídas por uma cor preta).
   * <b>Specular</b>: cor do Specular gerada a partir de BaseColor e canais metálicos.
   * <b>Textura reluzente</b>: inverso do canal de aspereza.
-  * <b>Difusão do Unity4</b>: cor difusa gerada a partir do BaseColor para corresponder aos sombreadores do Unity4.
+  * <b>Difusão Unity4</b>: cor da Difusão gerada a partir de BaseColor para corresponder aos sombreadores Unity4.
   * <b>Brilho Unity4</b>: a textura reluzente gerada a partir do canal Aspereza e Metálico para corresponder aos sombreadores Unity4.
   * <b>Reflexo</b>: exporte um mapa no qual o branco indique materiais dielétricos e outras cores para materiais metálicos
   * <b>1/ior</b>: 1 dividido pelo valor ior, ior é gerado a partir do mapa metálico: 1,4 para dielétricos, 100 para metais (cor preta)

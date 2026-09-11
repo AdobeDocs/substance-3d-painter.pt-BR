@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Máscara de <img src="../../../assets/generators/icon_mask_editor_dark.png" alt=""/><strong>entrada:</strong>, gerador</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Editor de Máscara é um gerador de máscara multiuso que permite combinar Texturas, Oclusão ambiente, Curvatura, Espaço mundial normal, Gradiente, Thickness e Microdetalhes em uma única máscara.<br>O gerador de Construtor de máscaras é muito flexível, mas devido à sua complexidade, ele pode afetar mais o desempenho do que a maioria dos geradores.<br><br>O gerador do Editor de Máscara gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras com base nos vários mapas baked. <br><br>Mapas normais de posição cozida, thickness, curvatura, oclusão ambiente e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador do Editor de Máscara é um gerador de máscara multiuso que permite combinar Texturas, Oclusão ambiente, Curvatura, Espaço mundial normal, Gradiente, Thickness e Micro detalhes em uma única máscara.<br>O gerador de Construtor de máscaras é muito flexível, mas devido à sua complexidade, ele pode afetar mais o desempenho do que a maioria dos geradores.<br><br>O gerador do Editor de máscaras gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras com base nos vários mapas baked. <br><br>Mapas normais de posição, thickness, curvatura, oclusão de ambiente e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -23,12 +23,12 @@ ht-degree: 3%
 | Nome de entrada | Descrição |
 | --- | --- |
 | Cor de **Textura** | Use uma textura personalizada ou um ponto de ancoragem. |
-| **Cor de textura (secundária)** | Use uma textura personalizada ou um ponto de ancoragem. |
-| **Cores Normais do Espaço Mundial** | Use o mapa World Space Normals assado. |
-| Cor do **Gradiente de posição** | Use o mapa de posição cozida. |
-| **Thickness** em tons de cinza | Use o mapa de Thicknesss assados. |
-| **Curvatura** em tons de cinza | Use o mapa de curvatura assado. |
-| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão ambiente cozido. |
+| **Cor de Textura (Secundária)** | Use uma textura personalizada ou um ponto de ancoragem. |
+| **Cores Normais do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
+| Cor do **Gradiente de posição** | Use o mapa de Posição feita bake. |
+| **Thickness** em tons de cinza | Use o mapa de Espessura feito bake. |
+| **Curvatura** em tons de cinza | Use o mapa de curvatura feita bake. |
+| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão de ambiente feito bake. |
 | Cor **Micro Normal** | Use uma textura normal personalizada ou um ponto de ancoragem. |
 | Cor do **Micro Height** | Use uma textura personalizada ou um ponto de ancoragem. |
 
@@ -40,9 +40,9 @@ ht-degree: 3%
 | **Desfoque global** | Desfoque a máscara final de maneira uniforme depois que todas as camadas forem combinadas. |
 | **Saldo Global** | Ajuste o equilíbrio da máscara final depois que todas as camadas forem combinadas entre preto ou branco, como um ajuste de brilho. |
 | **Contraste global** | Ajuste o contraste da máscara final depois que todas as camadas forem combinadas. |
-| **Opacidade da textura** | Ajuste a visibilidade da textura personalizada. |
-| **Opacidade da textura 2** | Ajuste a visibilidade da segunda textura personalizada. |
-| **Opacidade da Oclusão do ambiente** | Ajuste a visibilidade dos detalhes da oclusão ambiente. |
+| **Opacidade da Textura** | Ajuste a visibilidade da textura personalizada. |
+| **Opacidade da Textura 2** | Ajuste a visibilidade da segunda textura personalizada. |
+| **Opacidade da Oclusão do ambiente** | Ajuste a visibilidade dos detalhes da oclusão de ambiente. |
 | **Opacidade da curvatura** | Ajuste a visibilidade dos detalhes da curvatura. |
 | **Opacidade Normal Do Espaço Mundial** | Ajuste a visibilidade dos detalhes normais do espaço global. |
 | **Posição Da Opacidade Do Gradiente** | Ajuste a visibilidade dos detalhes da posição. |
@@ -61,7 +61,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Conversão em tons de cinza</strong></td>
-    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">Gerador de conversão de tons de cinza tem mais informações sobre como cada método funciona</a>.</td>
+    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">gerador de Conversão em escala cinza tem mais informações sobre como cada método funciona</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de mesclagem</strong></td>
@@ -93,7 +93,7 @@ ht-degree: 3%
   </tr>
 </table>
 
-### Textura 2
+### TEXTURA 2
 
 <table>
   <tr>
@@ -106,7 +106,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Conversão em tons de cinza</strong></td>
-    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">Gerador de conversão de tons de cinza tem mais informações sobre como cada método funciona</a>.</td>
+    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">gerador de Conversão em escala cinza tem mais informações sobre como cada método funciona</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de mesclagem</strong></td>
@@ -142,11 +142,11 @@ ht-degree: 3%
 
 | Nome do parâmetro | Descrição |
 | --- | --- |
-| **Inverter** | Inverta as camadas Oclusão ambiente e Microdetalhes. |
+| **Inverter** | Inverta as camadas de Oclusão de ambiente e Microdetalhes. |
 | **Modo de Mesclagem** | Selecione o [modo de mesclagem](../../../interface/layer-stack/blending-modes.md) a ser usado para a camada atual. |
-| **Desfoque** | Ajuste a Oclusão ambiente e a suavidade de microdetalhes. |
+| **Desfoque** | Ajuste a suavidade de Oclusão de ambiente e microdetalhes. |
 | **Saldo** | Ajuste o equilíbrio da Oclusão ambiente e dos microdetalhes, deslocando o ponto médio em direção ao preto ou branco, como um controle de brilho. |
-| **Contraste** | Ajuste o contraste/declínio da Oclusão ambiente e microdetalhes. |
+| **Contraste** | Ajuste o contraste/declínio da Oclusão de ambiente e dos microdetalhes. |
 
 ### Curvatura
 
@@ -300,7 +300,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Micro normal</strong></td>
-    <td>Ativa ou desativa a utilização de um mapa Micro Normal personalizado.</td>
+    <td>Ativar ou desativar o uso de um Micro Mapa normal personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>
@@ -320,6 +320,6 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>PROFUNDIDADE AO</strong></td>
-    <td>Ajuste a profundidade (intensidade) da Oclusão ambiente em microdetalhes.</td>
+    <td>Ajuste a profundidade (intensidade) da Oclusão de ambiente em microdetalhes.</td>
   </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2017.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ Veja a lista do novo conteúdo:
 * **230 Novos Alpha** (Mistura de padrões e imagens digitalizadas)
 * **50 Novos Procedimentos** (Principalmente padrão de tecido para roupas medievais e contemporâneas)
 * **2 Novos mapas de ambiente** (Mondarrain e Villa Nova Street)
-* **9 Novos filtros** (MatFX Detail Edge Wear, Clamp, HBAO, etc.)
+* **9 Novos filtros** (MatFX Detail Edge Wear, Restrinjo, HBAO, etc.)
 
 ![](../../assets/alpha-content.jpg)![](../../assets/alpha-demo-image.jpg)
 

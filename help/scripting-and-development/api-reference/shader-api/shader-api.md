@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento do Substance 3D Painter para criar sombreadores personalizados e estender os recursos de renderização.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Sombreadores adicionais para Substance Painter podem ser encontrados no [Substan
 >
 > O API de sombreamento também está disponível diretamente no aplicativo, indo para o menu **Ajuda > Documentação > API de sombreamento**.
 
-## Referência de sombreador
+## referência do sombreador
 
 ## Changelog
 
@@ -38,7 +38,7 @@ Sombreadores adicionais para Substance Painter podem ser encontrados no [Substan
 
 ## Aquecimento
 
-No Substance Painter, você pode escrever seus próprios shaders no *GLSL*. Permitimos que você grave somente uma *parte* do sombreador de fragmentos, que às vezes é chamado de *sombreador de superfície*. Sem mais delongas, vamos apresentar o sombreador de superfície de Substance Painter “Hello world”:
+No Substance Painter, você pode escrever seus próprios shaders no *GLSL*. Permitimos que você grave somente uma *parte* do fragmento de sombreador, que às vezes é chamado de *sombreador de superfície*. Sem mais delongas, vamos apresentar o sombreador de superfície “Hello world”:
 
 ```
 void shade(V2F inputs) { 
@@ -49,11 +49,11 @@ void shade(V2F inputs) {
 ```
 
 
-Agora, se você salvar este trecho em um arquivo *.glsl* e carregá-lo no Substance Painter, soltando-o na guia de sombreador da sua prateleira, poderá usá-lo e ver uma bela cor rosa uniforme na malha.
+Agora, se você salvar este trecho em um arquivo *.glsl* e carregá-lo no Substance Painter, soltando-o na guia sombreador da sua prateleira, poderá usá-lo e ver uma bela cor rosa uniforme na malha.
 
 ## Sombreador de superfície
 
-* [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md)
+* [superfície-sombreador.glsl](shaders-shader-api/surface-shader-shader-api.md)
 
 ## Dados fornecidos pelo mecanismo (ou como acessar meus canais?)
 
@@ -69,7 +69,7 @@ Em alguns casos, convém usar uma configuração de renderização específica (
 
 ## Ajustes personalizados (ou como ajustar meu sombreador?)
 
-É comum ter ajustes personalizados em um sombreador. Para fazer isso em Substance Painter, introduzimos uma maneira de especificar ajustes personalizados. Veja uma lista completa de todos os tipos de ajustes personalizados de sombreador:
+É comum ter ajustes personalizados em um sombreador. Para fazer isso em Substance Painter, introduzimos uma maneira de especificar ajustes personalizados. Aqui está uma lista completa de todos os tipos de ajustes de sombreador personalizados:
 
 * [all-custom-params.glsl](parameters-shader-api/all-custom-params-shader-api.md)
 
@@ -80,9 +80,9 @@ A fim de evitar a escrita de um monte de código boilerplate em todos os seus sh
 * [lib-alpha.glsl](libraries-shader-api/lib-alpha-shader-api.md) : contém auxiliares relacionados a opacidade
 * [lib-bayer.glsl](libraries-shader-api/lib-bayer-shader-api.md) : contém auxiliares de matriz de baias
 * [lib-defined.glsl](libraries-shader-api/lib-defines-shader-api.md) : contém constantes matemáticas úteis
-* [lib-emissive.glsl](libraries-shader-api/lib-emissive-shader-api.md) : contém auxiliares de propriedades emissivas
+* [lib-emissivo.glsl](libraries-shader-api/lib-emissive-shader-api.md) : contém auxiliares de propriedades de emissivo
 * [lib-env.glsl](libraries-shader-api/lib-env-shader-api.md) : contém auxiliares relacionados ao mapa de ambiente
-* [lib-normal.glsl](libraries-shader-api/lib-normal-shader-api.md) : contém auxiliares relacionados ao mapa normal (e mapa de height gerado mapa normal)
+* [lib-normal.glsl](libraries-shader-api/lib-normal-shader-api.md) : contém auxiliares relacionados ao mapa normal (e mapa normal gerado por mapa de height)
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md) : contém auxiliares de renderização baseados fisicamente
 * [lib-pbr-aniso.glsl](libraries-shader-api/lib-pbr-aniso-shader-api.md) : contém auxiliares de renderização baseados fisicamente anisotrópicos
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md) : contém auxiliares de mapeamento de oclusão de paralaxe
@@ -110,12 +110,12 @@ A fim de evitar a escrita de um monte de código boilerplate em todos os seus sh
 
 As chaves compatíveis são:
 
-* **custom-ui**: substitui a interface de usuário de parâmetros de sombreador padrão por uma exibição personalizada escrita como um módulo QML (consulte a documentação de scripts). O caminho pode ser absoluto ou relativo a uma de suas prateleiras *custom-ui* pasta.
+* **custom-ui**: substitua a interface de usuário de parâmetros de sombreador padrão por uma exibição personalizada escrita como um módulo QML (consulte a documentação de scripts). O caminho pode ser absoluto ou relativo a uma de suas prateleiras *custom-ui* pasta.
 * **mdl**: defina o material mdl Iray a ser usado com o sombreador. A sintaxe do caminho é a seguinte: *mdl::folder1::folder2::mdl\_filename::material\_name* onde *folder1::folder2::mdl\_filename* é o caminho dentro de uma das pastas de prateleira *mdl* para um arquivo mdl e *::material\_name* é o nome de um material declarado dentro desse arquivo mdl. (ex: “mdl” : “mdl::alg::materials::physical\_metallic\_roughness::physical\_metallic\_roughness”)
 
 ## Exemplos de sombreadores (yeah, finally!)
 
-Para se ter uma ideia do que parece ser um sombreador real, aqui estão algumas amostras de sombreador, ordenadas pelo aumento da complexidade:
+Para ter uma ideia do que parece ser um sombreador real, aqui estão algumas amostras de sombreador, ordenadas pelo aumento da complexidade:
 
 * [pixelated.glsl](shaders-shader-api/pixelated-shader-api.md) : um sombreador de pixelização
 * [toon.glsl](shaders-shader-api/toon-shader-api.md) : um sombreador toon
@@ -123,7 +123,7 @@ Para se ter uma ideia do que parece ser um sombreador real, aqui estão algumas 
 
 ## Camadas de material dinâmico
 
-A Camadas de material dinâmico é um fluxo de trabalho específico em que os materiais são misturados dentro de um sombreador e permitem que o usuário edite máscaras de mesclagem dinamicamente no Substance Painter. Para ativar esse fluxo de trabalho, há duas novas funcionalidades:
+A Camadas de material dinâmico é um fluxo de trabalho específico em que os materiais são misturados dentro de um sombreador e permitem que o usuário edite máscaras de mesclagem dinamicamente em Substance Painter. Para ativar esse fluxo de trabalho, há duas novas funcionalidades:
 
 * declare pilhas editáveis de uma definição de sombreador: [camadas\_declare\_stacks.glsl](parameters-shader-api/layering-declare-stacks-shader-api.md)
 * vincular materiais como parâmetros de sombreador: [camadas\_vincular\_materiais.glsl](parameters-shader-api/layering-bind-materials-shader-api.md)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/iray-renderer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
 description: Saiba como usar o renderizador Iray no Substance 3D Painter para criar visualizações e renderizações de material fotorrealista.
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ O Iray usa um conjunto específico de parâmetros, mas também propriedades comu
 
 ## Configurações do visor
 
-As Configurações de exibição permitem controlar as configurações da câmera e do pós-efeito.\
+As Configurações de exibição permitem controlar as configurações da câmera e dos pós-efeitos.\
 Eles são idênticos à renderização normal do visor, portanto permitem que estejam em sincronia e evitam diferenças indesejadas de iluminação.
 
 Para obter mais detalhes, consulte a página dedicada: [Configurações de exibição](../../interface/display-settings/display-settings.md)

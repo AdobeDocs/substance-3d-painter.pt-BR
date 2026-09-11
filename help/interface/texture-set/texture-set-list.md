@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/texture-set/texture-set-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-list.html"
 breadcrumb-title: ''
 description: Saiba como usar a lista de conjuntos de texturas no Substance 3D Painter para gerenciar e organizar vários conjuntos de texturas em seu projeto.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ Os Conjuntos de Texturas podem ter vários estados:
 
 ![](../../assets/txtset-status.png)
 
-* **Selecionado**: o Conjunto de Texturas atual que está sendo editado no momento. A seleção de um Conjunto de Texturas atualizará a [Pilha de camadas](../layer-stack/layer-stack.md) e a janela [Configurações do sombreador](../shader-settings/shader-settings.md) de acordo.
+* **Selecionado**: o Conjunto de Texturas atual que está sendo editado no momento. Selecionar um Conjunto de Texturas atualizará a [Pilha de camadas](../layer-stack/layer-stack.md) e a janela [configurações de Sombreador](../shader-settings/shader-settings.md) de acordo.
 * **Visível/Oculto** : veja a seção de visibilidade abaixo para obter mais detalhes.
 * **Desabilitado** : significa que os Conjuntos de Textura e sua pilha de camadas associada não podem ser anexados a um material na malha. Consulte a [reatribuição do Conjunto de Texturas](texture-set-reassignment.md) para obter mais informações.
 
@@ -71,8 +71,8 @@ Ao clicar com o botão direito do mouse em um nome de Conjunto de texturas, ele 
 
 ## Gerenciamento de sombreadores
 
-O botão à direita de cada nome de Conjunto de Textura pode ser usado para gerenciar a atribuição do sombreador.\
-Por padrão, cada conjunto de textura compartilha a mesma ocorrência de sombreador. No entanto, às vezes pode ser conveniente ter um sombreador diferente apenas para uma parte específica da malha. Isso pode ser feito clicando no botão e escolhendo “**Nova instância do sombreador**”. A partir daí, na janela [Configurações do sombreador](../shader-settings/shader-settings.md), é possível alterar o sombreador e seus parâmetros sem afetar outros Conjuntos de texturas.
+O botão à direita de cada nome de Conjunto de Texturas pode ser usado para gerenciar a atribuição de sombreador.\
+Por padrão, cada conjunto de texturas compartilha a mesma instância de sombreamento. No entanto, às vezes pode ser conveniente ter um sombreador diferente apenas para uma parte específica da malha. Isso pode ser feito clicando no botão e escolhendo “**Nova instância de sombreamento**”. A partir daí, na janela [Configurações de Sombreador](../shader-settings/shader-settings.md), é possível alterar o sombreador e seus parâmetros sem afetar outros Conjuntos de Textura.
 
 ![](../../assets/capture-d-e-cran-2018-07-12-a-15-45-32.png){width="500px"}
 
@@ -83,5 +83,5 @@ O botão de configurações abre um novo menu que expõe várias ações:
 * **Ocultar Descrições Vazias** (padrão): ocultar os campos de descrição se estiverem vazios
 * **Ocultar Todas as Descrições** : ocultar os campos de descrições, mesmo que não estejam vazios
 * **Mostrar Todas as Descrições** : mostrar os campos de descrições, mesmo se estiverem vazios
-* **Importar parâmetros de sombreador** : permite importar um arquivo json para configurar os parâmetros de sombreador dos conjuntos de texturas
+* **Importar Parâmetros de Sombreador** : permite importar um arquivo json para configurar os parâmetros de sombreador dos Conjuntos de Textura
 * **Reatribuir Conjuntos de Texturas**: consulte a [reatribuição de Conjuntos de Texturas](texture-set-reassignment.md) para obter mais informações.

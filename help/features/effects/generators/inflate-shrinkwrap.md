@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_inflate_shrinkwrap.webp" alt=""/><br><strong>Em:</strong> encolher, inflar, gerador, randomseed</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Inflar Shrinkwrap adiciona rugas que imitam o efeito de um material fino sendo esticado sobre a superfície da sua malha.<br><br>O gerador Inflar Encolhimento gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras que criam o efeito de quebra. No entanto, ele também pode ser colocado diretamente em uma camada de preenchimento para adicionar rugas ao height e aos canais normais.<br><br>Um mapa de curvatura assado é necessário como entrada de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Inflar Shrinkwrap adiciona rugas que imitam o efeito de um material fino sendo esticado sobre a superfície da sua malha.<br><br>O gerador Inflar Shrinkwrap gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras que criam o efeito de quebra. No entanto, ele também pode ser colocado diretamente em uma camada de preenchimento para adicionar rugas ao height e aos canais normais.<br><br>Um mapa de curvatura assado é necessário como entrada de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| **Curvatura** em tons de cinza | Use o mapa de curvatura assado. |
+| **Curvatura** em tons de cinza | Use o mapa de curvatura feita bake. |
 
 ## Parâmetros
 

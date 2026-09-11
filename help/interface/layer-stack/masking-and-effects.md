@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ''
-description: Saiba como usar máscaras e efeitos na pilha de camadas do Substance 3D Painter para controlar a visibilidade e aplicar efeitos de camada.
+description: Saiba como usar máscaras e efeitos no Substance 3D Painter pilha de camadas para controlar a visibilidade e aplicar efeitos de camada.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Layer stack > Masking and effects
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## Mascaramento
 
-As camadas podem ser mascaradas para exibir/aplicar seu conteúdo apenas em partes específicas da textura. A máscara funciona como um parâmetro de intensidade no conteúdo da camada. Uma máscara em uma camada está sempre em tons de cinza, independentemente do conteúdo usado para pintar sobre ela (portanto, qualquer cor será convertida em um valor de tons de cinza antes de ser pintada).
+As camadas podem ser mascaradas para exibir/aplicar seu conteúdo apenas em partes específicas da textura. A máscara funciona como um parâmetro de intensidade no conteúdo da camada. Uma máscara em uma camada está sempre em tons de cinza, independentemente do conteúdo usado para tinta sobre ela (portanto, qualquer cor será convertida em um valor de tons de cinza antes de ser pintada).
 
 Você pode adicionar uma máscara usando o menu de clique com o botão direito ou usando o botão dedicado :
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-7-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-3.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Painter versão 7.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ Data de lançamento: *13 de outubro de 2021*
 
 Esta versão apresenta a nova projeção de distorção 3D para camadas de preenchimento e efeitos de preenchimento. Essa projeção permite distorcer uma textura ou uma imagem com a ajuda de uma grade de deformação e pontos controláveis.
 
-* **Configuração rápida via arrastar e soltar** Escolha um material, uma alfa, uma textura ou um procedimento na biblioteca Ativos, arraste e solte na parte desejada da malha (atalho **ALT** necessário para Materiais). Se o seu ativo não for um material, um pop-up com indagação de qual canal você gostaria de atribuí-lo.\
+* **Configuração rápida via arrastar e soltar** Escolha um material, uma alfa, uma textura ou uma processual na biblioteca de ativos e arraste e solte na parte desejada da malha (atalho **ALT** necessário para materiais). Se o seu ativo não for um material, um pop-up com indagação de qual canal você gostaria de atribuí-lo.\
   Depois que a camada for criada, você verá que a nova *Projeção de distorção* é selecionada automaticamente. A camada tem controles de modo de projeção 3D padrão, mas também um novo parâmetro *Profundidade de projeção* que permite definir a profundidade da projeção de distorção (representada por setas verdes como uma fila visual).\
   Você também pode selecionar esse modo de projeção manualmente em qualquer camada de preenchimento ou efeito sem ter que arrastar e soltar um ativo na viewport.
 
@@ -55,10 +55,10 @@ Para obter mais informações sobre as configurações e propriedades da projeç
 
 ![](../../assets/cylinder-proj.jpg)
 
-Esta versão adiciona um método de projeção cilíndrica para camadas de preenchimento e efeitos de preenchimento. A nova projeção permite ajustar uma imagem ou textura ao redor de objetos, como colunas, pilares ou formas mais orgânicas, como os braços de um personagem.
+Esta versão adiciona um método de projeção cilíndrica para camadas de preenchimento e efeitos de preenchimento. A nova projeção permite ajustar uma imagem ou textura ao redor de objetos como colunas, pilares ou formas mais orgânicas, como os braços de um personagem.
 
 * **Quebrar uma imagem em torno de uma malha**\
-  Você pode quebrar uma imagem facilmente ao redor de uma superfície cilíndrica usando uma camada de preenchimento ou um efeito de preenchimento e selecionando *Projeção cilíndrica* no menu suspenso Projeção. Se a imagem não precisar ser repetida fora do gizmo de projeção, você precisará selecionar *Nenhum* para o *Empacotamento UV* e *Cortado na forma* no *Corte de forma* para garantir que a imagem não saia dos limites. Então você só precisa usar o manipulador para ajustar a projeção para a posição desejada.
+  Você pode quebrar uma imagem facilmente ao redor de uma superfície cilíndrica usando uma camada de preenchimento ou um efeito de preenchimento e selecionando *Projeção cilíndrica* no menu suspenso Projeção. Se a imagem não precisar ser repetida fora do gizmo de projeção, você precisará selecionar *Nenhum* para o *Empacotamento UV* e *Cortado na forma* no *Corte de forma* para garantir que a imagem não saia dos limites. Em seguida, basta usar o manipulador para ajustar a projeção para a posição desejada.
 
 * **Ajustar o ângulo de projeção**\
   Quando a imagem é inserida, há uma nova configuração de Ângulo disponível. Essa configuração pode ser usada para ajustar se a imagem é projetada ao redor da forma cilíndrica ou se é restrita a um certo ângulo. Ela não corta a imagem, mas reduz sua largura.
@@ -86,7 +86,7 @@ Esta versão traz várias melhorias de qualidade de vida para o seletor de cores
 
   ![](../../assets/colorpicker-swatches.gif)
 * **A janela do seletor de cores permanece aberta**\
-  A janela do seletor de cores agora pode ser movida e colocada em qualquer lugar, mesmo em uma tela diferente, e permanecerá aberta desde que não haja nenhuma alteração de contexto, o que significa que, ao alternar entre camadas de tinta ao pintar texturas à mão, você pode manter a janela do seletor de cores aberta para facilitar o acesso.
+  A janela do seletor de cores agora pode ser movida e colocada em qualquer lugar, mesmo em uma tela diferente, e permanecerá aberta desde que não haja nenhuma opção de contexto, o que significa que, ao alternar entre camadas de tinta enquanto pinta texturas à mão, você pode manter a janela do seletor de cores aberta para facilitar o acesso.
 
   ![](../../assets/picker-persistent.gif)
 
@@ -101,7 +101,7 @@ Para obter mais informações, consulte a [página de documentação dedicada](.
 
 * **Melhorias ao arrastar e soltar ativos**\
   Com a introdução da Distorção, o recurso de decalque, onde os ativos podem ser arrastados e soltos da biblioteca para a viewport enquanto mantêm o ALT, viu algum retrabalho. Agora, quando um decalque é criado dessa maneira, ele não usa mais a projeção Planar, mas a projeção Distorcer. A seleção automática da projeção de distorção deve melhorar a velocidade e a eficiência dos ajustes de decalque na malha.\
-  Além disso, agora é possível arrastar e soltar não apenas materiais, mas ativos de tipo de imagem na viewport. Ao selecionar um alfa, uma textura ou um procedimento, não há necessidade de usar o modificador ALT. Ela pode ser solta na malha - isso acionaria um menu com a opção de selecionar se essa imagem deve ser usada dentro de uma máscara ou de qualquer um dos canais da camada.
+  Além disso, agora é possível arrastar e soltar não apenas materiais, mas ativos de tipo de imagem na viewport. Ao selecionar um alfa, uma textura ou um processual, não há necessidade de usar o modificador ALT. Ela pode ser solta na malha - isso acionaria um menu com a opção de selecionar se essa imagem deve ser usada dentro de uma máscara ou de qualquer um dos canais da camada.
 
   ![](../../assets/improved-decal.gif)
 
@@ -112,7 +112,7 @@ Para obter mais informações, consulte a [página de documentação dedicada](.
   Algumas operações de manutenção e otimização foram realizadas para manipulação de controles deslizantes e desempenho de pintura.
 
 * **Novas funções na API Python**\
-  A API Python tinha visto algumas adições recentes, que permitem recarregar malha, atualizar recursos, bem como definir e consultar a resolução de blocos UV via script.
+  A API Python teve algumas adições recentes, que permitem recarregar malha, atualizar recursos, bem como definir e consultar a resolução de Blocos UV através de script.
 
 * **atualização do mecanismo de Substance 8.3.0**\
   Juntamente com algumas correções e melhorias gerais, esta atualização do mecanismo Substance agora leva em consideração novos tipos de gráficos. Também é possível verificar a versão do arquivo .sbsar, o que deve melhorar o uso e o download das versões apropriadas do Substance 3D Assets.
@@ -129,18 +129,18 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 
 **Adicionado:**
 
-* [Projeção]&#x200B;[Distorcer] Expor distorção 3D como um novo modo de projeção
-* [Projeção]&#x200B;[Distorcer] Permitir modo de decalque para Alpha, Texturas e Procedimentos com arrastar e soltar no visor
-* [Projeção]&#x200B;[Distorcer] Usar projeção de distorção com atalho de decalque (ALT)
-* [Projeção]&#x200B;[Distorcer]&#x200B;[Barra de ferramentas] Transformar distorção como um todo ou por vértices
-* [Projeção]&#x200B;[Distorcer]&#x200B;[Barra de ferramentas] Adicionar pontos de grade com opções dividir distorção cruzada, horizontal ou verticalmente
-* [Projeção]&#x200B;[Distorção]&#x200B;[Barra de ferramentas] Menu dedicado para ações de redefinição
-* [Projeção]&#x200B;[Distorção]&#x200B;[Barra de ferramentas] Opção para ajustar automaticamente as tangentes ao mover os pontos
-* [Projection]&#x200B;[Warp]&#x200B;[Toolbar] Menu dedicado para edição de grade (tamanho, redefinição, cor e tamanho da alça)
-* [Projeção]&#x200B;[Distorcer] Novo atalho de teclado para alternar o modo de edição de distorção de vértices inteiros (SHIFT+V)
-* [Projeção]&#x200B;[Distorcer] Clicar + Ctrl permite alternar entre a ferramenta de superfície e outras ferramentas
-* [Projeção]&#x200B;[Cilíndrica] Expor o modo de projeção cilíndrica
-* [Projeção]&#x200B;[Barra de ferramentas] Configurações do manipulador de grupo (tamanho, etapas da grade, etapas do ângulo)
+* [Projeção][Distorcer] Expor distorção 3D como um novo modo de projeção
+* [Projeção][Distorcer] Permitir modo de decalque para Alpha, Texturas e Procedimentos com arrastar e soltar no visor
+* [Projeção][Distorcer] Usar projeção de distorção com atalho de decalque (ALT)
+* [Projeção][Distorcer][Barra de ferramentas] Transformar distorção como um todo ou por vértices
+* [Projeção][Distorcer][Barra de ferramentas] Adicionar pontos de grade com opções dividir distorção cruzada, horizontal ou verticalmente
+* [Projeção][Distorção][Barra de ferramentas] Menu dedicado para ações de redefinição
+* [Projeção][Distorção][Barra de ferramentas] Opção para ajustar automaticamente as tangentes ao mover os pontos
+* [Projection][Warp][Toolbar] Menu dedicado para edição de grade (tamanho, redefinição, cor e tamanho da alça)
+* [Projeção][Distorcer] Novo atalho de teclado para alternar o modo de edição de distorção de vértices inteiros (SHIFT+V)
+* [Projeção][Distorcer] Clicar + Ctrl permite alternar entre a ferramenta de superfície e outras ferramentas
+* [Projeção][Cilíndrica] Expor o modo de projeção cilíndrica
+* [Projeção][Barra de ferramentas] Configurações do manipulador de grupo (tamanho, etapas da grade, etapas do ângulo)
 * [Seletor de cores] Nova interface do seletor de cores
 * [Seletor de cores] Usar valores sRGB nos widgets do seletor de cores
 * [Seletor de cores] Permite salvar e excluir amostras de cores
@@ -151,9 +151,9 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 * [Seletor de cores] Pressionar Esc fecha a janela do seletor de cores
 * Melhoria de desempenho para interação de interface e ao pintar
 * [Engine] Atualização para a nova versão do mecanismo de Substance (8.3.0)
-* [Scripting]&#x200B;[Python] Permite recarregar a malha do projeto atual
-* [Scripting]&#x200B;[Python] Permitir atualização de recursos em projetos
-* [Scripting]&#x200B;[Python] Permite definir e consultar a resolução de blocos UV
+* [Scripting][Python] Permite recarregar a malha do projeto atual
+* [Scripting][Python] Permitir atualização de recursos em projetos
+* [Scripting][Python] Permite definir e consultar a resolução de blocos UV
 * [Interoperabilidade] Não disponível para as edições Steam e Substance
 * [Interoperabilidade] Receber vários recursos do Bridge
 
@@ -168,9 +168,9 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 
 **Problemas Conhecidos:**
 
-* [Projeção]&#x200B;[Distorcer] A opção Dividir permanece selecionada após a conclusão da divisão
-* [Projeção]&#x200B;[Distorcer] O recurso Inverter não funciona quando a transformação está definida como espaço global
-* [Projeção]&#x200B;[Distorção] Linhas de artefato entre correções em alguns casos raros
-* [Projeção]&#x200B;[UV] O ponto dinâmico é redefinido ao inverter a projeção
+* [Projeção][Distorcer] A opção Dividir permanece selecionada após a conclusão da divisão
+* [Projeção][Distorcer] O recurso Inverter não funciona quando a transformação está definida como espaço global
+* [Projeção][Distorção] Linhas de artefato entre correções em alguns casos raros
+* [Projeção][UV] O ponto dinâmico é redefinido ao inverter a projeção
 * [Mac M1] Os materiais inteligentes não são exibidos corretamente
-* [M1]&#x200B;[Regressão] Camadas de material não funcionando
+* [M1][Regressão] Camadas de material não funcionando

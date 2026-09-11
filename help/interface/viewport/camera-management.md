@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/viewport/camera-management.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
-description: Saiba como gerenciar as exibições de câmera no visor do Substance 3D Painter para navegar e enquadrar seus modelos 3D de forma eficaz.
+description: Saiba como gerenciar as exibições de câmera no visor do Substance 3D Painter para navegar e quadro seus modelos 3D de forma eficaz.
 helpx_creative_field: ''
 helpx_description: Painter > Interface > Viewport > Camera management
 helpx_experience_level: ''
@@ -24,7 +24,7 @@ Câmeras criadas no Maya, Max, Blender, Modo e DAE podem ser importadas para o S
 
 >[!NOTE]
 >
-> Câmeras ortográficas e proporções de exibição não são corretamente suportadas no formato ABC (Alembic).
+> Câmeras ortográficas e taxas de exibição não são corretamente suportadas no formato ABC (Alembic).
 
 ## Importar câmeras no Substance 3D Painter
 
@@ -47,7 +47,7 @@ Em seguida, clique em **OK**:
 
 Quando as câmeras forem importadas para o seu projeto atual, você poderá selecionar qual câmera estará ativa no **menu suspenso** no **Visor 3D**.
 
-Por padrão, a câmera do Painter chamada “Câmera padrão” está selecionada e no modo de perspectiva.
+Por padrão, a câmera do Painter chamada “Câmera padrão” está selecionada e no modo de Perspectiva.
 
 ![](../../assets/camera-select.png)
 
@@ -93,11 +93,11 @@ Para bloquear uma câmera, clique no ícone de cadeado. Bloquear uma câmera evi
 
 ## Moldura da câmera
 
-O quadro da câmera pode ser alternado em **Configurações de exibição > Configurações do visor**:
+O quadro da câmera pode ser alternado em **Configurações de Exibição > Configurações de Visor**:
 
 ![](../../assets/image2018-7-26-15-54-58.png)
 
-Você também pode ajustar a opacidade da área fora do quadro com a **Opacidade da máscara de porta**.
+Você também pode ajustar a opacidade da área fora da quadro com a **Opacidade da máscara de portão**.
 
 <table>
   <tr style="border: 0;">

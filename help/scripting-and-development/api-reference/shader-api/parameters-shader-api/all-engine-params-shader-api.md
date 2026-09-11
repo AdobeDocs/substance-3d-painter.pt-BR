@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a referência da API de sombreamento Todos os parâmetros de mecanismo do Substance 3D Painter para controlar os parâmetros de sombreador no nível do mecanismo.
+description: Acesse a referência Todos os Parâmetros do Mecanismo para que o Substance 3D Painter controle os parâmetros de sombreador no nível do mecanismo.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
 helpx_experience_level: ""
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ## Exemplos de parâmetros de mecanismo
 
-## Parâmetros de textura
+## Textura parâmetros
 
 O Substance Painter usa um sistema SVT (Textura Virtual Esparsa) para exibir texturas na viewport.
 
 Para obter mais informações sobre este sistema, vá para a [documentação online](../../../../features/sparse-virtual-textures.md).
 
-Este sistema tem repercussões em como escrever código de sombreador. Estamos fornecendo auxiliares para simplificar seu uso com as funções de pesquisa de textura e estrutura do *SamplerSparse* (consulte [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
+Esse sistema tem repercussão sobre como escrever código de sombreador. Estamos fornecendo auxiliares para simplificar seu uso com a estrutura do *SamplerSparse* e as funções de pesquisa de textura (consulte [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
 
 Uso básico:
 
@@ -45,7 +45,7 @@ uniform SamplerSparse uniform_tex;   // Texture sampler and its information
 ```
 
 
-Os parâmetros de textura permitem usar o operador &#39;or&#39; para definir um fallback:
+Os parâmetros de Textura permitem usar o operador &#39;or&#39; para definir um fallback:
 
 ```
 //: param auto TEXTURE_TAG_1 or TEXTURE_TAG_2 
@@ -75,7 +75,7 @@ Todas essas texturas são **pré-multiplicadas** e **dilatadas** para evitar pro
 *textura\_id* : mapa de ID\
 *textura\_normal* : mapa de espaço tangente normal\
 *textura\_normal\_ws* : mapa normal do espaço global\
-*textura\_posição* : mapa de posição do espaço global\
+*textura\_posição* : mapa da posição do espaço global\
 *textura\_thickness* : mapa de Thickness
 
 ## Parâmetros de textura adicionais
@@ -95,7 +95,7 @@ uniform vec4 uniform_tex_size;   // The size of the texture (width, height, 1/wi
 ```
 
 
-Os parâmetros de textura permitem usar o operador &#39;or&#39; para definir um fallback:
+Os parâmetros de Textura permitem usar o operador &#39;or&#39; para definir um fallback:
 
 ```
 //: param auto TEXTURE_TAG_1 or TEXTURE_TAG_2 
@@ -112,7 +112,7 @@ uniform vec4 uniform_tex_size; // if TEX_TAG_1 exists then TEX_TAG_1_size else T
 
 Em que *TEXTURE\_TAG* é uma das marcas descritas abaixo.
 
-*textura\_azul\_noise* : uma textura de ruído azul\
+*textura\_blue\_noise* : Uma textura de ruído azul\
 *textura\_ambiente* : mapa de ambiente, **mip-mapped**, use [lib-env.glsl](../libraries-shader-api/lib-env-shader-api.md) para usar este
 
 ## Outros parâmetros
@@ -200,7 +200,7 @@ uniform float uniform_fovy;
 ```
 
 
-*is\_2d\_view* : um *bool* indicando se a renderização é executada para exibição 2D ou não
+*is\_2d\_view* : um *bool* indicando se a renderização é executada para o Visualização 2D ou não
 
 ```
 //: param auto is_2d_view 
@@ -209,7 +209,7 @@ uniform bool uniform_2d_view;
 ```
 
 
-*is\_perspective\_projection* : um *bool* indicando se a projeção é em perspectiva ou ortográfica
+*é\_Perspectiva\_projeção* : um *bool* indicando se a projeção é Perspectiva ou ortográfica
 
 ```
 //: param auto is_perspective_projection 

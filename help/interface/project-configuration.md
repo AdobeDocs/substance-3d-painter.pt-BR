@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/project-configuration.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
-description: Saiba como definir as configurações do projeto no Substance 3D Painter para definir a resolução da textura, os canais e as propriedades do projeto.
+description: Saiba como definir as configurações do projeto no Substance 3D Painter para definir a resolução de textura, os canais e as propriedades do projeto.
 helpx_creative_field: ''
 helpx_description: Painter > Interface > Project configuration
 helpx_experience_level: ''
@@ -54,7 +54,7 @@ Esta seção controla várias configurações relacionadas ao projeto:
   </tr>
   <tr>
     <td><strong>Formato de mapa normal</strong></td>
-    <td>Define o formato do mapa normal usado para a malha no visor. Este parâmetro afeta somente os <a href="shader-settings/shader-settings.md">sombreadores</a> do visor e dos mapas de malha dos <a href="../baking/baking.md">padeiros</a>. A pilha de camadas é independente. Valor recomendado para aplicativos comuns:<br><br><ul><li><strong>Unidade</strong>: OpenGL</li><li><strong>Mecanismo Irreal</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Máx</strong>: DirectX</li><li><strong>Mesclador</strong>: OpenGL</li></ul></td>
+    <td>Define o formato de mapa normal usado para a malha no visor. Este parâmetro afeta somente os <a href="shader-settings/shader-settings.md">sombreadores</a> do visor e dos mapas de malha dos <a href="../baking/baking.md">padeiros</a>. A pilha de camadas é independente. Valor recomendado para aplicativos comuns:<br><br><ul><li><strong>Unidade</strong>: OpenGL</li><li><strong>Mecanismo Irreal</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Máx</strong>: DirectX</li><li><strong>Mesclador</strong>: OpenGL</li></ul></td>
   </tr>
   <tr>
     <td><strong>Calcular espaço tangente por fragmento</strong></td>
@@ -64,7 +64,7 @@ Esta seção controla várias configurações relacionadas ao projeto:
 
 >[!NOTE]
 >
-> Alterar o formato normal ou o cálculo da tangente requer voltar a preparar os mapas de malha para garantir que a aparência nas viewports esteja correta.
+> Alterar o formato normal ou o cálculo da tangente requer fazer bake novamente os mapas de malha para garantir que a aparência nas viewports esteja correta.
 
 ### Configurações específicas do tipo de arquivo
 
@@ -79,11 +79,11 @@ Quando um formato de malha USD é selecionado, outras configurações específic
   </tr>
   <tr>
     <td><strong>Escopo e variantes</strong></td>
-    <td>Selecione uma parte específica de um arquivo do USD. Por padrão, é definido como “Raiz”, o que significa que o arquivo USD inteiro será usado no projeto do Painter. <strong>Alterar...</strong> abre uma nova janela que exibe o conteúdo do USD. Se forem detectadas variantes, você poderá selecionar uma variante específica para carregar no projeto.<br><br>Observação:<br><ul><li>Somente a seleção da variante de modelagem terá qualquer impacto.</li><li>Variantes aninhadas dentro de variantes não são detectadas no momento.</li></ul></td>
+    <td>Selecione uma parte específica de um arquivo USD. Por padrão, é definido como “Raiz”, o que significa que o arquivo USD inteiro será usado no projeto do Painter. <strong>Alterar...</strong> abre uma nova janela que exibe o conteúdo do USD. Se forem detectadas variantes, você poderá selecionar uma variante específica para carregar no projeto.<br><br>Observação:<br><ul><li>Somente a seleção da variante de modelagem terá qualquer impacto.</li><li>Variantes aninhadas dentro de variantes não são detectadas no momento.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Nível de subdivisão</strong></td>
-    <td>Aplica-se à geometria com subdivisão. Especifique o quanto subdividir a malha para texturização no Painter. Se a subdivisão for explicitamente definida como 'none' no arquivo USD, essa configuração ficará acinzentada. A subdivisão é aplicada após o desencapsulamento UV, de modo que não alteraria a forma dos UVs da malha.</td>
+    <td>Aplica-se à geometria com subdivisão. Especifique o quanto subdividir a malha para texturização no Painter. Se a subdivisão for explicitamente definida como 'nenhum' no arquivo USD, essa configuração ficará acinzentada. A subdivisão é aplicada após o desencapsulamento UV, de modo que não alteraria a forma dos UVs da malha.</td>
   </tr>
   <tr>
     <td><strong>Quadro</strong></td>
@@ -93,7 +93,7 @@ Quando um formato de malha USD é selecionado, outras configurações específic
 
 ## Configurações de Blocos UV
 
-Esta seção tem controles para alternar o uso de UDIMs no projeto. Não é possível alterar essas configurações após a criação do projeto, mas você pode visualizar as configurações do projeto aqui. Para obter mais informações, consulte a [documentação de Blocos UV](../features/uv-tiles/uv-tiles.md).
+Esta seção tem controles para alternar o uso de UDIMs no projeto. Não é possível alterar essas configurações após a criação do projeto, mas você pode visualizar as configurações do projeto aqui. Para obter mais informações, consulte a [documentação sobre Blocos UV](../features/uv-tiles/uv-tiles.md).
 
 ## Configurações de importação
 
@@ -103,7 +103,7 @@ Estas configurações controlam como a malha selecionada será importada:
 | --- | --- |
 | **Importar câmeras** | Se ativadas, as câmeras presentes no arquivo de malha também serão importadas e estarão disponíveis na viewport 3D. |
 | **Preservar posições de traçados na malha** | Essa configuração controla como os traçados de pincel serão recalculados após a importação de uma nova malha 3D. É recomendável manter essa configuração ativada na maioria dos casos. Para obter mais detalhes, consulte a documentação da [Reprojeção UV](../features/uv-reprojection.md). |
-| **Desempacotamento Automático** | Desempacotamento automático de UV. Clique no botão Opção para configurar o processo. Para obter mais informações, consulte a [Documentação de desencapsulamento automático de UV](../features/automatic-uv-unwrapping.md). |
+| **Contornar automaticamente** | Desempacotamento automático de UV. Clique no botão Opção para configurar o processo. Para obter mais informações, consulte a [Documentação de desencapsulamento automático de UV](../features/automatic-uv-unwrapping.md). |
 
 ### Configurações do tamanho físico
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
 breadcrumb-title: ''
 description: Saiba como gerenciar a lista de exportações na janela de exportação do Substance 3D Painter para organizar suas exportações de textura.
 helpx_creative_field: ""
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ![](../../assets/list-of-export.png){width="550px"}
 
-A <b>guia Lista de exportação </b>da <b>janela Exportar </b>lista as texturas exportadas de cada conjunto de Texturas, com um console indicando o status da exportação, incluindo mensagens de erro.
+A guia <b>Lista de exportação </b>da <b>janela Exportar </b>lista as texturas exportadas de cada conjunto de Textura, com um console indicando o status da exportação, incluindo mensagens de erro.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/auto-update.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
 breadcrumb-title: ''
 description: Saiba como usar a atualização automática de recursos no Substance 3D Painter para manter suas bibliotecas de recursos sincronizadas e atualizadas.
 helpx_creative_field: ""
@@ -44,8 +44,8 @@ As configurações de atualização automática controlam a frequência com que 
 
 | Configuração | Descrição |
 | --- | --- |
-| <b>Painel Ativos</b> | Se ativada, a atualização automática procurará ativos para atualizar em todas as bibliotecas carregadas atualmente. Isso inclui o projeto atual. No entanto, ele não atualizará os recursos usados na pilha de camadas, configurações de exibição, configurações de sombreador etc. |
-| <b>Recursos usados no projeto</b> | Se ativado, a atualização automática procurará ativos para atualizar que são atualmente importados e usados pelo projeto atual. Isso se aplica a recursos usados na pilha de camadas, configurações de exibição, configurações de sombreador etc. |
+| <b>Painel Ativos</b> | Se ativada, a atualização automática procurará ativos para atualizar em todas as bibliotecas carregadas atualmente. Isso inclui o projeto atual. No entanto, ele não atualizará os recursos usados na pilha de camadas, nas configurações de exibição, nas configurações de sombreador etc. |
+| <b>Recursos usados no projeto</b> | Se ativado, a atualização automática procurará ativos para atualizar que são atualmente importados e usados pelo projeto atual. Isso se aplica aos recursos usados na pilha de camadas, nas configurações de exibição, nas configurações de sombreador etc. |
 | <b>Atualizar a cada x minutos</b> | Controle a frequência com que o aplicativo procura uma atualização de recursos. Um atraso de 0 minutos acionará uma atualização a cada poucos segundos. Observe que esse atraso baixo pode criar problemas de desempenho. |
 
 >[!NOTE]

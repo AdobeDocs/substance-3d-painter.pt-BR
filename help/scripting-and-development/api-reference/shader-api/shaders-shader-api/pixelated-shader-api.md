@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência de API de sombreamento pixelada para o Substance 3D Painter para criar efeitos de renderização pixelados personalizados.
 helpx_creative_field: ""
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-**Associamos** a **cor base** do canal do documento ao nosso **basecolor\_tex** uniforme.
+**Associamos** o canal **cor de base** do documento ao nosso **basecolor\_tex** uniforme.
 
 ```
 //: param auto channel_basecolor 
@@ -131,7 +131,7 @@ Calculamos alguns valores úteis.
 ```
 
 
-Introduza alguma tremulação no tamanho da máscara, com base na luminância da cor de base
+Introduza um pouco de tremulação no tamanho da máscara, com base na luminância da cor de base
 
 ```
   float maskRadiusJitter = pow(dot(baseColor, vec3(0.3333)), 0.1);
@@ -145,7 +145,7 @@ Calcular um valor de máscara com base na posição do espaço da tela do fragme
 ```
 
 
-Aqui, obtemos uma amostra da cor base e aplicamos uma atenuação difusa simples
+Aqui, fazemos uma amostra da cor de base e aplicamos uma atenuação difusa simples
 
 ```
   vec3 color = baseColor * NdL; 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a biblioteca Define a referência de API de sombreamento para o Substance 3D Painter definir constantes de sombreador e diretivas de pré-processador.
+description: Acesse a Lib Define a referência de API de sombreamento do Substance 3D Painter para definir constantes de sombreador e diretivas de pré-processador.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Defines - Shader API
 helpx_experience_level: ""

@@ -43,7 +43,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Opacidade da grade do verificador</strong></td>
-    <td>Ajuste a opacidade da grade. Com a opacidade 0, somente uma textura de quadriculado é visível, sem uma grade.</td>
+    <td>Ajuste a opacidade da grade. Com a opacidade 0, somente uma textura de quadriculado fica visível, sem uma grade.</td>
   </tr>
   <tr>
     <td><strong>Cor das bordas UV</strong></td>

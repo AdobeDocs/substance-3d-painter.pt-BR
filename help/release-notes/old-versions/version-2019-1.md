@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2019.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ Data de lançamento: *23 de abril de 2019*
 
 Com esta versão, nosso mecanismo de pincel agora oferece suporte ao que chamamos de Traçados dinâmicos. Esses tipos de traços criam variações e novos efeitos graças à geração de novas versões de Substance em tempo real. Agora é possível ter um novo material de Substance ou alfa para cada novo traçado de pincel pintado no ativo.
 
-Quando um recurso compatível com Traçado dinâmico for carregado na ferramenta Pintura (Pintar, Borracha, Borrar ou Clonar), um novo grupo de parâmetros será exibido:
+Quando um recurso compatível com o Dynamic Stroke for carregado na ferramenta de Tinta (Tinta, Borracha, Borrar ou Clonar), um novo grupo de parâmetros será exibido:
 
 ![](../../assets/dynamic-stroke-ui.png)
 
@@ -65,7 +65,7 @@ Também adicionamos várias **predefinições de ferramenta** novas para brincar
 
 ![](../../assets/displacement-demo.gif)
 
-O Substance Painter agora oferece suporte a **Deslocamento** e **mosaico de malha** em seu visor em tempo real e no Iray. Ambos podem ser controlados na janela **Configurações do sombreador** abaixo dos parâmetros do sombreador.
+O Substance Painter agora oferece suporte a **Deslocamento** e **mosaico de malha** em seu visor em tempo real e no Iray. Ambos podem ser controlados na janela **Configurações de Sombreador** abaixo dos parâmetros de sombreador.
 
 ![](../../assets/disp-settings-1.png)
 
@@ -86,7 +86,7 @@ Carregue o projeto de amostra “**Material de revestimento**” (em **Arquivo >
 >
 > Um novo filtro chamado “**Height To Normal**” foi adicionado à Prateleira e pode ser usado para obter o mapa normal final (caso a conversão nativa por Substance Painter não seja forte o suficiente).
 
-### Comparar efeito de máscara
+### Efeito Comparar máscara
 
 ![](../../assets/compare-mask.png)
 
@@ -102,14 +102,14 @@ O efeito Comparar máscara tem as seguintes propriedades:
 
 ![](../../assets/compare-mode.png)
 
-Para facilitar ainda mais a configuração, você pode clicar com o botão direito do mouse em uma camada e escolher o atalho “**Adicionar máscara com combinação de height**” para adicionar rapidamente essa nova máscara à camada. Esse atalho também alterará o modo de mesclagem do canal de Height para “Normal” em vez do padrão “Subexposição Linear (Adicionar)”.\
+Para facilitar ainda mais a configuração, você pode clicar com o botão direito do mouse em uma camada e escolher o atalho “**Adicionar máscara com combinação de height**” para adicionar rapidamente essa nova máscara à camada. Esse atalho também alterará o modo de mesclagem do canal de Height para “Normal” em vez do padrão “Subexposição linear (Adicionar)”.\
 ![](../../assets/compare-shortcut.png)
 
 ### Simetria radial
 
 ![](../../assets/radial-demo.gif)
 
-Expandimos as capacidades da nossa ferramenta de simetria para lidar com a simetria radial. Agora existe um novo modo no menu de configurações de simetria para ativá-lo (disponível na barra de ferramentas contextual).
+Expandimos os recursos da nossa ferramenta de simetria para lidar com a simetria radial. Agora há um novo modo no menu de configurações de simetria para ativá-lo (disponível na barra de ferramentas contextual).
 
 As seguintes configurações estão disponíveis:
 
@@ -117,7 +117,7 @@ As seguintes configurações estão disponíveis:
 * **Contagem** : o número de pontos duplicados.
 * **Extensão de Ângulo**: o local dos pontos duplicados do original. Esta configuração pode ser usada para fazer um círculo completo ou um quarto dele, etc.
 
-Também adicionamos uma pequena visualização para facilitar o ajuste das configurações antes de começar a pintar:
+Também adicionamos uma pequena visualização para facilitar o ajuste das configurações antes de começar a tinta:
 
 ![](../../assets/radial-settings.png)
 
@@ -125,20 +125,20 @@ Também adicionamos uma pequena visualização para facilitar o ajuste das confi
 
 ![](../../assets/fill-proj.jpg)
 
-Dois novos modos de projeção foram adicionados com camadas de preenchimento e efeitos de preenchimento: **Planar** e **Esférico**. Também adicionamos muitos parâmetros novos para controlar ainda mais os comportamentos das projeções 3D.
+Dois novos modos de projeção foram adicionados com camadas de preenchimento e efeitos de preenchimento: **Planares** e **Esféricos**. Também adicionamos muitos parâmetros novos para controlar ainda mais os comportamentos das projeções 3D.
 
 * **Novo modo de Projeção Planar**\
   Agora é possível projetar um avião com esse novo modo. Pode ser útil para criar faixas em veículos ou colocar decalques em um local específico.
 
   ![](../../assets/planar-proj.png)
-* **Ferramenta de superfície para projeção planar**\
-  Para facilitar a manipulação da projeção planar, também adicionamos um novo controle para o Manipulador 3D que chamamos de **Ferramenta Superfície**, que pode ser acessada com o atalho “**Shift+W**”. Ele também pode ser acessado pela Barra de ferramentas contextual. Observe que esse novo modo só está disponível com a Projeção planar.
+* **Ferramenta de superfície para projeção Planar**\
+  Para facilitar a manipulação da projeção planar, também adicionamos um novo controle para o Manipulador 3D que chamamos de **Ferramenta Superfície**, que pode ser acessada com o atalho “**Shift+W**”. Ele também pode ser acessado pela Barra de ferramentas contextual. Observe que esse novo modo só está disponível com a Projeção Planar.
 
   ![](../../assets/surface-tool-toolbar.png)
 
   ![](../../assets/surface-tool-optim.gif)
-* **Remoção/Atenuação da Projeção Planar**\
-  Várias configurações estão disponíveis para tornar a projeção planar contínua ou finita. Quando uma configuração de remoção está ativada, a caixa pontilhada ao redor do manipulador indica a caixa delimitadora da projeção e a linha do meio é onde a projeção começa. Dimensionar a projeção permite controlar até onde ela vai e quando começa a esmaecer.
+* **Remoção/Atenuação de Projeção Planar**\
+  Várias configurações estão disponíveis para tornar a projeção planar contínua ou finita. Quando uma configuração de remoção está ativada, a caixa pontilhada ao redor do manipulador indica a caixa delimitadora da projeção e a linha do meio é onde a projeção é iniciada. Dimensionar a projeção permite controlar até onde ela vai e quando começa a esmaecer.
 
   ![](../../assets/planar-culling.gif){width="500px"}
 
@@ -157,7 +157,7 @@ Dois novos modos de projeção foram adicionados com camadas de preenchimento e 
   ![](../../assets/repeat-mode.png)
 
   ![](../../assets/uv-transform.png)
-* **Modo de todos os eixos do Manipulador de rotação aprimorado** Em vez de desenhar uma esfera explícita, agora ela está oculta para evitar a ocultação da texturização abaixo. Clicar entre os eixos selecionará a esfera que permite girar todos os eixos de uma vez.\
+* **Modo de todos os eixos de Manipulador de rotação aprimorado** Em vez de desenhar uma esfera explícita, agora ela está oculta para evitar a ocultação da texturização abaixo. Clicar entre os eixos selecionará a esfera que permite girar todos os eixos de uma vez.\
   ![](../../assets/manip-rotation-optim.gif)
 
 ### Várias melhorias
@@ -169,7 +169,7 @@ Dois novos modos de projeção foram adicionados com camadas de preenchimento e 
   No modo de seleção múltipla ainda há a noção de um conjunto de textura “principal”, e é por isso que os elementos adicionais são selecionados em cinza. Se você precisar alternar para um conjunto de textura diferente ao manter a seleção atual, use o botão do meio do mouse para fazer isso.
 * **Mostrar/ocultar rapidamente na Lista de Conjuntos de Texturas**\
   Agora você pode clicar e arrastar (como na pilha de camadas) para ocultar ou mostrar Conjuntos de texturas.
-* **Interface do Usuário Aprimorada para Pilha de Camadas**\
+* **Interface do usuário aprimorada para Pilha de camadas**\
   Alteramos o ícone do estado oculto/exibido de uma camada para que seja mais consistente e mais fácil de entender. Também alteramos a maneira como as camadas selecionadas são exibidas para facilitar a comparação com a seleção de seus efeitos e outras camadas.\
   ![](../../assets/layer-stack-selection-ui.gif)
 * **Nova posição de efeito com base na seleção atual** Qualquer novo efeito adicionado a uma camada agora será colocado logo acima da camada selecionada atualmente.\
@@ -231,15 +231,15 @@ Nesta versão, também adicionamos muito conteúdo novo: de predefinições a al
   * **Height para Normal** : Este filtro converte o canal do Height em Normal e o alimenta no canal Normal. Ele tem controles de intensidade diferentes dependendo das necessidades.
   * **Contorno da Máscara**: este filtro cria uma borda branca em preto ao redor de uma entrada em tons de cinza. Isso é mais útil em Máscara para criar bordas ao redor das formas.
   * **Validações do PBR**: adicionamos este filtro para verificar se as cores do material PBR estão nos intervalos corretos. Para obter mais informações, consulte o [Guia de PBR](https://www.allegorithmic.com/pbr-guide) !
-  * **Pintura de Descascamento MatFX** : simula a pintura antiga começando a descascar. Esse filtro gera alfa, o que facilita a mesclagem com materiais abaixo dele.
+  * **Tinta de Descascamento do MatFX** : simula uma tinta antiga começando a descascar. Esse filtro gera alfa, o que facilita a mesclagem com materiais abaixo dele.
   * **Gotas de Água MatFx** : simula gotas de água na superfície de um objeto. Como água em um carro depois da chuva.
 * **7 novos Geradores**\
   Com esta versão, adicionamos alguns novos geradores:
 
-  * **Oclusão de ambiente** : gerador de máscara que oferece controles sobre o mapa de malha de Oclusão de ambiente. Com base no Editor de máscara.
-  * **Normais do Espaço Mundial** : gerador de máscara que oferece controles sobre o mapa de Malha de Normais do Espaço Mundial. Com base no Editor de máscara.
-  * **Posição** : gerador de máscara que oferece controles sobre o mapa de malha de posição. Com base no Editor de máscara.
-  * **Curvatura** : gerador de máscara que oferece controles sobre o mapa de malha de curvatura. Com base no Editor de máscara.
+  * **Oclusão de ambiente** : Gerador de máscara que oferece controles sobre o mapa de Malha de Oclusão de ambiente. Com base no Editor de máscara.
+  * **Normas do Espaço Mundial** : Gerador de máscara que oferece controles sobre o mapa de Malha de Normas do Espaço Mundial. Com base no Editor de máscara.
+  * **Posição** : Gerador de máscara que oferece controles sobre o mapa de Malha de Posição. Com base no Editor de máscara.
+  * **Curvatura** : Gerador de máscara que oferece controles sobre o mapa de Malha de Curvatura. Com base no Editor de máscara.
   * **Titcher automático** : gerador de máscara que cria pontos perto das bordas UV, da Curvatura de malha ou ao redor de uma entrada de máscara personalizada.
   * **Densidade de texel UV**: auxiliar que gera um gradiente colorido com base na Densidade de texel dos polígonos da malha.
   * **Cor Aleatória UV** : gera uma cor aleatória por Ilha UV (ou com base em uma entrada de gradiente personalizada).
@@ -280,7 +280,7 @@ Resumo: **Correção de erro com 2 novos recursos**
 * [TextureSet] Falha ao clicar entre máscaras
 * [SVT] O Deslocamento não é exibido corretamente e pisca em alguns casos
 * [Alembic] Falha com malha usando normais de ponto em vez de normais de vértice
-* [Alembic]&#x200B;[Log] Relata um erro no Log se o arquivo Alembic não for suportado durante a importação
+* [Alembic][Log] Relata um erro no Log se o arquivo Alembic não for suportado durante a importação
 
 ### 2019.1.2
 
@@ -303,9 +303,9 @@ Resumo: **HotFix**
 **Corrigido:**
 
 * [Substance] Visível Se não for levado em consideração para Imagens de entrada
-* [SVT]&#x200B;[Mecanismo] Alterar a resolução do conjunto de texturas leva a uma falha em alguns casos
+* [SVT][Mecanismo] Alterar a resolução do conjunto de texturas leva a uma falha em alguns casos
 * [Engine] Texturas pretas aleatórias aparecem em alguns casos
-* [Pilha de camadas]&#x200B;[IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
+* [Pilha de camadas][IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
 * [Pilha de camadas] A opacidade não tem efeito no efeito Pintura com o modo de mistura Passagem
 * [Pilha de camadas] A entrada do filtro Height para normal não é atualizada corretamente com o traçado do pincel de borracha
 * [LayersStack] Falha ao desfazer o soltar de uma máscara inteligente
@@ -334,38 +334,38 @@ Resumo: **Traço dinâmico com novo conteúdo dedicado, Deslocamento e mosaico e
 * [Traço dinâmico] Leve em consideração o parâmetro $time
 * [Traço dinâmico] Gera novo parâmetro $randomseed por traço e por carimbo
 * [Traçado dinâmico] Iniciar um índice de traçado dinâmico a partir de um número aleatório
-* [Dynamic stroke]&#x200B;[Prateleira] Ajuda a encontrar um recurso de traçado dinâmico com novo ícone dedicado
+* [Dynamic stroke][Prateleira] Ajuda a encontrar um recurso de traçado dinâmico com novo ícone dedicado
 * Deslocamento e mosaico em viewport em tempo real
 * Deslocamento e mosaico em Irlanda
-* [Configurações do sombreador]&#x200B;[IU] Nova guia para controlar deslocamento e mosaico
+* [Configurações do sombreador][IU] Nova guia para controlar deslocamento e mosaico
 * [Pilha de camadas] Novo efeito CompareMask: gerar uma máscara comparando dois canais
-* [Pilha de camadas]&#x200B;[IU] Nova entrada no menu do botão direito do mouse “Adicionar máscara com combinação de height” para inserir um efeito CompareMask
+* [Pilha de camadas][IU] Nova entrada no menu do botão direito do mouse “Adicionar máscara com combinação de height” para inserir um efeito CompareMask
 * [Simetria] Novo modo de simetria: pintura radial
 * [Configurações de simetria] Expande as duas seções “Configurações” e “Exibição”
-* [Configurações de simetria]&#x200B;[IU] Visualização para pintura radial
+* [Configurações de simetria][IU] Visualização para pintura radial
 * Exponha dois novos modos de projeção: planar e esférico
 * [Proj] Novo modo de corte de forma para todas as projeções
 * [Proj] Modo planar com novo manipulador: ferramenta Superfície
-* [Proj]&#x200B;[Atalho] Atalho SHIFT+W para a ferramenta Superfície
+* [Proj][Atalho] Atalho SHIFT+W para a ferramenta Superfície
 * [Proj] Máscara de projeção planar com seleção de profundidade e abate de backface
 * [Manipulador] Melhoria do manipulador de rotação nos três eixos para triplanar
-* [Tool]&#x200B;[UX] Clicar com a tecla Alt pressionada em um canal focaliza esse canal (ativa ou desativa todos os outros)
+* [Tool][UX] Clicar com a tecla Alt pressionada em um canal focaliza esse canal (ativa ou desativa todos os outros)
 * [Engine] Atualização para a versão mais recente do Substance Engine
 * [Conjunto de textura] Seleção múltipla e resolução de alteração
 * [Conjunto de textura] Ativação e desativação rápidas dos conjuntos de textura
 * [Conjunto de texturas] Combina solo e todas as opções em um novo menu
-* [Conjunto de texturas]&#x200B;[Pilha de camadas] Novo ícone para ativação e desativação
-* [Pilha de camadas]&#x200B;[UX] Inserir efeitos acima dos já selecionados
-* [Pilha de camadas]&#x200B;[IU] Retrabalhar o estilo de seleção da exibição da pilha de camadas
+* [Conjunto de texturas][Pilha de camadas] Novo ícone para ativação e desativação
+* [Pilha de camadas][UX] Inserir efeitos acima dos já selecionados
+* [Pilha de camadas][IU] Retrabalhar o estilo de seleção da exibição da pilha de camadas
 * [Pilha de camadas] O modo de mesclagem para camadas instanciadas agora está no modo de Passagem por padrão
 * [Exportar] Opção para ativar e desativar o pontilhamento
 * [Plug-in] Suporte ao modificador de precisão para controles deslizantes (SHIFT)
-* [Plug-in]&#x200B;[IU] Novo ícone para salvamento automático
+* [Plug-in][IU] Novo ícone para salvamento automático
 * [Scripts] Lista o conteúdo de uma pasta
 * [Script] Permitir exclusão de arquivos
 * [Scripts] Ler todas as informações da pilha, inclusive os recursos usados
-* [Conteúdo]&#x200B;[Traçado dinâmico] Novas ferramentas e predefinições de pincel
-* [Conteúdo]&#x200B;[Traço dinâmico] Dois novos gradientes de procedimento: Matiz de gradiente e Construtor de gradiente
+* [Conteúdo][Traçado dinâmico] Novas ferramentas e predefinições de pincel
+* [Conteúdo][Traço dinâmico] Dois novos gradientes de procedimento: Matiz de gradiente e Construtor de gradiente
 * [Content] 11 novos filtros: Pintura de descascamento MatFx, gotas de água MatFx e muito mais
 * [Content] 7 novos geradores: Auto Stitcher, Cor aleatória UV, Densidade de texel UV e muito mais
 * [Content] 93 novos alfas: novos textos, setas e várias outras formas
@@ -388,4 +388,4 @@ Resumo: **Traço dinâmico com novo conteúdo dedicado, Deslocamento e mosaico e
 **Problemas Conhecidos:**
 
 * Clicar duas vezes no nome do conjunto de texturas o selecionará antes de entrar no modo de renomeação
-* [Pilha de camadas]&#x200B;[IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
+* [Pilha de camadas][IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo

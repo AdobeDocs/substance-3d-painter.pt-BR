@@ -2,7 +2,7 @@
 title: Flash de lente
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing/lens-flare.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lens-flare.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '262'
@@ -30,4 +30,4 @@ Simula os artefatos ópticos produzidos quando fontes de luz brilhantes interage
 | <b>smoothness DE Oclusão</b> | Controla o quão gradualmente o brilho da lente se desvanece. Valores mais altos criam transições mais suaves. |
 | <b>Fantasmas exclusivos</b> | Define a variação das formas de clarão. Valores mais altos podem afetar significativamente o desempenho. |
 | <b>Escala de posição fantasma</b> | Controla a propagação e o tamanho dos fantasmas do reflexo. |
-| <b>Textura da abertura</b> | Define a forma da abertura da lente usada para gerar o padrão de brilho. A textura controla as formas de difração e fantasma. |
+| <b>textura de abertura</b> | Define a forma da abertura da lente usada para gerar o padrão de brilho. A textura controla as formas de difração e fantasma. |

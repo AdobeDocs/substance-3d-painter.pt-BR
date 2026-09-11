@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/layer-instancing.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
 breadcrumb-title: ''
 description: Saiba como usar instâncias de camada no Substance 3D Painter para reutilizar camadas em vários conjuntos de texturas de maneira eficiente.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Quando uma instância de camada é criada, a camada original (ou camada de orige
 
 >[!WARNING]
 >
-> Todas as ações de pintura (traçados de pincel, preenchimento de polígono etc.) só funcionará no conjunto de texturas em que a camada de origem está localizada. Outros conjuntos de texturas que tenham uma instância dessa camada simplesmente descartarão as ações de pintura.
+> Qualquer ação de tinta (traçados de pincel, preenchimento de polígono etc.) só funcionará no conjunto de texturas em que a camada de origem está localizada. Outros conjuntos de texturas que tenham uma instância dessa camada simplesmente descartarão as ações de tinta.
 
 ## Criação de uma ocorrência de camada
 
@@ -79,7 +79,7 @@ Para criar uma instância em vários Conjuntos de texturas:
 
 >[!NOTE]
 >
-> O ponto de exclamação ao lado do nome de um Conjunto de Texturas indica uma incompatibilidade de canal **&#x200B;**. Isso significa que, se uma instância for criada nesses Conjuntos de texturas, ela não será renderizada corretamente, pois um canal está ausente.
+> O ponto de exclamação ao lado do nome de um Conjunto de Texturas indica uma incompatibilidade de canal ****. Isso significa que, se uma instância for criada nesses Conjuntos de texturas, ela não será renderizada corretamente, pois um canal está ausente.
 
 ## Alternar entre uma instância e sua origem
 

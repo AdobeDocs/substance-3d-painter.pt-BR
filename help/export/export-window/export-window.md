@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/export-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window.html"
 breadcrumb-title: ''
 description: Saiba como usar a janela de exportação no Substance 3D Painter para configurar e exportar suas texturas em vários formatos.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/export-textures-window.png){width="500px"}
 
-Abra a <b>janela de exportação </b> com <b>Arquivo > Exportar texturas </b>ou o atalho de teclado <b>Ctrl + Shift + E</b>.
+Abra a <b>janela de exportação </b>com <b>Arquivo > Exportar textura </b>ou o atalho de teclado <b>Ctrl + Shift + E</b>.
 
 A <b>janela de exportação </b> é dividida em três guias:
 

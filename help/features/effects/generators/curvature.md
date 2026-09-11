@@ -14,7 +14,7 @@ ht-degree: 4%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_curvature.webp" alt=""/><br><strong>Entrada:</strong> máscara, gerador, tons de cinza, mesclagem</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de curvatura cria uma máscara com base no mapa de curvatura assado com a opção de mesclar uma textura ou microdetalhes na máscara.<br><br>O gerador de curvatura gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras em vez de aplicá-las diretamente a uma camada.<br><br>Um mapa de posição preparada é necessário como entrada. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de curvatura cria uma máscara com base no mapa de curvatura feito bake com a opção de mesclar uma textura ou microdetalhes na máscara.<br><br>O gerador de curvatura gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras em vez de aplicá-las diretamente a uma camada.<br><br>Um mapa de posição feito bake é necessário como entrada. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -25,9 +25,9 @@ ht-degree: 4%
 | Cor de **Textura** | Use uma textura personalizada ou um ponto de ancoragem. |
 | Cor **Micro Normal** | Use uma textura normal personalizada ou um ponto de ancoragem. |
 | Cor do **Micro Height** | Use uma textura personalizada ou um ponto de ancoragem. |
-| **Curvatura** em tons de cinza | Use o mapa de curvatura assado. |
-| **Cores Normais do Espaço Mundial** | Use o mapa World Space Normals assado. |
-| Cor do **Gradiente de posição** | Use o mapa de posição cozida. |
+| **Curvatura** em tons de cinza | Use o mapa de curvatura feita bake. |
+| **Cores Normais do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
+| Cor do **Gradiente de posição** | Use o mapa de Posição feita bake. |
 
 ## Parâmetros
 
@@ -101,7 +101,7 @@ ht-degree: 4%
     <th>Descrição</th>
   </tr>
   <tr>
-    <td><strong>Opacidade da textura</strong></td>
+    <td><strong>Textura opacidade</strong></td>
     <td>Controle a visibilidade da textura personalizada.</td>
   </tr>
   <tr>
@@ -147,11 +147,11 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Ativar ou desativar o uso de um mapa personalizado de Micro Height.</td>
+    <td>Ativar ou desativar o uso de um mapa de altura Micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Micro normal</strong></td>
-    <td>Ativa ou desativa a utilização de um mapa Micro Normal personalizado.</td>
+    <td>Ativar ou desativar o uso de um Micro Mapa normal personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>

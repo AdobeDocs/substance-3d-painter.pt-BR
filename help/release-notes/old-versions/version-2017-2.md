@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2017.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Para obter mais detalhes técnicos e exemplos, consulte a página dedicada: [Pon
 
 Juntamente com o novo efeito de ponto de ancoragem, também trabalhamos em:
 
-* A capacidade de renomear alguns efeitos, como Preenchimento e Pintura
+* A capacidade de renomear alguns efeitos, como Preenchimento e Tinta
 * Novas funções de script, permitindo criar um link em tempo real com outros aplicativos, como o Unity
 
 ## Tutorial

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
 breadcrumb-title: ''
 description: Revise o log de alterações do Substance 3D Painter API de sombreamento para acompanhar atualizações, novos recursos e alterações ao longo do tempo.
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 * Adicione uma nova biblioteca [lib-pbr-aniso.glsl](libraries-shader-api/lib-pbr-aniso-shader-api.md) para ajudar a visualizar o destaque de specular anisotrópico
 * Adicione uma nova biblioteca [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md) para ajudar na amostragem de canais, cuidando da disponibilidade de mipmaps
-* Atualize as interfaces das bibliotecas do sombreador para cuidar desta amostragem segura
+* Atualize as interfaces das bibliotecas de sombreador para cuidar desta amostragem segura
 * **Descontinuação**: as funções anteriores baseadas nas coordenadas de textura vec2 e no amostrador de textura foram descontinuadas (use novas assinaturas)
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): adicione uma função *applyParallaxOffset* para simplificar o uso do efeito de oclusão de paralaxe
 * [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md): adicionar um gerador de valor aleatório de Ruído Azul e alternativas temporais
@@ -39,9 +39,9 @@ ht-degree: 3%
 
 ## 2018.2.0
 
-* **Alteração de API de sombreamento de superfície**: a assinatura da função *sombra* foi alterada, consulte [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md)
+* **Alteração de API de sombreamento de superfície**: a assinatura da função *sombra* foi alterada, consulte [surface-sombreador.glsl](shaders-shader-api/surface-shader-shader-api.md)
 * A função *shadeShadow* não é mais usada e pode ser removida com segurança de sombreadores de superfície personalizados
-* Adicione suporte para dispersão de subsuperfície; consulte [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md) e [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md) para obter detalhes
+* Adicione suporte para dispersão de subsuperfície; consulte [surface-sombreador.glsl](shaders-shader-api/surface-shader-shader-api.md) e [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md) para obter detalhes
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): a função *pbrComputeBRDF* foi removida. Veja o exemplo de [pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md) para saber como usar a biblioteca agora
 * Novos parâmetros de mecanismo foram adicionados: *textura\_azul\_noise*, *aspecto\_razão*, *camera\_vp\_matrix\_inverse*, *ambiente\_exposição*, *ambiente\_rotação*, *fovy*, *principal\_luz* e *tela\_tamanho*. Consulte [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md) para obter detalhes
 * Adicionar os metadados de *descrição* para fornecer dicas de ferramentas para parâmetros de sombreador personalizados
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 ## 2017.2.0
 
-* Remova a normalização interpolada de tbn para corresponder ao comportamento de Substance Designer e padeiros
+* Remover a normalização tbn interpolada para corresponder ao comportamento de Substance Designer e baker
 * [Visor] Substituir a tabela Hammersley por uma espiral de Fibonacci
 
 ## 2.6.0
@@ -80,12 +80,12 @@ ht-degree: 3%
 * Adicionar suporte para perfis de cor (LUT) em viewports (conversão sRGB opcional)
 * Adicionar pontilhamento à opacidade em sombreadores
 * Adicionar mapeamento de oclusão de paralaxe a sombreadores PBR
-* Adicionar uma maneira de ocultar parâmetros personalizados da interface do usuário do sombreador padrão
-* Adicionar um link para a lista de tags de canal na documentação do sombreador de camadas
+* Adicionar uma maneira de ocultar parâmetros personalizados da interface de sombreador padrão
+* Adicionar um link para a lista de etiquetas de canal na documentação de sombreador em camadas
 * Substituir a tag &#39;channel\_ao&#39; por &#39;channel\_ambientocclusion&#39;
 * [Janela de visualização] Alguns mapas normais têm valores fixados que aparecem como artefatos
 * Corrigir canais disponíveis no documento shaders
-* Permitir a definição de uma interface de usuário de sombreador personalizada
+* Permitir a definição de uma interface de sombreador personalizada
 * Adicionar uma interface de usuário de sombreador personalizada padrão para sombreadores de camadas de material
 * Os arquivos de interface personalizada agora são pesquisados em relação a uma pasta shaders/custom-ui nas prateleiras (como o mdl)
 * Usar o canal de specular level em sombreadores padrão
@@ -94,12 +94,12 @@ ht-degree: 3%
 
 ## 2.4.0
 
-* Corrija a diferença no mapa normal combinado exportado e aquele exibido no visor
+* Corrija a diferença na mapa normal combinada exportada e a exibida na viewport
 
 ## 2.2.0
 
-* Adicionar suporte para texturas sem associação em material genérico para texturas que não sejam do Documento
-* Atualizar a documentação de controles deslizantes de sombreador personalizados
+* Adicionar suporte para texturas sem associação em material genérico para texturas que não sejam de Documento
+* Atualizar a documentação personalizada de controles deslizantes de sombreador
 * Permitir a definição da precisão da etapa para controles deslizantes
 * Documentação do camadas de material dinâmico
 
@@ -109,13 +109,13 @@ ht-degree: 3%
 
 ## 2.1.0
 
-* Permitir a definição de grupos para parâmetros de sombreador e materiais/máscaras
+* Permitir definir grupos para parâmetros de sombreador e materiais/máscaras
 * Adicionar canais ausentes na documentação (&#39;ao&#39;, &#39;diffuse&#39;, &#39;specularlevel&#39;)
 
 ## 2.0.4
 
 * Função de descompactação normal incorreta com valores alfa baixos
-* Permitir a leitura de cores de vértice de malha no sombreador personalizado
+* Permitir a leitura das cores dos vértices da malha no sombreador personalizado
 * [Visor] Mapa de ambiente ampliado em alguns computadores
 
 ## 2.0.0
@@ -126,7 +126,7 @@ ht-degree: 3%
 * Adicionar uma nova pasta mdl na prateleira
 * Adicionar predefinições de canal difuso e de specular level
 * Atualização da documentação para mapeamento de tom
-* Corrigir reflexos no modo ortográfico
+* Corrigir reflexos quando no modo ortográfica
 * Correção de uma falha vertical branca que aparecia em um local específico no mapa de ambiente
 * Permitir a definição de &#39;default\_color&#39; para parâmetros de textura
 
@@ -141,23 +141,23 @@ ht-degree: 3%
 
 ## 1.5.0
 
-* Adicionar número de linha e nome de arquivo no relatório de erros do sombreador
+* Adicionar número de linha e nome de arquivo no relatório de erros de sombreador
 
 ## 1.4.1
 
 * Todas as conversões sRGB seguem o padrão sRGB, exceto aquelas feitas nos sombreadores que possuem uma aproximação aproximada
-* O canal de height para o Mapa normal é convertido no espaço de cores incorreto
+* O canal de height para Mapa normal é convertido no espaço de cores errado
 
 ## 1.4.0
 
 * Adicionar canal de oclusão de ambiente
 * Adicionar novo fluxo de trabalho para a edição normal
-* Adicionar sintaxe de expressão &#39;or&#39; para parâmetros automáticos relacionados à textura
-* Corrigir pbr shader para GPU Intel no OSX
+* Adicionar sintaxe de expressão &#39;or&#39; para parâmetros automáticos relacionados a textura
+* Corrigir sombreador pbr para a gpu Intel no OSX
 
 ## 1.3.4
 
-* Permitir a interpolação de binormais no sombreador de fragmentos
+* Permitir a interpolação de binormais no fragmento sombreador
 * Corrigir espaço tangente Mikkt
 
 ## 1.3.3

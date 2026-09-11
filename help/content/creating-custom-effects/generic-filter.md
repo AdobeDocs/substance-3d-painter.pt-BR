@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/creating-custom-effects/generic-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generic-filter.html"
 breadcrumb-title: ''
 description: Saiba como criar efeitos de filtro genéricos para que o Substance 3D Painter aplique processamento de imagem personalizado e filtros de textura.
 helpx_creative_field: ""
@@ -25,7 +25,7 @@ Um efeito genérico será aplicado em todos os canais de documento, incluindo a 
 * **tons de cinza**, ele será aplicado a cada componente (R, G, B e A) de cada canal (cor base, metálico, aspereza e assim por diante)
 * **colorido**, será aplicado no canal colorido como está ou convertido em tons de cinza internamente para afetar os canais em tons de cinza
 
-O nó de entrada do efeito deve ter o **identificador** ou o **uso** definido como **entrada** e seu nó de saída deve ter **saída**. Observe que filtros baseados em **cores** não podem ser usados na máscara de uma camada; somente filtros de **tons de cinza** serão compatíveis.
+O nó de entrada do efeito deve ter o **identificador** ou o **uso** definido como **entrada** e seu nó de saída deve ter a **saída**. Observe que filtros baseados em **cores** não podem ser usados na máscara de uma camada; somente filtros de **tons de cinza** serão compatíveis.
 
 >[!NOTE]
 >

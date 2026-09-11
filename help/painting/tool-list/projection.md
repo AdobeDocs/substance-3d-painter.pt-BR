@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
 description: Use a ferramenta Projeção no Substance 3D Painter para projetar imagens 2D em superfícies 3D para fluxos de trabalho de pintura de textura.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/image2015-3-19-17-56-54.png){width="50px"}
 
-A projeção é uma ferramenta que permite pintar um material projetando-o no espaço da tela/janela de visualização. Ele compartilha controles semelhantes aos do estêncil.
+A projeção é uma ferramenta que permite tinta um material projetando-o no espaço da tela/janela de visualização. Ele compartilha controles semelhantes aos do estêncil.
 
 É possível editar a transformação de projeção pressionando o **atalho S**:
 
@@ -51,5 +51,5 @@ A projeção é uma ferramenta que permite pintar um material projetando-o no es
 </tr>
 </table>
 
-* **Projeção**: ferramenta de pintura baseada na projeção de espaço de tela. Essa ferramenta exibirá e repetirá um padrão no visor.
+* **Projeção** : ferramenta de Tinta baseada na projeção de espaço de tela. Essa ferramenta exibirá e repetirá um padrão no visor.
 * **Projeção física**: ferramenta de pintura de projeção com propriedades físicas baseadas em predefinições de partículas.

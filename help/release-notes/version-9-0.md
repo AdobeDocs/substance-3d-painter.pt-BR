@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-9-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-9-0.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Painter versão 9.0 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versão 9.0
 
-O <b>Substance 3D Painter 9.0</b> apresenta uma nova maneira de pintar traçados com caminho reeditável no visor 3D, bem como conteúdo padrão atualizado.
+O <b>Substance 3D Painter 9.0</b> apresenta uma nova maneira de tinta traços com caminho reeditável no visor 3D, bem como conteúdo padrão atualizado.
 
 Data de lançamento: *20 de junho de 2023*
 
@@ -30,9 +30,9 @@ Data de lançamento: *20 de junho de 2023*
 
 ![Feche um sapato de couro com um caminho desenhado por cima com sua interface auxiliar](../assets/v90_banner_path.jpg)
 
-A ferramenta <b>Pintar ao longo do caminho</b> é uma nova maneira de pintar traçados no visor 3D. Semelhante a outros aplicativos, você pode criar curvas baseadas em Bézier orientadas por pontos na superfície do objeto 3D para desenhar padrões. Combinado com materiais de Substance, essa nova ferramenta pode abrir muitas novas possibilidades.
+A ferramenta <b>Tinta ao longo do caminho</b> é uma nova maneira de tinta traçados no visor 3D. Semelhante a outros aplicativos, você pode criar curvas baseadas em Bézier orientadas por pontos na superfície do objeto 3D para desenhar padrões. Combinado com materiais de Substance, essa nova ferramenta pode abrir muitas novas possibilidades.
 
-* <b>Nova ferramenta para criar traçados de tinta orientados por um caminho com pontos</b>\
+* <b>Nova ferramenta para criar traços de tinta orientados por um caminho com pontos</b>\
   Dentro da barra de ferramentas da ferramenta há um novo ícone dedicado à ferramenta Caminho. Essa nova ferramenta permite desenhar curvas na superfície do modelo 3D para criar traçados de tinta. Esses traçados sempre podem ser reeditados. Quando a ferramenta estiver ativa, basta clicar na superfície da malha para adicionar um ponto. Clique em um ponto existente e pressione Delete para removê-lo.
 
   ![Captura de tela da interface da barra de ferramentas mostrando os três tipos de ferramentas de caminho.](../assets/v90_path_toolbar.png)
@@ -49,19 +49,19 @@ A ferramenta <b>Pintar ao longo do caminho</b> é uma nova maneira de pintar tra
 
   ![Gif mostrando um caminho fechado para desenhar rebites em uma superfície mecânica](../assets/v90_path_closed_loop_demo.gif)
 * <b>Reeditar caminhos (e suas propriedades) com o painel Caminho</b>\
-  Quando a ferramenta Caminho estiver selecionada, o caminho criado na camada de pintura atual será listado no painel Caminho dedicado na parte superior da janela de visualização 3D. Este painel permite selecionar, excluir ou renomear o caminho para
+  Quando a ferramenta Caminho for selecionada, os caminhos criados na camada de tinta atual serão listados no painel Caminho dedicado na parte superior da viewport 3D. Este painel permite selecionar, excluir ou renomear o caminho para
 
   ![Gif mostrando o painel de caminho em ação](../assets/v90_path_panel_demo.gif)
 
   ![Grade mostrando as propriedades do caminho que estão sendo modificadas](../assets/v90_path_edit_properties.gif)
-* <b>Compatível com outros recursos de pintura, como simetria, máscara de geometria, traçados dinâmicos etc.</b>\
+* <b>Compatível com outros recursos de tinta, como simetria, máscara de geometria, traçados dinâmicos etc.</b>\
   Muitas configurações de traçados de tinta regulares podem ser usadas com a ferramenta de caminho:
 
   * Ativar a simetria permite desenhar um caminho várias vezes, enquanto gerencia apenas um.
-  * Os caminhos que estão em uma camada com uma máscara de geometria ativada podem pintar em geometria oculta
+  * Os caminhos que estão em uma camada com uma máscara de geometria ativada podem ser tintas em geometria oculta
 
   ![Gif mostrando um caminho sendo afogado duas vezes com a ajuda da propriedade de simetria](../assets/v90_path_symmetry.gif)
-* <b>Pinte com outras ferramentas, como Borracha ou Borrar</b>\
+* <b>Tinta com outras ferramentas, como Borracha ou Borrar</b>\
   A ferramenta Caminho também é compatível com a ferramenta Borracha e a ferramenta Borrar, desbloqueando maneiras mais avançadas de pintar e combinando traçados com a maneira fácil e reeditável de manipular pontos do caminho.
 
   ![Grade mostrando um ponto de caminho sendo movido e atualizando o efeito de borrão](../assets/v90_path_smudge.gif)
@@ -73,11 +73,11 @@ A ferramenta <b>Pintar ao longo do caminho</b> é uma nova maneira de pintar tra
 >
 > Para obter mais informações, consulte a [documentação dedicada](../painting/tool-list/path.md).
 
-### Novo conteúdo a ser usado com o recurso pintar ao longo do caminho
+### Novo conteúdo para usar com o recurso tinta ao longo do caminho
 
 ![Imagem mostrando um capuz com diferentes tipos de pinceladas de ponto usadas.](../assets/v90_banner_content_path.jpg)
 
-Algumas novas predefinições de ferramenta foram incluídas nesta versão para aproveitar o novo recurso de pintura ao longo do caminho:
+Algumas novas predefinições de ferramenta foram incluídas nesta versão para aproveitar o novo recurso tinta ao longo do caminho:
 
 * Ficção científica para rack de tubos
 * Enrolação
@@ -90,7 +90,7 @@ Algumas novas predefinições de ferramenta foram incluídas nesta versão para 
 
 ![Imagem mostrando um exemplo da nova predefinição de solda](../assets/v90_path_welding_demo.jpg)
 
-### Traçados dinâmicos aprimorados para o recurso de pintura ao longo do caminho
+### Traçados dinâmicos aprimorados para o recurso tinta ao longo do caminho
 
 ![Imagem mostrando um traçado de caminho parecido com uma seta com uma forma redonda como o início e a ponta da seta como o final.](../assets/v90_banner_dyn_strokes.jpg)
 
@@ -167,9 +167,9 @@ Resumo: <b>Versão principal com pintura ao longo de um caminho que permite Curv
 * [Traçados dinâmicos] Adicionar propriedade de distância para traçados dinâmicos
 * [Traçados dinâmicos] Adicionar propriedades de tamanho e espaçamento aos traçados dinâmicos
 * [Traçados dinâmicos] Adicionar propriedade início/meio/fim para traçados dinâmicos
-* [Python]&#x200B;[USD] Expor parâmetros de configuração de projeto para o formato USD
-* [Python]&#x200B;[USD] Expor os parâmetros de criação de projetos para o formato USD
-* [Export]&#x200B;[USD] Adicionar informações do caminho do projeto no arquivo USD exportado
+* [Python][USD] Expor parâmetros de configuração de projeto para o formato USD
+* [Python][USD] Expor os parâmetros de criação de projetos para o formato USD
+* [Export][USD] Adicionar informações do caminho do projeto no arquivo USD exportado
 * [GLTF] Atualizar texturas na biblioteca ao recarregar um arquivo GLTF
 * [Shader] Reduzir artefatos de costura para Ilhas UV com orientação diferente
 * [Engine] Atualização para o mecanismo de Substance versão 9.0

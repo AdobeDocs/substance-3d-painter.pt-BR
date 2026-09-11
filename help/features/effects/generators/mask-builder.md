@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Máscara de <img src="../../../assets/generators/icon_mask_builder_dark.png" alt=""/><strong>entrada:</strong>, gerador</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador do Construtor de máscaras é uma versão herdada do gerador do Editor de Máscaras. É um gerador de máscara multiuso que permite combinar Desgaste, AO, Curvatura, Gradiente, Espaço Mundial Normal, Scratches, Dispersão e Micro Detalhes em uma única máscara.<br><br>O gerador de Construtor de máscaras é muito flexível, mas devido à sua complexidade, ele pode afetar mais o desempenho do que a maioria dos geradores.<br><br>O gerador de Construtor de máscaras gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras com base nos vários mapas baked. <br><br>Mapas normais de posição cozida, curvatura, oclusão ambiente e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador do Construtor de máscaras é uma versão herdada do gerador do Editor de Máscaras. É um gerador de máscara multiuso que permite combinar Desgaste, AO, Curvatura, Gradiente, Espaço mundial normal, Scratches, Dispersão e Micro detalhes em uma única máscara.<br><br>O gerador de Construtor de máscaras é muito flexível, mas devido à sua complexidade, ele pode afetar mais o desempenho do que a maioria dos geradores.<br><br>O gerador de Construtor de máscaras gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras com base nos vários mapas baked. <br><br>Mapas normais de posição, curvatura, oclusão de ambiente e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -22,13 +22,13 @@ ht-degree: 2%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| Cor **normal do espaço global** | Use o mapa World Space Normals assado. |
+| Cor **normal do espaço global** | Use o mapa do World Space Normals feito bake. |
 | **desgaste personalizado 1** em tons de cinza | Use uma textura personalizada ou um ponto de ancoragem. |
 | **desgaste personalizado 2** em tons de cinza | Use uma textura personalizada ou um ponto de ancoragem. |
 | **Entrada de Dispersão** em tons de cinza | Use uma textura personalizada ou um ponto de ancoragem. |
-| Cor de **Posição** | Use o mapa de posição cozida. |
-| **Curvatura** em tons de cinza | Use o mapa de curvatura assado. |
-| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão ambiente cozido. |
+| Cor de **Posição** | Use o mapa de Posição feita bake. |
+| **Curvatura** em tons de cinza | Use o mapa de curvatura feita bake. |
+| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão de ambiente feito bake. |
 | Cor **Micro Normal** | Use uma textura normal personalizada ou um ponto de ancoragem. |
 | Cor do **Micro Height** | Use uma textura personalizada ou um ponto de ancoragem. |
 
@@ -41,7 +41,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>Semente</strong></td>
-    <td>Defina o valor de propagação usado para gerar a textura do dirt. <br><ul><li>Clique em Aleatório para alternar para outra semente aleatória.</li><li>Clique no lápis para ver o valor de semente atual e insira um valor específico, se desejar.</li></ul></td>
+    <td>Defina o valor de propagação usado para gerar a textura de dirt. <br><ul><li>Clique em Aleatório para alternar para outra semente aleatória.</li><li>Clique no lápis para ver o valor de semente atual e insira um valor específico, se desejar.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Nível</strong></td>
@@ -61,7 +61,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>Contraste de mesclagem triplanar</strong></td>
-    <td>Ajuste a suavidade de uma textura quando projetada usando o mapeamento triplanar. Ela ajusta a suavidade da mesclagem entre as projeções de cada direção.</td>
+    <td>Ajuste a suavidade de mesclagem de uma textura quando projetada usando o mapeamento triplanar. Ela ajusta a suavidade da mesclagem entre as projeções de cada direção.</td>
   </tr>
   <tr>
     <td><strong>Grunge</strong></td>
@@ -69,7 +69,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>AO</strong></td>
-    <td>Ajuste quanto as configurações de AO (Oclusão ambiente) afetam o resultado final da máscara.</td>
+    <td>Ajuste quanto as configurações de AO (Oclusão de ambiente) afetam o resultado final da máscara.</td>
   </tr>
   <tr>
     <td><strong>Curvatura</strong></td>
@@ -97,9 +97,9 @@ ht-degree: 2%
 
 | Nome do parâmetro | Descrição |
 | --- | --- |
-| **Escala** | Ajuste o tamanho da textura do desgaste. |
+| **Escala** | Ajuste o tamanho da textura de desgaste. |
 | **Usar Desgaste Personalizado** | Ativar ou desativar o uso de um mapa de Desgaste personalizado. É apenas a visibilidade do Desgaste Personalizado 1. Para controlar a visibilidade do Desgaste Personalizado 2, ajuste o controle deslizante Desgaste Personalizado Secundário. |
-| **Desgaste Personalizado Secundário** | Ajuste a visibilidade da textura do Desgaste Personalizado 2. |
+| **Desgaste Personalizado Secundário** | Ajuste a visibilidade da textura de Desgaste Personalizado 2. |
 | **Inverter** | Inverta os mapas de desgaste. |
 
 ### Oclusão de ambiente
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 ### Gradiente
 
-A posição do gradiente é baseada no mapa de posição, que pode ser cozido com Cena completa ou com escala de normalização Por material. Se o material aparecer apenas em uma pequena área da cena, mas o mapa de posição for assado com uma escala de Normalização de cena completa, pode ser difícil ajustar o Intervalo de degradê para obter o resultado desejado.
+A posição do gradiente é baseada no mapa de Posição, que pode ser feito bake com a escala de normalização de Cena completa ou Por material. Se o material aparecer apenas em uma pequena área da cena, mas o mapa de posição estiver feito bake por uma escala de Normalização de cena completa, pode ser difícil ajustar o Intervalo de gradiente para obter o resultado desejado.
 
 | Nome do parâmetro | Descrição |
 | --- | --- |
@@ -178,7 +178,7 @@ Os valores de **frontal**, **traseira**, **esquerda** e **direita** podem não c
   </tr>
   <tr>
     <td><strong>Micro normal</strong></td>
-    <td>Ativa ou desativa a utilização de um mapa Micro Normal personalizado.</td>
+    <td>Ativar ou desativar o uso de um Micro Mapa normal personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>
@@ -194,10 +194,10 @@ Os valores de **frontal**, **traseira**, **esquerda** e **direita** podem não c
   </tr>
   <tr>
     <td><strong>Raio AO</strong></td>
-    <td>Ajuste o raio (intervalo) da Oclusão ambiente em microdetalhes.</td>
+    <td>Ajuste o raio (intervalo) da Oclusão de ambiente em microdetalhes.</td>
   </tr>
   <tr>
     <td><strong>PROFUNDIDADE AO</strong></td>
-    <td>Ajuste a profundidade (intensidade) da Oclusão ambiente em microdetalhes.</td>
+    <td>Ajuste a profundidade (intensidade) da Oclusão de ambiente em microdetalhes.</td>
   </tr>
 </table>

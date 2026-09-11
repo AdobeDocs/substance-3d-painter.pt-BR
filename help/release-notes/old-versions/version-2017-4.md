@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Painter versão 2017.4 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Data de lançamento: *23 de novembro de 2017*
 
 ![](../../assets/instancing.jpg)
 
-A **instância de camada** é um novo sistema que permite manter **sincronizados**, **parâmetros** em **outras camadas e Conjuntos de Texturas**. Ao criar uma instância de camada, a camada original se torna a **origem** e as instâncias **permanecerão atualizadas**, a menos que o vínculo entre elas seja quebrado. As camadas em instância são uma **ótima maneira** de **texturizar um ativo com alguns cliques** e evitar ir e voltar para atualizar camadas. Para texturizar facilmente um ativo, basta **instanciar uma pasta** em outros Conjuntos de Texturas e colocar um material inteligente ou qualquer outra camada nele. Ele será **replicado em todos os lugares** instantaneamente.
+A **instância de camada** é um novo sistema que permite manter **sincronizados**, **parâmetros** em **outras camadas e Conjuntos de Texturas**. Ao criar uma instância de camada, a camada original se torna a **origem** e as instâncias **permanecerão atualizadas**, a menos que o vínculo entre elas seja quebrado. As camadas em instância são uma **ótima maneira** de **textura um ativo em alguns cliques** e evitar ir e voltar para atualizar camadas. Para texturizar facilmente um ativo, basta **instanciar uma pasta** em outros Conjuntos de Texturas e colocar um material inteligente ou qualquer outra camada nele. Ele será **replicado em todos os lugares** instantaneamente.
 
 Há duas maneiras de criar uma instância:
 
@@ -44,7 +44,7 @@ Há duas maneiras de criar uma instância:
 > * As ações de pintura estarão presentes apenas na camada de origem, as camadas instanciadas não replicarão os traçados de pincel.
 > * As referências da âncora devem ter o ponto de ancoragem no mesmo nível da instância; um ponto de ancoragem não pode estar fora de uma pasta da instância caso contrário, ele será quebrado.
 > * Se um material inteligente for salvo com camadas instanciadas, a camada de origem deverá estar na pasta de material inteligente; caso contrário, o vínculo da instância será quebrado.
-> * Dependendo da configuração da pilha de camadas, as camadas instanciadas podem criar um ciclo, que não é suportado e quebrará o resultado da ocorrência. Exclua ou mova a instância para corrigi-la.
+> * Dependendo da configuração de pilha de camadas, as camadas instanciadas podem criar um ciclo, que não é suportado e quebrará o resultado da instância. Exclua ou mova a instância para corrigi-la.
 
 Para obter mais detalhes e exemplos, consulte a página dedicada: [Instâncias de camada](../../interface/layer-stack/layer-instancing.md)
 
@@ -60,7 +60,7 @@ Para conectar o aplicativo com o **Unreal Engine 4** (mínimo necessário para a
 
 ![](../../assets/materials-1.jpg)
 
-Adicionamos **20 novos materiais de procedimento** e também adicionamos **40 novos mapas de desgaste** (com alguns deles sendo de procedimento). Os novos materiais podem ser encontrados na seção “**Materiais**” da **prateleira**, como os seis novos metais, os oito novos plásticos, alguns tecidos e duas novas superfícies de madeira. Os novos mapas de desgaste podem ser encontrados diretamente na seção “**Desgaste**” da **prateleira**.
+Adicionamos **20 novos materiais processuais** e também adicionamos **40 novos mapas de desgaste** (com alguns deles processuais). Os novos materiais podem ser encontrados na seção “**Materiais**” da **prateleira**, como os seis novos metais, os oito novos plásticos, alguns tecidos e duas novas superfícies de madeira. Os novos mapas de desgaste podem ser encontrados diretamente na seção “**Desgaste**” da **prateleira**.
 
 ![](../../assets/grunges-1.jpg)
 
@@ -70,11 +70,11 @@ Muito obrigado a Clément Feuillet e Nicolas Longchamps por nos permitir licenci
 
 ![](../../assets/sketchfab.jpg)
 
-Atualizamos nossa exportação do Sketchfab e adicionamos a capacidade de publicar seu projeto como rascunho e até atualizar projetos já carregados. Isso deve tornar as iterações do projeto muito mais fáceis de fazer.
+Atualizamos nossa exportação do Sketchfab e adicionamos a capacidade de publicar seu projeto como rascunho e até atualizar projetos já carregados. Isso deve facilitar muito as iterações do projeto.
 
 ### Melhorias de desempenho
 
-Continuamos nosso trabalho em relação a melhorias de desempenho. Nesta nova versão, retrabalhamos muito da nossa renderização OpenGL nas viewports, o que deve dar um bom impulso de velocidade. Também aprimoramos a maneira como os traçados de pincel são computados e devem exigir cálculos de textura muito menos grandes na memória. No geral, ele fornecerá resultados muito mais rápidos e melhores sensações de pintura.
+Continuamos nosso trabalho em relação a melhorias de desempenho. Nesta nova versão, retrabalhamos muito da nossa renderização OpenGL nas viewports, o que deve dar um bom impulso de velocidade. Também aprimoramos a maneira como as pinceladas são computadas e devem exigir cálculos de textura muito menores na memória. No geral, ele fornecerá resultados muito mais rápidos e melhores sensações de pintura.
 
 ## Tutorial
 
@@ -90,24 +90,24 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 
 * [Exportar] Obter o status de uma exportação com progresso de etapa
 * [Exportar] Permitir o cancelamento de uma exportação
-* [Exportar] Exportar texturas para o Sketchfab sem perder a qualidade normal do mapa
+* [Exportar] Exportar texturas para o Sketchfab sem perder a qualidade do mapa normal
 * [Exportar] Exportar no formato binário glTF (glb)
 * [Exportar] Permitir o redimensionamento de colunas na guia Configuração da janela de exportação
-* [Shader] Adicionar um registro de alterações para a API de sombreamento
-* [Script] Adicionar funções de retorno de chamada Antes e Depois ao exportar texturas
+* [Sombreador] Adicionar um registro de alterações para o API de sombreamento
+* [Script] Adicionar funções de retorno de chamada Antes e Depois ao exportar textura
 * [Iray] Atualização para o SDK 2017.1 (suporte a Volta GPUs)
 
-**&#x200B;**&#x200B;Corrigido:**&#x200B;**
+****Corrigido:****
 
 * Falha ao sair do aplicativo antes que a janela principal seja exibida
 * [MAC] Falha ao carregar mapas em tons de cinza com IRAY
-* [MAC] A detecção de VRAM não está correta com o novo sistema operacional High Sierra
+* [MAC] A detecção do VRAM não é correta com o novo sistema operacional High Sierra
 * [Plug-in] Baixar ativos do Substance Source não funciona mais
 * [Script] Detecção de versão mínima incorreta do plug-in
-* [Exportar] Falha ao salvar a predefinição de exportação após exportar as texturas
+* [Exportar] Falha ao salvar a predefinição de exportação após exportar o textura
 * [Instanciação] Problema em geradores instanciados em um TextureSet sem Mapas Adicionais
 * [Visor] O pontilhamento não funciona com resolução acima de 4k
-* [Visor] A exibição de material 2D é coberta por ruído
+* [Visor] A exibição de material do Visualização 2D é coberta por ruído
 * [Prateleira] Melhorar o tempo de carregamento das predefinições de prateleira
 * [Engine] Mesclagem incorreta ao pintar com seleção de cores
 
@@ -125,7 +125,7 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 
 * Falha se o aplicativo for fechado antes da conclusão do rastreamento de recursos
 * Falha ao abrir projetos com a ferramenta Borrar/Clonar
-* Falha ao usar a ação de refazer após desfazer uma alteração de Sombreador nas Configurações do visualizador
+* Falha ao usar a ação de refazer após uma desfazer de uma alteração de Sombreador nas Configurações do visualizador
 * [Engine] A texturização difere entre o Painter 2017.2 e 2017.4
 * [Visor] A separação em um mapa de ID de uma instância obtém a amostra da cor errada
 * [Export] Falha ao exportar uma textura normal ou de oclusão inválida

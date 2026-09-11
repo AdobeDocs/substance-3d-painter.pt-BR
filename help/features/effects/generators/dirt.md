@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Máscara de <img src="../../../assets/generators/icon_dirt.webp" alt=""/><br><strong>entrada:</strong>, gerador</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Dirt adiciona um acúmulo realista de dirt e desgaste em fendas, bordas e superfícies planas com base na curvatura, oclusão ambiente. Opcionalmente, você também pode usar os mapas Micro Height e Micro Normal para adicionar mais detalhes.<br><br>O gerador de Dirt gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para adicionar detalhes de dirt ou desgaste ao modelo.<br><br>Mapas normais de posição cozida, curvatura, oclusão ambiente e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Dirt adiciona um acúmulo realista de dirt e desgaste em fendas, bordas e superfícies planas com base em curvatura e oclusão de ambiente. Opcionalmente, você também pode usar Micro Height e Micro Mapas normais para adicionar mais detalhes.<br><br>O gerador de Dirt gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para adicionar detalhes de dirt ou desgaste ao modelo.<br><br>Mapas normais de posição, curvatura, oclusão de ambiente e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -26,10 +26,10 @@ ht-degree: 1%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| **Curvatura** em tons de cinza | Use o mapa de curvatura assado. |
-| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão ambiente cozido. |
-| Cor **Normal Do Espaço Mundial** | Use o mapa World Space Normals assado. |
-| Cor de **Posição** | Use o mapa de posição cozida. |
+| **Curvatura** em tons de cinza | Use o mapa de curvatura feita bake. |
+| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão de ambiente feito bake. |
+| Cor **Normal Do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
+| Cor de **Posição** | Use o mapa de Posição feita bake. |
 | **desgaste personalizado** em tons de cinza | Use uma textura personalizada ou um ponto de ancoragem. |
 | Cor **Micro Normal** | Use uma textura normal personalizada ou um ponto de ancoragem. |
 | Cor do **Micro Height** | Use uma textura personalizada ou um ponto de ancoragem. |
@@ -43,7 +43,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Semente</strong></td>
-    <td>Defina o valor de propagação usado para gerar a textura do dirt. <br><ul><li>Clique em Aleatório para alternar para outra semente aleatória.</li><li>Clique no lápis para ver o valor de semente atual e insira um valor específico, se desejar.</li></ul></td>
+    <td>Defina o valor de propagação usado para gerar a textura de dirt. <br><ul><li>Clique em Aleatório para alternar para outra semente aleatória.</li><li>Clique no lápis para ver o valor de semente atual e insira um valor específico, se desejar.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Inverter</strong></td>
@@ -96,7 +96,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Micro normal</strong></td>
-    <td>Ativa ou desativa a utilização de um mapa Micro Normal personalizado.</td>
+    <td>Ativar ou desativar o uso de um Micro Mapa normal personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>
@@ -116,6 +116,6 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>PROFUNDIDADE AO</strong></td>
-    <td>Ajuste a profundidade (intensidade) da Oclusão ambiente em microdetalhes.</td>
+    <td>Ajuste a profundidade (intensidade) da Oclusão de ambiente em microdetalhes.</td>
   </tr>
 </table>

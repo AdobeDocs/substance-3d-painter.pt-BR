@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: Saiba como reatribuir conjuntos de texturas no Substance 3D Painter para reorganizar as atribuições de malha e o mapeamento de textura.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/txtset-reassignment-window.png)
 
-A janela Reatribuição do conjunto de texturas permite alterar a atribuição da pilha de camadas para uma parte diferente da malha da cena. Isso é útil, por exemplo, quando depois de importar uma nova malha para um projeto existente onde alguns Conjuntos de textura se tornam desativados. Isso acontece porque a pilha de camadas foi atribuída a um Material que não existe mais. Com a janela de reatribuição é possível trazer de volta essa pilha de camadas (consulte “Restauração de conjuntos de texturas desativados” abaixo).
+A janela Reatribuição de conjunto de textura permite alterar a atribuição de pilha de camadas para uma parte diferente da malha da cena. Isso é útil, por exemplo, quando depois de importar uma nova malha para um projeto existente onde alguns Conjuntos de textura se tornam desativados. Isso acontece porque a pilha de camadas foi atribuída a um Material que não existe mais. Com a janela de reatribuição, é possível trazer de volta essa pilha de camadas (consulte “Restauração de conjuntos de texturas desativados” abaixo).
 
 Para acessar a janela de Reatribuição do Conjunto de Texturas, vá para a janela [Lista do Conjunto de Texturas](texture-set-list.md) e escolha **Configurações > Reatribuir Conjuntos de Texturas**.
 

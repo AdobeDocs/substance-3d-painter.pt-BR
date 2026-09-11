@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
 breadcrumb-title: ''
 description: Saiba como criar um novo script de partícula no Substance 3D Painter para definir o comportamento e os efeitos do pincel de partícula personalizado.
 helpx_creative_field: ""
@@ -50,7 +50,7 @@ Volte para o editor, abra sua malha (clique duas vezes nela) e clique em &quot; 
 
 Vamos duplicar os sistemas de partículas existentes e adaptá-los para levar a nova malha em consideração corretamente.
 
-Clique com o botão direito no sistema de partículas “\_Emitter” (na pasta “Partículas”) e selecione “Clone” (ou “Duplicate”) para criar seu próprio Emissor.
+Clique com o botão direito no sistema de partículas “\_Emitter” (na pasta “Partículas”) e selecione “Clonar” (ou “Duplicar”) para criar seu próprio Emissor.
 
 Abra-o e, na janela “Particle Treeview” (parte inferior esquerda), selecione &quot; **Camada\_Modelo** “, que deve estar localizado em : “Propriedades do editor => Tela de fundo => Camadas 3D”.
 

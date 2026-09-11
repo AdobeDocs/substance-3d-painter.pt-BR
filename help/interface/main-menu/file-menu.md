@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/file-menu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
 description: Saiba como usar o menu Arquivo no Substance 3D Painter para gerenciar projetos, importar ativos e exportar texturas.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ O menu Arquivo contém as ações para criar e salvar os projetos, bem como as a
 | **Limpar** | Remova quaisquer recursos não utilizados do projeto atual (entrará em vigor após o próximo **Salvamento**). |
 | **Importar recursos** | Abra a janela de recursos de importação. |
 | **Exportar malha** | Abra a janela de exportação em malha que permite exportar o projeto atual como um arquivo de modelo 3D. |
-| **Exportar texturas** | Abra a janela de exportação de textura que permite exportar o projeto atual como texturas de bitmap. |
+| **Exportar texturas** | Abra a janela de exportação textura que permite exportar o projeto atual como texturas de bitmap. |
 | **Enviar para** | Liste todas as ações de **Enviar para** para enviar um projeto para outro aplicativo. |
 | **Sair** | Feche o aplicativo. Se o projeto atual tiver alterações não salvas, ele exibirá uma mensagem. |
 

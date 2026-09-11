@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
 description: Saiba como usar os efeitos de pós-processamento no Substance 3D Painter para aprimorar a renderização do visor com correção de cores e efeitos visuais.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Os pós-efeitos podem ser ativados em qualquer projeto por meio da janela [Confi
 
 >[!NOTE]
 >
-> Esses pós-efeitos não são aplicados à exibição 2D para conveniência. Somente a exibição 3D mostra o resultado da imagem com os efeitos.
+> Esses pós-efeitos não são aplicados ao Visualização 2D para conveniência. Somente a exibição 3D mostra o resultado da imagem com os efeitos.
 
 As páginas a seguir descrevem os diversos efeitos de pós-processo atualmente suportados:
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/creating-layers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ''
 description: Saiba como criar novas camadas no Substance 3D Painter para criar texturas complexas com várias camadas de pintura.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 16%
 
 # Criação de camadas
 
-Há várias maneiras de adicionar/criar camadas na pilha de camadas:
+Há várias maneiras de adicionar/criar camadas na Pilha de camadas:
 
 | *Ação* | *Demonstração* |
 | --- | --- |
@@ -38,6 +38,6 @@ Arrastar e soltar recursos da prateleira também pode ser uma maneira de criar c
 
 | *Ação* | *Demonstração* |
 | --- | --- |
-| Arraste e solte um **Material** de [Ativos](../assets/assets.md) na pilha de camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-material.gif"/></div> |
-| Arraste e solte um **Material inteligente** dos [Ativos](../assets/assets.md) na pilha de camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-smartmaterial.gif"/></div> |
+| Arraste e solte um **Material** de [Ativos](../assets/assets.md) na Pilha de camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-material.gif"/></div> |
+| Arraste e solte um **Material inteligente** dos [Ativos](../assets/assets.md) na Pilha de camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-smartmaterial.gif"/></div> |
 | Arraste e solte **Efeitos** dos [Ativos](../assets/assets.md) na Pilha de Camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-filter.gif"/></div> |

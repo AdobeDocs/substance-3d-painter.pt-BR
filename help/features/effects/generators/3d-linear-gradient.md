@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_3d_linear_gradient.webp" alt=""/><br><strong>Dentro:</strong> gradiente, escala de cinza</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de 3D linear gradient usa o mapa de posições para criar um gradiente entre dois pontos na malha. <br><br>O 3D linear gradient gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para colocar um gradiente linear em uma área específica.<br><br>Um mapa de posição cozida é necessário como entrada de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.<br><br>O mapa de Posição atribui uma cor a cada ponto da malha que corresponde à sua posição entre 0 e 1 ao longo dos eixos X, Y e Z. Isso significa que cada ponto na malha tem uma cor única. É possível definir os pontos inicial e final do gradiente linear selecionando a cor do mapa de posições nos locais inicial e final.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de 3D linear gradient usa o mapa de posições para criar um gradiente entre dois pontos na malha. <br><br>O 3D linear gradient gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para colocar um gradiente linear em uma área específica.<br><br>Um mapa de posição feito bake é necessário como entrada de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.<br><br>O mapa de Posição atribui uma cor a cada ponto da malha que corresponde à sua posição entre 0 e 1 ao longo dos eixos X, Y e Z. Isso significa que cada ponto na malha tem uma cor única. É possível definir os pontos inicial e final do gradiente linear selecionando a cor do mapa de posições nos locais inicial e final.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| **Posição** | Use o mapa de posição cozida. |
+| **Posição** | Use o mapa de Posição feita bake. |
 
 ## Parâmetros
 

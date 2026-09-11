@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
 description: Saiba como criar e salvar predefinições de pincel no Substance 3D Painter para criar uma biblioteca reutilizável de ferramentas de pintura personalizadas.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Use a [janela Propriedades](../../interface/properties.md) para ajustar os parâ
 
 ![](../../assets/save-preset-1.png)
 
-As predefinições podem ser criadas clicando com o botão direito do mouse na janela Propriedades quando as propriedades da ferramenta estiverem disponíveis (camada de pintura ou efeito de pintura).
+As predefinições podem ser criadas clicando com o botão direito do mouse na janela Propriedades quando as propriedades da ferramenta estiverem disponíveis (efeito de camada de tinta ou tinta).
 
 Clique com o botão direito do mouse na janela Propriedades para abrir um menu de contexto com as seguintes opções:
 

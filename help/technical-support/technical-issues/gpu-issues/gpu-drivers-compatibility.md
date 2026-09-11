@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
 breadcrumb-title: ''
 description: Saiba mais sobre os requisitos de compatibilidade de driver de GPU para o Substance 3D Painter para garantir renderização e desempenho estáveis.
 helpx_creative_field: ""
@@ -29,18 +29,18 @@ A tabela abaixo lista todas as versões de driver conhecidas por criar problemas
 | *Versão do driver* | *Descrição do problema* |
 | --- | --- |
 | <b> 425.xx </b> | artefatos de Rastreamento de raios do GPU. |
-| <b> 429.xx ou anterior </b> | Artefatos de bloco de textura preta. |
-| <b> 435.xx ou anterior </b> | Problemas de cores sRGB ao calcular texturas. |
-| <b> 439.xx </b> | Corrupção de texturas. |
+| <b> 429.xx ou anterior </b> | Artefatos de bloco de textura preto. |
+| <b> 435.xx ou anterior </b> | Problemas de cores sRGB ao calcular o textura. |
+| <b> 439.xx </b> | Corrupção do Textura. |
 | <b> 441.08 </b> | Problemas de falha ou estabilidade. |
 | <b> 442.19 </b> | Problemas de falha ou estabilidade. |
 | <b>528.09</b> | Congelamento do sistema operacional. |
-| <b>572.16 a 572.42</b> | Artefatos ou falha ao assar texturas. |
+| <b>572.16 a 572.42</b> | Artefatos ou falha ao fazer bake texturas. |
 
 ### AMD
 
 | *Versão do driver* | *Descrição do problema* |
 | --- | --- |
-| **20.7.x** a **20.11.2** | Texturas com problemas ou corrupção. |
-| **20.11.3** a **21.2.1** | Texturas com falha ou corrupção, além de problemas de falha ou estabilidade. |
+| **20.7.x** a **20.11.2** | Falha ou corrupção do Textura. |
+| **20.11.3** a **21.2.1** | Problemas de falha ou corrupção do Textura, além de problemas de falha ou estabilidade. |
 | **21.2.3** a **21.6.1** | Problemas de falha ou estabilidade. |

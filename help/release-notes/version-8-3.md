@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-8-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-3.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Painter versão 8.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -20,38 +20,38 @@ ht-degree: 0%
 
 # Versão 8.3
 
-O **Substance 3D Painter 8.3** apresenta um novo modo de preparo, importação de arquivos USD e suporte para o tamanho físico no modo de Projeção UV.
+O **Substance 3D Painter 8.3** apresenta um novo modo de fça bake, importação de arquivos USD e suporte para o tamanho físico no modo de Projeção UV.
 
 Data de lançamento: *10 de janeiro de 2023*
 
 ## Recurso principal
 
-### Novo modo de cozimento
+### Novo modo de fça bake
 
 ![](../assets/banner-baking_1.jpg)
 
-A antiga janela de cozedura foi substituída por um modo dedicado com vários novos recursos, nomeadamente com visualização do visor, como a exibição da gaiola e erros de correspondência.
+A antiga janela de fça bake foi substituída por um modo dedicado com vários novos recursos, notavelmente com a visualização de viewport, como a exibição da gaiola e erros de correspondência.
 
 * **Acessando e alternando entre modos**\
-  A cozedura agora é um modo novo e separado, além dos modos de pintura e renderização já existentes do aplicativo. Para chegar ao modo de cozimento, basta usar o pequeno ícone do croissant na barra de ferramentas contextual. Alternar entre os modos também pode ser feito de outra forma: usando o menu de modo ou os atalhos de teclado. Para voltar para outro modo, basta usar o ícone dedicado do modo (Além disso, o botão **Criar mapas de Malha** dentro das [configurações do Conjunto de Texturas](../interface/texture-set/texture-set-settings.md) ainda pode ser usado para entrar no novo modo).
+  A faz bake agora é um modo novo e separado, além dos modos de pintura e renderização já existentes do aplicativo. Para chegar ao modo de fça bake, basta usar o pequeno ícone do croissant na barra de ferramentas contextual. Alternar entre os modos também pode ser feito de outra forma: usando o menu de modo ou os atalhos de teclado. Para voltar para outro modo, basta usar o ícone dedicado do modo (Além disso, o botão **Fazer bake mapas de malha** dentro das [configurações do Conjunto de texturas](../interface/texture-set/texture-set-settings.md) ainda pode ser usado para entrar no novo modo).
 
   ![](../assets/baking-mode-switch-menu.png)
 
   ![](../assets/baking-mode-switch-icon.png)
 
 * **Nova interface de modo**\
-  A janela de cozedura tradicional foi transformada num modo com docas dedicadas, nomeadamente:
+  A janela de fça bake tradicional foi transformada em um modo com docas dedicadas, nomeadamente:
 
-  * A **lista do Conjunto de Texturas** pode ser usada para definir quais partes do projeto serão preparadas.
-  * Os **Padeiros de mapas de malha** permitem selecionar entre as configurações comuns de cozimento e as configurações de panificação. É também onde você pode especificar qual processo de padaria será iniciado.
-  * As **Configurações do Mapa de Malha** são o local em que todos os padeiros e configurações comuns estão localizados e podem ser modificadas, dependendo da seleção nas duas janelas anteriores.
-  * O **Log de Preparação** agrupa informações diferentes sobre o processo de preparação, notadamente mensagens de erro.
-  * **Visualização de cozimento**: este painel fica no visor e controla várias opções relacionadas à exibição das malhas polidas baixa e alta.
+  * A **lista de Conjuntos de Texturas** pode ser usada para definir quais partes do projeto serão feitas bake.
+  * **Os Baker de Mapa de Malha** permitem selecionar entre as configurações de fça bake comuns e as configurações de baker. É também onde você pode especificar qual processo de baker será iniciado.
+  * As **Configurações do Mapa de Malha** são o local onde todas as configurações comuns e de baker estão localizadas e podem ser modificadas, dependendo da seleção nas duas janelas anteriores.
+  * **Fazer bake o Log** agrupa informações diferentes sobre o processo de faz bake, notadamente mensagens de erro.
+  * **Fazendo bake a visualização**: este painel fica no visor e controla várias opções relacionadas à exibição das malhas polidas baixa e alta.
 
   ![](../assets/baking-mode-overview.jpg){width="500px"}
 
-* **Iniciar e cancelar o processo de cozimento diretamente do visor**\
-  O botão para iniciar ou cancelar o processo de cozimento agora fica na parte inferior da viewport. Uma pequena seta também pode ser usada para especificar o modo de cozimento: com base na seleção da lista Conjunto de texturas ou usando o Conjunto de texturas ativo atualmente.
+* **Iniciar e cancelar o processo de fça bake diretamente do visor**\
+  O botão para iniciar ou cancelar o processo de fça bake agora fica na parte inferior da viewport. Uma pequena seta também pode ser usada para especificar o modo de fça bake: com base na seleção da lista Conjunto de texturas ou usando o Conjunto de texturas ativo atualmente.
 
   ![](../assets/baking-button.png)
 
@@ -63,22 +63,22 @@ A antiga janela de cozedura foi substituída por um modo dedicado com vários no
   ![](../assets/low-vs-high.jpg){width="400px"}
 
 * **Exibir malha do compartimento no visor com áreas perdidas como erro**\
-  A malha do compartimento também pode ser exibida na janela de visualização. Se não estiver usando um arquivo de malha dedicado, uma caixa implícita será exibida e reagirá ao parâmetro Distância frontal máxima. Ao ajustar o tamanho da gaiola, qualquer parte da malha de alto-polígono que estiver fora da gaiola será mostrada como vermelha por padrão, permitindo encontrar facilmente parte da malha que será perdida pelo processo de cozimento.
+  A malha do compartimento também pode ser exibida na janela de visualização. Se não estiver usando um arquivo de malha dedicado, uma caixa implícita será exibida e reagirá ao parâmetro Distância frontal máxima. Ao ajustar o tamanho do compartimento, qualquer parte da malha de alto polígono que estiver fora do compartimento será mostrada como vermelha por padrão, permitindo encontrar facilmente parte do compartimento que não será encontrada pelo processo de fça bake.
 
   ![](../assets/cage-distance.gif)
 
-* **Examine a malha ao carregar e assar**\
-  Carregar malhas e assar não congela mais a aplicação, o que significa que é possível interagir com o visor durante essas operações. Isso pode ser útil para investigar a panificação em andamento, identificar problemas precocemente e cancelar a panificação, ajudando a economizar tempo no final. Da mesma forma, o conjunto de texturas mais visível no visor agora será assado primeiro, o que ajudará a verificar os resultados em áreas específicas com antecedência.
+* **Examine a malha ao carregar e fazer bake**\
+  Carregar malhas e assar não congela mais a aplicação, o que significa que é possível interagir com o visor durante essas operações. Isso pode ser útil para investigar a panificação em andamento, identificar problemas precocemente e cancelar a panificação, ajudando a economizar tempo no final. Da mesma forma, o conjunto de texturas mais visível na janela de visualização agora será feito bake primeiro, o que ajudará a verificar antecipadamente os resultados em áreas específicas.
 
   ![](../assets/interaction-while-baking.gif)
 
 * **Configurações de material neutro e visor**\
-  Para ajudar a focar nos resultados da panificação e procurar problemas, se houver, o modo de panificação não exibe texturas pintadas, usando um material neutro. As configurações deste material neutro podem ser ajustadas no painel de visualização de cozimento dentro do visor.
+  Para ajudar a focar nos resultados da faz bake e procurar problemas, se houver, o modo de faz bake não exibe texturas pintadas; em vez disso, usa um material neutro. As configurações deste material neutro podem ser ajustadas no painel de visualização que se Faz bake dentro da viewport.
 
   ![](../assets/neutral-material-demo.gif)
 
 * **Exibir bordas sólidas sem emendas UV**\
-  Uma fonte de artefatos ao assar é a presença de bordas duras que não têm costuras UV. Isso pode levar a linhas visíveis e quebrar o smoothness de sombreamento. Para essa finalidade, foram adicionadas configurações de visualização para destacá-las na visualização 3D e 2D, pois são muito fáceis de deixar passar o contrário.
+  Uma fonte de artefatos ao assar é a presença de bordas duras que não têm costuras UV. Isso pode levar a linhas visíveis e quebrar o smoothness de sombreamento. Com essa finalidade, configurações de visualização foram adicionadas para destacá-las no 3D e no Visualização 2D, pois, caso contrário, elas são muito fáceis de perder.
 
   ![](../assets/hard-edge-missing-seams.png){width="450px"}
 
@@ -92,7 +92,7 @@ A antiga janela de cozedura foi substituída por um modo dedicado com vários no
   ![](../assets/sync-ao-settings.png){width="400px"}
 
 * **Correspondência por verificador de nome**\
-  A guia **Correspondência por nome** no **Log de Preparação** pode ajudar a localizar erros no processo de correspondência antes de assar, facilitando o aviso de malhas que não correspondem. As malhas correspondentes são agrupadas, enquanto outras são isoladas e exibidas em vermelho.
+  A guia **Correspondência por nome** no **Log de Fça bake** pode ajudar a localizar erros no processo de correspondência antes de fazer bake, facilitando o aviso de malhas que não correspondem. As malhas correspondentes são agrupadas, enquanto outras são isoladas e exibidas em vermelho.
 
   ![](../assets/matching-by-name-log.png){width="450px"}
 
@@ -104,18 +104,18 @@ A antiga janela de cozedura foi substituída por um modo dedicado com vários no
 
 ![](../assets/banner-usd.jpg)
 
-Esta nova versão adiciona o suporte ao formato de arquivo do [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html). Agora é possível iniciar um projeto do Painter, exportando malhas e texturas usando o formato USD, o que torna o fluxo de trabalho mais consistente entre os aplicativos.
+Esta nova versão adiciona o suporte ao formato de arquivo do [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html). Agora é possível iniciar um projeto do Painter, exportando malhas e texturas usando o formato USD, o que torna o fluxo de trabalho entre aplicativos mais consistente.
 
 * **Importar arquivo USD com variantes, camadas e em um quadro específico**\
-  Um formato de arquivo USD pode ser usado ao criar um projeto ou ao reimportar uma malha dentro de um projeto. Os arquivos do USD geralmente podem ser cenas complexas, portanto, um seletor de escopo e variante também está disponível para importar apenas um subconjunto do arquivo.
+  Um formato de arquivo USD pode ser usado ao criar um projeto ou ao reimportar uma malha dentro de um projeto. Os arquivos USD muitas vezes podem ser cenas complexas, portanto, um seletor de escopo e variante também está disponível para importar apenas um subconjunto do arquivo.
 
   ![](../assets/usd-import-settings.png){width="400px"}
 
   ![](../assets/usd-scope-variants.png){width="400px"}
 
 * **Exportar o USD como um novo arquivo ou vinculado ao USD original usado no projeto**\
-  Quando a texturização estiver pronta, você poderá usar a janela **Arquivo > Exportar texturas** para exportar seu arquivo do USD junto com seus arquivos de textura. Basta habilitar a configuração **Exportar ativo USD** para fazer isso. Isso irá gerar vários arquivos USD que podem ser facilmente integrados em um pipeline posteriormente. Se você usou um arquivo não USD ou USD-file sem UVs, isso exportará um novo arquivo de geometria USD, além de mapas de textura e arquivo de material USD.\
-  Além disso, também é possível usar o **Arquivo > Exportar malha** para exportar a geometria do projeto como um arquivo do USD.
+  Quando a texturização estiver pronta, você poderá usar a janela **Arquivo > Exportar textura** para exportar seu arquivo USD junto com seus arquivos de textura. Basta habilitar a configuração **Exportar ativo USD** para fazer isso. Isso vai gerar vários arquivos USD que podem ser facilmente integrados em um pipeline posteriormente. Se você usou um arquivo que não seja USD ou um arquivo USD sem UVs, isso exportará um novo arquivo de geometria USD, além de mapas de textura e arquivo de material USD.\
+  Além disso, também é possível usar o **Arquivo > Exportar malha** para exportar a geometria do projeto como um arquivo USD.
 
   ![](../assets/usd-export-textures.png)
 
@@ -142,12 +142,12 @@ Com este lançamento, aumentamos a versão mínima compatível do Painter no Ste
 
 ## Tutorials
 
-Para descobrir e aprender sobre o novo modo de cozimento, confira nosso tutorial mais recente:
+Para descobrir e saber mais sobre o novo modo de Fça bake, confira nosso tutorial mais recente:
 
 ## Notas de versão
 
 *(Lançado: 10 De Janeiro De 2023)*\
-Resumo: **Versão principal com novo modo de preparo, nova importação e exportação de arquivos USD e suporte de tamanho físico para Projeção UV**
+Resumo: **Versão principal com novo modo de fça bake, nova importação e exportação de arquivos USD e suporte de tamanho físico para Projeção UV**
 
 **Adicionado:**
 
@@ -208,10 +208,10 @@ Resumo: **Versão principal com novo modo de preparo, nova importação e export
 * [USD] Importar malhas com pele em USD em um quadro específico
 
   Ao criar um novo projeto com um arquivo de malha USD que contém animação, é possível selecionar o quadro usando um controle deslizante que reflete a sequência de linha do tempo incorporada. O quadro pode ser modificador por meio da Configuração do projeto.
-* [USD]&#x200B;[Exportar] Adicione uma opção para exportar arquivos USD
+* [USD][Exportar] Adicione uma opção para exportar arquivos USD
 
   Nova caixa de seleção Exportar USD adicionada à janela Exportar texturas. Quando marcada, permite exportar arquivos USD, bem como mapas de textura usando qualquer modelo.
-* [USD]&#x200B;[Exportar] Adicionar formato de arquivo USD à exportação de malha
+* [USD][Exportar] Adicionar formato de arquivo USD à exportação de malha
 * [USD] Renomeie a predefinição de exportação “USD PBR Metal Roughness” existente para mais explícita
 
   O modelo de exportação para USD anteriormente conhecido como “USD PBR Metal Roughness” ainda é acessível por meio de Exportar texturas > Modelo de saída > USDz (Apple AR).
@@ -224,13 +224,13 @@ Resumo: **Versão principal com novo modo de preparo, nova importação e export
 * [Tamanho físico] Expor tamanho físico para Projeção UV
 
   O dimensionamento de tamanhos físicos agora está disponível para Projeção UV. Ele ativa o redimensionamento automático de um material com base no tamanho físico de uma malha. Pode ser selecionado por meio de Escala > Tamanho físico na janela Propriedades da camada de preenchimento ou do efeito.
-* [Scripting]&#x200B;[Python] Permite consultar a versão do aplicativo
-* [Script]&#x200B;[JavaScript] Atualizar API para corresponder aos novos parâmetros de criação
-* [Scripting]&#x200B;[Python] Módulo de cozimento: editar parâmetros de cozimento
-* [Scripting]&#x200B;[Python] Módulo de cozimento: iniciar/cancelar cozimento
-* [Scripting]&#x200B;[Python] Módulo de preparo: selecionar o método de curvatura
-* [Scripting]&#x200B;[Python] Módulo de cozedura: seleção de padeiros / azulejos uv
-* [Scripting]&#x200B;[Python] Módulo de preparo: sincronizar as configurações do padeiro em todos os conjuntos de texturas
+* [Scripting][Python] Permite consultar a versão do aplicativo
+* [Script][JavaScript] Atualizar API para corresponder aos novos parâmetros de criação
+* [Scripting][Python] Módulo de cozimento: editar parâmetros de cozimento
+* [Scripting][Python] Módulo de cozimento: iniciar/cancelar cozimento
+* [Scripting][Python] Módulo de preparo: selecionar o método de curvatura
+* [Scripting][Python] Módulo de cozedura: seleção de padeiros / azulejos uv
+* [Scripting][Python] Módulo de preparo: sincronizar as configurações do padeiro em todos os conjuntos de texturas
 * [SVT] Habilitar suporte a hardware esparso em GPUs AMD
 
   A aceleração de hardware para o sistema de texturas virtuais esparsas agora pode ser ativada com as GPUs da AMD. Essa configuração é ativada automaticamente nas preferências gerais.
@@ -249,10 +249,10 @@ Resumo: **Versão principal com novo modo de preparo, nova importação e export
 **Corrigido:**
 
 * [Falha] Alterar canais no filtro com pilha específica
-* [Mac]&#x200B;[M1] Falha ao criar uma camada de preenchimento e sair da pilha de camadas
+* [Mac][M1] Falha ao criar uma camada de preenchimento e sair da pilha de camadas
 
   Esse problema pode ser corrigido atualizando para o Mac OS 13 (Ventura).
-* [Scripting]&#x200B;[Python] Falha ao usar ui.add\_dock\_widget() com tipo errado
+* [Scripting][Python] Falha ao usar ui.add\_dock\_widget() com tipo errado
 * [Preparação] Mensagem de erro incompleta no log quando um bake falha
 * [Preparação] A memória não é liberada quando a cozedura é concluída
 * [Engine] O cache de textura não é atualizado ao alterar a visibilidade do efeito

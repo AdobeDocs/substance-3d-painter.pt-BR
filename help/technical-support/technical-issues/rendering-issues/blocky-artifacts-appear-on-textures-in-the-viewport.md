@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
 breadcrumb-title: ''
-description: Saiba como corrigir artefatos de blocos que aparecem em texturas no visor do Substance 3D Painter para obter uma qualidade visual limpa.
+description: Saiba como corrigir artefatos de blocos que aparecem no textura no visor do Substance 3D Painter para uma qualidade visual limpa.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Blocky artifacts appear on textures in the viewport
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Artefatos de blocos aparecem em texturas na viewport
+title: Artefatos de blocos aparecem nas texturas da viewport
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Artefatos de blocos aparecem em texturas na viewport
+# Artefatos de blocos aparecem nas texturas da viewport
 
 A partir da versão 2018.3.0, os seguintes tipos de artefatos podem aparecer no visor:
 

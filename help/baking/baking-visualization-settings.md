@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
-description: Saiba como definir as configurações de visualização de panificação no Substance 3D Painter para visualizar e depurar os resultados da panificação do mapa de malha.
+description: Saiba como definir as configurações de visualização de fça bake no Substance 3D Painter para visualizar e depurar os resultados da faz bake do mapa de malha.
 helpx_creative_field: ""
 helpx_description: Painter > Baking > Baking visualization settings
 helpx_experience_level: ""
@@ -22,13 +22,13 @@ ht-degree: 6%
 
 ![](../assets/viewport-vizu.png)
 
-A visualização de cozimento é um painel dentro da viewport do Painter quando em modo de cozimento. Ele permite ajustar as configurações relacionadas à exibição de malhas na viewport.
+A visualização de Fça bake é um painel dentro da janela de visualização do Painter no modo de Fça bake. Ele permite ajustar as configurações relacionadas à exibição de malhas na viewport.
 
 ## Configurações gerais
 
 | Configuração | Descrição |
 | --- | --- |
-| **Ocultar malhas de cozimento** | Se habilitado, este ícone ocultará a malha alta do poli e do compartimento na viewport. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/hide-baking-meshes.png"/></div> |
+| **Ocultar malhas feitas bake** | Se habilitado, este ícone ocultará a malha alta do poli e do compartimento na viewport. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/hide-baking-meshes.png"/></div> |
 | **Mostrar apenas para o Conjunto de Texturas selecionado** | Se ativada, somente o compartimento e as malhas de alto polígono do conjunto de texturas atualmente ativo ficarão visíveis no visor. |
 
 ### Malha de alta definição (HP)
@@ -36,7 +36,7 @@ A visualização de cozimento é um painel dentro da viewport do Painter quando 
 | Configuração | Descrição |
 | --- | --- |
 | <b>Malha</b> | Se ativada, exiba as malhas de alto polígono na visualização 3D. Quando desativadas, as malhas de alto polígono também são descarregadas da memória e podem ajudar a melhorar o desempenho. Use a opção de cor ao lado dessa configuração para controlar a cor da superfície da malha no visor. |
-| <b>Erro correspondente</b> | Se ativado, exibe áreas das malhas de alto polígono que estão fora do shell da malha da gaiola na cor dada. Esta configuração ajuda a identificar as áreas que não serão tratadas durante o processo de cozimento e pode resultar em perda de detalhes/informações. Use a opção de cor ao lado dessa configuração para controlar a cor das áreas de interseção na viewport. |
+| <b>Erro correspondente</b> | Se ativado, exibe áreas das malhas de alto polígono que estão fora do shell da malha da gaiola na cor dada. Esta configuração ajuda a identificar áreas que serão perdidas durante o processo de fça bake e pode resultar em perda de detalhes/informações. Use a opção de cor ao lado dessa configuração para controlar a cor das áreas de interseção na viewport. |
 
 ### Gaiola
 
@@ -51,7 +51,7 @@ A visualização de cozimento é um painel dentro da viewport do Painter quando 
 
 | Configuração | Descrição |
 | --- | --- |
-| <b>Fendas ausentes em bordas sólidas</b> | Se ativadas, as bordas sólidas na superfície da malha que não sejam emendas UV serão destacadas com a cor definida pelo botão ao lado da configuração. As bordas realçadas são visíveis apenas na gaiola e na malha de baixo polímero. As bordas podem ser vistas nas exibições 2D e 3D. Esta configuração ajuda a identificar as bordas que têm vértice dividido normal sem uma costura de desembrulho UV, o que poderia levar a problemas de cozimento mais tarde. |
+| <b>Fendas ausentes em bordas sólidas</b> | Se ativadas, as bordas sólidas na superfície da malha que não sejam emendas UV serão destacadas com a cor definida pelo botão ao lado da configuração. As bordas realçadas são visíveis apenas na gaiola e na malha de baixo polímero. As bordas podem ser vistas nas exibições 2D e 3D. Esta configuração ajuda a identificar as bordas que têm vértice dividido normal sem uma costura de desencapsulamento UV, o que poderia levar a problemas de fça bake mais tarde. |
 
 ### Malha do projeto
 
@@ -61,22 +61,22 @@ A visualização de cozimento é um painel dentro da viewport do Painter quando 
 <th scope="col">Descrição</th>
 </tr><tr><td><b>Malha do projeto</b></td>
 <td> </td>
-<td><p>Se ativadas, as malhas de baixo polígono nas quais as malhas de alto polígono são assadas ficarão visíveis no visor. Se a opção <b>Ocultar malhas de cozimento</b> estiver habilitada, essa configuração também será habilitada automaticamente para evitar uma viewport vazia.</p>
+<td><p>Se ativadas, as malhas de baixo polígono nas quais as malhas de alto polígono estão feitas bake serão visíveis no visor. Se a opção <b>Ocultar malhas de cozimento</b> estiver habilitada, essa configuração também será habilitada automaticamente para evitar uma viewport vazia.</p>
 <p>Use a opção de cor ao lado dessa configuração para ajustar a cor da malha do projeto.</p>
 </td>
 </tr><tr><td rowspan="7"><b>Material neutro</b></td>
 <td><b>Qualidade</b></td>
-<td>Controla a qualidade do reflexo do specular na superfície da malha de baixo polígono. Usar um valor alto proporcionará melhor fidelidade nos reflexos, mas um valor alto poderá afetar o desempenho. Um valor baixo pode introduzir emendas no sombreamento com mapas normais (Observação: este é apenas um problema de exibição).</td>
+<td>Controla a qualidade do reflexo do specular na superfície da malha de baixo polígono. Usar um valor alto proporcionará melhor fidelidade nos reflexos, mas um valor alto poderá afetar o desempenho. Um valor baixo pode introduzir emendas no sombreamento com mapas normais (Observação: isso é apenas um problema de exibição).</td>
 </tr><tr><td><b>Rugosidade</b></td>
 <td>Controla a aspereza do material de malha de baixo polígono nas viewports.</td>
 </tr><tr><td><b>Metálico</b></td>
 <td>Controla a metalidade do material de malha de baixo polígono nas viewports.</td>
 </tr><tr><td><b>Intensidade AO</b></td>
-<td>Controla o quanto a Oclusão ambiente cozida contribui para o sombreamento de malha de baixo polígono na Janela de visualização.</td>
+<td>Controla o quanto a Oclusão de ambiente feita bake contribui para o sombreamento de malha de baixa poli no Visor.</td>
 </tr><tr><td><b>Dobra normal</b></td>
-<td>Se ativada, use Valores normais tortos para melhorar o sombreamento de malha de baixo polígono no visor.</td>
+<td>Se esta opção estiver ativada, use Dobras normais feitas bake para melhorar o sombreamento de malha de baixo polígono no visor.</td>
 </tr><tr><td><b>Quantidade difusa normal dobrada</b></td>
-<td>Controla o quanto os Normais Curvados afetam o sombreamento difuso.</td>
+<td>Controla o quanto as Dobras normais afetam o sombreamento difuso.</td>
 </tr><tr><td><b>Quantidade especular normal dobrada</b></td>
 <td>Controla o quanto os Normais Curvados afetam o sombreamento de specular.</td>
 </tr></tbody></table>

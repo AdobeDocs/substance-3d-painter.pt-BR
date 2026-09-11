@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
 breadcrumb-title: ''
 description: Acesse a referência Todos os parâmetros de estados de renderização para que o Substance 3D Painter controle os parâmetros de estado de renderização.
 helpx_creative_field: ""
@@ -75,9 +75,9 @@ Modo de mesclagem multiplicativo:
 ```
 
 
-## Localidade de amostragem do sombreador
+## localidade de amostragem de sombreador
 
-Por padrão, os canais de documento são amostrados usando coordenadas de textura não transformadas para renderizar otimizações durante a pintura.
+Por padrão, os canais de documento são amostrados usando coordenadas de textura não transformadas para renderização de otimizações durante a pintura.
 
 Se aparecerem artefatos, defina o estado *não local* para *ativado*.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/settings/general-preferences.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/general-preferences.html"
 breadcrumb-title: ''
 description: Saiba como configurar preferências gerais no Substance 3D Painter para personalizar o comportamento do aplicativo e a experiência do usuário.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Esta página explica as principais configurações do aplicativo.
 | Configuração | Descrição |
 | --- | --- |
 | **Escala UV padrão de materiais** | Define o valor padrão de divisão em blocos gráficos/repetição para camadas de preenchimento e o efeito de preenchimento na pilha de camadas ao aplicar materiais. |
-| **Usar miniaturas simplificadas** | Se ativada, a pilha de camadas exibirá apenas ícones em vez de miniaturas. Usar ícones melhora o desempenho. Esta configuração não se aplica a projetos que usam o fluxo de trabalho Bloco UV, pois eles sempre exibirão ícones. |
+| **Usar miniaturas simplificadas** | Se ativada, a pilha de camadas exibirá apenas ícones em vez de miniaturas de computação. Usar ícones melhora o desempenho. Essa configuração não se aplica a projetos que usam o fluxo de trabalho do Bloco UV, pois eles sempre exibirão ícones. |
 
 ## Opções de câmera
 
@@ -56,15 +56,15 @@ Esta página explica as principais configurações do aplicativo.
 | **Velocidade do zoom** | Multiplicador da velocidade de zoom padrão da câmera nas viewports.A direção inversa permite inverter a direção do zoom com base no movimento do mouse. |
 | **Velocidade da roda** | Multiplicador da velocidade de zoom da roda do mouse.A direção inversa permite inverter a direção do zoom com base no movimento da roda. |
 
-## Opções de cozedura
+## Fazendo bake opções
 
 ![](../../assets/settings-baking.png)
 
 | Configuração | Descrição |
 | --- | --- |
-| **Salvar arquivos de cena pré-processados** | Se ativada, as malhas de alta polietileno pré-processadas usadas pelos padeiros serão salvas em disco para futura reutilização. Essa configuração permite reprogramar mais rapidamente. |
-| **Habilitar processo de preparação de visualização ao vivo** | Se ativadas, as portas de visualização 3D e 2D exibirão a textura atual do padeiro sendo computada na malha. |
-| **Habilitar Rastreamento de raios do GPU** | Se ativada, os padeiros tentarão usar a GPU para executar o rastreamento de raios em vez da CPU. O recurso permite que os padeiros tenham um desempenho mais rápido em geral.Isso só pode ser ativado em hardware compatível. Consulte os [Requisitos de sistema](../../getting-started/system-requirements.md) para obter mais detalhes. |
+| **Salvar arquivos de cena pré-processados** | Se ativadas, as malhas de alto polígono pré-processadas usadas pelos baker serão salvas em disco para futura reutilização. Essa configuração permite fazer bake novamente mais rapidamente. |
+| **Habilitar processo de fça bake de visualização ao vivo** | Se ativadas, as portas de visualização 3D e 2D exibirão a textura atual do padeiro sendo computada na malha. |
+| **Habilitar Rastreamento de raios do GPU** | Se ativado, os Baker tentarão usar a GPU para executar o Rastreamento de raios em vez da CPU. O recurso permite que os padeiros tenham um desempenho mais rápido em geral.Isso só pode ser ativado em hardware compatível. Consulte os [Requisitos de sistema](../../getting-started/system-requirements.md) para obter mais detalhes. |
 
 ## Opções de visualização
 
@@ -74,7 +74,7 @@ Esta página explica as principais configurações do aplicativo.
 | --- | --- |
 | **Diretório de cache local** | Defina o local secundário para onde as miniaturas de recursos estão localizadas quando geradas.Essa configuração é útil para calcular e armazenar miniaturas de recursos quando um caminho de recurso é somente leitura (como em um caminho de rede com acesso somente leitura). Isso evita recalcular as miniaturas em cada inicialização porque, do contrário, elas não seriam salvas em disco. |
 | **Orçamento do cache local (em MB)** | Defina o tamanho máximo do cache local. |
-| **Sombreamento de visualização do material** | Definir um sombreador a ser usado para gerar miniaturas de materiais em prateleiras. Isso é útil se os recursos usarem um fluxo de trabalho diferente do sombreador padrão. Esta configuração requer que o aplicativo seja reiniciado para que tenha efeito. |
+| **Sombreamento de visualização do material** | Definir um sombreador para usar na geração de miniaturas de materiais em prateleiras. Isso é útil se os recursos usarem um fluxo de trabalho diferente do sombreador padrão. Esta configuração requer que o aplicativo seja reiniciado para que tenha efeito. |
 
 ## Arquivos temporários
 

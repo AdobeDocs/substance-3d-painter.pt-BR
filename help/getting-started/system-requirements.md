@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Revise os requisitos de sistema do Substance 3D Painter para garantir que seu computador atenda às especificações de hardware e software.
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ Veja abaixo uma lista de hardware e sistemas suportados pelo aplicativo:
 
 ## Recomendações gerais
 
-Para obter um bom desempenho ao usar o fluxo de trabalho de Bloco UV, recomendamos usar:
+Para obter um bom desempenho ao usar o fluxo de trabalho do Bloco UV, recomendamos usar:
 
 * 32 GB de RAM
 * GPU com 8 GB de VRAM
@@ -64,7 +64,7 @@ Diversos:
 * Exportar a <b>8K</b> (8192\*8192 pixels) requer uma GPU com <b> mais de</b> 2 GB de VRam.
 * Apenas as versões 2019.x e posteriores foram autenticadas para serem executadas no MacOS 10.15 (Catalina).
 * Para usar o software via RDP (Área de Trabalho Remota), consulte a [página de documentação](../pipeline-and-integration/configuration/remote-desktop.md) dedicada.
-* Falha na CPU Ryzen ao assar, pode ser corrigido atualizando o BIOS.
+* A falha na CPU Ryzen ao fazer bake pode ser corrigida com a atualização do BIOS.
 
 ## Configurações sem suporte
 
@@ -107,16 +107,16 @@ Para obter uma lista detalhada dos problemas dos drivers de GPU por construtor, 
 
 ## Rastreamento de raios do GPU para panificação
 
-Para habilitar o Rastreamento de raios do GPU via Optix ou DXR, os drivers mínimos recomendados acima devem estar instalados.
+Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers mínimos recomendados acima devem ser instalados.
 
-O <b>DXR</b> também requer a seguinte configuração mínima:
+<b>DXR</b> também requer a seguinte configuração mínima:
 
-* <b>Windows 10</b> versão 1809, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
+* <b>Windows 10</b> versão 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
 * GPU <b> com arquitetura Pascal</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
-> O Rastreamento de raios do GPU funciona de maneira ideal em hardware de rastreio de raio dedicado, como GPUs NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
+> O Rastreamento de raios do GPU funciona de maneira ideal em hardware de Rastreamento de raios dedicado como GPUs NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
 
 ## Tablets gráficos compatíveis
 

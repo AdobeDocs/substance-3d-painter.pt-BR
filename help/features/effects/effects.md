@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
 breadcrumb-title: ''
 description: Saiba como usar efeitos no Substance 3D Painter para aplicar filtros, geradores e ajustes às camadas de textura.
 helpx_creative_field: ""
@@ -25,7 +25,7 @@ ht-degree: 4%
 Os Efeitos são um conjunto de várias **ações** que podem ser aplicadas ao **conteúdo** ou à **máscara** de uma **camada** na pilha de camadas do Substance 3D Painter.\
 Eles permitem uma série infinita de alterações, desde simples variações de cores até criações de máscaras complexas. Vários efeitos são enviados com o Substance 3D Painter por padrão, mas você também pode criar seus próprios efeitos no Substance 3D Designer.
 
-Os efeitos podem ser adicionados à pilha por meio de **um clique com o botão direito** em qualquer camada ou máscara, ou clicando no **botão dedicado na parte superior** da janela da pilha de camadas.\
+É possível adicionar efeitos à pilha por meio de **um clique com o botão direito** em qualquer camada ou máscara, ou clicando no **botão dedicado na parte superior** da janela pilha de camadas.\
 A maioria dos efeitos tem um modo de mesclagem e uma opacidade, como camadas regulares, e pode ser reordenada, permitindo criar uma pilha completa de efeitos para criar uma máscara complexa, por exemplo.
 
 >[!NOTE]

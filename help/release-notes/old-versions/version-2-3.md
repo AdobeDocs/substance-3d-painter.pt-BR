@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-3.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Painter versão 2.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versão 2.3
 
-O **Substance Painter 2.3** aprimora a API de script para liberar seu primeiro plug-in oficial: uma exportação de Photoshop com a pilha de camadas completa disponível.
+O **Substance Painter 2.3** aprimora a API de script para lançar seu primeiro plug-in oficial: uma exportação de Photoshop com a pilha de camadas completa disponível.
 
 Data de Lançamento: *15 de setembro de 2016*
 
@@ -30,7 +30,7 @@ Data de Lançamento: *15 de setembro de 2016*
 
 ![](../../assets/ps-230.jpg)
 
-Com esta versão, nos concentramos em adicionar novas possibilidades na API de script para implementar o **um exportador avançado para o Photoshop**. Para acessar essa nova exportação, basta clicar no ícone do Photoshop disponível na barra de ferramentas principal (se o plug-in estiver ativado, o que garante maiúsculas e minúsculas por padrão). O plug-in permite exportar toda a pilha de camadas disponível em um conjunto de texturas e criar uma estrutura semelhante dentro de um arquivo PSD. Este recurso **requer que o Photoshop esteja instalado** no computador para poder gerar o arquivo de PSD.
+Com esta versão, nos concentramos em adicionar novas possibilidades na API de script para implementar o **um exportador avançado para o Photoshop**. Para acessar essa nova exportação, basta clicar no ícone do Photoshop disponível na barra de ferramentas principal (se o plug-in estiver ativado, o que garante maiúsculas e minúsculas por padrão). O plug-in permite exportar a pilha de camadas completa disponível em um conjunto de texturas e criar uma estrutura semelhante dentro de um arquivo PSD. Este recurso **requer que o Photoshop esteja instalado** no computador para poder gerar o arquivo de PSD.
 
 Algumas opções estão disponíveis por meio do botão configurar do menu de plug-in:
 
@@ -48,7 +48,7 @@ Nosso tutorial mais recente explica o processo de exportação com o novo plug-i
 
 **Adicionado:**
 
-* [Plug-in]&#x200B;[Photoshop] Permite especificar qual material/pilha/canais exportar
+* [Plug-in][Photoshop] Permite especificar qual material/pilha/canais exportar
 * [Scripting] Os nomes de função têm algumas inconsistências
 
 **Corrigido:**
@@ -69,21 +69,21 @@ Nosso tutorial mais recente explica o processo de exportação com o novo plug-i
 
 **Adicionado:**
 
-* [Plug-in] Novo plug-in “Exportar para o Photoshop” (exportar pilha de camadas completa)
+* [Plug-in] Novo plug-in “Exportar para o Photoshop” (exportação concluída da pilha de camadas)
 * [Exportar] Permite especificar a largura do preenchimento (em pixels ou infinito)
 * [Exportar] Permite definir o tipo de fundo fora dos UVs
-* [Prateleira] Novo sombreador de camada de material para misturar 10 materiais
+* [Prateleira] Novo sombreador de camadas de material para misturar 10 materiais
 * [Prateleira] Novo sombreador de argila para ver detalhes com o canal height/normal
-* [Prateleira] Novo filtro de iluminação cozido com entrada de ambiente
-* [Prateleira] Alguns geradores de máscara atualizados para adicionar transformações não quadradas
-* [Janela de visualização] Adiciona o mapa normal composto (normal+height+bake) ao modo solo
+* [Prateleira] Novo filtro de iluminação feito bake com entrada de ambiente
+* [Prateleira] Alguns geradores de máscara foram atualizados para adicionar transformações não quadradas
+* [Janela de visualização] Adicionar mapa normal composto (normal+height+faço bake) ao modo solo
 * [Script] Permitir a exportação de mapas adicionais
 * [Scripts] Permitir consultar mapas adicionais disponíveis por conjunto de texturas
 * [Script] Permitir recuperação de formato de canal
-* [Roteiro] Adicione exemplos na documentação de cozimento
+* [Script] Adicione exemplos na documentação de fça bake
 * [Script] Permitir consulta da visibilidade de uma camada
 * [Script] Permitir consulta do modo de mesclagem e da opacidade da camada
-* [Scripting] Permitir exportar mapas convertidos (mapas normais finais, AO misto, etc.)
+* [Script] Permitir a exportação de mapas convertidos (mapas normais finais, AO misto etc.)
 * [Substance] Ler e conectar usos personalizados
 * [Atalhos] Adicionar tecla modificadora (SHIFT) para percorrer o modo solo para trás
 * [Exportar] Predefinição de exportação padrão atualizada para desativar alfa
@@ -98,17 +98,17 @@ Nosso tutorial mais recente explica o processo de exportação com o novo plug-i
 * [IU] Os atalhos de ferramenta não funcionam se a barra de ferramentas estiver oculta
 * [UI] A barra de ferramentas do Iray está marcada como “Sem título” no menu Exibir
 * [UI] As barras de ferramentas do plug-in são chamadas de “Não inclinadas” no menu Exibir
-* [Baker] Pressionar Enter durante a edição de uma configuração de cozimento inicia o processo de cozimento
+* [Baker] Pressionar Enter enquanto edita uma configuração de faço bake inicia o processo de faço bake
 * [Baker] Intervalos incorretos para alguns parâmetros
 * [Importar] Não é possível importar malhas OBJ devido a números muito grandes
 * [Importar] Alguns arquivos OBJ são importados com muitos subobjetos
 * [Exportar] o fundo do canal é preenchido com preto em vez da cor padrão na exportação
 * [Ferramenta] As partículas não funcionam corretamente se o CDV for muito baixo
 * [Ferramenta] A cor de visualização do pincel está incorreta com máscaras em subpilhas
-* [Visor] Quando o pincel vai para áreas vazias na exibição 2D, ele se torna gigantesco
-* [Visor] Visualização de pincel em branco ao pintar texturas Normais
+* [Visor] Quando o pincel vai para áreas vazias no Visualização 2D, ele se torna gigantesco
+* [Visor] Visualização de pincel em branco ao pintar texturas normais
 * [Scripting] Documentação incorreta : “ao” listado em vez de “ambientocclusion”
 * [Scripting] O processo iniciado com subprocess() é finalizado ao fechar o Painter
-* [Prateleira] Filtro de iluminação assado usa entrada de AO incorreta
+* [Prateleira] Filtro de iluminação Feito bake usa entrada de AO incorreta
 * [MacOS] Projeto de hidrante contra incêndio removido (incompatível)
 * O projeto padrão é aberto ao carregar um arquivo \*.spt (em vez de \*.spp)

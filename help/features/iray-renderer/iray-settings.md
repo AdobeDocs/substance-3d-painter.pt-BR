@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/iray-renderer/iray-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/iray-settings.html"
 breadcrumb-title: ''
 description: Saiba como definir as configurações do renderizador Iray no Substance 3D Painter para controlar a qualidade e o desempenho da renderização.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ A seção superior da janela exibe o status de Iray ao lado de outras informaç�
 >[!NOTE]
 >
 > O número de iterações definirá a qualidade final da renderização: mais iterações = melhor qualidade.\
-> No entanto, as iterações podem levar algum tempo, razão pela qual é possível definir um tempo máximo. Uma iteração é definida pelo número de amostras.
+> No entanto, as iterações podem levar algum tempo, por isso é possível definir um tempo máximo. Uma iteração é definida pelo número de amostras.
 
 ## Configurações
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as considerações sobre o desempenho do traçado dinâmico no Substance 3D Painter para otimizar a renderização e a capacidade de resposta do traçado de pincel.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ Também é importante saber que a computação pode ter um impacto em diferentes
 
 ## Usar configurações de tremulação e espaçamento
 
-Embora seja fácil implementar efeitos impressionantes ou avançados dentro do próprio Substance, às vezes pode ser mais benéfico mantê-lo simples e usar as configurações nativas dos parâmetros de ferramenta do Substance 3D Painter. Essas configurações são muito mais rápidas de calcular para o mecanismo de pintura:
+Embora seja fácil implementar efeitos impressionantes ou avançados dentro do próprio Substance, às vezes pode ser mais benéfico mantê-lo simples e usar as configurações nativas dos parâmetros de ferramenta do Substance 3D Painter. Estas configurações são muito mais rápidas de calcular para o mecanismo de tinta:
 
 * **Tremulação**: esses parâmetros permitem criar aleatoriedade a um custo muito baixo, alterando alguns atributos sem recalcular o Substance (como ângulo, posição e opacidade).
 * **Espaçamento**: quanto menor o espaçamento, mais carimbos são criados ao pintar um traçado. Às vezes, não há necessidade de um traçado contínuo do pincel e o uso de um espaçamento grande também pode ajudar a ver melhor o alfa/material usado.
@@ -41,7 +41,7 @@ Embora seja fácil implementar efeitos impressionantes ou avançados dentro do p
 
 A Distribuição Aleatória é uma ótima maneira de gerar singularidade. O problema é que a geração pode ser cara e, no caso do recurso Traçado dinâmico, isso pode acontecer com bastante frequência se não for ajustado corretamente. É importante entender quando usar a Distribuição Aleatória e quando evitá-la, e preferir um método alternativo para obter a melhor relação comercial entre recursos visuais e desempenho :
 
-* **Propagação Aleatória por Carimbo** : neste caso, uma nova geração de Substance exclusivo acontecerá para cada Carimbo. Isso é adequado para criar unhas exclusivas em uma prancha de madeira, por exemplo, mas não se você estiver criando trilhos de tinta/pintura.
+* **Propagação Aleatória por Carimbo** : neste caso, uma nova geração de Substance exclusivo acontecerá para cada Carimbo. Isso é adequado para criar pregos exclusivos em uma prancha de madeira, por exemplo, mas não se você estiver criando trilhos de tinta/tinta.
 * **Propagação Aleatória por Traço**: uma Propagação Aleatória exclusiva é criada para o traçado de pincel atual. Isso é útil ao ter poucos carimbos, mas há a necessidade de um novo conjunto de variações com cada traçado (como um efeito de borrifada).
 * **Propagação Aleatória Estática**: o Substance é gerado uma vez e nunca será alterado. Ideal para desempenhos, mas talvez muito restritivo, dependendo das suas necessidades.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
 breadcrumb-title: ''
 description: Saiba como criar traçados dinâmicos personalizados no Substance 3D Painter para criar comportamentos e efeitos exclusivos no traçado de pincel.
 helpx_creative_field: ""
@@ -37,12 +37,12 @@ Encontre recursos compatíveis na Prateleira que atendam às suas necessidades e
 
 Abaixo há uma lista dos parâmetros suportados para Traçados dinâmicos em gráficos de Substance.
 
-| Identificador de Variável | Descrição |
+| Identificador variável | Descrição |
 | --- | --- |
 | <b>Propagação Aleatória</b> | Se um arquivo de Substance for preparado com a Distribuição aleatória exposta, ele poderá ser controlado com o recurso Traçado dinâmico. |
 | <b>índiceDeCarimbo</b> | <b>Inteiro1</b> será alimentado pelo Substance 3D Painter ao pintar o traçado do pincel. Os valores mínimo e máximo não têm efeito, o Substance 3D Painter os ignora. |
 | <b>stampCycleCount</b> | <b>Inteiro1</b> O Painter lerá os valores padrão, mínimo e máximo do parâmetro para expor o parâmetro de Contagem Cíclica de Carimbo. Esse parâmetro controla quantas variações de Substance exclusivas serão criadas. |
-| <b>$time</b> | <b>Flutuante1</b> será alimentado pelo Substance 3D Painter ao pintar o traçado de pincel com base no tempo de pintura decorrido (por traçado). Essa propriedade pode gerar muitas variações de Substance e, portanto, afetar o desempenho. |
+| <b>$time</b> | A <b>Precisão decimal 1</b> será alimentada pelo Substance 3D Painter ao pintar o traçado de pincel com base no tempo de pintura decorrido (por traçado). Essa propriedade pode gerar muitas variações de Substance e, portanto, afetar o desempenho. |
 | <b>strokeSpacing</b> | <b>float1</b> O valor de espaçamento atual para o traçado inteiro pintado. |
 | <b>strokeSize</b> | <b>float1</b> O valor do tamanho atual para o traçado inteiro pintado. |
 | <b>stampStrokePosition</b> | <b>integer1</b> Usado para especificar o início/início de um traçado. O valor final está disponível apenas no traçado de caminho, não por meio de pintura manual. Valor possível:<ul data-preserve-html="true"> <li data-preserve-html="true">0 = médio</li> <li data-preserve-html="true">1 = início</li> <li data-preserve-html="true">2 = fim</li> </ul>Pode ser desativado usando a tag de usuário isstrokepositionative. |

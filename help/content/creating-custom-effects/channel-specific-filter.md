@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
 breadcrumb-title: ''
 description: Saiba como criar efeitos de filtro específicos do canal para que o Substance 3D Painter processe canais de textura individuais.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ Para gerar a saída desse componente alfa, crie um nó de saída com a mesma con
 >
 > A saída específica “**\_Alpha**” por canal não funciona com **materiais** comuns. Para ocultar um canal com uma máscara, uma saída específica deve ser criada com a seguinte convenção de nomenclatura:
 > 
-> * Identificador : **channels\_Alpha**
+> * Identificador : **canais\_Alpha**
 > * Uso: **channels\_Alpha**
 
 ## Lista de usos e identificadores de entrada/saída
@@ -48,16 +48,16 @@ Para gerar a saída desse componente alfa, crie um nó de saída com a mesma con
 >
 > É possível usar o **uso** ou o **identificador** em um nó de entrada (o uso tem a prioridade).
 
-| Nome do canal | Uso | Identificador / Alpha do identificador |
+| Nome do canal | Uso | Identificador / Alpha de Identificador |
 | --- | --- | --- |
 | *Oclusão de ambiente* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
-| *Ângulo de Anisotropia* | **anisotropyangle** | **anisotropyAngle / anisotropyAngle\_Alpha** |
-| *Nível de Anisotropia* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
+| *Ângulo de anisotropia* | **anisotropyangle** | **anisotropyAngle / anisotropyAngle\_Alpha** |
+| *Nível de anisotropia* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
 | *Cor base* | **basecolor** | **baseColor / baseColor\_Alpha** |
-| *Máscara de Mesclagem* | **máscara de mesclagem** | **blendingmask / blendingmask\_Alpha** |
+| *Máscara de mesclagem* | **máscara de mesclagem** | **blendingmask / blendingmask\_Alpha** |
 | *Difusa* | **difuso** | **difusa / difusa\_Alpha** |
 | *Deslocamento* | **deslocamento** | **deslocamento / deslocamento\_Alpha** |
-| *Emissivo* | **emissivo** | **emissivo/emissivo\_Alpha** |
+| *Emissivo* | **emissivo** | **emissivo / emissivo\_Alpha** |
 | *Textura reluzente* | **textura reluzente** | **glossiness / glossiness\_Alpha** |
 | *Height* | **height** | **height / height\_Alpha** |
 | *IOR* | **i** | **i/i\_Alpha** |
@@ -69,7 +69,7 @@ Para gerar a saída desse componente alfa, crie um nó de saída com a mesma con
 | *Dispersão* | **dispersão** | **dispersão/dispersão\_Alpha** |
 | *Specular* | **specular** | **specular / specular\_Alpha** |
 | *Specular level* | **nível especulativo** | **specularLevel / specularLevel\_Alpha** |
-| *Transmissivo* | **transmissivo** | **transmissivo/transmissivo\_Alpha** |
+| *Transmissivo* | **transmissivo** | **transmissivo / transmissivo\_Alpha** |
 | *Usuário 0* | **usuário0** | **user0 / user0\_Alpha** |
 | *Usuário 1* | **usuário1** | **user1 / user1\_Alpha** |
 | *Usuário 2* | **usuário2** | **usuário2 / usuário2\_Alpha** |
@@ -83,8 +83,8 @@ Para gerar a saída desse componente alfa, crie um nó de saída com a mesma con
 
 ![](../../assets/single-channel.png){width="650px"}
 
-Neste exemplo, o canal alfa da Cor de Base é extraído por um nó de tons de cinza para substituir o canal **Aspereza**.
+Neste exemplo, o canal alfa de Cor de base é extraído através de um nó em tons de cinza para substituir o canal **Aspereza**.
 
 ![](../../assets/mix-channel.png){width="650px"}
 
-Neste exemplo, o canal **Aspereza** é multiplicado pela **Cor Base**.
+Neste exemplo, o canal **Aspereza** é multiplicado pela **Cor de base**.

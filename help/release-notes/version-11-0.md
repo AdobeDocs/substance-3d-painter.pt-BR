@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-11-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-11-0.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Painter versão 11.0 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versão 11.0
 
-O <b>Substance 3D Painter 11.0</b> adiciona um novo fluxo de trabalho de atualização automática de recursos, uma ferramenta de caminho preenchido, além de melhorias gerais para caminhos, um compartimento automático para assar e vários novos filtros para criar texturas estilizadas.
+O <b>Substance 3D Painter 11.0</b> adiciona um novo fluxo de trabalho de atualização automática de recursos, uma ferramenta de caminho preenchido, além de melhorias gerais para caminhos, um compartimento automático para fça bake e vários novos filtros para a criação de texturas estilizadas.
 
 Data de lançamento: <b>11 de março de 2025</b>
 
@@ -45,7 +45,7 @@ Agora é possível manter bibliotecas e projetos atualizados com as versões mai
 
   ![](../assets/auto_update_icon.png)
 * <b>Atualizando recursos em projetos</b>\
-  Recarregar um recurso não atualizará automaticamente a versão usada em um projeto por meio da pilha de camadas, configurações de exibição, configurações de sombreadores etc. Para fazer isso, habilite também a opção <b>Recursos usados no projeto</b>.
+  Recarregar um recurso não atualizará automaticamente a versão usada em um projeto por meio de pilha de camadas, configurações de exibição, configurações de sombreadores etc. Para fazer isso, habilite também a opção <b>Recursos usados no projeto</b>.
 
   ![](../assets/auto-update_auto_settings.png)
 * <b>Frequência de atualização </b>\
@@ -76,14 +76,14 @@ Agora é possível manter bibliotecas e projetos atualizados com as versões mai
 A ferramenta Caminho preenchido é um novo tipo de ferramenta de caminho que permite criar formas na superfície do modelo 3D preenchidas com uma cor uniforme. Possibilita a criação de padrões complexos.
 
 * <b>Nova ferramenta para criar um caminho com uma cor preenchida</b>\
-  Uma nova ferramenta chamada <b>Caminho preenchido</b> está disponível no menu Caminho. Essa ferramenta pode preencher a área interna de um caminho quando fechada. O preenchimento é feito com uma cor uniforme para cada canal do conjunto de texturas.
+  Uma nova ferramenta chamada <b>Caminho preenchido</b> está disponível no menu Caminho. Essa ferramenta pode preencher a área interna de um caminho quando fechada. O preenchimento é feito com uma cor uniforme para cada canal do Conjunto de texturas.
 
   ![](../assets/filled_path_menu.png)
 * <b>Adaptar à superfície automaticamente</b>\
-  A ferramenta Caminho preenchido pode ajustar qualquer tipo de superfície, não está restrita a áreas planas. Ele pode cruzar espaços e limites de objetos.
+  A ferramenta Caminho preenchido pode ajustar qualquer tipo de superfície, não está restrita a áreas planares. Ele pode cruzar espaços e limites de objetos.
 
   ![](../assets/filled_path_across_gaps.png)
-* <b>Compatível com simetria espelhada e radial</b>\
+* <b>Compatível com espelho e simetria radial</b>\
   Essa nova ferramenta também é compatível com as propriedades de simetria, o que abre possibilidades para criar formas complexas.
 
   ![](../assets/filled_path_symmetry.png)
@@ -129,7 +129,7 @@ Nesta nova versão, muitas melhorias de comportamento e qualidade de vida foram 
 
   ![](../assets/paste_vertices.png)
 * <b>Comportamento de exibição aprimorado da interface do usuário para mostrar/ocultar</b>\
-  Pressionar os atalhos de teclado dos manipuladores de visor (<b>L</b>, <b>S</b> ou <b>D</b>) agora os alternará em tempo real. Eles também podem ser ativados/desativados nos botões dedicados da barra de ferramentas contextual. Essa alteração permite mostrar ou ocultar rapidamente os elementos visuais na janela de visualização (como a curva de caminho e os pontos).
+  Pressionar os atalhos de teclado dos manipuladores do visor (<b>W</b>, <b>S</b> ou <b>D</b>) agora irá alterná-los em tempo real. Eles também podem ser ativados/desativados nos botões dedicados da barra de ferramentas contextual. Essa alteração permite mostrar ou ocultar rapidamente os elementos visuais na janela de visualização (como a curva de caminho e os pontos).
 
   ![](../assets/manipulator_toggle.png)
 * <b>Girar e dimensionar agora acessível em vértices de caminho</b>\
@@ -145,7 +145,7 @@ Nesta nova versão, muitas melhorias de comportamento e qualidade de vida foram 
 
   ![](../assets/path_tangent_angle.gif)
 * <b>Manter a lista Caminho aberta entre camadas</b>\
-  Ao alternar entre diferentes camadas e efeitos de pintura, se o painel Caminho na viewport fosse fechado, ele também permaneceria fechado em outras camadas. O painel agora permanecerá aberto para ficar mais conveniente quanto às opções para frente e para trás.
+  Ao alternar entre diferentes camadas de tinta e efeitos, se o painel Caminho na viewport fosse fechado, ele também permaneceria fechado em outras camadas. O painel agora permanecerá aberto para ficar mais conveniente quanto às opções para frente e para trás.
 
   ![](../assets/path_panel.png)
 * <b>Foco no caminho atualmente selecionado </b>\
@@ -157,7 +157,7 @@ Nesta nova versão, muitas melhorias de comportamento e qualidade de vida foram 
 
 ![](../assets/banner_filters.jpg)
 
-A nova versão introduz alguns novos filtros, bem como alguns padrões de procedimento.
+A nova versão introduz alguns novos filtros, bem como alguns padrões processuais.
 
 <b>Filtros:</b>
 
@@ -184,14 +184,14 @@ A nova versão introduz alguns novos filtros, bem como alguns padrões de proced
 * <b>Conversão em tons de cinza </b>\
   Esse novo filtro pode ser usado para converter convenientemente imagens ou canais em tons de cinza, fornecendo controle sobre os canais Vermelho, Verde e Azul, se necessário.
 
-<b>Geradores de textura e ruídos</b>:
+<b>Geradores e ruídos de Textura</b>:
 
 * <b>Gerador de Scratches </b>\
   Um gerador de arranhões aprimorado que simula threads finos com vários controles para aleatoriedade.
 * <b>Triangle Grid </b>\
   Um ruído criado a partir das conexões de triângulos, com controles para aleatoriedade e smoothness.
 * <b>Bloco Aleatório </b>\
-  Um gerador de texturas adaptado para a construção de padrões de ladrilhos.
+  Um gerador de textura adaptado para a construção de padrões de azulejos.
 * <b>Ruídos fractais de Voronoi e Voronoi </b>\
   Já disponíveis como ruídos 3D, essas novas versões 2D podem ser usadas para trabalhar e colocar blocos gráficos no espaço 2D ou UV.
 * <b>Ruídos atualizados para a versão mais recente do Designer </b>\
@@ -199,14 +199,14 @@ A nova versão introduz alguns novos filtros, bem como alguns padrões de proced
 
 ![](../assets/noises.jpg)
 
-### Nova gaiola automática para panificação (experimental)
+### Nova gaiola automática para fazer bake (experimental)
 
 ![](../assets/banner_bake_cage.jpg)
 
-Ao assar uma malha de alto polígono em malhas de baixo polígono, agora você pode selecionar uma nova opção <b>Automático </b> ao especificar o modo de gaiola. Esse novo método tenta calcular uma malha de gaiola automática que se adapte melhor às malhas de alto-polígono para evitar artefatos.
+Ao fazer bake uma malha de alto polígono em malhas de baixo polígono, agora você pode selecionar uma nova opção <b>Automático </b> ao especificar o modo de gaiola. Esse novo método tenta calcular uma malha de gaiola automática que se adapte melhor às malhas de alto-polígono para evitar artefatos.
 
-* <b>Nova configuração nos parâmetros de preparo comuns </b>\
-  Dentro do parâmetro de cozedura comum, o parâmetro “gaiola” foi substituído por uma seleção entre três opções:\
+* <b>Nova configuração nos parâmetros de fça bake comuns </b>\
+  Dentro do parâmetro de fça bake comum, o parâmetro cage foi substituído por uma seleção entre três opções:\
   <b>Com base na distância</b>: as configurações padrão de distância frontal/traseira.\
   <b>Automático (experimental)</b>: a nova gaiola automática.\
   <b>Arquivo personalizado</b>: a maneira anterior de carregar um arquivo de malha personalizado como uma caixa.
@@ -224,7 +224,7 @@ Ao assar uma malha de alto polígono em malhas de baixo polígono, agora você p
 Alterações específicas relacionadas à plataforma do Mac foram feitas nesta versão:
 
 * <b>A API gráfica Metal agora é usada em vez do OpenGL no Mac </b>\
-  A partir desta versão, o Painter agora usa a API gráfica <b>Metal </b> no Mac, para renderizar a viewport e computar texturas. Esse switch melhora muito o desempenho e a estabilidade do aplicativo. Também facilitará a integração de novas funcionalidades no futuro, pois o OpenGL foi descontinuado no MacOS.
+  A partir desta versão, o Painter agora usa a API gráfica <b>Metal </b> no Mac, para renderizar sua viewport e texturas de computação. Esse switch melhora muito o desempenho e a estabilidade do aplicativo. Também facilitará a integração de novas funcionalidades no futuro, pois o OpenGL foi descontinuado no MacOS.
 * <b>Remoção do suporte para a arquitetura Intel no sistema operacional Mac </b>\
   Com esta versão, a compatibilidade com as CPUs Intel no MacOS foi removida. A arquitetura do ARM (M1, M2 etc.) agora é o único compatível.
 
@@ -234,13 +234,13 @@ Alterações específicas relacionadas à plataforma do Mac foram feitas nesta v
 
 Alguns outros recursos também foram adicionados nesta versão:
 
-* <b>Habilitar somente o canal de Cor base em nova camada/efeito de preenchimento</b>\
-  Agora, por padrão, ao criar uma nova camada ou efeito de preenchimento, somente o canal Cor base será habilitado. (Essa alteração não se aplica ao arrastar e soltar um recurso que criaria para si mesmo uma camada/efeito de preenchimento.)\
+* <b>Habilitar somente canal de cor de base em nova camada/efeito de preenchimento</b>\
+  Agora, por padrão, ao criar uma nova camada ou efeito de preenchimento, somente o canal de Cor de base será habilitado. (Essa alteração não se aplica ao arrastar e soltar um recurso que criaria para si mesmo uma camada/efeito de preenchimento.)\
   Com base no feedback da comunidade, fizemos essa alteração para melhorar o desempenho, evitando acionar o cálculo de canais que são desativados posteriormente. Isso deve ajudar na capacidade de resposta ao trabalhar em alta resolução ou com blocos UV.\
-  Observe que você pode reabilitar rapidamente todos os canais clicando no botão Cor de Base enquanto mantém o atalho de teclado <b>ALT </b>.
+  Observe que você pode reabilitar rapidamente todos os canais clicando no botão Cor de base enquanto mantém o atalho de teclado <b>ALT </b>.
 
   ![](../assets/base_color_single_channel.png)
-* <b>Renomear blocos UV para exportar texturas</b>\
+* <b>Renomear Blocos UV para exportar texturas</b>\
   Na janela da lista Conjunto de texturas, não é possível adicionar um nome personalizado em Blocos UV. Ao contrário da descrição, o nome personalizado pode ser recuperado nas predefinições de exportação por meio da marca dedicada <b>$uvTileName</b>.\
   Essa nova funcionalidade permite substituir números UDIM em nomes específicos durante a exportação.
 
@@ -261,7 +261,7 @@ Alguns outros recursos também foram adicionados nesta versão:
 ### 11.0.0
 
 Data de lançamento: <b>3/2025/11</b>\
-Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta Caminho preenchido e outras melhorias de caminho, bem como novos filtros e uma geração experimental de gaiola automática para cozimento</b>
+Resumo: <b>Versão principal, novo recurso de atualização automática, ferramenta de caminho preenchido e outras melhorias de caminho, bem como novos filtros e uma geração experimental de gaiola automática para fça bake</b>
 
 <b>Adicionado</b>:
 
@@ -271,9 +271,9 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Atualização automática] Manter a atualização automática desativada por padrão
 * [Atualização automática] Tornar a atualização opcional se os parâmetros de recurso não corresponderem (.sbsar, .glsl, .ai, .svg)
 * [Atualização automática] Adicionar variável de ambiente para desativar o recurso de atualização automática
-* [Atualização automática]&#x200B;[SBSAR] Tornar a atualização opcional se os parâmetros de recurso não corresponderem
+* [Atualização automática][SBSAR] Tornar a atualização opcional se os parâmetros de recurso não corresponderem
 * Caminho preenchido
-* [Caminho]&#x200B;[Preenchimento] Adiciona nova ferramenta para criar caminhos preenchidos
+* [Caminho][Preenchimento] Adiciona nova ferramenta para criar caminhos preenchidos
 * Melhorias de caminho
 * [Caminho] Criar um caminho que se ajusta aos polígonos
 * [Caminho] Permite alternar tipos de caminho
@@ -283,7 +283,7 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Caminho] Feche a forma com um único clique
 * [Caminho] Exibir informações de caminho
 * [Caminho] Permite dimensionar e girar vértices de caminho
-* [Path]&#x200B;[UX] Facilitar o acesso aos gizmos de transformação
+* [Path][UX] Facilitar o acesso aos gizmos de transformação
 * [Caminho] Adicionar visualização de caminho
 * [Caminho] Desativar a visualização do caminho com Shift + P
 * [Caminho] Melhorar a edição da tangente da vista lateral
@@ -291,7 +291,7 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Caminho] Os vértices devem manter o status da seleção ao ativar e desativar a interface novamente
 * [Caminho] Permite excluir o caminho usando Backspace
 * [Caminho] Mantém a lista de caminhos aberta se o usuário a expandir
-* [Caminho]&#x200B;[Pilha de camadas] Renomear duplicatas corretamente ao copiar/colar
+* [Caminho][Pilha de camadas] Renomear duplicatas corretamente ao copiar/colar
 * Melhorias na interface do usuário [Caminho] e nas dicas de ferramenta
 * Desempenho
 * [Desempenho] Aprimorar o desempenho do visor ao usar um alto nível de mosaico
@@ -305,11 +305,11 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 * [Content] Adicione 3 novos geradores de textura (Tile Random, Triangle Grid, Scratches Generator)
 * [Conteúdo] Renomear modelo do Unreal Engine e exportar predefinições
 * Python
-* [Shelf]&#x200B;[Python] Salvar material inteligente ou máscara inteligente em disco do Python
+* [Shelf][Python] Salvar material inteligente ou máscara inteligente em disco do Python
 * [Python] Adicionar gaiola automática de cozimento à API do Python
 * [Python] Permitir a edição de nomes e descrições de Conjuntos de texturas/Blocos UV
 * [Python] Compartilhar configurações de resolução em fontes vetoriais e de fonte
-* [Atualização automática]&#x200B;[Python] Expor as funcionalidades de atualização automática do projeto no Python
+* [Atualização automática][Python] Expor as funcionalidades de atualização automática do projeto no Python
 * Diversos
 * [Exportar] Facilite o acesso às opções de Enviar para com um novo painel
 * [Nvidia] Adicionar aviso sobre os drivers Nvidia mais recentes (572.16)
@@ -321,13 +321,13 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 
 <b>Corrigido</b>:
 
-* [Nvidia]&#x200B;[Preparação] Os resultados do padeiro de oclusão ambiente têm artefatos
+* [Nvidia][Preparação] Os resultados do padeiro de oclusão ambiente têm artefatos
 * [Falha] Pressione a tecla Alt e clique para alternar a visibilidade de um conjunto de textura desativado leva a uma falha
-* [Cozimento] Gaiola é tida em conta com poli baixo como alto poli param
+* [Fazendo bake] Gaiola é tida em conta com poli baixo como alto poli param
 * [Cozimento] A cor do material para o padeiro do mapa de ID não funciona com o formato de arquivo USD
 * [Desempenho] Renderização lenta no visor com malhas e muitos objetos sobrepostos
 * [Qt] O seletor de cores personalizado não tem as configurações de gerenciamento de cores
-* [Visor] Os manipuladores 3D piscam quando a Suavização de borda está ativada
+* [Visor] Os Manipuladores 3D piscam quando a Suavização de borda está ativada
 * Slot em tons de cinza da borracha no estado do pincel de blocos de máscara
 * [Log] Mensagens de erro muito longas não são relatadas ao importar malhas
 * [Conteúdo] Erro de digitação na lista de nomes predefinidos dentro da predefinição da ferramenta Tópicos
@@ -338,8 +338,8 @@ Resumo: <b>Versão principal, novo recurso Atualização automática, ferramenta
 <b>Problemas Conhecidos</b>:
 
 * [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Regression]&#x200B;[UI] O menu do botão direito do mouse é muito pequeno em telas HD
-* [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
+* [Regression][UI] O menu do botão direito do mouse é muito pequeno em telas HD
+* [Crash][Python] Exportação de USD acionada por TextureStateEvent
 * [Engine] Pintar com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
 * [Python] O widget fantasma aparece excluído pelo script ainda em funcionamento
 * [RedHat] Problemas no seletor de cores

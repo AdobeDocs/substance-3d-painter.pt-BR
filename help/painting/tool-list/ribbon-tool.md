@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
-description: Use a ferramenta Faixa de opções no Substance 3D Painter para criar traçados de pintura tipo faixa de opções ao longo de caminhos para a pintura de texturas decorativas.
+description: Use a ferramenta Faixa de opções no Substance 3D Painter para criar traçados de tinta semelhantes aos da faixa de opções ao longo de caminhos para pintura de textura decorativa.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -34,9 +34,9 @@ Ou por meio do botão <b>Tipo de caminho</b>:
 
 ## Visão geral
 
-A ferramenta Caminho da faixa difere da ferramenta Pintar ao longo do caminho no modo como desenha imagens e materiais.
+A ferramenta Caminho da faixa difere da ferramenta Tinta ao longo do caminho em como ela desenha imagens e materiais.
 
-Embora com a ferramenta baseada em pintura/pincel uma imagem seja repetida várias vezes em um caminho, com a Faixa de opções a imagem é repetida ao longo do caminho e deformada para seguir suas curvas. Os componentes individuais de um Pincel são chamados de <b>carimbos</b>, enquanto os da Faixa de Opções são chamados de <b>patches</b>.
+Embora com a ferramenta baseada em Tinta/pincel uma imagem seja repetida várias vezes em um caminho, com a Faixa de opções a imagem é repetida ao longo do caminho e deformada para seguir suas curvas. Os componentes individuais de um pincel de Tinta são chamados de <b>carimbos</b>, enquanto os da Faixa de Opções são chamados de <b>patches</b>.
 
 ![](../../assets/ribbon_comparison.jpg)
 
@@ -112,8 +112,8 @@ Esta seção controla o resultado da mesclagem para quando o caminho se sobrepõ
 | Parâmetro | Descrição |
 | --- | --- |
 | <b>Alpha</b> | Controle como a seção <b>Alpha</b> do Caminho da faixa é mesclada em regiões onde ele se sobrepõe, o que afeta a intensidade da mesclagem de todos os outros canais. Os valores possíveis são:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: usa o alfa do segmento superior.</li> <li data-preserve-html="true"><b>Clarear (Máx)</b>: (padrão) usa o valor alfa máximo, preservando o segmento mais opaco.</li> <li data-preserve-html="true"><b>Subexposição linear (Adicionar)</b>: adiciona o alfa dos segmentos para acumulá-los juntos, resultando em um valor mais saturado.</li> </ul> |
-| <b>Normal</b> | Defina como o canal <b>Normal</b> é mesclado em regiões onde o caminho se sobrepõe. Os valores possíveis são:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: usa o resultado do segmento superior.</li> <li data-preserve-html="true"><b>Combinação de mapa normal</b>: (padrão) combina os segmentos com intensidade igual.</li> <li data-preserve-html="true"><b>Detalhes do mapa normal</b>: considere o segmento superior como detalhes adicionais, enquanto as regiões inferiores preservarão sua intensidade.</li> </ul>Essa configuração é separada do modo de mesclagem <b>Normal</b> definido para toda a camada, que é aplicado após a mesclagem de autosobreposição do próprio caminho. <b>Observação</b>: esta configuração será desabilitada se o canal tiver uma cor uniforme. É compatível somente com recursos de bitmaps e Substance. |
-| <b>Height</b> | Defina como o canal <b>Height</b> é mesclado em regiões onde o caminho se sobrepõe. Os valores possíveis são:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: usa o resultado do segmento superior.</li> <li data-preserve-html="true"><b>Subexposição linear (Adicionar)</b>: adiciona segmentos juntos, preservando sua intensidade original.</li> <li data-preserve-html="true"><b>Escurecer (mín.)</b>: mantenha apenas o valor mais escuro/mais baixo dos segmentos sobrepostos.</li> <li data-preserve-html="true"><b>Claro (Máx.)</b>: (padrão) mantém o valor mais leve/alto dos segmentos sobrepostos.</li> <li data-preserve-html="true"><b>Tela</b>: semelhante a <b>Doge linear</b>, mas dá um resultado menos saturado.</li> </ul>Essa configuração é separada do modo de mesclagem <b>Height</b> definido para toda a camada, que é aplicado após a mesclagem de autosobreposição do próprio caminho. <b>Observação</b>: esta configuração será desabilitada se o canal tiver uma cor uniforme. É compatível somente com recursos de bitmaps e Substance. |
+| <b>Normal</b> | Defina como o canal <b>Normal</b> é mesclado em regiões onde o caminho se sobrepõe. Os valores possíveis são:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: usa o resultado do segmento superior.</li> <li data-preserve-html="true"><b>Combinação de Mapas normais</b>: (padrão) combine os segmentos com intensidade igual.</li> <li data-preserve-html="true"><b>Detalhes do Mapa normal</b>: considere o segmento superior como detalhes adicionais, enquanto as regiões inferiores preservarão sua intensidade.</li> </ul>Essa configuração é separada do modo de mesclagem <b>Normal</b> definido para toda a camada, que é aplicado após a mesclagem de autosobreposição do próprio caminho. <b>Observação</b>: esta configuração será desabilitada se o canal for uma cor uniforme. É compatível somente com recursos de bitmaps e Substance. |
+| <b>Height</b> | Defina como o canal <b>Height</b> é mesclado em regiões onde o caminho se sobrepõe. Os valores possíveis são:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: usa o resultado do segmento superior.</li> <li data-preserve-html="true"><b>Subexposição linear (Adicionar)</b>: adiciona segmentos juntos, preservando sua intensidade original.</li> <li data-preserve-html="true"><b>Escurecer (mín.)</b>: mantenha apenas o valor mais escuro/mais baixo dos segmentos sobrepostos.</li> <li data-preserve-html="true"><b>Claro (Máx.)</b>: (padrão) mantém o valor mais leve/alto dos segmentos sobrepostos.</li> <li data-preserve-html="true"><b>Tela</b>: semelhante a <b>Doge linear</b>, mas dá um resultado menos saturado.</li> </ul>Essa configuração é separada do modo de mesclagem <b>Height</b> definido para toda a camada, que é aplicado após a mesclagem de autosobreposição do próprio caminho. <b>Observação</b>: esta configuração será desabilitada se o canal for uma cor uniforme. É compatível somente com recursos de bitmaps e Substance. |
 
 Exemplo da aparência do modo de mesclagem com o canal de height:
 

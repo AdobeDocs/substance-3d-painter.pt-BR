@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a referência API de sombreamento esparsa da biblioteca para que o Substance 3D Painter funcione com amostragem de textura esparsa em sombreadores personalizados.
+description: Acesse a referência de API de sombreamento Esparsa da Libéria para que o Substance 3D Painter funcione com amostragem de textura esparsa em sombreadores personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API
 helpx_experience_level: ""
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## lib-sparse.glsl
 
-Esse arquivo fornece funções úteis para garantir a correção de amostragem de texturas esparsas (ARB\_sparse\_texture). Permite a amostragem apenas de parte das texturas realmente presentes na memória de vídeo.
+Esse arquivo fornece funções úteis para garantir a correção de amostragem de texturas esparsas (ARB\_sparse\_textura). Permite a amostragem apenas parte das texturas realmente presentes na memória de vídeo.
 
 **Funções Públicas:** *getSparseCoord* *getSparseCoordLod0* *textureSparseQueryLod* *textureSparse*
 
 **Estruturas Públicas:** *SamplerSparse* *SparseCoord*
 
-A macro *FEATURE\_SPARSE\_TEXTURE* será definida somente se a extensão de textura virtual esparsa estiver habilitada.
+A macro *RECURSO\_ESPARSA\_TEXTURA* será definida somente se a extensão de textura virtual esparsa estiver habilitada.
 
-Se habilitada, processe verificações adicionais de pesquisa de textura para subir a pirâmide do mipmap se os texels estiverem ausentes.
+Se habilitado, processe verificações adicionais de pesquisa de textura para escalar a pirâmide do mipmap se os texels estiverem ausentes.
 
 ```
 ## ifdef FEATURE_SPARSE_TEXTURE
@@ -63,7 +63,7 @@ uniform float uvtile_lod_bias;
 ```
 
 
-Sampler e estrutura de informações de textura esparsa
+Sampler e estrutura de informações esparsa de textura
 
 Usado para consultar todos os uniformes relacionados ao sampler com uma única associação automática
 
@@ -109,7 +109,7 @@ struct SparseCoord {
 ```
 
 
-Criar estrutura de coordenadas de textura usada pela função de amostragem *textureSparse()* (deve ser chamada do sombreador de fragmento)
+Estrutura de coordenadas de textura de compilação usada pela função de amostragem *textureSparse()* (deve ser chamada do sombreador de fragmento)
 
 Exemplo: *SparseCoord uv1coord = getSparseCoord(inputs.multi\_tex\_coord[1]);*
 
@@ -144,7 +144,7 @@ SparseCoord getSparseCoord(vec2 tex_coord) {
 ```
 
 
-Criar estrutura de coordenadas de textura usada pela *função de amostragem textureSparse()*. Versão de amostragem de nível base (pode ser usada se for um sombreador de fragmento externo)
+Criar estrutura de coordenadas de textura usada pela *textureSparse()* função de amostragem Versão de amostragem de nível base (pode ser usada se um sombreador de fragmento externo)
 
 ```
 SparseCoord getSparseCoordLod0(vec2 tex_coord) { 
@@ -249,9 +249,9 @@ void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler,
 ```
 
 
-Executa uma pesquisa de textura em uma textura esparsa, aumente os níveis do mipmap se necessário
+Executa uma pesquisa de textura em uma textura esparsa, suba os níveis do mipmap se necessário
 
-Esta função substitui a *textura(sampler2D, vec2)* padrão para recuperar texturas de uma textura esparsa
+Esta função substitui a *textura(sampler2D, vec2)* padrão para recuperar texels de uma textura esparsa
 
 ```
 vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) { 
@@ -266,7 +266,7 @@ vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-Dada uma textura, executa uma pesquisa otimizada de várias texturas com pequenos deslocamentos
+Dada uma textura, executa pesquisas de várias texturas otimizadas com pequenos deslocamentos
 
 Estamos fornecendo versões alternativas deste auxiliar para até N=4
 

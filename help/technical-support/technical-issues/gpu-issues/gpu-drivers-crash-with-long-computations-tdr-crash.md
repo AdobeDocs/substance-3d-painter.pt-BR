@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
 description: Saiba como corrigir falhas do driver de GPU durante cálculos longos no Substance 3D Painter para evitar erros de tempo limite de TDR.
 helpx_creative_field: ""
@@ -117,7 +117,7 @@ No **painel direito**, clique duas vezes no valor **TdrDelay**. Altere a configu
 
 Esse valor indica em segundos quanto tempo o sistema operacional aguardará antes de considerar que a GPU não responde durante um cálculo.
 
-Valor DWORD de &#39;TdrDelay&#39; ![ no Editor de Registro do Windows Valor DWORD de &#39;TdrDelay&#39; no Editor de Registro do Windows "){zoomable="yes"}] (../../../assets/tdrdelay-edit.png "
+Valor DWORD de &#39;TdrDelay&#39; ![ no Editor de Registro do Windows Valor DWORD de &#39;TdrDelay&#39; no Editor de Registro do Windows "){zoomable="yes"}](../../../assets/tdrdelay-edit.png "
 
 ### 5 - Adicionar ou editar o valor TdrDdiDelay
 

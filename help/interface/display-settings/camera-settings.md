@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/display-settings/camera-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/camera-settings.html"
 breadcrumb-title: ''
 description: Saiba como definir as configurações da câmera no Substance 3D Painter para controlar o comportamento e a projeção da câmera no visor.
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ Consulte a [página Pós-efeito](../../features/post-processing/post-processing.
 ![](../../assets/taa.png)
 
 Quando habilitada, a **Suavização temporal** (**TAA**) removerá as bordas irregulares no visor.\
-O **TAA** funciona acumulando informações em vários quadros de renderização. Isso significa que o efeito está desabilitado até que a câmera pare de se mover ou que outra operação seja executada.
+O **TAA** funciona acumulando informações em várias quadros de renderização. Isso significa que o efeito fica desabilitado até que a câmera pare de se mover ou que outra operação seja executada.
 
 | *Configuração* | *Descrição* |
 | --- | --- |
@@ -69,4 +69,4 @@ Consulte a [página Perfil de Cores](../../features/post-processing/color-profil
 
 | Configuração | Descrição |
 | --- | --- |
-| **Função** | Especifique a função usada para ajustar valores de cor que excedem os recursos de exibição do monitor (remapeamento de valores HDR para um intervalo de LDR). Os valores possíveis são:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Linear</strong> (padrão): nenhuma transformação; valores acima de 1.0 são fixados.</li><li data-preserve-html="true"><strong>ACES</strong>: use a curva de mapeamento de tom do Filmic ACES.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/linear-vs-aces.jpg" width="450px"/></div> **Observação:** alguns mecanismos de jogos e softwares de renderização usam o mapeador de tons ACES. Habilitar essa função ajudará a combinar cores entre aplicativos e evitará diferenças. |
+| **Função** | Especifique a função usada para ajustar valores de cor que excedem os recursos de exibição do monitor (remapeamento de valores HDR para um intervalo de LDR). Os valores possíveis são:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Linear</strong> (padrão): nenhuma transformação; valores acima de 1.0 são fixados.</li><li data-preserve-html="true"><strong>ACE</strong>: use a curva de mapeamento de tom ACE Filmic.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/linear-vs-aces.jpg" width="450px"/></div> **Observação:** alguns mecanismos de jogos e softwares de renderização usam o mapeador de tom ACE. Habilitar essa função ajudará a combinar cores entre aplicativos e evitará diferenças. |

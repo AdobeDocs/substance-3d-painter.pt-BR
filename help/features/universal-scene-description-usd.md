@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/universal-scene-description-usd.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/universal-scene-description-usd.html"
 breadcrumb-title: ''
 description: Saiba mais sobre como trabalhar com arquivos Universal Scene Description (USD) no Substance 3D Painter para uma integração moderna de pipeline.
 helpx_creative_field: ""
@@ -26,6 +26,6 @@ O fluxo de trabalho do USD está disponível no Painter 8.3. O [USD](https://gra
 
 No contexto do Painter, agora é possível:
 
-* [Crie um projeto](../getting-started/project-creation.md), usando recursos específicos do USD, como escolha de escopo e variantes, níveis de subdivisão e quadros de animação.
+* [Crie um projeto](../getting-started/project-creation.md), usando recursos específicos de USD, como escolha de escopo e variantes, níveis de subdivisão e quadros de animação.
 * [Exportar](../export/export-window/export-settings.md) materiais e texturas usando o formato USD.
 * Além disso, o USD foi adicionado como um novo formato de arquivo para exportação somente em malha.

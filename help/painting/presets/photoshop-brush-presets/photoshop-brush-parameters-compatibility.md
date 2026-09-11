@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
 breadcrumb-title: ''
 description: Saiba mais sobre a compatibilidade de parâmetros de pincel do Photoshop no Substance 3D Painter ao importar predefinições de pincel ABR.
 helpx_creative_field: ""
@@ -29,18 +29,18 @@ Ao olhar dentro do arquivo ABR, o Substance 3D Painter recuperará apenas predef
 | *Tipo de predefinição* | *Suporte* | *Descrição* |
 | --- | --- | --- |
 | **Pincel (bitmap)** | Importado | Predefinições de pincel baseadas em bitmaps, pois seus alfas serão importados. |
-| **Pincel (procedimento)** | Ignorado | As predefinições de pincel baseadas em formas de procedimento (como um círculo) não são importadas. |
+| **Pincel (procedimento)** | Ignorado | As predefinições de pincel baseadas em formas processuais (como um círculo) não são importadas. |
 | **Pincel (Aerógrafo)** | Ignorado | As predefinições de pincel com configurações de aerógrafo não são importadas. |
 | **Pincel (Cerdas)** | Ignorado | As predefinições de pincel com configurações de cerdas não são importadas. |
 | **Pincel (Erodível)** | Ignorado | As predefinições de pincel com configurações Erodible não são importadas. |
 | **Lápis** | Ignorado | As predefinições de lápis não são importadas. |
 | **Pincel de mistura** | Ignorado | As predefinições de pincel de mistura não são importadas. |
-| **Carimbo** | Ignorado | As predefinições do Carimbo não são importadas. |
+| **Carimbo de Clonar** | Ignorado | As predefinições de carimbo de Clonar não são importadas. |
 | **Borrar** | Ignorado | As predefinições de borrar não são importadas. |
 
 ## Parâmetros
 
-Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/br/photoshop/using/creating-modifying-brushes.html).
+Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html).
 
 Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legenda para saber o status de cada parâmetro descrito abaixo:
 
@@ -53,19 +53,19 @@ Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legen
 
 | *Grupo* | *Parâmetro* | *Suporte* | *Descrição* |
 | --- | --- | --- | --- |
-| Forma da ponta do pincel | **Tamanho** | ■ | Correspondente ao parâmetro Tamanho da ferramenta Pintura.  **Observação:** o Photoshop define o tamanho em pixels, enquanto o tamanho do Substance 3D Painter se baseia na Caixa Delimitadora do projeto. Uma correspondência exata não é, portanto, possível e será apenas relativa. |
+| Forma da ponta do pincel | **Tamanho** | ■ | Correspondente ao parâmetro Tamanho da ferramenta de Tinta.  **Observação:** o Photoshop define o tamanho em pixels, enquanto o tamanho do Substance 3D Painter se baseia na Caixa Delimitadora do projeto. Uma correspondência exata não é, portanto, possível e será apenas relativa. |
 | **Inverter X** | ■ | Manuseado pelo arquivo de Substance “Brush Maker Photoshop”. |  |
 | **Inverter Y** | ■ | Manuseado pelo arquivo de Substance “Brush Maker Photoshop”. |  |
-| **Ângulo** | ■ | Correspondente ao parâmetro Ângulo da ferramenta Pintura. |  |
+| **Ângulo** | ■ | Correspondente ao parâmetro Ângulo da ferramenta de Tinta. |  |
 | **Arredondamento** | ■ | Manuseado pelo arquivo de Substance “Brush Maker Photoshop”. |  |
 | **Dureza** | ■ | Manuseado pelo arquivo de Substance “Brush Maker Photoshop”. |  |
-| **Espaçamento** | ■ | Correspondente ao parâmetro de espaçamento da ferramenta Pintura. |  |
+| **Espaçamento** | ■ | Correspondente ao parâmetro de espaçamento da ferramenta de Tinta. |  |
 |  |  |  |  |
-| Dinâmica da forma | **Tremulação de tamanho** | ■ | Correspondente ao parâmetro de tremulação de tamanho da ferramenta Pintura. |
-| **Controle (para Tamanho)** | ■ | Correspondente à configuração de pressão da ferramenta de pintura do parâmetro Tamanho . |  |
-| **Diâmetro Mínimo** | ■ | Correspondente ao parâmetro Tamanho mínimo da ferramenta Pintura. |  |
+| Dinâmica da forma | **Tremulação de tamanho** | ■ | Correspondente ao parâmetro de tremulação de tamanho da ferramenta de Tinta. |
+| **Controle (para Tamanho)** | ■ | Correspondente à configuração de pressão da ferramenta de Tinta para o parâmetro Tamanho . |  |
+| **Diâmetro Mínimo** | ■ | Correspondente ao parâmetro Tamanho mínimo da ferramenta de Tinta. |  |
 | **Escala de Inclinação** | ✖ |  |  |
-| **Tremulação de ângulo** | ■ | Correspondente ao parâmetro Tremulação de ângulo da ferramenta Pintura. |  |
+| **Tremulação de ângulo** | ■ | Correspondente ao parâmetro de tremulação de ângulo da ferramenta de Tinta. |  |
 | **Controle (para Ângulo)** | ✖ |  |  |
 | **Tremulação de arredondamento** | ■ | Manuseado pelo arquivo de Substance “Brush Maker Photoshop”. |  |
 | **Arredondamento Mínimo** | ■ | Manuseado pelo arquivo de Substance “Brush Maker Photoshop”. |  |
@@ -73,10 +73,10 @@ Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legen
 | **Inverter tremulação Y** | ■ | Manuseado pelo arquivo de Substance “Brush Maker Photoshop”. |  |
 | **Projeção de pincel** | ✖ |  |  |
 |  |  |  |  |
-| Dispersão | **Dispersão** | ■ | Correspondente ao parâmetro de tremulação de posição da ferramenta Pintura. |
-| **Ambos os Eixos** | ■ | Correspondente ao parâmetro do Eixo de tremulação de posição da ferramenta Pintura. |  |
+| Dispersão | **Dispersão** | ■ | Correspondente ao parâmetro de Tremulação da posição da ferramenta de Tinta. |
+| **Ambos os Eixos** | ■ | Correspondente ao parâmetro Eixo de Tremulação da posição da ferramenta de Tinta. |  |
 | **Controle (para Dispersão)** | ✖ |  |  |
-| **Contagem** | ■ | Compensado por meio do parâmetro Espaçamento da ferramenta Pintura. |  |
+| **Contagem** | ■ | Compensado por meio do parâmetro de espaçamento da ferramenta de Tinta. |  |
 | **Contar tremulação** | ✖ |  |  |
 | **Controle (para Tremulação de Contagem)** | ✖ |  |  |
 |  |  |  |  |
@@ -85,7 +85,7 @@ Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legen
 | **Escala** | ✖ |  |  |
 | **Brilho** | ✖ |  |  |
 | **Contraste** | ✖ |  |  |
-| **Texturizar Cada Ponta** | ✖ |  |  |
+| **Textura Cada Dica** | ✖ |  |  |
 | **Modo** | ✖ |  |  |
 | **Profundidade** | ✖ |  |  |
 | **Profundidade Mínima** | ✖ |  |  |
@@ -107,12 +107,12 @@ Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legen
 | **Tremulação de brilho** | ✖ |  |  |
 | **Pureza** | ✖ |  |  |
 |  |  |  |  |
-| Transferir | **Tremulação de opacidade** | ■ | Correspondente à ferramenta Pintura Carimba o parâmetro de mesclagem definido como “Clarear”. |
-| **Controle (para Opacidade)** | ■ | Correspondente à configuração de pressão da ferramenta Pintura para o parâmetro Fluxo. |  |
-| **Mínimo (para controle de opacidade)** | ■ | Correspondente ao parâmetro Fluxo mínimo da ferramenta Pintura. |  |
-| **Tremulação de fluxo** | ■ | Correspondente ao parâmetro de tremulação de fluxo da ferramenta Pintura. |  |
-| **Controle (para Fluxo)** | ■ | Correspondente à configuração de Pressão da ferramenta Pintura para o parâmetro Fluxo (se for inferior a Opacidade). |  |
-| **Mínimo (para Controle de Fluxo)** | ■ | Correspondente ao parâmetro Fluxo mínimo da ferramenta Pintura (se inferior a Opacidade). |  |
+| Transferir | **Tremulação de opacidade** | ■ | Correspondente à ferramenta de Tinta Carimba o parâmetro de mesclagem definido como “Clarear”. |
+| **Controle (para Opacidade)** | ■ | Correspondente à configuração de pressão da ferramenta de Tinta para o parâmetro Fluxo. |  |
+| **Mínimo (para controle de opacidade)** | ■ | Correspondente ao parâmetro Fluxo mínimo da ferramenta de Tinta. |  |
+| **Tremulação de fluxo** | ■ | Correspondente ao parâmetro de tremulação de fluxo da ferramenta de Tinta. |  |
+| **Controle (para Fluxo)** | ■ | Correspondente à configuração de pressão da ferramenta Tinta para o parâmetro Fluxo (se for menor que Opacidade). |  |
+| **Mínimo (para Controle de Fluxo)** | ■ | Correspondente ao parâmetro Fluxo mínimo da ferramenta de Tinta (se inferior a Opacidade). |  |
 | **Tremulação de umidade** | ✖ |  |  |
 | **Controle (para tremulação de umidade)** | ✖ |  |  |
 | **Mínimo (para o Controle de Umidade)** | ✖ |  |  |
@@ -132,5 +132,5 @@ Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legen
 | Outro | **Ruído** | ✖ |  |
 | **Bordas Molhadas** | ✖ |  |  |
 | **Compilação** | ✖ |  |  |
-| **Suavização** | ■ | Não correspondida diretamente, mas pode ser tratada pela configuração [Mouse Lento](../../lazy-mouse.md). |  |
-| **Textura do Protect** | ✖ |  |  |
+| **Suavização** | ■ | Não correspondida diretamente, mas pode ser tratada por meio da configuração [Atraso do mouse](../../lazy-mouse.md). |  |
+| **Textura DO Protect** | ✖ |  |  |

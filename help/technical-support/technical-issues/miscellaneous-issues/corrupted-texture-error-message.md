@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
 breadcrumb-title: ''
-description: Saiba como corrigir mensagens de erro de textura corrompidas no Substance 3D Painter para restaurar a funcionalidade da textura.
+description: Saiba como corrigir mensagens de erro de textura corrompidas no Substance 3D Painter para restaurar a funcionalidade do textura.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message
 helpx_experience_level: ""
@@ -30,7 +30,7 @@ Um recurso corrompido se manifesta no log ao abrir um projeto com uma mensagem d
 ### 1 - Localizando o recurso
 
 A primeira etapa quando um erro aparece é localizar e identificar o recurso problemático.\
-Na maioria dos casos, o culpado é os **mapas de malha** (texturas assadas). Uma maneira rápida de verificar isso é observar os geradores de máscara na pilha de camadas.
+Na maioria dos casos, o culpado é dos **mapas de malha** (texturas feitas bake). Uma maneira rápida de verificar isso é observar os geradores de máscara na pilha de camadas.
 
 Os recursos corrompidos serão semelhantes a estes:
 
@@ -39,7 +39,7 @@ Os recursos corrompidos serão semelhantes a estes:
 >[!NOTE]
 >
 > Isso também pode significar que o recurso está simplesmente faltando.\
-> Para isso, tente limpar o slot e reafetar manualmente a torta. Se a miniatura da cruz vermelha ainda estiver aqui, isso significa que o recurso está corrompido.
+> Para ter certeza, tente limpar o slot e reafetar manualmente o faço bake. Se a miniatura da cruz vermelha ainda estiver aqui, isso significa que o recurso está corrompido.
 
 ### 2 - Substituindo o recurso
 
@@ -48,8 +48,8 @@ No entanto, se o projeto se estender por vários conjuntos de texturas ou muitas
 
 >[!NOTE]
 >
-> * No caso das texturas assadas, não se esqueça de limpar também os slots de Mapas de Malha na janela [Configurações do Conjunto de Texturas](../../../interface/texture-set/texture-set-settings.md).
-> * As tortas usadas apenas nas Configurações do conjunto de texturas, como o mapa normal, também podem estar corrompidas. Tente removê-los também se os erros persistirem.
+> * No caso das texturas feitas bake, não se esqueça de limpar também os slots de Mapas de Malha na janela [Configurações do Conjunto de Texturas](../../../interface/texture-set/texture-set-settings.md).
+> * As fazes bake usadas apenas nas Configurações do conjunto de texturas como o mapa normal também podem estar corrompidas. Tente removê-los também se os erros persistirem.
 
 ### 3 - Limpeza
 

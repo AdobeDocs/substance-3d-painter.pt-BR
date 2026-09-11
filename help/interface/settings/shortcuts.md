@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/settings/shortcuts.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Saiba como personalizar os atalhos de teclado no Substance 3D Painter para simplificar seu fluxo de trabalho e melhorar a eficiência.
 helpx_creative_field: ''
@@ -26,7 +26,7 @@ Esta página lista todos os atalhos de teclado e mouse disponíveis.
 
 ## Visão geral de atalhos
 
-Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/br/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Como alterar um atalho
 
@@ -41,7 +41,7 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Ocultar interface do usuário** | Guia | Guia | Oculte todas as docking stations/janelas da interface para maximizar a(s) viewport(s). |
 | **Desfazer** | Ctrl+Z | ⌘+Z | Desfazer a ação mais recente. |
 | **Refazer** | Ctrl+Y | ⌘+Y | Refazer uma ação que acabou de ser desfeita. |
-| **Preparação** | F8 | F8 | Alternar para o modo de cozimento |
+| **Fazendo bake** | F8 | F8 | Alternar para o modo de Fça bake |
 | **Pintura** | F9 | F9 | Alterne para o modo Pintura. |
 | **Renderizando (Iray)** | F10 | F10 | Alterne para o modo de renderização. |
 | **Abrir projeto** | Ctrl+O | ⌘+O | Navegue e selecione um projeto Substance Painter para abrir. |
@@ -51,38 +51,38 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Novo projeto** | Ctrl+N | ⌘+N | Abra a janela de criação do novo projeto. |
 | **Sair do aplicativo** | Alt+F4 | ⌘+Q | Feche o Substance Painter. |
 |  |  |  |  |
-| **Mostrar/Ocultar manipulador** | Q | Q | Alterna a exibição do manipulador usado para controlar transformações da camada de preenchimento. |
-| **Aumentar o tamanho do manipulador** | + | + | Aumente o manipulador nas viewports. |
-| **Diminuir o tamanho do manipulador** | \- | \- | Diminua o manipulador nas viewports. |
+| **Mostrar/Ocultar manipulador** | Q | Q | Alterna a exibição da manipulador usada para controlar as transformas da camada de preenchimento. |
+| **Aumentar o tamanho do manipulador** | + | + | Aumente a manipulador nas viewports. |
+| **Diminua o tamanho do manipulador** | \- | \- | Diminua o manipulador nas viewports. |
 | **Percorrer espaços de manipulação** | T | T | Alternar entre a transformação de espaço Objeto e Mundo para o manipulador. |
-| **Alternar modo de edição de distorção** | Shift+V | Shift+V | Alterne entre os modos Distorcer transformação e Editar vértices ao editar uma projeção de distorção. |
-| **Ferramenta de tradução** | L | L | Defina o modo manipulador como translação. |
-| **Ferramenta Girar** | E | E | Defina o modo do manipulador como rotação. |
-| **Ferramenta Escala** | R | R | Defina o modo do manipulador para ser dimensionado. |
-| **Ferramenta Superfície** | Shift+W | Shift+W | Defina o modo manipulador para ajustar à superfície de modelo 3D. |
+| **Alternar modo de edição de distorção** | Shift+V | Shift+V | Alterne entre os modos Distorcer transformo e Editar vértices ao editar uma projeção de distorção. |
+| **Ferramenta de tradução** | L | L | Defina o modo de manipulador como translação. |
+| **Ferramenta Girar** | E | E | Defina o modo de manipulador para rotação. |
+| **Ferramenta Escala** | R | R | Defina o modo de manipulador para dimensionar. |
+| **Ferramenta Superfície** | Shift+W | Shift+W | Defina o modo de manipulador para ajustar à superfície do modelo 3D. |
 | **Simetria** | L | L | Habilita a simetria ao longo de um eixo fornecido. |
 | **Pausar computação do mecanismo** | Shift+Escape | Shift+Escape | Alterna os cálculos do mecanismo. |
 |  |  |  |  |
-| **Selecionar ferramenta de pintura** | 1 | 1 |  |
-| **Selecionar a ferramenta Pintura + Partículas** | Ctrl+1 | ⌘+1 |  |
-| **Selecionar ferramenta Borracha** | 2 | 2 |  |
-| **Selecionar ferramenta Borracha + Partículas** | Ctrl+2 | ⌘+2 |  |
+| **Selecionar ferramenta de Tinta** | 1 | 1 |  |
+| **Selecionar ferramenta de Tinta + Partículas** | Ctrl+1 | ⌘+1 |  |
+| **Selecionar ferramenta de Borracha** | 2 | 2 |  |
+| **Selecionar ferramenta de Borracha + Partículas** | Ctrl+2 | ⌘+2 |  |
 | **Selecionar ferramenta de Projeção** | 3 | 3 |  |
 | **Selecionar a ferramenta Projeção + Partículas** | Ctrl+3 | ⌘+3 |  |
 | **Selecionar Preenchimento de Polígono** | 4 | 4 |  |
 | **Selecionar a ferramenta Borrar** | 5 | 5 |  |
-| **Selecionar a ferramenta Clonar (origem relativa)** | 6 | 6 |  |
+| **Selecione a ferramenta Clonar (origem relativa)** | 6 | 6 |  |
 | **Selecione a ferramenta Clonar (origem absoluta)** | Ctrl+6 | ⌘+6 |  |
-| **Criar mapas de malha** | Ctrl+Shift+B | ⌘+Shift+B | Abra a janela Configurações de cozimento. |
-| **Aumentar tamanho da ferramenta** | **&rbrack;** | **&rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
-| **Diminuir tamanho da ferramenta** | **&lbrack;** | **&lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
+| **Fazer bake Mapas de Malha** | Ctrl+Shift+B | ⌘+Shift+B | Abra a janela de configurações de Fça bake. |
+| **Aumentar tamanho da ferramenta** | **&amp;rbrack;** | **&amp;rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
+| **Diminuir tamanho da ferramenta** | **&amp;lbrack;** | **&amp;lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
 | **Ferramenta Inverter tons de cinza** | X | X | Inverta o valor atual da escala de cinza se a ferramenta de pintura estiver em uma máscara. |
 | **Escolher material de traçado** | P | P | Ative a ferramenta de seleção de material. |
-| **Mouse Preguiçoso** | D | D | Habilita o comportamento do mouse preguiçoso na ferramenta atual. |
+| **Atraso do mouse** | D | D | Ative o comportamento de atraso do mouse na ferramenta atual. |
 | **Ocultar/ignorar geometria excluída** | Alt+H | Option+H | Ocultar partes do modelo 3D que foram excluídas por meio da Máscara de geometria. |
 |  |  |  |  |
-| **Perspectiva da Câmera** | F5 | F5 | Altere a câmera do visor para uma exibição em Perspectiva. |
-| **Câmera Ortográfica** | F6 | F6 | Transforme a câmera do visor em uma vista Ortográfica. |
+| **Perspectiva de câmera** | F5 | F5 | Altere a câmera do visor para uma Visualização em perspectiva. |
+| **Câmera Ortográfica** | F6 | F6 | Altere a câmera do visor para uma visualização Ortográfica. |
 | **Exibir próximo canal** | C | C | Alterne a viewport para o modo Solo e exiba o próximo canal do Conjunto de Textura atual. |
 | **Exibir canal anterior** | Shift+C | Shift+C | Alterne a viewport para o modo Solo e exiba o canal anterior do Conjunto de Textura atual. |
 | **Exibir material** | M | M | Alterne o modo de exibição do visor para Material. |
@@ -94,9 +94,9 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Alternar edição de máscara rápida** | U | U | Entre/saia da edição de máscara rápida. |
 | **Limpar máscara rápida** | Y | Y | Desative e limpe a máscara rápida. |
 | **Inverter máscara rápida** | I | I | Inverta os valores atuais da máscara rápida. |
-| **Layout de viewport 3D/2D** | F1 | F1 | Altere a exibição da viewport para mostrar as visualizações 3D e 2D ao mesmo tempo. |
+| **Layout de viewport 3D/2D** | F1 | F1 | Altere a exibição da viewport para mostrar o 3D e o Visualização 2D ao mesmo tempo. |
 | **Somente 3D de layout de viewport** | F2 | F2 | Altere a exibição da viewport para mostrar apenas a visualização 3D. |
-| **Somente 2D de layout de viewport** | F3 | F3 | Altere a exibição da viewport para mostrar apenas a exibição 2D. |
+| **Somente 2D de layout de viewport** | F3 | F3 | Altere a exibição do visor para mostrar apenas a Visualização 2D. |
 | **Alternar exibição 2D/3D** | F4 | F4 | Alternar entre as exibições 2D e 3D no visor e UV 2D. |
 | **Isolado de conjunto de textura** | Alt+Q | Option+Q | Isole o Conjunto de texturas atual no visor ocultando o outro. |
 |  |  |  |  |
@@ -144,5 +144,5 @@ Exemplo: **copiar** e **colar** requer que o mouse esteja **sobre a pilha de cam
 |  |  |  |  |
 | **Arrastar e soltar material** | CTRL+Arrastar e Soltar | ⌘+Arrastar e Soltar | Pressione e mantenha pressionada esta tecla enquanto arrasta e solta um material (ou material inteligente) na viewport para afetar apenas uma parte específica do modelo 3D. |
 |  |  |  |  |
-| **Restrição/ajuste do manipulador** | Shift | Shift | Ajuste a transformação ao ajustar o manipulador (translação ou rotação) na Visualização 3D. Restringir proporção ao ajustar o manipulador na Visualização 2D. |
-| **Transformação espelhada do manipulador** | Ctrl | ⌘ | O manipulador de espelho aponta a transformação ao redor de seu ponto pivô na Visualização 2D. |
+| **Restrição/ajuste de Manipulador** | Shift | Shift | Ajuste a transformação ao ajustar a manipulador (translação ou rotação) no Visualização 3D. Restringir a proporção ao ajustar o manipulador no Visualização 2D. |
+| **Transformação espelhada do Manipulador** | Ctrl | ⌘ | Espelhar a transformação de pontos de manipulador em torno do ponto pivô no Visualização 2D. |

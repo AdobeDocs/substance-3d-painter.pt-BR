@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_dripping_rust.webp" alt=""/><br><strong>Em:</strong> gerador, tons de cinza, cor</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Ferrugem de gotejamento cria faixas de ferrugem que fluem para baixo, simulando a corrosão causada pela gravidade e pelo escoamento de água.<br><br>O gerador de Ferrugem de gotejamento gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para criar um efeito de ferrugem de gotejamento.<br><br>A posição cozida, a curvatura e a oclusão ambiente são necessárias como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Ferrugem de gotejamento cria faixas de ferrugem que fluem para baixo, simulando a corrosão causada pela gravidade e pelo escoamento de água.<br><br>O gerador de Ferrugem de gotejamento gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para criar um efeito de ferrugem de gotejamento.<br><br>Posição, curvatura e oclusão de ambiente Feitas bake são necessárias como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| **Curvatura** em tons de cinza | Use o mapa de curvatura assado. |
-| **oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão ambiente cozido. |
-| Cor de **Posição** | Use o mapa de posição cozida. |
+| **Curvatura** em tons de cinza | Use o mapa de curvatura feita bake. |
+| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão de ambiente feito bake. |
+| Cor de **Posição** | Use o mapa de Posição feita bake. |
 
 ## Parâmetros
 

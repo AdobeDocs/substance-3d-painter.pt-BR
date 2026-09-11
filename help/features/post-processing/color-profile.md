@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing/color-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
 breadcrumb-title: ''
 description: Saiba como usar o pós-processamento de perfil de cores no Substance 3D Painter para aplicar a correção de cores e as transformações de LUT.
 helpx_creative_field: ""
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ![](../../assets/doc-lut-example.jpg){width="700px"}
 
-O Substance 3D Painter permite atribuir **perfis de cores** às **viewports** carregando texturas **LUT**.\
+O Substance 3D Painter permite atribuir **perfis de cores** às **viewports** ao carregar texturas de **LUT**.\
 Um perfil de cores pode ser usado para calibrar a cor final da tela para corresponder a um destino, como uma câmera específica. Geralmente, um perfil manipula cores alterando o brilho, a gama, o contraste ou até mesmo o equilíbrio de cores.
 
 >[!NOTE]
 >
 > **LUT** significa “**Pesquisar Tabela**”. É uma maneira otimizada de executar a correção de cores como um pós-efeito. Uma LUT é usada para fazer a diferença entre uma origem e um resultado.\
->  O Substance 3D Painter usa **3D** LUTs armazenadas como **textura 2D** (flutuante) de qualquer resolução possível (o padrão é **2048x128 pixels** ). Isso significa que o cubo que armazena as operações de cores é separado em fatias que são exibidas lado a lado. Para obter mais detalhes técnicos, consulte o artigo **GPU Gem**: <http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html>
+>  O Substance 3D Painter usa **LUTs 3D** armazenadas como **textura 2D** (flutuante) de qualquer resolução possível (o padrão é **2048x128 pixels** ). Isso significa que o cubo que armazena as operações de cores é separado em fatias que são exibidas lado a lado. Para obter mais detalhes técnicos, consulte o artigo **GPU Gem**: <http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html>
 
 ## Uso de um perfil de cores
 
@@ -84,4 +84,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 Basta abrir a janela de importação (ou arrastar e soltar a LUT na prateleira). Ao importar a textura LUT no Substance 3D Painter, atribua o uso de &quot; **colorlut** &quot; **ao novo recurso.** Caso contrário, o recurso não estará visível corretamente na prateleira.
 
-Para obter mais informações, consulte a documentação sobre a importação de novos recursos: [Adicionando recursos por meio da janela de importação](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Para obter mais informações, consulte a documentação sobre a importação de novos recursos: [Adicionando recursos por meio da janela de importação](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

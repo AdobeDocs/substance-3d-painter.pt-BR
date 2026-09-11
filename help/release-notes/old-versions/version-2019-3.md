@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Painter versão 2019.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Agora você pode usar os pincéis do Photoshop no Substance Painter. Ao simplesm
 
 Se você não tiver arquivos ABR para importar, poderá encontrar muitos deles online:
 
-* [Predefinições do pincel de Kyle no Adobe](https://www.adobe.com/br/products/photoshop/brushes.html)
+* [Predefinições do pincel de Kyle no Adobe](https://www.adobe.com/products/photoshop/brushes.html)
 * [Predefinições de pincel em ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Predefinições de pincel em DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Predefinições de pincel em Pincel de cubo](https://cubebrush.co/marketplace?categories=354,57)
@@ -44,7 +44,7 @@ Para oferecer suporte aos pincéis do Photoshop, vários novos recursos foram ad
 * **Novos parâmetros de Tamanho e Fluxo**\
   Agora você pode especificar o tamanho mínimo e o fluxo mínimo da ferramenta quando a Pressão da caneta está ativada. Esse parâmetro funciona como uma porcentagem com base no tamanho/fluxo máximo atual definido. Essas configurações são calibradas automaticamente ao usar uma predefinição de pincel do Photoshop.\
   ![](../../assets/size-minimum.png)
-* **Novos parâmetros de tremulação de posição**\
+* **Novos parâmetros de Tremulação da posição**\
   Para combinar com o comportamento do pincel do Photoshop, adicionamos algumas novas configurações. Agora é possível definir a qual eixo a tremulação é aplicada e como as posições aleatórias são distribuídas (escolha **Uniforme** para corresponder ao Photoshop).\
   ![](../../assets/position-jitter-settings.png)\
   ![](../../assets/gaussian-vs-uniform.png)
@@ -57,7 +57,7 @@ Para oferecer suporte aos pincéis do Photoshop, vários novos recursos foram ad
   ![](../../assets/brush-maker-photoshop.png)\
   ![](../../assets/brush-maker-photoshop-settings.png)
 * **Nova correção de gama para o canal alfa de camadas**\
-  O Photoshop não mescla seus traçados de pincel no espaço de gama linear, o que significa que a mesclagem e a opacidade podem parecer erradas ao pintar com uma predefinição de pincel do Photoshop. Uma nova configuração pode ser ativada em camadas para corresponder a esse comportamento e aplicar uma correção de gama. Isso afetará o alfa usado para pintar traçados de pincel, bem como a forma como a máscara da camada é usada para mesclar com outras camadas. No entanto, os modos de mesclagem da camada ainda operarão no espaço gama linear.\
+  O Photoshop não mescla seus traçados de pincel no espaço de gama linear, o que significa que a mesclagem e a opacidade podem parecer erradas ao pintar com uma predefinição de pincel do Photoshop. Uma nova configuração pode ser ativada em camadas para corresponder a esse comportamento e aplicar uma correção de gama. Isso afetará o alfa usado para tinta traçados de pincel, bem como a forma como a máscara da camada é usada para mesclar com outras camadas. No entanto, os modos de mesclagem da camada ainda operarão no espaço gama linear.\
   Para **ativar esta configuração**, basta clicar com o botão direito do mouse em uma camada e escolher **Alfa/máscara corrigida por gama**. Um novo ícone aparecerá ao lado da camada para indicar quando essa configuração estiver ativada.\
   ![](../../assets/layer-menu.png) ![](../../assets/layer-icon.png)\
   ![](../../assets/gamma-correction-demo.png)
@@ -65,7 +65,7 @@ Para oferecer suporte aos pincéis do Photoshop, vários novos recursos foram ad
   Para corresponder corretamente os parâmetros das predefinições de pincel do Photoshop, o valor máximo dos seguintes parâmetros foi aumentado:
 
   * **Espaçamento**: o máximo agora pode ser definido como 1000.
-  * **Tremulação de posição**: o máximo agora pode ser definido como 1000.
+  * **Tremulação da posição**: o máximo agora pode ser definido como 1000.
 
 Para obter mais informações, como exportar arquivos ABR e importá-los, consulte a documentação das [Predefinições de pincel do Photoshop](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md).
 
@@ -93,8 +93,8 @@ Além do suporte às predefinições de pincel do Photoshop, vários aprimoramen
   Na barra de ferramentas contextual, agora é possível definir como a pressão da caneta deve ser interpretada. Essas novas configurações controlam a rapidez do acúmulo de pressão, que permite diferentes estilos de pintura.
 
   * **Linear**: sem transformação, a pressão recuperada conforme fornecida pela caneta da mesa digitalizadora. Use essa configuração caso uma curva de pressão da Caneta já esteja definida nas configurações de drivers do Tablet.
-  * **Acelerar** (padrão): reduza a velocidade no início da pressão, tornando mais fácil pintar traçados finos ou esmaecidos.
-  * **Aumentar suavização**: diminua a velocidade do início da pressão e aumente sua velocidade final, facilitando a pintura de traçados suaves ou fortes.
+  * **Acelerar** (padrão): reduza a velocidade no início da pressão, facilitando a tinta de traçados finos ou esmaecidos.
+  * **Entrada rápida**: diminua a velocidade do início da pressão e aumente sua velocidade final, facilitando a tinta de traçados suaves ou fortes.
 
   ![](../../assets/pressure-curve.png)
 * **O botão de pressão não é mais uma lista suspensa**\
@@ -112,10 +112,10 @@ Além do suporte às predefinições de pincel do Photoshop, vários aprimoramen
 
 ![](../../assets/banner-uv-unwrap.jpg)
 
-O Substance Painter agora desembrulhará automaticamente as malhas que têm coordenadas UV ausentes. Isso possibilita importar qualquer tipo de geometria e começar imediatamente a pintar. Nosso sistema de desempacotamento UV gerará uma Ilha UV por sub-malha enquanto ainda segue a atribuição do material para criar conjuntos de textura. Este recurso está atualmente em versão beta e evoluirá em versões futuras. O Desencapsulamento Automático será aplicado apenas a projetos que **não usam o fluxo de trabalho UDIM**.
+O Substance Painter agora desembrulhará automaticamente as malhas que têm coordenadas UV ausentes. Isso permite importar qualquer tipo de geometria e começar imediatamente a tinta. Nosso sistema de desempacotamento UV gerará uma Ilha UV por sub-malha enquanto ainda segue a atribuição do material para criar conjuntos de textura. Este recurso está atualmente em versão beta e evoluirá em versões futuras. O Desencapsulamento Automático será aplicado apenas a projetos que **não usam o fluxo de trabalho UDIM**.
 
 * **Desencapsulamento UV automático**\
-  Por padrão, o Substance Painter agora irá gerar automaticamente coordenadas UV para malhas que estão faltando. Isso se aplica à criação de projetos e à reimportação de malha. No entanto, é possível desabilitar esse comportamento acessando as [configurações principais](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e desabilitando a **Habilitar o desencapsulamento automático de UV** em **Opções de importação**.
+  Por padrão, o Substance Painter agora irá gerar automaticamente coordenadas UV para malhas que estão faltando. Isso se aplica à criação de projetos e à reimportação de malha. No entanto, é possível desabilitar esse comportamento acessando as [configurações principais](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e desabilitando a **Habilitar o desencapsulamento automático de UV** em **Opções de importação**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Barra de Progresso de Desencapsulamento UV**\
@@ -142,7 +142,7 @@ Continuamos melhorando a integração do formato Substance, oferecendo suporte a
 * **Suporte da Etapa definida nos parâmetros**\
   O gráfico de Substance que tem parâmetros com uma etapa definida agora será levado em consideração ao ajustar o controle deslizante.
 * **Precisão de dígitos aumentada para controles deslizantes de flutuação**\
-  O controle deslizante Flutuante agora pode ter valores de entrada que diminuem para 6 decimais. No entanto, isso é limitado pela precisão de ponto flutuante, o que significa que o valor de entrada pode ser arredondado em alguns casos.
+  O controle deslizante de Precisão decimal agora pode ter valores de entrada que diminuem para 6 decimais. No entanto, isso é limitado pela precisão de ponto flutuante, o que significa que o valor de entrada pode ser arredondado em alguns casos.
 * **Novo controle de Distribuição Aleatória com Traçados dinâmicos**\
   Agora é possível solicitar vários valores de propagação aleatória com um intervalo definido. Isso permite criar variações de Substance exclusivas e aleatórias, ao mesmo tempo em que obtém um bom desempenho, beneficiando-se da reciclagem do cache.\
   No grupo Traço dinâmico, alterne o parâmetro **Tipo de propagação aleatória** para **Aleatório por traço** ou **Aleatório por carimbo** para acessar o novo parâmetro. O **Valor de Amostra Aleatório** define quantas variações de Substance serão geradas no total. Uma variação aleatória será selecionada dentro do conjunto assim que o valor selecionado tiver sido gerado.
@@ -162,16 +162,16 @@ Várias melhorias foram feitas no restante da aplicação, que deve ajudar para 
 * **Foco em viewports independentes**\
   O foco 2D e 3D (atalho F) foi modificado com o seguinte comportamento:
 
-  * **Passe o mouse sobre a exibição 2D**: pressionar F focalizará apenas a exibição 2D.
+  * **Passe o mouse sobre o Visualização 2D**: pressionar F focalizará apenas o Visualização 2D.
   * **Passe o mouse sobre a exibição 3D**: pressionar F focalizará apenas a exibição 3D.
   * **Mouse fora das viewports**: pressionar F focalizará a exibição 2D e 3D.
 
   ![](../../assets/viewport-focus.gif){width="400px"}
-* **Atalho de teclado e menu da Janela de Preparação**\
-  A assadeira pode ser aberta por duas novas maneiras diferentes:
+* **Fazendo bake o teclado e o atalho de menu da Janela**\
+  A janela de fça bake pode ser aberta de duas novas maneiras diferentes:
 
   * Pressionando **Ctrl+Shift+B**.
-  * Acessando o menu Editar e clicando em **Criar mapas de malha**.
+  * Acessando o menu Editar e clicando em **Fazer bake mapas de malha**.
 
   ![](../../assets/bake-mesh-maps-menu.png)
 * **Rolar Docks e Windows com o atalho Ctrl+Alt+Clique com o Botão Esquerdo**\
@@ -202,8 +202,8 @@ Nesta versão, muito conteúdo novo foi adicionado:
     Esse filtro simula a pintura em aquarela com sangria de cor e absorção de papel lendo a cor de entrada.
 
     ![](../../assets/icon-matfx-watercolor.png)
-  * **Pintura a óleo MatFx**\
-    Inspirado no trabalho do [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), esse filtro leu as informações de cores da entrada e as converte em traçados de pincel com base em vários parâmetros. Várias predefinições estão disponíveis para testar variações facilmente. Recomendamos combiná-lo com o filtro **Ambiente de iluminação baked** ou assar/pintar manualmente sombras em suas texturas para maximizar seu efeito.
+  * **Tinta a óleo MatFx**\
+    Inspirado no trabalho do [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), esse filtro leu as informações de cores da entrada e as converte em traçados de pincel com base em vários parâmetros. Várias predefinições estão disponíveis para testar variações facilmente. Recomendamos combiná-lo com o filtro **Ambiente de iluminação baked** ou fazer bake/tinta manualmente sombras em suas texturas para maximizar seu efeito.
 
     ![](../../assets/icon-matfx-oil-paint.png)
 
@@ -215,7 +215,7 @@ Nesta versão, muito conteúdo novo foi adicionado:
 * **Novas predefinições de pincel**
 
   * **102 predefinições de pincel para Photoshop**\
-    Com a introdução da compatibilidade com o pincel do Photoshop, um novo conjunto de predefinições foi incluído para exibi-lo. Essas predefinições foram selecionadas nos pacotes de Kyle T. Webster disponíveis no [site do Adobe](https://www.adobe.com/br/products/photoshop/brushes.html).
+    Com a introdução da compatibilidade com o pincel do Photoshop, um novo conjunto de predefinições foi incluído para exibi-lo. Essas predefinições foram selecionadas nos pacotes de Kyle T. Webster disponíveis no [site do Adobe](https://www.adobe.com/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 novas predefinições de pincel**\
@@ -223,7 +223,7 @@ Nesta versão, muito conteúdo novo foi adicionado:
 
     * Pressão Sólida Básica
     * Carvão Fino
-    * Quadro completo de carvão
+    * Quadro Total de Carvão
     * Luz de carvão
     * Carvão médio
     * Carvão natural
@@ -233,16 +233,16 @@ Nesta versão, muito conteúdo novo foi adicionado:
     * Traçado Ondulado Com Divisão
     * Traçado sinuoso
     * Pintar seta do cilindro
-    * Grampeamentos do cilindro de pintura largos
-    * Grampos do cilindro de pintura
-    * Pontos do cilindro de pintura
-    * Stripe do cilindro de pintura
+    * Grampeamentos de rolos de tinta largos
+    * Tinta de grampos de cilindro
+    * Tinta pontos do cilindro
+    * Stripe do cilindro de tinta
     * Pintar veia do cilindro longa estreita
-    * Texto de aviso do cilindro de pintura
+    * Texto de aviso do cilindro de tinta
 
     ![](../../assets/shelf-presets-demo.jpg){width="500px"}
 * **Novas predefinições de ferramenta**\
-  2 novas predefinições de ferramenta foram adicionadas para simular a pintura guache.
+  2 novas predefinições de ferramenta foram adicionadas para simular a tinta em guache.
 
   * Guache Dense.
   * Guache Desbotado.
@@ -255,8 +255,8 @@ Nesta versão, muito conteúdo novo foi adicionado:
     Esse novo gráfico de Substance replica alguns parâmetros específicos de pincel disponíveis no Photoshop por meio do recurso Traçado dinâmico. Com, é possível controlar o Arredondamento e a opção Virar ou uma imagem de entrada. Alguns parâmetros de tremulação também estão disponíveis para criar mais variações. Esse gráfico de Substance é inserido automaticamente na seção Alpha ao clicar em uma predefinição de pincel Photoshop proveniente de um arquivo ABR.
 
     ![](../../assets/icon-brush-maker-photoshop.png)
-  * **Cilindro de pintura do criador de pincéis**\
-    Este novo gráfico de Substance simula um cilindro de pintura (ou ferramenta de fita simples) para pintar padrões contínuos com curvas sem quebra. Para facilitar a configuração, examine as predefinições existentes ou consulte a descrição do gráfico. Recomendamos habilitar o [Mouse preguiçoso](../../painting/lazy-mouse.md) para fazer o pincel de rolagem desenhar corretamente sem criar quebras.
+  * **Cilindro de Tinta do Criador de Pincel**\
+    Este novo gráfico de Substance simula um rolo de Tinta (ou ferramenta de fita simples) para tinta padrões contínuos com voltas sem quebra. Para facilitar a configuração, examine as predefinições existentes ou consulte a descrição do gráfico. Recomendamos habilitar o [Atraso do mouse](../../painting/lazy-mouse.md) para fazer o pincel de rolagem desenhar corretamente sem criar quebras.
 
     ![](../../assets/icon-brush-maker-paint-roller.png)
 
@@ -268,7 +268,7 @@ Nesta versão, muito conteúdo novo foi adicionado:
 * **Novo modelo e predefinições de exportação**
 
   * **Keyshot 9+**\
-    Essa predefinição de exportação torna as texturas exportadas compatíveis com o novo recurso Keyshot 9, que simplifica o carregamento e a atribuição de texturas e materiais. Para obter mais informações, consulte a [documentação sobre captura de teclas](https://luxion.atlassian.net/wiki/spaces/K9M/pages/1124335675/Material+Importer).
+    Essa predefinição de exportação torna o textura exportado compatível com o novo recurso Keyshot 9, que simplifica o carregamento e a atribuição de texturas e materiais. Para obter mais informações, consulte a [documentação sobre captura de teclas](https://luxion.atlassian.net/wiki/spaces/K9M/pages/1124335675/Material+Importer).
   * **Spark AR Studio**\
     Este novo modelo de projeto e esta predefinição de exportação facilitam o trabalho com o [Spark AR Studio](https://sparkar.facebook.com/ar-studio/).
 
@@ -299,7 +299,7 @@ Resumo: **Correção de erro com atualização para o Iray 2019.3**
 * [Tablet] Detecção incorreta ao mover controles deslizantes
 * [Atalhos] Não é possível configurar nenhum atalho com “Ctrl+Alt+Clique do Mouse”
 * [Prateleira] Não é possível ver a dica de ferramenta do recurso ao usar um tablet com caneta
-* [2D View]&#x200B;[Export] A predefinição de exibição 2D não leva em consideração as informações normais
+* A predefinição [Visualização 2D][Export] não leva em consideração as informações normais
 * Congela ao pintar em alinhamento UV com determinados pincéis
 * Pintar sob um filtro cria artefatos no traçado em andamento
 * [Visor] Cache de textura incorreto no visor após a reimportação de uma malha
@@ -331,7 +331,7 @@ Resumo: **Correção de erros**
 
 **Problemas Conhecidos:**
 
-* [Bakers] Falha relacionada a multi-threading em CPUs Ryzen
+* [Baker] Falha relacionada a multi-threading nas CPUs Ryzen
 * [Desempacotamento UV] O processamento de malhas de alta polarização pode demorar muito tempo
 * [Desempacotamento UV] Os vértices exatamente nas mesmas coordenadas são mesclados
 * [UV Unwrapping] A geração de UV pode falhar em algumas partes da malha em alguns casos raros
@@ -350,17 +350,17 @@ Resumo: **Hotfix**
 * Falha ao trabalhar em malhas com Projeções UV específicas
 * [ABR] Falha ao alternar entre predefinições Photoshop
 * [Linux] Não é possível iniciar o Substance Painter no CentOS 7.4 devido a um problema de dependência do libGLX
-* [Padeiros] Falha ao assar após usar Arquivo > Limpar
-* [Padeiros] A caixa de diálogo de progresso da cozedura congela após o cancelamento
-* [Padarias] A malha de cozimento após a exportação de texturas não funciona
-* [Padarias] O uso da opção “Corresponder por nome” resulta em mapas de malha pretos
-* [Padeiros] A gaiola não é tida em conta
+* [Baker] Falha ao fazer bake após usar Arquivo > Limpar
+* [Baker] Fazendo bake o congelamento da caixa de diálogo de progresso após o cancelamento
+* [Baker] Fazer bake a malha após exportar o textura não funciona
+* [Baker] Usar “Corresponder por nome” resulta com mapas de malha pretos
+* [Baker] A gaiola não é considerada
 * [Prateleira] Importar arquivos de PSD leva a imagens quebradas
 * [Amostra] O projeto de amostra “Mat” possui câmeras quebradas e predefinição de exportação incorreta
 
 **Problemas Conhecidos:**
 
-* [Bakers] Falha relacionada a multi-threading em CPUs Ryzen
+* [Baker] Falha relacionada a multi-threading nas CPUs Ryzen
 * [Desempacotamento UV] O processamento de malhas de alta polarização pode demorar muito tempo
 * [Desempacotamento UV] Os vértices exatamente nas mesmas coordenadas são mesclados
 * [UV Unwrapping] A geração de UV pode falhar em algumas partes da malha em alguns casos raros
@@ -380,28 +380,28 @@ Resumo: **Versão principal com melhoria na experiência do usuário de pintura 
 * [Desencapsulamento UV] Desencapsulamento UV automático em Substance Painter quando nenhum UV presente ou UVs parciais
 * [Desencapsulamento UV] Uma configuração global para ativá-lo e desativá-lo
 * [Desencapsulamento UV] Versão relatada no arquivo de log
-* [Desencapsulamento UV]&#x200B;[IU] Indicar progresso do desencapsulamento UV
+* [Desencapsulamento UV][IU] Indicar progresso do desencapsulamento UV
 * [UI] Novas configurações na barra de ferramentas contextual para selecionar a visualização do pincel: visualização completa, contorno e mira
 * [Ferramenta] Novo modo de mesclagem avançado na seção alfa: Clarear (máximo) além de Normal
 * [Pilha de camadas] Opção de correção de gama por camada para alfa ou máscara (menu do botão direito do mouse)
-* [Pilha de camadas]&#x200B;[IU] Adicionar ícone &#39;i&#39; quando um alfa de camada for corrigido para a gama
-* [Tablet]&#x200B;[Ferramenta] Expor a pressão mínima para tamanho e fluxo
-* [Tablet]&#x200B;[IU] Nova configuração na barra de ferramentas contextual para selecionar a pressão da curva: linear, fácil de entrar, fácil de sair
-* [Tablet]&#x200B;[UX] Adicionar Ctrl+Alt+clique para rolar
+* [Pilha de camadas][IU] Adicionar ícone de “i” quando um alfa de camada é corrigido para a gama
+* [Tablet][Ferramenta] Expor a pressão mínima para tamanho e fluxo
+* [Tablet][IU] Nova configuração na barra de ferramentas contextual para selecionar a pressão da curva: linear, fácil de entrar, fácil de sair
+* [Tablet][UX] Adicionar Ctrl+Alt+clique para rolar
 * Importar predefinições de pincel do Photoshop (formato ABR)
 * [ABR] Suporte a parâmetros de forma
 * [ABR] Suporte a parâmetros de dinâmica de forma
 * [ABR] Parâmetros de transferência de suporte
 * [ABR] Parâmetros de dispersão de suporte
-* [ABR]&#x200B;[Traçados dinâmicos] Redondez e giro de suporte
-* [ABR]&#x200B;[Prateleira] Expor a estrutura de pastas de pincéis no Editor de filtros
-* [ABR]&#x200B;[Prateleira] Adicionar ícone do Photoshop em miniaturas
-* [ABR]&#x200B;[Prateleira] Adicionar lista de parâmetros não suportados na miniatura detalhada do ABR
-* [Ferramenta]&#x200B;[Traçados dinâmicos] Nova configuração de traçado dinâmico para controlar a quantidade de semente aleatória a ser gerada
-* [Ferramenta]&#x200B;[IU] Adicionar nova distribuição e configurações de eixo para dispersão de tremulação
-* [Atalho] Adicione Ctrl+Shift+B para abrir a janela Cozimento
-* [UI]&#x200B;[Menu] Adicionar entrada no menu “Editar” para abrir a janela Cozimento
-* [UI]&#x200B;[Configurações] Aprimoramento do alinhamento da lista de atalhos
+* [ABR][Traçados dinâmicos] Redondez e giro de suporte
+* [ABR][Prateleira] Expor a estrutura de pastas de pincéis no Editor de filtros
+* [ABR][Prateleira] Adicionar ícone do Photoshop em miniaturas
+* [ABR][Prateleira] Adicionar lista de parâmetros não suportados na miniatura detalhada do ABR
+* [Ferramenta][Traçados dinâmicos] Nova configuração de traçado dinâmico para controlar a quantidade de semente aleatória a ser gerada
+* [Ferramenta][IU] Adicionar nova distribuição e configurações de eixo para dispersão de tremulação
+* [Atalho] Adicione Ctrl+Shift+B para abrir a janela de Fça bake
+* [UI][Menu] Adicionar entrada no menu “Editar” para abrir a janela de Fça bake
+* [UI][Configurações] Aprimoramento do alinhamento da lista de atalhos
 * [IU] Substituir ícones de controles de pressão (tamanho e fluxo) por botões de ligar/desligar
 * [Janela de visualização] Permitir focalizar as portas de visualização 2D e 3D separadamente
 * Atualize para QT 5.12.5
@@ -412,10 +412,10 @@ Resumo: **Versão principal com melhoria na experiência do usuário de pintura 
 * [Substance] Otimizar a geração de traço dinâmico com suporte a condições nos dados do usuário
 * [Substance] Permitir designar uma saída de gráfico como uma máscara para todos os canais via userdata
 * [Content] Atualizar projeto de amostra &#39;Mat&#39; com topologia amigável ao deslocamento, novo mapa de ID e novas câmeras
-* [Conteúdo] Integrar 3 novos filtros (MatFx): Quadrinhos, Aquarela, Pintura a óleo (inspirada no trabalho de Emrecan Cubukcu)
+* [Conteúdo] Integrar 3 novos filtros (MatFx): Quadrinhos, Aquarela, Tinta a óleo (inspirada no trabalho de Emrecan Cubukcu)
 * [Conteúdo] Integrar 102 predefinições de pincel Photoshop dos pacotes de Kyle T. Webster
-* [Content] Integrar 18 novas predefinições de pincel: Seta de rolo de pintura, Texto de aviso de rolo de pintura, Carvão fino e muito mais
-* [Content] Integrar 9 novas alfas: rolo de pintura do criador de pincel, Photoshop do criador de pincel, padrões de pincel e muito mais
+* [Content] Integrar 18 novas predefinições de pincel: Seta de Tinta, Texto de aviso de rolo de Tinta, Carvão fino e muito mais
+* [Content] Integrar 9 novas alfas: Rolo de Tinta do Criador de Pincel, Photoshop do Criador de Pincel, padrões de pincel e muito mais
 * [Content] Integrar 2 novas predefinições de ferramenta: Gouache Dense e Gouache Faded
 * [Conteúdo] Integrar 1 novo gerador : verificador UV (destacar Ilhas UV e costuras)
 * [Content] Integrar 2 novas predefinições de exportação: Keyshot 9+ e Spark AR Studio
@@ -431,10 +431,10 @@ Resumo: **Versão principal com melhoria na experiência do usuário de pintura 
 * [Tablet] Deslocamento entre a visualização do pincel e o carimbo desenhado
 * [Tablet] Os atalhos para modificar pincéis com caneta resultam em baixo desempenho em casos raros
 * [Tablet] Atraso ao pintar em uma camada específica
-* Texturas desfocadas podem ocorrer em casos raros ao alternar entre viewport
-* [UI]&#x200B;[Substance] As entradas de imagem nem sempre são exibidas
+* Texturas embaçadas podem ocorrer em casos raros ao alternar entre viewport
+* [UI][Substance] As entradas de imagem nem sempre são exibidas
 * Limpar não remove as predefinições da prateleira que foram importadas em um projeto
-* [Tool]&#x200B;[Dynamic Stroke] Problema de desempenho ao ajustar a contagem de ciclos de carimbo
+* [Tool][Dynamic Stroke] Problema de desempenho ao ajustar a contagem de ciclos de carimbo
 * Problemas de atualização ao pintar no modo de visor 3D/2D em casos raros
 * Pintar um traçado muito longo pode causar congelamento
 * [Ferramenta] Problema de desempenho ao pintar com traçados dinâmicos específicos
@@ -444,7 +444,7 @@ Resumo: **Versão principal com melhoria na experiência do usuário de pintura 
 * Alt+clique em um canal para isolar não funciona para filtro e gerador
 * [Export] Falha específica do projeto na exportação
 * [Substance] Valor padrão incorreto no menu suspenso se o parâmetro estiver oculto por Visible If
-* [Shader] Os canais definidos por meio da Camada de material não são classificados da mesma maneira na interface do usuário
+* [Sombreador] Os canais definidos por meio da Camada de material não são classificados da mesma maneira na interface
 * [Prateleira] Os metadados de predefinições não são salvos no disco
 
 **Problemas Conhecidos:**
