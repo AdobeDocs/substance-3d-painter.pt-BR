@@ -22,7 +22,7 @@ ht-degree: 0%
 
 A seguinte mensagem de erro pode aparecer ao iniciar o aplicativo:
 
->> 
+&#x200B;>> 
 
 Este aplicativo falhou ao iniciar porque nenhum plug-in de plataforma Qt pôde ser inicializado. A reinstalação do aplicativo pode corrigir esse problema.
 

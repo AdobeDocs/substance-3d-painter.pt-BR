@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Camadas de material: declarar pilhas editáveis
 
-Uma pilha editável é definida por um identificador exclusivo e uma lista de canais de documentos. As identificações de canal possíveis são: *ambientoclusão* *anisotropiângulo* *anisotropinível* *basecolor* *mesclagem de máscaras* *difusas* *deslocamentos* *emissivas* *glossiness* *heights* *i* *metálico* *normal* *opacidade* *reflexão* *aspereza* *dispersão* *specular* *especularlevel* *transmissivo* *usuário0* *usuário1* *{usuário2* usuário3 ** usuário4 ** usuário5 ** usuário6 ** usuário7 **
+Uma pilha editável é definida por um identificador exclusivo e uma lista de canais de documentos. As identificações de canal possíveis são: *ambientoclusão* *anisotropiângulo* *anisotropinível* *basecolor* *mesclagem de máscaras* *difusas* *deslocamentos* *emissivas* *glossiness* *heights* *i* *metálico* *normal* *opacidade* *reflexão* *aspereza* *dispersão* *specular* *especularlevel* *transmissivo* *usuário0* *usuário1* *&lbrace;usuário2* usuário3 **&#x200B; usuário4 &#x200B;** usuário5 **&#x200B; usuário6 &#x200B;** usuário7 **
 
 Exemplo:
 

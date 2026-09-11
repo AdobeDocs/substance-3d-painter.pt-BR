@@ -117,7 +117,7 @@ No **painel direito**, clique duas vezes no valor **TdrDelay**. Altere a configu
 
 Esse valor indica em segundos quanto tempo o sistema operacional aguardará antes de considerar que a GPU não responde durante um cálculo.
 
-Valor DWORD de &#39;TdrDelay&#39; ![ no Editor de Registro do Windows Valor DWORD de &#39;TdrDelay&#39; no Editor de Registro do Windows "){zoomable="yes"}](../../../assets/tdrdelay-edit.png "
+Valor DWORD de &#39;TdrDelay&#39; ![ no Editor de Registro do Windows Valor DWORD de &#39;TdrDelay&#39; no Editor de Registro do Windows "){zoomable="yes"}] (../../../assets/tdrdelay-edit.png "
 
 ### 5 - Adicionar ou editar o valor TdrDdiDelay
 

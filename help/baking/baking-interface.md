@@ -13,7 +13,7 @@ ht-degree: 3%
 
 O **Modo de cozimento** fornece acesso a todas as ferramentas e parâmetros necessários para criar bolos excelentes de alta qualidade.
 
-Para acessar o **modo de Fça bake**, clique no botão (feito bake) Croissant na parte superior direita do Viewport. Como alternativa, use o [atalho de teclado ](../interface/settings/shortcuts.md)**F8** ou selecione **Modo > Fazer bake mapas de malha**
+Para acessar o **modo de Fça bake**, clique no botão (feito bake) Croissant na parte superior direita do Viewport. Como alternativa, use o [atalho de teclado &#x200B;](../interface/settings/shortcuts.md)**F8** ou selecione **Modo > Fazer bake mapas de malha**
 
 ![](../assets/baking/mode_select_buttons.png)
 

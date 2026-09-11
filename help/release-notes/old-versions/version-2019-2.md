@@ -180,7 +180,7 @@ Resumo: **Correção de erros**
 **Corrigido:**
 
 * [Plug-in] A origem do plug-in não funciona
-* [MacOS][Sombreador] Mac OS 10.14.5 e AMD: a disposição em camadas de material não funciona conforme o esperado
+* [MacOS]&#x200B;[Sombreador] Mac OS 10.14.5 e AMD: a disposição em camadas de material não funciona conforme o esperado
 
 **Problemas Conhecidos:**
 
@@ -205,7 +205,7 @@ Resumo: **Correção de erros**
 
 **Corrigido:**
 
-* [Mac][USD] Os arquivos USDZ exportados do MacOS não podem ser abertos
+* [Mac]&#x200B;[USD] Os arquivos USDZ exportados do MacOS não podem ser abertos
 * [Conjunto de texturas] Não é possível isolar um conjunto de texturas com o modificador ALT
 * [Prateleira] Predefinições, Materiais inteligentes e Máscaras inteligentes são sempre modificados ao sair do aplicativo
 * [Pilha de camadas] Não é possível selecionar o efeito após excluir outro efeito
@@ -229,13 +229,13 @@ Resumo: **Versão principal com atualizações dos baker em termos de desempenho
 
 * [Baker] Suporte adicionado para Rastreamento de raios do GPU com DXR e OptiX (Oclusão de ambiente, Thickness)
 * [Baker] Otimizações e acelerações para Rastreamento de raios da CPU
-* [Baker][Modo Vis][IU] Novo modo de visualização de fça bake no visor
-* [Baker][Preferências][IU] Nova opção de fça bake para ativar/desativar o Rastreamento de raios do GPU
-* [Baker][IU] Retrabalho da caixa de diálogo da barra de progresso
+* [Baker]&#x200B;[Modo Vis]&#x200B;[IU] Novo modo de visualização de fça bake no visor
+* [Baker]&#x200B;[Preferências]&#x200B;[IU] Nova opção de fça bake para ativar/desativar o Rastreamento de raios do GPU
+* [Baker]&#x200B;[IU] Retrabalho da caixa de diálogo da barra de progresso
 * [Baker] Aprimoramento das mensagens de aviso e erro
 * [Baker] Permitir cancelamento mais responsivo do processo de fça bake
 * [Baker] Reabrir a janela fazer bake após clicar em cancelar
-* [Proj][UX] Melhoria da usabilidade do manipulador de rotação
+* [Proj]&#x200B;[UX] Melhoria da usabilidade do manipulador de rotação
 * [Settings] Opção para melhorar o desempenho reduzindo a resolução do visor para telas HDPI
 * [Script] Alterar resolução do conjunto de texturas
 * [Script] Obter conjunto de textura selecionado

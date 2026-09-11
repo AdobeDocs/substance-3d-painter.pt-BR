@@ -74,8 +74,8 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Selecione a ferramenta Clonar (origem relativa)** | 6 | 6 |  |
 | **Selecione a ferramenta Clonar (origem absoluta)** | Ctrl+6 | ⌘+6 |  |
 | **Fazer bake Mapas de Malha** | Ctrl+Shift+B | ⌘+Shift+B | Abra a janela de configurações de Fça bake. |
-| **Aumentar tamanho da ferramenta** | **&amp;rbrack;** | **&amp;rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
-| **Diminuir tamanho da ferramenta** | **&amp;lbrack;** | **&amp;lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
+| **Aumentar tamanho da ferramenta** | **&rbrack;** | **&rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
+| **Diminuir tamanho da ferramenta** | **&lbrack;** | **&lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
 | **Ferramenta Inverter tons de cinza** | X | X | Inverta o valor atual da escala de cinza se a ferramenta de pintura estiver em uma máscara. |
 | **Escolher material de traçado** | P | P | Ative a ferramenta de seleção de material. |
 | **Atraso do mouse** | D | D | Ative o comportamento de atraso do mouse na ferramenta atual. |

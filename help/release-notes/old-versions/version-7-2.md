@@ -207,42 +207,42 @@ Resumo: **Versão principal, fornece uma atualização para o painel de ativos, 
 **Adicionado:**
 
 * [Bibliotecas] Novo painel Ativo para substituir a prateleira
-* [Libraries][UI] Novo layout do painel Ativos
-* [Bibliotecas][IU] Alterar a orientação padrão do painel Ativos e a interface do usuário
-* [Bibliotecas][IU] Introduzir uma opção de exibição de lista na biblioteca
-* [Bibliotecas][IU] Nova navegação de trilha no Painel de ativos
-* [Bibliotecas][IU] Selecione “Todas as bibliotecas” ao selecionar uma pesquisa salva
-* [Bibliotecas][IU] Selecione “Todas as bibliotecas” quando todas as pastas estiverem desmarcadas
-* [Libraries][UI] Nova marca para pincéis de partícula
-* [Bibliotecas][IU] Substituído “prateleira” por “Todas as bibliotecas” no aplicativo
-* [Bibliotecas][IU] Permitir ocultar pastas vazias
-* [Libraries][UI] A biblioteca de usuário padrão deve estar visível mesmo que vazia
-* [Bibliotecas][IU] Novo método de filtragem por meio de ícones de tipo de ativo
+* [Libraries]&#x200B;[UI] Novo layout do painel Ativos
+* [Bibliotecas]&#x200B;[IU] Alterar a orientação padrão do painel Ativos e a interface do usuário
+* [Bibliotecas]&#x200B;[IU] Introduzir uma opção de exibição de lista na biblioteca
+* [Bibliotecas]&#x200B;[IU] Nova navegação de trilha no Painel de ativos
+* [Bibliotecas]&#x200B;[IU] Selecione “Todas as bibliotecas” ao selecionar uma pesquisa salva
+* [Bibliotecas]&#x200B;[IU] Selecione “Todas as bibliotecas” quando todas as pastas estiverem desmarcadas
+* [Libraries]&#x200B;[UI] Nova marca para pincéis de partícula
+* [Bibliotecas]&#x200B;[IU] Substituído “prateleira” por “Todas as bibliotecas” no aplicativo
+* [Bibliotecas]&#x200B;[IU] Permitir ocultar pastas vazias
+* [Libraries]&#x200B;[UI] A biblioteca de usuário padrão deve estar visível mesmo que vazia
+* [Bibliotecas]&#x200B;[IU] Novo método de filtragem por meio de ícones de tipo de ativo
 * [Bibliotecas] Atalho “CTRL” para selecionar vários tipos de ativos
 * [Bibliotecas] Nova variável de ambiente para controlar o orçamento de memória de visualização do ativo
-* [Bibliotecas][Conteúdo] Novos mapas de ambiente
-* [Libraries][Content][UI] Renderizar deslocamento em materiais padrão
-* [Bibliotecas][Conteúdo] Definir sombreador de Adobe Standard Material (ASM) como padrão para a geração de visualizações
-* [Bibliotecas][Conteúdo][ASM] Novos Modelos de Projeto para o novo sombreador ASM
-* [Bibliotecas][Miniatura] Usar o novo mapa de ambiente do Studio 6
-* [Bibliotecas][Miniatura] Ler miniatura no recurso em vez de gerá-lo
-* [Bibliotecas][Miniatura] Adicionar deslocamento à geração de miniaturas
+* [Bibliotecas]&#x200B;[Conteúdo] Novos mapas de ambiente
+* [Libraries]&#x200B;[Content]&#x200B;[UI] Renderizar deslocamento em materiais padrão
+* [Bibliotecas]&#x200B;[Conteúdo] Definir sombreador de Adobe Standard Material (ASM) como padrão para a geração de visualizações
+* [Bibliotecas]&#x200B;[Conteúdo]&#x200B;[ASM] Novos Modelos de Projeto para o novo sombreador ASM
+* [Bibliotecas]&#x200B;[Miniatura] Usar o novo mapa de ambiente do Studio 6
+* [Bibliotecas]&#x200B;[Miniatura] Ler miniatura no recurso em vez de gerá-lo
+* [Bibliotecas]&#x200B;[Miniatura] Adicionar deslocamento à geração de miniaturas
 * [Configurações do conjunto de texturas]
-* [Configurações do conjunto de texturas][IU] Expor novo height ao método de conversão normal
-* [Configurações de conjunto de textura][IU] Retrabalho da organização da interface do usuário dos canais
+* [Configurações do conjunto de texturas]&#x200B;[IU] Expor novo height ao método de conversão normal
+* [Configurações de conjunto de textura]&#x200B;[IU] Retrabalho da organização da interface do usuário dos canais
 * [Configurações do conjunto de textura] Limite de canais do usuário aumentado para 16 canais
-* [Configurações do conjunto de textura][IU] Indicar quais canais são compatíveis com o sombreador selecionado atualmente
-* [Sombreador][ASM] Novo sombreador
-* [Sombreador][ASM] Suporte adicionado para Anisotropia, Revestimento claro, Dispersão subsuperficial, Specular edge color e Brilho
-* [Sombreador][ASM] Alterar valores de cor dos canais padrão
-* [Sombreador][ASM][Exportar] Modelo de exportação atualizado do Adobe Dimension para o Adobe Substance 3D Stager
-* [Sombreador][ASM] Etiquetas e dicas de ferramentas adicionadas para os parâmetros sombreador e MDL
-* [Sombreador][ASM] Tornar a Cor da Dispersão visível no Visualização 2D mesmo se o SSS não for suportado
-* [Sombreador][ASM][Iray] Oferecer suporte ao sombreador ASM no Iray com o novo MDL
-* [Sombreador][ASM][Iray] Espalhamento subsuperficial atualizado no brilho e na superfície revestida das especificações PBR legadas
-* [Sombreador][ASM][Content] Alterou o tipo de SSS padrão para amostras
-* [Sombreador][ASM] Documentação adicionada para a API do ASM
-* [Sombreador][ASM] Otimizar sombreadores para ignorar canais não utilizados
+* [Configurações do conjunto de textura]&#x200B;[IU] Indicar quais canais são compatíveis com o sombreador selecionado atualmente
+* [Sombreador]&#x200B;[ASM] Novo sombreador
+* [Sombreador]&#x200B;[ASM] Suporte adicionado para Anisotropia, Revestimento claro, Dispersão subsuperficial, Specular edge color e Brilho
+* [Sombreador]&#x200B;[ASM] Alterar valores de cor dos canais padrão
+* [Sombreador]&#x200B;[ASM]&#x200B;[Exportar] Modelo de exportação atualizado do Adobe Dimension para o Adobe Substance 3D Stager
+* [Sombreador]&#x200B;[ASM] Etiquetas e dicas de ferramentas adicionadas para os parâmetros sombreador e MDL
+* [Sombreador]&#x200B;[ASM] Tornar a Cor da Dispersão visível no Visualização 2D mesmo se o SSS não for suportado
+* [Sombreador]&#x200B;[ASM]&#x200B;[Iray] Oferecer suporte ao sombreador ASM no Iray com o novo MDL
+* [Sombreador]&#x200B;[ASM]&#x200B;[Iray] Espalhamento subsuperficial atualizado no brilho e na superfície revestida das especificações PBR legadas
+* [Sombreador]&#x200B;[ASM]&#x200B;[Content] Alterou o tipo de SSS padrão para amostras
+* [Sombreador]&#x200B;[ASM] Documentação adicionada para a API do ASM
+* [Sombreador]&#x200B;[ASM] Otimizar sombreadores para ignorar canais não utilizados
 * [Sombreador] Expor novos canais de conjunto de textura
 * [Sombreador] Dispersão de subsuperfície aprimorada
 * [Sombreador] Novos parâmetros de sombreador ocultos para alguns sombreadores
@@ -259,41 +259,41 @@ Resumo: **Versão principal, fornece uma atualização para o painel de ativos, 
 * [UI] Atualização geral da interface do usuário
 * [UI] Retrabalho do menu Ajuda
 * [IU] Ícone Substituir inversão
-* [UI][Plug-in] Ícone de substituição do link dcc do plug-in
-* [UI][AMD] Atualizar a versão mínima necessária e a mensagem pop-up
+* [UI]&#x200B;[Plug-in] Ícone de substituição do link dcc do plug-in
+* [UI]&#x200B;[AMD] Atualizar a versão mínima necessária e a mensagem pop-up
 * [Pilha de camadas] Criar nova camada dentro da pasta vazia selecionada
 * Atualizar Documentação do Python
 * [Marca]
-* [Branding][UI] Atualização do nome do aplicativo para Adobe Substance 3D Painter
-* [Branding][UI] Versão autônoma atualizada para &#39;Substance edition&#39;
-* [Branding][UI] Nome executável atualizado do aplicativo, caminho de instalação, pacote e ícones
-* [Branding][UI] Biblioteca e caminho padrão renomeados
-* [Branding][UI] Atualizado Sobre o Windows
-* [Branding][UI] Tela de boas-vindas atualizada
-* [Branding][UI] Número de versão anual removido
+* [Branding]&#x200B;[UI] Atualização do nome do aplicativo para Adobe Substance 3D Painter
+* [Branding]&#x200B;[UI] Versão autônoma atualizada para &#39;Substance edition&#39;
+* [Branding]&#x200B;[UI] Nome executável atualizado do aplicativo, caminho de instalação, pacote e ícones
+* [Branding]&#x200B;[UI] Biblioteca e caminho padrão renomeados
+* [Branding]&#x200B;[UI] Atualizado Sobre o Windows
+* [Branding]&#x200B;[UI] Tela de boas-vindas atualizada
+* [Branding]&#x200B;[UI] Número de versão anual removido
 * [Localização] Novas traduções para alemão, francês e chinês simplificado
 * [Interoperabilidade] Não disponível para as edições Steam e Substance
 * [Interoperabilidade] Interoperabilidade com o ecossistema Adobe: Designer, Sampler, Stager e Bridge
-* [Interoperabilidade][IU] Receber e atualizar ativos do Designer
-* [Interoperabilidade][IU] Receber ativo do Sampler
-* [Interoperabilidade][IU] Enviar ativo para o Stager
-* [Interoperabilidade][IU] Mostrar no Adobe Bridge
-* [Interoperabilidade][IU] Permitir acesso rápido a ativos Adobe 3D
+* [Interoperabilidade]&#x200B;[IU] Receber e atualizar ativos do Designer
+* [Interoperabilidade]&#x200B;[IU] Receber ativo do Sampler
+* [Interoperabilidade]&#x200B;[IU] Enviar ativo para o Stager
+* [Interoperabilidade]&#x200B;[IU] Mostrar no Adobe Bridge
+* [Interoperabilidade]&#x200B;[IU] Permitir acesso rápido a ativos Adobe 3D
 * [Interoperabilidade] Novas tags de uso do sbsar
 * [Interoperabilidade] Gerenciar tipos de ativos recebidos
 * [Interoperabilidade] Os ativos recebidos do Adobe Substance 3D Designer ou do Adobe Substance 3D Sampler são armazenados na biblioteca padrão escolhida pelo usuário
-* [Interoperabilidade][IU] Novo ícone na barra de ferramentas à esquerda para enviar ao Stager ou Photoshop
+* [Interoperabilidade]&#x200B;[IU] Novo ícone na barra de ferramentas à esquerda para enviar ao Stager ou Photoshop
 
 **Corrigido:**
 
 * [Tablet] Baixo desempenho ao pintar com pressão
 * [Tablet] Problema em tablets com controles deslizantes
 * [Falha] Incompatibilidade de nome entre a lista do conjunto de texturas e o Exportador
-* [Falha][Bibliotecas] Clique duas vezes em uma subbiblioteca
+* [Falha]&#x200B;[Bibliotecas] Clique duas vezes em uma subbiblioteca
 * [Bibliotecas] Problema ao Rastrear diretórios de bibliotecas
 * [Bibliotecas] A linha de comando para forçar geração de visualização não funciona conforme o esperado
-* [Bibliotecas][Conteúdo] O filtro Ambiente de luz Feito bake está preto por padrão
-* [Linux][MacOS][Export Mesh] Não é possível importar glTF criado no Linux/MacOS
+* [Bibliotecas]&#x200B;[Conteúdo] O filtro Ambiente de luz Feito bake está preto por padrão
+* [Linux]&#x200B;[MacOS]&#x200B;[Export Mesh] Não é possível importar glTF criado no Linux/MacOS
 * [Linux] Arrastar e soltar um arquivo no painel Ativos pode causar uma falha
 * [Contornar automaticamente] O Contornar automaticamente está disponível mesmo que uma malha não tenha sido selecionada para recarregamento
 * [Partículas] Comportamento de partícula incorreto com a gravidade
@@ -305,7 +305,7 @@ Resumo: **Versão principal, fornece uma atualização para o painel de ativos, 
 * [Iray] O Mapa normal não é levado em conta em novos projetos ao renderizar
 * [Salvar] Problemas ao salvar em unidades compartilhadas
 * [Fazendo bake] Reassentar uma malha com parâmetros modificados exibe um aviso
-* [Fazendo bake][Regressão] Resultado incorreto quando a caixa delimitadora global de altas malhas poligonais não inclui a origem da cena
+* [Fazendo bake]&#x200B;[Regressão] Resultado incorreto quando a caixa delimitadora global de altas malhas poligonais não inclui a origem da cena
 * [Python] Bibliotecas de usuários personalizadas não são levadas em consideração
 
 **Problemas Conhecidos:**

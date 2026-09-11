@@ -48,7 +48,7 @@ Nosso tutorial mais recente explica o processo de exportação com o novo plug-i
 
 **Adicionado:**
 
-* [Plug-in][Photoshop] Permite especificar qual material/pilha/canais exportar
+* [Plug-in]&#x200B;[Photoshop] Permite especificar qual material/pilha/canais exportar
 * [Scripting] Os nomes de função têm algumas inconsistências
 
 **Corrigido:**

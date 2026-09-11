@@ -72,7 +72,7 @@ Como alternativa, se você deseja copiar as configurações de um único mapa de
 
 ![](../../assets/baking/copy-ao-settings.gif)
 
-*No exemplo acima, cada conjunto de textura começa com configurações diferentes para o AO. Sem definir o mapa de malha do AO a ser sincronizado, usamos **Aplicar configurações de oclusão de ambiente a mais conjuntos de textura...**para começarmos a modificar as configurações do AO para o novo conjunto de textura da mesma linha de base.*
+*No exemplo acima, cada conjunto de textura começa com configurações diferentes para o AO. Sem definir o mapa de malha do AO a ser sincronizado, usamos **Aplicar configurações de oclusão de ambiente a mais conjuntos de textura...**&#x200B;para começarmos a modificar as configurações do AO para o novo conjunto de textura da mesma linha de base.*
 
 ### Gerenciar status de verificação de mapas de malha
 
@@ -90,10 +90,10 @@ A verificação de status determina se determinado mapa é incluído quando voc�
 
 ![](../../assets/baking/invert-checked.gif)
 
-*No exemplo acima, usamos **Inverter mapas de malha marcados**para alternar rapidamente a seleção e, em seguida, fazer bake mapas de malha que ainda não foram feitos bake.*
+*No exemplo acima, usamos **Inverter mapas de malha marcados**&#x200B;para alternar rapidamente a seleção e, em seguida, fazer bake mapas de malha que ainda não foram feitos bake.*
 
 Ao trabalhar com vários conjuntos de texturas, você também pode copiar o status marcado dos mapas para outros conjuntos de texturas selecionando **Aplicar marcado a mais conjuntos de texturas...**, ou copiar o status marcado para todos os conjuntos de texturas com **Aplicar marcado a todos os conjuntos de texturas**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*No exemplo acima, ainda não fazemos bake o Height, as dobras normais ou a opacidade no conjunto de texturas **Material.001**. Já temos esses mapas de malha selecionados no conjunto de textura **Material**, então usamos **Aplicar verificado a mais conjuntos de textura...**e selecionamos **Material.001**para copiar o status verificado. Em seguida, fazemos bake os mapas - observe que a visualização circula pelos mapas de malha duas vezes enquanto os mapas são feitos bake - isso ocorre porque eles estão sendo feitos bake para ambos os conjuntos de texturas.*
+*No exemplo acima, ainda não fazemos bake o Height, as dobras normais ou a opacidade no conjunto de texturas **Material.001**. Já temos esses mapas de malha selecionados no conjunto de textura **Material**, então usamos **Aplicar verificado a mais conjuntos de textura...**&#x200B;e selecionamos **Material.001**&#x200B;para copiar o status verificado. Em seguida, fazemos bake os mapas - observe que a visualização circula pelos mapas de malha duas vezes enquanto os mapas são feitos bake - isso ocorre porque eles estão sendo feitos bake para ambos os conjuntos de texturas.*

@@ -241,7 +241,7 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém a nova ferra
 * [Faixa de opções] Adicione modos de mesclagem para o alfa e alguns canais quando houver autosobreposição
 * Preencher simetria
 * [Preencher] Adicionar suporte para simetria em camadas e efeitos de preenchimento
-* [Fill][UI] Expor configurações de simetria na janela de propriedades para camada de preenchimento e efeitos
+* [Fill]&#x200B;[UI] Expor configurações de simetria na janela de propriedades para camada de preenchimento e efeitos
 * [Fill] Interface de usuário de configurações de simetria de retrabalho no menu do visor e na janela de propriedades
 * [Fill] Reorientar corretamente as texturas normais ao projetar no modo de distorção
 * deslocamento do tamanho físico
@@ -256,7 +256,7 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém a nova ferra
 * [Substance] Expor a substituição de resolução para recursos Substance em Ferramentas e Preenchimentos
 * [Exportar] Atualizar predefinição de exportação de Mapas de malha para exportar texturas em tons de cinza
 * Python
-* [Panificação][Python] Indicar em changelog mudanças de quebra após atualização de padeiros
+* [Panificação]&#x200B;[Python] Indicar em changelog mudanças de quebra após atualização de padeiros
 * [Python] Expor as configurações de simetria de preenchimento no Python
 * Conteúdo e novo conteúdo
 * [Conteúdo] Adicione 75 novas predefinições de ferramenta para a ferramenta Faixa de opções
@@ -281,12 +281,12 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém a nova ferra
 * [Ribbon] Problema de desempenho com Blocos UV
 * [Ribbon] O caminho pode se sobrepor inesperadamente após um canto em alguns casos
 * [Ribbon] As tangentes criam um loop indesejado quando o ponto é movido próximo das extremidades do caminho
-* [Falha][Faixa de opções] Criar textos muito longos na Faixa de opções pode falhar
+* [Falha]&#x200B;[Faixa de opções] Criar textos muito longos na Faixa de opções pode falhar
 * [Ferramenta] A visualização de material não funciona quando a projeção é usada em uma máscara
 * [Fazendo bake] A configuração “Auto-oclusão” do AO é ignorada com vários conjuntos de texturas e a opção “corresponder pelo nome” ativada
 * [Fazendo bake] O AO com normal tem artefatos nas bordas devido à falta de preenchimento
 * [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
-* [Regression][UI] O menu do botão direito do mouse é muito pequeno em telas HD
-* [Crash][Python] Exportação de USD acionada por TextureStateEvent
+* [Regression]&#x200B;[UI] O menu do botão direito do mouse é muito pequeno em telas HD
+* [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
 * [Engine] A pintura com a ferramenta Clonar nas cores normais de mudança de canal é incorreta
 * [Python] O widget fantasma aparece excluído pelo script ainda em funcionamento
