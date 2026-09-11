@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Criando predefinições de partículas
 
-O sistema de partículas que permite pintar partículas usa o **PopcornFX**, que depende dos arquivos **.pkfx** para definir os comportamentos.
+O sistema de partículas que permite tinta partículas usa o **PopcornFX**, que depende dos arquivos **.pkfx** para definir os comportamentos.
 
 Os pincéis de partículas são compostos por duas partes: o **Emissor** e o **Receptor**, que são salvos juntos na predefinição. O aplicativo carrega o Emissor e substitui eventos de colisão para emitir o Receptor ao pintar.
 

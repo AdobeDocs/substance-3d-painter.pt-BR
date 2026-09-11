@@ -28,7 +28,7 @@ Abaixo está uma lista de todas as barras de ferramentas disponíveis.
 
 ![](../assets/tool-toolbar.png){width="450px"}
 
-A **barra de ferramentas Ferramentas** está disponível por padrão no canto superior esquerdo da interface principal. Ela lista todas as [ferramentas de pintura](../painting/painting.md) que podem ser usadas para texturizar a malha 3D do projeto aberto no momento. Essas ferramentas só são acessíveis quando uma camada de pintura está selecionada.
+A **barra de ferramentas Ferramentas** está disponível por padrão no canto superior esquerdo da interface principal. Ela lista todas as [ferramentas de pintura](../painting/painting.md) que podem ser usadas para textura a malha 3D do projeto aberto no momento. Essas ferramentas só são acessíveis quando uma camada de tinta é selecionada.
 
 Algumas ferramentas têm um segundo modo chamado “Físico”, que permite a pintura de partículas. A pintura de partículas também pode ser acessada clicando nas predefinições Pincel de partículas na janela [Ativos](assets/assets.md).
 
@@ -61,6 +61,6 @@ A Barra de ferramentas contextual é uma barra de ferramentas em que partes de s
 Essa barra de ferramentas pode listar propriedades para os seguintes elementos:
 
 * [Pintura](../painting/painting.md)
-* [Manipuladores para projeções de camada de preenchimento](../painting/fill-projections/fill-projections.md)
+* [Manipuladores para projeções da camada de preenchimento](../painting/fill-projections/fill-projections.md)
 
 Esta barra de ferramentas não pode ser movida e sempre fica na parte superior das viewports.

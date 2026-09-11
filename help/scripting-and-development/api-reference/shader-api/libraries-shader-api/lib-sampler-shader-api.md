@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a referência Lib Sampler API de sombreamento para Substance 3D Painter para obter amostras de texturas e dados no desenvolvimento de sombreador personalizado.
+description: Acesse a referência de API de sombreamento da Lib Sampler para o Substance 3D Painter para obter texturas de amostra e dados no desenvolvimento de sombreadores personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API
 helpx_experience_level: ""
@@ -77,7 +77,7 @@ uniform SamplerSparse ao_tex;
 ```
 
 
-Um valor usado para ajustar a intensidade da Oclusão Ambiente.
+Um valor usado para ajustar a intensidade da Oclusão de ambiente.
 
 ```
 //: param custom { 
@@ -188,7 +188,7 @@ float getMetallic(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Retornar o nível de anisotropia de amostra ou um valor padrão
+Retornar nível de anisotropia de amostra ou um valor padrão
 
 ```
 float getAnisotropyLevel(vec4 sampledValue) 
@@ -381,7 +381,7 @@ float getDisplacement(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Retornar oclusão ambiente
+Retornar oclusão de ambiente
 
 ```
 float getAO(SparseCoord coord, bool is_premult) 
@@ -424,7 +424,7 @@ float getAO(SparseCoord coord, bool is_premult)
 ```
 
 
-Auxiliar para obter oclusão ambiente para sombreamento
+Auxiliar para obter oclusão de ambiente para sombreamento
 
 ```
 float getAO(SparseCoord coord) 
@@ -566,7 +566,7 @@ vec3 getSpecularColor(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Gerar aspereza anisotrópica a partir do nível de aspereza e anisotropia
+Gerar aspereza anisotrópica de aspereza e nível de anisotropia
 
 ```
 vec2 generateAnisotropicRoughness(float roughness, float anisoLevel) 
@@ -579,7 +579,7 @@ vec2 generateAnisotropicRoughness(float roughness, float anisoLevel)
 ```
 
 
-Gerar cor difusa a partir da cor de base e do fator metálico
+Gerar cor difusa a partir de cor de base e fator metálico
 
 ```
 vec3 generateDiffuseColor(vec3 baseColor, float metallic) 
@@ -592,7 +592,7 @@ vec3 generateDiffuseColor(vec3 baseColor, float metallic)
 ```
 
 
-Gerar cor do specular com specular level dielétrico, cor base e fator metálico
+Gerar cor do specular a partir de specular level dielétrico, cor de base e fator metálico
 
 ```
 vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic) 
@@ -605,7 +605,7 @@ vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic)
 ```
 
 
-Gerar cor do specular a partir da cor base e do fator metálico, usando o specular level padrão (0,04) para dielétricos
+Gerar cor de specular a partir de cor de base e fator metálico, usando specular level padrão (0,04) para dielétricos
 
 ```
 vec3 generateSpecularColor(vec3 baseColor, float metallic) 

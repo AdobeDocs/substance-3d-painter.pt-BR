@@ -36,5 +36,5 @@ Abaixo estão as configurações disponíveis para este efeito:
 
 >[!NOTE]
 >
-> É possível clicar com o botão direito do mouse em uma camada e escolher o atalho “**Adicionar máscara com combinação de height**” para adicionar rapidamente esse novo efeito em uma camada. Este atalho também mudará o canal de Height **modo de mesclagem** para “**Normal**” em vez do padrão “**Subexposição Linear (Adicionar)**”.\
+> É possível clicar com o botão direito do mouse em uma camada e escolher o atalho “**Adicionar máscara com combinação de height**” para adicionar rapidamente esse novo efeito em uma camada. Este atalho também alternará o canal de Height **modo de mesclagem** para “**Normal**” em vez do padrão “**Subexposição linear (Adicionar)**”.\
 > ![](../../assets/compare-shortcut.png)

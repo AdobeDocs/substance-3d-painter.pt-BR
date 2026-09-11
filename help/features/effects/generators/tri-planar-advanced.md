@@ -1,6 +1,6 @@
 ---
-title: Tri-Planar Avançado
-description: Saiba como usar o gerador avançado triplanar da Substance 3D Painter.
+title: Avançado Tri-Planar
+description: Saiba como usar o gerador avançado Tri-Planar da Substance 3D Painter.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '372'
@@ -9,12 +9,12 @@ ht-degree: 2%
 ---
 
 
-# Tri-Planar Avançado
+# Avançado Tri-Planar
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Máscara de <img src="../../../assets/generators/icon_tri_planar_advanced.png" alt=""/><br><strong>entrada:</strong>, gerador</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador Avançado Triplanar é uma versão autônoma do modo de mesclagem triplanar com controles manuais para a projeção completa, incluindo controle sobre todos os valores de rotação e deslocamento para cada eixo separado. Comparado com a projeção de preenchimento nativa, o gerador Tri-Planar Advanced usa normais de espaço-mundo para mesclar os três eixos de projeção, enquanto a implementação nativa depende apenas da geometria de baixo-poli. Isso resulta em mais controle e resultados mais precisos.<br><br>O gerador Avançado Triplanar gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar uma mesclagem triplanar de uma máscara personalizada ou de um ponto de ancoragem para usar como máscara.<br><br>Mapas normais de posição cozida e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador Avançado Tri-Planar é uma versão autônoma do modo de mesclagem triplanar com controles manuais para a projeção completa, incluindo controle sobre todos os valores de rotação e deslocamento para cada eixo separado. Comparado com a projeção de preenchimento nativa, o gerador Avançado Tri-Planar usa normais de espaço-mundo para mesclar os três eixos de projeção, enquanto a implementação nativa depende apenas da geometria de baixo-poli. Isso resulta em mais controle e resultados mais precisos.<br><br>O gerador Avançado Tri-Planar gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar uma mesclagem tri-planar de uma máscara personalizada ou de um ponto de ancoragem para usar como máscara.<br><br>Mapas normais de posição e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| Cor **Normal Do Espaço Mundial** | Use o mapa World Space Normals assado. |
-| Cor de **Posição** | Use o mapa de posição cozida. |
+| Cor **Normal Do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
+| Cor de **Posição** | Use o mapa de Posição feita bake. |
 | **máscara** em tons de cinza | Use uma textura personalizada ou um ponto de ancoragem. |
 
 ## Parâmetros
@@ -46,8 +46,8 @@ ht-degree: 2%
     <td>Ajuste quanto a linha de transição de mesclagem ficará desfocada.</td>
   </tr>
   <tr>
-    <td><strong>Textura lado a lado</strong></td>
-    <td>Ajuste a divisão em blocos da textura da máscara.</td>
+    <td><strong>Lado a lado da textura</strong></td>
+    <td>Ajuste a divisão em blocos gráficos da textura de máscara.</td>
   </tr>
 </table>
 
@@ -55,22 +55,22 @@ ht-degree: 2%
 
 | Nome do parâmetro | Descrição |
 | --- | --- |
-| **Rotação X** | Gire a projeção de textura do Eixo X. |
+| **Rotação X** | Gire a projeção da textura do Eixo X. |
 | **Deslocamento X X** | Mova a projeção da textura do Eixo X para a esquerda ou direita. |
-| **Deslocamento X Y** | Mova a projeção de textura do Eixo X para cima ou para baixo. |
+| **Deslocamento X Y** | Mova a projeção da textura do Eixo X para cima ou para baixo. |
 
 ### Eixo Y
 
 | Nome do parâmetro | Descrição |
 | --- | --- |
-| **Rotação X** | Gire a projeção de textura do Eixo Y. |
+| **Rotação X** | Gire a projeção da textura do eixo Y. |
 | **Deslocamento Y X** | Mova a projeção da textura do Eixo Y para a esquerda ou direita. |
-| **Deslocamento Y** | Mova a projeção de textura do Eixo Y para cima ou para baixo. |
+| **Deslocamento Y** | Mova a projeção da textura do Eixo Y para cima ou para baixo. |
 
 ### Eixo Z
 
 | Nome do parâmetro | Descrição |
 | --- | --- |
-| **Rotação X** | Gire a projeção de textura do eixo Z. |
-| **Deslocamento Z X** | Mova a projeção de textura do Eixo Z para a esquerda ou direita. |
-| **Deslocamento Z Y** | Mova a projeção de textura do Eixo Z para cima ou para baixo. |
+| **Rotação X** | Gire a projeção da textura do eixo Z. |
+| **Deslocamento Z X** | Mova a projeção da textura do eixo Z para a esquerda ou direita. |
+| **Deslocamento Z Y** | Mova a projeção da textura do eixo Z para cima ou para baixo. |

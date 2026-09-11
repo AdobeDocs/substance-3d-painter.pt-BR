@@ -75,9 +75,9 @@ Modo de mesclagem multiplicativo:
 ```
 
 
-## Localidade de amostragem do sombreador
+## localidade de amostragem de sombreador
 
-Por padrão, os canais de documento são amostrados usando coordenadas de textura não transformadas para renderizar otimizações durante a pintura.
+Por padrão, os canais de documento são amostrados usando coordenadas de textura não transformadas para renderização de otimizações durante a pintura.
 
 Se aparecerem artefatos, defina o estado *não local* para *ativado*.
 

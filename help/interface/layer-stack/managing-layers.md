@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Gerenciamento de camadas
 
-Estas são as possíveis manipulações dentro da pilha de camadas:
+Aqui estão as possíveis manipulações dentro da pilha de camadas:
 
 | *Ação* | *Demonstração* |
 | --- | --- |

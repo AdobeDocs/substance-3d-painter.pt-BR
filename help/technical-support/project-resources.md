@@ -23,7 +23,7 @@ ht-degree: 0%
 O gerenciamento de recursos do projeto pode ajudar a estabelecer uma boa base para o desempenho do seu projeto no Painter.
 
 +++Reduzir mapas baked
-Às vezes, nem todos os mapas baked precisam ter resoluções de 2k ou 4k. Não hesite em assar um lote em 2k, em seguida, recarregue em uma resolução mais baixa para ver se há uma diferença visual.
+Às vezes, nem todos os mapas baked precisam ter resoluções de 2k ou 4k. Não hesite em fazer bake um lote em 2k, em seguida, recarregue em uma resolução mais baixa para ver se há uma diferença visual.
 
 +++
 
@@ -34,7 +34,7 @@ O formato também é importante - EXR, HDR e até mesmo PNG são muito mais pesa
 
 +++
 
-+++Ajustar configurações do sombreador
++++Ajustar configurações de sombreador
 a qualidade do specular na Ultra dará um resultado mais preciso, mas a configuração é cara. Quanto mais efeitos forem ativados de uma só vez no sombreador, maior será o cálculo. Sempre que possível, divida materiais complexos em outro conjunto de texturas com um sombreador separado. Se o deslocamento estiver ativado, tome cuidado com o parâmetro do mosaico.
 
 +++

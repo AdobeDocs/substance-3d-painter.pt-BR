@@ -35,12 +35,12 @@ Consulte as páginas a seguir para obter informações adicionais:
 
 ## Visão geral
 
-As camadas de exibição da pilha de camadas com uma hierarquia específica: a camada na parte inferior será desenhada primeiro na malha e a camada na parte superior seguirá. Portanto, a camada no topo da pilha é o último item, enquanto a camada na parte inferior é o primeiro. O mesmo princípio se aplica às pastas; no entanto, o conteúdo da pasta tem prioridade. Isso significa que o conteúdo de uma pasta será processado antes das camadas que estiverem no mesmo nível.
+As camadas de exibição de pilha de camadas com uma hierarquia específica : a camada na parte inferior será desenhada primeiro na malha, a camada na parte superior seguirá. Portanto, a camada no topo da pilha é o último item, enquanto a camada na parte inferior é o primeiro. O mesmo princípio se aplica às pastas; no entanto, o conteúdo da pasta tem prioridade. Isso significa que o conteúdo de uma pasta será processado antes das camadas que estiverem no mesmo nível.
 
 **Características comuns:**
 
 * Cada camada tem **vários canais**.
-* A ferramenta de pintura pintará **em todos os seus respectivos canais**, dependendo das configurações do material (qual canal você está visualizando atualmente na Pilha de Camadas não tem impacto).
+* A ferramenta tinta tinta **em todos os seus respectivos canais**, dependendo das configurações do material (qual canal você está visualizando atualmente na Pilha de camadas não tem impacto).
 * Cada camada tem um **modo de mesclagem** e uma **opacidade** por canal (você pode alternar entre canais por meio do menu suspenso superior esquerdo).
 
 **Tipos de camadas:**
@@ -50,7 +50,7 @@ As camadas de exibição da pilha de camadas com uma hierarquia específica: a c
 * **Pasta** : este tipo de camada tem como única finalidade conter outras camadas, sendo usado principalmente para organizar a pilha de camadas
 
 Em cada camada, você pode **adicionar uma máscara** que permita aplicar o conteúdo apenas a partes específicas dos canais do conjunto de textura atual.\
-É possível pintar a máscara manualmente (em tons de cinza com um pincel) ou usar filtros e substâncias para obter resultados mais dinâmicos/de procedimentos.
+É possível tinta manualmente a máscara (em tons de cinza com um pincel) ou usar filtros e substâncias para obter resultados mais dinâmicos/processuais.
 
 ## Modo de visualização
 
@@ -64,14 +64,14 @@ A lista neste menu suspenso é baseada na lista de canais disponíveis nas [conf
 
 ![](../../assets/image2020-9-30-12-2-13.png)
 
-A lista de ícones no canto superior direito é uma das ações comuns que podem ser executadas na Pilha de camadas:
+A lista superior direita de ícones são as ações comuns que podem ser executadas na Pilha de camadas:
 
 | Ação | Descrição |
 | --- | --- |
 | Adicionar efeito <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-effect.png"/></div> | Crie um novo efeito e adicione-o à camada atualmente selecionada. Para obter mais informações sobre efeitos, consulte as[páginas dedicadas](../../features/effects/effects.md). |
 | Criar máscara <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-mask.png"/></div> | Abra o menu de ação Máscara que contém os seguintes itens:<ul data-preserve-html="true"><li data-preserve-html="true">Adicionar máscara branca</li><li data-preserve-html="true">Adicionar máscara preta</li><li data-preserve-html="true">Adicionar máscara de bitmap</li><li data-preserve-html="true">Adicionar máscara com seleção de cor</li><li data-preserve-html="true">Adicionar máscara com combinação de altura</li></ul> |
-| Criar nova camada de pintura <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/image2020-9-30-11-52-41.png"/></div> | Crie uma nova camada de pintura acima da camada atualmente selecionada. |
+| Criar nova Camada de tinta <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/image2020-9-30-11-52-41.png"/></div> | Cria uma nova Camada de tinta acima da atualmente selecionada. |
 | Criar nova camada de preenchimento <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/image2020-9-30-12-0-49.png"/></div> | Crie uma nova [camada de preenchimento](../../painting/fill-projections/fill-projections.md) acima da selecionada atualmente. |
-| Adicionar novos materiais inteligentes <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-smartmat.png"/></div> | Insira um novo Material inteligente acima da camada atualmente selecionada.Clicar neste botão abrirá uma miniprateleira para procurar a lista de Materiais Inteligentes disponíveis nos [Ativos](../../interface/assets/assets.md) atuais. |
+| Adicionar novos Materiais inteligentes <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-smartmat.png"/></div> | Insere uma nova Material inteligente acima da camada atualmente selecionada.Clicar neste botão abrirá uma miniprateleira para procurar a lista de Materiais inteligentes disponíveis nos [Ativos](../../interface/assets/assets.md) atuais. |
 | Adicionar Nova Pasta <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r6-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/image2020-9-30-12-1-13.png"/></div> | Cria uma nova pasta vazia acima da camada atualmente selecionada. |
 | Excluir camada <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r7-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-trash.png"/></div> | Exclui o item atualmente selecionado (camada, pasta ou efeito). |

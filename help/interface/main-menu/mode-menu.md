@@ -26,6 +26,6 @@ No menu Modo, você pode alternar entre interfaces diferentes para trabalhar em 
 
 | Ação | Descrição |
 | --- | --- |
-| **Criar mapas de malha** | Use este modo para criar mapas de utilitários como normais, normais de espaço-mundo, AO e mapas de ID, cozinhando de alto-polivalente a baixo-polivalente, ou apenas usando a malha do projeto em si. |
-| **Pintura** | No Painter, o modo Pintura é onde você pode acessar a pilha de camadas e os materiais, além de pintar diretamente em modelos 3D. |
+| **Fazer bake mapas de malha** | Use este modo para criar mapas de utilitários como normais, normais de espaço-mundo, AO e mapas de ID, fazendo bake de alto-poli para baixo-poli, ou apenas usando a malha do projeto em si. |
+| **Pintura** | No Painter, o modo Pintura é onde você pode acessar a pilha de camadas e os materiais, além de tinta diretamente em modelos 3D. |
 | **Renderizando (Iray)** | Alterne para o modo de renderização Iray. O Iray é um renderizador que não é de tempo real e pode criar renderizações de alta qualidade. Para obter mais informações, consulte a página dedicada: [Renderizador Iray](../../features/iray-renderer/iray-renderer.md). |

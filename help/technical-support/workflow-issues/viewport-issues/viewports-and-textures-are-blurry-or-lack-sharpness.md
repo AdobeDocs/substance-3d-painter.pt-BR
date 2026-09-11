@@ -7,7 +7,7 @@ helpx_description: Painter > Technical support > Workflow Issues > Viewport Issu
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: As viewports e as texturas são desfocadas ou não possuem nitidez
+title: Os viewports e as texturas estão desfocados ou não possuem nitidez
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# As viewports e as texturas são desfocadas ou não possuem nitidez
+# Os viewports e as texturas estão desfocados ou não possuem nitidez
 
 As viewports podem parecer desfocadas por diferentes motivos.
 
@@ -30,6 +30,6 @@ Este comportamento pode ser alterado nas [configurações principais](https://he
 
 ## Filtragem de textura
 
-As viewports usam mipmaps e filtragem de textura para serem capazes de transmitir e receber [Texturas Virtuais Esparsas](../../../features/sparse-virtual-textures.md) para melhorar o desempenho. Em alguns casos, isso pode resultar em texturas desfocadas.
+As viewports usam mipmaps e filtragem de textura para serem capazes de fazer stream de e para [Texturas Virtuais Esparsas](../../../features/sparse-virtual-textures.md) para melhorar o desempenho. Isso pode levar a texturas desfocadas em alguns casos.
 
 A filtragem de textura pode ser ajustada pela janela Configurações de Exibição nos parâmetros [Configurações de Visor](../../../interface/display-settings/viewport-settings.md).

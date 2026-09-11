@@ -24,7 +24,7 @@ Uma predefinição é uma configuração salva de uma [Ferramenta de Pintura](..
 
 * **Predefinição de pincel** : salva os parâmetros do pincel (tamanho, fluxo, tremulação, estêncil e alfa).
 * **Predefinição de material** : salva as propriedades do material (canais individuais e arquivos de Substance).
-* **Predefinição de ferramenta** : salva as propriedades Pincel e Material, bem como o tipo de ferramenta usado (Pintar, Borrar, Clonar etc.).
+* **Predefinição de ferramenta** : salva as propriedades Pincel e Material, bem como o tipo de ferramenta usado (Tinta, Borrar, Clonar etc.).
 
 As predefinições são salvas no disco na pasta [Ativos](../../interface/assets/assets.md). Eles podem ser copiados entre computadores facilmente à medida que incorporam todos os recursos que usam.
 

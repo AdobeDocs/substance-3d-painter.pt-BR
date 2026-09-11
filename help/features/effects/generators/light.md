@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Máscara de <img src="../../../assets/generators/icon_light.webp" alt=""/><br><strong>entrada:</strong>, gerador</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Luz simula uma luz direcional que brilha na sua malha, com base nos mapas de Espaço Mundial Normal e Posição.<br><br>O gerador de Luz pode ser usado em uma camada de preenchimento ou para criar uma máscara. Quando usado em uma camada de preenchimento, o gerador gera os canais de cor, metalidade, aspereza do specular, normal e height, que podem ser usados em várias combinações para criar efeitos diferentes. Recomendamos percorrer as exibições de canal no Visor para entender como cada canal é impactado pelo gerador de luz.<br><br>Mapas normais de posição cozida e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Luz simula uma luz direcional que brilha na sua malha, com base nos mapas de Espaço Mundial Normal e Posição.<br><br>O gerador de Luz pode ser usado em uma camada de preenchimento ou para criar uma máscara. Quando usado em uma camada de preenchimento, o gerador gera os canais de cor, metalidade, aspereza do specular, normal e height, que podem ser usados em várias combinações para criar efeitos diferentes. Recomendamos percorrer as exibições de canal no Visor para entender como cada canal é impactado pelo gerador de luz.<br><br>Mapas normais de posição e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| Cor **Normal Do Espaço Mundial** | Use o mapa World Space Normals assado. |
-| Cor de **Posição** | Use o mapa de posição cozida. |
+| Cor **Normal Do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
+| Cor de **Posição** | Use o mapa de Posição feita bake. |
 
 ## Parâmetros
 

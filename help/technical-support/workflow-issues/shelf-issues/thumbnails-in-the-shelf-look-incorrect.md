@@ -32,7 +32,7 @@ Vá para **Editar** e clique em **Configurações**:
 
 ![](../../../assets/pref-menu.png)
 
-## 2 - Remover o sombreador de visualização de prateleira
+## 2 - Remover o sombreador de visualização da prateleira
 
 Na exibição **Geral**, role para baixo até que a seção “Opções de visualização” esteja visível.\
 Clique na **cruz** botão na frente do &quot; **Sombreamento de visualização do material** &quot; para remover o sombreador atual especificado.

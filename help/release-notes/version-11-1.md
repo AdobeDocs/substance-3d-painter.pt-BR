@@ -26,7 +26,7 @@ Data de lançamento: <b>18 de novembro de 2025</b>
 
 >[!NOTE]
 >
-> Esta versão do Painter alterna a API gráfica de OpenGL para Vulkan. Essa alteração pode afetar quais GPUs são compatíveis com o aplicativo, principalmente para assar com rastreamento de raios baseado em GPU.
+> Esta versão do Painter alterna a API gráfica de OpenGL para Vulkan. Essa alteração pode afetar quais GPUs são compatíveis com o aplicativo, especialmente para fazer bake com Rastreamento de raios baseado em GPU.
 > 
 > Para obter mais informações, confira nossa [página de requisitos do sistema](../getting-started/system-requirements.md).
 
@@ -81,7 +81,7 @@ Resumindo, a fita é uma ferramenta mais limpa para desenhar com caminhos mais p
 
   ![](../assets/ribbon_custom_preset.gif)
 * <b>Compatível com simetria</b>\
-  Como outros tipos de ferramentas, o Caminho da faixa também é compatível com o recurso de simetria.
+  Como outros tipos de ferramentas, a Caminho da faixa também é compatível com o recurso simetria.
 
   ![](../assets/ribbon_gradient_symmetry.jpg)
 * <b>Modos de mesclagem quando autosobrepostos</b>\
@@ -136,22 +136,22 @@ Esta versão inclui 75 novas predefinições de ferramenta que aproveitam os nov
   * <b>Pintura</b>: gradientes baseados em pincel e predefinições de guaches.
   * <b>Texto</b>: predefinições rápidas para configurar o texto ao longo de um caminho com a Faixa de Opções com diferentes modos de alinhamento e amplificação.
 * <b>Nova palavra-chave de ferramenta para pesquisa na janela Ativos</b>\
-  Digitar “fita”, “pintar”, “caminho” ou até mesmo “borrar” na janela <b>Ativos</b> agora é possível e pode ajudar a encontrar predefinições que corresponderão à ferramenta correspondente.
+  Agora é possível digitar “faixa de opções”, “tinta”, “caminho” ou até mesmo “borrar” na janela <b>Ativos</b> e isso pode ajudar a localizar predefinições que correspondam à ferramenta correspondente.
 
   ![](../assets/ribbon_assets_search.png)
 
-### Nova simetria para camadas de preenchimento e efeitos
+### Nova simetria para camadas e efeitos de preenchimento
 
 ![](../assets/banner_symmetry.jpg)
 
-As camadas e efeitos de preenchimento agora oferecem suporte à simetria com seus modos de projeção 3D. Pode ser habilitado por meio do menu de simetria na barra de ferramentas contextual ou por meio da seção de simetria recém-adicionada na janela <b>Propriedades</b>.
+As camadas e efeitos de preenchimento agora oferecem suporte à simetria com seus modos de projeção 3D. Ela pode ser habilitada pelo menu simetria na barra de ferramentas contextual ou pela seção simetria recém-adicionada na janela <b>Propriedades</b>.
 
 * <b>Simetria em camadas de preenchimento </b>\
-  Ao usar modos de projeção baseados em 3D em efeitos de preenchimento e camadas, a simetria agora pode ser ativada. Tanto o espelho quanto a simetria radial estão disponíveis.
+  Ao usar modos de projeção baseados em 3D em efeitos de preenchimento e camadas, a simetria agora pode ser ativada. Estão disponíveis simetria espelhada e radial.
 
   ![](../assets/symmetry_fill.jpg)
-* <b>Habilitar simetria por meio da barra de ferramentas contextual ou da janela Propriedades</b>\
-  A simetria pode ser ativada por meio do menu da <b>barra de ferramentas contextual</b>, de forma semelhante às ferramentas de pintura, ou por meio da janela <b>Propriedades</b> com a nova seção dedicada.
+* <b>Habilite a simetria por meio da barra de ferramentas contextual ou da janela Propriedades</b>\
+  A Simetria pode ser ativada por meio do menu <b>barra de ferramentas contextual</b>, de forma semelhante às ferramentas de tinta, ou por meio da janela <b>Propriedades</b> com a nova seção dedicada.
 
   ![](../assets/symmetry_contextual.png)
 
@@ -161,7 +161,7 @@ As camadas e efeitos de preenchimento agora oferecem suporte à simetria com seu
 
   ![](../assets/mirror_symmetry_flip.gif)
 * <b>Interface de configurações de simetria aprimorada</b>\
-  A interface das configurações de simetria foi reformulada para ser mais fácil de ler e mais rápida de usar. Cada controle deslizante de eixos tem sua própria linha, por exemplo, o que ajuda a ser mais preciso. A tela radial também foi reduzida para ocupar menos espaço.
+  A interface das configurações de simetria foi reformulada para facilitar a leitura e agilizar o uso. Cada controle deslizante de eixos tem sua própria linha, por exemplo, o que ajuda a ser mais preciso. A tela radial também foi reduzida para ocupar menos espaço.
 
   ![](../assets/symmetry_radial.png)
 
@@ -174,7 +174,7 @@ Para obter mais informações sobre a <b>simetria</b>, consulte a [página de do
 O deslocamento agora pode ser definido com uma unidade específica. Essa alteração facilita o alinhamento e a correspondência da geometria deslocada entre outros aplicativos.
 
 * <b>Nova opção de unidade de escala nas configurações de deslocamento</b>\
-  Na janela <b>Configurações do sombreador</b>, ao ajustar a intensidade do deslocamento, há novas configurações de unidade de escala disponíveis. Essa configuração oferece as seguintes opções:
+  Na janela <b>configurações do Sombreador</b>, ao ajustar a intensidade do deslocamento, há novas configurações de unidade de escala disponíveis. Essa configuração oferece as seguintes opções:
 
   * <b>Normalizado</b>: padrão, corresponde ao comportamento anterior do Painter. Esse tamanho se baseia na caixa delimitadora de malha dentro do projeto atual.
   * <b>Cena</b>: usa as unidades armazenadas dentro do arquivo de malha como o ponto de referência.
@@ -189,10 +189,10 @@ O deslocamento agora pode ser definido com uma unidade específica. Essa altera�
 Na continuação do trabalho iniciado em nossa versão anterior, que mudou de OpenGL para Metal no sistema operacional Mac, esta nova versão agora usa o <b>Vulkan</b> nas plataformas Windows e Linux.
 
 * <b>A API de gráficos Vulkan agora é usada em vez do OpenGL no Windows e no Linux</b>\
-  O Painter agora usa a API gráfica Vulkan para renderização na viewport e nas texturas de computação. Esse switch deve melhorar o desempenho geral do aplicativo. Facilitará também a integração de novas funcionalidades no futuro.
+  O Painter agora usa a API de gráficos Vulkan para renderização na viewport e nas texturas de computação. Esse switch deve melhorar o desempenho geral do aplicativo. Facilitará também a integração de novas funcionalidades no futuro.
 * <b>Rastreamento de raios do GPU para assar via Vulkan</b>\
-  O DirectX raytracing (DRX) e o Optix foram substituídos em favor do raytracing através da API gráfica Vulkan em nossos padeiros. Essa alteração significa que o rastreamento de raios baseado em GPU agora está disponível em GPUs AMD, bem como no sistema operacional Linux.\
-  Mudar para Vulkan também melhora os tempos de renderização, especialmente em altas resoluções.
+  O DirectX raytracing (DRX) e o Optix foram substituídos em favor do raytracing através da API gráfica Vulkan em nossos padeiros. Essa alteração significa que o Rastreamento de raios baseado em GPU agora está disponível nas GPUs AMD, bem como no sistema operacional Linux.\
+  Alternar para o Vulkan também melhora os tempos de renderização, especialmente em fazes bake de alta resolução.
 
 ### Diversos
 
@@ -227,7 +227,7 @@ Aqui está o tutorial mais recente que aborda nosso novo recurso:
 ### 11.1.0
 
 Data de lançamento: <b>2025/11/18</b>\
-Resumo: <b>Esta atualização é uma versão importante. Ela contém a nova ferramenta Ribbon com conteúdo novo dedicado, suporte de simetria para camadas de preenchimento, parâmetro de tamanho físico para deslocamento, desempenho aprimorado por meio de padarias atualizadas, suporte completo a Vulkan para Windows e Linux e outras melhorias.</b>
+Resumo: <b>Esta atualização é uma versão principal. Ela contém a nova ferramenta Ribbon com conteúdo novo dedicado, suporte a simetria para camadas de preenchimento, parâmetro de tamanho físico para deslocamento, desempenho aprimorado através dos baker atualizados, suporte completo a Vulkan para Windows e Linux e outras melhorias.</b>
 
 <b>Adicionado</b>:
 
@@ -237,13 +237,13 @@ Resumo: <b>Esta atualização é uma versão importante. Ela contém a nova ferr
 * [Ribbon] Permite alterar a opacidade da Faixa de Opções por vértice no caminho
 * [Ribbon] Permite alterar o tamanho da Faixa de Opções por vértice no caminho
 * [Ribbon] Remover o início/fim definido em um Substance quando os caminhos são fechados
-* [Ribbon] Remover visualização Caminho/Material na janela de propriedades das ferramentas Pintar/Borracha/Borrar caminho
+* [Ribbon] Remover visualização Caminho/Material na janela de propriedades das ferramentas Tinta/Borracha/Borrar caminho
 * [Faixa de opções] Adicione modos de mesclagem para o alfa e alguns canais quando houver autosobreposição
-* Simetria de preenchimento
-* [Preenchimento] Adicionar suporte para simetria em camadas e efeitos de preenchimento
+* Preencher simetria
+* [Preencher] Adicionar suporte para simetria em camadas e efeitos de preenchimento
 * [Fill]&#x200B;[UI] Expor configurações de simetria na janela de propriedades para camada de preenchimento e efeitos
-* [Fill] Reprocessar a interface de configurações de simetria no menu do visor e na janela de propriedades
-* [Fill] Reorientar adequadamente texturas normais ao projetar no modo de distorção
+* [Fill] Interface de usuário de configurações de simetria de retrabalho no menu do visor e na janela de propriedades
+* [Fill] Reorientar corretamente as texturas normais ao projetar no modo de distorção
 * deslocamento do tamanho físico
 * [Deslocamento] Usar o tamanho físico como unidade de deslocamento
 * Melhoria de desempenho
@@ -277,16 +277,16 @@ Resumo: <b>Esta atualização é uma versão importante. Ela contém a nova ferr
 
 <b>Problemas Conhecidos</b>:
 
-* O histórico da instância do sombreador não foi rastreado corretamente
-* [Ribbon] Problema de desempenho com blocos UV
+* Histórico de Instância de sombreamento não controlado corretamente
+* [Ribbon] Problema de desempenho com Blocos UV
 * [Ribbon] O caminho pode se sobrepor inesperadamente após um canto em alguns casos
 * [Ribbon] As tangentes criam um loop indesejado quando o ponto é movido próximo das extremidades do caminho
 * [Falha]&#x200B;[Faixa de opções] Criar textos muito longos na Faixa de opções pode falhar
 * [Ferramenta] A visualização de material não funciona quando a projeção é usada em uma máscara
-* [Preparação] A configuração “Auto-oclusão” do AO é ignorada com vários conjuntos de texturas e a opção “corresponder pelo nome” ativada
-* [Cozimento] O AO com normal tem artefatos nas bordas devido à falta de preenchimento
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
+* [Fazendo bake] A configuração “Auto-oclusão” do AO é ignorada com vários conjuntos de texturas e a opção “corresponder pelo nome” ativada
+* [Fazendo bake] O AO com normal tem artefatos nas bordas devido à falta de preenchimento
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
 * [Regression]&#x200B;[UI] O menu do botão direito do mouse é muito pequeno em telas HD
 * [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
-* [Engine] Pintar com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
+* [Engine] A pintura com a ferramenta Clonar nas cores normais de mudança de canal é incorreta
 * [Python] O widget fantasma aparece excluído pelo script ainda em funcionamento

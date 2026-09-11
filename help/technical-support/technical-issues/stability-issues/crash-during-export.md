@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
 breadcrumb-title: ''
-description: Saiba como corrigir falhas do Substance 3D Painter durante as operações de exportação para fluxos de trabalho de exportação de textura confiáveis.
+description: Saiba como corrigir falhas do Substance 3D Painter durante as operações de exportação para obter fluxos de trabalho de exportação de textura confiáveis.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
 helpx_experience_level: ""

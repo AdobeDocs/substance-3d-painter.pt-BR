@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
-description: Saiba como usar o camadas de material dinâmico no Substance 3D Painter para mesclar e combinar materiais com máscaras de procedimento.
+description: Saiba como usar o camadas de material dinâmico no Substance 3D Painter para mesclar e combinar materiais com máscaras processuais.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Dynamic Material Layering
 helpx_experience_level: ""
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 ![](../assets/dynamic-material-blending-materials.jpg){width="450px"}
 
-**Camadas de material dinâmico** é um fluxo de trabalho específico em que materiais genéricos são misturados dentro de um sombreador em vez de em uma única textura. A principal vantagem desse fluxo de trabalho é que a mesclagem é dinâmica e permite controlar e preservar um certo nível de qualidade, inclinando materiais genéricos dentro do sombreador. Embora os materiais sejam genéricos, as máscaras usadas para mesclá-los são específicas para malha e, portanto, não se repetem.
+**Camadas de material dinâmico** é um fluxo de trabalho específico em que os materiais genéricos são misturados dentro de um sombreador em vez de em uma única textura. A principal vantagem desse fluxo de trabalho é que a mesclagem é dinâmica e permite controlar e preservar um certo nível de qualidade, inclinando materiais genéricos dentro do sombreador. Embora os materiais sejam genéricos, as máscaras usadas para mesclá-los são específicas para malha e, portanto, não se repetem.
 
 ![](../assets/tilling-mat-layer.gif){width="400px"}
 
-Para habilitar o fluxo de trabalho de camada de material, é necessário um sombreador específico.\
+Para ativar o workflow de camada de material, é necessário um sombreador específico.\
 O sombreador &quot; **pbr-material-layering** &quot; enviado por padrão com o Substance 3D Painter permite mesclar 4 materiais com 3 máscaras.
 
-## Pilhas de subcamadas
+## Sub-Pilhas de camadas
 
-Nessa camada, as subpilhas do sombreador podem ser definidas e amostradas diretamente pelo sombreador. Exemplo com o sombreador “pbr-material-layering” fornecido com o Substance 3D Painter:
+Nessas subpilhas de sombreador podem ser definidas e amostradas diretamente pelo sombreador. Exemplo com o sombreador “pbr-material-layering” fornecido com o Substance 3D Painter:
 
 ```
 //: stacks [ 
@@ -56,14 +56,14 @@ Nessa camada, as subpilhas do sombreador podem ser definidas e amostradas direta
 
 ![](../assets/sub-stacks.png) Neste exemplo, o sombreador criará três subpilhas em um determinado conjunto de texturas com um canal de “opacidade” em cada uma. As subpilhas podem ser acessadas na janela de lista do TextureSet:
 
-Como os **canais** das pilhas de subcamadas estão definidos **no sombreador**, é impossível adicionar novos canais nas configurações do conjunto de texturas. Para adicionar ou remover um canal, é necessário atualizar o arquivo de sombreador.
+Como os **canais** das subpilhas de camadas estão definidos como **no sombreador**, é impossível adicionar novos canais nas configurações do conjunto de texturas. Para adicionar ou remover um canal, é necessário atualizar o arquivo de sombreador.
 
 O número máximo de canais suportados é definido pelo número total de amostradores suportados pelo hardware.\
-Embora o Substance 3D Painter ofereça suporte a texturas sem associação (e, portanto, quantidade ilimitada de texturas) para materiais carregados como parâmetros, os canais fornecidos pelo mecanismo para as pilhas de camadas são limitados a 32 (no Windows). Esse limite também inclui outras texturas, como a Oclusão Normal e a Ambient assadas na malha do projeto.
+Embora o Substance 3D Painter ofereça suporte a texturas sem vínculo (e, portanto, quantidade ilimitada de texturas) para materiais carregados como parâmetros, os canais que são fornecidos pelo mecanismo para as pilhas de camadas estão limitados a 32 (no Windows). Esse limite também inclui outras texturas, como o Normal e a Oclusão de ambiente feita bake na malha do projeto.
 
 ## Entradas de materiais
 
-Embora seja possível configurar subpilhas para definir materiais além de máscaras, muitas vezes é mais prático apenas definir entradas de materiais no sombreador e usar materiais diretamente da prateleira. Na maioria das vezes, esses materiais também existem na aplicação final, como Unity ou Unreal Engine 4. A convenção de nomenclatura para declarar materiais é parecida com a seguinte no sombreador “pbr-material-layering”:
+Embora seja possível configurar subpilhas para definir materiais além de máscaras, muitas vezes é mais prático apenas definir entradas de materiais no sombreador e usar materiais diretamente da prateleira. Na maioria das vezes, esses materiais também existem na aplicação final, como Unity ou Unreal Engine 4. A convenção de nomenclatura para declarar materiais é parecida com a seguinte na “pbr-material-layering” do sombreador:
 
 ```
 //: materials [ 
@@ -92,7 +92,7 @@ Embora seja possível configurar subpilhas para definir materiais além de másc
 
 A resolução do material pode ser definida com o parâmetro “size”. Também é possível carregar materiais por padrão quando o sombreador é criado com o parâmetro “padrão” (usando o nome/rótulo do recurso que precisa ser carregado).
 
-Para acessar os materiais e a máscara no próprio sombreador, basta conectá-los com a palavra-chave “param auto” :
+Para acessar os materiais e a máscara no próprio sombreador, basta conectá-los à palavra-chave “param auto” :
 
 ```
 //: param auto Material1.channel_basecolor 
@@ -113,7 +113,7 @@ No momento, a embalagem de máscaras em uma única textura não é suportada dur
 
 ![](../assets/export-window-shader.png)
 
-Esse arquivo JSON pode ser usado para configurar as pilhas de camadas e os sombreadores de um projeto.\
+Esse arquivo JSON pode ser usado para configurar as pilhas de camadas e sombreadores de um projeto.\
 Isso permite alternar entre vários aplicativos facilmente compartilhando parâmetros comuns.
 
 ![](../assets/import-jsons.png)

@@ -17,11 +17,11 @@ ht-degree: 1%
 
 ## Achatar camadas
 
-O nivelamento de camadas permite condensar os dados de textura visíveis de um grupo selecionado em uma única camada. Isso pode ajudar a simplificar a pilha de camadas, melhorando o desempenho e facilitando o gerenciamento de projetos.
+O nivelamento de camadas permite condensar os dados de textura visíveis de um grupo selecionado em uma única camada. Isso pode ajudar a simplificar a pilha de camadas, aprimorando o desempenho e facilitando o gerenciamento de seus projetos.
 
 >[!NOTE]
 >
-> Quando você usa a função Nivelar, uma nova camada é criada, mas o grupo original de camadas não é excluído. Em vez disso, o grupo de origem é desativado, deixando a opção de excluí-lo ou salvá-lo como um material inteligente para edição posterior.
+> Quando você usa a função Nivelar, uma nova camada é criada, mas o grupo original de camadas não é excluído. Em vez disso, o grupo de origem é desativado, deixando a opção de excluí-lo ou salvá-lo como um Material inteligente para edição posterior.
 
 ## Como nivelar camadas
 
@@ -40,14 +40,14 @@ Quando as camadas são niveladas, uma nova camada de preenchimento é criada com
 ## Achatar canais específicos
 
 * Em uma camada de preenchimento, use o painel Propriedades para desativar os canais que não deseja nivelar. As informações não são perdidas quando os canais são desativados. Depois de nivelar a camada, você pode reativar os canais, e os dados ainda estarão lá
-* Para grupos ou camadas de pintura, você pode usar modos de mesclagem para desativar canais:
+* Para grupos ou camada de tinta, você pode usar modos de mesclagem para desativar canais:
   * Na parte superior da Pilha de camadas, selecione o canal a ser desativado.
   * Altere o modo de mesclagem da camada desejada para “Desativado”.
   * Você pode aplicar o mesmo modo de mesclagem a todos os canais de uma camada clicando com o botão direito do mouse no modo de mesclagem e selecionando “Aplicar a todos os canais”.
 
 ## Exportar mapas achatados da pilha de camadas
 
-Use o <b>Exportar grupo nivelado para arquivos</b> no menu de contexto na pilha de camadas para exportar texturas rapidamente. Essa opção está disponível quando uma camada ou um grupo é selecionado. Quando várias camadas ou grupos são selecionados, eles serão tratados como um lote, como se você exportasse cada um deles um por um.
+Use o <b>Exportar grupo nivelado para arquivos</b> no menu acessado com o botão direito do mouse na pilha de camadas para exportar texturas rapidamente. Essa opção está disponível quando uma camada ou um grupo é selecionado. Quando várias camadas ou grupos são selecionados, eles serão tratados como um lote, como se você exportasse cada um deles um por um.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ As seguintes propriedades são codificadas e não podem ser alteradas:
 
 A função achatar cria um bitmap por canal habilitado dentro de uma nova camada de preenchimento. A resolução é baseada na resolução do conjunto Textura, e a profundidade de bits é determinada pelas configurações do conjunto Textura.
 
-Achatar funciona quando há dados de textura dentro de um canal específico. Nivelar não funcionará em uma camada de pintura vazia e postará uma mensagem de erro no log se não houver dados na seleção.
+Achatar funciona quando há dados de textura dentro de um canal específico. A opção Nivelar não funcionará em uma camada de tinta vazia e postará uma mensagem de erro no log se não houver dados na seleção.
 
 Somente camadas e efeitos visíveis podem ser nivelados. Se algumas camadas no grupo estiverem desativadas quando o grupo for nivelado, os efeitos dessas camadas não serão incluídos no resultado nivelado.
 
@@ -106,4 +106,4 @@ Imagens achatadas são marcadas automaticamente como “achatadas” para que vo
 
 ### Limpar imagens não utilizadas
 
-Remover imagens não usadas do arquivo de projeto pode ajudar a clarear o tamanho do projeto. No painel Ativos, você pode excluir imagens pelo menu do botão direito. Ou, para remover todas as imagens não utilizadas, use <b>Arquivo > Remover recursos não utilizados</b>. Lembre-se de que isso excluirá não apenas imagens niveladas, mas também todos os recursos que não estiverem sendo usados na pilha de camadas, em slots de mapas com suporte ou em outro local na interface.
+Remover imagens não usadas do arquivo de projeto pode ajudar a clarear o tamanho do projeto. No painel Ativos, você pode excluir imagens pelo menu do botão direito. Ou, para remover todas as imagens não utilizadas, use <b>Arquivo > Remover recursos não utilizados</b>. Lembre-se de que isso excluirá não apenas imagens niveladas, mas também os recursos que não estiverem sendo usados nos slots de pilha de camadas, mapas com suporte ou em outros locais da interface.

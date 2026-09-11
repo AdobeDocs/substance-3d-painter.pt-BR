@@ -30,7 +30,7 @@ Data de lançamento: *24 de novembro de 2021*
 
 ![](../../assets/banner-cm.jpg)
 
-Esta versão apresenta o gerenciamento de cores com o suporte do [OpenColorIO](https://opencolorio.org/) (OCIO para versão curta) versão 2.
+Esta versão apresenta o gerenciamento de cores com o suporte do [OpenColorIO](https://opencolorio.org/) (OCIO para short) versão 2.
 
 Esse novo fluxo de trabalho permite gerenciar e calibrar cores da importação à exportação e dentro da viewport também, permitindo corresponder mais facilmente qualquer conteúdo entre diferentes aplicativos.
 
@@ -49,7 +49,7 @@ Esse novo fluxo de trabalho permite gerenciar e calibrar cores da importação �
 
 * **Configurações do seletor de cores**\
   Quando o gerenciamento de cores está ativado, os seletores de cores oferecem novos controles. As cores são editadas no espaço de cores de trabalho especificado pela configuração.\
-  Abaixo dos controles deslizantes HSV/RGB é exibido o valor da cor final, transformado do espaço de trabalho para o espaço da cor de exibição.
+  Abaixo dos controles deslizantes HSV/RGB é exibido o valor da cor final, transformado do espaço de trabalho para o espaço de cor de exibição.
 
   ![](../../assets/color-picker-demo.png)
 
@@ -62,7 +62,7 @@ Esse novo fluxo de trabalho permite gerenciar e calibrar cores da importação �
   ![](../../assets/auto-color-space.png)
 
 * **Configurações de exportação**\
-  Ao exportar texturas, os canais gerenciados por cores exibirão em seus nomes de arquivo o nome do espaço de cores usado com a ajuda da nova palavra-chave **$colorSpace**.
+  Ao exportar textura, os canais gerenciados por cores exibirão em seus nomes de arquivo o nome do espaço de cores usado com a ajuda da nova palavra-chave **$colorSpace**.
 
   ![](../../assets/export-list-1.png){width="250px"}
 
@@ -91,7 +91,7 @@ Trabalhar com uma exibição desencaixada é mais fácil de organizar o layout d
   ![](../../assets/swap-undock.gif){width="500px"}
 
 * **Compatível com o gerenciamento de cores**\
-  A visualização desencaixada tem sua própria transformação de exibição de gerenciamento de cores, facilitando o gerenciamento em diferentes monitores.
+  A visualização desencaixada tem seu próprio transformo de exibição de gerenciamento de cores, facilitando o gerenciamento em diferentes monitores.
 
   ![](../../assets/false-colors-undock.jpg){width="500px"}
 
@@ -161,7 +161,7 @@ Veja a seguir um exemplo dessas novas configurações sem usá-las em vez de us�
 
 A API Python tem um novo método que permite chamar a API Javascript.
 
-Esse novo método facilita a migração de plug-ins antigos para a nova API Python. Também desbloqueia alguns recursos, como o gerenciamento de **Preparação** e **Sombreador**, que ainda não foram expostos no Python.
+Esse novo método facilita a migração de plug-ins antigos para a nova API Python. Também desbloqueia alguns recursos, como o gerenciamento de **Fças bake** e **Sombreadores**, que ainda não foram expostos no Python.
 
 Para executar um comando Javascript em Python, use a função **evaluation()** do novo submódulo **js**. Mais informações podem ser encontradas na documentação da API (disponível no menu Ajuda do aplicativo).
 
@@ -218,8 +218,8 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 
 * Espaço de conexão 3Dsem suporte para mouse no MacOS
 * [UI] Barra de rolagem horizontal com gerenciamento de cores exibida em alguns casos em uma nova janela do projeto
-* [Bakers] A configuração “Average normals” não tem efeito em projetos de blocos UV
-* [Mac M1] Os materiais inteligentes não são exibidos corretamente
+* [Baker] A configuração “Média normal” não tem efeito em projetos do Bloco UV
+* [Mac M1] Os Materiais inteligentes não são exibidos corretamente
 * [Gerenciamento de cores] Os recursos usados no modo de projeção não são gerenciados por cores na sobreposição
 
 ### 7.4.1
@@ -229,11 +229,11 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 **Adicionado:**
 
 * [Gerenciamento de cores] Usar função de dados em nomes de arquivos exportados
-* [Gerenciamento de cores] Expanda a seção Gerenciamento de cores, por padrão, quando o OCIO for selecionado nas novas janelas de configurações do projeto e do projeto
-* [Gerenciamento de cores] Adicionar o mapeador de tons ACES no modo herdado
+* [Gerenciamento de cores] Expanda a seção Gerenciamento de cores, por padrão, quando o OCIO for selecionado nas janelas de novo projeto e configurações do projeto
+* [Gerenciamento de cores] Adicionar mapeador de tons ACE no modo herdado
 * [Gerenciamento de cores] Ajuste as configurações padrão
 * [Gerenciamento de cores]&#x200B;[Exportar] Preencher $colorSpace nos nomes de arquivos para canais de dados
-* [Exportar] Exportar projeto de Bloco UV para o Stager
+* [Exportar] Exportar projeto do Bloco UV para o Stager
 * [Interoperabilidade] Não disponível para as edições Steam e Substance
 * [Interoperabilidade] Permitir o envio de um projeto de Bloco UV para o Stager
 
@@ -255,7 +255,7 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 
 **Problemas Conhecidos:**
 
-* [Mac M1] Os materiais inteligentes não são exibidos corretamente
+* [Mac M1] Os Materiais inteligentes não são exibidos corretamente
 
 ### 7.4.0
 
@@ -267,18 +267,18 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 * [Gerenciamento de cores] Adicionar configurações de gerenciamento de cores às configurações do projeto
 * [Gerenciamento de cores] Janela de aviso sobre as alterações de configuração do Gerenciamento de cores ao abrir um projeto
 * [Gerenciamento de cores] Exibe uma mensagem de erro se um arquivo de configuração OCIO inválido for selecionado
-* [Gerenciamento de cores] Permite substituir a configuração pela variável de ambiente OCIO
-* [Gerenciamento de cores] Várias configurações OCIO integradas por padrão ao aplicativo
+* [Gerenciamento de cores] Permitir substituir a configuração pela variável de ambiente OCIO
+* [Gerenciamento de cores] Várias configurações de OCIO integradas por padrão ao aplicativo
 * [Gerenciamento de cores] Extrair o nome do espaço de cores do nome de arquivo bitmap importado
 * [Gerenciamento de cores] Permite substituir o espaço de cores por um espaço de cores da configuração na janela Propriedades
 * [Gerenciamento de cores] Adicione opções de gerenciamento de cores nas Configurações do conjunto de texturas
 * [Gerenciamento de cores]&#x200B;[Janela de visualização] Permita o gerenciamento de cores de exibições 2D e 3D separadamente
 * [Gerenciamento de cores] Carregue e converta o mapa de ambiente para o espaço de cores de trabalho
 * [Gerenciamento de cores] Ajustar o seletor e editor de cores com o espaço de cores atual
-* [Gerenciamento de cores] Permite selecionar o espaço da cor de transformação de vídeo no visor com um novo menu suspenso
-* [Gerenciamento de cores] Aplicar transformação de exibição com resultados de renderização de matriz
+* [Gerenciamento de cores] Permita selecionar o espaço de cores transforme de vídeo no visor com um novo menu suspenso
+* [Gerenciamento de cores] Aplicar transformo de exibição com resultados de renderização Iray
 * [Gerenciamento de cores] Exportar texturas com espaços de cores diferentes
-* [Gerenciamento de cores]&#x200B;[Python] Aplicar configurações de gerenciamento de cores da variável de ambiente (OCIO) aos novos projetos
+* [Gerenciamento de cores]&#x200B;[Python] Aplicar configurações de gerenciamento de cores da variável Ambiente (OCIO) aos novos projetos
 * [Visor] Permite desencaixar o visor 2D ou 3D
 * [Desempacotamento automático] Nova opção para evitar ilhas alongadas
 * [Scripting Python] Chamar funções JavaScript da API Python

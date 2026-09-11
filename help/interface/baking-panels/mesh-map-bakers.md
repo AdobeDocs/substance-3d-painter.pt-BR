@@ -1,6 +1,6 @@
 ---
 title: Bakers de mapa de malha
-description: Saiba como usar o painel Padeiros de mapas de malha para controlar quais mapas de malha são cozidos em conjuntos de textura.
+description: Saiba como usar o painel baker de mapa de malha para controlar quais mapas de malha são feitos bake em conjuntos de textura.
 source-git-commit: 987b94e15c1dbe4ddf392ea7878126ecdf989423
 workflow-type: tm+mt
 source-wordcount: '716'
@@ -9,12 +9,12 @@ ht-degree: 0%
 ---
 
 
-# Painel padeiros de mapa de malha
+# Painel baker do mapa de malha
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../assets/baking/mesh-map-bakers-panel.png" alt=""/></td>
-    <td style="border: 0;" valign="top">O <strong>painel Preparadores de mapas de malha</strong> permite selecionar quais mapas preparar e acessar as configurações de cada tipo de mapa.</td>
+    <td style="border: 0;" valign="top">O <strong>painel baker de mapas de malha</strong> permite selecionar quais mapas fazer bake e acessar as configurações de cada tipo de mapa.</td>
   </tr>
 </table>
 
@@ -24,28 +24,28 @@ Cada mapa na lista de mapas de malha tem uma série de controles disponíveis:
 
 ![](../../assets/baking/mesh-map-controls.png)
 
-1. **Verifique** ou **desmarque** a preparação do mapa.
+1. **Marque** ou **desmarque** fazendo bake o mapa.
 1. **Visualize** o mapa no visor.
-1. **Preparação rápida** somente este mapa.
-1. Ative o **Recozimento automático** para o mapa de malha selecionado. Mapas **com refração automática** serão redefinidos automaticamente quando forem feitas alterações nos parâmetros de retificação ou na correção de inclinação.
-1. **Sincronizar** configurações para este tipo de mapa em conjuntos de texturas. Desative essa opção para personalizar as configurações de cozimento de mapas individuais.
+1. **fazer bake rapidamente** somente este mapa.
+1. Ative o **Recozimento automático** para o mapa de malha selecionado. Mapas **com refração automática** serão redefinidos automaticamente quando forem feitas alterações nos parâmetros de fça bake ou na correção de inclinação.
+1. **Sincronizar** configurações para este tipo de mapa em conjuntos de texturas. Desative esta opção para personalizar as configurações de fça bake de mapas individuais.
 
 ## Gerenciar configurações de mapa de malha
 
-Há várias maneiras de gerenciar seu projeto para que as configurações de cozimento sejam compartilhadas entre mapas de malha ou conjuntos de texturas. Para projetos complexos, entender como compartilhar configurações pode ajudar a simplificar o processo de cozimento.
+Há várias maneiras de gerenciar seu projeto para que as configurações de fça bake sejam compartilhadas entre mapas de malha ou conjuntos de texturas. Para projetos complexos, compreender como compartilhar configurações pode ajudar a simplificar o processo de fça bake.
 
 Há dois tipos de configurações que você pode compartilhar entre conjuntos de texturas:
 
-* Configurações de cozimento: parâmetros que podem ser alterados nos **Painéis Configurações comuns** e **Configurações de mapa de malha**.
-* Verificar status: use-os para ativar ou desativar a cozedura de mapas de malha específicos.
+* Fazendo bake configurações: estes são parâmetros que você pode alterar nos **Configurações comuns** e nos **painéis de configurações do mapa de malha**.
+* Verificar status: use-os para ativar ou desativar a faz bake de mapas de malha específicos.
 
-### Sincronizar configurações de cozimento em conjuntos de textura
+### Sincronizar configurações de fça bake em conjuntos de textura
 
-Quando o projeto tiver vários conjuntos de textura, as opções para Sincronizar entre conjuntos de textura aparecerão no **painel Preparadores de mapas de malha**.
+Quando o projeto tiver vários conjuntos de textura, as opções para Sincronizar entre conjuntos de textura aparecerão no **painel baker de mapa de malha**.
 
 ![](../../assets/baking/synchronize-texture-sets.png)
 
-Selecionar o **botão Sincronizar configurações** na parte superior do **painel Preparadores de mapa de malha** abre a **janela Sincronização de configurações comuns**.
+Selecionar o **botão Sincronizar configurações** na parte superior do **painel baker de mapa de malha** abre a **janela Sincronização de configurações comuns**.
 
 ![](../../assets/baking/synchronize-common-settings.png)
 
@@ -57,9 +57,9 @@ Da mesma forma, se você usar o **botão Sincronizar configurações** ao lado d
 
 #### Compartilhar configurações em conjuntos de textura não sincronizados
 
-Às vezes, você pode querer manter os mapas de malha não sincronizados entre os conjuntos de textura, mas ainda querer copiar as configurações de cozimento de um conjunto de textura para outro.
+Às vezes, você pode querer manter os mapas de malha não sincronizados entre os conjuntos de textura, mas ainda querer copiar as configurações de fça bake de um conjunto de textura para outro.
 
-Para copiar configurações comuns para conjuntos de textura específicos sem sincronização, selecione **Sincronizar todas as configurações com mais conjuntos de Textura...** no **Menu suspenso de preparadores de mapas de malha**.
+Para copiar configurações comuns para conjuntos de textura específicos sem sincronização, selecione **Sincronizar todas as configurações com mais conjuntos de Textura...** no menu suspenso **baker de mapa de malha**.
 
 Você também pode usar **Sincronizar todas as configurações com todos os Conjuntos de Textura** para copiar as configurações para todos os conjuntos de textura no projeto.
 
@@ -76,11 +76,11 @@ Como alternativa, se você deseja copiar as configurações de um único mapa de
 
 ### Gerenciar status de verificação de mapas de malha
 
-A verificação do status determina se determinado mapa é incluído quando você prepara os mapas de malha. Há muitas maneiras de gerenciar o status de verificação para o conjunto de texturas atual:
+A verificação de status determina se determinado mapa é incluído quando você faz bake mapas de malha. Há muitas maneiras de gerenciar o status de verificação para o conjunto de texturas atual:
 
 * Marque ou desmarque mapas individuais.
 * Use **Marcar tudo** ou **Desmarcar tudo** para marcar ou desmarcar todos os mapas de malha.
-* Use **Inverter mapas de malha verificados** da **lista suspensa Preparadores de mapas de malha** para alternar o status de verificação de todos os mapas.
+* Use **Inverter mapas de malha verificados** da **lista suspensa baker de mapa de malha** para alternar o status de verificação de todos os mapas.
 
 ![](../../assets/baking/click-drag-check.gif)
 
@@ -90,10 +90,10 @@ A verificação do status determina se determinado mapa é incluído quando voc�
 
 ![](../../assets/baking/invert-checked.gif)
 
-*No exemplo acima, usamos **Inverter mapas de malha marcados**&#x200B;para alternar rapidamente a seleção e, em seguida, preparar mapas de malha que ainda não foram cozidos.*
+*No exemplo acima, usamos **Inverter mapas de malha marcados**&#x200B;para alternar rapidamente a seleção e, em seguida, fazer bake mapas de malha que ainda não foram feitos bake.*
 
 Ao trabalhar com vários conjuntos de texturas, você também pode copiar o status marcado dos mapas para outros conjuntos de texturas selecionando **Aplicar marcado a mais conjuntos de texturas...**, ou copiar o status marcado para todos os conjuntos de texturas com **Aplicar marcado a todos os conjuntos de texturas**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*No exemplo acima, ainda não cozinhamos o Height, os normais curvados ou a opacidade no conjunto de texturas **Material.001**. Já temos esses mapas de malha selecionados no conjunto de textura **Material**, então usamos **Aplicar verificado a mais conjuntos de textura...**&#x200B;e selecionamos **Material.001**&#x200B;para copiar o status verificado. Em seguida, assamos os mapas - observe que a visualização circula pelos mapas de malha duas vezes enquanto os mapas são assados. Isso ocorre porque eles estão sendo assados para ambos os conjuntos de texturas.*
+*No exemplo acima, ainda não fazemos bake o Height, as dobras normais ou a opacidade no conjunto de texturas **Material.001**. Já temos esses mapas de malha selecionados no conjunto de textura **Material**, então usamos **Aplicar verificado a mais conjuntos de textura...**&#x200B;e selecionamos **Material.001**&#x200B;para copiar o status verificado. Em seguida, fazemos bake os mapas - observe que a visualização circula pelos mapas de malha duas vezes enquanto os mapas são feitos bake - isso ocorre porque eles estão sendo feitos bake para ambos os conjuntos de texturas.*

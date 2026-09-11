@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/anchor-point.html"
 breadcrumb-title: ''
-description: Saiba como usar efeitos de ponto de ancoragem no Substance 3D Painter para referenciar texturas de outras camadas para composição avançada.
+description: Saiba como usar efeitos de ponto de ancoragem no Substance 3D Painter para fazer referência a texturas de outras camadas e obter uma composição avançada.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Anchor Point
 helpx_experience_level: ""
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Ponto de ancoragem
 
-Um ponto de ancoragem é uma maneira de expor qualquer recurso ou elemento na pilha de camadas e referenciá-lo em diferentes áreas da pilha de camadas para diferentes fins e com um conjunto diferente de ajustes. Elas abrem um conjunto totalmente novo de possibilidades, permitindo que você vincule efetivamente camadas ou máscaras e tenha um único ponto de ancoragem que afete vários aspectos do seu projeto, transformando o Substance 3D Painter em uma experiência verdadeiramente não linear.
+Um ponto de ancoragem é uma maneira de expor qualquer recurso ou elemento na pilha de camadas e referenciá-lo em diferentes áreas da pilha de camadas para diferentes finalidades e com um conjunto diferente de ajustes. Elas abrem um conjunto totalmente novo de possibilidades, permitindo que você vincule efetivamente camadas ou máscaras e tenha um único ponto de ancoragem que afete vários aspectos do seu projeto, transformando o Substance 3D Painter em uma experiência verdadeiramente não linear.
 
 >[!NOTE]
 >
-> Um ponto de ancoragem só pode ser referenciado dentro da mesma textura criada. Não é possível criar vínculos entre uma âncora e suas referências em Conjuntos de texturas.
+> Um ponto de ancoragem só pode ser referenciado dentro da mesma textura que foi criada. Não é possível criar vínculos entre uma âncora e suas referências em Conjuntos de texturas.
 
 ## Adicionar um ponto de ancoragem
 

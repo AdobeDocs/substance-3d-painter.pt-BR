@@ -25,9 +25,9 @@ ht-degree: 0%
 ## Ambiente
 
 Idêntico ao visor normal, o mapa de ambiente usado no Iray controlará a iluminação.\
-O mapa de ambiente pode ser alterado clicando no botão ou arrastando e soltando uma textura HDR nele.
+O mapa ambiental pode ser alterado clicando no botão ou arrastando e soltando uma textura HDR nele.
 
-* **Exposição do Ambiente** : controla o nível de exposição do mapa de ambiente HDR.
+* **Exposição do Ambiente** : controla o nível de exposição do mapa do ambiente HDR.
 * **Rotação do ambiente** : para deslocar a textura do ambiente e girar a iluminação ao redor da cena.
 
 >[!NOTE]
@@ -55,7 +55,7 @@ Configurações adicionais estão disponíveis:
 | *Configuração* | *Descrição* |
 | --- | --- |
 | **Raio** | O tamanho da esfera (se não for infinito) |
-| **Escala de textura** | Quanto a textura será esticada para o tipo **Esfera com terra**. |
+| **Escala de Textura** | Quanto a textura será esticada para o tipo **Esfera com terra**. |
 | **Limpar cor** | Se ativada, substitua a imagem de fundo do mapa de ambiente por uma cor uniforme. Isso afetará a iluminação. |
 
 ### Configurações do solo
@@ -71,21 +71,21 @@ Por padrão, o valor é definido para fixar a parte inferior da caixa delimitado
 | **Intensidade da sombra** | Esse parâmetro define a opacidade final da sombra depois que a iluminação é calculada. |
 | **Visível de baixo** | Define se o solo é visível de baixo ou não. Se marcada, significa que o chão irá ocultar qualquer elemento acima dele. |
 
-## Parâmetros MDL e Shader
+## Parâmetros de MDL e Sombreador
 
 Iray usa MDL para definir os materiais usados para a renderização de um objeto. Para obter mais informações, consulte a [página oficial da NVIDIA no formato](http://www.nvidia.com/object/material-definition-language.html) .
 
-Por padrão, no Substance 3D Painter, um MDL é associado a um sombreador GLSL; permite alternar entre a viewport regular e o Iray sem precisar configurar nada.\
-Os parâmetros do MDL são exibidos na parte inferior das configurações do visualizador. Abaixo estão os parâmetros do MDL default (Compatível com o sombreador de aspereza/metálico do PBR).
+Por padrão, no Substance 3D Painter, um MDL é associado a um sombreador GLSL, permitindo alternar entre o visor normal e o Iray sem precisar configurar nada.\
+Os parâmetros do MDL são exibidos na parte inferior das configurações do visualizador. Abaixo estão os parâmetros do MDL default (Compatível com o sombreador Metálico/Aspereza de PBR).
 
 >[!NOTE]
 >
 > Para carregar MDLs personalizados, é necessário um sombreador glsl personalizado.\
 >  No sombreador, alguns metadados podem ser adicionados para especificar o caminho mdl:
 > 
-> //- Declarar o material mdl da matriz a ser usado com este sombreador. //: metadados { //: “mdl”:”mdl::alg::materials::physical\_metallic\_roughness::physical\_metallic\_roughness” //: }
+> //- Declare o material mdl iray para usar com este sombreador. //: metadados { //: “mdl”:”mdl::alg::materials::physical\_metallic\_roughness::physical\_metallic\_roughness” //: }
 > 
-> * **mdl** : define o material mdl Iray a ser usado com o sombreador. A sintaxe do caminho é a seguinte: *mdl::folder1::folder2::mdl\_filename::material\_name* onde *folder1::folder2::mdl\_filename* é o caminho dentro de uma das pastas de prateleira *mdl* para um arquivo mdl e *::material\_name* é o nome de um material declarado dentro desse arquivo mdl. (ex: “mdl” : “mdl::alg::materials::physical\_metallic\_roughness::physical\_metallic\_roughness”)
+> * **mdl** : defina o material mdl Iray a ser usado com o sombreador. A sintaxe do caminho é a seguinte: *mdl::folder1::folder2::mdl\_filename::material\_name* onde *folder1::folder2::mdl\_filename* é o caminho dentro de uma das pastas de prateleira *mdl* para um arquivo mdl e *::material\_name* é o nome de um material declarado dentro desse arquivo mdl. (ex: “mdl” : “mdl::alg::materials::physical\_metallic\_roughness::physical\_metallic\_roughness”)
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ O MDL padrão do Substance 3D Painter suporta as seguintes propriedades:
 
 | *Configuração* | *Descrição* |
 | --- | --- |
-| **Intensidade Emissiva** | Multiplicador do canal Emissivo. Um valor alto começará a emitir luz. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/emissive-optim.gif"/></div> |
+| **Intensidade de Emissivo** | Multiplicador do canal de Emissivo. Um valor alto começará a emitir luz. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/emissive-optim.gif"/></div> |
 | **Refração** | Controla a quantidade de Refração. |
 | **IOR** | Define o índice de refração do material.   Nota: Ar = 1,0, Água = 1,2, Vidro = 1,5. |
 | **Dispersão** | Controla a quantidade de luz que é dispersa pela superfície. |

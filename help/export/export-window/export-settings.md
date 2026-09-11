@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/export-window/export-settings.html"
 breadcrumb-title: ''
-description: Saiba como definir configurações de exportação no Substance 3D Painter para controlar a resolução da textura, o formato e as opções de saída.
+description: Saiba como definir as configurações de exportação no Substance 3D Painter para controlar a resolução, o formato e as opções de saída da textura.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export window > Export settings
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/image2023-1-30-13-22-30.png){width="500px"}
 
-A <b>guia Configurações de exportação</b> da <b>janela Exportar texturas</b> permite configurar a composição, o tamanho e o local das texturas exportadas.
+A <b>guia Configurações de exportação</b> da <b>janela Exportar textura</b> permite configurar a composição, o tamanho e o local das texturas exportadas.
 
 ## Configuração de Conjuntos Gerais e de Texturas
 
@@ -54,13 +54,13 @@ Esta seção contém as configurações compartilhadas para cada textura que ser
 
 ### Pontilhamento
 
-A exportação de texturas de 8 bits pode levar a bandas em gradientes. Isso é especialmente perceptível com os mapas Normal e Height. Há duas maneiras de resolver esse problema: usando maior precisão ou compensando com pontilhamento.
+A exportação de texturas de 8 bits pode levar a bandas em gradientes. Isso é especialmente perceptível com os mapas Normal e Altura. Há duas maneiras de resolver esse problema: usando maior precisão ou compensando com pontilhamento.
 
 Uma precisão mais alta (16 ou 32 bits) é ideal, mas pode não ser compatível com todos os aplicativos. Mais notavelmente, os mecanismos de jogos geralmente compactam para 8 bits. O pontilhamento introduz ruído que ajuda a mitigar problemas de faixas enquanto ainda usa 8 bits de informação.
 
 ![](../../assets/dither-1.jpg)
 
-### Formatos de arquivo de textura
+### Textura formatos de arquivo
 
 Veja abaixo uma lista de todos os formatos de arquivo de exportação compatíveis com o Painter:
 
@@ -77,7 +77,7 @@ Veja abaixo uma lista de todos os formatos de arquivo de exportação compatíve
 | **Jpeg** | jpeg | 8, 8 + pontilhamento |
 | **intervalo estendido do JPEG** | jpeg-xr | 8, 8 + pontilhamento, 16, 32 (flutuante) |
 | **Mapa de bits portátil** | pbm | 8, 8 + pontilhamento, 16 |
-| **Mapa flutuante portátil** | pfm | 32 (flutuante) |
+| **Mapa de Precisão decimal Portátil** | pfm | 32 (flutuante) |
 | **Mapa de Cinza Portátil** | pgm | 8, 8 + pontilhamento, 16 |
 | **Gráficos de Rede Portáteis** | png | 8, 8 + pontilhamento, 16 |
 | **Mapa de pixels portáteis** | ppm | 8, 8 + pontilhamento, 16 |
@@ -94,7 +94,7 @@ Quando um conjunto de texturas específico é selecionado, a seção Mapas de sa
 
 ![](../../assets/export-output-maps.png)
 
-Esta seção lista todas as texturas que serão geradas com base na predefinição de exportação atual. Indica o modelo de nome de textura, o formato de arquivo e a profundidade de bits, além do espaço de cores, se o [Gerenciamento de cores](../../features/color-management/color-management.md) estiver habilitado.
+Esta seção lista todas as texturas que serão geradas com base na predefinição de exportação atual. Indica o modelo de nome da textura, o formato do arquivo e a profundidade de bits, além do espaço de cores, se o [Gerenciamento de cores](../../features/color-management/color-management.md) estiver habilitado.
 
 Esta seção permite desabilitar a exportação de arquivos específicos ou substituir o <b>formato de arquivo</b> e a <b>profundidade de bits</b>.
 
@@ -102,9 +102,9 @@ Esta seção permite desabilitar a exportação de arquivos específicos ou subs
 
 ## Exportar ativo em USD
 
-Marcar esta caixa permitirá que você exporte no formato USD. Diferentemente da predefinição USDz (Apple AR) disponível em <b>Modelos de saída</b>, esta exportação levará em consideração qualquer modelo ou parâmetro que você configurou para sua exportação. Os arquivos a seguir são exportados quando você marca a caixa Ativos em USD -
+Marcar esta caixa permitirá que você exporte em formato USD. Diferentemente da predefinição USDz (Apple AR) disponível em <b>Modelos de saída</b>, esta exportação levará em consideração qualquer modelo ou parâmetro que você configurou para sua exportação. Os arquivos a seguir são exportados quando você marca a caixa de seleção de ativos USD -
 
 * Uma pasta com mapas de textura
 * Um *.usda* que aponta para a pasta de mapas de textura.
 * Um .usd opcional que monta materiais com o arquivo de malha original. Ele pode ser usado diretamente no Omniverse para mostrar sua malha com materiais aplicados automaticamente.
-* Um arquivo .usd opcional, que inclui a malha usada no projeto. Ele é exportado apenas se o arquivo de malha original não for um USD ou se o desajuste automático do Painter tiver sido usado para gerar UVs.
+* Um arquivo .usd opcional, que inclui a malha usada no projeto. Ele é exportado apenas se o arquivo de malha original não for um USD ou se a quebra automática do Painter tiver sido usada para gerar UVs.

@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Máscara de <img src="../../../assets/generators/icon_fiber_glass_edge_wear.webp" alt=""/><br><strong>entrada:</strong>, gerador</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Edge Wear de fibra de vidro adiciona detalhes realistas de desgaste de borda de fibra de vidro e desgaste com base em mapas de curvatura assada e Oclusão ambiente. Opcionalmente, você também pode usar os mapas Micro Height e Micro Normal para obter detalhes adicionais.<br><br>O gerador de Edge Wear de fibra de vidro gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para adicionar detalhes de desgaste de bordas de fibra de vidro a uma camada.<br><br>Mapas normais de posição cozida, curvatura, oclusão ambiente e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Edge Wear de fibra de vidro adiciona detalhes realistas de desgaste de borda de fibra de vidro e desgaste com base em mapas de curvatura e Oclusão de ambiente feitos bake. Opcionalmente, você também pode usar o Micro Height e o Micro Mapa normal para obter detalhes adicionais.<br><br>O gerador de Edge Wear de fibra de vidro gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para adicionar detalhes de desgaste de bordas de fibra de vidro a uma camada.<br><br>Mapas normais de posição, curvatura, oclusão de ambiente e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -23,10 +23,10 @@ ht-degree: 1%
 | Nome de entrada | Descrição |
 | --- | --- |
 | **desgaste personalizado** em tons de cinza | Use uma textura personalizada ou um ponto de ancoragem. |
-| **Curvatura** em tons de cinza | Use o mapa de curvatura assado. |
-| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão ambiente cozido. |
-| Cor **Normal Do Espaço Mundial** | Use o mapa World Space Normals assado. |
-| Cor de **Posição** | Use o mapa de posição cozida. |
+| **Curvatura** em tons de cinza | Use o mapa de curvatura feita bake. |
+| **Oclusão de ambiente** em tons de cinza | Use o mapa de Oclusão de ambiente feito bake. |
+| Cor **Normal Do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
+| Cor de **Posição** | Use o mapa de Posição feita bake. |
 | Cor **Micro Normal** | Use uma textura normal personalizada ou um ponto de ancoragem. |
 | Cor do **Micro Height** | Use uma textura personalizada ou um ponto de ancoragem. |
 
@@ -74,8 +74,8 @@ ht-degree: 1%
     <td>Ajuste a suavidade do efeito de desgaste de borda.</td>
   </tr>
   <tr>
-    <td><strong>Mascaramento de Oclusão ambiente</strong></td>
-    <td>Ajuste quanto o mapa de oclusão ambiente afeta o resultado.</td>
+    <td><strong>Mascaramento de oclusão de ambiente</strong></td>
+    <td>Ajuste quanto o mapa de oclusão de ambiente afeta o resultado.</td>
   </tr>
   <tr>
     <td><strong>Espessura da curvatura</strong></td>
@@ -96,7 +96,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Micro normal</strong></td>
-    <td>Ativa ou desativa a utilização de um mapa Micro Normal personalizado.</td>
+    <td>Ativar ou desativar o uso de um Micro Mapa normal personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>
@@ -116,6 +116,6 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>PROFUNDIDADE AO</strong></td>
-    <td>Ajuste a profundidade (intensidade) da Oclusão ambiente em microdetalhes.</td>
+    <td>Ajuste a profundidade (intensidade) da Oclusão de ambiente em microdetalhes.</td>
   </tr>
 </table>

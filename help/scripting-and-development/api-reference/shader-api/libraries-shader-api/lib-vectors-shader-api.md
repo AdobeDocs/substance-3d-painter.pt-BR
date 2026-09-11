@@ -126,7 +126,7 @@ vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) {
 ```
 
 
-Quadro local do vértice no espaço de mundo
+Quadro local de vértice no espaço mundial
 
 ```
 struct LocalVectors { 
@@ -139,7 +139,7 @@ struct LocalVectors {
 ```
 
 
-Calcular quadro local a partir do espaço de mundo personalizado normal e ângulo de anisotropia
+Calcular quadro local a partir do espaço mundial personalizado normal e ângulo de anisotropia
 
 ```
 LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-Calcular quadro local a partir do height e das normais de malha e documento
+Calcular quadro local a partir da malha e do height de documentos e normais
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

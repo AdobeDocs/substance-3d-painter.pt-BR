@@ -26,11 +26,11 @@ Data de lançamento: *28 de setembro de 2017*
 
 ## Principais recursos
 
-### Predefinição de exportação de material padrão da Adobe
+### predefinição de exportação de Adobe Standard Material
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Um dos novos exportadores que incluímos nesta versão é o suporte ao Material padrão da Adobe a ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Material padrão da Adobe**” na janela de texturas de exportação. Para obter mais informações, consulte: [http://www.adobe.com/br/products/dimension.html](https://www.adobe.com/br/products/dimension.html)
+Um dos novos exportadores que incluímos nesta versão é o suporte ao Material padrão da Adobe a ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Adobe Standard Material**” na janela de exportação do textura. Para obter mais informações, consulte: [http://www.adobe.com/br/products/dimension.html](https://www.adobe.com/br/products/dimension.html)
 
 Você também pode conferir nossa postagem sobre isso no blog: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +38,7 @@ Você também pode conferir nossa postagem sobre isso no blog: <https://www.alle
 
 ![](../../assets/gltf-export.jpg)
 
-Também adicionamos suporte para o formato de arquivo **glTF**, com a exportação da **malha de cena** e das **texturas PBR** (metálico/rugosidade). Para acessá-la, basta escolher “**glTF PBR Metal Roughness**” na janela de exportação de texturas. **glTF** é um formato de arquivo de código aberto dirigido pelo grupo Khronos. Você pode exibir o arquivo glTF no **Windows 10** ou usar um visualizador WebGL, como o [**Babylon**](http://sandbox.babylonjs.com/).
+Também adicionamos suporte para o formato de arquivo **glTF**, com a exportação da **malha de cena** e das **texturas PBR** (metálico/rugosidade). Para acessá-la, basta escolher “**glTF PBR Metal Roughness**” na janela de exportação do textura. **glTF** é um formato de arquivo de código aberto dirigido pelo grupo Khronos. Você pode exibir o arquivo glTF no **Windows 10** ou usar um visualizador WebGL, como o [**Babylon**](http://sandbox.babylonjs.com/).
 
 Para obter mais informações, consulte: <https://github.com/KhronosGroup/glTF>
 
@@ -59,7 +59,7 @@ O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais s
 
 O controle deslizante principal (quantidade de cores) define o número de cores totais que são usadas para criar o gradiente. O botão logo abaixo define o modo de mesclagem de cores (sRGB ou Linear). Isso é importante se você quiser ter uma mistura adequada entre as cores. Por exemplo, mesclar um vermelho puro e um verde puro deve produzir um amarelo agradável no meio. Isso não acontecerá se o botão estiver desativado (ele exibirá um marrom escuro como alternativa). Ao remapear a height ou qualquer outro canal de tons de cinza, esse botão deve ser desativado para evitar a conversão da gama.
 
-O botão na parte superior permite substituir o resultado do filtro pelo próprio gradiente, para visualizar o gradiente na visualização 2D.
+O botão na parte superior permite substituir o resultado do filtro pelo próprio gradiente, para visualizar o gradiente no Visualização 2D.
 
 ![](../../assets/gradient-height-demo.jpg)
 
@@ -101,10 +101,10 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 
 **Corrigido:**
 
-* [Mac] A pintura leva a quadrados pretos e corrupções de textura
+* [Mac] A pintura resulta em quadrados pretos e corrupções de textura
 * [Engine] Às vezes, o cache pode desaparecer no visor
 * [Engine] Artefatos de bloco aparecem quando o acionador de compactação de memória
-* [Preparação] Mensagens de erro estranhas ao assar malhas específicas
+* [Fazendo bake] Mensagens de erro estranhas ao fazer bake malhas específicas
 * [Export] PSD são gravados incorretamente e não são reconhecidos corretamente pelo Photoshop
 * [Camadas] Não deveria ser possível copiar/colar camadas em vários projetos
 * [Substance] O espaço de cores UserData para a entrada Normal é invertido em alguns casos

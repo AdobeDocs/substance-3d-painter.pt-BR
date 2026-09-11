@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
 breadcrumb-title: ''
-description: Aprenda a pintar mapas de fluxo no Substance 3D Painter para controlar a direção do fluxo do material e os efeitos anisotrópicos.
+description: Saiba como tinta mapas de fluxo no Substance 3D Painter para controlar a direção do fluxo do material e os efeitos anisotrópicos.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Advanced channel painting > Flow Map Painting
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Pintura de mapa de fluxo
 
-Um canal dedicado é planejado, mas, ao mesmo tempo, usando o canal Normal e alguns parâmetros de pincel, é possível pintar mapas de fluxo no Substance 3D Painter.
+Um canal dedicado é planejado, mas, ao mesmo tempo, usando o canal Normal e alguns parâmetros de pincel, é possível tinta mapas de fluxo no Substance 3D Painter.
 
 ## Etapa 1: Criar o mapa normal
 
@@ -33,12 +33,12 @@ Em seu projeto do Substance 3D Painter, adicione um canal **Normal** por meio da
 
 ## Etapa 3: Configuração do pincel
 
-Ative o recurso Seguir caminho nos parâmetros do pincel. Carregue a textura normal do mapa (etapa 1) no slot de canal normal. Desative os outros canais.
+Ative o recurso Seguir caminho nos parâmetros do pincel. Carregue a textura do mapa normal (etapa 1) no slot do canal normal. Desative os outros canais.
 
 ![](../../assets/brush-settings-1.png){width="300px"}
 
-## Etapa 4: Pintar!
+## Etapa 4 : Tinta!
 
-Ao pintar na malha com a configuração do caminho de acompanhamento ativada, os traçados de pincel desenharão direções no mapa normal.
+Ao pintar na malha com a configuração do caminho de acompanhamento ativada, os traçados de pincel desenharão direções na mapa normal.
 
 ![](../../assets/painting-1.png){width="700px"}

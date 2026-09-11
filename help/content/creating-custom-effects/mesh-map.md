@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Mapa de malha
 
-Para conectar automaticamente mapas de malha (texturas preparadas) quando um efeito é adicionado a uma camada, é necessário seguir uma convenção de nomenclatura específica.
+Para conectar automaticamente mapas de malha (texturas feitas bake) quando um efeito é adicionado a uma camada, uma convenção de nomenclatura específica deve ser seguida.
 
 >[!NOTE]
 >
@@ -38,5 +38,5 @@ Esta é a convenção de nomenclatura de cada mapa de malha:
 | *Posição* | **posição** | **posição** |
 | *Thickness* | **thickness** | **thickness** |
 | *Height* | **heightBase** | **height\_base** |
-| *Normais Tortos* | **bentNormalsBase** | **curvo\_normal\_base** |
+| *Dobras normais* | **bentNormalsBase** | **curvo\_normal\_base** |
 | *Opacidade* | **opacityBase** | **opacidade\_base** |

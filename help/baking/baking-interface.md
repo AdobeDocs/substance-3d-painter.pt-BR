@@ -1,6 +1,6 @@
 ---
 title: Interface de cozimento
-description: Saiba como a interface do Modo de cozimento difere do Modo de pintura.
+description: Saiba como a interface do modo de Fça bake difere do modo de Pintura.
 source-git-commit: 987b94e15c1dbe4ddf392ea7878126ecdf989423
 workflow-type: tm+mt
 source-wordcount: '266'
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 O **Modo de cozimento** fornece acesso a todas as ferramentas e parâmetros necessários para criar bolos excelentes de alta qualidade.
 
-Para acessar o **Modo de cozimento**, clique no botão Croissant (cozido) na parte superior direita do Viewport. Como alternativa, use o [atalho de teclado &#x200B;](../interface/settings/shortcuts.md)**F8** ou selecione **Modo > Mapas de Malha Assada**
+Para acessar o **modo de Fça bake**, clique no botão (feito bake) Croissant na parte superior direita do Viewport. Como alternativa, use o [atalho de teclado &#x200B;](../interface/settings/shortcuts.md)**F8** ou selecione **Modo > Fazer bake mapas de malha**
 
 ![](../assets/baking/mode_select_buttons.png)
 
@@ -21,25 +21,25 @@ O modo de cozimento altera o layout da interface do usuário e disponibiliza dif
 
 ## Interface
 
-A interface do Modo de Preparação é, por padrão, dividida entre a [**Janela de visualização**](../interface/viewport/viewport.md) e a área do painel.
+A interface do Modo de Fça bake é, por padrão, dividida entre a [**Janela de visualização**](../interface/viewport/viewport.md) e a área do painel.
 
 ### Janela de visualização
 
 O [**Viewport**](../interface/viewport/viewport.md) se comporta da mesma forma que no **modo de Pintura**. Você pode navegar com os mesmos controles e usar o **Menu suspenso Canal** para alterar quais canais serão exibidos.
 
-A **Janela de visualização do modo de cozimento** difere do **Modo de pintura** de duas maneiras:
+A **Janela de visualização do modo de Fça bake** difere do **Modo de pintura** de duas maneiras:
 
-* Na parte superior esquerda do Visor, você pode encontrar o [**Painel de configurações de visualização de cozimento**](baking-visualization-settings.md).
-* Na parte inferior da viewport, você poderá encontrar botões para **Preparar** os mapas de malha selecionados atualmente, ou retornar ao **Modo de pintura**.
+* No canto superior esquerdo do Visor, você pode encontrar o [**painel de configurações de visualização Feita bake**](baking-visualization-settings.md).
+* Na parte inferior da janela, você pode encontrar botões para **Fazer bake** os mapas de malha selecionados ou retornar ao **Modo de pintura**.
 
-### Painéis do modo de cozimento
+### Painéis do modo de fça bake
 
-Existem 4 painéis exclusivos para o modo de cozimento:
+Há 4 painéis exclusivos para o modo de Fça bake:
 
-* [**Preparadores de mapas de malha**](../interface/baking-panels/mesh-map-bakers.md): selecione quais mapas de malha são cozidos.
+* [**baker de mapas de malha**](../interface/baking-panels/mesh-map-bakers.md): selecione quais mapas de malha são feitos bake.
 * [**Configurações comuns**](../interface/baking-panels/common-mesh-map-settings.md): ajuste as configurações de cozimento comuns a todos os mapas de malha.
-* [**Painel de configurações do mapa de malha**](../interface/baking-panels/mesh-map-settings.md): ajuste as configurações de cozimento do mapa de malha selecionado.
-* [**Log de preparação**](../interface/baking-panels/baking-log.md): exiba os resultados de bolos e diagnostique problemas.
+* [**Painel de configurações do mapa de malha**](../interface/baking-panels/mesh-map-settings.md): ajuste as configurações de fça bake do mapa de malha selecionado.
+* [**Fazendo bake log**](../interface/baking-panels/baking-log.md): exiba os resultados das fazes bake e diagnostique problemas.
 
 >[!NOTE]
 >

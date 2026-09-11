@@ -38,6 +38,6 @@ Para ajustar a gama de cores da imagem, dois conjuntos de controles estão dispo
 > O efeito de níveis só pode ser aplicado a um canal por vez, conforme selecionado pela opção *Canal afetado*. Se você deseja aplicar um nível em vários canais, terá que criar vários efeitos de Níveis.
 
 * A caixa suspensa Cores no canto superior direito permite alterar os níveis na imagem rgb completa ou em apenas um dos canais vermelho, verde e azul.
-* A opção Grampeamento na parte inferior direita permite fixar os valores dos níveis entre 0 e 1 (0-255). Essa opção deve ser sempre marcada ao trabalhar em canais não HDR (como a **Cor base**).
+* A opção Grampeamento na parte inferior direita permite fixar os valores dos níveis entre 0 e 1 (0-255). Essa opção deve ser sempre marcada ao trabalhar em canais não HDR (como a **Cor de base**).
 
 [Para entender ainda mais os Níveis, você deve assistir ao nosso curso na Substance Academy dedicado ao tema.](https://academy.substance3d.com/courses/Mastering-Levels-Histogram)

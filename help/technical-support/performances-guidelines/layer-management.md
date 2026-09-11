@@ -52,12 +52,12 @@ Os filtros podem ser caros. Se for necessário usar um filtro próximo ao topo d
 +++
 
 +++Limitar o uso do modo de mistura passagem
-A passagem é frequentemente usada com filtros ou camadas de traçado de pincel. É um modo de mesclagem dispendioso porque examina todas as camadas subjacentes e transforma o resultado, em vez de substituir o resultado como o modo de mesclagem normal. Sempre que usar a passagem, tente combiná-la com máscaras e pastas de geometria para minimizar o impacto no desempenho.
+A Transparência é frequentemente usada com filtros ou camadas de traçado de pincel. É um modo de mesclagem dispendioso porque examina todas as camadas subjacentes e transforma o resultado, em vez de substituir o resultado como o modo de mesclagem normal. Sempre que usar a passagem, tente combiná-la com máscaras e pastas de geometria para minimizar o impacto no desempenho.
 
 +++
 
 +++Manter a profundidade de projeção pequena
-Com qualquer ferramenta ou modo que tenha uma configuração de profundidade de projeção (distorção, plano, caminho etc.), mantenha o valor de profundidade de projeção o menor possível. Quanto mais a profundidade de projeção se estende, menos desempenho ela é.
+Com qualquer ferramenta ou modo que tenha uma configuração de profundidade de projeção (distorção, planar, caminho etc.), mantenha o valor de profundidade de projeção o menor possível. Quanto mais a profundidade de projeção se estende, menos desempenho ela é.
 
 +++
 
@@ -73,7 +73,7 @@ Diminuir a resolução do documento é a maneira mais rápida de melhorar o dese
 
 +++
 
-+++Definir decalques para o modo de projeção planar
++++Definir decalques para o modo de projeção Planar
 O modo de decalque padrão é Distorcer, mas, a menos que você esteja deformando o decalque movendo seus pontos, alterná-lo para o modo Planar é muito menos dispendioso.
 
 +++

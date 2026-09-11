@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../../assets/export-output-template.png){width="500px"}
 
-A guia Modelo de saída permite gerenciar e criar novos Modelos de saída. Você pode usar Modelos de saída para modificar os nomes, os formatos e a configuração das texturas exportadas.
+A guia Modelo de saída permite gerenciar e criar novos Modelos de saída. Você pode usar Modelos de saída para modificar os nomes, formatos e a configuração das texturas exportadas.
 
 ## Lista de predefinições
 
@@ -44,7 +44,7 @@ Nesta lista, os modelos podem ser <b>criados</b>, <b>renomeados</b>, <b>duplicad
 
 ![](../../assets/export-preset-config.png)
 
-Esta seção lista todas as texturas que serão geradas pelo modelo e suas composições.
+Esta seção lista todas as texturas que serão geradas pelo modelo e sua composição.
 
 ### Mapear tipos e palavras-chave
 
@@ -104,18 +104,18 @@ A lista de mapas de entrada agrupa todos os canais que podem ser adicionados por
 
 ### Mapas de malha
 
-Os mapas de malha são as texturas assadas:
+Os mapas de malha são as texturas feitas bake:
 
 | Nome | Descrição |
 | --- | --- |
-| **Normal** | Mapa normal assado. |
-| **Espaço mundial normal** | Espaço do mundo assado normal. |
-| **ID** | ID assada. |
-| **oclusão de ambiente** | Oclusão ambiente assada |
-| **Curvatura** | Curvatura assada. |
-| **Posição** | Posição assada. |
-| **Thickness** | Thickness assado. |
-| **Height** | Height assado. |
+| **Normal** | mapa normal feito bake. |
+| **Espaço mundial normal** | Espaço mundial feito bake normal. |
+| **ID** | ID feita bake. |
+| **oclusão de ambiente** | oclusão de ambiente feita bake |
+| **Curvatura** | Curvatura feita bake. |
+| **Posição** | Posição feita bake. |
+| **Thickness** | thickness feito bake. |
+| **Height** | height feito bake. |
 | **Normais tortos** | Cozido normal curvado. |
 
 ### Mapas convertidos
@@ -124,15 +124,15 @@ Mapas convertidos são mapas gerados pelo aplicativo de outra origem:
 
 | Nome | Descrição |
 | --- | --- |
-| **OpenGL normal** | Mapa normal combinado no formato OpenGL do normal assado e canal normal do conjunto de textura. |
-| **DirectX normal** | O mapa normal combinado no formato de DirectX do normal assado e o canal normal do conjunto de texturas. |
+| **OpenGL normal** | Mapa normal combinado no formato OpenGL do canal normal feito bake e do canal normal do conjunto de texturas. |
+| **DirectX normal** | Mapa normal combinado no formato de DirectX do canal normal feito bake e do canal normal do Conjunto de texturas. |
 | **AO misto** | Oclusão ambiente combinada da oclusão ambiente assada e do canal de oclusão ambiente do conjunto de texturas. |
-| **Difusa** | Textura difusa gerada a partir da **Cor base** e do canal **Metálico** (as áreas metálicas são substituídas por uma cor preta). |
+| **Difusa** | textura de Difusão gerada a partir do canal **Cor de base** e **Metálico** (as áreas metálicas são substituídas por uma cor preta). |
 | **Specular** | Textura de specular gerada do canal **Cor Base** e **Metálico**. |
 | **Textura reluzente** | Textura de textura reluzente gerada do inverso do canal de aspereza. |
-| **Difusão do Unity4** | Descontinuado. Textura difusa gerada do canal **Cor base** para corresponder aos sombreadores da Unidade 4. |
-| **Brilho da Unidade4** | Descontinuado. Textura reluzente gerada a partir do canal **Aspereza** e **Metálico** para corresponder aos sombreadores do Unity 4. |
-| **Reflexo** | Texturas em que o branco indica um material dielétrico e outras cores como materiais metálicos. |
+| **Difusão Unity4** | Descontinuado. Textura difusa gerada do canal **Cor base** para corresponder aos sombreadores da Unidade 4. |
+| **Brilho da Unidade4** | Descontinuado. Textura de textura reluzente gerada do canal **Aspereza** e **Metálico** para corresponder aos sombreadores do Unity 4. |
+| **Reflexo** | Texturas em que branco indica um material dielétrico e outras cores como materiais metálicos. |
 | **1/i** | Textura contendo 1 dividido pelo valor **IOR**. **IOR** é gerado a partir do mapa metálico: 1.4 para dielétricos, 100 para metais (cor preta). |
 | **Textura reluzente<sup>2</sup>** | Versão quadrada do canal **Textura reluzente** (**Textura reluzente** \* **Textura reluzente**) |
-| **f0** | Textura que contém o valor de refletância como afrescos 0 (0,04 para dieletrics, 1,0 para metálicos). |
+| **f0** | Textura com valor de refletância como afrescos 0 (0,04 para dieletrics, 1,0 para metálicos). |

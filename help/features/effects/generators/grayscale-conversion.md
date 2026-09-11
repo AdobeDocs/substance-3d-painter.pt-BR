@@ -1,6 +1,6 @@
 ---
 title: Conversão em tons de cinza
-description: Saiba como usar o gerador de conversão em tons de cinza do Substance 3D Painter.
+description: Saiba como usar o gerador de Conversão em escala cinza do Substance 3D Painter.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '229'
@@ -14,7 +14,7 @@ ht-degree: 5%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_grayscale_conversion.png" alt=""/><br><strong>Em:</strong> gerador, tons de cinza, cor</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Conversão em Tons de Cinza converte uma textura ou um mapa em valores de tons de cinza.<br><br>O gerador de Conversão em Tons de Cinza gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras a partir de um mapa de entrada de cores completo.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Conversão em escala cinza converte uma textura ou mapa em valores em tons de cinza.<br><br>O gerador de Conversão em Tons de Cinza gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras a partir de um mapa de entrada de cores completo.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 | Nome de entrada | Descrição |
 | --- | --- |
-| Cor de **Origem** | Use uma textura de cor personalizada ou um ponto de ancoragem. |
+| Cor de **Origem** | Use uma textura de cores personalizada ou um ponto de ancoragem. |
 
 ## Parâmetros
 

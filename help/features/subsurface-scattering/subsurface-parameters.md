@@ -25,15 +25,15 @@ A implementação atual é baseada no método “Perfis de Reflexão Aproximados
 
 Para exemplos de materiais baseados nesses parâmetros, consulte: [Tipo de Material de Subsuperfície](subsurface-material-type.md).
 
-## Parâmetros de Sombreador/MDL
+## Parâmetros de sombreador/MDL
 
 ![](../../assets/shader-parameters.png)
 
-Disponível na janela [Configurações do sombreador](../../interface/shader-settings/shader-settings.md).
+Disponível na janela [configurações de Sombreador](../../interface/shader-settings/shader-settings.md).
 
 | *Configuração* | *Descrição* |
 | --- | --- |
-| **Habilitar** | Ative ou desative o efeito Dispersão de subsuperfície nesta ocorrência de shader/mdl.  Pode ser usado para desativar o efeito do SSS em materiais que não precisam dele. |
+| **Habilitar** | Ative ou desative o efeito Dispersão da subsuperfície nesta instância de sombreador/mdl.  Pode ser usado para desativar o efeito do SSS em materiais que não precisam dele. |
 | **Tipo de dispersão** | Define o comportamento da absorção de luz no material:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Transparente</strong>: adequado para materiais genéricos, como Jade ou Mármore, onde a luz possa penetrar profundamente em um objeto.</li><li data-preserve-html="true"><strong> Pele</strong>: adequada para pele orgânica, onde a luz é absorvida rapidamente e somente dispersão perto da superfície.</li><li data-preserve-html="true"><strong>Red Shift/Rayleigh</strong>: mais preciso do que a configuração da pele para simular a pele humana ou da superfície da criatura.</li></ul> |
 | **Escala** | Controla o raio/profundidade da absorção de luz no material. Esse comportamento do parâmetro muda dependendo do tamanho da malha na cena.Comparação entre uma escala de 0,0, 0,2 e 1,0 em uma cabeça do tamanho humano:   <div><img data-preserve-html="true" src="../../assets/scale-sss.jpg" width="650"/></div> |
 | **Cor** | A cor da luz quando absorvida pelo material.Comparação entre três cores :   <div><img data-preserve-html="true" src="../../assets/color-sss.jpg" width="650"/></div> |

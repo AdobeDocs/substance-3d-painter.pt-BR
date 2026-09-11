@@ -44,8 +44,8 @@ Abaixo estão os locais da biblioteca padrão **Seus ativos** em que seu própri
 | **SBSAR** | Material do Substance | ativos/materiais |
 | **SBSAR** | Filtros | ativos/efeitos |
 | **SBSAR** | Geradores | ativos/geradores |
-| **PNG, TGA, JPEG etc.** | Textura ou Alpha | ativos / texturas **ou** prateleira / Alpha |
-| **HDR, EXR** | Ambiente ou Cor LUT | ativos/ambientes **ou** prateleira/colorida |
+| **PNG, TGA, JPEG etc.** | Textura ou Alpha | ativos/prateleira do Textura **or**/Alpha |
+| **EXR, HDR** | Ambiente ou Cor LUT | ativos/ambientes **ou** prateleira/colorida |
 | **GLSL** | Sombreamento | ativos/sombreadores |
 | **SPPR** | Predefinição de pincel | ativos/predefinições/pincel |
 | **SPPR** | Predefinição de partícula | ativos / predefinição / partículas |
@@ -61,4 +61,4 @@ Abaixo estão os locais da biblioteca padrão **Seus ativos** em que seu própri
 
 >[!WARNING]
 >
-> Arquivos **SBS** (não SBSAR) não podem ser usados diretamente; eles precisam ser exportados como SBSAR do Substance 3D Designer.
+> Arquivos **SBS** (não SBSAR) não podem ser usados diretamente, eles precisam ser exportados como SBSAR do Substance 3D Designer.

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting.html"
 breadcrumb-title: ''
-description: Aprenda a pintar texturas diretamente em modelos 3D no Substance 3D Painter usando vários pincéis, ferramentas e técnicas.
+description: Saiba como tinta texturas diretamente em modelos 3D no Substance 3D Painter usando vários pincéis, ferramentas e técnicas.
 helpx_creative_field: ""
 helpx_description: Painter > Painting
 helpx_experience_level: ""
@@ -22,11 +22,11 @@ ht-degree: 8%
 
 A pintura no Substance 3D Painter pode ser obtida de várias maneiras com ferramentas manuais ou ações automáticas.
 
-As ferramentas de pintura manual podem ser acessadas diretamente por meio da barra de ferramentas (ou de seu atalho dedicado). Quando uma ferramenta de pintura é selecionada, suas propriedades são exibidas na janela Propriedades.
+As ferramentas de pintura manual podem ser acessadas diretamente por meio da barra de ferramentas (ou de seu atalho dedicado). Quando uma ferramenta de tinta é selecionada, suas propriedades são exibidas na janela Propriedades.
 
 Para obter informações sobre cada ferramenta, consulte a página dedicada:
 
-* [Lista de ferramentas de pintura](../painting/tool-list/tool-list.md)
+* [Lista de ferramentas de Tinta](../painting/tool-list/tool-list.md)
 * [Lista de ferramentas Caminho](tool-list/path.md)
 * [Linha reta](straight-line.md)
 * [Mouse lento](lazy-mouse.md)

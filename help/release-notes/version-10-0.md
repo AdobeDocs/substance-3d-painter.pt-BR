@@ -112,9 +112,9 @@ Uma nova janela está disponível para incorporar o site do Substance 3D Assets 
 
 ![](../assets/v10_banner_python-1.jpg)
 
-Esta versão apresenta a adição do novo módulo de pilha de camadas em nossa API Python. Esta API permite controlar a pilha de camadas de um projeto, abrindo a porta para a criação de plug-ins avançados de pilha de camadas e ferramentas personalizadas.
+Esta versão apresenta a adição do novo módulo de pilha de camadas em nossa API Python. Esta API permite controlar a pilha de camadas de um projeto, abrindo a porta para a criação de plug-ins de pilha de camadas avançados e ferramentas personalizadas.
 
-* <b>Nova API de pilha de camadas</b>\
+* <b>Nova API de Pilha de camadas</b>\
   O novo módulo <b>layerstack</b> permite controlar a pilha de camadas de um projeto de várias maneiras. Você pode:
 
   * Consulte e defina a seleção de camadas e efeitos.
@@ -123,11 +123,11 @@ Esta versão apresenta a adição do novo módulo de pilha de camadas em nossa A
   * Obtenha e defina parâmetros de camadas e efeitos, carregue recursos nelas.
   * Obter e definir parâmetros de Substance.
 * <b>Modificações no escopo e pausa do mecanismo</b>\
-  Manipular a pilha de camadas pode levar a longos cálculos. É por isso que também expomos a possibilidade de pausar e despausar o mecanismo da API (como na interface do usuário). Também possibilitamos agrupar modificações, por ambos os motivos de desempenho, mas também para desfazer uma única vez várias operações.
+  Manipular a pilha de camadas pode levar a cálculos longos. É por isso que também expomos a possibilidade de pausar e despausar o mecanismo da API (como na interface do usuário). Também possibilitamos agrupar modificações, por ambos os motivos de desempenho, mas também para desfazer uma única vez várias operações.
 * <b>Gerenciamento básico de cores</b>\
   Com a exposição da pilha de camadas, precisávamos introduzir a noção de gerenciamento de cores em nossa API. Um novo módulo <b>colormanagement</b> foi adicionado para criar, ajustar cores e escolher o espaço de cores de bitmaps. (Esta parte da API ainda não está completa e será expandida em versões futuras.)
 * <b>Consultar informações de predefinição de exportação</b>\
-  As predefinições de exportação agora são expostas em nossa API, permitindo consultar a lista de predefinições (predefinidas e personalizadas). Seu conteúdo também pode ser recuperado em um formato semelhante ao da nossa API de texturas de exportação existente.
+  As predefinições de exportação agora são expostas em nossa API, permitindo consultar a lista de predefinições (predefinidas e personalizadas). Seu conteúdo também pode ser recuperado em um formato semelhante à nossa API de exportação do textura.
 * <b>Novas possibilidades à frente!\
   </b> Esta nova parte da API permite fazer muitas coisas novas, como salvar e restaurar uma seleção de camadas ou alterar a propagação aleatória de todos os recursos em um projeto, por exemplo:
 
@@ -139,13 +139,13 @@ Esta versão apresenta a adição do novo módulo de pilha de camadas em nossa A
 
 >[!NOTE]
 >
-> Exemplos de plug-ins de pilha de camadas também podem ser encontrados em nossa [documentação online](https://adobedocs.github.io/painter-python-api/).
+> Exemplos de plug-ins do pilha de camadas também podem ser encontrados em nossa [documentação online](https://adobedocs.github.io/painter-python-api/).
 
-### Aprimoramento da pintura de mapa normal
+### Pintura de mapa normal aprimorada
 
 ![](../assets/v10_banner_flow-1.jpg)
 
-Nesta versão, retrabalhamos o fluxo de trabalho normal de pintura de mapa. Mudamos notavelmente a maneira como acumulamos e misturamos os carimbos de pincel normais. Essas alterações foram feitas para abordar questões relacionadas aos mapas de fluxo de pintura.
+Nesta versão, retrabalhamos o fluxo de trabalho de pintura de mapa normal. Mudamos notavelmente a maneira como acumulamos e misturamos os carimbos de pincel normais. Essas alterações foram feitas para abordar questões relacionadas aos mapas de fluxo de pintura.
 
 * <b>Problema de acumulação corrigido</b>\
   Pintar sobre e sobre uma área no canal normal não irá mais saturar ou prender e criar furos ou artefatos. Alternar o canal normal para RGB32F também não é mais necessário.
@@ -156,7 +156,7 @@ Nesta versão, retrabalhamos o fluxo de trabalho normal de pintura de mapa. Muda
 
   ![](../assets/v10_normal_stroke_undo.gif)
 * <b>Transparência em alfa zero</b>\
-  Carimbos de pincel feitos com uma textura com um alfa em zero agora serão desenhados como transparentes. O exemplo abaixo mostra uma carimbo de pincel (à esquerda) em comparação a uma projeção planar (à direita).
+  Os carimbos de pincel feitos com uma textura com um alfa em zero agora serão desenhados como transparentes. O exemplo abaixo mostra uma marca de pincel (à esquerda) em comparação a uma projeção planar (à direita).
 
   ![](../assets/v10_normal_alpha.jpg)
 
@@ -164,14 +164,14 @@ Nesta versão, retrabalhamos o fluxo de trabalho normal de pintura de mapa. Muda
 >
 > Para obter mais informações sobre o mapa de fluxo de pintura, consulte a [página de documentação](../painting/advanced-channel-painting/flow-map-painting.md).
 
-### Manipuladores de transformação aprimorados
+### Manipuladores de transformo aprimorados
 
 ![](../assets/v10_banner_transform_v2-1.jpg)
 
-Várias melhorias foram feitas para aprimorar o uso dos manipuladores de transformação.
+Várias melhorias foram feitas para aprimorar o uso dos manipuladores de transformo.
 
 * <b>Modo de precisão com CTRL</b>\
-  Pressionar o controle enquanto arrasta em um manipulador agora entrará em um novo modo de precisão que permite operações mais meticulosas. Essa alteração se aplica aos manipuladores de conversão, rotação e escala.\
+  Pressionar o controle enquanto arrasta em um manipulador agora entrará em um novo modo de precisão que permite operações mais meticulosas. Essa alteração se aplica aos manipuladores de conversão, giro e escala.\
   Veja um exemplo antes e depois de pressionar CTRL ao arrastar:
 
   ![](../assets/v10_ctrl_precise_mode.gif)
@@ -180,8 +180,8 @@ Várias melhorias foram feitas para aprimorar o uso dos manipuladores de transfo
   Outra alteração está sendo reduzida até que 0 não vá mais para valores negativos. Isso evita a questão de querer reduzir uma projeção e virar por acidente.
 
   ![](../assets/v10_translate_new.gif)
-* <b>Rotação do manipulador de superfície aprimorada</b>\
-  O manipulador de decalque de superfície agora é muito mais estável ao arrastar ao redor de uma superfície. Ele não aumenta sua rotação quando apenas faz traduções para frente e para trás.\
+* <b>Rotação de manipulador de superfície aprimorada</b>\
+  O manipulador de decalque da superfície agora é muito mais estável ao arrastar ao redor de uma superfície. Ele não aumenta sua rotação quando apenas faz traduções para frente e para trás.\
   Aqui está o comportamento <b>antigo</b> comparado ao <b>novo</b>:
 
   ![](../assets/v10_decal_old.gif)
@@ -252,7 +252,7 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 * [Python] Permitir obter/definir configurações de projeção da camada de preenchimento
 * [Python] Permitir consultar a cor do material de Substance de uma camada de preenchimento
 * [Python] Permitir consultar e definir cores e recursos uniformes em camadas e efeitos
-* [Python] Permitir a criação e edição de recursos de texto na pilha de camadas
+* [Python] Permitir a criação e edição de recursos de texto no pilha de camadas
 * [Python] Permitir a edição de canais ativos em camadas e efeitos
 * [Python] Permitir que ações em lote tenham uma única operação de desfazer/refazer
 * [Python] Permitir carregar/editar parâmetros de origem vetorial
@@ -264,7 +264,7 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 * [Python] Permitir a navegação para nós irmãos e pai
 * [Python] Permitir a criação do efeito filtro/gerador
 * [Python] Permitir a adição de efeito de nível
-* [Python] Permitir a adição de máscara inteligente em uma camada
+* [Python] Permitir adicionar máscara inteligente em uma camada
 * [Python] Permitir a criação/edição de pontos de ancoragem
 * [Python] Permitir obter/definir máscara em camadas
 * [Python] Permitir a criação do efeito de máscara de comparação
@@ -279,20 +279,20 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 * [Falha] Desfazer “Remover instância do sombreador” com Ctrl-Z
 * [Falha] Criar uma camada em uma pilha vazia se a última seleção tiver sido um efeito
 * [SVG] Problema com o valor personalizado da área cortada
-* [Desembaçamento automático] Recomputar apenas a embalagem sem qualquer alteração na orientação UV resulta em falha
+* [Contornar automaticamente] Recalcular apenas a embalagem sem qualquer alteração na orientação UV resulta em falha
 * [Arrastar e soltar] Atraso devido a recursos externos pré-carregados várias vezes
-* [UI] Arrastar e soltar a miniatura de recurso pode ocultar a mensagem de aviso na pilha de camadas
+* [UI] Arrastar e soltar a miniatura do recurso pode ocultar a mensagem de aviso na pilha de camadas
 * [Desempenho] Os blocos UV mascarados ainda são computados
 * [USD] Destaque incorreto para seleção de escopo
 * [Recurso] A imagem de bitmap é corrompida após pintar no canal normal e salvar o projeto
-* [USD] Suporte a ordenação de malha de vértice com a mão esquerda
+* [USD] Suporte à ordenação de malha de vértice com a mão esquerda
 * [Substance] Redefinir para o padrão sempre voltar a zero para o widget de ângulo
 * [Engine] Pintar com um SVG em um estêncil não funciona
-* [Engine] Os traçados de pincel de mapa normais se quebram após uma ação de desfazer
-* [Conteúdo] O filtro Gráfico para material tem mesclagem alfa e espaço de cores incorretos
+* [Engine] Os traçados do pincel de Mapa normal se quebram após uma ação de desfazer
+* [Conteúdo] O gráfico para Filtro Material tem mistura de alfa e espaço de cor incorretos
 * [Conteúdo] Os modos de mesclagem no Tile Generator não estão funcionando
 * [Conteúdo] O filtro de exame de histograma produz faixas em alguns casos
-* [Conteúdo] Iluminação cozida estilizada não leva em conta height pintado
+* [Conteúdo] A iluminação Feita bake estilizada não leva em conta o height pintado
 * [Python] Erro inesperado ao recuperar informações de camada instanciadas após alteração do sombreador
 
 <b>Problemas Conhecidos</b>:

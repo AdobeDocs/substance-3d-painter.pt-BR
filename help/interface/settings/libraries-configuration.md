@@ -33,7 +33,7 @@ Por padrão, dois caminhos são predefinidos:
 | **seus\_ativos** | Esse caminho está localizado na pasta Documentos do perfil de usuário atual. É aqui que recursos como predefinições são criados por padrão no aplicativo. (Chamado “prateleira” em versões mais antigas.) |
 | **ativos_iniciais** | Esse caminho está localizado na pasta de instalação do aplicativo. Contém os recursos padrão. (Denominado “allegorítmico” ou “substância” em versões mais antigas.) |
 
-O botão de opção **padrão** é usado para definir em qual caminho o novo conteúdo (como predefinições de Pincel, predefinições de Material ou Materiais Inteligentes) será salvo.
+O botão de opção **padrão** é usado para definir em qual caminho o novo conteúdo (como predefinições de Pincel, predefinições de Material ou Materiais inteligentes) será salvo.
 
 ## Adição de um novo caminho
 

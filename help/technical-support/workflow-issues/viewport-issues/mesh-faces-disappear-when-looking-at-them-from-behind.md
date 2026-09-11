@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Os rostos de malha desaparecem ao olhar para eles por trás
 
-Por padrão, as malhas no visor podem não exibir a parte de trás dos polígonos de malha (face de fundo). Isso ocorre porque eles são removidos pelo sombreador atual.
+Por padrão, as malhas no visor podem não exibir a parte de trás dos polígonos de malha (face de fundo). Isso ocorre porque eles são eliminados pelo sombreador atual.
 
 Para exibir a parte de trás dos rostos, basta alterar o sombreador atual para **pbr-metal-rough-alpha-test** nas [configurações do sombreador](../../../interface/shader-settings/shader-settings.md).

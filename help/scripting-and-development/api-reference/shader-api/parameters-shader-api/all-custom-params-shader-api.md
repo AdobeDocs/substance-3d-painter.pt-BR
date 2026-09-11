@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a referência Todos os parâmetros de API de sombreamento personalizados para que o Substance 3D Painter defina e controle os parâmetros de sombreador personalizados.
+description: Acesse a referência Todos os Parâmetros Personalizados do Substance 3D Painter para definir e controlar parâmetros de sombreador personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Todos os parâmetros personalizados - API de sombreamento
 
-## Sombreador de exemplo de parâmetros personalizados
+## Sombreador de amostra de parâmetros personalizados
 
 **Observe que todos os ajustes personalizados precisam de pelo menos um valor *padrão*.**
 
@@ -132,7 +132,7 @@ uniform bool u_bool;
 
 ## Parâmetros do Sampler
 
-A textura é definida pelo seu nome na prateleira e deve estar na categoria *Texturas* ou *Ambientes*.
+A textura é definida pelo seu nome na prateleira e deve estar na categoria *Textura* ou *Ambientes*.
 
 ```
 //: param custom { "default": "", "default_color": [1.0, 1.0, 0.0, 1.0], "label": "Texture" } 
@@ -180,7 +180,7 @@ uniform int u_combobox;
 ```
 
 
-Ponto de entrada do sombreador
+ponto de entrada de sombreador
 
 ```
 vec4 shade(V2F inputs) 

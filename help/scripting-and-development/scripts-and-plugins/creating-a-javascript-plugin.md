@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Este guia passo a passo descreve como criar um plug-in simples que permite exportar a máscara da camada atualmente selecionada em um projeto.
 
-O objetivo do plug-in neste guia é exportar todos os canais do conjunto de texturas atual dentro de um projeto como texturas individuais.
+O objetivo do plug-in neste guia é exportar todos os canais do conjunto de texturas atual em um projeto como texturas individuais.
 
 ## 1 - Navegar até a pasta de plug-ins
 
@@ -36,7 +36,7 @@ Para acessar a pasta **plug-ins**, navegue até:
 
 O nome de um plug-in se baseia no nome da pasta pai.
 
-Para este exemplo, basta criar uma nova pasta chamada **export-texturas** dentro da pasta de plug-ins.
+Para este exemplo, basta criar uma nova pasta chamada **export-textura** dentro da pasta de plug-ins.
 
 ### 3 - Criar os arquivos dos plug-ins
 

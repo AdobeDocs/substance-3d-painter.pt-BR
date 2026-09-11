@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ![](../../assets/shader-settings.png)
 
-A janela **Configurações de sombreadores** permite controlar os parâmetros de sombreador (e Iray mdl) e de deslocamento de geometria.
+A janela **Configurações de sombreadores** permite controlar os parâmetros de sombreador (e Iray mdl) e os parâmetros de deslocamento de geometria.
 
 Um sombreador é uma função que define como um objeto deve ficar ao interagir com iluminação e sombras nas viewports. Nesse aplicativo, os sombreadores são usados para saber como ler os canais do conjunto de texturas e renderizar a malha 3D nas viewports.
 
@@ -30,28 +30,28 @@ Um sombreador é uma função que define como um objeto deve ficar ao interagir 
 
 ![](../../assets/shader-undo.png)
 
-Esta seção da janela Configurações do sombreador controla os parâmetros principais ao manipular sombreadores.\
-A pilha Desfazer/Refazer do sombreador é independente do [Histórico](https://substance3d.adobe.com/display/DRAFTPAINTER/History) principal para não criar conflitos ao pintar.
+Esta seção da janela Configurações de Sombreador controla os parâmetros principais ao manipular sombreadores.\
+A pilha Desfazer/Refazer para o sombreador é independente do [Histórico](https://substance3d.adobe.com/display/DRAFTPAINTER/History) principal para não criar conflitos ao pintar.
 
 Se o arquivo de sombreador estiver marcado como “Desatualizado”, é recomendável atualizá-lo quando possível. Consulte: [Atualizando um Sombreador](https://substance3d.adobe.com/display/DRAFTPAINTER/Updating+a+Shader)
 
 | *Configuração* | *Descrição* |
 | --- | --- |
-| **Desfazer** | Reverter/Cancelar uma alteração do arquivo de sombreador ou qualquer modificação de parâmetros de sombreador |
+| **Desfazer** | Reverter/Cancelar uma alteração do arquivo de sombreador ou qualquer modificação dos parâmetros de sombreador |
 | **Refazer** | Aplique novamente uma alteração que foi cancelada através da opção Desfazer. |
 | **Arquivo de sombreador** | Botão mostrando o arquivo de sombreador atual usado. Clique no botão para abrir uma miniprateleira e escolher um sombreador diferente. |
-| **Nome da instância** | Nome da instância do sombreador. |
+| **Nome da instância** | Nome da instância de sombreamento. |
 | **Restaurar padrões** | Restaure todos os parâmetros de sombreador para seus valores padrão (como estão no arquivo de sombreador). |
 
-### Instância do sombreador
+### Instância de sombreamento
 
-Uma Instância de sombreador é um sombreador baseado em um arquivo de sombreador original, mas com parâmetros personalizados. Uma ocorrência de sombreador pode ser compartilhada entre conjuntos de texturas, e um conjunto de texturas pode ter uma ocorrência de sombreador exclusiva.
+Uma Instância de sombreamento é um sombreador baseado em um arquivo de sombreador original, mas com parâmetros personalizados. Uma Instância de sombreamento pode ser compartilhada entre Conjuntos de texturas, e um Conjunto de texturas pode ter uma Instância de sombreamento exclusiva.
 
-**Por exemplo:** um projeto pode usar um sombreador de base, enquanto um conjunto de texturas usa um sombreador personalizado para dar suporte à opacidade.
+**Por exemplo:** um projeto pode usar um sombreador base, enquanto um conjunto de texturas usa um sombreador personalizado para dar suporte à opacidade.
 
-Para criar e gerenciar Instâncias do Sombreador, consulte a janela [Lista do Conjunto de Texturas](../texture-set/texture-set-list.md).
+Para criar e gerenciar Instâncias de sombreamento, consulte a janela [Lista de conjuntos de texturas](../texture-set/texture-set-list.md).
 
-## Parâmetros do sombreador
+## parâmetros de sombreador
 
 ![](../../assets/shader-parameters-1.png)
 

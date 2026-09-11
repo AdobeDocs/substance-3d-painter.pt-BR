@@ -31,4 +31,4 @@ Veja abaixo uma lista das predefinições não editáveis disponíveis:
 * Substance 3D Stager
 * [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
 * Aspereza metálica de GlTF PBR
-* GlTF PBR Metal Roughness + textura do Deslocamento (experimental)
+* GlTF PBR Metal Roughness + textura de Deslocamento (experimental)

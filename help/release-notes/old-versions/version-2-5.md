@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versão 2.5
 
-O **Substance Painter 2.5** apresenta muitos recursos novos: desde o suporte à opacidade nas configurações do pincel (além do fluxo) até a capacidade de assar mapas adicionais em 8K e muito mais.
+O **Substance Painter 2.5** apresenta muitos recursos novos: desde o suporte à opacidade nas configurações do pincel (além do fluxo) até a capacidade de fazer bake mapas adicionais em 8K e muito mais.
 
 Data de lançamento: *21 de fevereiro de 2017*
 
@@ -31,31 +31,31 @@ Data de lançamento: *21 de fevereiro de 2017*
 ![](../../assets/brush-combined.gif){width="650px"}
 
 Agora há uma nova configuração nos **parâmetros do pincel** ao Pintar no Substance Painter, que é a **opacidade**.\
-A **opacidade** controla a **intensidade geral de um traçado de pincel**, diferentemente da configuração de **fluxo** que controla a intensidade de **cada carimbo individual** dentro de um traçado de pincel. Isso significa que agora é possível pintar e repintar uma mesma área **sem criar valores sobrepostos**. Para fazer isso, defina o fluxo como 100 e o valor de opacidade com a intensidade que preferir. Como a opacidade funciona, não é possível vinculá-la à pressão da caneta. Para esse tipo de controle, o fluxo ainda é a melhor escolha.
+A **opacidade** controla a **intensidade geral de um traçado de pincel**, diferentemente da configuração de **fluxo** que controla a intensidade de **cada carimbo individual** dentro de um traçado de pincel. Isso significa que agora é possível tinta e pintar novamente uma mesma área **sem criar valores sobrepostos**. Para fazer isso, defina o fluxo como 100 e o valor de opacidade com a intensidade que preferir. Como a opacidade funciona, não é possível vinculá-la à pressão da caneta. Para esse tipo de controle, o fluxo ainda é a melhor escolha.
 
-Também adicionamos um **novo modificador** junto com este novo parâmetro que está na chave **”A”** por padrão. Pressionar esta tecla permitirá que **continue o traçado anterior do pincel** em vez de criar um novo. Isso significa que você pode pintar uma cor uniforme com a opacidade desejada, mantendo a possibilidade de mover a câmera, por exemplo. Outro exemplo seria continuar a cópia que você estava fazendo com a ferramenta clone.
+Também adicionamos um **novo modificador** junto com este novo parâmetro que está na chave **”A”** por padrão. Pressionar esta tecla permitirá que **continue o traçado anterior do pincel** em vez de criar um novo. Isso significa que você pode tinta uma cor uniforme com a opacidade desejada, mantendo a possibilidade de mover a câmera, por exemplo. Outro exemplo seria continuar a cópia que você estava fazendo com a ferramenta clone.
 
 ![](../../assets/stroke-opacity-parameter.png)
 
-### Novo cozimento em 8K e resoluções não quadradas
+### Novo fça bake em resoluções de 8K e não quadradas
 
 ![](../../assets/baking-250-8k.png)
 
-O padeiro foi aprimorado para suportar resoluções de até **8192x8192** (8K mais suavização de borda), o que significa que agora você pode exportar em 8K com proporção de 1:1 com os mapas adicionais.\
-Também adicionamos suporte para resoluções **não quadradas**. Agora é possível assar uma textura de **4096x2048**, por exemplo. Para isso, basta clicar no ícone de “**cadeado**” ao lado do menu suspenso para selecionar a resolução.
+O baker foi aprimorado para suportar resoluções de até **8192x8192** (8K mais suavização de borda), o que significa que agora você pode exportar em 8K com proporção de 1:1 com os mapas adicionais.\
+Também adicionamos suporte para resoluções **não quadradas**. Agora é possível fazer bake uma textura de **4096x2048**, por exemplo. Para isso, basta clicar no ícone de “**cadeado**” ao lado do menu suspenso para selecionar a resolução.
 
 ### Nova compatibilidade com o Perfil de cor no visor
 
 ![](../../assets/lut-example.jpg)
 
-Adicionamos o suporte de **LUT** (texturas) para controlar a renderização do **visor** em Substance Painter. Para aplicar um perfil, basta habilitar a configuração “**Perfil de Cor**” na janela “**Configurações de exibição**” e carregar o LUT no slot dedicado. Ele funciona com o visor do **OpenGL** (pintura) e o renderizador **IRay**. Alguns exemplos estão disponíveis por padrão, de **Predefinições de câmera** comuns a mais **Efeitos artísticos**. Para obter mais informações, consulte a página dedicada da documentação: [Perfil de Cores](../../features/post-processing/color-profile.md)
+Adicionamos o suporte de **LUT** (textura) para controlar a renderização do **visor** em Substance Painter. Para aplicar um perfil, basta habilitar a configuração “**Perfil de Cor**” na janela “**Configurações de exibição**” e carregar o LUT no slot dedicado. Ele funciona com o visor do **OpenGL** (pintura) e o renderizador **IRay**. Alguns exemplos estão disponíveis por padrão, de **Predefinições de câmera** comuns a mais **Efeitos artísticos**. Para obter mais informações, consulte a página dedicada da documentação: [Perfil de Cores](../../features/post-processing/color-profile.md)
 
 ### Novo mecanismo de Substance compatível com o Substance Designer 6
 
 ![](../../assets/font-shelf.png)
 
 Adicionamos o suporte para **Substance Designer 6**, o que significa que os recursos criados com o **SD6** podem ser abertos e usados no **Substance Painter 2.5**!\
-Um bom exemplo é a capacidade de usar o **novo nó de texto** do SD6 e integrá-lo a uma substância. Dessa forma, é possível criar **texto dinâmico** e pintá-lo diretamente sem a necessidade de sair do aplicativo. **Incluímos 10 fontes** com cada uma de um estilo diferente por padrão para cobrir o uso mais comum. Você pode encontrá-los na seção “**procedure**” da **prateleira**.
+Um bom exemplo é a capacidade de usar o **novo nó de texto** do SD6 e integrá-lo a uma substância. Dessa forma, é possível criar **texto dinâmico** e tinta diretamente sem a necessidade de sair do aplicativo. **Incluímos 10 fontes** com cada uma de um estilo diferente por padrão para cobrir o uso mais comum. Você pode encontrá-los na seção “**processual**” da **prateleira**.
 
 ![](../../assets/text-sp250-optim.gif){width="400px"}
 
@@ -167,24 +167,24 @@ Os novos recursos principais são abordados na mais recente transmissão do Twit
 * [Prateleira] Permite incorporar predefinições em projetos
 * [Prateleira] Permite recolher/expandir rapidamente a exibição de árvore com SHIFT
 * [Prateleira] Permite salvar miniaturas quando os ativos são somente leitura (cache local)
-* [Prateleira] Novo conteúdo : novos filtros (transformação, espelho, triplano, etc.)
+* [Prateleira] Novo conteúdo : novos filtros (transformo, espelho, tri-planar etc.)
 * [Prateleira] Novo conteúdo : novos perfis de LUTs (clássicos e artísticos, como Film Noir, Vintage etc.)
 * [Prateleira] Novo conteúdo : 10 novas fontes Substance para gerar rapidamente textos personalizados
 * [Prateleira] Novos modelos: Unity 5 e Unreal Engine 4
 * [Shelf] Filtro HSL aprimorado para ser mais amigável com artistas
-* [Shader] Adicionar suporte para canal de specular level em sombreadores PBR
-* [Shader] Adicionar suporte para pontilhamento no sombreador de teste Alpha
-* [Shader] Adicionar suporte para mapeamento de oclusão de paralaxe em sombreadores PBR
+* [Sombreador] Adicionar suporte para canal de specular level em sombreadores PBR
+* [Sombreador] Adicionar suporte para pontilhamento no sombreador de teste
+* [Sombreador] Adicionar suporte para mapeamento de oclusão de paralaxe em sombreadores PBR
 * [Shader] Permite definir interface personalizada para parâmetros de sombreador
 * [MatLayering] Criar novo canal Máscara para fluxo de trabalho de camada de material
 * [Script] Permitir a gravação de metadados em um projeto SP
 * [Script] Permitir exportação com uma predefinição de exportação específica
-* [Script] Permite recuperar parâmetros de sombreador como um JSON
+* [Scripts] Permite recuperar parâmetros de sombreador como um JSON
 * [Script] Adicionar suporte para conexões WebSocket
-* [Script] Adicionar a possibilidade de carregar instâncias de sombreador
+* [Script] Adicione a possibilidade de carregar instâncias de sombreamento
 * [Script] Adicione a possibilidade de criar um novo projeto
 * [Script] Permite recuperar a url da malha importada em um projeto
-* [Script] Permitir cozimento não quadrado
+* [Script] Permitir fça bake não quadrado
 * [Script] Relatar erros ao definir dados por meio da API de script
 * [Substance] Adicionar tag de dados do usuário para especificar o formato de mapa normal
 
@@ -193,33 +193,33 @@ Os novos recursos principais são abordados na mais recente transmissão do Twit
 * Falha ao selecionar cor com substâncias
 * Falha ao carregar uma imagem não RGBA32f como mapa de ambiente
 * Falha relacionada à pintura em GPUs AMD
-* [Mesh] A importação de OBJ não reconhece materiais sem arquivo mtl
+* [Mesh] A importação de OBJ não reconhece materiais sem o arquivo mtl
 * [Mesh] A geração do nome do conjunto de textura UDIM pode estar incorreta em algumas malhas
 * [UI] Botão Desfazer/Refazer na Configuração do visualizador roubar foco e parar a rolagem do mouse
 * [UI] Alguns rótulos são cortados incorretamente em Hi-DPI
-* [Camada] O modo de substituição do efeito de pintura tem um comportamento incorreto na máscara
-* [Camada] O modo de mesclagem Subtrair tem um comportamento incorreto com alfa
-* [Ferramenta] O tamanho do pincel se torna enorme na visualização 2D ao pintar nas bordas UV
+* [Camada] O modo de substituição do efeito de tinta tem um comportamento incorreto na máscara
+* O modo de mesclagem [Camada] tem um comportamento incorreto com alfa
+* [Ferramenta] O tamanho do pincel se torna enorme no Visualização 2D ao pintar nas bordas UV
 * [Ferramenta] A linha reta encaixada apresenta um comportamento irregular com Hi-DPI
 * [Tool] A resolução do estêncil às vezes está incorreta
-* [Bakers] Os valores de “Distância Máxima do Ocultador” são bloqueados se “em relação à caixa delimitadora” for “Desativado”
-* [Shader] As definições de canal Pilha e Parâmetro automático não correspondem
-* [Visualização 3D] Exibição inconsistente do canal normal dependendo da configuração do projeto
+* [Baker] Os valores de “Distância máxima do oclusor” são bloqueados se “em relação à caixa delimitadora” for “Desativado”
+* [Sombreador] As definições de canal Pilha e Parâmetro automático não correspondem
+* [Visualização 3D] Exibição inconsistente do canal normal, dependendo da configuração do projeto
 * [Janela de visualização] Alguns mapas normais têm valores fixados que aparecem como artefatos
 * [Janela de visualização] O pós-efeito é sempre desativado por padrão
 * [Export] A configuração de mixagem normal está incorreta se o canal normal estiver ausente
 * [Exportar] Geração de textura incorreta em alguns casos em GPUs AMD
-* [Exportar] Os parâmetros de sombreador não são exportados corretamente se localizados dentro de um grupo
+* [Exportar] Os parâmetros de Sombreador não são exportados corretamente se localizados dentro de um grupo
 * [Exportar] Editar uma predefinição de exportação em uma prateleira personalizada gera um erro de log
 * [Prateleira] A filtragem do modo de exibição de árvore não corresponde exatamente ao nome da pasta
 * [Prateleira] Renomear uma predefinição de prateleira é difícil de ler
-* [Prateleira] O recurso de sombreador importado na Prateleira não é preservado após a reinicialização
+* [Prateleira] O recurso de Sombreador importado na Prateleira não é preservado após a reinicialização
 * [Prateleira] Conteúdo : Predefinição de ferramenta de solda ausente
 * [Prateleira] Conteúdo : Tile Generator não funciona corretamente
-* [Prateleira] Conteúdo: Máscara incorreta corrigida no material inteligente sujo de pneu de borracha
+* [Prateleira] Conteúdo: Máscara incorreta corrigida no material inteligente sujo do pneu de borracha
 * [Shelf] Conteúdo: corrigido o nome incorreto do grupo no material da bolsa de couro
 * [Iray] Metade das malhas está ausente em Iray
-* [Linux] Falha ao arrastar um recurso acima da Visualização 3D
+* [Linux] Falha ao arrastar um recurso acima do Visualização 3D
 * [Mac] As preferências são redefinidas em cada lançamento no Sierra
 
 **Problema Conhecido:**

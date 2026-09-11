@@ -14,7 +14,7 @@ ht-degree: 0%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_texel_density.png" alt=""/><br><strong>Em:</strong> uv, tamanho, utilitário</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Densidade de Texel UV visualiza a densidade de texel de uma malha aplicando um gradiente colorido de baixo para alto.<br>O Gerador de Densidade de Texel UV gera uma textura de cor completa e é melhor usado em uma camada de preenchimento para identificar dimensionamento UV inconsistente e garantir detalhes de textura uniformes em um modelo.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Densidade de Texel UV visualiza a densidade de texel de uma malha aplicando um gradiente colorido de baixo para alto.<br>O Gerador de Densidade de Texel UV gera uma textura de cor completa e é melhor usado em uma camada de preenchimento para identificar o dimensionamento UV inconsistente e garantir detalhes de textura uniformes em um modelo.</td>
   </tr>
 </table>
 

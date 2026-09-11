@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ![](../../assets/viewports-progress.jpg){width="600px"}
 
-A viewport é o local onde a malha 3D e suas texturas são exibidas. É também aqui que é possível pintar na superfície de malha 3D.
+A viewport é o local onde a malha 3D e suas texturas são exibidas. É também aqui que é possível tinta na superfície de malha 3D.
 
 ## Visão geral
 
@@ -23,7 +23,7 @@ A viewport é dividida em quatro partes:
 
 * **Barra de ferramentas contextual**: esta barra de ferramentas fica na parte superior da viewport e oferece atalho para várias propriedades, dependendo do contexto atual (parâmetros de pincel ao pintar, por exemplo).
 * **Exibição 3D**: esta exibição mostra a malha 3D de um ângulo específico, definido por uma câmera.
-* **Exibição 2D**: esta exibição mostra o desencapsulamento UV da malha 3D do [Conjunto de Texturas](../texture-set/texture-set-list.md) atualmente selecionado.
+* **Visualização 2D**: esta exibição mostra o desencapsulamento UV da malha 3D do [Conjunto de Texturas](../texture-set/texture-set-list.md) atualmente selecionado.
 * **Barra de progresso**: esta barra cinza/verde na parte inferior do visor aparece quando um cálculo está em andamento (por exemplo, quando o mecanismo está gerando texturas).
 
 Para obter mais detalhes, consulte as páginas dedicadas:
@@ -66,7 +66,7 @@ Os controles de movimentação na viewport são semelhantes em ambas as exibiç�
 
 ## Alterar O Layout
 
-O layout padrão coloca a exibição 3D à esquerda e a exibição 2D à direita. Alguns parâmetros estão disponíveis na **Barra de Ferramentas Contextual** que permitem alterar o layout:
+O layout padrão coloca a visualização 3D à esquerda e a Visualização 2D à direita. Alguns parâmetros estão disponíveis na **Barra de Ferramentas Contextual** que permitem alterar o layout:
 
 <table>
   <tr>
@@ -75,11 +75,11 @@ O layout padrão coloca a exibição 3D à esquerda e a exibição 2D à direita
   </tr>
   <tr>
     <td><strong>Modo Viewport</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
-    <td>Estas configurações controlam o layout do visor:<br><ul><li><strong>3D/2D</strong> (padrão): exibe as exibições 3D e 2D no visor</li><li><strong>Somente 3D</strong>: maximize a exibição 3D e oculte a exibição 2D.</li><li><strong>Somente 2D</strong>: maximize a exibição 2D e oculte a exibição 3D.</li><li><strong>Trocar 3D/2D</strong>: troque a ordem na qual as exibições são exibidas. Se a visualização 3D estiver à esquerda, ela ficará à direita após a escolha desta ação.</li></ul></td>
+    <td>Estas configurações controlam o layout do visor:<br><ul><li><strong>3D/2D</strong> (padrão): exibe as exibições 3D e 2D no visor</li><li><strong>Somente 3D</strong>: maximize a exibição 3D e oculte a Visualização 2D.</li><li><strong>Somente 2D</strong>: maximize a Visualização 2D e oculte a exibição 3D.</li><li><strong>Trocar 3D/2D</strong>: troque a ordem na qual as exibições são exibidas. Se a visualização 3D estiver à esquerda, ela ficará à direita após a escolha desta ação.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modo de perspectiva</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
-    <td>Estas configurações controlam como a malha 3D será exibida na visualização 3D:<br><ul><li><strong>Exibição de perspectiva</strong> (padrão): exibe a malha 3D como ela seria vista pelo olho humano ou por uma câmera.</li><li><strong>Exibição ortográfica</strong>: exibe a malha 3D como todas as direções que medem o mesmo comprimento.</li></ul></td>
+    <td><strong>Modo de Perspectiva</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
+    <td>Estas configurações controlam como a malha 3D será exibida na visualização 3D:<br><ul><li><strong>Visualização em perspectiva</strong> (padrão): exibe a malha 3D como ela seria vista pelo olho humano ou uma câmera.</li><li><strong>exibição Ortográfica</strong>: exibe a malha 3D como todas as medidas de direção do mesmo comprimento.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Modo de rotação da câmera</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>

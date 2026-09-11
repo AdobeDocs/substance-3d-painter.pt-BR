@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../assets/v10_text_resource_banner-1.jpg)
 
-O <b>recurso de texto</b> do pode ser usado para gravar texto em texturas com o uso de <b>arquivos de fonte</b> específicos. Vários parâmetros estão disponíveis para ajustar a aparência do texto final desenhado.
+O <b>recurso de texto</b> do pode ser usado para gravar texto no textura com o uso de <b>arquivos de fonte</b> específicos. Vários parâmetros estão disponíveis para ajustar a aparência do texto final desenhado.
 
 ## Procurar fontes
 

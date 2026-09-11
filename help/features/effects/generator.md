@@ -1,7 +1,7 @@
 ---
 helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
-description: Saiba como usar efeitos geradores no Substance 3D Painter para criar texturas e padrões de procedimentos automaticamente.
+description: Saiba como usar efeitos geradores no Substance 3D Painter para criar texturas e padrões processuais automaticamente.
 helpx_creative_field: ''
 helpx_description: Painter > Features > Effects > Generator
 helpx_experience_level: ''
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Geradores
 
-Geradores são substâncias que geram uma máscara ou texturas com base na topologia de malha [usando mapas de utilitário cozidos, como Posição, Curvatura e Espaço Mundial Normal](../../baking/baking.md).
+Geradores são substâncias que geram uma máscara ou texturas com base na topologia de malha [usando mapas de utilitário feitos bake, como Posição, Curvatura e Espaço Mundial Normal](../../baking/baking.md).
 
 >[!NOTE]
 >
-> A maioria dos geradores gera texturas monocromáticas (preto e branco), tornando-as mais úteis para a criação de máscaras que controlam uma camada de material. No entanto, não há nada que o impeça de usar um gerador monocromático como uma camada de preenchimento ou um gerador de cores completo como uma máscara.
+> A maioria dos geradores produz texturas monocromáticas (preto e branco), tornando-as mais úteis para criar máscaras que controlam uma camada de material. No entanto, não há nada que o impeça de usar um gerador monocromático como uma camada de preenchimento ou um gerador de cores completo como uma máscara.
 
 Para adicionar um gerador a uma máscara:
 

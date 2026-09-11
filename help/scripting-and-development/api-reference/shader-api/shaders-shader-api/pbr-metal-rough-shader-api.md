@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # PBR Metal áspero - API de sombreamento
 
-## Sombreador de metal alegorítmico/PBR áspero
+## Sombreador de metal alegorítmico/PBR rústico
 
 Importar das bibliotecas.
 
@@ -37,7 +37,7 @@ import lib-utils.glsl
 ```
 
 
-Declarar o material mdl da matriz a ser usado com este sombreador.
+Declarar o material mdl da matriz para usar com este sombreador.
 
 ```
 //: metadata { 
@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-Ponto de entrada do sombreador.
+ponto de entrada de sombreador.
 
 ```
 void shade(V2F inputs) 

@@ -26,7 +26,7 @@ Quando uma instância de camada é criada, a camada original (ou camada de orige
 
 >[!WARNING]
 >
-> Todas as ações de pintura (traçados de pincel, preenchimento de polígono etc.) só funcionará no conjunto de texturas em que a camada de origem está localizada. Outros conjuntos de texturas que tenham uma instância dessa camada simplesmente descartarão as ações de pintura.
+> Qualquer ação de tinta (traçados de pincel, preenchimento de polígono etc.) só funcionará no conjunto de texturas em que a camada de origem está localizada. Outros conjuntos de texturas que tenham uma instância dessa camada simplesmente descartarão as ações de tinta.
 
 ## Criação de uma ocorrência de camada
 

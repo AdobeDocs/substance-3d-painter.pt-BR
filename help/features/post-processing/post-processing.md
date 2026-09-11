@@ -28,7 +28,7 @@ Os pós-efeitos podem ser ativados em qualquer projeto por meio da janela [Confi
 
 >[!NOTE]
 >
-> Esses pós-efeitos não são aplicados à exibição 2D para conveniência. Somente a exibição 3D mostra o resultado da imagem com os efeitos.
+> Esses pós-efeitos não são aplicados ao Visualização 2D para conveniência. Somente a exibição 3D mostra o resultado da imagem com os efeitos.
 
 As páginas a seguir descrevem os diversos efeitos de pós-processo atualmente suportados:
 

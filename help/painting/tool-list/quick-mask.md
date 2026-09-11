@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Máscara rápida
 
-O mascaramento rápido permite mascarar partes da malha que você não deseja pintar.
+O mascaramento rápido permite mascarar partes da malha que você não deseja que sejam tintas.
 
-* Pressione **A** para mudar para o modo de edição de máscara rápida, o que permitirá que você pinte uma máscara temporária.
-* Pressione **U** novamente para voltar para a ferramenta anterior e pintar sobre essa máscara.
+* Pressione **A** para alternar para o modo de edição de máscara rápida. Isso permitirá que você tinta uma máscara temporária.
+* Pressione **U** novamente para voltar para a ferramenta anterior e tinta por essa máscara.
 * Pressione **Y** para redefinir/desabilitar a máscara.
 * Pressione **I** para inverter a máscara enquanto estiver no modo de edição de máscara rápida.

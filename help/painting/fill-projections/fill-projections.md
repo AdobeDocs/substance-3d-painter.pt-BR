@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ![](../../assets/fill-properties.png)
 
-A camada de preenchimento e os efeitos de preenchimento projetam uma textura diretamente na malha com base em um modo específico. Esse tipo de camada/efeito evita pintar manualmente texturas no modelo 3D. As configurações da projeção podem ser editadas por meio da janela Propriedades.
+A camada de preenchimento e os efeitos de preenchimento projetam uma textura diretamente na malha com base em um modo específico. Esse tipo de camada/efeito evita tintas manuais no modelo 3D. As configurações da projeção podem ser editadas por meio da janela Propriedades.
 
 As propriedades estão divididas em duas categorias: **Propriedades de preenchimento** e **Material**.
 
@@ -32,7 +32,7 @@ As Propriedades de preenchimento controlam como o material é aplicado e/ou proj
 
 Os modos de projeção atuais disponíveis são:
 
-* [Preenchimento (corresponder por Bloco UV)](fill-match-per-uv-tile.md)
+* [Preenchimento (correspondência por Bloco UV)](fill-match-per-uv-tile.md)
 * [Projeção UV](uv-projection.md)
 * [Projeção triplanar](tri-planar-projection.md)
 * [Projeção planar](planar-projection.md)
@@ -44,4 +44,4 @@ Os modos de projeção atuais disponíveis são:
 
 ![](../../assets/properties-mat.png)
 
-Os controles Material/Tons de cinza são idênticos às outras ferramentas. Consulte a [documentação da ferramenta de pintura](../tool-list/paint-brush.md) para obter mais detalhes.
+Os controles Material/Tons de cinza são idênticos às outras ferramentas. Consulte a [documentação da ferramenta de Tinta](../tool-list/paint-brush.md) para obter mais detalhes.

@@ -28,7 +28,7 @@ As configurações de dados do usuário são normalmente aplicadas a nós de ent
 
 ## Espaço da cor
 
-A configuração **espaço de cores** pode ser usada para solicitar entradas de gráfico de Substance com um espaço de cores específico ou para definir uma saída configurada de determinada maneira. Por exemplo, especificar o formato da saída normal do mapa.
+A configuração **espaço de cores** pode ser usada para solicitar entradas de gráfico de Substance com um espaço de cores específico ou para definir uma saída configurada de determinada maneira. Por exemplo, especificar o formato da saída do mapa normal.
 
 Exemplo de sintaxe: **colorspace=$working**
 
@@ -45,7 +45,7 @@ Visão geral dos contextos:
 > * A tabela abaixo lista primeiro as configurações de espaço de cor compatíveis antes da versão 8.1. A segunda seção é exclusiva da versão 8.1 e mais recentes.
 > * Em relação aos contextos nos quais a configuração do espaço de cores pode ser usada, somente a partir da versão 8.1 o botão de cores pode definir um espaço de cores. Em versões anteriores, eles eram considerados como estando em espaço de exibição (sRGB).
 > 
-> O espaço de cores/transformações **snorm** e **unorm** não devem ser misturados com formatos de textura de GPU; seus objetivos são diferentes.
+> O espaço de cores/transformações **snorm** e **unorm** não devem ser misturados com formatos de textura de GPU; suas finalidades são diferentes.
 
 | ColorSpace | Disponibilidade de contexto | Descrição |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ Exemplo de sintaxe: **alpha=pré-multiplicado**
 | --- | --- |
 | reto | Solicite ou defina a alfa como reta. |
 | pré-multiplicado | Solicite ou defina o alfa como pré-multiplicado. |
-| nenhum | Passagem, use a alfa como está fornecida. |
+| nenhum | Transparência, use a alfa como está. |
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ A saída de um gráfico de Substance pode ser usada como um canal alfa/máscara 
 
 Há duas maneiras de fazer isso:
 
-* Criar um nó de saída com o identificador **channels\_Alpha**
+* Crie um nó de saída com o identificador **channels\_Alpha**
 * Ou adicione os seguintes dados de usuário em um nó de saída específico: **IsChannelsAlpha=true**
 
 Algumas condições podem se aplicar:

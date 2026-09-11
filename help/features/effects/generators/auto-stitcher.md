@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_auto_stitcher.png" alt=""/><br><strong>Em:</strong> stitch, stitches</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Autocostura cria automaticamente um efeito de costura ao longo de caminhos gerados proceduralmente. Esses caminhos podem ser gerados com base em emendas UV, Curvatura ou um mapa de entrada personalizado.<br><br>O gerador de Autocostura gera uma textura monocromática (preto e branco). Como resultado, é útil gerar máscaras para aplicar efeitos de costura.<br><br>Para usar o Modo Máscara de Curvatura, é necessário um mapa de curvatura preparada. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Autocostura cria automaticamente um efeito de costura ao longo de caminhos gerados proceduralmente. Esses caminhos podem ser gerados com base em emendas UV, Curvatura ou um mapa de entrada personalizado.<br><br>O gerador de Autocostura gera uma textura monocromática (preto e branco). Como resultado, é útil gerar máscaras para aplicar efeitos de costura.<br><br>Para usar o Modo Máscara de Curvatura, é necessário um mapa de curvatura feito bake. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -81,6 +81,6 @@ ht-degree: 1%
 <table>
   <tr>
     <td><img src="../../../assets/generators/examples/auto-stitcher/custom-input2.png" alt=""/></td>
-    <td>Este exemplo mostra como a entrada personalizada cria caminhos de junção. <br><ul><li>A cor base em preto e branco mostra as texturas de ruído que estamos usando como uma entrada personalizada para o gerador de autostitcher.</li><li>O gerador de autostitcher está mascarando a camada vermelha, deixando os caminhos costurados vermelhos visíveis.</li><li>Observe que os caminhos com costura vermelha se ajustam a regiões preto ou branco suficientemente grandes da textura de ruído de entrada personalizada. A costura vermelha nunca cruza de branco para preto ou preto para branco.</li></ul><br>A imagem abaixo mostra a configuração de camada simples usada para criar esse exemplo.<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
+    <td>Este exemplo mostra como a entrada personalizada cria caminhos de junção. <br><ul><li>A cor de base em preto e branco mostra as texturas de ruído que estamos usando como uma entrada personalizada para o gerador de autostitcher.</li><li>O gerador de autostitcher está mascarando a camada vermelha, deixando os caminhos costurados vermelhos visíveis.</li><li>Observe que os caminhos com costura vermelha se ajustam a regiões preto ou branco suficientemente grandes da textura de ruído de entrada personalizada. A costura vermelha nunca cruza de branco para preto ou preto para branco.</li></ul><br>A imagem abaixo mostra a configuração de camada simples usada para criar esse exemplo.<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
   </tr>
 </table>

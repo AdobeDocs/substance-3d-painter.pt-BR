@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_position.webp" alt=""/><br><strong>Entrada:</strong> malha, uv, distância</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Posição usa os mapas normais de posição cozida e de espaço global para criar uma máscara de gradiente com base na posição do material no espaço 3D (como de cima para baixo ou de lado para lado).<br><br>O gerador de Posição gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras de gradiente com base na posição do espaço mundial.<br><br>Mapas normais de posição cozida e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador de Posição usa os mapas normais de posição feita bake e do espaço de mundo para criar uma máscara de gradiente com base na posição do material no espaço 3D (como de cima para baixo ou de lado para lado).<br><br>O gerador de Posição gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras de gradiente com base na posição do espaço mundial.<br><br>Mapas normais de posição e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -23,8 +23,8 @@ ht-degree: 3%
 | Nome de entrada | Descrição |
 | --- | --- |
 | Cor de **Textura** | Use uma textura personalizada ou um ponto de ancoragem. |
-| Cor do **Gradiente de posição** | Use o mapa de posição cozida. |
-| **Cores Normais do Espaço Mundial** | Use o mapa World Space Normals assado. |
+| Cor do **Gradiente de posição** | Use o mapa de Posição feita bake. |
+| **Cores Normais do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
 
 ## Parâmetros
 
@@ -77,7 +77,7 @@ ht-degree: 3%
     <th>Descrição</th>
   </tr>
   <tr>
-    <td><strong>Opacidade da textura</strong></td>
+    <td><strong>Textura opacidade</strong></td>
     <td>Ajuste a visibilidade da textura personalizada.</td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Conversão em tons de cinza</strong></td>
-    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">Gerador de conversão de tons de cinza tem mais informações sobre como cada método funciona</a>.</td>
+    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">gerador de Conversão em escala cinza tem mais informações sobre como cada método funciona</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de mesclagem</strong></td>

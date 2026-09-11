@@ -32,7 +32,7 @@ Agora, em seu sistema de partícula, vá para “Backdrop” na visualização d
 
 No Substance 3D Painter, a Malha é dimensionada para ficar dentro de uma caixa de tamanho [-1;1] em cada Eixo. Para obter a escala correta com o Substance 3D Painter no Editor, você deve importar uma malha que já esteja dimensionada para ajustar-se a essa caixa (de maneira fácil) ou brincar com as escalas no Editor.
 
-Observação: somente o formato de malha FBX é suportado.
+Observação: somente o formato de malha FBX é compatível.
 
 #### Como exibir a grade
 
@@ -176,15 +176,15 @@ A ordem do evolver pode ser muito importante.
 
 Por exemplo, você pode querer sempre que seus 2 últimos evolvers sejam o Evoluidor de projeção e, em seguida, o Evoluidor de script que faz a amostragem do UV e do normal com os pCoords gerados pelo Evoluidor de projeção.
 
-Lembre-se de que a ordem dos evolucionadores é literalmente a ordem de execução dentro de um quadro, e que o Substance 3D Painter reunirá os valores do campo de partículas e o final de cada quadro.
+Lembre-se que a ordem dos evolucionadores é literalmente a ordem de execução dentro de um quadro, e que o Substance 3D Painter reunirá os valores do campo de partículas e o fim de cada quadro.
 
-#### Como obter uma amostra do mapa normal da malha
+#### Como obter amostras do mapa normal da malha
 
-O Substance 3D Painter substituirá todos os classificadores de textura chamados “NormalMap” pelo mapa normal da malha (se importado).
+O Substance 3D Painter substituirá todos os Textura Samplers chamados “NormalMap” pelo mapa normal da malha (se importado).
 
-Essa é a única textura que você pode ter por enquanto, todas as outras texturas não serão acessíveis pelo Substance 3D Painter.
+Essa é a única textura que você pode ter por enquanto, nenhuma outra textura poderá ser acessada pelo Substance 3D Painter.
 
-Depois de adicionar o Texture Sampler chamado “NormalMap”, você pode obter uma amostra em um script:
+Depois de adicionar o Sampler de Textura chamado “NormalMap”, você pode fazer uma amostra em um script:
 
 <http://www.popcornfx.com/wiki/index.php/CParticleSamplerTexture>
 
@@ -272,7 +272,7 @@ PopcornFX é um tipo de grande sistema de discretização, então maior é o dt,
 
 Se o tempo delta for grande, o movimento de partículas entre quadros também será grande. No Substance 3D Painter, pequenas manchas podem aparecer em vez de linhas retas.
 
-Isso acontece porque o Substance 3D Painter desenhará um ponto de traçado para cada partícula no final de cada quadro e não desenhará linhas para cada partícula entre o último quadro e o quadro atual.
+Isso acontece porque o Substance 3D Painter desenhará um ponto de traçado para cada partícula no final de cada quadro e não desenhará linhas para cada partícula entre o último e o quadro atual.
 
 * Tempo delta pequeno &lt; 0,016 s
 * PRO precision
@@ -305,7 +305,7 @@ No diretório de instalação do Substance 3D Painter, você deve encontrar um a
 
 #### Como inicializar corretamente campos de partícula
 
-Para obter Coords UV e Normal válidos a partir do primeiro quadro, adicione-os ao seu Spawner Script:
+Para obter pCoords UV e Normal válidos a partir do primeiro quadro, adicione-os ao seu Spawner Script:
 
 <b>  
 </b>

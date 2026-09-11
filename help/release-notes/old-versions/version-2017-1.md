@@ -48,7 +48,7 @@ Veja a lista do novo conteúdo:
 * **230 Novos Alpha** (Mistura de padrões e imagens digitalizadas)
 * **50 Novos Procedimentos** (Principalmente padrão de tecido para roupas medievais e contemporâneas)
 * **2 Novos mapas de ambiente** (Mondarrain e Villa Nova Street)
-* **9 Novos filtros** (MatFX Detail Edge Wear, Clamp, HBAO, etc.)
+* **9 Novos filtros** (MatFX Detail Edge Wear, Restrinjo, HBAO, etc.)
 
 ![](../../assets/alpha-content.jpg)![](../../assets/alpha-demo-image.jpg)
 

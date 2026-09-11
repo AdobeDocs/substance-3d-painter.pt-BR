@@ -81,7 +81,7 @@ O conteúdo da pasta (a parte de cor de uma camada) agora pode receber efeitos d
 
 ![](../assets/banner-sbsar.png)
 
-O formato de arquivo de Substance (SBSAR) agora está disponível ao exportar texturas. Um SBSAR é um container que pode ser aberto em muitos aplicativos com integração Substance, o que torna mais rápido e fácil “plug-and-play” de texturas personalizadas.
+O formato de arquivo de Substance (SBSAR) agora está disponível ao exportar textura. Um SBSAR é um recipiente que pode ser aberto em muitos aplicativos com integração Substance, o que pode tornar mais rápido e fácil de “plug-and-play” texturas personalizadas.
 
 * **Exportando um arquivo de Substance (SBSAR)**\
   Agora é possível especificar o formato de arquivo SBSAR na lista de formatos de arquivo na janela **Exportar Texturas**. Isso exportará um único arquivo SBSAR contendo todas as texturas especificadas. A nomeação dos nós de saída e seus usos são definidos a partir da predefinição de exportação selecionada e seus tipos de canal.
@@ -198,7 +198,7 @@ Várias funcionalidades novas foram adicionadas à API Python. Para obter detalh
   Várias funções foram adicionadas para salvar e recarregar o layout da interface. Observe que o layout também depende do modo do aplicativo atual (Pintura ou Renderização).
 
 * **substance\_painter.event**\
-  Um novo **TextureStateEvent** foi adicionado para ajudar a rastrear a modificação na pilha de camadas de Conjuntos de Texturas, bem como outras alterações de parâmetro. Esse evento é acionado em traçados de tinta ou na adição/remoção de canais.
+  Um novo **TextureStateEvent** foi adicionado para ajudar a rastrear a modificação na pilha de camadas de Conjuntos de Texturas, bem como outras alterações de parâmetro. Esse evento é acionado em traçados de tinta ou adição/remoção de canais.
 
 ## Notas de versão
 
@@ -249,19 +249,19 @@ Resumo: **Versão principal com novos painéis de integração (novo painel de b
 * Clique com o botão direito do mouse para redefinir os parâmetros de Substance individuais como padrão
 
   Adicionada a possibilidade de redefinir parâmetros individuais em um recurso .sbsar com o botão direito do mouse.
-* [Painel Ativos] “Fixe” ativos favoritos para aparecerem sobre o painel Ativos
+* [Painel Ativos] Os ativos favoritos do “Fixar” serão exibidos sobre o painel Ativos
 
-  Adicionada a nova opção de clicar com o botão direito em ativos da biblioteca que permite fixá-los como favoritos na parte superior do painel. Você também pode exibir todos os seus ativos favoritos em Pesquisas salvas.
+  Adição de uma nova opção de clicar com o botão direito em ativos da biblioteca que permite fixar-los como favoritos para a parte superior do painel. Você também pode exibir todos os seus ativos favoritos em Pesquisas salvas.
 * [Painel Ativos] Excluir, recarregar e renomear ativos
 
   Adicionadas as opções do menu de contexto para excluir, recarregar e renomear ativos na biblioteca do usuário. Eles são excluídos diretamente do local da biblioteca no disco e recarregados do local original. Os ativos que fazem parte de um pacote como .abr ou .sbsar não podem ser editados individualmente.
 * [Seleção de cores] Adicionar modos de mesclagem ao efeito Seleção de cores
 * [Pilha de camadas] Adicionar modo de mesclagem e opacidade em filtros
-* [Pilha de camadas] Permitir valores de divisão em blocos maiores que 128 para camada/efeitos de preenchimento
+* [Pilha de camadas] Permitir valores de divisão em blocos gráficos maiores que 128 para camada/efeitos de preenchimento
 * [Pilha de camadas] Tampas de cilindro para projeção cilíndrica na camada/efeito de preenchimento
 
   A projeção cilíndrica nas propriedades da camada de preenchimento agora tem a opção de remover as tampas dos cilindros.
-* [Log] Mostra uma mensagem de erro se as partes da malha estiverem em espaço negativo ao tentar criar um projeto de Bloco UV
+* [Log] Mostra uma mensagem de erro se a parte de malha estiver em espaço negativo ao tentar criar um projeto de Bloco UV
 
   Adicionada uma mensagem de erro mais clara ao falhar ao criar um projeto de Bloco UV porque as partes UV são encontradas em espaços negativos.
 * [Project] Indica a versão na mensagem de erro “dados muito recentes” ao abrir um projeto
@@ -273,12 +273,12 @@ Resumo: **Versão principal com novos painéis de integração (novo painel de b
 * [Visor] Visualize R, G, B e Alpha no visor (modo de exibição individual)
 
   Em Configurações de exibição > Configurações do visor > Exibição de canal, há uma nova configuração de Canais de cores que permite exibir apenas o componente R, G, B ou Alpha de um canal quando estiver no modo de exibição única.
-* [Shader] Permite definir canais do usuário como RGBA em sombreadores de camada de material
+* [Sombreador] Permitir a definição de canais do usuário como RGBA em sombreadores de camadas de material
 
-  Quando a configuração dos canais do Conjunto de texturas é definida dentro de um sombreador para camadas de material, agora é possível especificar o formato do canal para se desviar do valor padrão. Isso permite solicitar canais de usuário coloridos em vez de somente tons de cinza.
+  Quando as configurações de canais do Conjunto de texturas estão dentro de um sombreador para camadas de material, agora é possível especificar o formato do canal para se desviar do valor padrão. Isso permite solicitar canais de usuário coloridos em vez de somente tons de cinza.
 * [Exportar] Permite exportar texturas como SBSAR
 
-  Ao exportar texturas por meio da janela Arquivo > Exportar texturas, o formato de arquivo SBSAR (Substance Archive) pode ser escolhido para reagrupá-los. O conteúdo do SBSAR é orientado pelo modelo de saída usado.\
+  Ao exportar o textura pela janela Arquivo > Exportar Textura, o formato de arquivo SBSAR (Substance Archive) pode ser escolhido para reagrupá-los. O conteúdo do SBSAR é orientado pelo modelo de saída usado.\
   O formato de arquivo SBSAR também pode ser definido nas predefinições de exportação. Ao usar texturas de configuração híbrida (SBSAR + Outro formato) que se destinam a um SBSAR são agrupadas enquanto o restante é exportado junto.
 * [Exportar] Opção Expor 16 bits para o formato de arquivo EXR
 

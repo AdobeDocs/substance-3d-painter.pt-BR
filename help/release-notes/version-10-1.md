@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versão 10.1
 
-O <b>Substance 3D Painter 10.1</b> adiciona novos filtros avançados, funcionalidades aprimoradas de USD e suporte atualizado para VFX Platform e Linux.
+O <b>Substance 3D Painter 10.1</b> adiciona novos filtros poderosos, funcionalidades USD aprimoradas e suporte atualizado para a plataforma VFX e Linux.
 
 Data de lançamento: *17 de setembro de 2024*
 
@@ -69,7 +69,7 @@ Nesta versão, vários novos filtros foram adicionados para expandir significati
 
   ![](../assets/v101_filter_smoothstep.jpg)
 * <b>Filtros Espelho e Transformação Aprimorados</b>\
-  O filtro de transformação foi atualizado para oferecer suporte a dimensionamento não uniforme, giro horizontal ou vertical e parâmetros mais simples de usar. O filtro espelhado também foi atualizado com parâmetros mais simples.
+  O filtro transformo foi atualizado para oferecer suporte a dimensionamento não uniforme, giro horizontal ou vertical e parâmetros mais simples de usar. O filtro espelhado também foi atualizado com parâmetros mais simples.
 
   ![](../assets/v101_filter_transform.jpg)
 * <b>Ícones aprimorados</b>\
@@ -91,10 +91,10 @@ Nesta versão do Painter, muitos componentes de terceiros foram aprimorados e at
 * <b>Exportar texturas com material padrão da Adobe em dólares americanos\
   </b>Ao exportar texturas do Painter para um arquivo do USD, agora você receberá as propriedades do material padrão da Adobe com elas. Isso torna esses arquivos USD prontos para serem usados em aplicativos que também oferecem suporte a essas propriedades.
 * <b>Importar texturas de arquivos do USD</b>\
-  Agora, importar um arquivo do USD também importará sua textura no projeto que ele cria, facilitando o deslocamento entre aplicativos. Se o arquivo USD usar o Material padrão da Adobe, isso também definirá as configurações do sombreador, fazendo com que o resultado na viewport corresponda ao outro aplicativo de origem.
+  Agora, importar um arquivo USD também importará sua textura no projeto que ele cria, facilitando o deslocamento entre aplicativos. Se o arquivo USD usar o Adobe Standard Material, isso também definirá as configurações de sombreador, fazendo com que o resultado no visor corresponda ao outro aplicativo de origem.
 * <b>Alterações De Gltf\
-  </b>Após a atualização do USD, foram necessárias algumas alterações de comportamento para o formato GLTF para garantir a paridade. Ao importar um arquivo gltf, o Painter agora presumirá que o mapa normal estará no formato OpenGL.\
-  Alguns arquivos gltf podem usar o formato DirectX. Portanto, uma nova configuração foi adicionada à janela do novo projeto para levá-la em consideração (observe que o formato normal também pode ser substituído pela pilha de camadas).
+  </b>Após a atualização do USD, foram necessárias algumas mudanças de comportamento para o formato GLTF para garantir a paridade. Ao importar um arquivo gltf, o Painter agora presumirá que o mapa normal estará no formato OpenGL.\
+  Alguns arquivos gltf podem usar o formato DirectX. Portanto, uma nova configuração foi adicionada à janela do novo projeto para levá-la em consideração (observe que o formato normal também pode ser substituído a partir da pilha de camadas).
 
   ![](../assets/v101_import_gltf.png)
 * <b>Dependências atualizadas</b>\
@@ -119,10 +119,10 @@ Algumas áreas do aplicativo receberam algumas melhorias de desempenho:
   </b>O projeto que usou muitos traçados de pincel agora deve ser mais rápido de abrir no Painter. A economia de tempo destes projetos também deve ser ligeiramente melhorada.\
   Em alguns de nossos projetos de teste, observamos uma redução de 50s para apenas 6s de tempo de carregamento ao abrir um projeto. O consumo de memória ao abrir projetos antigos e convertê-los para a versão mais recente também foi aprimorado.
 * <b>Desempenho de mosaico aprimorado\
-  </b>Agora empregamos uma otimização automática quando o mosaico está habilitado nas configurações do Sombreador. Triângulo menores que um pixel na tela não serão mais tesselados, levando a menos triângulos a serem desenhados e, portanto, a tempos de renderização mais rápidos.\
+  </b>Agora empregamos uma otimização automática quando o mosaico está habilitado nas configurações de Sombreador. Triângulo menores que um pixel na tela não serão mais tesselados, levando a menos triângulos a serem desenhados e, portanto, a tempos de renderização mais rápidos.\
   Essa alteração não produz diferenças visuais e não afeta o processo de exportação de malha.
 * <b>Miniaturas simplificadas agora são o padrão</b>\
-  Na versão 6.2, introduzimos as miniaturas simplificadas para projetos de blocos UV para melhorar o desempenho, mas os projetos regulares ainda poderiam usar a maneira antiga de calcular miniaturas de camadas. Esse comportamento foi controlado por meio de uma configuração do aplicativo.\
+  Na versão 6.2, introduzimos as miniaturas simplificadas para projetos do Bloco UV para melhorar o desempenho, mas os projetos regulares ainda podiam usar a maneira antiga de calcular miniaturas de camadas. Esse comportamento foi controlado por meio de uma configuração do aplicativo.\
   Agora, essa configuração usa como padrão as miniaturas otimizadas para ajudar no desempenho de qualquer projeto. Ele pode ser revertido nas preferências principais, se desejado.
 
   ![](../assets/v101_perf_icons.png)
@@ -155,7 +155,7 @@ Resumo: <b>Versão principal, conteúdo novo: máscara de área de preenchimento
 * Compatível com a plataforma VFX 2024
 * [VFX Platform 2024] Atualização para Python 3.11
 * [VFX Platform 2024] Atualização para OpenEXR 3.2
-* [VFX Platform 2024] [USD] Atualização do OpenSubdiv 3.6.0
+* [VFX Platform 2024] [USD] Atualizar o OpenSubdiv 3.6.0
 * [VFX Platform 2024]&#x200B;[Gerenciamento de cores] Atualização para OCIO 2.3.2
 * [Linux] Migração para o Linux RedHat
 * [Linux] Atualize a versão mínima do driver Nvidia para 535.171.04
@@ -164,24 +164,24 @@ Resumo: <b>Versão principal, conteúdo novo: máscara de área de preenchimento
 * [Substance Engine] Adicionar função de faixa de chamada para remover os símbolos do executável
 * [Tela inicial] Atualização para o novo formato de tela inicial
 * Atualize o Substance Engine para a versão 9.1.3
-* [Python] Mostrar link para exemplos no menu de documentação da pilha de camadas
+* [Python] Mostrar link para exemplos no menu de documentação do pilha de camadas
 * [JavaScript] Mover plug-ins Javascript para a subpasta javascript/plugins
 
 <b>Corrigido</b>:
 
-* [Illustrator] Falha ao exportar um bloco UV com gráfico .ai em casos específicos
+* [Illustrator] Falha ao exportar um Bloco UV com gráfico .ai em casos específicos
 * [Traçados dinâmicos]&#x200B;[Caminho] O aleatório por traçado não funciona em um caminho
 * [UI]&#x200B;[Propriedades] O bloqueio é habilitado quando a divisão em blocos gráficos não é uniforme
 * &#x200B;O arquivo TXT de depuração é criado ao clicar duas vezes no projeto do Painter
-* [USD]&#x200B;[Export] Algumas texturas podem estar ausentes
+* [USD]&#x200B;[Exportar] Algumas texturas podem estar ausentes
 * [ASM] O canal de dispersão de cores ignora metais
 * [Conteúdo] O filtro de desfoque não funciona no espaço de cores “trabalho”
 * [Conteúdo] O filtro Ajustar Height também modifica o alfa da camada
 
 <b>Problemas Conhecidos</b>:
 
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Win]&#x200B;[Crash] [ACE] Não usar espaço da cor sRGB ICE para transformação de exibição
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
+* [Win]&#x200B;[Crash] [ACE] Não usa espaço da cor sRGB ICE para transformo de exibição
 * [Regression]&#x200B;[UI] O menu do botão direito do mouse é muito pequeno em telas HD
 * [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
 * [MacOS Intel] Falha ao importar algumas predefinições

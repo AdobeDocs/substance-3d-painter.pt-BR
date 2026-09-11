@@ -21,13 +21,13 @@ ht-degree: 0%
 # Desempacotamento automático de UV
 
 ![](../assets/auto-unwrap-update-810.jpg)\
-O desencapsulamento automático UV permite gerar Ilhas UV automaticamente ao importar um modelo 3D. Pode ser usado para pintar em modelos 3D que não tenham UVs existentes.
+O desencapsulamento automático UV permite gerar Ilhas UV automaticamente ao importar um modelo 3D. Ele pode ser usado para tinta em um modelo 3D que não tem nenhum UV existente.
 
 ## Habilitando o desencapsulamento UV automático
 
 ![](../assets/uv-new-project.png)
 
-Ao criar um novo projeto ou reimportar uma malha para um projeto existente, certifique-se de que a configuração “Desfazer quebra automática” esteja marcada. Se desativado, o processo será ignorado e os UVs de malha permanecerão como estão.
+Ao criar um novo projeto ou reimportar uma malha para um projeto existente, certifique-se de que a configuração “Contornar automaticamente” esteja marcada. Se desativado, o processo será ignorado e os UVs de malha permanecerão como estão.
 
 ## Configurações de desencapsulamento UV
 
@@ -44,7 +44,7 @@ Ao importar uma malha e usar o processo de abertura, as seguintes configuraçõe
 | **Personalização de layout** | **Tamanho da margem** | Define o espaçamento entre as Ilhas UV. Essa configuração aplica uma porcentagem geral independente da resolução.Valores possíveis:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Nenhuma margem </strong> : 0%</li><li data-preserve-html="true"><strong> Pequeno </strong> (padrão): 0,2%</li><li data-preserve-html="true"><strong> Médio </strong> : 0,5%</li><li data-preserve-html="true"><strong> Grande </strong> : 1%</li></ul> |
 |  | **Orientação da Ilha UV** | Controle a orientação das Ilhas UV durante o processo de embalagem.Valores possíveis:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Sem restrições</strong> (padrão): nenhuma restrição é aplicada para calcular a orientação.</li><li data-preserve-html="true"><strong>Alinhar com malha 3D</strong>: restringir a Ilha UV a ser orientada em direção à direção da malha</li></ul> |
 |  |  |  |
-| **Blocos UV** | **Número máximo de Blocos UV** | Se o fluxo de trabalho Blocos UV estiver ativado, essas configurações determinarão o número máximo de blocos a serem produzidos para distribuição nas Ilhas UV. |
+| **Blocos UV** | **Número máximo de Blocos UV** | Se o fluxo de trabalho de Blocos UV estiver habilitado, essas configurações determinarão o número máximo de blocos a serem produzidos para distribuir no Ilha UV. |
 |  |  |  |
 | **Otimização** | **Evite Ilhas UV alongadas** | Se habilitado, este processo dividirá as Ilhas UV consideradas muito longas para melhorar o uso do espaço de textura.Exemplo de antes (superior) e depois (inferior): <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../assets/uv-before-after.jpg" width="400px"/></div> |
 

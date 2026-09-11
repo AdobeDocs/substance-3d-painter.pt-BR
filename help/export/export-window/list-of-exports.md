@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ![](../../assets/list-of-export.png){width="550px"}
 
-A <b>guia Lista de exportação </b>da <b>janela Exportar </b>lista as texturas exportadas de cada conjunto de Texturas, com um console indicando o status da exportação, incluindo mensagens de erro.
+A guia <b>Lista de exportação </b>da <b>janela Exportar </b>lista as texturas exportadas de cada conjunto de Textura, com um console indicando o status da exportação, incluindo mensagens de erro.

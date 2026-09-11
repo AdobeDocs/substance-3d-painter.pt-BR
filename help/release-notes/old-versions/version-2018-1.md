@@ -55,7 +55,7 @@ O Substance Painter 2018.1 apresenta um **retrabalho completo da interface**, va
   ![](../../assets/contextual-toolbar_1.png)
 * Agora é possível **reordenar efeitos** usando **arrastar e soltar** na **pilha de camadas**.\
   ![](../../assets/re-order-effects.gif)
-* Embora os atalhos “**C**” e “**B**” permitam visualizar rapidamente o **Canal** e as **texturas cozidas** no **visor**, agora é possível usar o **menu suspenso unificado** para alterar a exibição do visor.\
+* Embora os atalhos “**C**” e “**B**” permitam visualizar rapidamente o **Canal** e as **texturas Feitas bake** no **visor**, agora é possível usar o **menu suspenso unificado** para alterar a exibição do visor.\
   No **canto superior direito** do **visor**, agora há uma lista suspensa listando **todos os Canais e mapas de Malha** (anteriormente mapas Adicionais). Este menu suspenso unificado também está disponível no encaixe **Configurações de Exibição**.\
   ![](../../assets/dropdown-viewport.gif)
 * As **Configurações de Exibição** e as **Configurações de Visualizador** foram **mescladas** em um singleDock.\
@@ -108,7 +108,7 @@ Esse novo preenchimento é gerado automaticamente após cada traçado de pincel,
 Também melhoramos o desempenho nesta versão em vários níveis:
 
 * Abrir e salvar o projeto deve ser um pouco mais rápido do que antes.\
-  Retrabalhamos a maneira como codificamos/decodificamos nossos **dados de pintura**. Isso afeta especialmente projetos com muitas informações de pintura (traçados de pincel).
+  Retrabalhamos a maneira como codificamos/decodificamos nossos **dados de pintura**. Isso afeta especialmente projetos com muitas informações de tinta (pinceladas).
 * Agora oferecemos suporte a muitos **subobjetos** com malhas.\
   Não é mais obrigatório fundir uma malha em uma peça antes de carregá-la em Substance Painter. O desempenho deve permanecer bom mesmo com **8000 subobjetos** em um projeto.
 * Alteramos a forma como nosso **visor** é **atualizado** para reduzir a carga na GPU ao pintar.\
@@ -117,14 +117,14 @@ Também melhoramos o desempenho nesta versão em vários níveis:
 * O sistema **prateleira** agora está **mais rápido para descobrir** recursos ao iniciar o aplicativo.\
   Os materiais de Substance com bitmaps incorporados são **duas vezes mais rápidos** para serem descobertos (se cozidos como não sólidos). As **Predefinições** também devem ver melhorias.
 
-### Panificador de posição de cena global
+### Baker de posição da cena global
 
 ![](../../assets/position-baker.jpg)
 
-Agora temos uma nova configuração que permite preparar um mapa de posição por conjunto de textura que leva em consideração o tamanho total da cena.\
-Esse novo comportamento permite usar projeções triplanares em Geradores de máscaras que corresponderão a toda a cena em vez de criar costuras como antes. Isso é realmente útil com projetos que têm muitos conjuntos de texturas (como projetos baseados em UDIM).
+Agora temos uma nova configuração que permite fazer bake um mapa de posição por conjunto de textura que leva em consideração o tamanho total da cena.\
+Esse novo comportamento permite usar projeções triplanares em Geradores de máscara que corresponderão a toda a cena em vez de criar emendas como antes. Isso é realmente útil com projetos que têm muitos conjuntos de texturas (como projetos baseados em UDIM).
 
-Nas configurações do padeiro, altere o parâmetro “**Escala de Normalização**” de “**Por Material**” para “**Cena Completa**” para habilitar este novo comportamento.
+Nas configurações de posição do baker, altere o parâmetro “**Escala de Normalização**” de “**Por Material**” para “**Cena Completa**” para habilitar este novo comportamento.
 
 ![](../../assets/position-baker-example.png)
 
@@ -140,12 +140,12 @@ Também adicionamos algum conteúdo novo nesta versão:
 * Ruídos **não quadrados**\
   Os ruídos básicos foram atualizados para a versão mais recente do Substance Designer.\
   Isso significa que o recurso de expansão não quadrada agora está disponível nos parâmetros de ruído.
-* Novo gerador de máscara **3D linear gradient** Esse novo gerador de máscaras permite criar um gradiente linear em qualquer direção no espaço 3D.\
+* Novo gerador de máscara **3D linear gradient** Esta nova gerador de máscara permite criar um gradiente linear em qualquer direção no espaço 3D.\
   A direção pode ser definida com duas posições 3D, que podem ser escolhidas diretamente no mapa de posições.\
   Exemplo:
 
 1. &#x200B;
-   1. Crie o gerador de máscaras **3D linear gradient** em uma de suas camadas
+   1. Crie o gerador de máscara **3D linear gradient** em uma de suas camadas
    1. Alterne a exibição do visor para “**Posição**” (por meio do menu suspenso do visor ou usando a tecla “**B**”)
    1. Clique no parâmetro “**Início da Posição 3D**” para abrir o pop-up **Seletor de Cores**
    1. **Escolha uma cor** na malha **no visor**
@@ -155,8 +155,8 @@ Também adicionamos algum conteúdo novo nesta versão:
 
 * Novo modelo **Lens-studio** (aplicativo Snap Chat 3D).\
   Temos um novo modelo para criar facilmente projetos direcionados ao aplicativo Lens-Studio criado pelo Snap.\
-  Um sombreador dedicado e uma predefinição de exportação também estão disponíveis. Para obter mais detalhes sobre o Lens Studio, consulte: <https://lensstudio.snapchat.com/>
-* **Materiais inteligentes** e **Máscaras inteligentes** foram atualizados com a versão mais recente de nossos Geradores de máscaras.\
+  Também estão disponíveis uma predefinição dedicada de sombreador e exportação. Para obter mais detalhes sobre o Lens Studio, consulte: <https://lensstudio.snapchat.com/>
+* **Materiais inteligentes** e **Máscara inteligente** foram atualizados com a versão mais recente de nossos Geradores de máscara.\
   Nossas predefinições inteligentes agora são compatíveis com o recurso **microdetalhes** que pode ser usado com os **Pontos de ancoragem**.
 
 ### Novo projeto de amostra
@@ -164,7 +164,7 @@ Também adicionamos algum conteúdo novo nesta versão:
 ![](../../assets/seamless-paint-material-optim.gif){width="650px"}
 
 Agora há um novo projeto de amostra chamado “**TilingMaterial**” que você pode abrir por meio da ação de menu “**Arquivo > Abrir Amostra**”.\
-Este projeto usa uma malha de plano simples com UVs sobrepostos que permite **pintar perfeitamente** materiais e pinceladas para **criar materiais de revestimento**.
+Este projeto usa uma malha de plano simples com UVs sobrepostos que permite **tinta perfeitamente** materiais e pinceladas para **criar materiais de revestimento**.
 
 ![](../../assets/seamless-paint-optim.gif){width="400px"}
 
@@ -203,7 +203,7 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 
 **Adicionado:**
 
-* Resumo: Velocidade de cozimento aprimorada, Sistema de salvamento aprimorado, Controles deslizantes atualizados, API de plug-in atualizada, Tradução para chinês, Preenchimento aprimorado agora opcional
+* Resumo: velocidade de Fça bake aprimorada, sistema de salvamento aprimorado, controles deslizantes atualizados, API de plug-in atualizada, tradução para chinês, preenchimento aprimorado agora opcional
 * [Padeiros] Melhoria de desempenho com nova versão de panificação
 * Forçar caixa de diálogo de exibição com GPU incompatível
 * [Salvar] Expor a nova funcionalidade de projeto compacto (modo de salvamento completo/compacto)
@@ -332,8 +332,8 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 * [Padeiros] Corresponder pelo nome ignora algumas malhas com nomes específicos
 * [Padeiros] A cor da configuração de malha Poligrupo e ID de submalha sempre retorna uma imagem preta
 * [Bakers] A cozedura de ID falha com malhas binárias FBX do Blender
-* [Shader] Ruído na visualização 2D com dota-2 e brilho não pbr-spec
-* [Linux] Somente um thread de CPU é usado ao assar
+* [Sombreador] Ruído no Visualização 2D com brilho dota-2 e não pbr-spec
+* [Linux] Somente um thread de CPU é usado ao fazer bake
 * [MacOS] Falha com o cursor do pincel se movendo sobre a janela de visualização
 
 **Problemas Conhecidos:**

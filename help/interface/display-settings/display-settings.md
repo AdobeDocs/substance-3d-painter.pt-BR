@@ -33,8 +33,8 @@ O modo de visualização controla a aparência da viewport. O menu suspenso é d
 | Seção | Descrição |
 | --- | --- |
 | **Iluminação** | Exiba o modelo 3D na viewport com iluminação total, incluindo sombras, se ativadas. |
-| **Canal único** | Também chamado de modo solo. Exiba a malha no visor com apenas um canal ou textura específica, sem iluminação. |
-| **Mapas de malha** | Exiba a malha no visor somente com uma textura assada específica sem iluminação. |
+| **Canal único** | Também chamado de modo solo. Exiba a malha no visor somente com um canal ou textura específico sem iluminação. |
+| **Mapas de malha** | Exiba a malha no visor somente com texturas feitas bake específicas sem iluminação. |
 
 >[!NOTE]
 >

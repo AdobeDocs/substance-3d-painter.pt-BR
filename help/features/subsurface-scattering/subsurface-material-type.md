@@ -33,7 +33,7 @@ Esta página lista os vários tipos de materiais que podem ser criados com o rec
 Para um bom material da pele requer:
 
 * Uma boa textura de base : para um caractere realista, isso significa uma boa quantidade de detalhes e várias cores.
-* Uma textura forte de height/normal : o efeito de subsuperfície suavizará os detalhes da superfície, tendo detalhes fortes em primeiro lugar, compensará.
+* Um height forte/textura normal : o efeito de subsuperfície suavizará os detalhes da superfície, tendo detalhes fortes em primeiro lugar, que compensarão.
 
 | *Configuração* | *Descrição* |
 | --- | --- |

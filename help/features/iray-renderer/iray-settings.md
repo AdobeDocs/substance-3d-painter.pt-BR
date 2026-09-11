@@ -39,7 +39,7 @@ A seção superior da janela exibe o status de Iray ao lado de outras informaç�
 >[!NOTE]
 >
 > O número de iterações definirá a qualidade final da renderização: mais iterações = melhor qualidade.\
-> No entanto, as iterações podem levar algum tempo, razão pela qual é possível definir um tempo máximo. Uma iteração é definida pelo número de amostras.
+> No entanto, as iterações podem levar algum tempo, por isso é possível definir um tempo máximo. Uma iteração é definida pelo número de amostras.
 
 ## Configurações
 

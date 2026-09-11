@@ -35,7 +35,7 @@ No aplicativo, o gerenciamento de cores é processado por meio da integração d
 Configurações de gerenciamento de cores:
 
 * [Gerenciamento de cores com Adobe ACE - ICC](color-management-with-adobe-ace-icc.md)
-* [Gerenciamento de cores com o OpenColorIO](color-management-with-opencolorio.md)
+* [Gerenciamento de cores com OpenColorIO](color-management-with-opencolorio.md)
 
 ## Vocabulário
 
@@ -45,9 +45,9 @@ Pode ser útil conhecer alguns termos técnicos relacionados ao gerenciamento de
 | --- | --- |
 | **Espaço de cores** | Sistema de coordenadas no qual as cores são definidas. |
 | **Espaço de trabalho** | O espaço de cores usado dentro do aplicativo para mesclar textura, pintura etc. |
-| **Transformação de exibição** | A transformação de exibição converte as cores lineares do espaço de trabalho para o espaço de cores do monitor para exibir cores perceptivamente (para serem vistas pelos olhos humanos). As transformações de exibição geralmente incluem uma passagem de mapeamento de tons para compactar cores a fim de se ajustarem à faixa limitada de valores permitida por uma tela. |
-| **Configuração** | Um arquivo de configuração OCIO. Define o que é o espaço de trabalho, uma lista de espaços de cores e uma lista de transformações de vídeo. |
-| **ACES** | ACES significa Academy Color Encoding System e é o padrão em muitos aplicativos para troca de arquivos de imagem digital. Duas versões deste padrão estão incluídas dentro do aplicativo por padrão. |
+| **Exibir transformo** | O transformo de exibição converte as cores lineares do espaço de trabalho para o espaço de cores do monitor para exibir cores perceptivamente (para serem vistas pelos olhos humanos). As transformas de exibição geralmente incluem uma passagem de mapeamento de tons para compactar cores a fim de se ajustarem à faixa limitada de valores permitida por uma tela. |
+| **Configuração** | Um arquivo de configuração OCIO. Define o que é o espaço de trabalho, uma lista de espaços de cores e uma lista de transformo de exibição. |
+| **ACE** | ACE significa Academy Color Encoding System e é o padrão em muitos aplicativos para troca de arquivos de imagem digital. Duas versões deste padrão estão incluídas dentro do aplicativo por padrão. |
 | **Mapeamento de tons** | É o processo de mapeamento de valores de cor de HDR (intervalo dinâmico) para LDR (intervalo dinâmico baixo). Esse processo ajuda a exibir uma exibição aproximada de uma ampla variedade de cores. |
 
 ## Lista de canais gerenciados por cores
@@ -58,14 +58,14 @@ Dentro do aplicativo, quais canais são gerenciados por cores ou não (dados/pas
 | --- | --- |
 | **oclusão de ambiente** | Não |
 | **Ângulo de anistotropia** | Não |
-| **Nível de Anisotropia** | Não |
+| **Nível de anisotropia** | Não |
 | **Cor base** | **Sim** |
 | **Máscara de mesclagem** | Não |
 | **Cor do revestimento** | **Sim** |
-| **Revestimento normal** | Não |
-| **Opacidade da camada** | Não |
+| **Normal do revestimento** | Não |
+| **Opacidade do revestimento** | Não |
 | **Aspereza do revestimento** | Não |
-| **specular level de revestimento** | Não |
+| **Nível especular do revestimento** | Não |
 | **Difusa** | **Sim** |
 | **Deslocamento** | Não |
 | **Textura reluzente** | Não |
@@ -99,12 +99,12 @@ Para obter mais informações, consulte a [página de documentação](../../inte
 
 ## Controles do visor
 
-Ambas as visualizações 2D e 3D têm gerenciamento de cores e uma configuração dedicada disponível na parte superior da janela de visualização para controlar qual transformação de exibição usar:
+Ambas as visualizações 2D e 3D têm gerenciamento de cores e uma configuração dedicada disponível na parte superior da janela de visualização para controlar qual transformo de exibição usar:
 
 ![](../../assets/viewport-cm.png)
 
-* **Botão esquerdo**: habilitar/desabilitar a transformação de exibição do visor. Se desativada, a viewport exibirá cores como raw/passthrough. Esse botão fica ativado por padrão.
-* **Menu suspenso de direita**: especifique qual transformação de exibição usar para converter as cores para exibi-las na tela. O valor padrão é baseado na configuração OCIO. Esta configuração não é salva com o projeto, pois ele pode ser dependente do monitor.
+* **Botão esquerdo**: habilitar/desabilitar o transformo de exibição do visor. Se desativada, a viewport exibirá cores como raw/passthrough. Esse botão fica ativado por padrão.
+* **Menu suspenso Direito**: especifique qual transformo de exibição deve ser usado para converter as cores para exibi-las na tela. O valor padrão é baseado na configuração OCIO. Esta configuração não é salva com o projeto, pois ele pode ser dependente do monitor.
 
 >[!NOTE]
 >

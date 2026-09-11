@@ -30,7 +30,7 @@ Data de lançamento: *21 de julho de 2016*
 
 ![](../../assets/dynamic-material-blending-materials-preview.jpg)
 
-Com esta nova versão, adicionamos um novo **fluxo de trabalho** chamado **Camada de material**. Os fluxos de trabalho de texturização tradicionais contam com a criação de texturas em **alta resolução** para **preservar detalhes**, mas isso **não é conveniente** para o caso de uso. Uma abordagem mais interessante é **criar um pequeno material de revestimento** e **repeti-lo dentro de um sombreador**. Permite preservar uma determinada qualidade e a capacidade de **aplicar zoom realmente próximo** ao objeto usando este sombreador **sem perder detalhes**. O único problema é que, para visualizar o resultado final, era anteriormente obrigatório ir ao motor de jogo/renderizador que exibia o sombreador final. Isso não é mais verdade, pois nesta nova versão agora é possível usar um sombreador semelhante dentro do Substance Painter, que permite **visualizar o resultado final e pintar ao mesmo tempo**.
+Com esta nova versão, adicionamos um novo **fluxo de trabalho** chamado **Camada de material**. Os fluxos de trabalho de texturização tradicionais contam com a criação de texturas em **alta resolução** para **preservar detalhes**, mas isso **não é conveniente** para o caso de uso. Uma abordagem mais interessante é **criar um pequeno material de revestimento** e **repeti-lo dentro de um sombreador**. Permite preservar uma determinada qualidade e a capacidade de **aplicar zoom realmente próximo** ao objeto usando este sombreador **sem perder detalhes**. O único problema é que, para visualizar o resultado final, era anteriormente obrigatório ir ao motor de jogo/renderizador que exibia o sombreador final. Isso não é mais verdade, pois nesta nova versão agora é possível usar um sombreador semelhante dentro do Substance Painter, o que permite que você **visualize o resultado final e a tinta ao mesmo tempo**.
 
 Um **novo projeto de amostra** chamado “**FireHydrant**” foi adicionado para mostrar o novo fluxo de trabalho.
 
@@ -38,11 +38,11 @@ Um **novo projeto de amostra** chamado “**FireHydrant**” foi adicionado para
 
 Esse novo fluxo de trabalho abre duas formas de trabalhar:
 
-* Os materiais são definidos no sombreador; você só pode pintar máscaras para mesclá-los
+* Os materiais são definidos no sombreador; você só pode tinta máscaras para mesclá-los
 * Materiais e máscaras podem ser pintados juntos
 
-Em qualquer caso, é possível definir cada vez uma nova pilha de camadas, o que dá mais liberdade ao criar as máscaras e os materiais. O gerenciamento de camadas é muito mais fácil dessa maneira, e cada pilha pode ter seu próprio conjunto de canais específicos que podem ser mesclados no sombreador final.\
-Também temos um sombreador especial para Unity 5 e Unreal Engine 4 disponível em Compartilhar :
+Em qualquer caso, é possível definir cada vez uma nova pilha de camadas, o que dá mais liberdade ao criar as máscaras e os materiais. O gerenciamento de camadas é muito mais fácil dessa maneira e cada pilha pode ter seu próprio conjunto de canais específicos que podem ser mesclados no sombreador final.\
+Nós também temos um sombreador especial para Unity 5 e Unreal Engine 4 disponível em Compartilhar:
 
 * [Unidade 5](https://share.allegorithmic.com/libraries/2126)
 * [Unreal Engine 4](https://share.allegorithmic.com/libraries/2125)

@@ -40,7 +40,7 @@ Para obter mais detalhes técnicos e exemplos, consulte a página dedicada: [Pon
 
 Juntamente com o novo efeito de ponto de ancoragem, também trabalhamos em:
 
-* A capacidade de renomear alguns efeitos, como Preenchimento e Pintura
+* A capacidade de renomear alguns efeitos, como Preenchimento e Tinta
 * Novas funções de script, permitindo criar um link em tempo real com outros aplicativos, como o Unity
 
 ## Tutorial

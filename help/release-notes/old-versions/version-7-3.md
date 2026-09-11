@@ -32,7 +32,7 @@ Data de lançamento: *13 de outubro de 2021*
 
 Esta versão apresenta a nova projeção de distorção 3D para camadas de preenchimento e efeitos de preenchimento. Essa projeção permite distorcer uma textura ou uma imagem com a ajuda de uma grade de deformação e pontos controláveis.
 
-* **Configuração rápida via arrastar e soltar** Escolha um material, uma alfa, uma textura ou um procedimento na biblioteca Ativos, arraste e solte na parte desejada da malha (atalho **ALT** necessário para Materiais). Se o seu ativo não for um material, um pop-up com indagação de qual canal você gostaria de atribuí-lo.\
+* **Configuração rápida via arrastar e soltar** Escolha um material, uma alfa, uma textura ou uma processual na biblioteca de ativos e arraste e solte na parte desejada da malha (atalho **ALT** necessário para materiais). Se o seu ativo não for um material, um pop-up com indagação de qual canal você gostaria de atribuí-lo.\
   Depois que a camada for criada, você verá que a nova *Projeção de distorção* é selecionada automaticamente. A camada tem controles de modo de projeção 3D padrão, mas também um novo parâmetro *Profundidade de projeção* que permite definir a profundidade da projeção de distorção (representada por setas verdes como uma fila visual).\
   Você também pode selecionar esse modo de projeção manualmente em qualquer camada de preenchimento ou efeito sem ter que arrastar e soltar um ativo na viewport.
 
@@ -55,10 +55,10 @@ Para obter mais informações sobre as configurações e propriedades da projeç
 
 ![](../../assets/cylinder-proj.jpg)
 
-Esta versão adiciona um método de projeção cilíndrica para camadas de preenchimento e efeitos de preenchimento. A nova projeção permite ajustar uma imagem ou textura ao redor de objetos, como colunas, pilares ou formas mais orgânicas, como os braços de um personagem.
+Esta versão adiciona um método de projeção cilíndrica para camadas de preenchimento e efeitos de preenchimento. A nova projeção permite ajustar uma imagem ou textura ao redor de objetos como colunas, pilares ou formas mais orgânicas, como os braços de um personagem.
 
 * **Quebrar uma imagem em torno de uma malha**\
-  Você pode quebrar uma imagem facilmente ao redor de uma superfície cilíndrica usando uma camada de preenchimento ou um efeito de preenchimento e selecionando *Projeção cilíndrica* no menu suspenso Projeção. Se a imagem não precisar ser repetida fora do gizmo de projeção, você precisará selecionar *Nenhum* para o *Empacotamento UV* e *Cortado na forma* no *Corte de forma* para garantir que a imagem não saia dos limites. Então você só precisa usar o manipulador para ajustar a projeção para a posição desejada.
+  Você pode quebrar uma imagem facilmente ao redor de uma superfície cilíndrica usando uma camada de preenchimento ou um efeito de preenchimento e selecionando *Projeção cilíndrica* no menu suspenso Projeção. Se a imagem não precisar ser repetida fora do gizmo de projeção, você precisará selecionar *Nenhum* para o *Empacotamento UV* e *Cortado na forma* no *Corte de forma* para garantir que a imagem não saia dos limites. Em seguida, basta usar o manipulador para ajustar a projeção para a posição desejada.
 
 * **Ajustar o ângulo de projeção**\
   Quando a imagem é inserida, há uma nova configuração de Ângulo disponível. Essa configuração pode ser usada para ajustar se a imagem é projetada ao redor da forma cilíndrica ou se é restrita a um certo ângulo. Ela não corta a imagem, mas reduz sua largura.
@@ -86,7 +86,7 @@ Esta versão traz várias melhorias de qualidade de vida para o seletor de cores
 
   ![](../../assets/colorpicker-swatches.gif)
 * **A janela do seletor de cores permanece aberta**\
-  A janela do seletor de cores agora pode ser movida e colocada em qualquer lugar, mesmo em uma tela diferente, e permanecerá aberta desde que não haja nenhuma alteração de contexto, o que significa que, ao alternar entre camadas de tinta ao pintar texturas à mão, você pode manter a janela do seletor de cores aberta para facilitar o acesso.
+  A janela do seletor de cores agora pode ser movida e colocada em qualquer lugar, mesmo em uma tela diferente, e permanecerá aberta desde que não haja nenhuma opção de contexto, o que significa que, ao alternar entre camadas de tinta enquanto pinta texturas à mão, você pode manter a janela do seletor de cores aberta para facilitar o acesso.
 
   ![](../../assets/picker-persistent.gif)
 
@@ -101,7 +101,7 @@ Para obter mais informações, consulte a [página de documentação dedicada](.
 
 * **Melhorias ao arrastar e soltar ativos**\
   Com a introdução da Distorção, o recurso de decalque, onde os ativos podem ser arrastados e soltos da biblioteca para a viewport enquanto mantêm o ALT, viu algum retrabalho. Agora, quando um decalque é criado dessa maneira, ele não usa mais a projeção Planar, mas a projeção Distorcer. A seleção automática da projeção de distorção deve melhorar a velocidade e a eficiência dos ajustes de decalque na malha.\
-  Além disso, agora é possível arrastar e soltar não apenas materiais, mas ativos de tipo de imagem na viewport. Ao selecionar um alfa, uma textura ou um procedimento, não há necessidade de usar o modificador ALT. Ela pode ser solta na malha - isso acionaria um menu com a opção de selecionar se essa imagem deve ser usada dentro de uma máscara ou de qualquer um dos canais da camada.
+  Além disso, agora é possível arrastar e soltar não apenas materiais, mas ativos de tipo de imagem na viewport. Ao selecionar um alfa, uma textura ou um processual, não há necessidade de usar o modificador ALT. Ela pode ser solta na malha - isso acionaria um menu com a opção de selecionar se essa imagem deve ser usada dentro de uma máscara ou de qualquer um dos canais da camada.
 
   ![](../../assets/improved-decal.gif)
 
@@ -112,7 +112,7 @@ Para obter mais informações, consulte a [página de documentação dedicada](.
   Algumas operações de manutenção e otimização foram realizadas para manipulação de controles deslizantes e desempenho de pintura.
 
 * **Novas funções na API Python**\
-  A API Python tinha visto algumas adições recentes, que permitem recarregar malha, atualizar recursos, bem como definir e consultar a resolução de blocos UV via script.
+  A API Python teve algumas adições recentes, que permitem recarregar malha, atualizar recursos, bem como definir e consultar a resolução de Blocos UV através de script.
 
 * **atualização do mecanismo de Substance 8.3.0**\
   Juntamente com algumas correções e melhorias gerais, esta atualização do mecanismo Substance agora leva em consideração novos tipos de gráficos. Também é possível verificar a versão do arquivo .sbsar, o que deve melhorar o uso e o download das versões apropriadas do Substance 3D Assets.

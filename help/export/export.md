@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export.html"
 breadcrumb-title: ''
-description: Saiba como exportar texturas do Substance 3D Painter em vários formatos para uso em outros aplicativos e mecanismos de jogo.
+description: Saiba como exportar texturas do Substance 3D Painter em vários formatos para uso em outros aplicativos e mecanismos de jogos.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export
 helpx_experience_level: ""
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 ## Exportar texturas
 
-As texturas são exportadas como uma coleção de bitmaps. O Painter oferece muita flexibilidade ao exportar texturas graças a Modelos de saída. Os modelos de saída permitem controlar coisas como a nomeação de arquivos exportados, como as texturas são empacotadas em canais e o formato e a profundidade de bits dos arquivos exportados. Se isso soar intimidante, não se preocupe, o Painter inclui dezenas de Modelos de saída padrão configurados para aplicativos 3D usados com frequência e casos de uso.
+As texturas são exportadas como uma coleção de bitmaps. O Painter oferece muita flexibilidade ao exportar texturas graças aos Modelos de saída. Os modelos de saída permitem controlar coisas como a nomeação de arquivos exportados, como as texturas são empacotadas em canais e o formato e a profundidade de bits dos arquivos exportados. Se isso soar intimidante, não se preocupe, o Painter inclui dezenas de Modelos de saída padrão configurados para aplicativos 3D usados com frequência e casos de uso.
 
-Você abre a <b>janela Exportar</b> e começa a exportar texturas com <b>Arquivo > Exportar Texturas</b> ou usa o atalho de teclado <b>CTRL + SHIFT + E</b>. Use os links a seguir para saber mais sobre a Exportação de texturas:
+Abra a <b>janela de exportação</b> e comece a exportar o textura com <b>Arquivo > Exportar o Textura</b> ou use o atalho de teclado <b>CTRL + SHIFT + E</b>. Use os links a seguir para saber mais sobre a Exportação de texturas:
 
 * [Janela Exportar](../export/export-window/export-window.md)
 * [Modelos de saída](../export/export-presets/export-presets.md)

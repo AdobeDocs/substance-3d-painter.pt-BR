@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versão 8.1
 
-O **Substance 3D Painter 8.1** integra o Adobe Color Engine (ACE) com suporte para perfis ICC, novos padeiros, novos ruídos 3D e 20 mapas de desgaste e um conta-gotas aprimorado.
+O **Substance 3D Painter 8.1** integra o Adobe Color Engine (ACE) com suporte para perfis ICC, novos baker, novos ruídos 3D e 20 mapas de desgaste e um conta-gotas aprimorado.
 
 Data de lançamento: *7 de junho de 2022*
 
@@ -30,7 +30,7 @@ Data de lançamento: *7 de junho de 2022*
 
 ![](../assets/banner-ace.jpg)
 
-Nesta nova versão, o sistema de gerenciamento de cores foi expandido com o suporte do Adobe Color Engine (ACE), que desbloqueia o uso de perfis ICC. Esse novo sistema permite combinar cores em uma ampla variedade de aplicativos, incluindo o Photoshop.
+Nesta nova versão, o sistema de gerenciamento de cores foi expandido com o suporte do Adobe Color Engine (ACE) que desbloqueia o uso de perfis ICC. Esse novo sistema permite combinar cores em uma ampla variedade de aplicativos, incluindo o Photoshop.
 
 * **Novas configurações do projeto**\
   Ao criar um novo projeto, agora é possível especificar o mecanismo de gerenciamento de cores com o **Adobe Color Engine** (ACE) recém-adicionado.
@@ -82,19 +82,19 @@ O tamanho dentro dos materiais de Substance agora pode ser usado para orientar s
 >
 > Para obter mais informações, consulte a [documentação dedicada](../features/physical-size.md).
 
-### Novos padeiros
+### Novos baker
 
 ![](../assets/banner-baker.jpg)
 
 Essas três novas adições fecham a lacuna entre o Designer e o Painter para estender as possibilidades de texturização e renderização.
 
-Eles foram adicionados à lista de padeiros, mas estão desativados por padrão:
+Eles foram adicionados à lista de baker, mas estão desativados por padrão:
 
 ![](../assets/baker-list.png)
 
-Os novos padeiros são:
+Os novos baker são:
 
-* **Panificador de normais dobrados** O panificador de normais dobrados permite assar uma direção oclusão (como um vetor, semelhante a mapas normais). Esta textura pode ser usada para melhorar o sombreamento no visor ao habilitar a configuração **Normal Torto** na janela [Configurações do sombreador](../interface/shader-settings/shader-settings.md). Os normais tortos melhoram muito a precisão do sombreamento do visor em tempo real.\
+* **baker do Dobra normal** O baker do Dobra normal permite fazer bake uma direção de oclusão (como um vetor, semelhante a mapas normais). Esta textura pode ser usada para melhorar o sombreamento no visor ao habilitar a configuração **Normal Torto** na janela [Configurações de Sombreador](../interface/shader-settings/shader-settings.md). O Dobra normal melhora muito a precisão do sombreamento do visor em tempo real.\
   Para o **sombreamento difuso**, ele fornece uma oclusão mais precisa e pode até parecer uma iluminação global aproximada (primeiro exemplo abaixo).\
   Para **reflexos de specular**, permite simular a autosombra e reduzir a quantidade de luz que vaza, fazendo com que o objeto pareça muito mais aterrado, especialmente com superfícies metálicas (segundo exemplo abaixo).
 
@@ -102,13 +102,13 @@ Os novos padeiros são:
 
   ![](../assets/bent-normal-car-compressed.gif){width="400px"}
 
-* **Height**\
-  O padeiro de Height permite assar a diferença entre a malha de baixo e alto-poli como uma textura em tons de cinza que poderia então ser usada para produzir deslocamento em malhas tesseladas. Por exemplo, ao assar informações de digitalização contra um plano.
+* **baker DO Height**\
+  O baker de Height permite fazer bake a diferença entre a malha de baixo e alto-poli como uma textura em tons de cinza que poderia então ser usada para produzir deslocamento em malhas tesseladas. Por exemplo, ao fazer bake informações de digitalização em um plano.
 
   ![](../assets/disp-demo.jpg){width="400px"}
 
-* **Panificador de opacidade**\
-  O padeiro Opacity produz um mapa em preto e branco que mostra os buracos de uma malha de alto polímero. Por exemplo, pode ser usado para assar cercas ou mesmo furos dentro de uma superfície de tecido.
+* **baker de opacidade**\
+  O baker de opacidade produz um mapa em preto e branco que mostra os buracos de uma malha de alto polígono. Por exemplo, pode ser usado para fazer bake cercas ou mesmo furos dentro de uma superfície de tecido.
 
 ### Novo conteúdo
 

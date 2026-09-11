@@ -50,7 +50,7 @@ O Assistente de ativação tem 3 opções:
 
 >[!WARNING]
 >
-> Para instalar o arquivo de licença com o Assistente de ativação, execute o Painter como administrador e desative temporariamente o antivírus.
+> Para instalar o arquivo de licença com o Assistente de ativação, certifique-se de executar o Painter como administrador e desativar temporariamente o antivírus.
 
 ### Ativação manual
 

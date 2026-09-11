@@ -30,4 +30,4 @@ Simula os artefatos ópticos produzidos quando fontes de luz brilhantes interage
 | <b>smoothness DE Oclusão</b> | Controla o quão gradualmente o brilho da lente se desvanece. Valores mais altos criam transições mais suaves. |
 | <b>Fantasmas exclusivos</b> | Define a variação das formas de clarão. Valores mais altos podem afetar significativamente o desempenho. |
 | <b>Escala de posição fantasma</b> | Controla a propagação e o tamanho dos fantasmas do reflexo. |
-| <b>Textura da abertura</b> | Define a forma da abertura da lente usada para gerar o padrão de brilho. A textura controla as formas de difração e fantasma. |
+| <b>textura de abertura</b> | Define a forma da abertura da lente usada para gerar o padrão de brilho. A textura controla as formas de difração e fantasma. |

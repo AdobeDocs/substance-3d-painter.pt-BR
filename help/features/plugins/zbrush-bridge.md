@@ -18,13 +18,13 @@ A partir do ZBrush 2026.2.0 (a atualização do Maxon One de abril de 2026) e do
 
 ![Uma imagem promocional que mostra um ativo renderizado enquanto é sobreposto pelo mesmo ativo no Zbrush e no Painter.](../../assets/zbrush_promotional.png)
 
-Com o plug-in Substance Bridge, não há necessidade de passar pelo longo processo de exportação de arquivos separados de polígonos baixos e altos, sua importação para o Painter e sua configuração e execução.
+Com o plug-in Substance Bridge, não há necessidade de passar pelo longo processo de exportação de arquivos separados de polígonos baixos e altos, sua importação para o Painter e a configuração e execução de fazes bake.
 
 Para começar a usar a ponte Zbrush para Painter:
 
 1. Certifique-se de que você tenha pelo menos a versão 2026.2.0 do ZBrush instalada.
 1. Habilite o plug-in no Painter verificando se **Python > zbrush_painter_plugin** está marcado.
-1. Do ZBrush, o **Enviar para o Painter** está disponível em **Textura > Ponte de Substance**
+1. No ZBrush, o **Enviar para o Painter** está disponível no **Textura > Substance Bridge**
 
 ![Uma imagem do plug-in Substance Bridge no ZBrush](../../assets/zbrush_painterSendTo.png)
 
@@ -39,14 +39,14 @@ Você pode definir as seguintes configurações para a criação automática de 
 | Tudo | Envia todas as Subferramentas independentemente da visibilidade. Se o globo ocular estiver ligado ou desligado, tudo é enviado. |
 | Visível | Envia somente Subferramentas com o ícone de olho ativado na lista Subferramentas. |
 | Ativo | Envia somente a SubFerramenta atualmente selecionada |
-| Enviar PolyPaint | Converte PolyPaint em um mapa de textura e o aplica como uma camada de preenchimento em Substance, onde você pode pintar sobre ele e misturar com ele. |
+| Enviar PolyPaint | Converte PolyPaint em um mapa de textura e o aplica como uma camada de preenchimento em Substance, onde você pode tinta sobre ele e misturar com ele. |
 | Normais suaves | Suaviza os normais tangentes na exportação para que as malhas facetadas pareçam suaves em Substance, combinando com a forma como os mecanismos de jogo as renderizam. Desative para ver a faceta real da geometria. |
-| Mapas de Cozimento Automático | Executa os algoritmos de Substance automaticamente após a chegada do modelo, gerando mapas normais, oclusão ambiente, curvatura e outros mapas de detalhes da comparação de malha alta/baixa. |
+| Fazer bake Mapas Automaticamente | Executa os algoritmos de Substance automaticamente após a chegada do modelo, gerando mapas normais, oclusão ambiente, curvatura e outros mapas de detalhes da comparação de malha alta/baixa. |
 | Forçar o Desajuste Automático do UV | Aciona o algoritmo de desencapsulamento Substance em cada SubTool que chega. Saia se o seu modelo já tem bons UVs porque isso os sobregrava. |
 | Nível de subdivisão | Controla quais níveis de subdivisão são enviados. Atual envia somente o nível exibido. Baixo e alto envia os níveis mais baixo e mais alto para panificação e é a opção recomendada para a maioria dos fluxos de trabalho. |
 | Conjuntos de textura | Controla como o espaço UV é dividido em Substance: Por Subferramenta (um conjunto de textura por Subferramenta) ou Por PolyGroup (um conjunto de textura por PolyGroup em cada SubTool). |
 
-Quando o Painter receber o modelo, se o cozimento automático estiver ativado, o cozimento será iniciado. A subdivisão mais baixa do modelo é a malha importada como a malha de baixo-poli, e a subdivisão mais alta é usada como a de alto-poli para assar os detalhes. O ZBrush pode manipular um número muito maior de polígonos do que o Painter, portanto, certifique-se de que a malha poli baixa tenha um tamanho de trabalho ideal (isso dependerá da máquina, mas menos de 1 milhão é o melhor).
+Quando o Painter receber o modelo, se o fça bake automático estiver ativado, o fça bake será iniciado. A subdivisão mais baixa do modelo é a malha importada como a malha de baixo-poli, e a subdivisão mais alta é usada como a de alto-poli para assar os detalhes. O ZBrush pode manipular um número muito maior de polígonos do que o Painter, portanto, certifique-se de que a malha poli baixa tenha um tamanho de trabalho ideal (isso dependerá da máquina, mas menos de 1 milhão é o melhor).
 
 Os Conjuntos de texturas no Painter representam atribuições de material. Um conjunto de texturas é igual a um espaço UV.
 

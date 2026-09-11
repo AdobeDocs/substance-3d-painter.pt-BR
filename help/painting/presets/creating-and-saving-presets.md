@@ -30,7 +30,7 @@ Use a [janela Propriedades](../../interface/properties.md) para ajustar os parâ
 
 ![](../../assets/save-preset-1.png)
 
-As predefinições podem ser criadas clicando com o botão direito do mouse na janela Propriedades quando as propriedades da ferramenta estiverem disponíveis (camada de pintura ou efeito de pintura).
+As predefinições podem ser criadas clicando com o botão direito do mouse na janela Propriedades quando as propriedades da ferramenta estiverem disponíveis (efeito de camada de tinta ou tinta).
 
 Clique com o botão direito do mouse na janela Propriedades para abrir um menu de contexto com as seguintes opções:
 

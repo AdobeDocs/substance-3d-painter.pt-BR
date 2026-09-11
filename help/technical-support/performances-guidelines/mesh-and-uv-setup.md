@@ -35,14 +35,14 @@ Por exemplo, se estiver texturizando um único plano quádruplo, é melhor subdi
 +++
 
 +++Dividir texturas em vários conjuntos de texturas
-É melhor dividir malhas maiores com atribuições de material mais complexas em vários conjuntos de texturas. Os conjuntos de textura permitem atribuir diferentes configurações por conjunto de textura, como propriedades de resolução e sombreador. Por exemplo, se apenas uma parte da malha usar translucidez ou SSS, é melhor atribuir outro Conjunto de texturas e uma ocorrência de sombreador diferente a essa parte. Assim, essas propriedades mais complexas não precisam ser calculadas onde não são utilizadas.
+É melhor dividir malhas maiores com atribuições de material mais complexas em vários conjuntos de texturas. Os conjuntos de textura permitem atribuir diferentes configurações por conjunto de textura, como propriedades de resolução e sombreador. Por exemplo, se apenas uma parte da malha usar translucidez ou SSS, é melhor atribuir outro conjunto de texturas e uma instância de sombreamento diferente a essa parte. Assim, essas propriedades mais complexas não precisam ser calculadas onde não são utilizadas.
 
 +++
 
 +++Mantenha as Ilhas UV próximas
-Tente manter próximas as Ilhas UV que são vizinhas no espaço 3D. Isso se aplica ao layout UDIM e ao layout de espaço UV clássico. Se eles tiverem traçados de tinta ou texturização compartilhados, será mais fácil calculá-los quando estiverem amontoados na mesma área do espaço UV, em vez de se estiverem em extremidades opostas.
+Tente manter próximas as Ilhas UV que são vizinhas no espaço 3D. Isso se aplica ao layout UDIM e ao layout de espaço UV clássico. Se eles tiverem traçados de tinta ou texturização compartilhados, será mais fácil calculá-los quando estiverem amontoados na mesma área do espaço UV, em vez de estarem em extremidades opostas.
 
-O mecanismo de textura trabalha dividindo uma textura em blocos menores para acelerar o cálculo. Isso significa que cada traçado atualiza apenas os blocos que precisam ser alterados, em vez de atualizar a textura inteira com cada traçado. Ao manter as Ilhas UV vizinhas próximas umas das outras, minimiza o número de blocos que serão afetados por um único traçado.
+O mecanismo de textura funciona dividindo uma textura em blocos menores para acelerar o cálculo. Isso significa que cada traçado atualiza apenas os blocos que precisam ser alterados, em vez de atualizar a textura inteira com cada traçado. Ao manter as Ilhas UV vizinhas próximas umas das outras, minimiza o número de blocos que serão afetados por um único traçado.
 
 +++
 

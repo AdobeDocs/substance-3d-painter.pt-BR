@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/txtset-reassignment-window.png)
 
-A janela Reatribuição do conjunto de texturas permite alterar a atribuição da pilha de camadas para uma parte diferente da malha da cena. Isso é útil, por exemplo, quando depois de importar uma nova malha para um projeto existente onde alguns Conjuntos de textura se tornam desativados. Isso acontece porque a pilha de camadas foi atribuída a um Material que não existe mais. Com a janela de reatribuição é possível trazer de volta essa pilha de camadas (consulte “Restauração de conjuntos de texturas desativados” abaixo).
+A janela Reatribuição de conjunto de textura permite alterar a atribuição de pilha de camadas para uma parte diferente da malha da cena. Isso é útil, por exemplo, quando depois de importar uma nova malha para um projeto existente onde alguns Conjuntos de textura se tornam desativados. Isso acontece porque a pilha de camadas foi atribuída a um Material que não existe mais. Com a janela de reatribuição, é possível trazer de volta essa pilha de camadas (consulte “Restauração de conjuntos de texturas desativados” abaixo).
 
 Para acessar a janela de Reatribuição do Conjunto de Texturas, vá para a janela [Lista do Conjunto de Texturas](texture-set-list.md) e escolha **Configurações > Reatribuir Conjuntos de Texturas**.
 

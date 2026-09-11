@@ -11,6 +11,6 @@ ht-degree: 0%
 
 # Painel de configurações do mapa de malha
 
-No [**Modo de cozimento**](../../baking/baking.md), o **painel de configurações do mapa de malha** exibe parâmetros para o tipo de mapa de malha selecionado atualmente no **painel de preparadores de mapa de malha**.
+No [**modo de Fça bake**](../../baking/baking.md), o **painel de configurações do mapa de malha** exibe parâmetros para o tipo de mapa de malha atualmente selecionado no **painel de baker do mapa de malha**.
 
-Uma lista completa das configurações de mapa de malha disponíveis em [**Configurações comuns**](common-mesh-map-settings.md) e nos **painéis de configurações de mapa de malha** está disponível [na seção de cozimento da documentação](../../baking/mesh-map-settings.md).
+Uma lista completa das configurações de mapa de malha disponíveis em [**Configurações comuns**](common-mesh-map-settings.md) e nos **painéis de configurações de mapa de malha** está disponível [na seção fça bake da documentação](../../baking/mesh-map-settings.md).

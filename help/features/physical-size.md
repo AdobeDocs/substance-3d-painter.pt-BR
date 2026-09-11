@@ -30,7 +30,7 @@ Para obter mais informações, consulte:
 
 * <b>Parâmetros de &lbrace;Tamanho físico</b> em [Projeções de preenchimento](../painting/fill-projections/fill-projections.md)
 * Parâmetros da <b>grade</b> em [configurações do visor](../interface/display-settings/viewport-settings.md)
-* <b>Deslocamento baseado no tamanho físico</b> em [Configurações do sombreador](../interface/shader-settings/shader-settings.md)
+* <b>Deslocamento baseado no tamanho físico</b> em [configurações de Sombreador](../interface/shader-settings/shader-settings.md)
 
 >[!NOTE]
 >

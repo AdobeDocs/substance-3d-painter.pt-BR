@@ -22,18 +22,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Para exportar para USD com um Modelo de saída personalizado, não use o modelo USDz (Apple AR). Em vez disso, use o Modelo de saída escolhido e habilite <b>Exportar ativo do USD</b> na parte inferior da <b>guia Configurações</b>.
+> Para exportar para USD com um Modelo de saída personalizado, não use o modelo USDz (Apple AR). Em vez disso, use o Modelo de saída escolhido e habilite o <b>Exportar ativo de USD</b> na parte inferior da <b>guia Configurações</b>.
 
 O modelo de saída predefinido USDz (Apple AR) exporta seu ativo configurado para uso com aplicativos Apple AR.
 
 Para usar o modelo USDz (Apple AR):
 
-1. Abra a janela de Exportação com <b>Arquivo > Exportar texturas</b> ou com o atalho de teclado <b>Ctrl + Shift + E</b>.
+1. Abra a janela de Exportação com <b>Arquivo > Exportar textura</b> ou com o atalho de teclado <b>Ctrl + Shift + E</b>.
 1. Na <b>guia Configurações</b>, abra o <b>menu suspenso Modelo de saída</b> e selecione <b>USDz (Apple AR)</b>.
 
 ![Uma imagem da janela de exportação mostrando o menu suspenso modelo de saída aberto e USDz (Apple AR) selecionado.](../../../assets/export-usd.png){zoomable="yes"}
 
-Cinco arquivos de textura são criados e salvos (cor base, metálico, normal, oclusão e aspereza). Todos os arquivos são salvos como JPG, exceto o mapa normal, que é salvo como PNG para evitar artefatos devido à compactação com perdas.
+Cinco arquivos de textura são criados e salvos (cor de base, metálico, normal, oclusão e aspereza). Todos os arquivos são salvos como JPG, exceto o mapa normal que é salvo como PNG para evitar artefatos devido à compactação com perdas.
 
 Além disso, dois outros arquivos são criados com a extensão usdc e usdz:
 

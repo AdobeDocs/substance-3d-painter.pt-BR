@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a referência de API de sombreamento de Utilitários de Lib para o Substance 3D Painter usar funções utilitárias no desenvolvimento de sombreador personalizado.
+description: Acesse a referência de API de sombreamento de Utilitários de Biblioteca para que o Substance 3D Painter use as funções de utilitário no desenvolvimento de sombreador personalizado.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Mapeamento de tons
 
-Estes são exemplos de mapeamento de tom que você pode usar no sombreador. O Painter não aplica nenhum mapeamento de tom, exceto o opcional aplicado pelo Yebis. Se você decidir fazer um mapeamento de tom no sombreador, ele será aplicado antes do mapeamento de tom Yebis.
+Estes são exemplos de mapeamento de tom que você pode usar em seu sombreador. O Painter não aplica nenhum mapeamento de tom, exceto o opcional aplicado pelo Yebis. Se você decidir fazer algum mapeamento de tom em seu sombreador, ele será aplicado antes do mapeamento de tom Yebis.
 
 Execute o mapeamento de tom da curva em S com base nos parâmetros sigma e n.
 
@@ -43,7 +43,7 @@ vec3 tonemapSCurve(vec3 value, float sigma, float n)
 
 ## Conversões sRGB
 
-Estas são as conversões usadas no Painter. Você pode anular a conversão linear automática -> sRGB na janela de visualização, colocando esta linha no seu sombreador personalizado:
+Estas são as conversões usadas no Painter. É possível anular a conversão linear automática -> sRGB na viewport colocando esta linha no seu sombreador personalizado:
 
 *#define DISABLE\_FRAMEBUFFER\_SRGB\_CONVERSION*
 

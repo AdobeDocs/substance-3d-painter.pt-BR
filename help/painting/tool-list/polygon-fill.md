@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
-description: Use a ferramenta Preenchimento de polígono no Substance 3D Painter para preencher polígonos selecionados com pintura, proporcionando uma textura eficiente.
+description: Use a ferramenta Preenchimento de polígono no Substance 3D Painter para preencher polígonos selecionados com tinta, proporcionando uma pintura de textura eficiente.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Polygon fill
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Preenchimento de polígono
 
-A ferramenta **Preenchimento de Polígono** (![](../../assets/image2018-6-12-18-15-12.png)) permite desenhar máscaras rapidamente, transformando polígonos selecionados em uma máscara de pixel. Pode parecer uma ferramenta de seleção 3D de outros aplicativos 3DCC, mas na verdade é uma ferramenta de preenchimento de pintura que resulta em dados de pixels. Isso significa selecionar e cancelar a seleção de trabalhos usando-a para pintar de branco ou preto.
+A ferramenta **Preenchimento de Polígono** (![](../../assets/image2018-6-12-18-15-12.png)) permite desenhar máscaras rapidamente, transformando polígonos selecionados em uma máscara de pixel. Pode parecer uma ferramenta de seleção 3D de outros aplicativos 3DCC, mas na verdade é uma ferramenta de preenchimento de pintura que resulta em dados de pixels. Isso significa selecionar e cancelar a seleção de trabalhos usando-a para tinta em branco ou preto.
 
-A ferramenta de preenchimento de polígono funciona em [Camadas de pintura](../../interface/layer-stack/layer-stack.md), mas está limitada apenas a basecolor e não se destina a essa finalidade. [Use-o somente para máscaras](../../interface/layer-stack/masking-and-effects.md).
+A ferramenta de preenchimento de polígono funciona em [Camada de tinta](../../interface/layer-stack/layer-stack.md), mas está limitada somente a basecolor e não se destina a essa finalidade. [Use-o somente para máscaras](../../interface/layer-stack/masking-and-effects.md).
 
 Ele tem 4 modos de seleção:
 

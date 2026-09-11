@@ -26,13 +26,13 @@ Data de lançamento: *20 de novembro de 2018*
 
 ## Principais recursos
 
-### Exportação de visualização 2D
+### Exportar Visualização 2D
 
 ![](../../assets/export-2d-view.jpg)
 
-Agora é possível **exportar a exibição 2D** renderizando **como uma textura**. Este recurso foi solicitado por muitas pessoas e finalmente o disponibilizamos! O processo de exportação utilizará o estado atual da **exibição 2D** para renderizar uma textura com as configurações de exportação regulares (preenchimento, formato de arquivo, profundidade de bits). Isso significa que se o modo de exibição estiver definido como **Isolar**, em vez do modo de **Material**, a exibição 2D será exportada como está.
+Agora é possível **exportar a renderização** do Visualização 2D **como uma textura**. Este recurso foi solicitado por muitas pessoas e finalmente o disponibilizamos! O processo de exportação utilizará o estado atual do **Visualização 2D** para renderizar uma textura com as configurações de exportação regulares (preenchimento, formato de arquivo, profundidade de bits). Isso significa que se o modo de exibição estiver definido como **Isolar**, em vez do modo de **Material**, o Visualização 2D será exportado como está.
 
-Vá para a **janela Exportar** e escolha a nova configuração denominada “**Exibição 2D**”:\
+Vá para a **janela Exportar** e escolha a nova configuração denominada “**Visualização 2D**”:\
 ![](../../assets/2d-view-export-config.png)
 
 Um novo **Mapa Convertido** chamado “**Modo de Exibição 2D**” também está disponível na guia **Configuração** da janela Exportar, caso você queira criar sua própria **predefinição de exportação**.
@@ -41,8 +41,8 @@ Um novo **Mapa Convertido** chamado “**Modo de Exibição 2D**” também est�
 
 ![](../../assets/baked-lighting.jpg)
 
-O filtro **Ambiente de iluminação baked** foi bastante aprimorado e agora oferece suporte adequado aos **mapas de ambiente HDR**.\
-Agora é possível replicar a iluminação da viewport (como vista na visualização 2D) e colocá-la no canal de Cor base. O novo filtro fornece mais controles, como **rotação** o mapa de **ambiente**, **verticalmente** e alteração da **exposição**.
+O filtro **Ambiente de iluminação baked** foi bastante aprimorado e agora oferece suporte adequado aos **mapas de ambiente de HDR**.\
+Agora, você pode replicar a iluminação da viewport (como vista na Visualização 2D) e fazer bake para baixo no canal da Cor de base. O novo filtro fornece mais controles, como **rotação** o mapa de **ambiente**, **verticalmente** e alteração da **exposição**.
 
 ![](../../assets/shelf-baked-lighting.png)
 
@@ -50,9 +50,9 @@ Agora é possível replicar a iluminação da viewport (como vista na visualiza�
 
 ![](../../assets/capture-optim.gif)
 
-Nesta nova versão, apresentamos um novo sombreador chamado “**pbr-metal-rough-anisotropia-angle**”. Este sombreador dá suporte a dois canais chamados “**Ângulo de Anisotropia**” e “**Nível de Anisotropia**”, que podem ser usados para criar reflexões de specular anisotrópicas. Este sombreador também será traduzido para Iray como ele é sem a necessidade de qualquer conversão.
+Nesta nova versão, apresentamos um novo sombreador chamado “**pbr-metal-rough-anisotropia-angle**”. Este sombreador dá suporte a dois canais chamados “**Ângulo de Anisotropia**” e “**Nível de Anisotropia**”, que podem ser usados para criar reflexões de specular anisotrópicas. Este sombreador também será traduzido para o Iray sem a necessidade de qualquer conversão.
 
-Este novo sombreador pode ser acessado por meio da [Janela do Sombreador](../../interface/shader-settings/shader-settings.md) clicando no botão do sombreador e abrindo a miniprateleira:
+Este novo sombreador pode ser acessado através da [Janela Sombreador](../../interface/shader-settings/shader-settings.md) clicando no botão sombreador e abrindo a miniprateleira:
 
 ![](../../assets/shader-anisotropy.png)
 
@@ -60,13 +60,13 @@ O projeto de amostra padrão “**Esfera de visualização**” foi atualizado p
 
 >[!NOTE]
 >
-> Se você tiver uma aparência estranha com os **artefatos de linha** ao usar gradientes dentro do canal **Ângulo de Anisotropia**, tente alterar o modo de filtragem para “**Mais próximo**” no caso de uma camada de preenchimento, pois isso pode melhorar a amostragem do sombreador e eliminar o problema.
+> Se você tiver uma aparência estranha com **artefatos de linha** ao usar gradientes dentro do canal **Ângulo de anisotropia**, tente alterar o modo de filtragem para “**Mais próximo**” no caso de uma camada de preenchimento, pois isso pode melhorar a amostragem do sombreador e resolver o problema.
 
-### Limpar sombreador de revestimento atualizado
+### Sombreador de revestimento transparente atualizado
 
 ![](../../assets/coated.jpg)
 
-O sombreador **Revestimento transparente** (**revestido com pbr**) foi aprimorado para oferecer mais controles e possibilidades de renderização. Também aproveitamos a oportunidade para torná-lo compatível com o **Iray** com um **MDL** dedicado.
+O sombreador **Revestido** (**pbr-coated**) foi aprimorado para oferecer mais controles e possibilidades de renderização. Também aproveitamos a oportunidade para torná-lo compatível com o **Iray** com um **MDL** dedicado.
 
 Veja uma lista das alterações:
 
@@ -74,7 +74,7 @@ Veja uma lista das alterações:
 * **Mascarar** a camada secundária (via canal **Usuário1**).
 * Escolha qual comportamento aplicar à camada de superfície: **Manter Detalhes Normais** (original) ou **Suavizar superfície** (novo, ignorar mapa de malha normal)
 
-Para sua conveniência, também adicionamos um novo modelo de projeto pronto para texturizar este novo sombreador chamado: **PBR - Aspereza metálica revestida**.
+Para sua conveniência, também adicionamos um novo modelo de projeto pronto para texturizar este novo sombreador denominado: **PBR - Aspereza metálica revestida**.
 
 ![](../../assets/shader-coated.png)
 
@@ -99,7 +99,7 @@ O novo **TAA** também filtrará bem o padrão de Ruído Azul visível nos **ref
 
 Uma grande mudança nesta nova versão é a introdução das **Texturas Virtuais Esparsas** ou do **SVT**.
 
-Esse novo sistema altera alguns conceitos básicos de Substance Painter e a maneira como o aplicativo funciona. O Substance Painter agora usa o SVT como uma maneira de manter um espaço de memória específico para o visor, permitindo **transmitir texturas de entrada e saída**. O principal benefício é a capacidade de carregar projetos maiores com mais facilidade e reduzir a pressão sobre a GPU para **melhorar o desempenho**. Isso significa que, se as coisas começarem a ficar muito grandes, descarregará algumas texturas no disco e as recuperará mais tarde, se necessário). Este é um **cache volátil** que é excluído quando o aplicativo é fechado.
+Esse novo sistema altera alguns conceitos básicos de Substance Painter e a maneira como o aplicativo funciona. O Substance Painter agora usa o SVT como uma maneira de manter um espaço de memória específico para a viewport, permitindo **fazer stream de texturas de entrada e saída**. O principal benefício é a capacidade de carregar projetos maiores com mais facilidade e reduzir a pressão sobre a GPU para **melhorar o desempenho**. Isso significa que, se as coisas começarem a ficar muito grandes, algumas texturas serão descarregadas no disco e recuperadas mais tarde (se necessário). Este é um **cache volátil** que é excluído quando o aplicativo é fechado.
 
 Outro benefício do sistema é a introdução de **mipmaps** dentro do **visor**, que melhorará a qualidade da textura e reduzirá o efeito Moiré especialmente visível com os padrões do Fabric.
 
@@ -118,7 +118,7 @@ Para obter mais informações sobre o SVT, dê uma olhada em nossa página de do
 > 
 > Essas configurações podem ser substituídas por meio da variável de ambiente: [Variáveis de ambiente](../../pipeline-and-integration/configuration/environment-variables.md).
 
-### Ferramenta Simetria nova e aprimorada
+### Ferramenta de Simetria nova e aprimorada
 
 ![](../../assets/symmetry-offset-optim.gif)
 
@@ -129,15 +129,15 @@ Também aproveitamos a oportunidade para dar um pouco de amor a esse recurso e a
 * Uma **linha de interseção** agora é desenhada pelo **padrão** na malha para mostrar onde está o plano de simetria.
 * Um **ponto espelhado** agora aparece ao mover o **cursor** para mostrar onde o traçado do pincel espelhado será aplicado.
 
-Todos os novos elementos visuais podem ser ajustados pelo novo menu Simetria na barra de ferramentas contextual:
+Todos os novos elementos visuais podem ser ajustados pelo novo menu Simetria na Barra de ferramentas contextual:
 
 ![](../../assets/symmetry-menu.png)
 
 * **Espelho X, Espelho Y, Espelho Z** : define qual direção é usada para a simetria
 * **Deslocamento** : controla o valor de deslocamento por eixo. O ícone de Seta cruzada permite redefinir todos os deslocamentos de volta para 0.
 * **Plano de Simetria** : Mostrar Plano permite desenhar um plano que corta a malha. Mostrar interseção desenha uma linha na malha onde o plano corta a malha.
-* **Cursor de simetria** :Show O cursor desenhará um cursor de pincel secundário onde a simetria for aplicada. Ocultar enquanto a pintura somente mostrará esse cursor quando não estiver pintando.
-* **Manipulador**: o comando Mostrar Manipulador exibirá um manipulador na viewport para deslocar o plano de simetria. O **Tamanho do manipulador** controla o tamanho do controlador no visor.
+* **Cursor de Simetria** :Show O cursor desenha um cursor de pincel secundário no local em que a simetria é aplicada. Ocultar enquanto a pintura somente mostrará esse cursor quando não estiver pintando.
+* **Manipulador**: o comando Mostrar Manipulador exibirá um manipulador na viewport para deslocar o plano de simetria. O **Tamanho do Manipulador** controla o tamanho do controlador no visor.
 
 Os mesmos **atalhos** para o manipulador Tri-Planar e UV podem ser usados para ocultar/mostrar o Manipulador de Simetria:
 
@@ -151,25 +151,25 @@ Os mesmos **atalhos** para o manipulador Tri-Planar e UV podem ser usados para o
 
 ![](../../assets/trip-rotation-optim.gif)
 
-Além dos 3 eixos originais para controlar a rotação, também adicionamos uma nova esfera de rotação ao controlar o manipulador Triplanar. A esfera facilita a tentativa rápida de ângulos diferentes ao projetar padrões de ruído, por exemplo.
+Além dos três eixos originais para controlar a rotação, também adicionamos uma nova esfera de rotação ao controlar o manipulador Tri-planar. A esfera facilita a tentativa rápida de ângulos diferentes ao projetar padrões de ruído, por exemplo.
 
-### Exportar texturas pontilhadas de 8 bits
+### Exportar Texturas pontilhadas de 8 bits
 
 ![](../../assets/dither-1.jpg)
 
-Ao exportar texturas de mapa Normal e de Height para formatos de arquivo no modo de 8 bits, o Substance Painter agora aplicará automaticamente o **pontilhamento** para reduzir **bandas** **problemas**.
+Ao exportar texturas de mapa de Altura e Normal para formatos de arquivo no modo de 8 bits, agora o Substance Painter aplicará automaticamente o **pontilhamento** para reduzir **faixas** **problemas**.
 
 >[!NOTE]
 >
-> Caso uma predefinição de exportação use um mapa normal, mas algo mais na alfa (como RGB = Normal, A = Aspereza), somente o normal será pontilhado.
+> No caso de uma predefinição de exportação usar um mapa normal, mas algo mais na alfa (como RGB = Normal, A = Aspereza), somente o normal será pontilhado.
 
 ### Melhorias no comportamento da pilha de camadas
 
 ![](../../assets/color-layers.gif)
 
-Algumas melhorias de fluxo de trabalho foram feitas na pilha de camadas e no gerenciamento de camadas:
+Algumas melhorias de fluxo de trabalho foram feitas no gerenciamento de pilha de camadas e camadas:
 
-* Atribua **cor** a **camadas** e **pastas** dentro da Pilha de Camadas por meio do menu de **clique com o botão direito** para organizar as camadas.\
+* Atribua **cor** a **camadas** e **pastas** dentro da Pilha de camadas por meio do menu de **clique com o botão direito** para organizar as camadas.\
   Entretanto, as cores da camada Substance Painter se comportam de forma um pouco diferente de outros pacotes de software:
   * As camadas dentro de uma pasta herdarão a cor da pasta (mas aparecerão esmaecidas).
   * Mover uma camada sem uma cor atribuída dentro de uma pasta que tenha uma cor herdará a cor da pasta.
@@ -189,7 +189,7 @@ Algumas melhorias de fluxo de trabalho foram feitas na pilha de camadas e no ger
 
 ![](../../assets/uv-border-generator.gif)
 
-Novas entradas de Substance foram expostas para geradores e filtros personalizados. Essas novas entradas de textura permitem a criação de efeitos mais avançados graças a novas informações relacionadas à malha.
+Novas entradas de Substance foram expostas para geradores e filtros personalizados. Essas novas entradas de textura permitem a criação de efeitos mais avançados graças às novas informações relacionadas à malha.
 
 As novas entradas disponíveis são:
 
@@ -202,13 +202,13 @@ As novas entradas disponíveis são:
 
 Para obter mais detalhes, consulte a nova documentação: [Entrada baseada em malha](../../content/creating-custom-effects/mesh-based-input.md)
 
-Como exemplo, agora fornecemos um novo **gerador de máscaras** chamado “**Distância da Borda UV**” que cria uma máscara em preto e branco a partir da borda das Ilhas UV do Conjunto de Texturas atual.
+Como exemplo, agora fornecemos um novo **gerador de máscara** chamado “**Distância da Borda UV**” que cria uma máscara preto e branco a partir da borda das Ilhas UV do Conjunto de Textura atual.
 
 ![](../../assets/uv-border.png)
 
 >[!NOTE]
 >
-> Essas entradas são fornecidas diretamente do mecanismo de Substance Painter com base na malha do projeto e não usam os [Padeiros](../../baking/baking.md).
+> Essas entradas são fornecidas diretamente do mecanismo de Substance Painter com base no projeto Mesh e não usam os [Baker](../../baking/baking.md).
 
 ### Conteúdo novo e atualizado
 
@@ -216,7 +216,7 @@ Como exemplo, agora fornecemos um novo **gerador de máscaras** chamado “**Dis
 
 Nesta nova versão, incluímos um novo conteúdo:
 
-* Novos padrões de **gradiente** de procedimento a serem usados com o novo sombreador **anisotrópico** :
+* Novos padrões processuais de **gradiente** a serem usados com o novo sombreador **anisotrópico**:
 
   * Radial anisotrópico
   * Gradiente circular
@@ -237,19 +237,19 @@ Nesta nova versão, incluímos um novo conteúdo:
     ![](../../assets/envmap.png)
 * Novo **projeto** **modelos** :
 
-  * PBR - Ângulo de Anisotropia de aspereza metálica
-  * PBR - aspereza metálica revestida
+  * PBR - ASPEREZA METÁLICA ÂNGULO DE ANISOTROPIA
+  * PBR - Revestido por Aspereza metálica
 * Novo **material**:
 
   * Mulher humana 30s Face 06 (pode ser encontrada rapidamente através da predefinição de pele na prateleira)\
-    Este novo material de pele foi fornecido pelo **Texturing.XYZ** e fornece ótimos detalhes de superfície para pintar pele realista.\
+    Este novo material de pele foi fornecido pelo **Texturing.XYZ** e fornece ótimos detalhes de superfície para tinta de pele realista.\
     ![](../../assets/skin-face.png)
 
 Também atualizamos parte do conteúdo existente para refiná-lo:
 
 * Filtro atualizador “**Ambiente de iluminação baked**” : veja acima.
 * Filtro atualizado “**MatFx Shutline**” : agora permite ocultar o efeito de material e manter apenas o resultado de height/normal.
-* **Projeto de amostra** atualizado: a esfera de visualização agora pode ser usada com simetria e tem um novo ângulo de câmera para renderizações personalizadas. Seu sombreador padrão agora é “Ângulo de Anisotropia”.
+* **Projeto de amostra** atualizado: a esfera de visualização agora pode ser usada com simetria e tem um novo ângulo de câmera para renderizações personalizadas. Seu sombreador padrão agora é “Ângulo de anisotropia”.
 
 ## Notas de versão
 
@@ -346,7 +346,7 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 
 <b><b>Adicionado:</b></b>
 
-* Resumo: atualizações de viewport, exportação adequada de visualização em 2D, novos auxiliares de interface, uma ferramenta de simetria aprimorada, novo conteúdo e um enorme aumento no desempenho
+* Resumo: atualizações de viewport, exportação adequada de Visualização 2D, novos auxiliares de interface, uma ferramenta de simetria aprimorada, novo conteúdo e um enorme aumento no desempenho
 * [Suavização de borda]&#x200B;[Janela de visualização] Nova filtragem de suavizações temporais para a janela de visualização 3D (através das Configurações de exibição)
 * [Exportar] Exporta o conteúdo da viewport 2D como uma textura única
 * [Exportar]&#x200B;[Pontilhamento] Expor pontilhamento na exportação

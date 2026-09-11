@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
-description: Acesse a referência API de sombreamento de superfície do Substance 3D Painter para criar efeitos e materiais de sombreador de superfície personalizados.
+description: Acesse a Referência do Surface API de sombreamento para o Substance 3D Painter para criar efeitos e materiais de sombreador de superfície personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Sombreador de Superfície - API de sombreamento
 
-## surface-shader.glsl
+## superfície-sombreador.glsl
 
 Para criar um recurso de sombreador que possa ser usado em Substance Painter, basta criar um arquivo glsl contendo uma única função chamada *sombra* com o seguinte perfil:
 

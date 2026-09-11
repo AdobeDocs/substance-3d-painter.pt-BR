@@ -31,7 +31,7 @@ No [Conjunto de Texturas](../../interface/texture-set/texture-set.md), adicione 
 
 >[!NOTE]
 >
-> O canal de dispersão funciona como uma **máscara** sobre a **superfície**: se o canal for preto, não haverá subsuperfície nenhuma, enquanto se for branco, a intensidade da subsuperfície será no máximo. Este canal é um valor em tons de cinza que é **preto por padrão**. Adicione uma camada de preenchimento na pilha de camadas para controlar a cor padrão ou use uma camada de pintura para controlar manualmente a intensidade.
+> O canal de dispersão funciona como uma **máscara** sobre a **superfície**: se o canal for preto, não haverá subsuperfície nenhuma, enquanto se for branco, a intensidade da subsuperfície será no máximo. Este canal é um valor em tons de cinza que é **preto por padrão**. Adicione uma camada de preenchimento na pilha de camadas para controlar a cor padrão ou use uma camada de tinta para controlar manualmente a intensidade.
 
 ## 2 - Configuração de Subsuperfície Global
 
@@ -43,11 +43,11 @@ Habilite a configuração principal de dispersão da subsuperfície nas [Configu
 >
 > Ativar/desativar o efeito Subsuperfície afeta o projeto inteiro. Pode ser útil usar esse parâmetro global se ele for muito pesado em termos de desempenho.
 
-## 3 - Configurações do sombreador
+## 3 - Configurações de Sombreador
 
 ![](../../assets/shader-parameters.png)
 
-Na janela [Configurações do sombreador](../../interface/shader-settings/shader-settings.md) com sombreadores padrão, pode ser encontrado um grupo &quot; **Parâmetros SSS**” com duas configurações.\
+Na janela [configurações do Sombreador](../../interface/shader-settings/shader-settings.md) com sombreadores padrão, pode ser encontrado um grupo &quot; **Parâmetros SSS** &quot; com duas configurações.\
 Altere a escala e a cor para ajustar o material de destino. Para obter mais detalhes sobre essas configurações, consulte: [Parâmetros da Subsuperfície](subsurface-parameters.md)
 
 ## Bônus : Ativando sombras

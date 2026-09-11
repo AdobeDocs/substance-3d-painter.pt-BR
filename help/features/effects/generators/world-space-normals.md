@@ -14,7 +14,7 @@ ht-degree: 4%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_world_space_normals.png" alt=""/><br><strong>Entrada:</strong> máscara, gerador, tons de cinza, mesclagem</td>
-    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador normal de espaço global usa o mapa normal de espaço global cozido para colorir o modelo ou aplicar efeitos com base na direção para a qual cada superfície está voltada no espaço 3D. Por exemplo, de cima para baixo.<br><br>O gerador de World Space Normals gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para aplicar vários efeitos como dirt, dust, neve ou ferrugem com base nas direções do rosto.<br><br>Mapas normais de posição cozida e espaço global são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como assar aqui</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descrição</strong><br>O gerador Normal de Espaço Mundial usa o mapa normal de espaço global feito bake para colorir seu modelo ou aplicar efeitos com base na direção que cada superfície está voltada para o espaço 3D. Por exemplo, de cima para baixo.<br><br>O gerador de World Space Normals gera uma textura monocromática (preto e branco). Como resultado, é útil para gerar máscaras para aplicar vários efeitos como dirt, dust, neve ou ferrugem com base nas direções do rosto.<br><br>Mapas normais de posição e espaço global Feitos bake são necessários como entradas de imagem. <a href="../../../baking/baking.md">Saiba mais sobre como fazer bake aqui</a>.</td>
   </tr>
 </table>
 
@@ -23,8 +23,8 @@ ht-degree: 4%
 | Nome de entrada | Descrição |
 | --- | --- |
 | Cor de **Textura** | Use uma textura personalizada ou um ponto de ancoragem. |
-| **Cores Normais do Espaço Mundial** | Use o mapa World Space Normals assado. |
-| Cor do **Gradiente de posição** | Use o mapa de posição cozida. |
+| **Cores Normais do Espaço Mundial** | Use o mapa do World Space Normals feito bake. |
+| Cor do **Gradiente de posição** | Use o mapa de Posição feita bake. |
 
 ## Parâmetros
 
@@ -87,7 +87,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Conversão em tons de cinza</strong></td>
-    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">Gerador de conversão de tons de cinza tem mais informações sobre como cada método funciona</a>.</td>
+    <td>Defina o método usado para converter cores inteiras em tons de cinza. O <a href="grayscale-conversion.md">gerador de Conversão em escala cinza tem mais informações sobre como cada método funciona</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de mesclagem</strong></td>
