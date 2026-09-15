@@ -2,17 +2,15 @@
 title: Versão 12.1
 description: Notas de versão da versão 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1790'
 ht-degree: 0%
-
 ---
-
 
 # Versão 12.1
 
-O <b>Substance 3D Painter 12.1</b> apresenta um fluxo de trabalho de cozimento aprimorado com pintura de recozimento automático e correção de inclinação, suporte para a definição de material de OpenPBR e um novo modo de superfície dura para desencapsulamento automático de UV.
+O <b>Substance 3D Painter 12.1</b> traz um fluxo de trabalho de fça bake aprimorado com pintura de recozimento automático e correção de inclinação, suporte para a definição de material de OpenPBR e um novo modo de superfície rígida para desencapsulamento UV automático.
 
 Data de lançamento: <b>22 de junho de 2026</b>
 
@@ -22,21 +20,21 @@ Data de lançamento: <b>22 de junho de 2026</b>
 
 ## Principais recursos
 
-### Fluxo de trabalho de cozimento aprimorado com pintura de inclinação
+### Fluxo de trabalho de fça bake aprimorado com pintura de inclinação
 
 ![](../assets/v12/v12_banner_skew.jpg)
 
-O fluxo de trabalho de cozimento foi reformulado para oferecer suporte a recozimento contínuo, pintura de correção de inclinação na malha, proteção de bordas e uma lista de mapas de malha redesenhada.
+O fluxo de trabalho de fça bake foi reformulado para oferecer suporte a recozimento contínuo, pintura de correção de inclinação na malha, proteção de bordas e uma lista de mapas de malha redesenhada.
 
 * <b>Recozimento automático</b>
 
-  Um mapa de malha pode ser refeito continuamente à medida que seus parâmetros de cozimento são ajustados, removendo a necessidade de acionar manualmente um bolo após cada alteração. O Recozimento automático é alternado por mapa e se aplica a um único mapa de cada vez. Isso é especialmente conveniente para o fluxo de trabalho de pintura de inclinação, mas também para o ajuste de configurações gerais de cozimento.
+  Um mapa de malha pode ser recuperado continuamente à medida que seus parâmetros de fça bake são ajustados, removendo a necessidade de acionar manualmente um faço bake após cada alteração. O Recozimento automático é alternado por mapa e se aplica a um único mapa de cada vez. Isso é especialmente conveniente para o fluxo de trabalho de pintura de inclinação, mas também para o ajuste de configurações gerais de faço bake.
 
   ![](../assets/v12/v12_auto_rebake.png)
 
 * <b>Pintura de correção de inclinação</b>
 
-  Quando a gaiola é definida para o modo <b>Baseado em distância</b>, as correções de inclinação podem ser pintadas diretamente na malha de baixo polígono para controlar a direção da projeção usada durante a cozedura. As ferramentas pincel, borracha e preenchimento de polígono estão disponíveis, com um seletor de valor de tons de cinza compacto, simetria e os controles de pincel comuns (<b>Pressione Ctrl + clique com o botão direito</b> para redimensionar o pincel, <b>X</b> para inverter o valor pintado). As ações de pintura de inclinação podem ser desfeitas.
+  Quando o compartimento é definido para o modo <b>Baseado na distância</b>, as correções de inclinação podem ser pintadas diretamente na malha de baixo polígono para controlar a direção da projeção usada durante o fça bake. As ferramentas pincel, borracha e preenchimento de polígono estão disponíveis, com um seletor de valor de tons de cinza compacto, simetria e os controles de pincel comuns (<b>Pressione Ctrl + clique com o botão direito</b> para redimensionar o pincel, <b>X</b> para inverter o valor pintado). As ações de pintura de inclinação podem ser desfeitas.
 
   ![](../assets/v12/v12_skew_fix_rebake.gif)
 
@@ -48,13 +46,13 @@ O fluxo de trabalho de cozimento foi reformulado para oferecer suporte a recozim
 
 * <b>Lista de mapas de malha redesenhada</b>
 
-  A lista de mapas de malha fornece controles por mapa: alternar um mapa como visor <b>visualização</b>, <b>cozimento rápido</b> um único mapa, alternar seu <b>recozimento automático</b> e <b>sincronizar</b> suas configurações em Conjuntos de Textura (disponíveis quando o projeto tem vários Conjuntos de Textura). Cada controle tem uma dica de ferramenta ao passar o mouse.
+  A lista de mapas de malha fornece controles por mapa: alterne um mapa como a <b>visualização</b> do visor, <b>fça bake rápido</b> um único mapa, alterne seu <b>recuo automático</b> e <b>sincronize</b> suas configurações em Conjuntos de Textura (disponíveis quando o projeto tem vários Conjuntos de Textura). Cada controle tem uma dica de ferramenta ao passar o mouse.
 
   ![](../assets/v12/v12_quick_bake.png)
 
-* <b>Botão de cozimento simplificado</b>
+* <b>Botão fazer bake simplificado</b>
 
-  O botão de cozimento do visor foi substituído por um único botão <b>Cozinhar</b> que exibe o número de mapas a serem cozidos (conjuntos de texturas x blocos UV x mapas de malha selecionados).
+  O botão fazer bake do visor foi substituído por um único botão <b>Fazer bake</b> que exibe o número de mapas a serem feitos bake (Conjuntos de texturas x Blocos UV x mapas de malha selecionados).
 
   ![](../assets/v12/v12_bake_button.png)
 
@@ -150,6 +148,29 @@ Dê uma olhada em nosso tutorial mais recente no YouTube:
 
 ## Notas de versão
 
+### 12.1.5
+
+Data de lançamento: **09/2026/15**
+
+Resumo: **Versão secundária**
+
+**Corrigido:**
+
+* Exportar imagem de prateleira para uma rede não funciona mais
+* [Gerador] Configurar “usar textura” como falso não desabilita o uso da entrada de textura
+* O visor congela ao salvar enquanto edita a projeção 3D
+* A resolução da camada de material é muito baixa
+
+### 12.1.4
+
+Data de lançamento: **9/2026/04**
+
+Resumo: **Versão secundária**
+
+**Corrigido:**
+
+* [Falha] ao importar ou exportar arquivos cujos nomes de arquivo contenham caracteres não-ASCII
+
 ### 12.1.3
 
 Data de lançamento: **2026/08/25**
@@ -163,7 +184,7 @@ Resumo: **Versão secundária**
 **Corrigido:**
 
 * O seletor [Escala de cinza] permanece aberto após a alteração da ferramenta
-* [Inclinar Fazendo bake] Inclinar as interrupções da correção ao pintar e desfazer
+* [Inclinar cozimento] Inclinar as interrupções da correção ao pintar e desfazer
 * [A interação Janela de Projeção] foi bloqueada pela ferramenta de projeção
 * [Traço dinâmico] Parâmetros de traço dinâmico ausentes nas propriedades do pincel
 * Exportar para uma rede não funciona mais
@@ -177,11 +198,11 @@ Resumo: **Versão secundária**
 **Corrigido:**
 
 * \[Falha\] Alguns Substance podem levar a uma falha quando renderizados
-* \[Falha\] Reimportar malha enquanto estiver no modo de fça bake
-* \&lbrack;Falha ao inicializar a exibição de gráficos pode levar a uma falha
+* \[Falha\] Reimportar malha enquanto estiver no modo de cozimento
+* \[Falha ao inicializar a exibição de gráficos pode levar a uma falha
 * \[Falha\] A exportação de texturas pode falhar em alguns casos ao atualizar o registro
-* \[Falha\] Falha no modo de fça bake em alguns casos ao carregar/atualizar o mapa de ambiente
-* \[Fazer bake\] Reiniciar o faço bake após modificar um arquivo poly alto pode levar a um congelamento
+* \[Falha\] Falha no modo de cozimento em alguns casos ao carregar/atualizar o mapa do ambiente
+* \[Preparação\] Reiniciar o bake após modificar o arquivo poli alto pode levar a um congelamento
 * \[Enviar para o Photoshop\] Falha ao exportar a máscara da camada
 * O resultado do ponto de ancoragem do \[Mecanismo\] não é renderizado entre uma máscara e um canal de cor
 
@@ -193,8 +214,8 @@ Resumo: versão secundária
 
 Adicionado:
 
-* [Fça bake de inclinação] Expor o modo normal da base de inclinação: malha ou por triângulo
-* [Propriedades] Faça com que o cor uniforme sempre redefina o valor padrão do canal
+* [Cozimento de inclinação] Expor o modo normal da base de inclinação: malha ou por triângulo
+* [Propriedades] Faça com que as cores uniformes sejam sempre redefinidas para o valor padrão do canal
 * [OpenPBR] Reagrupe canais por categorias na janela Exportar Texturas para criação de modelos de saída
 * Atualize o mecanismo de Substance para a versão 9.4.5
 
@@ -217,18 +238,18 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias de
 
 <b>Adicionado</b>:
 
-* [Mastigar cozimento] Ferramentas de pintura de inclinação
-* [Assoalho de inclinação] Adicionar sombreador de visualização de inclinação e visuais de vetor de direção de inclinação ao pintar mapa de inclinação
-* [Mascarar cozimento] Opção Adicionar proteção de borda
-* [Assobiar] Recozimento automático
-* [Assoalho de inclinação] Interface do usuário de lista do mapa de malha de retrabalho
-* [Assoalho de inclinação] Dividir as configurações do Mapa de malha/Preparação comum + Mover as configurações comuns para fora da lista de mapas de malha apenas com cor base ou máscara
-* [Inclinar cozimento] Alterar botões da barra de ferramentas da viewport
-* [Cozimento de inclinação] Mostrar alternância de simetria para o pincel na barra de ferramentas superior
-* [Assoalho de inclinação] Opções de renomeação no menu de sincronização de lista do mapa de malha
-* [Inclinação da montagem] Caixas de diálogo de sincronização de atualização e estado verificado
-* [Assoalho de inclinação] Criar variante do seletor de cores em tons de cinza
-* [Inclinar cozimento] Ícone Atualizar modo de cozimento
+* [fça bake de inclinação] Ferramentas de pintura de inclinação
+* [Fazer bake inclinação] Adicionar sombreador de visualização de inclinação e Visuais vetoriais de direção de inclinação ao pintar mapa de inclinação
+* [Fça bake de inclinação] Opção Adicionar proteção de borda
+* [fça bake de inclinação] Recozimento automático
+* [Fça bake de inclinação] Reprocessar interface do usuário da lista de mapas de malha
+* [Fça bake de inclinação] Dividir mapa de malha / Configurações de Fça bake comuns + Mover configurações comuns para fora da lista de mapas de malha apenas para cor base ou máscara
+* [Inclinar Fça bake] Alterar botões da barra de ferramentas da viewport
+* [Fazer bake inclinação] Mostrar alternância de Simetria para pincel na barra de ferramentas superior
+* [Fça bake de inclinação] Opções de renomeação no menu de sincronização de lista do mapa de malha
+* [Fça bake de inclinação] Caixas de diálogo de sincronização de atualização e estado marcado
+* [Fça bake de inclinação] Criar variante do seletor de cores em tons de cinza
+* [Inclinar Fça bake] Ícone Atualizar modo de fça bake
 * [Desenvolver automaticamente] Opção Integrar superfície rígida
 * [OpenPBR] Adicionar suporte para OpenPBR 1.1
 * [OpenPBR] Tornar o OpenPBR o fluxo de trabalho e o sombreador padrão
@@ -236,7 +257,7 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias de
 * [OpenPBR] Exportar materiais e texturas do OpenPBR via USD
 * [OpenPBR] Janela Atualizar Texturas de Exportação para mostrar a convenção de nomeação do OpenPBR
 * [OpenPBR] Adicionar documentação sobre alterações para suportar o OpenPBR
-* [OpenPBR]&#x200B;[Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
+* [OpenPBR][Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
 * Várias pequenas melhorias nas exportações em USD
 * [UI] Adicionar aviso no visor ao tentar pintar em outro conjunto de texturas
 * [Nivelar] Permite nivelar todas as camadas da instância nos Conjuntos de textura
@@ -255,20 +276,20 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias de
 
 <b>Corrigido</b>:
 
-* [Falha]&#x200B;[Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
+* [Falha][Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
 * [Crash] Ao assar a curvatura do mapa sem espaço mundial normal
-* [Falha]&#x200B;[Preparação] Cozimento com caixa personalizada ativada, mas nenhum arquivo selecionado falha
+* [Falha][Preparação] Cozimento com caixa personalizada ativada, mas nenhum arquivo selecionado falha
 * [Falha] Cancelando cozimento de AO
 * [Caixa automática] Carga infinita quando o caminho de arquivo poli alto é inválido
-* [Linux]&#x200B;[Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
+* [Linux][Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
 * [Ferramenta Preenchimento de polígono] A ferramenta não funciona com fontes não PBR
-* &lbrack;[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
+* [[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
 * [USD] Nem todas as instâncias do sombreador foram detectadas corretamente
 * [Substance] Somente o primeiro uso de um nó de entrada/saída é levado em consideração
 * [Shader] A Oclusão ambiente é aplicada duas vezes com conjuntos de texturas usando diferentes métodos de mistura
 * [Engine] Texturas normais com canal azul vazio (preto) podem levar a resultados incorretos de mesclagem
-* [Importação de GLTF] A mesclagem de alfa é ativada em todos os conjuntos de texturas
-* [Exportação GLTF] A mesclagem de alfa sempre é habilitada na exportação
+* [Importação de GLTF] a mesclagem de Alpha está ativada em todos os conjuntos de texturas
+* [Exportação GLTF] A mesclagem de Alpha é sempre ativada na exportação
 * [Exportar] A geometria de dupla face é sempre desativada ao importar um arquivo GLTF
 * [Javascript] A modificação das configurações de sombreadores não contribui para o histórico de desfazer
 * [Amostras] A dispersão da subsuperfície não está ativada nas configurações de exibição do fosco de reunião
