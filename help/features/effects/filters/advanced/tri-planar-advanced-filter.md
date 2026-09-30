@@ -1,10 +1,10 @@
 ---
 title: Avançado Tri-Planar
 description: Saiba como usar o filtro avançado Tri-Planar do Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 ---
 
 # Avançado Tri-Planar
@@ -56,20 +56,11 @@ O filtro Avançado Tri-Planar é a versão de filtro do gerador Avançado Tri-Pl
 
 ### Eixo X
 
-<table>
-<tr>
-<td><b>Rotação X:</b></td>
-<td>Ajuste a rotação da projeção de textura do eixo X.</td>
-</tr>
-<tr>
-<td><b>Deslocamento X X:</b></td>
-<td>Ajuste o deslocamento da projeção do eixo X ao longo do eixo X.</td>
-</tr>
-<tr>
-<td><b>Deslocamento X Y:</b></td>
-<td>Ajuste o deslocamento da projeção do eixo X ao longo do eixo Y.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Rotação X:** | Ajuste a rotação da projeção de textura do eixo X. |
+| **Deslocamento X X:** | Ajuste o deslocamento da projeção do eixo X ao longo do eixo X. |
+| **Deslocamento X Y:** | Ajuste o deslocamento da projeção do eixo X ao longo do eixo Y. |
 
 >[!NOTE]
 >
@@ -79,20 +70,11 @@ O filtro Avançado Tri-Planar é a versão de filtro do gerador Avançado Tri-Pl
 
 ### Eixo Y
 
-<table>
-<tr>
-<td><b>Rotação X:</b></td>
-<td>Ajuste a rotação da projeção de textura do eixo Y.</td>
-</tr>
-<tr>
-<td><b>Deslocamento Y X:</b></td>
-<td>Ajuste o deslocamento da projeção do eixo Y ao longo do eixo X.</td>
-</tr>
-<tr>
-<td><b>Deslocamento Y Y:</b></td>
-<td>Ajuste o deslocamento da projeção do eixo Y ao longo do eixo Y.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Rotação X:** | Ajuste a rotação da projeção de textura do eixo Y. |
+| **Deslocamento Y X:** | Ajuste o deslocamento da projeção do eixo Y ao longo do eixo X. |
+| **Deslocamento Y Y:** | Ajuste o deslocamento da projeção do eixo Y ao longo do eixo Y. |
 
 >[!NOTE]
 >
@@ -102,20 +84,11 @@ O filtro Avançado Tri-Planar é a versão de filtro do gerador Avançado Tri-Pl
 
 ### Eixo Z
 
-<table>
-<tr>
-<td><b>Rotação X:</b></td>
-<td>Ajuste a rotação da projeção da textura do eixo Z.</td>
-</tr>
-<tr>
-<td><b>Deslocamento Z X:</b></td>
-<td>Ajuste o deslocamento da projeção do eixo Z ao longo do eixo X.</td>
-</tr>
-<tr>
-<td><b>Deslocamento Z Y:</b></td>
-<td>Ajuste o deslocamento da projeção do eixo Z ao longo do eixo Y.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Rotação X:** | Ajuste a rotação da projeção da textura do eixo Z. |
+| **Deslocamento Z X:** | Ajuste o deslocamento da projeção do eixo Z ao longo do eixo X. |
+| **Deslocamento Z Y:** | Ajuste o deslocamento da projeção do eixo Z ao longo do eixo Y. |
 
 >[!NOTE]
 >

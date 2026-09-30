@@ -1,9 +1,9 @@
 ---
 title: Iluminação feita bake Estilizada
 description: Saiba como usar o filtro estilizado de iluminação Feita bake do Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '662'
 ht-degree: 1%
 ---
 
@@ -65,7 +65,7 @@ O filtro Estilizado de Iluminação Feito bake faz bake material e informações
 | <b>Cor do céu:</b> | Ajuste a cor da luz do céu. |
 | <b>Cor horizontal:</b> | Ajuste a cor da luz do horizonte. |
 | <b>Cor do solo:</b> | Ajuste a cor da luz do solo. |
-| <b>Ângulo Horizontal:</b> | Ajuste o ângulo horizontal da luz adicional. |
+| <b>Ângulo Horizontal:</b> | Ajuste a intensidade da luz adicional. |
 | <b>Ângulo Vertical:</b> | Ajuste o ângulo vertical da luz adicional. |
 | <b>Intensidade:</b> | Ajuste a intensidade da luz adicional. |
 | <b>Cor:</b> | Ajuste a cor da luz adicional. |
@@ -76,124 +76,46 @@ O filtro Estilizado de Iluminação Feito bake faz bake material e informações
 
 ### Material
 
-<table>
-<tr>
-<td><b>Reflexão dielétrica:</b></td>
-<td>Defina a quantidade de refletância dielétrica.</td>
-</tr>
-<tr>
-<td><b>Difusão AO:</b></td>
-<td>Controle quanto a oclusão de ambiente afeta os detalhes difusos.</td>
-</tr>
-<tr>
-<td><b>Cavidade da Difusão:</b></td>
-<td>Controle quanto as áreas de cavidade influenciam os detalhes difusos.</td>
-</tr>
-<tr>
-<td><b>AO specular:</b></td>
-<td>Controle quanto a oclusão de ambiente afeta os detalhes do specular.</td>
-</tr>
-<tr>
-<td><b>Cavidade do specular:</b></td>
-<td>Ajuste quanto as áreas de cavidade influenciam os detalhes do specular.</td>
-</tr>
-<tr>
-<td><b>Smoothness da cavidade:</b></td>
-<td>Ajuste a suavidade das áreas da cavidade.</td>
-</tr>
-<tr>
-<td><b>Intensidade das bordas:</b></td>
-<td>Defina a intensidade dos detalhes da borda.</td>
-</tr>
-<tr>
-<td><b>Smoothness de bordas:</b></td>
-<td>Ajuste o smoothness das áreas das bordas.</td>
-</tr>
-<tr>
-<td><b>Tipo de Detalhes Normal:</b></td>
-<td>Selecione quais detalhes são usados para os normais: somente malha ou Malha + Height + normal.</td>
-</tr>
-<tr>
-<td><b>Height para intensidade normal:</b></td>
-<td>Ajuste a intensidade dos detalhes normais gerados.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Reflexão Dielétrica:** | Defina a quantidade de refletância dielétrica. |
+| **Difusão AO:** | Controle quanto a oclusão de ambiente afeta os detalhes difusos. |
+| **Cavidade da Difusão:** | Controle quanto as áreas de cavidade influenciam os detalhes difusos. |
+| **AO de Specular:** | Controle quanto a oclusão de ambiente afeta os detalhes do specular. |
+| **Cavidade do Specular:** | Ajuste quanto as áreas de cavidade influenciam os detalhes do specular. |
+| **Smoothness de cavidade:** | Ajuste a suavidade das áreas da cavidade. |
+| **Intensidade das bordas:** | Defina a intensidade dos detalhes da borda. |
+| **Smoothness de bordas:** | Ajuste o smoothness das áreas das bordas. |
+| **Tipo de Detalhes Normais:** | Selecione quais detalhes são usados para os normais: somente malha ou Malha + Height + normal. |
+| **Height para Intensidade Normal:** | Ajuste a intensidade dos detalhes normais gerados. |
 
 ### Sol e céu
 
-<table>
-<tr>
-<td><b>Intensidade do Sol:</b></td>
-<td>Controle a força do sol.</td>
-</tr>
-<tr>
-<td><b>Ângulo horizontal do sol:</b></td>
-<td>Ajuste o ângulo horizontal do sol.</td>
-</tr>
-<tr>
-<td><b>Ângulo vertical do sol:</b></td>
-<td>Ajuste o ângulo vertical do sol.</td>
-</tr>
-<tr>
-<td><b>Cor do Sol:</b></td>
-<td>Controle a cor do sol.</td>
-</tr>
-<tr>
-<td><b>Intensidade do céu:</b></td>
-<td>Ajuste a força do céu.</td>
-</tr>
-<tr>
-<td><b>Cor do céu:</b></td>
-<td>Defina a cor do céu.</td>
-</tr>
-<tr>
-<td><b>Cor do horizonte:</b></td>
-<td>Ajuste a cor do horizonte.</td>
-</tr>
-<tr>
-<td><b>Cor do solo:</b></td>
-<td>Defina a cor do chão.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Intensidade do Sol:** | Controle a força do sol. |
+| **Ângulo Horizontal Do Sol:** | Ajuste o ângulo horizontal do sol. |
+| **Ângulo Vertical Do Sol:** | Ajuste o ângulo vertical do sol. |
+| **Cor do Sol:** | Controle a cor do sol. |
+| **Intensidade do céu:** | Ajuste a força do céu. |
+| **Cor do céu:** | Defina a cor do céu. |
+| **Cor horizontal:** | Ajuste a cor do horizonte. |
+| **Cor do solo:** | Defina a cor do chão. |
 
 ### Luz 1
 
-<table>
-<tr>
-<td><b>Ângulo horizontal:</b></td>
-<td>Ajuste o ângulo horizontal da luz adicional.</td>
-</tr>
-<tr>
-<td><b>Ângulo Vertical:</b></td>
-<td>Ajuste o ângulo vertical da luz adicional.</td>
-</tr>
-<tr>
-<td><b>Intensidade:</b></td>
-<td>Ajuste a intensidade da luz adicional.</td>
-</tr>
-<tr>
-<td><b>Cor:</b></td>
-<td>Defina a cor da luz adicional.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Ângulo Horizontal:** | Ajuste o ângulo horizontal da luz adicional. |
+| **Ângulo Vertical:** | Ajuste o ângulo vertical da luz adicional. |
+| **Intensidade:** | Ajuste a intensidade da luz adicional. |
+| **Cor:** | Defina a cor da luz adicional. |
 
 ### Claro 2
 
-<table>
-<tr>
-<td><b>Ângulo horizontal:</b></td>
-<td>Ajuste o ângulo horizontal da segunda luz adicional.</td>
-</tr>
-<tr>
-<td><b>Ângulo Vertical:</b></td>
-<td>Ajuste o ângulo vertical da segunda luz adicional.</td>
-</tr>
-<tr>
-<td><b>Intensidade:</b></td>
-<td>Ajuste a intensidade da segunda luz adicional.</td>
-</tr>
-<tr>
-<td><b>Cor:</b></td>
-<td>Defina a cor da segunda luz adicional.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Ângulo Horizontal:** | Ajuste o ângulo horizontal da segunda luz adicional. |
+| **Ângulo Vertical:** | Ajuste o ângulo vertical da segunda luz adicional. |
+| **Intensidade:** | Ajuste a intensidade da segunda luz adicional. |
+| **Cor:** | Defina a cor da segunda luz adicional. |

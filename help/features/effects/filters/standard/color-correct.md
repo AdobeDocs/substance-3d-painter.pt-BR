@@ -1,10 +1,10 @@
 ---
 title: Correção de cores
 description: Saiba como usar o filtro Correção de cores do Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 5%
 ---
 
 # Correção de cores
@@ -36,52 +36,24 @@ O filtro Correção de cores faz alterações de ajuste em realces, tons médios
 
 ### Sombras
 
-<table>
-<tr>
-<td><b>Contraste:</b></td>
-<td>Ajuste o contraste das sombras.</td>
-</tr>
-<tr>
-<td><b>Luminosidade:</b></td>
-<td>Ajuste o brilho das sombras.</td>
-</tr>
-<tr>
-<td><b>Saturação:</b></td>
-<td>Ajuste a saturação das sombras.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Contraste:** | Ajuste o contraste das sombras. |
+| **Luminosidade:** | Ajuste o brilho das sombras. |
+| **Saturação:** | Ajuste a saturação das sombras. |
 
 ### Tons médios
 
-<table>
-<tr>
-<td><b>Contraste:</b></td>
-<td>Ajuste o contraste dos tons médios.</td>
-</tr>
-<tr>
-<td><b>Luminosidade:</b></td>
-<td>Ajuste o brilho dos tons médios.</td>
-</tr>
-<tr>
-<td><b>Saturação:</b></td>
-<td>Ajuste a saturação dos tons médios.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Contraste:** | Ajuste o contraste dos tons médios. |
+| **Luminosidade:** | Ajuste o brilho dos tons médios. |
+| **Saturação:** | Ajuste a saturação dos tons médios. |
 
 ### Realces
 
-<table>
-<tr>
-<td><b>Contraste:</b></td>
-<td>Ajuste o contraste dos destaques.</td>
-</tr>
-<tr>
-<td><b>Luminosidade:</b></td>
-<td>Ajuste o brilho dos destaques.</td>
-</tr>
-<tr>
-<td><b>Saturação:</b></td>
-<td>Ajuste a saturação dos realces.</td>
-</tr>
-</table>
-
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Contraste:** | Ajuste o contraste dos destaques. |
+| **Luminosidade:** | Ajuste o brilho dos destaques. |
+| **Saturação:** | Ajuste a saturação dos realces. |

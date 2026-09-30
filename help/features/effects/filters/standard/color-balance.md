@@ -1,10 +1,10 @@
 ---
 title: Equilíbrio de cores
 description: Saiba como usar o filtro Equilíbrio de cores do Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 5%
 ---
 
 # Equilíbrio de cores
@@ -36,52 +36,24 @@ O filtro Equilíbrio de cores faz alterações sutis em realces, tons médios e 
 
 ### Realces
 
-<table>
-<tr>
-<td><b>Ciano &lt;-&gt; vermelho:</b></td>
-<td>Mude a cor para ciano ou vermelho.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; verde:</b></td>
-<td>Mude a cor para magenta ou verde.</td>
-</tr>
-<tr>
-<td><b>Amarelo &lt;-&gt; azul:</b></td>
-<td>Mude a cor para amarelo ou azul.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Ciano &lt;-> Vermelho:** | Mude a cor para ciano ou vermelho. |
+| **Magenta &lt;-> Verde:** | Mude a cor para magenta ou verde. |
+| **Amarelo &lt;-> Azul:** | Mude a cor para amarelo ou azul. |
 
 ### Tons médios
 
-<table>
-<tr>
-<td><b>Ciano &lt;-&gt; vermelho:</b></td>
-<td>Mude a cor para ciano ou vermelho.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; verde:</b></td>
-<td>Mude a cor para magenta ou verde.</td>
-</tr>
-<tr>
-<td><b>Amarelo &lt;-&gt; azul:</b></td>
-<td>Mude a cor para amarelo ou azul.</td>
-</tr>
-</table>
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Ciano &lt;-> Vermelho:** | Mude a cor para ciano ou vermelho. |
+| **Magenta &lt;-> Verde:** | Mude a cor para magenta ou verde. |
+| **Amarelo &lt;-> Azul:** | Mude a cor para amarelo ou azul. |
 
 ### Sombras
 
-<table>
-<tr>
-<td><b>Ciano &lt;-&gt; vermelho:</b></td>
-<td>Mude a cor para ciano ou vermelho.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; verde:</b></td>
-<td>Mude a cor para magenta ou verde.</td>
-</tr>
-<tr>
-<td><b>Amarelo &lt;-&gt; azul:</b></td>
-<td>Mude a cor para amarelo ou azul.</td>
-</tr>
-</table>
-
+| Nome do parâmetro | Descrição |
+| --- | --- |
+| **Ciano &lt;-> Vermelho:** | Mude a cor para ciano ou vermelho. |
+| **Magenta &lt;-> Verde:** | Mude a cor para magenta ou verde. |
+| **Amarelo &lt;-> Azul:** | Mude a cor para amarelo ou azul. |
