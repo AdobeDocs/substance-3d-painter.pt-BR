@@ -1,13 +1,13 @@
 ---
-title: Filtro
+title: Filtros
 description: Saiba como usar efeitos de filtro no Substance 3D Painter para aplicar filtros de processamento de imagem e ajustes de textura.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 4b8afda243f2969b036efe14588f201177ee3139
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '635'
 ht-degree: 3%
 ---
 
-# Filtro
+# Filtros
 
 Efeitos de filtro são substâncias que transformam o conteúdo de uma camada ou máscara. Com o modo de mesclagem Transparência, uma camada pode modificar os resultados da pilha de camadas. Assim, o uso de um filtro em uma camada com o modo de mesclagem Transparência permite usar filtros para modificar a pilha de camadas como um todo.
 
@@ -18,7 +18,7 @@ Dependendo do tipo de filtro, um efeito de filtro deve ser criado no conteúdo o
 * A abordagem manual requer várias etapas para configurar o filtro, mas fornece controle direto sobre cada etapa do processo.
 * A abordagem de arrastar e soltar permite adicionar um filtro rapidamente e define automaticamente o modo de mesclagem para passagem em todos os canais.
 
-### Aplicar um filtro manualmente
+### Adicionar um filtro manualmente
 
 No exemplo a seguir, um filtro de desfoque é aplicado ao conteúdo de uma camada, mas é usado com mais frequência para aplicar filtros a máscaras:
 
@@ -55,13 +55,17 @@ Selecione o filtro que deseja usar na prateleira. Arraste-o e solte-o na pilha d
 
 Observe, no exemplo acima, que o filtro solto já tem um modo de Mesclagem de Transparência. Isso é verdadeiro para todos os canais do documento.
 
-## Adicionar novos filtros
+## Adicionar novos filtros ao Painter
 
-Todos os filtros são Substance, que podem ser criados com o Substance 3D Designer. Como inicialização rápida, a Substance 3D Designer fornece modelos prontos para uso para o Substance 3D Painter.
+Se você tiver novos filtros para trazer para o Painter, poderá adicioná-los assim como adicionaria recursos padrão, bastando arrastar e soltar o arquivo SBSAR no **Painel Ativos** para gerenciar a importação dos novos filtros.
+
+## Crie seus próprios filtros
+
+Todos os filtros são Substance, que podem ser criados com o Substance 3D Designer. A Substance 3D Designer fornece modelos para o Substance 3D Painter para ajudar você a começar rapidamente.
 
 Para obter mais informações, consulte esta página: [Criando efeitos personalizados](../../content/creating-custom-effects/creating-custom-effects.md)
 
-## Filtros disponíveis
+## Filtros padrão no Painter
 
 ### Padrão
 
