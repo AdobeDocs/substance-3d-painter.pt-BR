@@ -159,9 +159,9 @@ Resumo: <b>Versão principal com Tinta ao longo do caminho que permite Curvas 3D
 * [Traçados dinâmicos] Adicionar propriedade de distância para traçados dinâmicos
 * [Traçados dinâmicos] Adicionar propriedades de tamanho e espaçamento aos traçados dinâmicos
 * [Traçados dinâmicos] Adicionar propriedade início/meio/fim para traçados dinâmicos
-* [Python][USD] Expor os parâmetros de configuração do projeto para o formato USD
-* [Python][USD] Expor os parâmetros de criação de projetos para o formato USD
-* [Export][USD] Adicionar informações de caminho do projeto no arquivo USD exportado
+* [Python]&#x200B;[USD] Expor os parâmetros de configuração do projeto para o formato USD
+* [Python]&#x200B;[USD] Expor os parâmetros de criação de projetos para o formato USD
+* [Export]&#x200B;[USD] Adicionar informações de caminho do projeto no arquivo USD exportado
 * [GLTF] Atualizar o textura na biblioteca ao recarregar um arquivo GLTF
 * [Sombreador] Reduzir artefatos de costura para Ilhas UV com orientação diferente
 * [Engine] Atualização para o mecanismo de Substance versão 9.0
