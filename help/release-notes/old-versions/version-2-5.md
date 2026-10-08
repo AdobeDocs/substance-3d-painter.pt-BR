@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2-5.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 2.5 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.5
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2.5
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2.5
 
@@ -65,7 +57,7 @@ Um bom exemplo é a capacidade de usar o **novo nó de texto** do SD6 e integrá
 
 Juntamente com algumas correções e melhorias na nova prateleira, também adicionamos vários **novos filtros** para melhorar a pintura e a texturização. Também **melhoramos** o comportamento do filtro já existente (como o “**HSL**”). Também adicionamos novos **modelos** ao criar **novos projetos** (como o **Unity 5** e o **Unreal Engine 4**).
 
-### Novas melhorias de script com suporte para interface de usuário de sombreador personalizada
+### Novas melhorias de script com suporte para interface de sombreador personalizada
 
 ![](../../assets/ui-shader.jpg)
 
@@ -84,11 +76,11 @@ Os novos recursos principais são abordados na mais recente transmissão do Twit
 
 **Corrigido:**
 
-* [Baker] Falha ao assar com malhas específicas
+* [Baker] Falha ao fazer bake com malhas específicas
 
 **Problema Conhecido:**
 
-* [Mac] As partículas podem criar corrupção de textura em alguns casos
+* [Mac] Partículas podem criar corrupção de textura em alguns casos
 
 ### 2.5.2
 
@@ -98,25 +90,25 @@ Os novos recursos principais são abordados na mais recente transmissão do Twit
 
 * [Ferramenta] O tablet Wacom não funciona no Linux
 * [Ferramenta] Artefatos pretos ao usar a ferramenta de borrar
-* [Padarias] A cozedura falha se a opção Coincidir pelo nome for usada com uma caixa
-* [Pães] Oclusão ambiente quebrada ao assar apenas com mapa normal
+* [Baker] A Faz bake falhará se Corresponder por nome for usado com uma caixa
+* [Baker] Oclusão de ambiente interrompida ao fazer bake apenas com o Mapa normal
 * [Prateleira] Os filtros genéricos não tratam o alfa corretamente (Contraste/Luminosidade, Highpass etc.)
 * [Viewport] Problema de desempenho ao carregar um projeto com sombras ativadas
-* [Janela de visualização] Problema de pontilhamento na visualização 3D no MacOS
+* [Visor] Problema de pontilhamento no Visualização 3D para MacOS
 * [Janela de visualização] As visualizações de partículas são exibidas incorretamente quando o perfil de cores está ativado
 * [Iray] Falha ao alternar o projeto de volta para OpenGL se o Iray não inicializar
 * [IRay] A reluzência é ignorada ao renderizar o sombreador/mdl SpecGloss
-* [Shader] O sombreador de espec/brilho não corresponde a Iray e SD
-* [Shader] Conversão de sRGB diferente da conversão linear para sRGB LUT
-* [Shader] Renderização incorreta ao carregar projeto com sombreadores desatualizados
-* [Shader] O sombreador “pbr-coated” não funciona mais
+* [Sombreador] O sombreador de espec/brilho não corresponde ao Iray e SD
+* [Sombreador] Conversão de sRGB diferente da conversão linear para sRGB LUT
+* [Sombreador] Renderização incorreta ao carregar projeto com sombreadores desatualizados
+* [Sombreador] O sombreador “revestido com pbr” não funciona mais
 * [Exportar] Alguns canais ainda são exportados, mesmo que não estejam presentes no conjunto de texturas
-* [Camadas] O modo de mesclagem “detalhe inverso do mapa normal” não funciona em canais em tons de cinza
+* [Camadas] O modo de mesclagem “Detalhes inversas de mapa normal” não funciona em canais em tons de cinza
 * [UI] Problema na “Janela de seleção de cores” com monitor HDPI e zoom de exibição em 150%
 
 **Problema Conhecido:**
 
-* [Mac] As partículas podem criar corrupção de textura em alguns casos
+* [Mac] Partículas podem criar corrupção de textura em alguns casos
 
 ### 2.5.1
 
@@ -124,23 +116,23 @@ Os novos recursos principais são abordados na mais recente transmissão do Twit
 
 **Corrigido:**
 
-* [Mac] A entrada da mesa digitalizadora Wacom está interrompida na exibição 3D e 2D
-* [Padeiros] A correspondência por nome não funciona mais
-* [Bakers] A configuração “Average Normals” não funciona mais
-* [Iray] Renderização incorreta com mapa normal cozido ausente
+* [Mac] A entrada da mesa digitalizadora Wacom está interrompida em 3D e Visualização 2D
+* [Baker] A correspondência por nome não funciona mais
+* [Baker] A configuração “Média normalizada” não funciona mais
+* [Iray] Renderização incorreta sem mapa normal feito bake
 * [Iray] Os perfis de cores se comportam de maneira diferente em comparação ao renderizador OpenGL
 * [Iray] Exportar renderização como bitmap não inclui correção de perfil de cores
-* [Substance] Os filtros de material não funcionam mais
+* [Substance] Os Filtros Materiais não funcionam mais
 * [Ferramenta] A opacidade do traçado não é armazenada em predefinições de pincel
-* [Ferramenta] O alinhamento UV do pincel do clone não funciona mais
+* [Ferramenta] O alinhamento de UV do pincel de Clonar não funciona mais
 * [Exportar] O canal de Deslocamento deve ser centralizado em 0,5 ao exportar em número inteiro
 * [Modelo] O caminho absoluto é armazenado em Modelos
 * [TextureSet] A textura do canal persiste após a remoção do canal
 
 **Problema Conhecido:**
 
-* [Linux] A entrada do tablet Wacom não funciona na exibição 3D e 2D
-* [Mac] As partículas podem criar corrupção de textura em alguns casos
+* [Linux] A entrada para tablet Wacom não funciona em 3D e Visualização 2D
+* [Mac] Partículas podem criar corrupção de textura em alguns casos
 * [Exportar] Em casos muito raros, retângulos pretos podem aparecer em GPUs da AMD
 
 ### 2.5.0
@@ -157,9 +149,9 @@ Os novos recursos principais são abordados na mais recente transmissão do Twit
 * [Substance] Integrar nova estrutura (mecanismo SD6)
 * [UI] Aumentar a lista de tamanhos de “arquivo recente” no menu Arquivo
 * [Importar] Use a categoria de substâncias para preencher o prefixo na caixa de diálogo Importar
-* [Padeiros] Permitir assar texturas 8K
-* [Padarias] Permitam assar resoluções não quadradas
-* [Padarias] Melhorar o consumo de memória ao assar malhas pesadas de alta polarização
+* [Baker] Permitir fça bake texturas de 8K
+* [Baker] Permitir fazer bake resoluções não quadradas
+* [Baker] Melhorar o consumo de memória ao fazer bake malhas pesadas de alto polígono
 * [Prateleira] Bloqueie prateleiras (e projetos) para proibir a edição simultânea e evitar corrupções
 * [Prateleira] Ler categoria e palavras-chave de substâncias para usá-las para filtragem
 * [Prateleira] Permitir a exclusão de recursos do resultado de uma consulta de pesquisa
@@ -175,7 +167,7 @@ Os novos recursos principais são abordados na mais recente transmissão do Twit
 * [Sombreador] Adicionar suporte para canal de specular level em sombreadores PBR
 * [Sombreador] Adicionar suporte para pontilhamento no sombreador de teste
 * [Sombreador] Adicionar suporte para mapeamento de oclusão de paralaxe em sombreadores PBR
-* [Shader] Permite definir interface personalizada para parâmetros de sombreador
+* [Sombreador] Permite definir interface personalizada para parâmetros de sombreador
 * [MatLayering] Criar novo canal Máscara para fluxo de trabalho de camada de material
 * [Script] Permitir a gravação de metadados em um projeto SP
 * [Script] Permitir exportação com uma predefinição de exportação específica

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como resolver a caixa de diálogo de manutenção expirada que aparece na inicialização no Substance 3D Painter para gerenciamento de licenças.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > License Issues > Maintenance is expired dialog on startup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: A caixa de diálogo Manutenção expirou na inicialização
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 1%
-
 ---
-
 
 # A caixa de diálogo Manutenção expirou na inicialização
 

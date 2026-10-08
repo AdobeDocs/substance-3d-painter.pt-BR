@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar a dilatação e o preenchimento de textura no Substance 3D Painter para impedir artefatos de borda em texturas exportadas.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Dilatação ou preenchimento da textura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: Dilatação ou preenchimento de textura
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
 
-
-# Dilatação ou preenchimento da textura
+# Dilatação ou preenchimento de textura
 
 O **Preenchimento** (às vezes, também chamado de **dilatação**) é um processo que ocorre após a geração de uma textura. Sua finalidade é dilatar as bordas das Ilhas UV para preencher áreas vazias com pixels semelhantes.
 

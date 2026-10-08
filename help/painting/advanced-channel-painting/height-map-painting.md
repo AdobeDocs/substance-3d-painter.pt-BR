@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como tinta mapas de altura diretamente no Substance 3D Painter para criar efeitos de elevação de deslocamento e superfície.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Height Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pintura de mapa de altura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
-
 ---
-
 
 # Pintura de mapa de altura
 
@@ -38,7 +30,7 @@ O canal de Height usa um formato de cor **HDR**, que permite tinta valores posit
 
 * Ao pintar com um bitmap ou substância em um height, essa origem é remapeada de seu intervalo original [0,255] para um intervalo [-1,1].
 
-Um cinza médio será remapeado para 0. Portanto, valores abaixo de 127 **subtrairão** do mapa de altura, enquanto valores acima de 127 **adicionarão** a ele ao usar o modo de mistura padrão definido para os mapas de height, **Subexposição Linear (Adicionar)**.
+Um cinza médio será remapeado para 0. Portanto, valores abaixo de 127 **subtrairão** do mapa de altura, enquanto valores acima de 127 **adicionarão** a ele ao usar o modo de mesclagem padrão definido para os mapas de altura, **Subexposição linear (Adicionar)**.
 
 * Ao pintar com cor simples, você poderá selecionar valores entre -1 e 1 diretamente.
 
@@ -48,7 +40,7 @@ Ao visualizar o Mapa de altura no modo Solo, a visualização padrão mostrará 
 
 A configuração **+/- cor** permite visualizar o intervalo completo usando uma cor diferente para os valores positivos e negativos.
 
-A configuração de **Escala** permite modificar o intervalo visível desse mapa HDR caso você tenha adicionado ou subtraído mais do que o intervalo padrão [-1,1].
+A configuração de **Escala** permite modificar o intervalo visível desse mapa de HDR caso você tenha adicionado ou subtraído mais do que o intervalo padrão [-1,1].
 
 <table>
 <tr style="border: 0;">

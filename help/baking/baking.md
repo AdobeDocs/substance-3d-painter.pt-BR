@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: Saiba como fazer bake mapas de malha no Substance 3D Painter para gerar texturas de oclusão de ambiente, curvatura e outras baseadas em geometria.
-helpx_creative_field: ''
-helpx_description: Painter > Baking
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Baking
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
-
 ---
-
 
 # Baking
 
@@ -30,11 +22,11 @@ Para saber mais sobre o processo de fça bake no Painter, consulte as seguintes 
 
 * [Interface do modo de fça bake](baking-interface.md)
 * [Como fazer bake mapas de malha](how-to-bake-mesh-maps.md)
-* [Configurações de visualização de preparo](baking-visualization-settings.md)
+* [Fazendo bake configurações de visualização](baking-visualization-settings.md)
 * [Correção de distorção](skew-correction.md)
 
 Para obter uma visão geral rápida do modo de Fça bake, confira nosso tutorial em vídeo:
 
 >[!NOTE]
 >
-> Para saber mais sobre como fazer bake em geral, confira a [Documentação de Faz bake](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/home) dedicada.
+> Para saber mais sobre como fazer bake em geral, confira a [Documentação de Faz bake](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dedicada.

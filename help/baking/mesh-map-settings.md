@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Saiba como definir as configurações do mapa de malha no Substance 3D Painter para controlar os parâmetros de fça bake e a qualidade da saída.
-helpx_creative_field: ''
-helpx_description: Substance 3D Painter
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Configurações do mapa de malha
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 10%
-
 ---
-
 
 # Configurações do mapa de malha
 

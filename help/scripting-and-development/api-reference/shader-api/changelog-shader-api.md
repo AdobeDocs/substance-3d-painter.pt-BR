@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise o log de alterações do Substance 3D Painter API de sombreamento para acompanhar atualizações, novos recursos e alterações ao longo do tempo.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Changelog - API de sombreamento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
-
 ---
-
 
 # Changelog - API de sombreamento
 
@@ -59,7 +51,7 @@ ht-degree: 3%
 
 ## 2017.4.0
 
-* Reflexo de specular incorreto na exibição 2D para determinadas malhas
+* Reflexo de specular incorreto no Visualização 2D para determinadas malhas
 
 ## 2017.3.1
 
@@ -86,7 +78,7 @@ ht-degree: 3%
 * [Janela de visualização] Alguns mapas normais têm valores fixados que aparecem como artefatos
 * Corrigir canais disponíveis no documento shaders
 * Permitir a definição de uma interface de sombreador personalizada
-* Adicionar uma interface de usuário de sombreador personalizada padrão para sombreadores de camadas de material
+* Adicionar uma interface de sombreador personalizada padrão para sombreadores de camadas de material
 * Os arquivos de interface personalizada agora são pesquisados em relação a uma pasta shaders/custom-ui nas prateleiras (como o mdl)
 * Usar o canal de specular level em sombreadores padrão
 * Exemplo de parâmetros de sombreador Fix vec3

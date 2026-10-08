@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2018.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2018.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2018.2
 
@@ -44,7 +36,7 @@ Para adicionar dispersão de subsuperfície em um projeto, siga estas etapas:
 
 1. Vá para a janela **Configurações de Exibição** e **ative** a configuração **Dispersão da Subsuperfície**.
 1. Adicionar um canal “**Dispersão**” no conjunto de textura atual
-1. Use uma camada de preenchimento ou **pinte de branco** no novo canal para **revelar** o efeito de subsuperfície no visor.
+1. Use uma camada de preenchimento ou **tinta em branco** no novo canal para **revelar** o efeito de subsuperfície no visor.
 
 Um procedimento mais detalhado pode ser encontrado na [documentação sobre dispersão de subsuperfícies](../../features/subsurface-scattering/subsurface-scattering.md).
 
@@ -139,7 +131,7 @@ O quadro da câmera (e seu portão) também é levado em conta, possibilitando a
   O recurso de arrastar e soltar conteúdo da prateleira no visor foi aprimorado. Ao pressionar **CTRL** enquanto arrasta e solta um material, agora é possível escolher a cor da ID que será usada como máscara.\
   Uma máscara preta com um efeito de seleção de cor será adicionada à nova camada criada na pilha de camadas. Se o mesmo material for arrastado e solto sobre uma outra cor de ID, a camada já existente será atualizada e as cores de ID serão combinadas.\
   ![](../../assets/id-drop.gif)
-* **Rolagem de arrastar e soltar da pilha de camadas:**\
+* **Arrastar e soltar a rolagem da Pilha de camadas:**\
   Arrastar camadas ao redor da pilha de camadas agora é com uma pequena janela.\
   Quando um recurso ou uma camada é arrastado próximo às bordas da janela pilha de camadas, ele automaticamente começa a rolar seu conteúdo.\
   ![](../../assets/layer-drag.gif)
@@ -190,7 +182,7 @@ Para localizar o projeto, use a entrada de menu **Arquivo** > **Abrir Amostra...
 
 (Lançado em 25 de setembro de 2018)
 
-**&#x200B;**&#x200B;Corrigido:**&#x200B;**
+****Corrigido:****
 
 * [Visualização 2D] O Visualização 2D é quebrado com algumas malhas ao criar um novo projeto
 * [Falha] Alternar de Projeção UV para projeção tri-planar leva a um travamento
@@ -210,8 +202,8 @@ Para localizar o projeto, use a entrada de menu **Arquivo** > **Abrir Amostra...
 **Adicionado:**
 
 * Resumo: hotfix com atualização de conteúdo, novas funcionalidades de script e capacidade de desativar a atualização automática
-* [Conteúdo]&#x200B;[Prateleira] Adicionar uma predefinição de prateleira de pele
-* [Content]&#x200B;[shelf] Conversão de 19 normais de pele em materiais para dispersão subsuperficial
+* [Conteúdo][Prateleira] Adicionar uma predefinição de prateleira de pele
+* [Content][shelf] Conversão de 19 normais de pele em materiais para dispersão subsuperficial
 * [Script] Criar um modelo de projeto a partir de um projeto aberto
 * [Script] Obter/Definir configurações de exportação de um projeto aberto
 * [Atualizações] Desative o pop-up de atualização automática nas configurações e na variável de ambiente
@@ -223,11 +215,11 @@ Para localizar o projeto, use a entrada de menu **Arquivo** > **Abrir Amostra...
 * [Exibir] Alguns mapas são exibidos em linear em vez de sRGB
 * [Visores] O foco da malha não se comporta corretamente
 * [Visualização 2D] O projeto com a câmera quebrada tem Shells UVs em desaparecimento
-* [SSS]&#x200B;[Dica de ferramenta] as dicas de ferramentas de dispersão da subsuperfície aparecem no registro
+* [SSS][Dica de ferramenta] as dicas de ferramentas de dispersão da subsuperfície aparecem no registro
 * Alguns projetos não podem ser abertos em 2018.2 e a mensagem de erro não pode salvar um pacote nulo do substance
-* [Máscara] A cor da ferramenta de pintura pode travar em alguns casos ao trabalhar em uma máscara
+* [Máscara] A cor da ferramenta de Tinta pode travar em alguns casos ao trabalhar em uma máscara
 * [Material] Mapas que não aparecem em situações específicas
-* [Proj]&#x200B;[Ferramentas] Manipulador ativo com um gerador
+* [Proj][Tools] Manipulador ativo com um gerador
 * [Substance] Grupos de Substance de parâmetros ausentes
 * [Scripting] Nome de software incorreto na documentação
 * [UDIMs] Não há informações no log sobre shells UVs em vários blocos UVs
@@ -257,50 +249,50 @@ Para localizar o projeto, use a entrada de menu **Arquivo** > **Abrir Amostra...
 **Adicionado:**
 
 * Resumo: lançamento de verão, suporte à dispersão de subsuperfície, melhorias de projeção e preenchimento, importação e seleção de câmera, suporte a Alembic/glTF, arrastar e soltar no mapa de ID, suporte aprimorado ao formato de Substance e novo conteúdo
-* [SSS]&#x200B;[Viewport]&#x200B;[Iray] Dispersão genérica de subsuperfície
+* [SSS][Viewport][Iray] Dispersão genérica de subsuperfície
 * [SSS] Sincronizar parâmetros de dispersão da subsuperfície e MDL
 * [SSS] Adicionado um novo canal em tons de cinza chamado “Dispersão”
-* [SSS]&#x200B;[Configurações do sombreador] Parâmetro de tipo de dispersão para dispersão subsuperficial (pele ou translúcida)
-* [SSS]&#x200B;[Configurações do sombreador] Parâmetro de escala de dispersão para dispersão subsuperficial
-* [SSS]&#x200B;[Configurações do sombreador] Parâmetro de cor de dispersão para dispersão subsuperficial
-* [SSS]&#x200B;[Configurações de exibição] Contagem de amostra de dispersão para dispersão subsuperfície
-* [Shader]&#x200B;[Iray] Integrar MDL de dispersão de subsuperfície para Iray
-* [Shader] Atualização do sombreador por meio do atualizador de recursos
-* [Shader] Atualizar a API e a documentação do log de alterações
-* [Propriedades da ferramenta]&#x200B;[Proj] Novos parâmetros para a projeção triplanar
-* [Visor]&#x200B;[Proj] Controlar as propriedades da Camada de preenchimento na exibição 3D diretamente com manipuladores (projeção triplanar)
-* [Shortcuts]&#x200B;[Proj] Novos atalhos Q, W, E, R, T para manipuladores de projeção triplanar
-* [Viewport]&#x200B;[Proj] Controlar as propriedades da Camada de preenchimento na exibição 2D diretamente com manipuladores (Projeção UV)
-* [Shortcuts]&#x200B;[Proj] Novo atalho Q para manipuladores de Projeção UV
-* [Barra de ferramentas contextual]&#x200B;[Proj] Controla os manipuladores de projeção triplanar
-* [Barra de ferramentas contextual]&#x200B;[Proj] Controlar manipuladores de Projeção UV
-* [Propriedades da ferramenta] Desativar a divisão em blocos gráficos de textura com a ferramenta Projeção e Estêncil
+* [SSS][Configurações de Sombreador] Parâmetro de tipo de dispersão para dispersão subsuperficial (pele ou translúcida)
+* [SSS][Configurações de Sombreador] Parâmetro de escala de dispersão para dispersão subsuperficial
+* [SSS][Configurações de Sombreador] Parâmetro de cor de dispersão para dispersão subsuperficial
+* [SSS][Configurações de exibição] Contagem de amostra de dispersão para dispersão subsuperfície
+* [Sombreador][Iray] Integrar MDL de dispersão de subsuperfície para Iray
+* [Sombreador] Atualização de Sombreador por meio do atualizador de recursos
+* [Sombreador] Atualizar a API e a documentação do log de alterações
+* [Propriedades da ferramenta][Proj] Novos parâmetros para a projeção triplanar
+* [Visor][Projeto] Controla as propriedades da Camada de preenchimento na exibição 3D diretamente com manipuladores (projeção triplanar)
+* [Shortcuts][Proj] Novos atalhos Q, W, E, R, T para manipuladores de projeção triplanar
+* [Visor][Proj] Controlar propriedades da camada de preenchimento no Visualização 2D diretamente com manipuladores (Projeção UV)
+* [Shortcuts][Proj] Novo atalho Q para manipuladores de Projeção UV
+* [Barra de ferramentas contextual][Proj] Controla manipuladores de projeção triplanar
+* [Barra De Ferramentas Contextual][Proj] Controlar manipuladores De Projeção UV
+* [Propriedades da ferramenta] Desativar a divisão em blocos gráficos por textura com a ferramenta Projeção e Estêncil
 * [Estêncil] Usar imagens não quadradas com a ferramenta de projeção/estêncil
 * [Estêncil] Permitir o controle do modo de divisão em blocos gráficos na janela Propriedades
 * [Estêncil] O zoom não está centralizado em um estêncil sem divisão em blocos gráficos
 * [Câmeras] Importar câmeras do Maya, Max, Blender, Modo, DAE
-* [Câmeras]&#x200B;[Visor] Selecionar e controlar câmeras importadas no visor
-* [Câmeras]&#x200B;[Iray] Selecionar e controlar câmeras importadas no Iray
-* [Câmeras]&#x200B;[IU]&#x200B;[Novo projeto]&#x200B;[Configuração do projeto] A opção “Importar câmeras” está marcada por padrão
-* [Câmeras]&#x200B;[Atalhos] Adicione atalhos “&lt;” e “>” para alternar entre câmeras
-* [Câmeras]&#x200B;[Visor] Adicionar quadro no visor
-* [Câmeras]&#x200B;[Configurações do visor] Controle de opacidade de quadro
-* [Câmeras]&#x200B;[Configurações da câmera] distância focal máxima em 500 mm
-* [Câmeras]&#x200B;[Configurações da câmera] Taxa de exposição
-* [Câmeras]&#x200B;[Configurações da câmera] Adicionar uma opção de bloqueio
-* [Câmeras]&#x200B;[Configurações da câmera] Adicionar uma opção de restauração
-* [Câmeras]&#x200B;[Configurações de câmera] Adicionar atributo de distância de foco
+* [Câmeras][Visor] Selecionar e controlar câmeras importadas no visor
+* [Câmeras][Iray] Selecionar e controlar câmeras importadas no Iray
+* [Câmeras][IU][Novo projeto][Configuração do projeto] A opção “Importar câmeras” está marcada por padrão
+* [Câmeras][Atalhos] Adicione atalhos “&lt;” e “>” para alternar entre câmeras
+* [Câmeras][Visor] Adicionar quadro no visor
+* [Câmeras][Configurações do visor] Controle de opacidade de quadro
+* [Câmeras][Configurações da câmera] distância focal máxima em 500 mm
+* [Câmeras][Configurações da câmera] Taxa de exposição
+* [Câmeras][Configurações da câmera] Adicionar uma opção de bloqueio
+* [Câmeras][Configurações da câmera] Adicionar uma opção de restauração
+* [Câmeras][Configurações de câmera] Adicionar atributo de distância de foco
 * [glTF] Importação de um arquivo glTF
-* [glTF] Importar mapa de oclusão do ambiente
+* [glTF] Importar mapa de oclusão de ambiente
 * [Alembic] Importar quadro Alembic 1 com geometria estática
 * [Prateleira] Arraste e solte materiais diretamente na malha usando mapas de ID com um modificador (CTRL/Command)
 * [Pilha de camadas] Criação automática de máscara de ID com arrastar e soltar materiais na malha com mapas de ID
 * [Pilha de camadas] Rolagem automática de camadas com arrastar e soltar na pilha de camadas
-* [UI]&#x200B;[Propriedades da ferramenta] Expor predefinição de Substance
-* [UI]&#x200B;[Menu Ajuda] Aprimoramento do menu Ajuda
-* [UI]&#x200B;[Novo projeto]&#x200B;[Configuração do projeto] Reorganização da janela
-* [UI]&#x200B;[Novo projeto]&#x200B;[Configuração de projeto] Substituir o termo “Mesh” por “Arquivo”
-* [UI]&#x200B;[Substance] Exibir atributos de Substance na interface
+* [UI][Propriedades da ferramenta] Expor predefinição de Substance
+* [UI][Menu Ajuda] Aprimoramento do menu Ajuda
+* [UI][Novo projeto][Configuração do projeto] Reorganização da janela
+* [UI][Novo projeto][Configuração de projeto] Substituir o termo “Mesh” por “Arquivo”
+* [UI][Substance] Exibir atributos de Substance na interface
 * [Atalhos] Opções “F4” entre a exibição 2D e 3D
 * [Atalhos] Novos atalhos para alternar o estêncil “N” e a máscara rápida “U”
 * [Integração Substance] Leve em consideração as instruções &#39;visible if&#39; nos parâmetros Substance
@@ -309,25 +301,25 @@ Para localizar o projeto, use a entrada de menu **Arquivo** > **Abrir Amostra...
 * [Content] Adicionar uma amostra com dispersão subsuperficial ativada - JadeToad
 * [Content] Adicionar um novo modelo de projeto PBR com a dispersão subsuperficial ativada
 * [Conteúdo] Predefinições de exportação atualizadas para adicionar um novo canal de Dispersão
-* [Content]&#x200B;[Prateleira] Adicionado suporte à dispersão de subsuperfície para: pbr-metal-rough, pbr-metal-rough-alpha-test, pbr-coated, pbr-spec-gloss
-* [Content]&#x200B;[Prateleira] Adicionado canal de dispersão para 5 materiais inteligentes (mármores e peles)
-* [Content]&#x200B;[Shelf] 1 novo material jade
-* [Conteúdo]&#x200B;[Prateleira] 1 novo material de cera
+* [Content][Prateleira] Adicionado suporte à dispersão de subsuperfície para: pbr-metal-rough, pbr-metal-rough-alpha-test, pbr-coated, pbr-spec-gloss
+* [Content][Shelf] Adicionou o canal de dispersão a 5 materiais inteligentes (bolas de gude e peles)
+* [Content][Shelf] 1 novo material jade
+* [Conteúdo][Prateleira] 1 novo material de cera
 
 **Corrigido:**
 
 * [CMD] Resultados diferentes usando a mesma linha de comando com versões diferentes
 * [TDR] Se o TdrLevel estiver configurado, você não tem erros no seu registro
-* [Baker] O mapa de oclusão do ambiente está invertido
+* [Baker] O mapa de Oclusão de ambiente está invertido
 * [Mapa de ID] Falha ao separar fora do intervalo 0-1
-* [Iray] Falha ao alternar conjuntos de texturas e voltar para o modo de Pintura
+* [Iray] Falha ao alternar conjuntos de texturas e voltar para o modo de Tinta
 * [Janela de visualização] Sincronizar áreas de soltar entre portas de visualização para arrastar e soltar
 * [Engine] Artefato Moiré ao colocar camadas de preenchimento lado a lado ou pintar um pequeno pincel
 * [License] Verificação de versão de software incorreta do serviço de licença
 * [Licença] Reformular a maneira como lidamos com a autenticação
 * [API] Chamar o evento de API de script `onNewProjectCreated` mesmo ao criar com um modelo
-* [Shader] O sombreador compilado não é carregado do cache quando o arquivo de sombreador não é compilado
-* [Prateleira] Exportar arquivo HDR da prateleira exibirá um arquivo com valores fixados
+* [Sombreador] O sombreador compilado não é carregado do cache quando o arquivo de sombreador não é compilado
+* [Prateleira] Exportar o arquivo HDR da prateleira exibirá um arquivo com valores fixados
 * [Exportar] A exportação de EXR mantém os valores de cor do RGB entre 0 e 1
 * [Content] O ruído Processual “3D Perlin Noise Fractal” está pixelado
 

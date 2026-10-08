@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como corrigir a exibição incorreta de miniaturas na prateleira do Substance 3D Painter para garantir visualizações precisas de recursos.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: As miniaturas na prateleira parecem incorretas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
-
 ---
-
 
 # As miniaturas na prateleira parecem incorretas
 
@@ -35,7 +27,7 @@ Vá para **Editar** e clique em **Configurações**:
 ## 2 - Remover o sombreador de visualização da prateleira
 
 Na exibição **Geral**, role para baixo até que a seção “Opções de visualização” esteja visível.\
-Clique na **cruz** botão na frente do &quot; **Sombreamento de visualização do material** &quot; para remover o sombreador atual especificado.
+Clique no botão **cruz** em frente ao &quot; **Sombreamento de visualização do material** &quot; para remover o sombreador atual especificado.
 
 ![](../../../assets/remove-preview-shader.png){width="450px"}
 

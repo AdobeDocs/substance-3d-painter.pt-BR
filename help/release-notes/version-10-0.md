@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-10-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 10.0 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 10.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 
 # Versão 10.0
 
-O <b>Substance 3D Painter 10.0</b> oferece compatibilidade com arquivos Illustrator (.ai), integra Substance 3D Assets, importa Fontes por meio de recursos de Texto, adiciona funcionalidades de pilha de camadas na API Python e diversas melhorias na qualidade de vida.
+O <b>Substance 3D Painter 10.0</b> oferece suporte a arquivos Illustrator (.ai), integra o Substance 3D Assets, importa fontes por meio de recursos de texto, adiciona funcionalidades de pilha de camadas na API Python e diversas melhorias na qualidade de vida.
 
 Data de lançamento: *16 de maio de 2024*
 
@@ -226,22 +218,22 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 <b>Adicionado</b>:
 
 * [Illustrator] Usar arquivos do Illustrator com painéis de arte no Painter
-* [Illustrator]&#x200B;[SVG] Adicionar visualizações na seleção de escopo
+* [Illustrator][SVG] Adicionar visualizações na seleção de escopo
 * [Substance 3D Assets] Procure, selecione e baixe ativos 3D diretamente no Painter
-* [Substance 3D Assets]&#x200B;[IU] Novo painel
+* [Substance 3D Assets][IU] Novo painel
 * [Substance 3D Assets] Mapas e materiais do ambiente de suporte
 * [Substance 3D Assets] Permitir recarregamento e navegar e abrir a pasta de local em novo painel do Substance 3D Assets
 * [Substance 3D Assets] Adição de um gerenciador de downloads
 * [Recurso de texto] Permitir o uso de fontes incorporáveis
 * [Recurso de texto] Permite renderizar uma fonte/texto em uma malha
 * [Recurso de texto] Exibir fontes do usuário e outros caminhos compartilhados no painel Ativos com uma nova categoria
-* [Recurso de texto]&#x200B;[Propriedades] Adicionar suporte para propriedades avançadas de fonte
+* [Recurso de texto][Propriedades] Adicionar suporte para propriedades avançadas de fonte
 * [Recurso de texto] Permitir pesquisar/exibir fontes em miniprateleiras
 * [Recurso de texto] Adicionar mensagem/caixa de diálogo de erro ao importar uma fonte incompatível
 * Diversos
 * [Preencher projeção] Melhorar o comportamento do manipulador de escala ao usar valores pequenos
 * [Manipuladores] Adicionar novo modo preciso ao pressionar o atalho CTRL
-* [Manipuladores] Melhoram a estabilidade do manipulador de superfície ao traduzir
+* [Manipuladores] Melhorar a estabilidade do manipulador de superfície ao traduzir
 * [Exportar] Adicionar o nome do espaço de cores nas saídas SBSAR
 * [Desempenho] Melhorar o tempo de descoberta da biblioteca de ativos em disco
 * [Substance] Atualização do mecanismo de Substance versão 9.1.2
@@ -251,7 +243,7 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 * [Python] Permitir modos de mesclagem de camada get/set
 * [Python] Permitir obter/definir configurações de projeção da camada de preenchimento
 * [Python] Permitir consultar a cor do material de Substance de uma camada de preenchimento
-* [Python] Permitir consultar e definir cores e recursos uniformes em camadas e efeitos
+* [Python] Permitir consultar e definir cores uniformes e recursos em camadas e efeitos
 * [Python] Permitir a criação e edição de recursos de texto no pilha de camadas
 * [Python] Permitir a edição de canais ativos em camadas e efeitos
 * [Python] Permitir que ações em lote tenham uma única operação de desfazer/refazer
@@ -276,14 +268,14 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 
 <b>Corrigido</b>:
 
-* [Falha] Desfazer “Remover instância do sombreador” com Ctrl-Z
+* [Falha] Desfazer “Remover instância de sombreamento” com Ctrl-Z
 * [Falha] Criar uma camada em uma pilha vazia se a última seleção tiver sido um efeito
 * [SVG] Problema com o valor personalizado da área cortada
 * [Contornar automaticamente] Recalcular apenas a embalagem sem qualquer alteração na orientação UV resulta em falha
 * [Arrastar e soltar] Atraso devido a recursos externos pré-carregados várias vezes
 * [UI] Arrastar e soltar a miniatura do recurso pode ocultar a mensagem de aviso na pilha de camadas
 * [Desempenho] Os blocos UV mascarados ainda são computados
-* [USD] Destaque incorreto para seleção de escopo
+* [USD] Realce incorreto para seleção de escopo
 * [Recurso] A imagem de bitmap é corrompida após pintar no canal normal e salvar o projeto
 * [USD] Suporte à ordenação de malha de vértice com a mão esquerda
 * [Substance] Redefinir para o padrão sempre voltar a zero para o widget de ângulo
@@ -293,14 +285,14 @@ Resumo: <b>Versão principal, edição da pilha de camadas com a API Python, lei
 * [Conteúdo] Os modos de mesclagem no Tile Generator não estão funcionando
 * [Conteúdo] O filtro de exame de histograma produz faixas em alguns casos
 * [Conteúdo] A iluminação Feita bake estilizada não leva em conta o height pintado
-* [Python] Erro inesperado ao recuperar informações de camada instanciadas após alteração do sombreador
+* [Python] Erro inesperado ao recuperar informações de camada instanciada após alteração de sombreador
 
 <b>Problemas Conhecidos</b>:
 
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Crash]&#x200B;[Linux]&#x200B;[AMD] Arrastar e soltar recursos na pilha de camadas no sistema operacional Wayland
-* [Regression]&#x200B;[UI] O menu do clique com o botão direito é muito pequeno em telas HD
-* [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
+* [Crash][Linux][AMD] Arrastar e soltar recursos no pilha de camadas no Wayland OS
+* [Regression][UI] O menu do clique com o botão direito é muito pequeno em telas HD
+* [Crash][Python] Exportação de USD acionada por TextureStateEvent
 * [Salvar] O arquivo de projeto Spp é perdido quando “salvar como” falha
 * [MacOS Intel] Falha ao importar algumas predefinições
 * [Illustrator] Não é possível importar arquivos Ai após o travamento do servidor sem reiniciar o Painter

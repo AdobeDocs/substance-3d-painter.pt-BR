@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-9-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 9.0 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 9.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
-
 ---
-
 
 # Versão 9.0
 
@@ -26,7 +18,7 @@ Data de lançamento: *20 de junho de 2023*
 
 ## Principais recursos
 
-### Nova pintura ao longo do caminho na viewport 3D
+### Nova tinta ao longo do caminho na viewport 3D
 
 ![Feche um sapato de couro com um caminho desenhado por cima com sua interface auxiliar](../assets/v90_banner_path.jpg)
 
@@ -129,11 +121,11 @@ Para descobrir e aprender sobre a nova ferramenta de caminho, confira nosso tuto
 ### 9.0.0
 
 Data de lançamento: <b>2023/06/20</b>\
-Resumo: <b>Versão principal com pintura ao longo de um caminho que permite Curvas 3D, novos materiais de base e limpeza de materiais legados e novas predefinições para Curvas 3D</b>
+Resumo: <b>Versão principal com Tinta ao longo do caminho que permite Curvas 3D, novos materiais de base e limpeza de materiais herdados e novas predefinições para Curvas 3D</b>
 
 <b>Adicionado:</b>
 
-* [Caminho] Adiciona nova ferramenta Pintura ao longo do caminho
+* [Caminho] Adiciona nova ferramenta Tinta ao longo do caminho
 * [Caminho] Adiciona um atalho vazio para a ferramenta de caminho
 * [Caminho] Permite adicionar novos pontos a um caminho existente
 * [Caminho] Adiciona um atalho para sair da criação do caminho atual
@@ -153,7 +145,7 @@ Resumo: <b>Versão principal com pintura ao longo de um caminho que permite Curv
 * [Caminho] Permite fechar o caminho
 * [Caminho] Permite especificar o caminho acima do eixo em Propriedades
 * [Caminho] Adiciona um menu de controle de vértice à barra de ferramentas contextual
-* [Caminho] Introduza modos de pintura/apagamento/borrar na ferramenta de caminho
+* [Caminho] Apresentar modos de tinta/apagamento/borrar à ferramenta de caminho
 * [Caminho] Criar feedback visual para caminhos no visor
 * [Caminho] Adiciona um indicador visual para a direção do caminho
 * [Caminho] Adiciona thickness de linha às configurações de exibição de caminho
@@ -167,24 +159,24 @@ Resumo: <b>Versão principal com pintura ao longo de um caminho que permite Curv
 * [Traçados dinâmicos] Adicionar propriedade de distância para traçados dinâmicos
 * [Traçados dinâmicos] Adicionar propriedades de tamanho e espaçamento aos traçados dinâmicos
 * [Traçados dinâmicos] Adicionar propriedade início/meio/fim para traçados dinâmicos
-* [Python]&#x200B;[USD] Expor parâmetros de configuração de projeto para o formato USD
-* [Python]&#x200B;[USD] Expor os parâmetros de criação de projetos para o formato USD
-* [Export]&#x200B;[USD] Adicionar informações do caminho do projeto no arquivo USD exportado
-* [GLTF] Atualizar texturas na biblioteca ao recarregar um arquivo GLTF
-* [Shader] Reduzir artefatos de costura para Ilhas UV com orientação diferente
+* [Python][USD] Expor os parâmetros de configuração do projeto para o formato USD
+* [Python][USD] Expor os parâmetros de criação de projetos para o formato USD
+* [Export][USD] Adicionar informações de caminho do projeto no arquivo USD exportado
+* [GLTF] Atualizar o textura na biblioteca ao recarregar um arquivo GLTF
+* [Sombreador] Reduzir artefatos de costura para Ilhas UV com orientação diferente
 * [Engine] Atualização para o mecanismo de Substance versão 9.0
 
 <b>Corrigido:</b>
 
-* [Importar] Algumas GLB com texturas não obtêm texturas no Painter
+* [Importar] Algumas GLB com textura não obtêm texturas no Painter
 * [AMD] Artefatos em bordas para todos os preenchimentos de projeção 3D
-* [Engine] As texturas se quebram ao alternar a visibilidade da camada
-* [Engine] As texturas ficam vazias em alguns locais ao alterar o modo de mesclagem
+* [Engine] As Texturas são interrompidas ao alternar a visibilidade da camada
+* [Engine] As Texturas ficam vazias em alguns locais ao alterar o modo de mesclagem
 * [Engine] A Textura/Projeção é o modo de distorção vazio em alguns casos
-* [Iray] A iteração é redefinida para 0 ao salvar a renderização
-* [Log] Mensagem de erro do USD ao executar File > New
+* [Iray] A Iteração é redefinida para 0 ao salvar a renderização
+* [Log] Mensagem de erro USD ao executar Arquivo > Novo
 
 <b>Problemas Conhecidos:</b>
 
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Pilha de camadas] Fonte de entrada não salva por camada
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
+* [Pilha de camadas] A fonte de entrada não é salva por camada

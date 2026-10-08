@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/sparse-virtual-textures.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a usar texturas virtuais dispersas no Substance 3D Painter para trabalhar com texturas de alta resolução de forma eficiente.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Sparse Virtual Textures
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Texturas Virtuais Dispersas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 
 # Texturas Virtuais Dispersas
 
@@ -41,7 +33,7 @@ Estas são as configurações que oferecem suporte às Texturas Virtuais Dispers
 | **Linux** | <ul data-preserve-html="true"><li data-preserve-html="true">Nvidia GeForce (drivers 410.73 ou superior)</li><li data-preserve-html="true">Nvidia Quadro (Drivers 410.73 ou superior)</li><li data-preserve-html="true">AMD FirePro e Radeon Pro (drivers 18.9.3 ou posteriores) <strong> &#42; </strong></li><li data-preserve-html="true">AMD Radeon (Drivers 18.9.3 ou superior)&#42;</li></ul> | <ul data-preserve-html="true"><li data-preserve-html="true">GPU Intel</li></ul> |
 
 
-* **\***: a aceleração por hardware está desabilitada por padrão e pode ser habilitada manualmente nas [Configurações](../interface/settings/settings.md).
+* **\***: A aceleração por hardware está desabilitada por padrão e pode ser habilitada manualmente nas [Configurações](../interface/settings/settings.md).
 
 ## Por que o Substance 3D Painter está usando texturas virtuais dispersas?
 
@@ -60,16 +52,16 @@ Para obter mais conhecimento técnico, consulte: [Texturas Virtuais Esparsas](ht
 ![](../assets/settings-temp.png)
 
 Quando não houver memória do sistema (Ram) suficiente disponível para armazenar o cache SVT, o Substance 3D Painter mudará para o disco rígido do computador em vez de armazenar o cache.\
-O local desse cache é, por padrão, a pasta Operating System Temporary Files (Arquivos temporários do sistema operacional). Este local pode ser alterado acessando as configurações principais do aplicativo, consulte as [Preferências gerais](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/general-71008262.html).
+O local desse cache é, por padrão, a pasta Operating System Temporary Files (Arquivos temporários do sistema operacional). Este local pode ser alterado acessando as configurações principais do aplicativo, consulte as [Preferências gerais](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html).
 
 ## Compatibilidade de sombreador
 
-Para tirar o máximo proveito do SVT, os Sombreadores têm que solicitar e ler texturas do sistema Esparso. Portanto, as funções anteriores baseadas nas **coordenadas de textura vec2** e nos **amostradores** foram descontinuadas. As funções auxiliares agora são fornecidas em vez de usar as texturas esparsas.
+Para tirar o máximo proveito do SVT, Shaders tem que solicitar e ler texturas do sistema Sparse. Portanto, as funções anteriores baseadas nas **coordenadas de textura vec2** e nos **amostradores** foram descontinuadas. As funções auxiliares agora são fornecidas em vez de usar as texturas esparsas.
 
 Para atualizar os Sombreadores:
 
 * Para o **sombreador padrão do Substance 3D Painter**: siga o procedimento passo a passo na página [Atualizando um sombreador](../interface/shader-settings/updating-a-shader.md).
-* Para **sombreador personalizado** : dê uma olhada na(s) mensagem(ns) de erro no log, bem como na página [API de sombreamento](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Para **sombreador personalizado** : dê uma olhada na(s) mensagem(ns) de erro no log, bem como na página [API de sombreamento](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

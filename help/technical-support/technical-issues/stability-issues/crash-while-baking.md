@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como corrigir falhas do Substance 3D Painter durante operações de fça bake para fluxos de trabalho de fça bake de textura confiáveis.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash while baking
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Falha ao fazer bake
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # Falha ao fazer bake
 

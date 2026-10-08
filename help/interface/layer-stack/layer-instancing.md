@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/layer-instancing.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar instâncias de camada no Substance 3D Painter para reutilizar camadas em vários conjuntos de texturas de maneira eficiente.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Layer instancing
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Instância de camada
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # Instância de camada
 
@@ -79,7 +71,7 @@ Para criar uma instância em vários Conjuntos de texturas:
 
 >[!NOTE]
 >
-> O ponto de exclamação ao lado do nome de um Conjunto de Texturas indica uma incompatibilidade de canal **&#x200B;**. Isso significa que, se uma instância for criada nesses Conjuntos de texturas, ela não será renderizada corretamente, pois um canal está ausente.
+> O ponto de exclamação ao lado do nome de um Conjunto de Texturas indica uma incompatibilidade de canal ****. Isso significa que, se uma instância for criada nesses Conjuntos de texturas, ela não será renderizada corretamente, pois um canal está ausente.
 
 ## Alternar entre uma instância e sua origem
 

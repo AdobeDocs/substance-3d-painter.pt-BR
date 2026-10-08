@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/assets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar o painel Ativos no Substance 3D Painter para procurar, pesquisar e gerenciar sua biblioteca de recursos.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ativos
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
-
 ---
-
 
 # Ativos
 
-A janela Ativos permite acessar os recursos padrão que vêm com o aplicativo (chamados de **Ativos iniciais**), bem como quaisquer recursos [importados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) (que podem ser encontrados em **Seus ativos**).
+A janela Ativos permite acessar os recursos padrão que vêm com o aplicativo (chamados de **Ativos iniciais**), bem como quaisquer recursos [importados](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) (que podem ser encontrados em **Seus ativos**).
 
 * No disco, a biblioteca de **Ativos iniciais** é armazenada na pasta de instalação do aplicativo, enquanto os ativos importados para a biblioteca **Seus ativos** por padrão estão localizados na pasta Documentos.
 * Para obter mais informações sobre onde seus ativos são armazenados em disco, consulte [Adicionando conteúdo ao disco rígido](../../content/importing-assets/adding-content-on-the-hard-drive.md).

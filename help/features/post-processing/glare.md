@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/post-processing/glare.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar o efeito de pós-processamento de brilho no Substance 3D Painter para adicionar efeitos de reflexo de flash e de flor de lente a áreas brilhantes.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Glare
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Brilho
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 1%
-
 ---
-
 
 # Brilho
 

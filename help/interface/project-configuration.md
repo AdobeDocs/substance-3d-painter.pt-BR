@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: Saiba como definir as configurações do projeto no Substance 3D Painter para definir a resolução de textura, os canais e as propriedades do projeto.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Project configuration
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Configuração do projeto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 3%
-
 ---
-
 
 # Configuração do projeto
 
@@ -41,7 +33,7 @@ A reimportação da malha é geralmente útil quando você precisa:
 
 >[!NOTE]
 >
-> Se as IDs de material forem alteradas ou renomeadas ao reimportar a malha do projeto, os Conjuntos de Textura anteriores no projeto podem ser desativados, dando a aparência de texturas ausentes. Isso pode ser corrigido com a [Janela de Reatribuição](texture-set/texture-set-reassignment.md) da **Lista de Conjuntos de Texturas**.
+> Se as IDs de material forem alteradas ou renomeadas ao reimportar a malha do projeto, os Conjuntos de textura anteriores no projeto podem ser desativados, dando a aparência de texturas ausentes. Isso pode ser corrigido com a [Janela de Reatribuição](texture-set/texture-set-reassignment.md) da **Lista de Conjuntos de Texturas**.
 
 ## Configurações do projeto
 
@@ -54,7 +46,7 @@ Esta seção controla várias configurações relacionadas ao projeto:
   </tr>
   <tr>
     <td><strong>Formato de mapa normal</strong></td>
-    <td>Define o formato de mapa normal usado para a malha no visor. Este parâmetro afeta somente os <a href="shader-settings/shader-settings.md">sombreadores</a> do visor e dos mapas de malha dos <a href="../baking/baking.md">padeiros</a>. A pilha de camadas é independente. Valor recomendado para aplicativos comuns:<br><br><ul><li><strong>Unidade</strong>: OpenGL</li><li><strong>Mecanismo Irreal</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Máx</strong>: DirectX</li><li><strong>Mesclador</strong>: OpenGL</li></ul></td>
+    <td>Define o formato de mapa normal usado para a malha no visor. Este parâmetro afeta somente os <a href="shader-settings/shader-settings.md">sombreadores</a> no visor e nos mapas de malha dos <a href="../baking/baking.md">baker</a>. A pilha de camadas é independente. Valor recomendado para aplicativos comuns:<br><br><ul><li><strong>Unidade</strong>: OpenGL</li><li><strong>Mecanismo Irreal</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Máx</strong>: DirectX</li><li><strong>Mesclador</strong>: OpenGL</li></ul></td>
   </tr>
   <tr>
     <td><strong>Calcular espaço tangente por fragmento</strong></td>

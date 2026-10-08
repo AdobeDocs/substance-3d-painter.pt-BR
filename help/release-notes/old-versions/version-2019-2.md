@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2019.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2019.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
-
 ---
-
 
 # Versão 2019.2
 
@@ -30,7 +22,7 @@ Data de lançamento: *25 de julho de 2019*
 
 ![](../../assets/header-image-vizu.jpg)
 
-O fluxo de trabalho de cozimento foi aprimorado com esta versão com alguns novos recursos. Essas melhorias agilizarão e facilitarão o trabalho diário com o Substance Painter.
+O fluxo de trabalho de fça bake foi aprimorado com esta versão com alguns novos recursos. Essas melhorias agilizarão e facilitarão o trabalho diário com o Substance Painter.
 
 * **Fazendo bake visualização de processo**\
   Por padrão, com essa nova versão, qualquer processo de fça bake agora ficará visível no visor. Ele permite visualizar o resultado dos baker em tempo real e até mesmo cancelá-lo, se necessário, sem esperar até o final do processo para oferecer iterações mais rápidas. Este comportamento pode ser desabilitado acessando as configurações principais e desmarcando a configuração “**Habilitar processo de fça bake de visualização ao vivo**” na seção “**Opções de Fça bake**”.
@@ -39,7 +31,7 @@ O fluxo de trabalho de cozimento foi aprimorado com esta versão com alguns novo
 
   ![](../../assets/bake-process.gif){width="500px"}
 * **Caixa de diálogo de fça bake aprimorada**\
-  A caixa de diálogo de fça bake foi reformulada e agora exibe um status melhor do processo de fça bake atual. Agora há um contador para indicar quantas texturas serão computadas, bem como uma lista explícita por padeiro e Conjunto de texturas do que está sendo computado. Em caso de erro, uma cruz vermelha é exibida ao lado do nome do baker. No final do processo, um novo botão permite abrir rapidamente a janela de registro para saber mais sobre o problema.\
+  A caixa de diálogo de fça bake foi reformulada e agora exibe um status melhor do processo de fça bake atual. Agora há um contador para indicar quantas texturas serão computadas, bem como uma lista explícita por baker e Conjunto de texturas do que está sendo computado. Em caso de erro, uma cruz vermelha é exibida ao lado do nome do baker. No final do processo, um novo botão permite abrir rapidamente a janela de registro para saber mais sobre o problema.\
   ![](../../assets/baking-dialog.png)
 * **Cancelando faz bake em andamento** O processo de faz bake não bloqueia mais o aplicativo. O Substance Painter agora é mais responsivo, o que significa que é possível cancelar um faço bake que está em andamento atualmente sem aguardar o término desse processo. No entanto, o cancelamento não é imediato e pode levar alguns segundos para entrar em vigor. Isso ocorre porque internamente o processo de fça bake funciona em texturas em blocos e não pode parar enquanto um bloco está sendo calculado. Ao cancelar o processo de fça bake, a janela de Fça bake será reaberta automaticamente.\
   ![](../../assets/baking-cancel-optim.gif)
@@ -48,12 +40,12 @@ O fluxo de trabalho de cozimento foi aprimorado com esta versão com alguns novo
 
 ![](../../assets/header-image-baker.jpg)
 
-Com a melhoria do fluxo de trabalho, também aproveitamos a oportunidade para atualizar nossos Baker e melhorar seu desempenho. Também adicionamos o suporte de DXR e Optix para permitir Rastreamento de raios do GPU que permite fazer bake muito mais rápido do que antes. Observe, porém, que o Rastreamento de raios do GPU afeta apenas a Oclusão ambiente e o Thickness.
+Com a melhoria do fluxo de trabalho, também aproveitamos a oportunidade para atualizar nossos Baker e melhorar seu desempenho. Também adicionamos o suporte de DXR e Optix para permitir Rastreamento de raios do GPU que permite fazer bake muito mais rápido do que antes. Entretanto, observe que o Rastreamento de raios do GPU afeta apenas a Oclusão de ambiente e o baker do Thickness.
 
 * **O Rastreamento de raios da CPU foi aprimorado**\
   O cálculo de Rastreamento de raios na CPU agora é de 2 a 3 vezes mais rápido do que antes. Portanto, mesmo que sua GPU não seja compatível com Rastreamento de raios do GPU, você ainda obterá melhorias de desempenho em geral.
-* **Suporte a Rastreamento de raios do GPU com DXR e Optix**\
-  Com hardware compatível, os baker agora podem computar diretamente na GPU, o que reduz drasticamente o tempo de computação, especialmente quando a suavização de borda está ativada e muitos raios estão definidos. DXR é a opção padrão quando disponível, caso contrário, o Optix será usado. É possível desabilitar o Rastreamento de raios do GPU entrando em [configurações principais](../../interface/settings/settings.md) e procurando por “**Opções de Preparação**” :
+* **Suporte ao Rastreamento de raios do GPU com DXR e Optix**\
+  Com hardware compatível, os baker agora podem computar diretamente na GPU, o que reduz drasticamente o tempo de computação, especialmente quando a suavização de borda está ativada e muitos raios estão definidos. DXR é a opção padrão quando disponível, caso contrário, o Optix será usado. É possível desabilitar o Rastreamento de raios do GPU entrando em [configurações principais](../../interface/settings/settings.md) e procurando “**Opções de Fça bake**” :
 
   ![](../../assets/baking-options-v2.png)
 
@@ -73,7 +65,7 @@ Com a melhoria do fluxo de trabalho, também aproveitamos a oportunidade para at
 Nesta versão, também adicionamos e retrabalhamos algumas coisas para melhorar a qualidade de vida dentro do Substance Painter.
 
 * **manipulador de rotação aprimorado**\
-  O manipulador de rotação era um pouco lento no passado, tornando as rotações às vezes tediosas para executar. A velocidade de rotação agora está vinculada à câmera e ao tamanho da cena.
+  O manipulador de rotação era um pouco lento no passado, tornando as rotações às vezes tediosas de executar. A velocidade de rotação agora está vinculada à câmera e ao tamanho da cena.
 * **Desempenho aprimorado em telas High DPI com downscaling de viewport**\
   Nas [configurações principais](../../interface/settings/settings.md), agora há um novo parâmetro chamado “Dimensionamento de Viewport” com o valor “**Nenhum**” e “**Automático**” (padrão). Quando o Substance Painter detecta que uma tela usa dimensionamento HDPI (como telas de retina no MacOS), ele automaticamente divide a resolução da viewport por 2. Esse comportamento evita o tamanho excessivo da viewport e melhora o desempenho geral sem nenhuma perda perceptível de qualidade.
 
@@ -180,7 +172,7 @@ Resumo: **Correção de erros**
 **Corrigido:**
 
 * [Plug-in] A origem do plug-in não funciona
-* [MacOS]&#x200B;[Sombreador] Mac OS 10.14.5 e AMD: a disposição em camadas de material não funciona conforme o esperado
+* [MacOS][Sombreador] Mac OS 10.14.5 e AMD: a disposição em camadas de material não funciona conforme o esperado
 
 **Problemas Conhecidos:**
 
@@ -205,7 +197,7 @@ Resumo: **Correção de erros**
 
 **Corrigido:**
 
-* [Mac]&#x200B;[USD] Os arquivos USDZ exportados do MacOS não podem ser abertos
+* [Mac][USD] Os arquivos USDZ exportados do MacOS não podem ser abertos
 * [Conjunto de texturas] Não é possível isolar um conjunto de texturas com o modificador ALT
 * [Prateleira] Predefinições, Materiais inteligentes e Máscaras inteligentes são sempre modificados ao sair do aplicativo
 * [Pilha de camadas] Não é possível selecionar o efeito após excluir outro efeito
@@ -229,13 +221,13 @@ Resumo: **Versão principal com atualizações dos baker em termos de desempenho
 
 * [Baker] Suporte adicionado para Rastreamento de raios do GPU com DXR e OptiX (Oclusão de ambiente, Thickness)
 * [Baker] Otimizações e acelerações para Rastreamento de raios da CPU
-* [Baker]&#x200B;[Modo Vis]&#x200B;[IU] Novo modo de visualização de fça bake no visor
-* [Baker]&#x200B;[Preferências]&#x200B;[IU] Nova opção de fça bake para ativar/desativar o Rastreamento de raios do GPU
-* [Baker]&#x200B;[IU] Retrabalho da caixa de diálogo da barra de progresso
+* [Baker][Modo Vis][IU] Novo modo de visualização de fça bake no visor
+* [Baker][Preferências][IU] Nova opção de fça bake para ativar/desativar o Rastreamento de raios do GPU
+* [Baker][IU] Retrabalho da caixa de diálogo da barra de progresso
 * [Baker] Aprimoramento das mensagens de aviso e erro
 * [Baker] Permitir cancelamento mais responsivo do processo de fça bake
 * [Baker] Reabrir a janela fazer bake após clicar em cancelar
-* [Proj]&#x200B;[UX] Melhoria da usabilidade do manipulador de rotação
+* [Proj][UX] Melhoria da usabilidade do manipulador de rotação
 * [Settings] Opção para melhorar o desempenho reduzindo a resolução do visor para telas HDPI
 * [Script] Alterar resolução do conjunto de texturas
 * [Script] Obter conjunto de textura selecionado
@@ -250,7 +242,7 @@ Resumo: **Versão principal com atualizações dos baker em termos de desempenho
 * [Pilha de camadas] Agrupar muitas camadas congela a interface por mais tempo do que o normal
 * [Pilha de camadas] Uma camada e um efeito podem ser selecionados ao mesmo tempo em alguns casos
 * os gráficos de Substance usados nas ferramentas de pintura não são gerados na resolução correta
-* [Baker] O botão “Cozinhar todos os conjuntos de textura” não é desativado quando nenhum padeiro está selecionado
+* [Baker] O botão “Fazer bake todos os conjuntos de textura” não é desativado quando nenhum baker é selecionado
 * [MacOS] Desativar a mensagem de aviso sobre o mosaico
 * A ferramenta de projeção não tem visualização quando usada com uma máscara
 * Falha e projetos corrompidos ao tentar salvar com espaço em disco insuficiente
@@ -263,4 +255,4 @@ Resumo: **Versão principal com atualizações dos baker em termos de desempenho
 
 * Arquivos Alembic com subdivisões não podem ser importados
 * Falhas raras ao importar alguns arquivos Alembic
-* A interface não responde temporariamente ao assar com DXR em GPUs Pascal
+* A interface não responde temporariamente ao fazer bake com DXR em GPUs Pascal

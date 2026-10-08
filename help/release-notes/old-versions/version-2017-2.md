@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2017.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2017.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2017.2
 
@@ -56,7 +48,7 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 **Adicionado:**
 
 * [Efeito] Novo ponto de ancoragem que permite a referência de camada e máscara
-* [Camadas] Capacidade de renomear efeitos de preenchimento e pintura
+* [Camadas] Capacidade de renomear efeitos de preenchimento e Tinta
 * [Plugin] Plug-in Substance Source atualizado
 * [Scripting] Permitir consultar Resolução de Conjunto de Textura
 * [Script] Permite obter o status do mecanismo de pintura
@@ -66,10 +58,10 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 
 * [Ferramenta] Problemas de desempenho ao ajustar parâmetros de material
 * [Engine] Desaparecimento de pinceladas ao alterar a resolução (4K>2K)
-* [Exibição 3D] O espaço tangente não é sincronizado com padeiros
+* [Visualização 3D] O espaço tangente não é sincronizado com baker
 * [Prateleira] O caminho de prateleira nos documentos do usuário não é criado automaticamente
 * [Prateleira] Fazer predefinições compatíveis com versões anteriores após uma atualização
-* [Shader] O sombreador não PBR não funciona mais
-* [Padeiros] Falha no cozimento do mapa de ID com a opção Corresponder pelo nome ativada
+* [Sombreador] O sombreador não PBR não funciona mais
+* [Baker] Falha na Faz bake do Mapa de ID com a opção Corresponder pelo nome habilitada
 * [Amostra] Os nomes dos conjuntos de texturas do projeto de amostra do Mat da reunião estão incorretos
 * Salvar um projeto antes de criar um modelo retorna erros de permissão de gravação

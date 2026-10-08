@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/subsurface-scattering.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar a dispersão superficial no Substance 3D Painter para criar materiais translúcidos realistas, como pele e cera.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Dispersão de subsuperfície
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
-
 ---
-
 
 # Dispersão de subsuperfície
 
 ![](../../assets/sss-sarah.jpg){width="500px"}
 
-&#x200B;>> 
+>> 
 
 (Créditos: O Soldado, [de Ribeyrolles Leo](https://www.artstation.com/artwork/xNYDm) )
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/shader-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como definir as configurações de sombreador no Substance 3D Painter para personalizar a renderização do material e a aparência visual.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Shader settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Configurações do sombreamento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 5%
-
 ---
-
 
 # Configurações do sombreamento
 
@@ -39,7 +31,7 @@ Se o arquivo de sombreador estiver marcado como “Desatualizado”, é recomend
 | --- | --- |
 | **Desfazer** | Reverter/Cancelar uma alteração do arquivo de sombreador ou qualquer modificação dos parâmetros de sombreador |
 | **Refazer** | Aplique novamente uma alteração que foi cancelada através da opção Desfazer. |
-| **Arquivo de sombreador** | Botão mostrando o arquivo de sombreador atual usado. Clique no botão para abrir uma miniprateleira e escolher um sombreador diferente. |
+| **Arquivo de Sombreador** | Botão mostrando o arquivo de sombreador atual usado. Clique no botão para abrir uma miniprateleira e escolher um sombreador diferente. |
 | **Nome da instância** | Nome da instância de sombreamento. |
 | **Restaurar padrões** | Restaure todos os parâmetros de sombreador para seus valores padrão (como estão no arquivo de sombreador). |
 

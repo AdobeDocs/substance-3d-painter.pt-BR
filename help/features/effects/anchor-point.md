@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/effects/anchor-point.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar efeitos de ponto de ancoragem no Substance 3D Painter para fazer referência a texturas de outras camadas e obter uma composição avançada.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Anchor Point
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ponto de ancoragem
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 
 # Ponto de ancoragem
 
-Um ponto de ancoragem é uma maneira de expor qualquer recurso ou elemento na pilha de camadas e referenciá-lo em diferentes áreas da pilha de camadas para diferentes finalidades e com um conjunto diferente de ajustes. Elas abrem um conjunto totalmente novo de possibilidades, permitindo que você vincule efetivamente camadas ou máscaras e tenha um único ponto de ancoragem que afete vários aspectos do seu projeto, transformando o Substance 3D Painter em uma experiência verdadeiramente não linear.
+Um ponto de ancoragem é uma maneira de expor qualquer recurso ou elemento na pilha de camadas e referenciá-lo em diferentes áreas da pilha de camadas para diferentes finalidades e com um conjunto diferente de ajustes. Elas abrem um conjunto totalmente novo de possibilidades, permitindo que você vincule efetivamente camadas ou máscaras e faça com que um único ponto de ancoragem afete vários aspectos do seu projeto, transformando o Substance 3D Painter em uma experiência verdadeiramente não linear.
 
 >[!NOTE]
 >
@@ -40,7 +32,7 @@ Os pontos de ancoragem podem ser usados como referência nos seguintes recursos:
 
 * Camada de preenchimento
 * Efeito de preenchimento
-* Entrada de um filtro de substância (Efeito, Procedimento, Gerador)
+* Entrada de um filtro de substância (Efeito, Processual, Gerador)
 
 ![](../../assets/anchor-point-resource.png)
 

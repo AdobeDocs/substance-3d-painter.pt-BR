@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como corrigir falhas do Substance 3D Painter durante as operações de exportação para obter fluxos de trabalho de exportação de textura confiáveis.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Falha durante a exportação
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 
 # Falha durante a exportação
 
@@ -26,7 +18,7 @@ Alguns casos específicos podem fazer com que o Substance 3D Painter falhe duran
 
 A Detecção e recuperação de tempo limite (TDR) é um mecanismo de segurança do Microsoft Windows para impedir que uma GPU bloqueie o sistema com uma computação sem fim. Infelizmente, esse mecanismo é muito restritivo para o Substance 3D Painter por padrão.
 
-Para obter mais informações, consulte: [Falha dos drivers de GPU com cálculos longos (falha de TDR)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Para obter mais informações, consulte: [Falha dos drivers de GPU com cálculos longos (falha de TDR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Pouca memória virtual
 

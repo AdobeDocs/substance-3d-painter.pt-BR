@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2017.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2017.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2017.3
 
@@ -30,7 +22,7 @@ Data de lançamento: *28 de setembro de 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Um dos novos exportadores que incluímos nesta versão é o suporte ao Material padrão da Adobe a ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Adobe Standard Material**” na janela de exportação do textura. Para obter mais informações, consulte: [http://www.adobe.com/br/products/dimension.html](https://www.adobe.com/br/products/dimension.html)
+Um dos novos exportador que incluímos nesta versão é o suporte do Adobe Standard Material, para ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Adobe Standard Material**” na janela de exportação do textura. Para obter mais informações, consulte: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Você também pode conferir nossa postagem sobre isso no blog: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +47,7 @@ Se um backup for criado, mas o projeto não tiver sido salvo (também conhecido 
 
 ![](../../assets/gradient-rust.jpg)
 
-O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente **&#x200B;**, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**&#x200B;e criar **novas formas**.
+O **filtro de gradiente** foi completamente renovado. Agir de forma muito mais semelhante ao nó **mapa de degradê** disponível em **Substance Designer**. Agora ele suporta até **10 cores diferentes**, com a possibilidade de especificar **onde a cor está localizada dentro do** gradiente ****, abrindo muitas portas novas. Isso permite criar mais **padrões de cores avançados**, mas também **remapear mapas de altura**e criar **novas formas**.
 
 O controle deslizante principal (quantidade de cores) define o número de cores totais que são usadas para criar o gradiente. O botão logo abaixo define o modo de mesclagem de cores (sRGB ou Linear). Isso é importante se você quiser ter uma mistura adequada entre as cores. Por exemplo, mesclar um vermelho puro e um verde puro deve produzir um amarelo agradável no meio. Isso não acontecerá se o botão estiver desativado (ele exibirá um marrom escuro como alternativa). Ao remapear a height ou qualquer outro canal de tons de cinza, esse botão deve ser desativado para evitar a conversão da gama.
 
@@ -75,7 +67,7 @@ Agora também é possível **abrir projetos** simplesmente arrastando-os e solta
 
 ### Melhorias de desempenho
 
-Esta versão do Substance Painter também inclui uma nova e forte melhoria de desempenho em relação à maneira como gerenciamos a memória de GPU (VRam). Cores uniformes (como camadas de preenchimento) agora são compactadas em texturas menores, acelerando a transferência entre a memória principal e a memória de GPU, mas também reduzindo o espaço físico da memória e o tempo de computação. Isso deve ser especialmente visível ao abrir projetos grandes e ao atingir os limites da memória de GPU.
+Esta versão do Substance Painter também inclui uma nova e forte melhoria de desempenho em relação à maneira como gerenciamos a memória de GPU (VRam). O Cor uniforme (como camadas de preenchimento) agora é compactado em texturas menores, acelerando sua transferência entre a memória principal e a memória de GPU, mas também reduzindo o espaço de memória e o tempo de computação. Isso deve ser especialmente visível ao abrir projetos grandes e ao atingir os limites da memória de GPU.
 
 ## Notas de versão
 
@@ -97,7 +89,7 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 * [IU] Aprimorar a caixa de diálogo da nova versão e adicionar changelog
 * [UI] Indica se a manutenção expirou na caixa de diálogo de nova versão
 * [License] Atualizar o sistema de licenças para lidar com as Datas de manutenção
-* [Exportar] Renomear material padrão da Adobe para Adobe Dimension
+* [Exportar] Renomear Adobe Standard Material para Adobe Dimension
 
 **Corrigido:**
 
@@ -130,9 +122,9 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 * Falha ao excluir várias subprateleiras
 * Falha ao alternar de um nível para algo diferente durante um cálculo do mecanismo
 * [Mac] Falha na GPU Intel durante cálculos de mecanismo
-* [Mac]&#x200B;[Viewport] Desempenho insatisfatório quando o pontilhamento está habilitado
+* [Mac][Viewport] Desempenho insatisfatório quando o pontilhamento está habilitado
 * [Mac] O MacOS 10.13 é reconhecido como “Versão desconhecida” no arquivo de log
-* [Baker] Cozinhar com uma gaiola não funciona mais
+* [Baker] Fazer bake com uma gaiola não funciona mais
 * [Camadas] O atalho Ctrl + C (ação de cópia) não funciona mais
 * [Camadas] Colar camadas não atualiza a interface com as referências da âncora
 * [Âncora] Duplicar ou copiar/colar camada com referências quebra os links
@@ -151,7 +143,7 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 
 * [Exportar] Permitir a exportação de malha e texturas para o Projeto Adobe Felix
 * [Exportar] Permite exportar para o formato de arquivo glTF
-* [Engine] Otimizar o tamanho das texturas em VRAM usando a compactação de bloco
+* [Engine] Otimizar o tamanho do textura em VRAM usando a compactação de bloco
 * [Visor] Ser capaz de arrastar e soltar uma malha ou projeto no visor
 * [UI] Melhorar a mensagem de aviso sobre o TDR
 * [UI] O log deve ser exibido somente mediante solicitação
@@ -164,9 +156,9 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 * [Prateleira] Filtro de gradiente aprimorado para suporte a 10 cores dinâmicas
 * [Prateleira] Adicionar um espaço na consulta padrão da prateleira
 * [Prateleira] Adicionar uma ação &#39;Abrir no explorador&#39; para recursos locais na prateleira
-* [Prateleira] Adicionar modelo e sombreador para Adobe Material Standard (Projeto Felix)
+* [Prateleira] Adicionar modelo e sombreador para o padrão de material de Adobe (Projeto Felix)
 * [Prateleira] Aumentar a divisão em blocos gráficos máxima para 128 em sombreadores de camada de material
-* [Prateleira] Adicionado curvatura sobel para microdetalhes de geradores de máscaras
+* [Prateleira] Adicionada curvatura sobel para microdetalhes de Geradores de máscara
 * [Plug-in] Adicionar plug-in de salvamento automático com intervalo de tempo personalizável
 * [Script] Adicionar uma função “salvar como cópia”
 
@@ -174,12 +166,12 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 
 * [IU] O layout é quebrado na primeira inicialização
 * [Export] O PSD gerado na exportação tem erros de formato
-* [Exportar] EXR sempre exporta mapa de heights de 8 bits
+* [Exportar] EXR sempre exporta mapa de altura de 8 bits
 * [Export] Falha ao exportar mapas adicionais corrompidos
 * [Importar] As bordas sólidas não são preservadas em malhas de poli baixo em alguns casos
 * [Importar] Mensagens de erro aprimoradas ao importar malhas com problemas
-* [Padeiros] Falha no cozimento do mapa de ID com a opção Corresponder pelo nome ativada
-* [Visor] O espaço tangente não é sincronizado com padeiros
+* [Baker] Falha na Faz bake do Mapa de ID com a opção Corresponder pelo nome habilitada
+* [Visor] O espaço tangente não está sincronizado com baker
 * [Efeito] Voltar uma camada não restaura a referência de uma âncora
 * [Efeito] Problema de atualização ao criar um link entre duas máscaras com âncoras
 * [Efeito] As âncoras de máscaras acima da máscara não devem ser listadas
@@ -187,7 +179,7 @@ Esta versão do Substance Painter também inclui uma nova e forte melhoria de de
 * [Mecanismo] A máscara se inverte após o primeiro traçado do pincel
 * [Engine] Falha ao alternar o Conjunto de texturas em um projeto específico
 * [Prateleira] Falha ao excluir uma predefinição que está em um projeto
-* [Prateleira] Erro de ortografia no filtro Triplanar avançado
+* [Prateleira] Erro de digitação no filtro Tri-Planar avançado
 * [Prateleira] MG Mask Builder AO Noise Scale não funciona corretamente
 * [Prateleira] MG Mask Builder tem parâmetros de curvatura invertidos
 * [Prateleira] Os alfa importados geram uma visualização de esfera de material em vez de uma simples

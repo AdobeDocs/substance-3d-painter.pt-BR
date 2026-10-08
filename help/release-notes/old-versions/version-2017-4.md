@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 2017.4 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2017.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2017.4
 
@@ -30,7 +22,7 @@ Data de lançamento: *23 de novembro de 2017*
 
 ![](../../assets/instancing.jpg)
 
-A **instância de camada** é um novo sistema que permite manter **sincronizados**, **parâmetros** em **outras camadas e Conjuntos de Texturas**. Ao criar uma instância de camada, a camada original se torna a **origem** e as instâncias **permanecerão atualizadas**, a menos que o vínculo entre elas seja quebrado. As camadas em instância são uma **ótima maneira** de **textura um ativo em alguns cliques** e evitar ir e voltar para atualizar camadas. Para texturizar facilmente um ativo, basta **instanciar uma pasta** em outros Conjuntos de Texturas e colocar um material inteligente ou qualquer outra camada nele. Ele será **replicado em todos os lugares** instantaneamente.
+A **instância de camada** é um novo sistema que permite manter **sincronizados**, **parâmetros** em **outras camadas e Conjuntos de Texturas**. Ao criar uma instância de camada, a camada original se torna a **origem** e as instâncias **permanecerão atualizadas**, a menos que o vínculo entre elas seja quebrado. As camadas em instância são uma **ótima maneira** de **textura um ativo em alguns cliques** e evitar ir e voltar para atualizar camadas. Para textura facilmente um ativo, basta **instanciar uma pasta** em outros Conjuntos de Texturas e colocar um material inteligente ou qualquer outra camada nele. Ele será **replicado em todos os lugares** instantaneamente.
 
 Há duas maneiras de criar uma instância:
 
@@ -43,7 +35,7 @@ Há duas maneiras de criar uma instância:
 > 
 > * As ações de pintura estarão presentes apenas na camada de origem, as camadas instanciadas não replicarão os traçados de pincel.
 > * As referências da âncora devem ter o ponto de ancoragem no mesmo nível da instância; um ponto de ancoragem não pode estar fora de uma pasta da instância caso contrário, ele será quebrado.
-> * Se um material inteligente for salvo com camadas instanciadas, a camada de origem deverá estar na pasta de material inteligente; caso contrário, o vínculo da instância será quebrado.
+> * Se um material inteligente for salvo com camadas instanciadas, a camada de origem deverá estar na pasta de materiais inteligentes, caso contrário, o vínculo da instância será quebrado.
 > * Dependendo da configuração de pilha de camadas, as camadas instanciadas podem criar um ciclo, que não é suportado e quebrará o resultado da instância. Exclua ou mova a instância para corrigi-la.
 
 Para obter mais detalhes e exemplos, consulte a página dedicada: [Instâncias de camada](../../interface/layer-stack/layer-instancing.md)
@@ -97,7 +89,7 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 * [Script] Adicionar funções de retorno de chamada Antes e Depois ao exportar textura
 * [Iray] Atualização para o SDK 2017.1 (suporte a Volta GPUs)
 
-**&#x200B;**&#x200B;Corrigido:**&#x200B;**
+****Corrigido:****
 
 * Falha ao sair do aplicativo antes que a janela principal seja exibida
 * [MAC] Falha ao carregar mapas em tons de cinza com IRAY
@@ -133,12 +125,12 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 * [Plug-in] O plug-in do Photoshop ignora a seleção de canal e sempre exporta tudo
 * [Camadas] As âncoras são rompidas quando copiadas/coladas em conjuntos de texturas
 * [Camadas] Algumas referências de âncora não podem ser restauradas se estiverem quebradas
-* [Shader] O parâmetro de aspereza secundária revestido com pbr está danificado
+* [Sombreador] o parâmetro de aspereza secundária revestido com pbr está quebrado
 * [Steam] O pop-up do verificador de versão não deve estar visível na inicialização
 
 **Problemas conhecidos:**
 
-* [AMD] Falha/Congela ao tentar pintar em uma malha. Pode ser corrigido com uma atualização de driver de GPU.
+* [AMD] Falha/Congela ao tentar tinta em uma malha. Pode ser corrigido com uma atualização de driver de GPU.
 
 ### 2017.4
 
@@ -149,16 +141,16 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 * [Instanciação] Permite criar instâncias de parâmetros em camadas
 * [Instanciação] Permite saltar entre uma camada de origem e uma instância
 * [Instanciação] Adicionar uma ação “instanciar em conjuntos de texturas”
-* [Instanciação] Indique na pilha de camadas instâncias reentrantes (ciclos)
+* [Instancing] Indique nas instâncias de reentrada de pilha de camadas (ciclos)
 * [Instância] Excluir instâncias quando uma origem é removida
 * [Instanciação] Não permitir referências de Âncora de fora de uma pasta de instância
 * [UI] Mova a pilha Desfazer para sua própria janela chamada “History”
 * [Plug-in] Plug-in de integração de link dinâmico DCC
 * [Mecanismo] Aprimorar o desempenho da pintura com pintura Esparsa
-* [Exportar] Adicionar opções de rascunho e reexportação ao exportador do Sketchfab
+* [Exportar] Adicione opções de rascunho e de reexportação ao exportador do Sketchfab
 * [Prateleira] Adicionar controle “virar” para substâncias de fonte
 * [Prateleira] Adicione 20 novos materiais de procedimento
-* [Prateleira] Adicione 40 novos mapas grunges (bitmap baseado e procedimento)
+* [Prateleira] Adicione 40 novos mapas grunges (bitmap baseado e processual)
 * [Visor] Ativar colisões de visualização de pincel em outros conjuntos de texturas visíveis
 * Atualizar os requisitos mínimos dos drivers de GPU AMD
 
@@ -166,10 +158,10 @@ Os novos recursos são abordados em detalhes nos nossos vídeos mais recentes:
 
 * Falha ao computar Substance em resoluções muito grandes
 * Falha ao pintar fortemente com partículas
-* [Visor] Reflexo de specular incorreto na exibição 2D com malhas específicas
+* [Visor] Reflexo de specular incorreto no Visualização 2D com malhas específicas
 * [UI] Algumas ações indesejadas são exibidas na janela Histórico
 
 **Problemas conhecidos:**
 
 * [Camadas] Algumas referências de âncora não podem ser restauradas se estiverem quebradas
-* Falha ao usar a ação de refazer após desfazer uma alteração de Sombreador nas Configurações do visualizador
+* Falha ao usar a ação de refazer após uma desfazer de uma alteração de Sombreador nas Configurações do visualizador

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/export-window/export-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como definir as configurações de exportação no Substance 3D Painter para controlar a resolução, o formato e as opções de saída da textura.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Export settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Exportar configurações
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 1%
-
 ---
-
 
 # Exportar configurações
 
@@ -69,7 +61,7 @@ Veja abaixo uma lista de todos os formatos de arquivo de exportação compatíve
 | **Bitmap** | bmp | 8, 8 + pontilhamento |
 | **OpenEXR** | exr | 16 (flutuante), 32 (flutuante) |
 | **Formato de intercâmbio de gráficos** | gif | 8, 8 + pontilhamento |
-| **HDR do Radiance** | hdr | 32 (flutuante) |
+| **HDR de Radiância** | hdr | 32 (flutuante) |
 | **Ícone** | ico | 8, 8 + pontilhamento |
 | **Jpeg 2000** | j2k | 8, 8 + pontilhamento, 16 |
 | **Gráficos De Rede Jpeg** | jng | 8, 8 + pontilhamento, 16 |

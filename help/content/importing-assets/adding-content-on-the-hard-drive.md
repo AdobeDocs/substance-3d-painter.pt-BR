@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como adicionar conteúdo do disco rígido ao Substance 3D Painter para expandir sua biblioteca de recursos com arquivos locais.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Importing assets > Adding content on the hard drive
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Adicionar conteúdo no disco rígido
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
-
 ---
-
 
 # Adicionar conteúdo no disco rígido
 
@@ -57,7 +49,7 @@ Abaixo estão os locais da biblioteca padrão **Seus ativos** em que seu própri
 
 >[!NOTE]
 >
-> A partir da versão 7.2.0, pastas e categorias personalizadas podem ser usadas em uma biblioteca. Eles estarão acessíveis na janela Ativos por meio de [Filtrar por caminho](../../interface/assets/filter-by-path.md) ou [Trilhas de navegação](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> A partir da versão 7.2.0, pastas e categorias personalizadas podem ser usadas em uma biblioteca. Eles estarão acessíveis na janela Ativos por meio de [Filtrar por caminho](../../interface/assets/filter-by-path.md) ou [Trilhas de navegação](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

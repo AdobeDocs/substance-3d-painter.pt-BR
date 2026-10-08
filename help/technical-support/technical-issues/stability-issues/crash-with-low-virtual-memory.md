@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como corrigir falhas do Substance 3D Painter causadas por memória virtual insuficiente para garantir um desempenho estável do aplicativo.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Falha com pouca memória virtual
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 
 # Falha com pouca memória virtual
 

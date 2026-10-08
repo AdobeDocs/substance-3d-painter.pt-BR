@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como corrigir problemas de arrastar e soltar ao adicionar arquivos à prateleira no Substance 3D Painter para gerenciamento eficiente de recursos.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to drag and drop files into the shelf
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Impossível arrastar e soltar arquivos na prateleira
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
-
 ---
-
 
 # Impossível arrastar e soltar arquivos na prateleira
 

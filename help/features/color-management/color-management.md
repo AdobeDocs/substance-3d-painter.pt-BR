@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/color-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como configurar o gerenciamento de cores no Substance 3D Painter para garantir uma precisão de cores consistente em todo o fluxo de trabalho.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Gerenciamento de cores
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
-
 ---
-
 
 # Gerenciamento de cores
 
 ![](../../assets/banner-cm-doc.jpg)
 
-O gerenciamento de cores é a manipulação e a conversão de cores. Desde a importação de recursos à exibição de cores na tela até a exportação final de texturas. A calibração de cores é importante para garantir a mesma aparência em todos os aplicativos.
+O gerenciamento de cores é a manipulação e a conversão de cores. Desde a importação de recursos até a exibição de cores na tela e, por fim, a exportação de texturas. A calibração de cores é importante para garantir a mesma aparência em todos os aplicativos.
 
 No aplicativo, o gerenciamento de cores é processado por meio da integração do [OpenColorIO](https://opencolorio.org/) (OCIO para short) versão 2. OCIO é o padrão em filme e animação para converter e exibir cores. Para ativar o gerenciamento de cores, basta criar um novo projeto ou abrir um existente e ativar as configurações dedicadas.
 
@@ -44,7 +36,7 @@ Pode ser útil conhecer alguns termos técnicos relacionados ao gerenciamento de
 | Palavra-chave | Descrição |
 | --- | --- |
 | **Espaço de cores** | Sistema de coordenadas no qual as cores são definidas. |
-| **Espaço de trabalho** | O espaço de cores usado dentro do aplicativo para mesclar textura, pintura etc. |
+| **Espaço de trabalho** | O espaço de cores usado no aplicativo para mesclar textura, tinta etc. |
 | **Exibir transformo** | O transformo de exibição converte as cores lineares do espaço de trabalho para o espaço de cores do monitor para exibir cores perceptivamente (para serem vistas pelos olhos humanos). As transformas de exibição geralmente incluem uma passagem de mapeamento de tons para compactar cores a fim de se ajustarem à faixa limitada de valores permitida por uma tela. |
 | **Configuração** | Um arquivo de configuração OCIO. Define o que é o espaço de trabalho, uma lista de espaços de cores e uma lista de transformo de exibição. |
 | **ACE** | ACE significa Academy Color Encoding System e é o padrão em muitos aplicativos para troca de arquivos de imagem digital. Duas versões deste padrão estão incluídas dentro do aplicativo por padrão. |
@@ -56,17 +48,17 @@ Dentro do aplicativo, quais canais são gerenciados por cores ou não (dados/pas
 
 | Canal | A cor é gerenciada |
 | --- | --- |
-| **oclusão de ambiente** | Não |
+| **Oclusão de ambiente** | Não |
 | **Ângulo de anistotropia** | Não |
 | **Nível de anisotropia** | Não |
-| **Cor base** | **Sim** |
+| **Cor de base** | **Sim** |
 | **Máscara de mesclagem** | Não |
 | **Cor do revestimento** | **Sim** |
 | **Normal do revestimento** | Não |
 | **Opacidade do revestimento** | Não |
 | **Aspereza do revestimento** | Não |
 | **Nível especular do revestimento** | Não |
-| **Difusa** | **Sim** |
+| **Difusões** | **Sim** |
 | **Deslocamento** | Não |
 | **Textura reluzente** | Não |
 | **Height** | Não |
@@ -84,7 +76,7 @@ Dentro do aplicativo, quais canais são gerenciados por cores ou não (dados/pas
 | **Specular** | **Sim** |
 | **Specular edge color** | **Sim** |
 | **Specular level** | Não |
-| **Transparência** | Não |
+| **Translucidez** | Não |
 | **Transmissivo** | **Sim** |
 | **UserX (0-15)** | Depende das [configurações do Conjunto de Texturas](../../interface/texture-set/texture-set-settings.md). Por padrão, os canais do usuário não são gerenciados por cores. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/user-demo.png"/></div> |
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como reduzir o tamanho dos arquivos de projeto do Substance 3D Painter para otimizar os requisitos de desempenho e armazenamento.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Projects are really big
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Projetos são realmente grandes
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
-
 ---
-
 
 # Projetos são realmente grandes
 
@@ -82,7 +74,7 @@ Para reduzir o tamanho dos mapas de malha, algumas ações podem ser feitas:
   1. Abra cada mapa em um software de edição de fotos ou no Substance 3D Designer
   1. Reduza a resolução para as texturas para as quais ela parece encaixada. Certifique-se de alternar a Oclusão de ambiente, a Curvatura e o Thickness de colorido para tons de cinza.
   1. Salve as novas versões de textura como PNG de 16 bits.
-  1. Reimporte as texturas e substitua-as sobre as texturas de cozimento originais nas configurações do Conjunto de texturas.
+  1. Reimporte as texturas e substitua-as pelas texturas do faço bake original nas configurações do Conjunto de texturas.
   1. Use a ação Limpar no menu Arquivo para remover os antigos Mapas de malha.
   1. Use a ação Salvar e compactar no menu Arquivo para compactar o arquivo de projeto.\
      Depois de todas essas etapas, o impacto no projeto deve ser reduzido significativamente.

@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Saiba como usar efeitos geradores no Substance 3D Painter para criar texturas e padrões processuais automaticamente.
-helpx_creative_field: ''
-helpx_description: Painter > Features > Effects > Generator
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Geradores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 
 # Geradores
 
@@ -47,7 +39,7 @@ Para adicionar um gerador a uma camada:
 ![](../../assets/generators/generator_spectrum.png)
 
 Cada gerador tem um conjunto de parâmetros que permite ajustar a máscara resultante.\
-Para adicionar geradores personalizados na prateleira, consulte: [Adicionando conteúdo à prateleira](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Para adicionar geradores personalizados na prateleira, consulte: [Adicionando conteúdo à prateleira](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

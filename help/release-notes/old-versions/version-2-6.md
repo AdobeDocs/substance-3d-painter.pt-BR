@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2-6.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 2.6 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.6
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2.6
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2.6
 
@@ -48,7 +40,7 @@ O **plug-in** está disponível no GitHub. Não hesite em ajudar se você vir po
 ![](../../assets/texture-set-rename-description.png)
 
 Agora é possível alterar o nome de um conjunto de texturas diretamente dentro do Substance Painter. Renomear um conjunto de texturas afetará o nome das texturas que são exportadas no disco (dependendo da predefinição de exportação usada).\
-Para renomear um conjunto de texturas, basta clicar duas vezes no nome para modificá-lo ou usar o botão direito do mouse para abrir o menu de contexto. Também é possível adicionar descrições personalizadas para fornecer mais informações sobre o que os conjuntos de texturas fazem. Isso pode ser muito útil ao trabalhar em um [projeto UDIM](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Use o botão “**configurações**” para configurar a maneira como as descrições são exibidas na lista.
+Para renomear um conjunto de texturas, basta clicar duas vezes no nome para modificá-lo ou usar o botão direito do mouse para abrir o menu de contexto. Também é possível adicionar descrições personalizadas para fornecer mais informações sobre o que os conjuntos de texturas fazem. Isso pode ser muito útil ao trabalhar em um [projeto UDIM](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Use o botão “**configurações**” para configurar a maneira como as descrições são exibidas na lista.
 
 ![](../../assets/reasign-texture-set.png)
 
@@ -75,14 +67,14 @@ Os novos recursos principais são abordados em nosso tutorial em vídeo mais rec
 **Corrigido:**
 
 * [Engine] Problema de desaparecimento de traços, ao alterar a resolução (4K>2K)
-* [Padeiros] Falha no cozimento do mapa de ID com a opção Corresponder pelo nome ativada
-* [Padeiros] As mensagens de erro não são suficientemente explícitas
-* [Exibição 3D] O espaço tangente não é sincronizado com padeiros
+* [Baker] Falha na Faz bake do Mapa de ID com a opção Corresponder pelo nome habilitada
+* [Baker] As mensagens de erro não são suficientemente explícitas
+* [Visualização 3D] O espaço tangente não é sincronizado com baker
 * [Ferramenta] Artefatos pretos ao usar a ferramenta de borrar
-* [Shader] O sombreador não PBR não funciona mais
-* [Shader] “pbr-coated” está quebrado
-* [Shader] A aspereza do revestimento do sombreador “revestido com pbr” não tem mais impacto
-* [Shader] O sombreador de brilho de especificação não corresponde a Iray e SD
+* [Sombreador] O sombreador não PBR não funciona mais
+* [Sombreador] “revestido com pbr” está quebrado
+* [Sombreador] A aspereza do revestimento do sombreador “pbr-coated” não tem mais impacto
+* [Sombreador] O sombreador brilhante da especificação não corresponde ao Iray e SD
 * [Prateleira] Falha ao carregar dois arquivos com o mesmo nome, mas com extensões diferentes
 * [Prateleira] Não é mais possível editar a predefinição nas prateleiras
 * [Prateleira] Não é possível definir uma visualização personalizada para ativos importados na prateleira
@@ -109,8 +101,8 @@ Os novos recursos principais são abordados em nosso tutorial em vídeo mais rec
 * [TextureSet] O conjunto de texturas renomeado é desativado após a reabertura do projeto
 * [Prateleira] Conteúdo de modelos padrão ausente
 * [Prateleira] As texturas não quadradas são exibidas como quadradas
-* [Shader] Depois que um conjunto de textura é desativado, o sombreador associado é destruído
-* [Scripting] alg.baking.setTextureSetBakingParameters() não funciona mais
+* [Sombreador] Quando um conjunto de texturas é desativado, o sombreador associado é destruído
+* [Scripting] alg.fazer bake ating.setTextureSetBackParameters() não funciona mais
 * [Script] Erro de digitação no tutorial do websocket
 * [Scripting] Vários problemas em AlgWidgets
 * [Log] Detecção incorreta de memória virtual disponível em alguns casos
@@ -149,5 +141,5 @@ Os novos recursos principais são abordados em nosso tutorial em vídeo mais rec
 * [Shelf] O Envolvimento de Ferrugem do MatFX não funciona corretamente
 * [Prateleira] O filtro HSL está habilitado em canais incorretos por padrão
 * [Prateleira] A nitidez está ativada no canal Height/Normal por padrão
-* [Exportar] As predefinições de exportação do Vray não usam um mapa normal do OpenGL
+* [Exportar] As predefinições de exportação do Vray não usam um mapa normal OpenGL
 * [Ferramenta] Problemas de imprecisão com a ferramenta clonar/borrar criam artefatos

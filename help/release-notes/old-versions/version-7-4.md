@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-7-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 7.4 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 7.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
-
 ---
-
 
 # Versão 7.4
 
-O **Substance 3D Painter 7.4** adiciona suporte para o OpenColorIO com a introdução do novo fluxo de trabalho de Gerenciamento de Cores.
+O **Substance 3D Painter 7.4** adiciona suporte para OpenColorIO com a introdução do novo fluxo de trabalho de Gerenciamento de Cores.
 
 Data de lançamento: *24 de novembro de 2021*
 
@@ -43,7 +35,7 @@ Esse novo fluxo de trabalho permite gerenciar e calibrar cores da importação �
 * **Configurações de exibição do visor**\
   Na parte superior das visualizações 2D e 3D estão dois controles para gerenciamento de cores:\
   **Botão de cores**: habilite ou desabilite a transformação de cores do visor.\
-  **Menu suspenso de transformação de exibição**: selecione qual transformação de exibição usar para converter as cores.
+  **Menu suspenso transformo de exibição**: selecione o transformo de exibição a ser usado para converter as cores.
 
   ![](../../assets/cm-viewport.jpg){width="500px"}
 
@@ -76,7 +68,7 @@ Esse novo fluxo de trabalho permite gerenciar e calibrar cores da importação �
 
 ![](../../assets/banner-undock.jpg)
 
-A exibição 2D e 3D agora pode ser desencaixada para ser movida para outro lugar. Por exemplo, ter a visualização 3D em uma tela principal enquanto a visualização 2D está em outra tela.
+A exibição 2D e 3D agora pode ser desencaixada para ser movida para outro lugar. Por exemplo, tendo a visualização 3D em uma tela principal enquanto a visualização está em outra tela.
 
 Trabalhar com uma exibição desencaixada é mais fácil de organizar o layout do aplicativo e ficar de olho nas coisas sem perder muita área de pintura.
 
@@ -133,7 +125,7 @@ Um novo conjunto de ativos foi adicionado ao conteúdo padrão disponível com o
 * Novos bitmaps de desgaste (de **Emiel Sleegers**):
   * Tinta de gesso de desgaste
   * Gesso de desgaste desbotado
-  * Pintura de desgaste Descascada
+  * Tinta de desgaste Descascada
   * Umidade do desgaste
   * Desgaste Fluff
   * Desgaste Cobweb
@@ -173,45 +165,45 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 
 **Adicionado:**
 
-* [SpaceMouse]&#x200B;[Windows] Suporte ao SpaceMouse 3Dconnection na Janela de Visualização 3D para navegação
-* [SpaceMouse]&#x200B;[Windows] Atalhos/teclas básicos para modelos Pro e Enterprise SpaceMouse no visor 3D
-* [SpaceMouse]&#x200B;[Windows] Ícone do centro de rotação dedicado no visor 3D
-* [Gerenciamento de cores] Use funções da configuração OCIO para alterar as configurações padrão
+* [SpaceMouse][Windows] Suporte ao SpaceMouse 3Dconnection na Janela de Visualização 3D para navegação
+* [SpaceMouse][Windows] Atalhos/teclas básicos para modelos Pro e Enterprise SpaceMouse no visor 3D
+* [SpaceMouse][Windows] Ícone do centro de rotação dedicado no visor 3D
+* [Gerenciamento de cores] Usar funções da configuração OCIO para alterar as configurações padrão
 * [Gerenciamento de cores] Gerenciamento de cores na janela de propriedades dos widgets de cores
 * [Gerenciamento de cores] Gerenciamento de cores na janela de propriedades para visualização de material
 * [Gerenciamento de cores] Amostras de gerenciamento de cores no seletor de cores
 * [Gerenciamento de cores] Adicionar uma configuração para definir o espaço de cores sRGB padrão
-* [Gerenciamento de cores] Adicionar o espaço de cores sRGB padrão da configuração OCIO no seletor de cores Lista de seletores de exibição
+* [Gerenciamento de cores] Adicionar o espaço da cor sRGB padrão da configuração OCIO no seletor de cores Lista de seletores de exibição
 * [Gerenciamento de cores] Melhorias para o menu de substituição do espaço de cores
 * [Gerenciamento de cores] Permitir substituição do espaço de cores do mapa de ambiente nas Configurações de exibição
 * [Gerenciamento de cores] Desenhar gradientes do seletor de cores com base na exibição atual
-* [Gerenciamento de cores] Valores HDR do suporte por padrão no editor de cores
+* [Gerenciamento de cores] Restringir valores HDR por padrão no editor de cores
 * [Gerenciamento de cores] Usar passagem (sem espaço de cores) para filtros no modo Legado
 * [Gerenciamento de cores] Limitar a exibição de gradientes no editor de cores para corresponder ao intervalo [0-1]
 * [Gerenciamento de cores] Ocultar seletor de exibição no seletor de cores no modo Legado
 * [Gerenciamento de cores] Tornar o seletor de cores hexadecimal sempre no espaço de cores sRGB
 * [Gerenciamento de cores] Desativar menu suspenso Exibição do seletor de cores para canais de dados
 * [Otimização] A grade de distorção recalcula apenas blocos UV cobertos
-* [Exportar] Permitir a exportação de projetos de Bloco UV para Sketchfab, USD e glTF
-* [Scripting]&#x200B;[Python] Permitir a alteração da função de mapeamento de tom
+* [Exportar] Permitir a exportação de projetos do Bloco UV para Sketchfab, USD e glTF
+* [Scripting][Python] Permitir a alteração da função de mapeamento de tom
 
 **Corrigido:**
 
 * [Sketchfab] A atualização do modelo existente acaba criando um novo modelo
 * [Sketchfab] Falha ao procurar modelo atualizado anteriormente
 * Falha ao exportar para USD
-* Falha ao criar uma nova ocorrência de sombreador na Máscara de geometria ou quando a geometria está oculta
+* Falha ao criar uma nova instância de sombreamento em Máscara de geometria ou quando a geometria está oculta
 * [Janela Importar ativo] Falha ao alterar o tipo de recursos importados
-* Os mapas de malha normal são invertidos quando usados em uma pilha de camadas
+* Mapas de malha normal são invertidos quando usados em pilha de camadas
 * [Substance] O modo de mesclagem de dados do usuário não é levado em consideração
-* [Gerenciamento de cores] Bitmaps com espaço de cor no nome do arquivo são importados como sequências de Bloco UV
+* [Gerenciamento de cores] Bitmaps com espaço de cores no nome do arquivo são importados como sequências de Bloco UV
 * [Gerenciamento de cores] As saídas gerenciadas por cores do gráfico de Substance estão no espaço de cores incorreto
 * [Gerenciamento de cores] A ferramenta Preenchimento de polígono exibe a cor errada
-* [Gerenciamento de cores] O mapeador de tons ACES é aplicado a canais no modo solo
+* [Gerenciamento de cores] O mapeador de tons ACE é aplicado a canais no modo solo
 * [Gerenciamento de cores] A visualização da ferramenta de iluminação da esfera não é gerenciada por cores
-* [Gerenciamento de cores]&#x200B;[Exportar] Mapas convertidos aplicam uma conversão incorreta
-* [Scripting]&#x200B;[Python]&#x200B;[Color Management] Os projetos criados com o modelo e a variável de ambiente OCIO estão no modo Legado
-* [Scripting]&#x200B;[Python] Não é possível usar a função de avaliação JavaScript na inicialização
+* [Gerenciamento de cores][Exportar] Mapas convertidos aplicam uma conversão incorreta
+* [Scripting][Python][Color Management] Projetos criados com modelo e variável de ambiente OCIO estão no modo Legado
+* [Scripting][Python] Não é possível usar a função de avaliação JavaScript na inicialização
 * [Oferta de Adobe 3D] Não é possível iniciar o Painter ao usar configurações regionais com idiomas não compatíveis por padrão
 
 **Problemas Conhecidos:**
@@ -232,15 +224,15 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 * [Gerenciamento de cores] Expanda a seção Gerenciamento de cores, por padrão, quando o OCIO for selecionado nas janelas de novo projeto e configurações do projeto
 * [Gerenciamento de cores] Adicionar mapeador de tons ACE no modo herdado
 * [Gerenciamento de cores] Ajuste as configurações padrão
-* [Gerenciamento de cores]&#x200B;[Exportar] Preencher $colorSpace nos nomes de arquivos para canais de dados
+* [Gerenciamento de cores][Exportar] Preencher $colorSpace nos nomes de arquivos para canais de dados
 * [Exportar] Exportar projeto do Bloco UV para o Stager
 * [Interoperabilidade] Não disponível para as edições Steam e Substance
 * [Interoperabilidade] Permitir o envio de um projeto de Bloco UV para o Stager
 
 **Corrigido:**
 
-* [MacOS]&#x200B;[Falha] O Painter não começa com o Catalina
-* [Gerenciamento de cores]&#x200B;[Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
+* [MacOS][Falha] O Painter não começa com o Catalina
+* [Gerenciamento de cores][Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
 * [Gerenciamento de cores] Recursos usados como tons de cinza no novo menu Espaço de cores de exibição de máscara
 * [Gerenciamento de cores] O canal do usuário é mais escuro na viewport no modo legado + visualização individual
 * [Gerenciamento de cores] O mapa de ambiente é sempre linear quando usado no iRay
@@ -272,18 +264,18 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 * [Gerenciamento de cores] Extrair o nome do espaço de cores do nome de arquivo bitmap importado
 * [Gerenciamento de cores] Permite substituir o espaço de cores por um espaço de cores da configuração na janela Propriedades
 * [Gerenciamento de cores] Adicione opções de gerenciamento de cores nas Configurações do conjunto de texturas
-* [Gerenciamento de cores]&#x200B;[Janela de visualização] Permita o gerenciamento de cores de exibições 2D e 3D separadamente
+* [Gerenciamento de cores][Janela de visualização] Permita o gerenciamento de cores de exibições 2D e 3D separadamente
 * [Gerenciamento de cores] Carregue e converta o mapa de ambiente para o espaço de cores de trabalho
 * [Gerenciamento de cores] Ajustar o seletor e editor de cores com o espaço de cores atual
 * [Gerenciamento de cores] Permita selecionar o espaço de cores transforme de vídeo no visor com um novo menu suspenso
 * [Gerenciamento de cores] Aplicar transformo de exibição com resultados de renderização Iray
 * [Gerenciamento de cores] Exportar texturas com espaços de cores diferentes
-* [Gerenciamento de cores]&#x200B;[Python] Aplicar configurações de gerenciamento de cores da variável Ambiente (OCIO) aos novos projetos
+* [Gerenciamento de cores][Python] Aplicar configurações de gerenciamento de cores da variável Ambiente (OCIO) aos novos projetos
 * [Visor] Permite desencaixar o visor 2D ou 3D
 * [Desempacotamento automático] Nova opção para evitar ilhas alongadas
 * [Scripting Python] Chamar funções JavaScript da API Python
 * [Janela Novo projeto] Tornar a seção de mapas importados flexível
-* [Projeção]&#x200B;[Distorcer] Permite ocultar normais como uma opção nas configurações de Distorção
+* [Projeção][Distorcer] Permite ocultar normais como uma opção nas configurações de Distorção
 * [Conteúdo] 11 novos mapas de desgaste
 * [Conteúdo] 8 novas predefinições de ferramenta (zíper, cabo de aperto, brilho)
 * [Conteúdo] 8 novos materiais (cicatriz, bolso, ...)
@@ -291,11 +283,11 @@ Para executar um comando Javascript em Python, use a função **evaluation()** d
 
 **Problemas Conhecidos:**
 
-* [Mac M1] Os materiais inteligentes não são exibidos corretamente
-* [Gerenciamento de cores]&#x200B;[Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
+* [Mac M1] Os Materiais inteligentes não são exibidos corretamente
+* [Gerenciamento de cores][Falha] Falha aleatória ao reproduzir o tipo de dados/gerenciamento de cores no canal do usuário
 * [Gerenciamento de cores] O seletor de cores não seleciona o valor correto para o canal de dados no modo herdado
-* [Gerenciamento de cores]&#x200B;[Iray] Salvar a renderização em EXR ou TIFF enquanto o Gerenciamento de cores está ativado na janela de visualização sempre será salvo em linear
+* [Gerenciamento de cores][Iray] Salvar a renderização em EXR ou TIFF enquanto o Gerenciamento de cores está ativado na viewport sempre será salvo em formato linear
 * [Gerenciamento de cores] Os recursos usados como tons de cinza na máscara exibem o menu Espaço de cores errado
-* [Color Management]&#x200B;[Iray] O mapa de ambiente é sempre linear quando usado em Iray
-* [Gerenciamento de cores]&#x200B;[Exportar] Os mapas convertidos não são exportados como canais gerenciados por cores
-* [Gerenciamento de cores]&#x200B;[Exportar] A exportação ignora se o canal do usuário é gerenciado por cores ou não com o modo legado
+* [Color Management][Iray] O mapa de ambiente é sempre linear quando usado em Iray
+* [Gerenciamento de cores][Exportar] Os mapas convertidos não são exportados como canais gerenciados por cores
+* [Gerenciamento de cores][Exportar] A exportação ignora se o canal do usuário é gerenciado por cores ou não com o modo legado

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar variáveis de ambiente no Substance 3D Painter para configurar o comportamento do aplicativo e a integração de pipeline.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Environment variables
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Variáveis de ambiente
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 3%
-
 ---
-
 
 # Variáveis de ambiente
 
@@ -31,7 +23,7 @@ Esta página lista variáveis de ambiente que podem ser usadas para substituir o
 | **SUBSTANCE\_PAINTER\_TEMP\_LOCATION** | Valor: caminho direto para uma pastaDefine onde o Substance Painter deve gravar seus arquivos temporários (incluindo o cache SVT). Essa variável substitui o parâmetro disponível na janela [Configurações](../../interface/settings/settings.md). | <ol data-preserve-html="true"><li data-preserve-html="true">3</li></ol> |
 | **SUBSTANCE\_PAINTER\_PREVIEWS\_MEMORY\_BUDGET** | Valor: 500Define a quantidade de memória (Ram) que o aplicativo pode usar para carregar e armazenar visualizações temporárias a partir da janela Ativos. Quando o limite do orçamento é atingido, as visualizações antigas são descarregadas. Esse valor controla somente a exibição de visualizações na janela Ativos.O valor é definido em megabytes. O valor padrão é 500 MB. | <ol data-preserve-html="true"><li data-preserve-html="true">2</li></ol> |
 | **SUBSTANCE\_PAINTER\_PLUGINS\_PATH** | Localização dos plug-ins Python adicionais. | 6.1 |
-| **PYTHONPATH** | Módulos Python adicionais a serem carregados com a integração Python do aplicativo. Para obter mais informações, consulte [Carregando módulos Python externos](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/loading-external-python-modules-205363420.html). | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
+| **PYTHONPATH** | Módulos Python adicionais a serem carregados com a integração Python do aplicativo. Para obter mais informações, consulte [Carregando módulos Python externos](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/loading-external-python-modules-205363420.html). | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **OCIO** | Caminho para um arquivo **config.ocio** que será usado para orientar as configurações de [gerenciamento de cores](../../features/color-management/color-management.md) com OpenColorIO.  **Observação:** esta variável de ambiente tem prioridade sobre a variável **PAINTER\_ACE\_CONFIG**. | <ol data-preserve-html="true"><li data-preserve-html="true">4</li></ol> |
 | **PAINTER\_ACE\_CONFIG** | Caminho para um arquivo json que será usado para orientar as configurações de [Gerenciamento de cores](../../features/color-management/color-management.md) com Adobe ACE. | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **SUBSTANCE\_DISABLE\_SPECIFIC\_FEATURES** | Desative várias funcionalidades dentro dos aplicativos:<ul data-preserve-html="true"><li data-preserve-html="true">Links para recursos externos (ajuda, páginas da Web, exemplos etc.)</li><li data-preserve-html="true">Desabilitar verificações de atualizações</li><li data-preserve-html="true">Desabilitar o envio de estatísticas de uso</li><li data-preserve-html="true">Desativar a exportação para o Substance share</li><li data-preserve-html="true">Desative os painéis Boas-vindas e Novidades</li></ul> | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |

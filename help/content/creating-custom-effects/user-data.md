@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/creating-custom-effects/user-data.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar dados do usuário em efeitos personalizados para que o Substance 3D Painter passe informações personalizadas para efeitos de sombreador.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > User data
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Dados do usuário
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
-
 ---
-
 
 # Dados do usuário
 
@@ -96,7 +88,7 @@ Exemplo de sintaxe:
 
 Por padrão, as entradas de imagem de um gráfico de Substance não têm nenhum preenchimento, a área fora da Ilha UV é geralmente preenchida com uma cor uniforme por motivos de desempenho. Em vez disso, a configuração de preenchimento pode ser usada para solicitar dilatação infinita, que pode ser usada para filtros a fim de evitar a criação de emendas, por exemplo.
 
-Exemplo de sintaxe: **p**&#x200B;**adding=extension**
+Exemplo de sintaxe: **p****adding=extension**
 
 ## Desativar uma saída por padrão
 
@@ -105,7 +97,7 @@ Ao adicionar uma substância a um slot (como o slot de material da ferramenta de
 * Em um nó de saída específico (como um material) : **disable=(true)**
 * Em um nó de saída genérico (como um filtro) : **disable=(height,diffuse,specular)**
 
-Ao carregar o substance, este canal não será habilitado na interface do usuário e, portanto, não terá efeito na pilha de camadas. O usuário ainda pode ativar o canal de volta.
+Ao carregar a substância, este canal não será ativado na interface do usuário e, portanto, não terá efeito na pilha de camadas. O usuário ainda pode ativar o canal de volta.
 
 ## Designar uma saída como uma máscara/alfa comum
 

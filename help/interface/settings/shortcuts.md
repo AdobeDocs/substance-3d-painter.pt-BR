@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Saiba como personalizar os atalhos de teclado no Substance 3D Painter para simplificar seu fluxo de trabalho e melhorar a eficiência.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Settings > Shortcuts
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Atalhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 4%
-
 ---
-
 
 # Atalhos
 
@@ -26,7 +18,7 @@ Esta página lista todos os atalhos de teclado e mouse disponíveis.
 
 ## Visão geral de atalhos
 
-Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/br/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Como alterar um atalho
 
@@ -74,8 +66,8 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Selecione a ferramenta Clonar (origem relativa)** | 6 | 6 |  |
 | **Selecione a ferramenta Clonar (origem absoluta)** | Ctrl+6 | ⌘+6 |  |
 | **Fazer bake Mapas de Malha** | Ctrl+Shift+B | ⌘+Shift+B | Abra a janela de configurações de Fça bake. |
-| **Aumentar tamanho da ferramenta** | **&rbrack;** | **&rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
-| **Diminuir tamanho da ferramenta** | **&lbrack;** | **&lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
+| **Aumentar tamanho da ferramenta** | **&amp;rbrack;** | **&amp;rbrack;** | Aumente o tamanho do pincel para a ferramenta de pintura. |
+| **Diminuir tamanho da ferramenta** | **&amp;lbrack;** | **&amp;lbrack;** | Diminua o tamanho do pincel para a ferramenta de pintura. |
 | **Ferramenta Inverter tons de cinza** | X | X | Inverta o valor atual da escala de cinza se a ferramenta de pintura estiver em uma máscara. |
 | **Escolher material de traçado** | P | P | Ative a ferramenta de seleção de material. |
 | **Atraso do mouse** | D | D | Ative o comportamento de atraso do mouse na ferramenta atual. |
@@ -89,7 +81,7 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Exibir próximo mapa de malha** | B | B | Alterne a viewport para o modo Solo e exiba o próximo mapa de malha do Conjunto de Textura atual. |
 | **Exibir mapa de malha anterior** | Shift+B | Shift+B | Alterne a viewport para o modo Solo e exiba o mapa de malha anterior do Conjunto de Textura atual. |
 | **Alternar animação** | Espaço | Espaço | Pausar/despausar animação das partículas se uma projeção de partículas estiver em andamento. |
-| **Exportar texturas** | Ctrl+Shift+E | Shift+⌘+E | Abra a janela de exportação de texturas. |
+| **Exportar texturas** | Ctrl+Shift+E | Shift+⌘+E | Abra a janela Exportar texturas. |
 | **Centralizar toda a malha** | F | F | Centralize toda a malha do projeto atual no meio do visor. |
 | **Alternar edição de máscara rápida** | U | U | Entre/saia da edição de máscara rápida. |
 | **Limpar máscara rápida** | Y | Y | Desative e limpe a máscara rápida. |
@@ -100,7 +92,7 @@ Para restaurar um atalho ao seu valor padrão, basta clicar com o botão direito
 | **Alternar exibição 2D/3D** | F4 | F4 | Alternar entre as exibições 2D e 3D no visor e UV 2D. |
 | **Isolado de conjunto de textura** | Alt+Q | Option+Q | Isole o Conjunto de texturas atual no visor ocultando o outro. |
 |  |  |  |  |
-| **Usar ferramenta/pintura** | Mouse para esquerda | Mouse para esquerda |  |
+| **Usar ferramenta/tinta** | Mouse para esquerda | Mouse para esquerda |  |
 | **Desenhar linhas retas** | Shift+Mouse para a esquerda | Shift+Mouse para a esquerda |  |
 | **Desenhe linhas retas com o encaixe** | Ctrl+Shift+Mouse para a esquerda | Ctrl+Shift+Mouse para a esquerda |  |
 | **Girar câmera** | Alt+Mouse para a esquerda | Option+left |  |

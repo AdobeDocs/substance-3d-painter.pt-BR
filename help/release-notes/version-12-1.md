@@ -1,8 +1,7 @@
 ---
 title: Versão 12.1
 description: Notas de versão da versão 12.1
-helpx_description: Substance 3D Painter
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -184,7 +183,7 @@ Resumo: **Versão secundária**
 **Corrigido:**
 
 * O seletor [Escala de cinza] permanece aberto após a alteração da ferramenta
-* [Inclinar cozimento] Inclinar as interrupções da correção ao pintar e desfazer
+* [Inclinar Fazendo bake] Inclinar as interrupções da correção ao pintar e desfazer
 * [A interação Janela de Projeção] foi bloqueada pela ferramenta de projeção
 * [Traço dinâmico] Parâmetros de traço dinâmico ausentes nas propriedades do pincel
 * Exportar para uma rede não funciona mais
@@ -198,11 +197,11 @@ Resumo: **Versão secundária**
 **Corrigido:**
 
 * \[Falha\] Alguns Substance podem levar a uma falha quando renderizados
-* \[Falha\] Reimportar malha enquanto estiver no modo de cozimento
-* \&lbrack;Falha ao inicializar a exibição de gráficos pode levar a uma falha
+* \[Falha\] Reimportar malha enquanto estiver no modo de fça bake
+* \[Falha ao inicializar a exibição de gráficos pode levar a uma falha
 * \[Falha\] A exportação de texturas pode falhar em alguns casos ao atualizar o registro
-* \[Falha\] Falha no modo de cozimento em alguns casos ao carregar/atualizar o mapa do ambiente
-* \[Preparação\] Reiniciar o bake após modificar o arquivo poli alto pode levar a um congelamento
+* \[Falha\] Falha no modo de fça bake em alguns casos ao carregar/atualizar o mapa de ambiente
+* \[Fazer bake\] Reiniciar o faço bake após modificar um arquivo poly alto pode levar a um congelamento
 * \[Enviar para o Photoshop\] Falha ao exportar a máscara da camada
 * O resultado do ponto de ancoragem do \[Mecanismo\] não é renderizado entre uma máscara e um canal de cor
 
@@ -214,8 +213,8 @@ Resumo: versão secundária
 
 Adicionado:
 
-* [Cozimento de inclinação] Expor o modo normal da base de inclinação: malha ou por triângulo
-* [Propriedades] Faça com que as cores uniformes sejam sempre redefinidas para o valor padrão do canal
+* [Fça bake de inclinação] Expor o modo normal da base de inclinação: malha ou por triângulo
+* [Propriedades] Faça com que o cor uniforme sempre redefina o valor padrão do canal
 * [OpenPBR] Reagrupe canais por categorias na janela Exportar Texturas para criação de modelos de saída
 * Atualize o mecanismo de Substance para a versão 9.4.5
 
@@ -253,43 +252,43 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém melhorias de
 * [Desenvolver automaticamente] Opção Integrar superfície rígida
 * [OpenPBR] Adicionar suporte para OpenPBR 1.1
 * [OpenPBR] Tornar o OpenPBR o fluxo de trabalho e o sombreador padrão
-* [OpenPBR] Importar materiais e texturas do OpenPBR via USD
-* [OpenPBR] Exportar materiais e texturas do OpenPBR via USD
-* [OpenPBR] Janela Atualizar Texturas de Exportação para mostrar a convenção de nomeação do OpenPBR
+* [OpenPBR] Importar materiais e texturas de OpenPBR via USD
+* [OpenPBR] Exportar materiais e texturas de OpenPBR via USD
+* [OpenPBR] Janela Atualizar Texturas de Exportação para mostrar a convenção de nomeação de OpenPBR
 * [OpenPBR] Adicionar documentação sobre alterações para suportar o OpenPBR
-* [OpenPBR]&#x200B;[Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
-* Várias pequenas melhorias nas exportações em USD
-* [UI] Adicionar aviso no visor ao tentar pintar em outro conjunto de texturas
+* [OpenPBR][Iray] Adicione o novo MDL para suportar o OpenPBR 1.1 no Iray
+* Várias melhorias menores nas exportações de USD
+* [UI] Adicionar aviso no visor ao tentar tinta em outro conjunto de texturas
 * [Nivelar] Permite nivelar todas as camadas da instância nos Conjuntos de textura
 * [Configurações do conjunto de texturas] Permite selecionar vários canais de uma vez por meio de uma nova janela
 * [History] Atualizar “valor” Desfazer a entrada de texto para refletir o nome do parâmetro
-* [Pilha de camadas] Tornar efeitos de preenchimento em máscaras padrão em branco (1.0)
+* [Pilha de camadas] Tornar os efeitos de preenchimento em máscaras padrão em branco (1.0)
 * [Substance] Adicionar nova entrada de mapa do mecanismo “mesh_hard_edges_triangle”
 * [Substance] Adicionar nova entrada de mapa do mecanismo “mesh_hard_edges”
-* [Shader] Impedir que instâncias de sombreador compartilhem os mesmos nomes
-* [Shader] Use o sombreador do modelo do projeto ao importar um arquivo USD ou GLTF
+* [Sombreador] Impedir que instâncias de sombreamento compartilhem os mesmos nomes
+* [Sombreador] Use o sombreador do modelo de projeto ao importar um arquivo USD ou GLTF
 * Atualize o Adobe Color Engine para a versão 7.0
 * Atualização mínima da versão do MacOSX para a versão 13.0 (Ventura)
 * [Conteúdo] Novos modelos de projeto para OpenPBR
-* [Conteúdo] Atualizar projetos de amostra para usar o novo sombreador de OpenPBR
+* [Conteúdo] Atualize projetos de amostra para usar o novo sombreador de OpenPBR
 * [Python] Expandir a API da Máscara de geometria para permitir modos de inclusão e exclusão, como na interface do usuário
 
 <b>Corrigido</b>:
 
-* [Falha]&#x200B;[Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
-* [Crash] Ao assar a curvatura do mapa sem espaço mundial normal
-* [Falha]&#x200B;[Preparação] Cozimento com caixa personalizada ativada, mas nenhum arquivo selecionado falha
-* [Falha] Cancelando cozimento de AO
+* [Falha][Configurações de mapas de malha] Aplicar configurações a outros conjuntos de textura
+* [Crash] Ao fazer bake a curvatura do mapa sem o espaço global normal
+* [Falha][Fazendo bake] Fazer bake com o compartimento personalizado ativado, mas nenhum arquivo selecionado falha
+* [Falha] Cancelando fça bake do AO
 * [Caixa automática] Carga infinita quando o caminho de arquivo poli alto é inválido
-* [Linux]&#x200B;[Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
+* [Linux][Windows] O seletor de cores às vezes pode ser totalmente preto ou não aparecer
 * [Ferramenta Preenchimento de polígono] A ferramenta não funciona com fontes não PBR
-* &lbrack;[Paint] Excluir canal de cor base não exclui a cor pintada anteriormente
-* [USD] Nem todas as instâncias do sombreador foram detectadas corretamente
+* [[Tinta] Excluir o canal de cor de base não exclui a cor pintada anteriormente
+* As Instâncias de sombreamento do [USD] não foram detectadas corretamente
 * [Substance] Somente o primeiro uso de um nó de entrada/saída é levado em consideração
-* [Shader] A Oclusão ambiente é aplicada duas vezes com conjuntos de texturas usando diferentes métodos de mistura
-* [Engine] Texturas normais com canal azul vazio (preto) podem levar a resultados incorretos de mesclagem
-* [Importação de GLTF] a mesclagem de Alpha está ativada em todos os conjuntos de texturas
-* [Exportação GLTF] A mesclagem de Alpha é sempre ativada na exportação
+* [Sombreador] A Oclusão de ambiente é aplicada duas vezes com conjuntos de texturas usando diferentes métodos de mistura
+* [Engine] texturas normais com canal azul vazio (preto) podem levar a resultados incorretos de mesclagem
+* [Importação de GLTF] A mesclagem de alfa é ativada em todos os conjuntos de texturas
+* [Exportação GLTF] A mesclagem de alfa sempre é habilitada na exportação
 * [Exportar] A geometria de dupla face é sempre desativada ao importar um arquivo GLTF
 * [Javascript] A modificação das configurações de sombreadores não contribui para o histórico de desfazer
 * [Amostras] A dispersão da subsuperfície não está ativada nas configurações de exibição do fosco de reunião

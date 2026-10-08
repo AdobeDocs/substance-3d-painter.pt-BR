@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/paint-brush.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use a ferramenta Pincel de Tinta no Substance 3D Painter para tinta texturas diretamente em modelos 3D com configurações de pincel personalizáveis.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Paint brush
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pincel de tinta
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
-
 ---
-
 
 # Pincel de tinta
 
@@ -122,7 +114,7 @@ O Estêncil é uma máscara de tons de cinza adicional para o traçado do pincel
 
 A configuração do modo de divisão em blocos gráficos controla como a máscara de Estêncil é repetida na viewport (essa configuração também afeta a texturização):
 
-| *Modo de divisão em blocos gráficos* | *Descrição* |
+| *Modo Revestimento* | *Descrição* |
 | --- | --- |
 | **Sem Lado a Lado (padrão)** | A máscara de Estêncil não é repetida. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-notiling.png" width="350px"/></div> |
 | **Lado a lado horizontal** | Repita a máscara de estêncil somente no eixo horizontal. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-horizontal.png" width="350px"/></div> |

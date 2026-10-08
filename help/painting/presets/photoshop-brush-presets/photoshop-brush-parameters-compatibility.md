@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre a compatibilidade de parâmetros de pincel do Photoshop no Substance 3D Painter ao importar predefinições de pincel ABR.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Compatibilidade dos parâmetros do pincel Photoshop
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
-
 ---
-
 
 # Compatibilidade dos parâmetros do pincel Photoshop
 
@@ -29,7 +21,7 @@ Ao olhar dentro do arquivo ABR, o Substance 3D Painter recuperará apenas predef
 | *Tipo de predefinição* | *Suporte* | *Descrição* |
 | --- | --- | --- |
 | **Pincel (bitmap)** | Importado | Predefinições de pincel baseadas em bitmaps, pois seus alfas serão importados. |
-| **Pincel (procedimento)** | Ignorado | As predefinições de pincel baseadas em formas processuais (como um círculo) não são importadas. |
+| **Pincel (processual)** | Ignorado | As predefinições de pincel baseadas em formas processuais (como um círculo) não são importadas. |
 | **Pincel (Aerógrafo)** | Ignorado | As predefinições de pincel com configurações de aerógrafo não são importadas. |
 | **Pincel (Cerdas)** | Ignorado | As predefinições de pincel com configurações de cerdas não são importadas. |
 | **Pincel (Erodível)** | Ignorado | As predefinições de pincel com configurações Erodible não são importadas. |
@@ -40,7 +32,7 @@ Ao olhar dentro do arquivo ABR, o Substance 3D Painter recuperará apenas predef
 
 ## Parâmetros
 
-Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/br/photoshop/using/creating-modifying-brushes.html).
+Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html).
 
 Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legenda para saber o status de cada parâmetro descrito abaixo:
 

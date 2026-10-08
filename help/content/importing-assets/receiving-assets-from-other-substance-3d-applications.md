@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como receber e importar ativos de outros aplicativos da Substance 3D para o Substance 3D Painter para fluxos de trabalho simplificados.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Importing assets > Receiving assets from other Substance 3D applications
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Receber ativos de outros aplicativos da Substance 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
-
 ---
-
 
 # Receber ativos de outros aplicativos da Substance 3D
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-8-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 8.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 8.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
-
 ---
-
 
 # Versão 8.1
 
@@ -190,21 +182,21 @@ Agora as malhas são cortadas em Ilhas UV separadas usando um método se aproxim
 
 **Adicionado:**
 
-* [Gerenciamento de cores] Adicione suporte para perfis ICC com Adobe Color Engine (ACE)
+* [Gerenciamento de cores] Adicionar suporte para perfis ICC com Adobe Color Engine (ACE)
 * [Gerenciamento de cores] Adicione suporte para “Adobe 98 RGB” como espaço de cores de trabalho para ICC
-* [Gerenciamento de cores] Permita definir as configurações de ACE/ICC por meio de um arquivo de configuração
+* [Gerenciamento de cores] Permite definir as configurações de ACE/ICC por meio de um arquivo de configuração
 * [Gerenciamento de cores] Permitir a entrada de valores de cor linear no Seletor de cores com o modo Legado
 * [Gerenciamento de cores] Permite especificar o perfil de cores usado para escolher a cor fora da interface do usuário
 * [Gerenciamento de cores] Lembrar o último valor de exibição escolhido na viewport
-* [Gerenciamento de cores]&#x200B;[Substance] Faça com que os geradores/filtros funcionem corretamente com o Gerenciamento de cores
-* [Gerenciamento de cores]&#x200B;[Substance] Adicionar novas palavras-chave de substituição colorspace $working e $standardsrgb
-* [Tamanho físico]&#x200B;[Mecanismo] Extrair informações de tamanho físico da malha
-* Cálculo do Tamanho físico [Tamanho físico]&#x200B;[Mecanismo]
+* [Gerenciamento de cores][Substance] Faça com que os geradores/filtros funcionem corretamente com o Gerenciamento de cores
+* [Gerenciamento de cores][Substance] Adicionar novas palavras-chave de substituição colorspace $working e $standardsrgb
+* [Tamanho físico][Mecanismo] Extrair informações de tamanho físico da malha
+* Cálculo do Tamanho físico [Tamanho físico][Mecanismo]
 * [Tamanho físico] Expor as opções para usar o tamanho físico na interface do usuário
 * [Tamanho físico] Adicionar auxiliares visuais na viewport
-* [Preparação] Adicionar Height
-* [Cozimento] Adicionar padeiro de normais curvados
-* [Preparação] Adicionar padeiro de opacidade
+* [Fazendo bake] Adicionar baker de Height
+* [Fazendo bake] Adicionar baker do Dobra normal
+* [Fazendo bake] Adicionar baker de opacidade
 * [Conta-gotas] Nova visualização do seletor de cores
 * [Conta-gotas] O painel Seletor de cores reaparece em sua última posição quando reaberto
 * [Conta-gotas] Um novo ícone para o Seletor de materiais
@@ -222,33 +214,33 @@ Agora as malhas são cortadas em Ilhas UV separadas usando um método se aproxim
 * Atualizar a quebra automática para 0. 9. 0
 * Atualize para Qt 5.15.8
 * Atualização para o Python 3.9
-* [Shader] Adicionar suporte para sombreamento Bent Normals
+* [Sombreador] Adicionar suporte ao sombreamento do Dobra normal
 * [MacOS] Suporte a 3DConnection SpaceMouse
 * [Python] Documentar a versão Python usada na API
 * [Conteúdo] Adicione 6 novos ruídos 3D com 105 predefinições
 * [Content] 20 novos mapas de desgaste e 2 padrões de dobras de pano
-* [Content] Atualizar a predefinição de exportação “Mapas de malha” para usar novos padeiros
+* [Content] Atualizar a predefinição de exportação “Mapas de malha” para usar novos baker
 * [Conteúdo] A Inclinação de desfoque e o filtro de distorção dependem da resolução do conjunto de texturas
-* [Conteúdo] Atualize projetos de amostra para usar os 3 novos padeiros
+* [Conteúdo] Atualize projetos de amostra para usar os 3 novos baker
 
 **Corrigido:**
 
 * [glTF] Não é possível abrir glTF com caractere especial
 * [Engine] Artefatos com anisotropia e SVT desativados
-* [MacOS]&#x200B;[M1] Os materiais inteligentes não são exibidos corretamente
+* Os Materiais inteligentes do [MacOS][M1] não são exibidos corretamente
 * [Processamento de malha] Não é possível importar malhas do Modeler
 * [UI] Barra de rolagem horizontal na janela do novo projeto com o Gerenciamento de cores ativado
-* [Gerenciamento de cores] Valor do espaço de trabalho ausente no seletor de cores com algumas configurações OCIO
+* [Gerenciamento de cores] Valor de espaço de trabalho ausente no seletor de cores com algumas configurações de OCIO
 * [Gerenciamento de cores] A visualização do pincel na janela de visualização não é gerenciada por cores
 * [SpaceMouse] A tabela dinâmica não é atualizada imediatamente com alteração de foco e às vezes fora do modelo
-* [Export]&#x200B;[USD] Os arquivos USD exportados têm uma estrutura incorreta
-* [USD] Problema de Oclusão ambiente ao exportar
+* [Export][USD] Os arquivos USD exportados têm uma estrutura incorreta
+* Problema de Oclusão de ambiente do [USD] ao exportar
 * [Conteúdo] Atualizar a malha da miniatura para corresponder ao projeto de amostra da esfera de visualização
 
 **Problemas Conhecidos:**
 
 * Exportar texturas usando o preenchimento de difusão renderiza mapas em preto
-* A mistura de Oclusão normal/ambiente está quebrada
+* A mistura normal/Oclusão de ambiente está quebrada
 * [MacOS] Falha ao iniciar o Iray em alguns casos raros
 * [Visualizar miniatura] As miniaturas simplificadas não são atualizadas quando uma âncora é usada
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas

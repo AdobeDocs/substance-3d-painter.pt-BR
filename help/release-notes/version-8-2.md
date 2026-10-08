@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-8-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 8.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 8.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2870'
 ht-degree: 0%
-
 ---
-
 
 # Versão 8.2
 
@@ -84,7 +76,7 @@ O conteúdo da pasta (a parte de cor de uma camada) agora pode receber efeitos d
 O formato de arquivo de Substance (SBSAR) agora está disponível ao exportar textura. Um SBSAR é um recipiente que pode ser aberto em muitos aplicativos com integração Substance, o que pode tornar mais rápido e fácil de “plug-and-play” texturas personalizadas.
 
 * **Exportando um arquivo de Substance (SBSAR)**\
-  Agora é possível especificar o formato de arquivo SBSAR na lista de formatos de arquivo na janela **Exportar Texturas**. Isso exportará um único arquivo SBSAR contendo todas as texturas especificadas. A nomeação dos nós de saída e seus usos são definidos a partir da predefinição de exportação selecionada e seus tipos de canal.
+  Agora é possível especificar o formato de arquivo SBSAR na lista de formatos de arquivo na janela **Exportar Textura**. Isso exportará um único arquivo SBSAR contendo todas as texturas especificadas. A nomeação dos nós de saída e seus usos são definidos a partir da predefinição de exportação selecionada e seus tipos de canal.
 
   ![](../assets/sbsar-export.png)
 
@@ -243,7 +235,7 @@ Resumo: **Versão principal com novos painéis de integração (novo painel de b
 * Redefinir parâmetros de Substance para padrão
 
   Adicionado um novo botão em Propriedades na parte inferior dos recursos .sbsar que permite redefinir o recurso para padrão.
-* Redefinir pincel para padrão
+* Redefinir pincel de tinta para padrão
 
   Adicionado um novo menu à seção Pincel em Propriedades, o que permite redefinir para o pincel básico padrão.
 * Clique com o botão direito do mouse para redefinir os parâmetros de Substance individuais como padrão
@@ -279,10 +271,10 @@ Resumo: **Versão principal com novos painéis de integração (novo painel de b
 * [Exportar] Permite exportar texturas como SBSAR
 
   Ao exportar o textura pela janela Arquivo > Exportar Textura, o formato de arquivo SBSAR (Substance Archive) pode ser escolhido para reagrupá-los. O conteúdo do SBSAR é orientado pelo modelo de saída usado.\
-  O formato de arquivo SBSAR também pode ser definido nas predefinições de exportação. Ao usar texturas de configuração híbrida (SBSAR + Outro formato) que se destinam a um SBSAR são agrupadas enquanto o restante é exportado junto.
+  O formato de arquivo SBSAR também pode ser definido nas predefinições de exportação. Ao usar configurações híbridas (SBSAR + outro formato), as texturas direcionadas a um SBSAR são agrupadas enquanto o restante é exportado junto com ele.
 * [Exportar] Opção Expor 16 bits para o formato de arquivo EXR
 
-  Ao exportar arquivos de textura EXR, agora é possível escolher bit 16f (Half-Float) ou bit 32f (Float) na janela Exportar texturas (para configurações de exportação e predefinições de exportação). Projetos antigos e predefinições de exportação antigas terão o bit 16f como padrão para refletir o comportamento antigo.
+  Ao exportar arquivos de textura EXR, agora é possível escolher 16f bits (meia Precisão decimal) ou 32f bits (Precisão decimal) na janela Exportar Textura (para configurações de exportação e predefinições de exportação). Projetos antigos e predefinições de exportação antigas terão o bit 16f como padrão para refletir o comportamento antigo.
 * [Python] Adicionar evento para saber quando os conjuntos de texturas são modificados
 
   O novo “substance\_painter.event.TextureStateEvent” permite saber quando um conjunto de texturas foi modificado por causa de um traçado de tinta, um novo canal adicionado ou um canal removido.
@@ -301,9 +293,9 @@ Resumo: **Versão principal com novos painéis de integração (novo painel de b
 **Corrigido:**
 
 * Falha ao usar exr 16k
-* [Falha] Ctrl Z Após excluir uma instância de sombreador
+* [Falha] Ctrl Z Após excluir uma instância de sombreamento
 * [Iray] IoR bloqueada em 1 para alguns sombreadores
-* [Win]&#x200B;[Panificação] Algum alto poli falha ao carregar
+* [Win][Fazendo bake] Algum alto poli falha ao carregar
 * [Gerenciamento de cores] Nome do espaço de cores incorreto na interface do usuário com filtros
 * [Python] Os objetos de recurso retornados pela função de importação não têm um tipo
 
@@ -311,7 +303,7 @@ Resumo: **Versão principal com novos painéis de integração (novo painel de b
 
 **Problemas Conhecidos:**
 
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Pilha de camadas] Fonte de entrada não salva por camada
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
+* [Pilha de camadas] A fonte de entrada não é salva por camada
 * [Pintura] A suavização temporal causa artefatos ao pintar em alguns casos
 * [Exportar] 2DView exporta mapa aleatoriamente uniforme

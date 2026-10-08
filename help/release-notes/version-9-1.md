@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-9-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 9.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 9.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
-
 ---
-
 
 # Versão 9.1
 
-O <b>Substance 3D Painter 9.1</b> adiciona controle tangente para a ferramenta Caminho, suporte para o formato de arquivo SVG, a capacidade de importar e aplicar recursos arrastando e soltando, e suporte para translucidez na viewport.
+O <b>Substance 3D Painter 9.1</b> adiciona controle tangente para a ferramenta Caminho, suporte para o formato de arquivo SVG, a capacidade de importar e aplicar recursos arrastando e soltando e suporte para translucidez na viewport.
 
 Data de lançamento: *7 de novembro de 2023*
 
@@ -67,7 +59,7 @@ O sombreador <b>Adobe Standard Material</b> (ASM), que é o padrão ao criar um 
 
 Portanto, materiais de criação como <b>vidro</b>, <b>folhagem</b> ou <b>plásticos</b> com uma fina absorção de luz agora são possíveis e diretamente visíveis no visor. Exportar para outros aplicativos da Substance 3D também resultará em uma aparência correspondente graças à definição do ASM.
 
-* <b>Novas configurações do sombreador ASM</b>
+* <b>Novas configurações de sombreador do ASM</b>
 
   O sombreador do ASM foi atualizado para suportar novas funcionalidades, que podem ser modificadas por meio da janela [Configurações de Sombreador](../interface/shader-settings/shader-settings.md):
 
@@ -76,7 +68,7 @@ Portanto, materiais de criação como <b>vidro</b>, <b>folhagem</b> ou <b>plást
   * <b>Absorção</b>: esta nova propriedade permite simular a luz passando por um objeto e sendo absorvida, o que pode ser útil para simular plástico ou líquidos de uma maneira melhor do que usando dispersão abaixo da superfície. Para usá-la, habilite a configuração <b>Absorção</b> no grupo <b>Interior</b>.
 * <b>Interface de usuário e dicas de ferramentas de configurações de sombreador aprimoradas</b>
 
-  Com o retrabalho do sombreador, aproveitamos a oportunidade para melhorar a interface dos parâmetros, bem como adicionar muitas novas dicas de ferramentas para descobrir mais facilmente como ativá-los.
+  Com o retrabalho do sombreador aproveitamos a oportunidade para melhorar a IU dos parâmetros, bem como adicionar muitas novas dicas de ferramentas para descobrir mais facilmente como ativá-los.
 
   A ordem dos parâmetros também deve corresponder melhor a outros softwares da Substance 3D, facilitando a execução de operações entre eles ao testar as configurações.
 
@@ -140,7 +132,7 @@ Essa versão permite arrastar e soltar um arquivo externo em diferentes contexto
 
   Arraste um arquivo externo para a viewport para poder colocá-lo diretamente na malha. Esta ação criará automaticamente uma nova camada. Dependendo da natureza do recurso (imagem, material de Substance, filtro de Substance, etc.) o resultado será adaptado em conformidade.
 * <b>Importe por meio da ação de arrastar e soltar na pilha de camadas</b>\
-  Da mesma forma que é possível soltar arquivos de recursos externos na janela de visualização, soltar arquivos na pilha de camadas permite criar camadas ou efeitos diretamente com o recurso dentro dela.
+  Da mesma forma que é possível soltar arquivos de recursos externos na viewport, soltar arquivos na pilha de camadas permite criar diretamente camadas ou efeitos com o recurso dentro dela.
 * <b>Importe via arrastar e soltar em um slot de recurso</b>
 
   Também é possível importar um recurso diretamente para uma camada ou ferramenta. Se já existir uma camada ou efeito de preenchimento com a configuração correta, basta soltar um arquivo externo em um dos slots de canal da janela Propriedades para importá-lo e aplicá-lo.
@@ -247,67 +239,67 @@ Resumo: <b>Versão principal que apresenta suporte a SVG e transparência, bem c
 <b>Adicionado:</b>
 
 * [SVG] Permitir a importação de arquivos vetoriais (SVG)
-* [SVG]&#x200B;[UI] Adicionar suporte para propriedades específicas de SVG
+* [SVG][UI] Adicionar suporte para propriedades específicas de SVG
 * [SVG] Adicione uma opção para preservar facilmente as proporções da imagem original
 * [SVG] Permite usar automaticamente alfa de SVG com transparência
 * [Interop] Permitir o envio de uma malha texturizada para o After Effects (Ae 24.1 beta)
 * [Interoperabilidade] Adicionar configurações de Envio ao After Effects
-* [QoL]&#x200B;[Assets]&#x200B;[UI] Importar ativo automaticamente ao arrastar e soltar no slot da interface
+* [QoL][Assets][UI] Importar ativo automaticamente ao arrastar e soltar no slot da interface
 * [QoL] Permitir arrastar e soltar ativos externos na pilha de camadas
-* [QoL]&#x200B;[Pilha de camadas] Arrastar e soltar texturas do painel Ativos na Pilha de camadas
-* [QoL]&#x200B;[Janela de visualização] Permite arrastar e soltar o gerador, filtros na malha
-* [QoL]&#x200B;[Visor] Permitir soltar ativos externos na malha
-* [QoL]&#x200B;[Projeção] Adicionar novo conjunto UV ao modo de projeção do conjunto UV
-* [QoL] Arrastar e soltar Máscaras inteligentes como novas camadas no visor e na Pilha de camadas
+* [QoL][Pilha de camadas] Arrastar e soltar texturas do painel Ativos para a Pilha de camadas
+* [QoL][Janela de visualização] Permite arrastar e soltar o gerador, filtros na malha
+* [QoL][Visor] Permitir soltar ativos externos na malha
+* [QoL][Projeção] Adicionar novo conjunto UV ao modo de projeção do conjunto UV
+* [QoL] Máscaras inteligentes de arrastar e soltar como novas camadas no visor e na Pilha de camadas
 * [QoL] Adicionar seletor para Geradores com várias saídas quando usado em máscara
 * [QoL] Permitir arrastar e soltar imagens de canal único sobre um efeito de preenchimento
-* [QoL]&#x200B;[Pilha de camadas] Use modificadores CTRL/ALT com arrastar e soltar para especificar onde/como criar efeitos/camada
+* [QoL][Pilha de camadas] Use os modificadores CTRL/ALT com arrastar e soltar para especificar onde/como criar efeitos/camada
 * [Caminho] Alterna a visibilidade dos caminhos individualmente no painel Caminho
 * [Caminho] Permitir o uso de manipuladores de transformação para pontos de caminho
 * [Caminho] Permite controlar manualmente as tangentes por vértice
 * [Caminho] Copiar/colar propriedades do caminho
 * [Path] Introduzir um atalho vazio para o botão Quebrar tangente
-* [Shader] Adicionar suporte para Opacidade e Translucidez no sombreador ASM
-* [Shader] Adicionar suporte para canal de Cor de absorção com sombreador ASM
-* [Shader] Melhorar dicas de ferramentas de parâmetros de sombreador ASM
-* [Shader] Alterar a cor padrão do canal de transparência para preto
+* [Sombreador] Adicionar suporte para Opacidade e Translucidez no sombreador ASM
+* [Sombreador] Adicionar suporte para canal de Cor de absorção com sombreador ASM
+* [Sombreador] Melhorar dicas de ferramentas dos parâmetros de sombreador do ASM
+* [Sombreador] Alterar a cor padrão do canal de Translucidez para preto
 * [Configurações de exibição] Ativar Suavização temporal por padrão
 * [Configurações de exibição] Ativar configuração de dispersão abaixo da superfície por padrão
 * [Substance] Adicionar suporte para a propriedade ColorSpace a partir da entrada/saída do gráfico
 * [Substance] Atualize o mecanismo de Substance para a versão 9.0.3
 * [IU] Tornar acessível o botão contextual da barra de ferramentas, mesmo se a janela do aplicativo for pequena
-* [Auto Unwrap] Controlar o número de ladrilhos UV com densidade de texel
-* [Preparação] Desativar Rastreamento de raios do GPU em GPUs AMD por padrão
+* [Desbobinar automaticamente] Controlar número de Blocos UV com densidade de texel
+* [Fazendo bake] Desativar Rastreamento de raios do GPU em GPUs AMD por padrão
 * [Desempenho] Aplique compactação sem perdas em imagens de 16 bits para reduzir o espaço ocupado pelo projeto
-* [Python] Permitir manipular a câmera padrão na visualização 3D
+* [Python] Permitir manipular a câmera padrão no Visualização 3D
 * [Python] Expor a capacidade de exportar malha por meio de scripts
-* [Conteúdo]&#x200B;[Amostras] Adicionar novo projeto de amostra “Mesa de restaurante francês”
+* [Conteúdo][Amostras] Adicionar novo projeto de amostra “Mesa de restaurante francês”
 * [Content] Atualize o logotipo do Substance para a nova versão
 * [Conteúdo] Adicione três filtros de material focados em SVG (adesivo personalizado, spray personalizado e gráfico para o material)
 
 <b>Corrigido:</b>
 
-* [Falha] Alterar o tamanho do manipulador quando não estiver usando a ferramenta de simetria
-* [Falha] [Pilha de camadas] Criando camada quando nada está selecionado
+* [Falha] Alterar o tamanho do manipulador quando não estiver usando a ferramenta simetria
+* [Falha] [Pilha de camadas] Criar camada quando nada está selecionado
 * [Projeto] Mapas de malha podem ser corrompidos após a remoção de recursos não utilizados
-* [Project] Corrupção de recursos após importar ou colocar novamente a imagem no forno
+* [Project] Corrupção de recurso após reimportar ou fazer bake a imagem
 * [Assets] Recarregar um ativo o remove de Favoritos
 * [Importar] Não é possível importar recursos quando “Nenhum resultado encontrado” no painel de ativos
 * [UI] A seta da barra de ferramentas contextual não aparece em alguns casos
 * [Substance] Botão lado a lado para valores booleanos não suportado
 * [Level] Rótulo de canal incorreto quando usado na máscara
-* [Export]&#x200B;[glTF] Os arquivos glTF/GLB exportados do Painter não têm uma unidade de tamanho físico
+* [Export][glTF] Os arquivos glTF/GLB exportados do Painter não têm uma unidade de tamanho físico
 * [Conteúdo] A intensidade do filtro de desfoque é fixada em 16
 * [Conteúdo] A entrada da imagem de “cor de destino” do filtro Correspondência de Cores não está visível
 
 <b>Problemas conhecidos:</b>
 
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Crash]&#x200B;[Linux] com Linux Wayland no AMD ao arrastar e soltar recursos na pilha de camadas
-* [Crash]&#x200B;[Mac] Alterar o valor da filtragem anisotrópica no sistema operacional Monterey
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
+* [Crash][Linux] com Linux Wayland no AMD ao arrastar e soltar recursos na Pilha de camadas
+* [Crash][Mac] Alterar o valor da filtragem anisotrópica no sistema operacional Monterey
 * [Falha] Exr usado como entrada de imagem
 * [Falha] Usar o mapa de ambiente de 16K
 * [Desbobinar automaticamente] Problema de interface do usuário para controle de densidade de texel
-* [Regression]&#x200B;[UI] O menu do clique com o botão direito é muito pequeno na tela hd
+* [Regression][UI] O menu do clique com o botão direito é muito pequeno na tela hd
 * [Python] USD de exportação de falha acionado por TextureStateEvent
 * [QoL] Arrastar e soltar o recurso Alpha no modo de decalque cria Projeção UV na máscara

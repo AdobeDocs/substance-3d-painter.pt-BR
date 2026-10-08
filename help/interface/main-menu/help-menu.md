@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/help-menu.html'
 breadcrumb-title: ''
 description: Acesse o menu Ajuda no Substance 3D Painter para encontrar documentação, tutoriais e recursos de suporte.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Main menu > Help menu
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Menu Ajuda
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e370ba212d3e90f71e09b75ff41be6123d37c5eb
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 6%
-
 ---
-
 
 # Menu Ajuda
 
@@ -29,7 +21,7 @@ ht-degree: 6%
 
 | Ação | Descrição |
 | --- | --- |
-| Tutorials | Link para [tutoriais](https://helpx.adobe.com/br/substance-3d/unlisted/tutorials.html) oficiais relacionados ao aplicativo. |
+| Tutorials | Link para [tutoriais](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) oficiais relacionados ao aplicativo. |
 | Notas de versão | Link para as [notas de versão](../../release-notes/all-changes.md). |
 | Documentação | Link para esta documentação. |
 | Lista de atalhos | Link para a documentação de [atalhos](../settings/shortcuts.md). |

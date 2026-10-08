@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/home.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Comece com o Substance 3D Painter para tinta texturas diretamente em modelos 3D e criar superfícies de material realistas.
-helpx_creative_field: ""
-helpx_description: Painter > Home
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Substance 3D Painter
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 9%
-
 ---
-
 
 # Substance 3D Painter
 
@@ -28,7 +20,7 @@ O Substance 3D Painter é um software de pintura 3D que permite textura e render
 
 Esta documentação foi projetada para ajudá-lo a aprender como usar este software, de técnicas básicas a avançadas.
 
-Se você tiver alguma dúvida que não tenha sido respondida neste manual, fique à vontade para fazer em nosso [Fórum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Além disso, você pode fazer o baixar nosso [guia sobre Renderização baseada em física](https://helpx.adobe.com/br/substance-3d/unlisted/tutorials.html) se quiser saber mais sobre PBR.
+Se você tiver alguma dúvida que não tenha sido respondida neste manual, fique à vontade para fazer em nosso [Fórum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Além disso, você pode fazer o baixar nosso [guia sobre Renderização baseada em física](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) se quiser saber mais sobre PBR.
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -78,12 +70,12 @@ Se você tiver alguma dúvida que não tenha sido respondida neste manual, fique
 ### Baking
 
 * [Como fazer bake mapas de malha](baking/how-to-bake-mesh-maps.md)
-* [Configurações de visualização de preparo](baking/baking-visualization-settings.md)
+* [Fazendo bake configurações de visualização](baking/baking-visualization-settings.md)
 
 ### Conteúdo
 
 * [Criar efeitos personalizados](content/creating-custom-effects/creating-custom-effects.md)
-* [Importação de ativos](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [Importação de ativos](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### Recurso
 
@@ -112,7 +104,7 @@ Se você tiver alguma dúvida que não tenha sido respondida neste manual, fique
 
 ### Script e desenvolvimento
 
-* [Scripts e plug-ins](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [Scripts e plug-ins](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### Suporte técnico
 

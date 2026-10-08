@@ -1,29 +1,21 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre as práticas recomendadas para configuração de malha e UV no Substance 3D Painter para otimizar o desempenho e a qualidade da textura.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Mesh and UV setup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Configuração de malha e UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
-
 ---
-
 
 # Configuração de malha e UV
 
 Reservar alguns minutos para preparar a malha para o Painter pode tornar o processo de texturização mais rápido e fácil.
 
 +++Modelos de alto contador
-Não há um benchmark específico para o policount que o Painter possa manipular, pois ele depende muito das especificações da máquina, da atribuição do conjunto de texturas e das propriedades da pilha de camadas. No entanto, menos de 10 milhões de poliys devem ser manipulados adequadamente se as otimizações da pilha de camadas forem levadas em consideração.
+Não há um parâmetro de comparação específico para o policount com o qual o Painter possa lidar, pois ele depende em grande parte das especificações da máquina, da atribuição do conjunto de texturas e das propriedades da pilha de camadas. No entanto, menos de 10 milhões de polióis devem ser tratados adequadamente se as otimizações da pilha de camadas forem levadas em consideração.
 
 +++
 

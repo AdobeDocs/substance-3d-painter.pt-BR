@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/features/physical-size.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como definir o tamanho físico no Substance 3D Painter para definir dimensões reais para um dimensionamento de textura preciso.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Physical size
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Tamanho físico
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 2%
-
 ---
-
 
 # Tamanho físico
 
@@ -28,7 +20,7 @@ Para usar tamanho físico, aplique um material que tenha essa propriedade com um
 
 Para obter mais informações, consulte:
 
-* <b>Parâmetros de &lbrace;Tamanho físico</b> em [Projeções de preenchimento](../painting/fill-projections/fill-projections.md)
+* <b>Parâmetros de {Tamanho físico</b> em [Projeções de preenchimento](../painting/fill-projections/fill-projections.md)
 * Parâmetros da <b>grade</b> em [configurações do visor](../interface/display-settings/viewport-settings.md)
 * <b>Deslocamento baseado no tamanho físico</b> em [configurações de Sombreador](../interface/shader-settings/shader-settings.md)
 

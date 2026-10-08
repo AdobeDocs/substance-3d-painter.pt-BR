@@ -1,33 +1,25 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
-breadcrumb-title: ''
-description: Aprenda a pintar mapas de oclusão ambiente diretamente no Substance 3D Painter para adicionar sombreamento e profundidade realistas às texturas.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Saiba como tinta mapas de oclusão de ambiente diretamente no Substance 3D Painter para adicionar sombreamento e profundidade realistas ao textura.
 title: Oclusão de ambiente Pintura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
-
 ---
-
 
 # Oclusão de ambiente Pintura
 
-O canal de oclusão de ambiente permite tinta detalhes nas sombras ambientes de um objeto. Ele pode ser usado para adicionar detalhes do AO provenientes de materiais ou simplesmente corrigir erros de cozimento manual quando necessário.
+O canal de oclusão de ambiente permite tinta detalhes nas sombras ambientes de um objeto. Ele pode ser usado para adicionar detalhes do AO provenientes de materiais ou simplesmente corrigir erros de fça bake manual quando necessário.
 
-&#x200B;>> 
+>> 
 
-Em gráficos de computador, a oclusão ambiente é uma técnica de sombreamento e renderização usada para calcular como cada ponto exposto em uma cena é à iluminação ambiente. Normalmente, o interior de um tubo é mais ocluído (e, portanto, mais escuro) do que as superfícies externas expostas, e quanto mais fundo você vai no interior do tubo, mais ocluída (e mais escura) se torna a iluminação. A oclusão de ambiente pode ser vista como um valor de acessibilidade calculado para cada ponto da superfície.\
+Em computação gráfica, a oclusão de ambiente é uma técnica de renderização e sombreamento usada para calcular a exposição de cada ponto em uma cena à iluminação ambiente. Normalmente, o interior de um tubo é mais ocluído (e, portanto, mais escuro) do que as superfícies externas expostas, e quanto mais fundo você vai no interior do tubo, mais ocluída (e mais escura) se torna a iluminação. A oclusão de ambiente pode ser vista como um valor de acessibilidade calculado para cada ponto da superfície.\
 Fonte: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>
 
-O **resultado** desta computação está armazenado em um bitmap denominado mapa de “Oclusão ambiente”. Este mapa pode ser feito bake diretamente no aplicativo, consulte: [Fazendo bake](../../baking/baking.md).
+O **resultado** desta computação está armazenado em um bitmap denominado mapa de “Oclusão de ambiente”. Este mapa pode ser feito bake diretamente no aplicativo, consulte: [Fazendo bake](../../baking/baking.md).
 
 ## Oclusão de ambiente de pintura
 
@@ -43,9 +35,9 @@ Para saber mais sobre eles e como alterá-los por canal, consulte: [Modos de mes
 
 Em algumas situações, pode ser útil tinta sobre a Oclusão de ambiente feita bake para ocultar detalhes ou até mesmo corrigir problemas de fça bake.
 
-A configuração padrão de um projeto no Substance 3D Painter combinará o **canal** de Oclusão de ambiente com o mapa de Oclusão de ambiente dos **mapas adicionais**. Isso significa que a pintura sobre o mapa adicional cozido não é possível por padrão, os resultados de cada mapa (os mapas baked e os canais) serão multiplicados juntos. No entanto, isso pode ser alterado com a seguinte configuração:
+A configuração padrão de um projeto no Substance 3D Painter combinará o **canal** de Oclusão de ambiente com o mapa de Oclusão de ambiente dos **mapas adicionais**. Isso significa que a pintura sobre o mapa adicional feito bake não é possível por padrão, os resultados de cada mapa (os mapas baked e os canais) serão multiplicados juntos. No entanto, isso pode ser alterado com a seguinte configuração:
 
-### 1 - Adicionar um canal de Oclusão ambiente
+### 1 - Adicionar um canal de Oclusão de ambiente
 
 Adicionar um canal de oclusão de ambiente no conjunto de texturas atual:\
 ![](../../assets/edit-ao-channel-optimized.gif)

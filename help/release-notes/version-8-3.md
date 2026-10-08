@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-8-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 8.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 8.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 0%
-
 ---
-
 
 # Versão 8.3
 
@@ -58,7 +50,7 @@ A antiga janela de fça bake foi substituída por um modo dedicado com vários n
   ![](../assets/baking-button-cancel.png)
 
 * **Exibir malha de alto polígono no visor**\
-  Ao especificar uma malha de alto polígono nas configurações de cozimento, ela também será carregada na viewport (a menos que a configuração de visualização dedicada seja desativada). Isso permite verificar se a geometria de malha poli baixa e alta corresponde bem.
+  Ao especificar uma malha de alto polígono nas configurações de fça bake, ela também será carregada na janela de visualização (a menos que a configuração de visualização dedicada esteja desativada). Isso permite verificar se a geometria de malha poli baixa e alta corresponde bem.
 
   ![](../assets/low-vs-high.jpg){width="400px"}
 
@@ -68,7 +60,7 @@ A antiga janela de fça bake foi substituída por um modo dedicado com vários n
   ![](../assets/cage-distance.gif)
 
 * **Examine a malha ao carregar e fazer bake**\
-  Carregar malhas e assar não congela mais a aplicação, o que significa que é possível interagir com o visor durante essas operações. Isso pode ser útil para investigar a panificação em andamento, identificar problemas precocemente e cancelar a panificação, ajudando a economizar tempo no final. Da mesma forma, o conjunto de texturas mais visível na janela de visualização agora será feito bake primeiro, o que ajudará a verificar antecipadamente os resultados em áreas específicas.
+  Carregar malhas e fazer bake não congela mais o aplicativo, o que significa que é possível interagir com o visor durante essas operações. Isso pode ser útil para investigar o fça bake em andamento, identificar problemas antecipadamente e cancelar o faço bake, ajudando a economizar tempo no final. Da mesma forma, o conjunto de texturas mais visível na janela de visualização agora será feito bake primeiro, o que ajudará a verificar antecipadamente os resultados em áreas específicas.
 
   ![](../assets/interaction-while-baking.gif)
 
@@ -78,14 +70,14 @@ A antiga janela de fça bake foi substituída por um modo dedicado com vários n
   ![](../assets/neutral-material-demo.gif)
 
 * **Exibir bordas sólidas sem emendas UV**\
-  Uma fonte de artefatos ao assar é a presença de bordas duras que não têm costuras UV. Isso pode levar a linhas visíveis e quebrar o smoothness de sombreamento. Com essa finalidade, configurações de visualização foram adicionadas para destacá-las no 3D e no Visualização 2D, pois, caso contrário, elas são muito fáceis de perder.
+  Uma fonte de artefatos ao fazer bake é a presença de bordas sólidas que não têm emendas UV. Isso pode levar a linhas visíveis e quebrar o smoothness de sombreamento. Com essa finalidade, configurações de visualização foram adicionadas para destacá-las no 3D e no Visualização 2D, pois, caso contrário, elas são muito fáceis de perder.
 
   ![](../assets/hard-edge-missing-seams.png){width="450px"}
 
   ![](../assets/hard-edge-missing-seams-2d.jpg){width="300px"}
 
 * **Sincronizar e dessincronizar parâmetros**\
-  A nova ação de sincronização permite especificar qual parte das configurações de Preparação é sincronizada nos Conjuntos de Textura. Caso contrário, seria tedioso definir configurações várias vezes de maneiras idênticas. Às vezes, é útil ter Conjuntos de texturas com configurações dedicadas e mantê-los não sincronizados é a melhor opção. Por exemplo, manter as configurações Comuns separadas agora permite usar uma Distância frontal máxima, Resolução e/ou lista de malhas de alto polígono que seriam diferentes por conjunto de textura.
+  A nova ação de sincronização permite especificar qual parte das configurações de Fça bake é sincronizada entre os Conjuntos de texturas. Caso contrário, seria tedioso definir configurações várias vezes de maneiras idênticas. Às vezes, é útil ter Conjuntos de texturas com configurações dedicadas e mantê-los não sincronizados é a melhor opção. Por exemplo, manter as configurações Comuns separadas agora permite usar uma Distância frontal máxima, Resolução e/ou lista de malhas de alto polígono que seriam diferentes por conjunto de textura.
 
   ![](../assets/sync-icon-1.png){width="400px"}
 
@@ -100,20 +92,20 @@ A antiga janela de fça bake foi substituída por um modo dedicado com vários n
 >
 > Há muito mais configurações novas nesse novo modo. Para saber mais sobre, veja a [página de documentação dedicada](../baking/baking.md).
 
-### Nova importação e exportação de arquivos em USD
+### Nova importação e exportação de arquivos USD
 
 ![](../assets/banner-usd.jpg)
 
-Esta nova versão adiciona o suporte ao formato de arquivo do [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html). Agora é possível iniciar um projeto do Painter, exportando malhas e texturas usando o formato USD, o que torna o fluxo de trabalho entre aplicativos mais consistente.
+Esta nova versão adiciona o suporte ao formato de arquivo [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html). Agora é possível iniciar um projeto do Painter, exportando malhas e texturas usando o formato USD, o que torna o fluxo de trabalho entre aplicativos mais consistente.
 
-* **Importar arquivo USD com variantes, camadas e em um quadro específico**\
+* **Importar arquivo USD com variantes, atribuição de capa e em um quadro específico**\
   Um formato de arquivo USD pode ser usado ao criar um projeto ou ao reimportar uma malha dentro de um projeto. Os arquivos USD muitas vezes podem ser cenas complexas, portanto, um seletor de escopo e variante também está disponível para importar apenas um subconjunto do arquivo.
 
   ![](../assets/usd-import-settings.png){width="400px"}
 
   ![](../assets/usd-scope-variants.png){width="400px"}
 
-* **Exportar o USD como um novo arquivo ou vinculado ao USD original usado no projeto**\
+* **Exportar USD como um novo arquivo ou vinculado ao USD original usado no projeto**\
   Quando a texturização estiver pronta, você poderá usar a janela **Arquivo > Exportar textura** para exportar seu arquivo USD junto com seus arquivos de textura. Basta habilitar a configuração **Exportar ativo USD** para fazer isso. Isso vai gerar vários arquivos USD que podem ser facilmente integrados em um pipeline posteriormente. Se você usou um arquivo que não seja USD ou um arquivo USD sem UVs, isso exportará um novo arquivo de geometria USD, além de mapas de textura e arquivo de material USD.\
   Além disso, também é possível usar o **Arquivo > Exportar malha** para exportar a geometria do projeto como um arquivo USD.
 
@@ -151,86 +143,86 @@ Resumo: **Versão principal com novo modo de fça bake, nova importação e expo
 
 **Adicionado:**
 
-* [Modo de cozedura] Novo modo de cozedura dedicado ao processo de cozedura
-* [Modo de cozimento] Defina o atalho para alternar para o modo de cozimento para F8
-* [Modo de cozimento] Botão Adicionar início e Cancelar cozimento no visor
-* [Modo de cozimento] Adicionar seleção de cozimento na lista Conjunto de textura
-* [Modo de cozimento] Adicionar nova janela de padeiros de mapa de malha para selecionar padeiros
-* [Modo de cozimento] Adicionar nova janela Configurações do mapa de malha para editar as configurações de cozimento
-* [Modo de cozimento] Adicionar nova janela de registro de cozimento para seguir o processo de cozimento
-* [Modo de cozimento] Adicionar parâmetros de cozimento e desfazer ações na janela Histórico
-* [Modo Preparação] Adicionar trilhas nas Configurações do mapa de malha
-* [Modo de cozimento] Adicione miniaturas de mapas de malha na janela Preparadores de mapas de malha
-* [Modo de cozimento] Adicionar menu recolhível de configurações de visualização em uma janela de visualização 3D
-* [Modo de cozimento] Adicionar configuração de visualização para mostrar/ocultar a malha de alto polímero
-* [Modo de cozimento] Adicionar configuração de visualização para mostrar/ocultar a malha da gaiola e o wireframe
-* [Modo de cozimento] Adicionar configuração de visualização para mostrar/ocultar a malha de baixo polímero
-* [Modo de cozimento] Adicionar configuração de visualização para mostrar as bordas sólidas sem emendas UV como erros
-* [Modo de cozimento] Informar na viewport sobre erros de malha e cozimento se o Registro de cozimento não estiver visível
-* [Modo Preparação] Adicionar ação para sincronizar as configurações do padeiro em todos os Conjuntos de Textura
+* [Modo de Fça bake] Novo modo de fça bake dedicado ao processo de fça bake
+* [Modo de Fça bake] Defina o atalho para alternar para o modo de fça bake para F8
+* [Modo de Fça bake] Botão Adicionar início e Cancelar fça bake no visor
+* [Modo de Fça bake] Adicionar seleção de fça bake na lista Conjunto de texturas
+* [Modo de Fça bake] Adicionar nova janela Baker do Mapa de malha para selecionar baker
+* [Modo de Fça bake] Adicionar nova janela Configurações do Mapa de malha para editar as configurações de fça bake
+* [Modo de Fça bake] Adicionar nova janela de Log de Fça bake para seguir o processo de fça bake
+* [Modo de Fça bake] Adicionar parâmetros de fça bake e desfazer ações na janela de histórico
+* [Modo de Fça bake] Adicionar trilhas nas configurações do Mapa de malha
+* [Modo de Fça bake] Adicionar miniaturas de mapas de malha na janela Baker de mapas de malha
+* [Modo de Fça bake] Adicionar menu recolhível de configurações de visualização na janela de visualização 3D
+* [Modo de Fça bake] Adicionar configuração de visualização para mostrar/ocultar a malha de alto polígono
+* [Modo de Fça bake] Adicionar configuração de visualização para mostrar/ocultar a malha do compartimento e o wireframe
+* [Modo de Fça bake] Adicionar configuração de visualização para mostrar/ocultar a malha de baixo polígono
+* [Modo de Fça bake] Adicionar configuração de visualização para mostrar as bordas sólidas sem emendas UV como erros
+* [Modo de Fça bake] Informar no visor sobre a malha e fazer bake erros se Fazer bake o registro não estiver visível
+* [Modo de Fça bake] Adicionar ação para sincronizar as configurações de baker em todos os Conjuntos de Textura
 
-  Na janela Panificadores de mapa de malha, cada panificação (bem como as configurações comuns) pode ser sincronizada entre os conjuntos de textura clicando no ícone de link ao lado de seu nome. Esta ação abrirá uma janela que permite selecionar quais conjuntos de texturas compartilharão os mesmos parâmetros.
-* [Modo de cozimento] Adicionar ações para copiar e colar configurações do padeiro
+  Na janela Baker do mapa de malha, cada baker (bem como as configurações comuns) pode ser sincronizado entre os conjuntos de textura clicando no ícone de link ao lado de seu nome. Esta ação abrirá uma janela que permite selecionar quais conjuntos de texturas compartilharão os mesmos parâmetros.
+* [Modo de Fça bake] Adicionar ações para copiar e colar configurações de baker
 
-  Na janela Panificadores de mapa de malha estão disponíveis ações para copiar e colar cada configuração de panificação nos Conjuntos de textura por meio do menu dedicado na parte superior da janela ou do menu contextual do botão direito do mouse.
-* [Modo de cozimento] Adicione o botão no Log de cozimento para pular do erro para as configurações corretas
+  Na janela Baker do Mapa de malha estão disponíveis ações para copiar e colar cada configuração de baker nos Conjuntos de textura por meio do menu dedicado na parte superior da janela ou do menu contextual do botão direito do mouse.
+* [Modo de Fça bake] Adiciona o botão em Fazendo bake o registro para passar do erro para as configurações corretas
 
-  Quando um padeiro falha ou uma malha não é carregada corretamente, uma mensagem de erro aparece no registro de cozimento. Um botão ao lado da mensagem permite alterar a janela Configurações de pás e mapas de malha para mostrar as configurações relacionadas. Isso ajuda a isolar com mais facilidade a origem de um problema para corrigi-lo.
-* [Modo Preparação] Adicionar menus para gerenciar conjuntos de texturas e seleções de pincéis
+  Quando um baker falha ou uma malha não é carregada corretamente, uma mensagem de erro aparece no registro de Fça bake. Um botão ao lado da mensagem permite alterar a janela Baker do mapa de malha e Configurações do mapa de malha para mostrar as configurações relacionadas. Isso ajuda a isolar com mais facilidade a origem de um problema para corrigi-lo.
+* [Modo de Fça bake] Adicionar menus para gerenciar Conjuntos de texturas e seleções de Baker
 
-  Tanto na “lista de conjuntos de texturas” quanto na “PANELAS DE MAPA DE MALHA”, foi adicionado um pequeno menu de ação para ajudar a copiar e inverter as seleções.
-* [Modo de cozimento] Dividir a lista de seleção do padeiro por conjunto de textura
-* [Modo de cozimento] Dividir configurações comuns por conjunto de textura
-* [Modo de cozedura] Carregue malhas de alto-poli e gaiola sem congelar a interface
-* [Modo de cozimento] Use a barra de progresso do visor para mostrar a carga da malha
-* [Modo de cozimento] Adicionar estado de carregamento de malha no Log de cozimento
-* [Modo de cozedura] Permite girar a malha no visor durante a cozedura
-* [Modo de cozedura] Definir a ordem de cozedura com base na visibilidade atual da janela de malha
-* [Modo de cozimento] Exibir gaiola de cozimento implícita no visor
+  Tanto na lista “Texture Set” quanto na janela “Mesh Map Baker” foi adicionado um pequeno menu de ação para ajudar a copiar e inverter seleções.
+* [Modo de Fça bake] Dividir a lista de seleção de baker por conjunto de textura
+* [Modo de Fça bake] Dividir configurações comuns por conjunto de textura
+* [Modo de Fça bake] Carregue malhas de alto-poli e de compartimento sem congelar a interface
+* [Modo de Fça bake] Use a barra de progresso do visor para mostrar a carga da malha
+* [Modo de Fça bake] Adicionar estado de carregamento de malha no Log de Fça bake
+* [Modo de Fça bake] Permite virar a malha no visor durante o fça bake
+* [Modo de Fça bake] Definir a ordem de fça bake com base na visibilidade atual da janela de malha
+* [Modo de Fça bake] Exibir gaiola de fça bake implícita no visor
 
-  Se não estiver usando um arquivo de malha de gaiola personalizado, uma malha de gaiola automática será gerada e exibida na janela de visualização. Seu tamanho será baseado no parâmetro Distância frontal máxima das configurações comuns de cozimento. A malha de gaiola é usada para indicar até onde a correspondência entre o poli baixo e alto irá.
-* [Modo de cozimento] Mostrar lista correspondente de nomes de malha para correspondência por nome no Log de cozimento
-* [Modo de cozimento] Usar material neutro para exibir o modelo 3D na viewport
-* [Modo de cozimento] Desativa o cálculo do motor em modo de cozimento
-* [Modo de cozimento] Exibir um aviso ao sair do aplicativo enquanto uma torta está em andamento
-* [Padeiros] Atualizar rótulos de configuração de suavização de borda
+  Se não estiver usando um arquivo de malha de gaiola personalizado, uma malha de gaiola automática será gerada e exibida na janela de visualização. Seu tamanho será baseado no parâmetro Distância frontal máxima das configurações comuns de fça bake. A malha de gaiola é usada para indicar até onde a correspondência entre o poli baixo e alto irá.
+* [Modo de Fça bake] Mostrar lista correspondente de nomes de malha para Correspondência por Nome no Log de Fça bake
+* [Modo de Fça bake] Usar material neutro para exibir o modelo 3D na viewport
+* [Modo de Fça bake] Desabilita o cálculo do mecanismo no modo de fça bake
+* [Modo de Fça bake] Exibir um aviso ao sair do aplicativo enquanto um faço bake está em andamento
+* [Baker] Atualizar rótulos da configuração de suavização de borda
 
   Os valores de configuração de suavização de borda foram renomeados para “Sobreamostragem” e com um número multiplicador explícito para esclarecer seu comportamento.
-* [Padarias] Atualize as padarias para a versão 2.5.7.
-* [USD] Importar e exportar arquivos do Universal Scene Description (USD)
-* [USD] Adicione opções USD à janela Novo projeto ao selecionar um arquivo USD
+* [Baker] Atualize os baker para a versão 2.5.7.
+* [USD] Importar e exportar arquivos de Universal Scene Description (USD)
+* [USD] Adicionar opções de USD à janela Novo projeto ao selecionar um arquivo USD
 * [USD] Adicionar nova janela de seleção de escopo e variantes
 
-  Ao importar um arquivo USD, clicar no botão de alteração na janela Novo projeto ou Configuração de projeto permite selecionar qual parte e variantes de um arquivo USD importar.
+  Ao importar um arquivo USD, clicar no botão de alteração na janela Novo projeto ou Configuração do projeto permite selecionar qual parte e variantes de um arquivo USD importar.
 * [USD] Opção Adicionar níveis de subdivisão
 
-  Ao criar um novo projeto com um arquivo de malha do USD que contém subdivisões, é possível selecionar o nível de subdivisões usando um controle deslizante. O projeto será criado com a malha subdividida. O nível pode ser modificador por meio da Configuração do projeto.
-* [USD] Importar malhas com pele em USD em um quadro específico
+  Ao criar um novo projeto com um arquivo de malha USD que contém subdivisões, é possível selecionar o nível de subdivisões usando um controle deslizante. O projeto será criado com a malha subdividida. O nível pode ser modificador por meio da Configuração do projeto.
+* [USD] Importar malhas com pele USD em quadro específico
 
-  Ao criar um novo projeto com um arquivo de malha USD que contém animação, é possível selecionar o quadro usando um controle deslizante que reflete a sequência de linha do tempo incorporada. O quadro pode ser modificador por meio da Configuração do projeto.
-* [USD]&#x200B;[Exportar] Adicione uma opção para exportar arquivos USD
+  Ao criar um novo projeto com um arquivo de malha USD que contém animação, é possível selecionar a quadro usando um controle deslizante que reflete a sequência de linha do tempo incorporada. O quadro pode ser modificador por meio da Configuração do projeto.
+* [USD][Exportar] Adicione uma opção para exportar arquivos USD
 
-  Nova caixa de seleção Exportar USD adicionada à janela Exportar texturas. Quando marcada, permite exportar arquivos USD, bem como mapas de textura usando qualquer modelo.
-* [USD]&#x200B;[Exportar] Adicionar formato de arquivo USD à exportação de malha
-* [USD] Renomeie a predefinição de exportação “USD PBR Metal Roughness” existente para mais explícita
+  Nova caixa de seleção Exportar USD adicionada à janela Exportar textura. Quando marcada, permite exportar arquivos USD, bem como mapas de textura usando qualquer modelo.
+* [USD][Exportar] Adicionar formato de arquivo USD à exportação de malha
+* [USD] Renomear a predefinição de exportação “USD PBR Metal Roughness” existente para ser mais explícita
 
-  O modelo de exportação para USD anteriormente conhecido como “USD PBR Metal Roughness” ainda é acessível por meio de Exportar texturas > Modelo de saída > USDz (Apple AR).
+  O modelo de exportação de USD anteriormente conhecido como &#39;USD PBR Metal Roughness&#39; ainda é acessível por meio de texturas de exportação > Modelo de saída > USDz (Apple AR).
 * [Abrir automaticamente] Adicionar orientação Bloquear para embalagem
 
-  Nova opção para configurações de abertura automática que permitem preservar a orientação de Ilhas UV existentes ao usar o recurso de embalagem. Ele pode ser acessado em Novo projeto > Opções de quebra automática > Orientação da Ilha UV.
+  Nova opção para configurações de abertura automática que permitem preservar a orientação de Ilhas UV existentes ao usar o recurso de embalagem. Ele pode ser acessado em Novo projeto > Opções de Contornar automaticamente > Orientação da Ilha UV.
 * [Tamanho físico] Adicionar configuração para usar Tamanho físico automaticamente no efeito/camada de preenchimento
 
   Foi adicionada uma nova opção para alternar automaticamente para a escala de tamanho físico ao usar um material com tamanho físico incorporado. Ele pode ser ativado por projeto por meio de Novo projeto ou de Editar > Configuração do projeto > Tamanho físico > Alternar o dimensionamento da camada de preenchimento para Tamanho físico ao atribuir materiais.
 * [Tamanho físico] Expor tamanho físico para Projeção UV
 
   O dimensionamento de tamanhos físicos agora está disponível para Projeção UV. Ele ativa o redimensionamento automático de um material com base no tamanho físico de uma malha. Pode ser selecionado por meio de Escala > Tamanho físico na janela Propriedades da camada de preenchimento ou do efeito.
-* [Scripting]&#x200B;[Python] Permite consultar a versão do aplicativo
-* [Script]&#x200B;[JavaScript] Atualizar API para corresponder aos novos parâmetros de criação
-* [Scripting]&#x200B;[Python] Módulo de cozimento: editar parâmetros de cozimento
-* [Scripting]&#x200B;[Python] Módulo de cozimento: iniciar/cancelar cozimento
-* [Scripting]&#x200B;[Python] Módulo de preparo: selecionar o método de curvatura
-* [Scripting]&#x200B;[Python] Módulo de cozedura: seleção de padeiros / azulejos uv
-* [Scripting]&#x200B;[Python] Módulo de preparo: sincronizar as configurações do padeiro em todos os conjuntos de texturas
+* [Scripting][Python] Permite consultar a versão do aplicativo
+* [Scripting][JavaScript] Atualizar API para corresponder aos novos parâmetros de fça bake
+* [Scripting][Python] módulo de Fça bake: editar parâmetros de fça bake
+* [Scripting][Python] Módulo de Fça bake: iniciar/cancelar fça bake
+* [Scripting][Python] Módulo de Fça bake: selecionar método de curvatura
+* [Scripting][Python] Módulo de Fça bake: seleção de baker/blocos uv
+* [Scripting][Python] Módulo de Fça bake: sincronizar as configurações de baker em todos os conjuntos de texturas
 * [SVT] Habilitar suporte a hardware esparso em GPUs AMD
 
   A aceleração de hardware para o sistema de texturas virtuais esparsas agora pode ser ativada com as GPUs da AMD. Essa configuração é ativada automaticamente nas preferências gerais.
@@ -244,24 +236,24 @@ Resumo: **Versão principal com novo modo de fça bake, nova importação e expo
   Para projetos feitos antes de 8.2, o valor retornado será nulo.
 * [Importar] Melhorar o tempo de importação geral de modelos 3D
 
-  Melhoramos o tempo geral de importação das malhas. Por exemplo, reduzir o tempo de espera ao carregar malhas de alto-poli para cozimento. Essa otimização aplica-se em particular ao carregamento de arquivos OBJ.
+  Melhoramos o tempo geral de importação das malhas. Por exemplo, reduzir o tempo de espera ao carregar malhas de alto polígono para fazer bake. Esta otimização aplica-se em particular ao carregamento de arquivos OBJ.
 
 **Corrigido:**
 
 * [Falha] Alterar canais no filtro com pilha específica
-* [Mac]&#x200B;[M1] Falha ao criar uma camada de preenchimento e sair da pilha de camadas
+* [Mac][M1] Falha ao criar uma camada de preenchimento e sair da pilha de camadas
 
   Esse problema pode ser corrigido atualizando para o Mac OS 13 (Ventura).
-* [Scripting]&#x200B;[Python] Falha ao usar ui.add\_dock\_widget() com tipo errado
-* [Preparação] Mensagem de erro incompleta no log quando um bake falha
-* [Preparação] A memória não é liberada quando a cozedura é concluída
-* [Engine] O cache de textura não é atualizado ao alterar a visibilidade do efeito
+* [Scripting][Python] Falha ao usar ui.add\_dock\_widget() com tipo errado
+* [Fazendo bake] Mensagem de erro incompleta no log quando um faço bake falha
+* [Fazendo bake] A memória não é liberada quando a faz bake é concluída
+* O cache de Textura do [Engine] não é atualizado ao alterar a visibilidade do efeito
 * [Exportar] 2DView exporta mapa aleatoriamente uniforme
 * [Project] Erro de alocação de memória ao salvar projeto com malha grande
 * [Visor] O TAA causa artefatos ao pintar em alguns casos
 
 **Problemas Conhecidos:**
 
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
-* [Pilha de camadas] Fonte de entrada não salva por camada
-* [Exportar] Mapa uniforme de exportações em 2D aleatoriamente
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
+* [Pilha de camadas] A fonte de entrada não é salva por camada
+* [Exportar] O Visualização 2D exporta um mapa aleatoriamente uniforme

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/geometry-mask.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar máscaras de geometria no Substance 3D Painter para mascarar camadas com base na geometria da malha e nas propriedades de superfície.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Geometry mask
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Máscara de geometria
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
-
 ---
-
 
 # Máscara de geometria
 
@@ -88,7 +80,7 @@ No exemplo abaixo, o modelo 3D foi dividido em dois objetos: uma parte superior 
 
 >[!NOTE]
 >
-> A lista de inclusão/exclusão da máscara de geometria é dinâmica, a alteração de seu estado acionará um novo cálculo dos traçados de pincel na camada. Isso permite ajustar o mascaramento sem perder os traçados do pincel ao reimportar uma malha com novos blocos UV ou se os nomes da malha tiverem sido alterados. No entanto, isso também significa que os traçados de pincel não são cozidos, portanto, qualquer alteração na máscara de geometria pode levar a uma projeção incorreta do pincel posteriormente.
+> A lista de inclusão/exclusão da máscara de geometria é dinâmica, a alteração de seu estado acionará um novo cálculo dos traçados de pincel na camada. Isso permite ajustar o mascaramento sem perder os traçados do pincel ao reimportar uma malha com novos blocos UV ou se os nomes da malha tiverem sido alterados. No entanto, isso também significa que os traçados de pincel não são feitos bake, portanto, qualquer alteração na máscara de geometria pode levar à projeção incorreta do pincel posteriormente.
 
 | Visual | Descrição |
 | --- | --- |

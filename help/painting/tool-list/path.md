@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Use a ferramenta Caminho no Substance 3D Painter para criar e editar caminhos para uma pintura de textura precisa e o posicionamento do traçado.
-helpx_creative_field: ''
-helpx_description: Painting > Path tools list > Path tool
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Visão geral da ferramenta Caminho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6fcf10add7086a0e2a070ee6046c0a261ef1ae34
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
-
 ---
-
 
 # Visão geral da ferramenta Caminho
 
@@ -141,7 +133,7 @@ A **barra de ferramentas contextual** quando a ferramenta **Caminho** está sele
   </tr>
   <tr>
     <td><strong>Simetria</strong><br><img src="../../assets/path_contextual_toolbar_symmetry.png" alt="Ícone do recurso de simetria"/></td>
-    <td>Habilite ou desabilite a simetria para o caminho atual. Consulte a <a href="../symmetry/symmetry.md">documentação de simetria</a> para obter mais informações.<br><img src="../../assets/v90_path_symmetry.gif" alt="Gif mostrando um caminho sendo desenhado na simetria"/></td>
+    <td>Habilitar ou desabilitar a simetria para o caminho atual. Consulte a <a href="../symmetry/symmetry.md">documentação de simetria</a> para obter mais informações.<br><img src="../../assets/v90_path_symmetry.gif" alt="Gif mostrando um caminho sendo desenhado na simetria"/></td>
   </tr>
   <tr>
     <td><strong>Ocultar/ignorar geometria excluída</strong><br><img src="../../assets/path_contextual_toolbar_exclude.png" alt="Ícone do recurso de exclusão da máscara de geometria"/></td>

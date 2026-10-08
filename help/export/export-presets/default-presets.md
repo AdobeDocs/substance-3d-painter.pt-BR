@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre os modelos de saída padrão no Substance 3D Painter para entender as configurações e os formatos de exportação padrão.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Default Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Modelos de saída padrão
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
-
 ---
-
 
 # Modelos de saída padrão
 
@@ -24,7 +16,7 @@ Abaixo há uma lista de Modelos de saída adicionais fornecidos por padrão.  O
 
 >[!NOTE]
 >
-> Alguns outros softwares não listados aqui também podem ter suporte (como o **Octano**). Para obter mais informações, consulte o [ecossistema e plug-ins](https://experienceleague.adobe.com/pt-br/docs/substance-3d/ecosystem/home).
+> Alguns outros softwares não listados aqui também podem ter suporte (como o **Octano**). Para obter mais informações, consulte o [ecossistema e plug-ins](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
 
 | *Predefinição* | *Descrição* |
 | --- | --- |
