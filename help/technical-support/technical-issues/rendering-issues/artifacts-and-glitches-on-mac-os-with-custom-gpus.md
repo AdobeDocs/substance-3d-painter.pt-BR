@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Em caso de falhas, falhas ou até mesmo artefatos aparecem no sistema operacional do Mac ao executar uma GPU personalizada com drivers personalizados, uma solução alternativa pode ser excluir os arquivos **listados corretamente** relacionados ao aplicativo.
 
-Para saber qual arquivo remover, consulte: [Preferências e local dos dados de aplicativo](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Para saber qual arquivo remover, consulte: [Preferências e local dos dados de aplicativo](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

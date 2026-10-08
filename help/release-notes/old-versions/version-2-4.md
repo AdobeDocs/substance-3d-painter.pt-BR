@@ -32,7 +32,7 @@ Para criar consultas avançadas, consulte a parte dedicada da documentação: [C
 
 Com o retrabalho da prateleira, também **melhoramos a janela de importação de recursos**. A janela agora está mais consistente e pode ser **chamada de três maneiras diferentes**: por meio do menu arquivo, do botão na janela da prateleira ou simplesmente como antes, arrastando e soltando um recurso na janela da prateleira. A nova janela permite **definir rapidamente o uso** de **vários recursos** de uma só vez, o que significa que você não precisa mais arrastar e soltar recursos no local certo primeiro. Também adicionamos a possibilidade a **especificar um caminho personalizado** para criar subpastas a fim de aproveitar a nova exibição de árvore.
 
-Para obter mais detalhes, consulte a parte dedicada da documentação: [Adicionando recursos por meio da janela de importação](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Para obter mais detalhes, consulte a parte dedicada da documentação: [Adicionando recursos por meio da janela de importação](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### Novas predefinições de partícula
 

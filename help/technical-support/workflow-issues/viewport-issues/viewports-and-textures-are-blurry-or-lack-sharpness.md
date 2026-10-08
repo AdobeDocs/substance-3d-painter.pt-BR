@@ -18,7 +18,7 @@ As viewports podem parecer desfocadas por diferentes motivos.
 
 Por padrão, o Substance 3D Painter reduz a resolução da viewport na tela High-DPI/Retina para melhorar o desempenho.
 
-Este comportamento pode ser alterado nas [configurações principais](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) alterando o parâmetro **Escala de Visor**.
+Este comportamento pode ser alterado nas [configurações principais](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/general-71008262.html) alterando o parâmetro **Escala de Visor**.
 
 ## Filtragem de textura
 

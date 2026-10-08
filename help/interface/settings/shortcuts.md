@@ -18,7 +18,7 @@ Esta página lista todos os atalhos de teclado e mouse disponíveis.
 
 ## Visão geral de atalhos
 
-Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Para obter uma visão geral rápida de todos os Atalhos disponíveis, dê uma olhada no gráfico [disponível em nossos tutoriais](https://helpx.adobe.com/br/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Como alterar um atalho
 

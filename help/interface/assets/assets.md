@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Ativos
 
-A janela Ativos permite acessar os recursos padrão que vêm com o aplicativo (chamados de **Ativos iniciais**), bem como quaisquer recursos [importados](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) (que podem ser encontrados em **Seus ativos**).
+A janela Ativos permite acessar os recursos padrão que vêm com o aplicativo (chamados de **Ativos iniciais**), bem como quaisquer recursos [importados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) (que podem ser encontrados em **Seus ativos**).
 
 * No disco, a biblioteca de **Ativos iniciais** é armazenada na pasta de instalação do aplicativo, enquanto os ativos importados para a biblioteca **Seus ativos** por padrão estão localizados na pasta Documentos.
 * Para obter mais informações sobre onde seus ativos são armazenados em disco, consulte [Adicionando conteúdo ao disco rígido](../../content/importing-assets/adding-content-on-the-hard-drive.md).

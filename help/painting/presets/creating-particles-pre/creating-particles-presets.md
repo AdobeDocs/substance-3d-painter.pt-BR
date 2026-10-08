@@ -18,6 +18,6 @@ Os pincéis de partículas são compostos por duas partes: o **Emissor** e o **R
 
 Para obter mais informações, consulte as páginas dedicadas:
 
-* [Instalando o editor de partículas](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Visão geral do editor de partículas](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Instalando o editor de partículas](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Visão geral do editor de partículas](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Criando Um Novo Script De Partículas](creating-a-new-particle-script.md)

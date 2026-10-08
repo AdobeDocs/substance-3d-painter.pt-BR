@@ -19,4 +19,4 @@ A malha pode aparecer **rosa** dentro do visor porque o **sombreador** usado par
 Veja como corrigir isso:
 
 * Para **sombreadores padrão**: siga o procedimento passo a passo na página [Atualizando um sombreador](../../../interface/shader-settings/updating-a-shader.md).
-* Para **sombreador personalizado**: observe a mensagem de erro na janela de log e na página [API de sombreamento](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Para **sombreador personalizado**: observe a mensagem de erro na janela de log e na página [API de sombreamento](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

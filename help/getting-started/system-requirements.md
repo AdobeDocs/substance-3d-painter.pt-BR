@@ -103,7 +103,7 @@ Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers mínimos
 
 <b>DXR</b> também requer a seguinte configuração mínima:
 
-* <b>Windows 10</b> versão 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
+* <b>Windows 10</b> versão 1809, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
 * GPU <b> com arquitetura Pascal</b> (Nvidia GeForce 10XX)
 
 >[!TIP]

@@ -26,7 +26,7 @@ Agora você pode usar os pincéis do Photoshop no Substance Painter. Ao simplesm
 
 Se você não tiver arquivos ABR para importar, poderá encontrar muitos deles online:
 
-* [Predefinições do pincel de Kyle no Adobe](https://www.adobe.com/products/photoshop/brushes.html)
+* [Predefinições do pincel de Kyle no Adobe](https://www.adobe.com/br/products/photoshop/brushes.html)
 * [Predefinições de pincel em ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Predefinições de pincel em DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Predefinições de pincel em Pincel de cubo](https://cubebrush.co/marketplace?categories=354,57)
@@ -107,7 +107,7 @@ Além do suporte às predefinições de pincel do Photoshop, vários aprimoramen
 O Substance Painter agora desembrulhará automaticamente as malhas que têm coordenadas UV ausentes. Isso permite importar qualquer tipo de geometria e começar imediatamente a tinta. Nosso sistema de desempacotamento UV gerará uma Ilha UV por sub-malha enquanto ainda segue a atribuição do material para criar conjuntos de textura. Este recurso está atualmente em versão beta e evoluirá em versões futuras. O Desencapsulamento Automático será aplicado apenas a projetos que **não usam o fluxo de trabalho UDIM**.
 
 * **Desencapsulamento UV automático**\
-  Por padrão, o Substance Painter agora irá gerar automaticamente coordenadas UV para malhas que estão faltando. Isso se aplica à criação de projetos e à reimportação de malha. No entanto, é possível desabilitar esse comportamento acessando as [configurações principais](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e desabilitando a **Habilitar o desencapsulamento automático de UV** em **Opções de importação**.
+  Por padrão, o Substance Painter agora irá gerar automaticamente coordenadas UV para malhas que estão faltando. Isso se aplica à criação de projetos e à reimportação de malha. No entanto, é possível desabilitar esse comportamento acessando as [configurações principais](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/general-71008262.html) e desabilitando a **Habilitar o desencapsulamento automático de UV** em **Opções de importação**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Barra de Progresso de Desencapsulamento UV**\
@@ -207,7 +207,7 @@ Nesta versão, muito conteúdo novo foi adicionado:
 * **Novas predefinições de pincel**
 
   * **102 predefinições de pincel para Photoshop**\
-    Com a introdução da compatibilidade com o pincel do Photoshop, um novo conjunto de predefinições foi incluído para exibi-lo. Essas predefinições foram selecionadas nos pacotes de Kyle T. Webster disponíveis no [site do Adobe](https://www.adobe.com/products/photoshop/brushes.html).
+    Com a introdução da compatibilidade com o pincel do Photoshop, um novo conjunto de predefinições foi incluído para exibi-lo. Essas predefinições foram selecionadas nos pacotes de Kyle T. Webster disponíveis no [site do Adobe](https://www.adobe.com/br/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 novas predefinições de pincel**\

@@ -19,4 +19,4 @@ Com projetos antigos que se movem pela câmera no visor podem mostrar rapidament
 Para se livrar do flash branco, basta **atualizar** o **sombreador do projeto**:
 
 * Para **sombreadores padrão**: siga o procedimento passo a passo na página [Atualizando um sombreador](../../../interface/shader-settings/updating-a-shader.md).
-* Para **sombreadores personalizados**: observe a(s) mensagem(ns) de erro no log e na página [API de sombreamento](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Para **sombreadores personalizados**: observe a(s) mensagem(ns) de erro no log e na página [API de sombreamento](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

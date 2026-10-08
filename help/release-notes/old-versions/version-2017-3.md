@@ -22,7 +22,7 @@ Data de lançamento: *28 de setembro de 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Um dos novos exportador que incluímos nesta versão é o suporte do Adobe Standard Material, para ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Adobe Standard Material**” na janela de exportação do textura. Para obter mais informações, consulte: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
+Um dos novos exportador que incluímos nesta versão é o suporte do Adobe Standard Material, para ser usado com o Adobe Dimension (anteriormente Adobe Project Felix). Permitimos que você exporte a malha de cena e suas texturas para serem importadas para o Projeto Felix em um clique. Para acessá-lo, basta escolher “**Adobe Standard Material**” na janela de exportação do textura. Para obter mais informações, consulte: [http://www.adobe.com/br/products/dimension.html](https://www.adobe.com/br/products/dimension.html)
 
 Você também pode conferir nossa postagem sobre isso no blog: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 

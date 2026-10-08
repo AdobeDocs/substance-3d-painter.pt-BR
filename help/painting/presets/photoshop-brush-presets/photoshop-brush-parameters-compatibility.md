@@ -32,7 +32,7 @@ Ao olhar dentro do arquivo ABR, o Substance 3D Painter recuperará apenas predef
 
 ## Parâmetros
 
-Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html).
+Para saber mais sobre o que esses parâmetros podem fazer, consulte a [documentação oficial da Photoshop](https://helpx.adobe.com/br/photoshop/using/creating-modifying-brushes.html).
 
 Nem todos os parâmetros de pincel Photoshop são compatíveis. Consulte a legenda para saber o status de cada parâmetro descrito abaixo:
 

@@ -18,7 +18,7 @@ Alguns casos específicos podem fazer com que o Substance 3D Painter falhe duran
 
 A Detecção e recuperação de tempo limite (TDR) é um mecanismo de segurança do Microsoft Windows para impedir que uma GPU bloqueie o sistema com uma computação sem fim. Infelizmente, esse mecanismo é muito restritivo para o Substance 3D Painter por padrão.
 
-Para obter mais informações, consulte: [Falha dos drivers de GPU com cálculos longos (falha de TDR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Para obter mais informações, consulte: [Falha dos drivers de GPU com cálculos longos (falha de TDR)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Pouca memória virtual
 

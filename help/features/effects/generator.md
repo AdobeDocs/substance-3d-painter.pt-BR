@@ -39,7 +39,7 @@ Para adicionar um gerador a uma camada:
 ![](../../assets/generators/generator_spectrum.png)
 
 Cada gerador tem um conjunto de parâmetros que permite ajustar a máscara resultante.\
-Para adicionar geradores personalizados na prateleira, consulte: [Adicionando conteúdo à prateleira](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Para adicionar geradores personalizados na prateleira, consulte: [Adicionando conteúdo à prateleira](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >
