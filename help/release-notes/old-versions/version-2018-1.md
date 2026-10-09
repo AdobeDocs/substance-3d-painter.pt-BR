@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2018.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2018.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2018.1
 
@@ -67,8 +59,8 @@ O Substance Painter 2018.1 apresenta um **retrabalho completo da interface**, va
 
 ![](../../assets/drag-drop-material-resize.gif){width="650px"}
 
-Agora você pode **arrastar e soltar** materiais e materiais inteligentes **diretamente para o visor**.\
-Esta nova ação **realçará a geometria** do **conjunto de texturas de destino** ao mesmo tempo. Esta ação criará as novas camadas no topo da pilha de camadas do Conjunto de texturas.
+Agora você pode **arrastar e soltar** materiais e Materiais inteligentes **diretamente para o visor**.\
+Esta nova ação **realçará a geometria** do **conjunto de texturas de destino** ao mesmo tempo. Esta ação criará as novas camadas na parte superior da pilha de camadas do conjunto de texturas.
 
 ### Comportamento aprimorado da caneta digitalizadora
 
@@ -186,8 +178,8 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 **Corrigido:**
 
 * [Plug-in] O Substance Source de pesquisa não funciona
-* [Materiais inteligentes] A importação de materiais inteligentes leva a uma falha em alguns casos
-* [Materiais inteligentes] Excluir materiais inteligentes leva a uma falha em alguns casos
+* [Materiais inteligentes] A importação de Materiais inteligentes leva a uma falha em alguns casos
+* [Materiais inteligentes] A exclusão de Materiais inteligentes leva a uma falha em alguns casos
 * [Salvar] Salvar leva a uma falha em alguns casos raros
 * [Prateleira] Inverter não funciona no Células 2 e no Células 3
 * [Prateleira] Erro de digitação em alguns Alpha
@@ -204,7 +196,7 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 **Adicionado:**
 
 * Resumo: velocidade de Fça bake aprimorada, sistema de salvamento aprimorado, controles deslizantes atualizados, API de plug-in atualizada, tradução para chinês, preenchimento aprimorado agora opcional
-* [Padeiros] Melhoria de desempenho com nova versão de panificação
+* [Baker] Melhoria de desempenho com a nova versão do baker
 * Forçar caixa de diálogo de exibição com GPU incompatível
 * [Salvar] Expor a nova funcionalidade de projeto compacto (modo de salvamento completo/compacto)
 * [Salvar] Informar o usuário em caso de erro ao salvar
@@ -222,7 +214,7 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 
 **Corrigido:**
 
-* [Ferramenta] O slot do canal se transforma em um slot de material em preenchimentos de canal único
+* [Ferramenta] O slot do canal transforma em um slot de material em preenchimentos de canal único
 * Falha ao carregar uma malha (FBX) com algumas faces não atribuídas por um material
 * Falha na Iray com NVIDIA GRID 5.2 na máquina virtual
 * Falha ao desfazer uma exclusão de predefinição de material
@@ -231,7 +223,7 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 * [Barra de ferramentas] Redução da barra de ferramentas
 * [Instanciação] Não é possível instanciar bitmaps em vários conjuntos de texturas
 * [Janela de visualização] A atualização não é concluída ao pintar na malha com UVs lado a lado
-* [Iray] O mapa normal é aplicado duas vezes para dielétricos
+* [Iray] Mapa normal aplicado duas vezes para dielétricos
 * [Prateleira] Erros de digitação em alguns parâmetros de Substance (alfas, procedimentos e matfx)
 * [Shelf] Erro de ortografia no bitmap “Somente Pessoal Autorizado”
 * [Script] A função alg.shaders.materials() não funciona mais
@@ -247,9 +239,9 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 **Corrigido:**
 
 * [Tablet] Problema ao alterar as opções de interação padrão
-* [Bakers] Falha com a biblioteca Assimp
-* [Bakers] Regressão no desempenho com mapa A.O.
-* [Iray] A Distorção de lente não é aplicada ao canal de Alpha
+* [Baker] Falha com a biblioteca Assimp
+* [Baker] Regressão no desempenho com mapa A.O.
+* [Iray] A Distorção de lente não é aplicada ao canal alfa
 * [Drivers] Atualização dos requisitos mínimos de drivers
 * [3Dview] Normais não gerados corretamente em malhas UDIM sem informações normais
 * [Intel] Falha com o Substance Painter 2018.1.0
@@ -275,7 +267,7 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 * [Menu rápido] Novas propriedades de ferramenta clicando com o botão direito do mouse no visor
 * [Widget de encaixe] Nova barra de ferramentas de encaixe para redução/recuperação rápida
 * [Configurações de exibição] Janela de configurações da câmera e do visualizador mesclada
-* [Pilha de camadas] Menu contextual de clique com o botão direito
+* [Pilha de camadas] Menu contextual de clique com o botão direito do mouse
 * [Pilha de camadas] Arraste e solte para mover qualquer efeito dentro da mesma camada
 * [Barra de ferramentas] Reorganização da barra de ferramentas e da nova barra de ferramentas contextual
 * [Barra de ferramentas Ferramentas] Dividir a ferramenta Clonar em duas ferramentas separadas
@@ -283,23 +275,23 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 * [Propriedades das ferramentas] Organização em guias (preenchimento e ferramentas)
 * [Ferramenta] O resultado da pintura corresponde ao estêncil
 * [Visor] Novo cursor para camada de preenchimento
-* [Visor] Navegação e pintura mais suaves (maior taxa de quadros)
+* [Visor] Navegação e pintura mais suaves (taxa de quadro mais alta)
 * [Janela de visualização] Caixa de combinação Material/Canal/Seleção de mapa no visor
 * [Visor] Reduzir cintilação ao girar (sombra ativada)
 * [Prateleira] Exibir materiais por padrão ao abrir o Painter
-* [Prateleira] Melhoria do tempo de carregamento de texturas e materiais de Substance (2 a 6 vezes mais rápido)
+* [Prateleira] Melhoria do tempo de carregamento de texturas e materiais (2 a 6 vezes mais rápido)
 * [Prateleira] Reorganizar pastas de materiais para se ajustar à estrutura de Substance Source
 * [Prateleira] Arraste e solte materiais diretamente na malha no visor
 * [Prateleira] Novos ruídos 3D (Perlin, Perlin Fractal, Simplex e Worley)
-* [Prateleira] Novo gerador de máscara de 3D linear gradient usando a posição da malha
+* [Prateleira] Novo gerador de máscara usando a posição da malha
 * [Shelf] Ruídos básicos atualizados para suportar o expansão não quadrada
 * [Prateleira] Adicionado novo modelo e predefinição de exportação para o Lens Studio (aplicativo Snap)
-* [Prateleira] Materiais inteligentes e Máscaras inteligentes atualizados para usar a versão mais recente do Editor de máscaras (microdetalhes)
+* [Prateleira] Materiais inteligentes e Máscaras inteligentes atualizados para usar a versão mais recente do Editor de máscara (microdetalhes)
 * [Shelf] Novo projeto de amostra “TilingMaterial” para criar materiais de revestimento perfeitos
 * [Prateleira] Novas predefinições de pincel (Caligrafia, Molhado, Hachura e assim por diante)
 * [Controles deslizantes] Novos controles deslizantes e estilo e comportamento de barras de tons de cinza/cores
-* [Padeiros] Permitir o uso de uma caixa delimitadora de cena inteira para calcular o mapa de posição
-* [Shader] Remove o parâmetro de força de height dos parâmetros de sombreador padrão
+* [Baker] Permitir o uso de uma caixa delimitadora de cena inteira para calcular o mapa de posição
+* [Sombreador] Remove o parâmetro de força do height dos parâmetros de sombreador padrão
 * [Engine] Mecanismo de Substance atualizado
 * [Engine] Nenhuma ou menos descontinuidades em blocos UV (novo preenchimento de costura)
 * [Plug-ins] Importar materiais baixados do Substance Source mais rapidamente
@@ -310,7 +302,7 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 * [Novo projeto] Novo projeto - melhoria no tempo de atualização da malha
 * [Salvar] Salvando a melhoria no tempo do projeto
 * [Log] Tipo de licença relatado no log
-* [TextureSet] Renomeie o botão “Bake Textures” como “Bake Mesh Maps”
+* [TextureSet] Renomeie o botão “Fazer bake Texturas” como “Fazer bake mapas de malha”
 * Renomear “Mapas adicionais” como “Mapas de malha”
 
 **Corrigido:**
@@ -319,19 +311,19 @@ Um novo curso de tutorial foi adicionado ao Substance Academy para cobrir nossa 
 * [Propriedades de ferramentas] Canal desativado ao arrastar e soltar uma imagem no slot de material
 * [Propriedades das ferramentas] A visualização do pincel é interrompida com as ferramentas de borrar e clonar
 * [Conjunto de texturas] A ordem dos canais está incorreta ao usar modelos
-* [Prateleira] Ícone ausente para o gerador de conversão em tons de cinza
+* [Prateleira] Ícone ausente para o gerador de Conversão em escala cinza
 * [Prateleira] O Número de Círculo do Sinal alfa está quebrado (fonte ausente)
 * Detecção incorreta de GPUs integradas na inicialização
 * [Falha] Arrastar e soltar um recurso importado nomeado com um caractere #
 * [Engine] Problema de detecção de Vram na GPU integrada
 * [Engine] Corrigidas várias falhas no Substance Engine Linker
 * [Engine] Artefatos quadrados ao alterar a resolução
-* [Post Effects] O redimensionamento da interface fica lento quando os pós-efeitos estão ativados
-* [Padeiros] A unidade de cena não é respeitada corretamente para valores de distância de raio
-* [Bakers] A distância do Ocluder da malha é fixada em 1, independentemente do valor de entrada
-* [Padeiros] Corresponder pelo nome ignora algumas malhas com nomes específicos
-* [Padeiros] A cor da configuração de malha Poligrupo e ID de submalha sempre retorna uma imagem preta
-* [Bakers] A cozedura de ID falha com malhas binárias FBX do Blender
+* [Pós-efeitos] O redimensionamento da interface fica lento quando os pós-efeitos estão ativados
+* [Baker] A unidade de cena não é respeitada corretamente para valores de distância de raio
+* [Baker] O AO da distância do oclusor de malha é fixado em 1, independentemente do valor de entrada
+* [Baker] Corresponder pelo nome ignora algumas malhas com nomes específicos
+* [Baker] A cor da configuração de Polygroup de malha e ID de submalha sempre retorna uma imagem preta
+* [Baker] O Fça bake de ID falha com malhas FBX binárias do Blender
 * [Sombreador] Ruído no Visualização 2D com brilho dota-2 e não pbr-spec
 * [Linux] Somente um thread de CPU é usado ao fazer bake
 * [MacOS] Falha com o cursor do pincel se movendo sobre a janela de visualização

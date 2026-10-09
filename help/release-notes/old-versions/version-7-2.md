@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-7-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 7.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 7.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 1%
-
 ---
-
 
 # Versão 7.2
 
-O **Substance 3D Painter 7.2** traz novos recursos de renderização com o fluxo de trabalho de Material Padrão da Adobe, novas maneiras de compartilhar conteúdo em [aplicativos da Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) e uma janela de Ativos revisada.
+O **Substance 3D Painter 7.2** traz novos recursos de renderização com o fluxo de trabalho do Adobe Standard Material, novas maneiras de compartilhar conteúdo nos [aplicativos da Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) e uma janela de Ativos revisada.
 
 Data de lançamento: *23 de junho de 2021*
 
@@ -135,10 +127,10 @@ Enviar recursos e ativos entre aplicativos da Substance 3D agora é muito mais f
 Um novo conteúdo foi adicionado nesta versão:
 
 * **Novos modelos de projeto para Adobe Stand Material (ASM)**\
-  Para facilitar o uso do novo sombreador do ASM, novos modelos de projeto foram criados para acelerar a criação do projeto:
+  Para facilitar o uso do novo sombreador do ASM, foram criados novos modelos de projeto para acelerar a criação do projeto:
   * ASM - ASPEREZA METÁLICA PBR
-  * ASM - Ângulo de Anisotropia de aspereza metálica de PBR
-  * ASM - Revestimento de aspereza metálica PBR
+  * ASM - ÂNGULO DE ANISOTROPIA DE ASPEREZA METÁLICA PBR
+  * ASM - PBR Aspereza metálica Coated
   * ASM - PBR ASPEREZA METÁLICA SSS
   * ASM - PBR Aspereza metálica Sheen
 
@@ -159,8 +151,8 @@ Um novo conteúdo foi adicionado nesta versão:
 
 Uma nova atualização do desempacotamento automático de UV foi adicionada, trazendo o suporte de Blocos UV e controle adicional sobre a geração de UV:
 
-* **Quantidade de Blocos UV**\
-  Ao gerar UVs, agora é possível especificar o número máximo de Blocos UV desejados para serem criados. Isso permite usar a geração UV com o fluxo de trabalho UV Tile também.
+* **Valor do Bloco UV**\
+  Ao gerar UVs, agora é possível especificar o número máximo de Blocos UV desejados para serem criados. Isso permite usar a geração UV com o fluxo de trabalho do Bloco UV também.
 
 * **Orientação da Ilha UV**\
   Um novo parâmetro foi adicionado para adicionar uma restrição na orientação da Ilha UV quando empacotado. Isso permite fazer Ilhas UV um pouco mais alinhadas, permitindo textura alguns objetos mais facilmente (por exemplo: uma porta de madeira para alinhar o padrão de madeira).
@@ -184,7 +176,7 @@ Esta nova versão adiciona várias melhorias na qualidade de vida:
   Agora é imediato pintar em uma camada na parte superior da pilha de camadas logo após abrir um projeto. O cálculo do cache do mecanismo foi adiado para depois, tornando a reedição de projetos antigos um pouco mais rápida neste contexto.
 
 * **Método normal nítido**\
-  Há um novo parâmetro de método Height para Normal nas configurações do Conjunto de texturas que permite controlar como o canal de Height é convertido em um mapa normal. Esse novo parâmetro é útil para melhorar a qualidade das superfícies com muitos detalhes variáveis, como materiais de tecido.
+  Há um novo parâmetro de método Height para Normal nas configurações do Conjunto de texturas que permite controlar como o canal do Height é convertido em um mapa normal. Esse novo parâmetro é útil para melhorar a qualidade das superfícies com muitos detalhes variáveis, como materiais de tecido.
 
   ![](../../assets/normal-mode.jpg){width="450px"}
 

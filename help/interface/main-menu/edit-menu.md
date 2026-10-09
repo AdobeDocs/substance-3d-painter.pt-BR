@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/main-menu/edit-menu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar o menu Editar no Substance 3D Painter para acessar as operações de desfazer, refazer e edição.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Main menu > Edit menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Menu Editar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
-
 ---
-
 
 # Menu Editar
 
@@ -29,4 +21,4 @@ O menu Editar permite acessar rapidamente as ações de desfazer/refazer, mas ta
 | **Refazer** | Siga um passo à frente na pilha [Histórico](../history.md). |
 | **Configuração do projeto** | Abra a janela [configurações do projeto](../project-configuration.md) do projeto atual. |
 | **Configurações** | Abra a janela geral [configurações do aplicativo](../settings/settings.md). |
-| **Criar mapas de malha** | Abra a janela [Fazendo bake](../../baking/baking.md). |
+| **Fazer bake mapas de malha** | Abra a janela [Fazendo bake](../../baking/baking.md). |

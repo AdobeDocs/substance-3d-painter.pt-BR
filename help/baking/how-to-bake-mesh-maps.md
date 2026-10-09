@@ -1,45 +1,37 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como fazer bake mapas de malha no Substance 3D Painter para gerar texturas de oclusão de ambiente, curvatura e outras baseadas em geometria.
-helpx_creative_field: ""
-helpx_description: Painter > Baking > How to bake mesh maps
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Como fazer bake mapas de malha
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
-
 ---
-
 
 # Como fazer bake mapas de malha
 
-O modo de fça bake dedicado do Substance 3D Painter facilita o fça bake de mapas de malha que podem potencializar materiais inteligentes incríveis e outras ferramentas. Continue lendo ou assista ao vídeo abaixo para saber como começar a assar com o Substance 3D Painter.
+O modo de fça bake dedicado do Substance 3D Painter facilita o fça bake de mapas de malha que podem potencializar materiais inteligentes incríveis e outras ferramentas. Continue lendo ou assista ao vídeo abaixo para saber como começar a fazer bake com o Substance 3D Painter.
 
 ## 1 - Alternar para o modo de fça bake
 
-Por padrão, o Painter é iniciado no modo de Pintura ao criar ou abrir um projeto. Para fazer bake mapas de malha, é necessário alternar para o modo de Fça bake. Use uma das seguintes opções para alternar para o modo de cozimento:
+Por padrão, o Painter é iniciado no modo de Pintura ao criar ou abrir um projeto. Para fazer bake mapas de malha, é necessário alternar para o modo de Fça bake. Use uma das seguintes opções para alternar para o modo de Fça bake:
 
-* Use o <b>botão Modo de cozimento</b> (<b>ícone do Croissant</b>) na barra de ferramentas contextual no canto superior direito da Janela de visualização
+* Use o <b>botão do modo de Fça bake</b> (<b>ícone do Croissant</b>) na barra de ferramentas contextual no canto superior direito do Visor
 
   ![](../assets/croissant-icon.png)
 
   >[!NOTE]
   >
-  > Às vezes, o <b>botão Modo de cozimento</b> pode ficar oculto atrás de outros painéis, dependendo do layout do seu espaço de trabalho.
+  > Às vezes, o <b>botão do modo de Fça bake</b> pode ficar oculto atrás de outros painéis, dependendo do layout do seu espaço de trabalho.
 * Use o menu Modo e selecione <b>Fazer bake mapas de malha.\
   </b>
 * Use o atalho de teclado do <b>F8</b>.
 
-### 2 - Selecionar Conjuntos de Textura e Blocos UV
+### 2 - Selecionar Blocos UV e conjuntos de texturas
 
-Dentro da <b>lista do Conjunto de Texturas</b>, use a caixa de seleção ao lado de cada conjunto de Textura (e o número de Blocos UV, se houver) para selecionar quais partes assar:
+Dentro da <b>lista de Conjuntos de Texturas</b>, use a caixa de seleção ao lado de cada conjunto de Texturas (e o número de Blocos UV, se houver) para selecionar quais partes fazer bake:
 
 ![](../assets/texture-set-list-baking-selection.png)
 
@@ -75,13 +67,13 @@ Há diferentes opções disponíveis para ajustar a gaiola com base no método d
 
 ### 6 - Iniciar o processo de fça bake
 
-Na parte inferior da viewport, clique no botão Bake para iniciar o processo de cozimento.
+Na parte inferior da viewport, clique no botão Fazer bake para iniciar o processo de fça bake.
 
 ![](../assets/bake-button.png)
 
 ### 7 - Inspect o registro de Faz bake para erros
 
-Assim que o processo de cozimento terminar, você pode dar uma olhada na janela Registro de cozedura para verificar se há algum erro relatado.
+Uma vez que o processo de fça bake tenha sido concluído, você pode dar uma olhada na janela Log de Fça bake para verificar se há erros relatados.
 
 Se houver alguma, use a seta ao lado da mensagem de erro para exibir as configurações relevantes do baker:
 

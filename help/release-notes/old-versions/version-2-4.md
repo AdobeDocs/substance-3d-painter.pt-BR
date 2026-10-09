@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 2.4 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2.4
 
@@ -91,7 +83,7 @@ Os novos recursos e uso de prateleiras são abordados em nosso tutorial mais rec
 * Falha ao atribuir um recurso errado com a miniprateleira
 * [Prateleira] Limpar e salvar remove as marcas e metadados dos recursos no projeto
 * [Prateleira] importar uma predefinição exibirá seus recursos na prateleira
-* [Exportar] O mapa normal gerado a partir do canal de height tem uma intensidade baixa
+* [Exportar] O Mapa normal gerado a partir do canal de height tem uma intensidade baixa
 * [Exportar] O normal da malha nem sempre está presente no mapa normal final
 * [Exportar] Às vezes, a dilatação com transparência pode resultar sem transparência
 * [Scripting] “alg.plugin\_root\_diretory” pode retornar um caminho de rede truncado

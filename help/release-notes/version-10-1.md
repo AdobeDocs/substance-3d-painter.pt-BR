@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-10-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 10.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 10.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 
 # Versão 10.1
 
@@ -68,7 +60,7 @@ Nesta versão, vários novos filtros foram adicionados para expandir significati
   O filtro de etapa suave é outra maneira de nivelar ou contrastar para refinar informações em tons de cinza. Esse filtro também aplica uma curva exponencial ao resultado, possibilitando a conversão de gradientes lineares em curvas suaves.
 
   ![](../assets/v101_filter_smoothstep.jpg)
-* <b>Filtros Espelho e Transformação Aprimorados</b>\
+* <b>Filtros Transformo e Espelho aprimorados</b>\
   O filtro transformo foi atualizado para oferecer suporte a dimensionamento não uniforme, giro horizontal ou vertical e parâmetros mais simples de usar. O filtro espelhado também foi atualizado com parâmetros mais simples.
 
   ![](../assets/v101_filter_transform.jpg)
@@ -82,15 +74,15 @@ Nesta versão, vários novos filtros foram adicionados para expandir significati
   * O filtro de ajuste de height estava afetando o alfa de uma camada, dificultando o uso em alguns casos.
   * O filtro de desfoque não estava usando um espaço de cores linear no modo de gerenciamento de cores herdado, criando cores incorretas ao mesclar/misturar sua entrada.
 
-### Atualização do suporte da plataforma USD e VFX
+### Atualização de suporte da plataforma USD e VFX
 
 ![](../assets/v101_banner_usd.jpg)
 
 Nesta versão do Painter, muitos componentes de terceiros foram aprimorados e atualizados:
 
-* <b>Exportar texturas com material padrão da Adobe em dólares americanos\
-  </b>Ao exportar texturas do Painter para um arquivo do USD, agora você receberá as propriedades do material padrão da Adobe com elas. Isso torna esses arquivos USD prontos para serem usados em aplicativos que também oferecem suporte a essas propriedades.
-* <b>Importar texturas de arquivos do USD</b>\
+* <b>Exportar texturas com Adobe Standard Material no USD\
+  </b>Ao exportar textura do Painter para um arquivo USD, agora você obtém as propriedades Adobe Standard Material com eles. Isso deixa esses arquivos USD prontos para serem usados em aplicativos que também suportam essas propriedades.
+* <b>Importar texturas de arquivos USD</b>\
   Agora, importar um arquivo USD também importará sua textura no projeto que ele cria, facilitando o deslocamento entre aplicativos. Se o arquivo USD usar o Adobe Standard Material, isso também definirá as configurações de sombreador, fazendo com que o resultado no visor corresponda ao outro aplicativo de origem.
 * <b>Alterações De Gltf\
   </b>Após a atualização do USD, foram necessárias algumas mudanças de comportamento para o formato GLTF para garantir a paridade. Ao importar um arquivo gltf, o Painter agora presumirá que o mapa normal estará no formato OpenGL.\
@@ -148,9 +140,9 @@ Resumo: <b>Versão principal, conteúdo novo: máscara de área de preenchimento
 * [Conteúdo] Adicionar novo filtro de máscara/cor da área de preenchimento
 * [Conteúdo] Adicionar novo filtro de decalque de bordado
 * [Conteúdo] Adicione 6 novos filtros de Substance genéricos (FXAA, pixelate, highpass, posterize, smoothstep, threshold)
-* [USD] Exportar camada USD com um material ASM definido
+* [USD] Exportar camada de USD com um material ASM definido
 * [USD] Importar USD com propriedades de material e sombreador
-* [Desempenho] Ativar miniaturas otimizadas de pilha de camadas por padrão
+* [Desempenho] Ativar miniaturas de pilha de camadas otimizadas por padrão
 * [Desempenho] Reduzir o tempo de abertura do arquivo de projeto e o consumo de memória (decodificação de dados)
 * Compatível com a plataforma VFX 2024
 * [VFX Platform 2024] Atualização para Python 3.11
@@ -186,6 +178,6 @@ Resumo: <b>Versão principal, conteúdo novo: máscara de área de preenchimento
 * [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
 * [MacOS Intel] Falha ao importar algumas predefinições
 * [Falha] Realocar recurso e salvar projeto
-* [Engine] Pintar com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
+* [Engine] A pintura com a ferramenta Clonar nas cores normais de mudança de canal é incorreta
 * [Python] O widget fantasma aparece excluído pelo script ainda em funcionamento
 * [RedHat] Problemas no seletor de cores

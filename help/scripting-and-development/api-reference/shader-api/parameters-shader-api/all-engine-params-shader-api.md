@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acesse a referência Todos os Parâmetros do Mecanismo para que o Substance 3D Painter controle os parâmetros de sombreador no nível do mecanismo.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Todos os Parâmetros de Mecanismo - API de sombreamento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 
 # Todos os Parâmetros de Mecanismo - API de sombreamento
 
@@ -54,7 +46,7 @@ uniform SamplerSparse uniform_tex; // if TEXTURE_TAG_1 exists then TEXTURE_TAG_1
 ```
 
 
-Em que *TEXTURE\_TAG* é uma das marcas descritas abaixo.
+Em que *TEXTURA\_TAG* é uma das marcas descritas abaixo.
 
 ### Tags de canais do documento
 
@@ -62,7 +54,7 @@ Todas essas texturas são **pré-multiplicadas** e **dilatadas** para evitar pro
 
 **Canais do conjunto de texturas**
 
-*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_deslocamento* *channel\_emissive* *channel\_glossiness* *channel\_height* *canal\_i* *canal\_metálico* *canal\_normal* *canal\_opacidade* *canal\_reflexão* *canal\_aspereza* *canal\_dispersão* *canal\_specular* *canal\_espéarlevel* *canal\_transmissivo*
+*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_deslocamento* *channel\_emissivo* *channel\_glossiness* *channel\_height* *canal\_i* *canal\_metálico* *canal\_normal* *canal\_opacidade* *canal\_reflexão* *canal\_aspereza* *canal\_dispersão* *canal\_specular* *canal\_espéarlevel* *canal\_transmissivo*
 
 **Canais de usuário**
 
@@ -76,7 +68,7 @@ Todas essas texturas são **pré-multiplicadas** e **dilatadas** para evitar pro
 *textura\_normal* : mapa de espaço tangente normal\
 *textura\_normal\_ws* : mapa normal do espaço global\
 *textura\_posição* : mapa da posição do espaço global\
-*textura\_thickness* : mapa de Thickness
+*textura\_thickness* : mapa de espessura
 
 ## Parâmetros de textura adicionais
 
@@ -110,7 +102,7 @@ uniform vec4 uniform_tex_size; // if TEX_TAG_1 exists then TEX_TAG_1_size else T
 ```
 
 
-Em que *TEXTURE\_TAG* é uma das marcas descritas abaixo.
+Em que *TEXTURA\_TAG* é uma das marcas descritas abaixo.
 
 *textura\_blue\_noise* : Uma textura de ruído azul\
 *textura\_ambiente* : mapa de ambiente, **mip-mapped**, use [lib-env.glsl](../libraries-shader-api/lib-env-shader-api.md) para usar este

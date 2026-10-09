@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/baking/baking-visualization-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como definir as configurações de visualização de fça bake no Substance 3D Painter para visualizar e depurar os resultados da faz bake do mapa de malha.
-helpx_creative_field: ""
-helpx_description: Painter > Baking > Baking visualization settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Configurações de visualização de preparo
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: Fazendo bake configurações de visualização
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 6%
-
 ---
 
-
-# Configurações de visualização de preparo
+# Fazendo bake configurações de visualização
 
 ![](../assets/viewport-vizu.png)
 
@@ -61,7 +53,7 @@ A visualização de Fça bake é um painel dentro da janela de visualização do
 <th scope="col">Descrição</th>
 </tr><tr><td><b>Malha do projeto</b></td>
 <td> </td>
-<td><p>Se ativadas, as malhas de baixo polígono nas quais as malhas de alto polígono estão feitas bake serão visíveis no visor. Se a opção <b>Ocultar malhas de cozimento</b> estiver habilitada, essa configuração também será habilitada automaticamente para evitar uma viewport vazia.</p>
+<td><p>Se ativadas, as malhas de baixo polígono nas quais as malhas de alto polígono estão feitas bake serão visíveis no visor. Se a opção <b>Ocultar malhas feitas bake</b> estiver habilitada, essa configuração também será habilitada automaticamente para evitar uma viewport vazia.</p>
 <p>Use a opção de cor ao lado dessa configuração para ajustar a cor da malha do projeto.</p>
 </td>
 </tr><tr><td rowspan="7"><b>Material neutro</b></td>
@@ -78,5 +70,5 @@ A visualização de Fça bake é um painel dentro da janela de visualização do
 </tr><tr><td><b>Quantidade difusa normal dobrada</b></td>
 <td>Controla o quanto as Dobras normais afetam o sombreamento difuso.</td>
 </tr><tr><td><b>Quantidade especular normal dobrada</b></td>
-<td>Controla o quanto os Normais Curvados afetam o sombreamento de specular.</td>
+<td>Controla o quanto as Dobras normais afetam o sombreamento do specular.</td>
 </tr></tbody></table>

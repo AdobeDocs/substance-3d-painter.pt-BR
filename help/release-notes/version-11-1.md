@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-11-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 11.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter > Release notes > Version 11.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 11.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2273'
 ht-degree: 0%
-
 ---
-
 
 # Versão 11.1
 
-O <b>Substance 3D Painter 11.1 </b>traz a nova ferramenta de Caminho da faixa com conteúdo dedicado, simetria em camadas e efeitos de preenchimento, tamanho físico para o deslocamento e suporte da API gráfica Vulkan.
+O <b>Substance 3D Painter 11.1 </b>traz a nova ferramenta de Caminho da faixa com conteúdo dedicado, simetria em camadas e efeitos de preenchimento, tamanho físico para deslocamento e suporte da API gráfica Vulkan.
 
 Data de lançamento: <b>18 de novembro de 2025</b>
 
@@ -80,7 +72,7 @@ Resumindo, a fita é uma ferramenta mais limpa para desenhar com caminhos mais p
   Duas novas predefinições de ferramenta chamadas <b>Escala de cinza da faixa personalizada</b> e <b>Material da faixa personalizada</b> também são fornecidas para tornar essa funcionalidade facilmente acessível.
 
   ![](../assets/ribbon_custom_preset.gif)
-* <b>Compatível com simetria</b>\
+* <b>Compatível com o simetria</b>\
   Como outros tipos de ferramentas, a Caminho da faixa também é compatível com o recurso simetria.
 
   ![](../assets/ribbon_gradient_symmetry.jpg)
@@ -133,7 +125,7 @@ Esta versão inclui 75 novas predefinições de ferramenta que aproveitam os nov
   * <b>Desgaste</b>: 3 tipos de rachaduras para simular danos em vários tipos de superfícies.
   * <b>Superfície dura</b>: padrões de aderência, detalhamento de painéis e persianas, fitas e soldagem para usar ou objetos mecânicos.
   * <b>Orgânico</b>: faixas, limpas e sujas, para envolver a pele e outras superfícies.
-  * <b>Pintura</b>: gradientes baseados em pincel e predefinições de guaches.
+  * <b>Tinta</b>: gradientes baseados em pincel e predefinições de guaches.
   * <b>Texto</b>: predefinições rápidas para configurar o texto ao longo de um caminho com a Faixa de Opções com diferentes modos de alinhamento e amplificação.
 * <b>Nova palavra-chave de ferramenta para pesquisa na janela Ativos</b>\
   Agora é possível digitar “faixa de opções”, “tinta”, “caminho” ou até mesmo “borrar” na janela <b>Ativos</b> e isso pode ajudar a localizar predefinições que correspondam à ferramenta correspondente.
@@ -190,8 +182,8 @@ Na continuação do trabalho iniciado em nossa versão anterior, que mudou de Op
 
 * <b>A API de gráficos Vulkan agora é usada em vez do OpenGL no Windows e no Linux</b>\
   O Painter agora usa a API de gráficos Vulkan para renderização na viewport e nas texturas de computação. Esse switch deve melhorar o desempenho geral do aplicativo. Facilitará também a integração de novas funcionalidades no futuro.
-* <b>Rastreamento de raios do GPU para assar via Vulkan</b>\
-  O DirectX raytracing (DRX) e o Optix foram substituídos em favor do raytracing através da API gráfica Vulkan em nossos padeiros. Essa alteração significa que o Rastreamento de raios baseado em GPU agora está disponível nas GPUs AMD, bem como no sistema operacional Linux.\
+* <b>Rastreamento de raios do GPU para fazer bake via Vulkan</b>\
+  O Rastreamento de raios de DirectX (DRX) e o Optix foram substituídos em favor do Rastreamento de raios por meio da API de gráficos Vulkan em nossos baker. Essa alteração significa que o Rastreamento de raios baseado em GPU agora está disponível nas GPUs AMD, bem como no sistema operacional Linux.\
   Alternar para o Vulkan também melhora os tempos de renderização, especialmente em fazes bake de alta resolução.
 
 ### Diversos
@@ -250,13 +242,13 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém a nova ferra
 * [Desempenho] Melhorar a renderização de pequenos traçados de pincel em triângulos grandes
 * [Desempenho] Melhorar o tempo de compilação do Sombreador
 * [Performance] Suporte completo à Vulkan para Windows e Linux
-* [Desempenho] Padeiros atualizados com renderização mais rápida de GPU e suporte a rastreamento de raios AMD
+* [Desempenho] baker atualizados com renderização de GPU mais rápida e suporte ao Rastreamento de raios AMD
 * [UI] Reorganizar propriedades de ferramentas em grupos e recolher algumas por padrão
 * [Engine] Atualização do Substance Engine para a versão 9.2.5
 * [Substance] Expor a substituição de resolução para recursos Substance em Ferramentas e Preenchimentos
 * [Exportar] Atualizar predefinição de exportação de Mapas de malha para exportar texturas em tons de cinza
 * Python
-* [Panificação]&#x200B;[Python] Indicar em changelog mudanças de quebra após atualização de padeiros
+* [Fazendo bake]&#x200B;[Python] Indicar em changelog mudanças de quebra após atualização de baker
 * [Python] Expor as configurações de simetria de preenchimento no Python
 * Conteúdo e novo conteúdo
 * [Conteúdo] Adicione 75 novas predefinições de ferramenta para a ferramenta Faixa de opções
@@ -269,7 +261,7 @@ Resumo: <b>Esta atualização é uma versão principal. Ela contém a nova ferra
 * [UI] A interface rola para cima nas propriedades da ferramenta ao criar um caminho
 * [UI] O cursor do mouse desaparece quando a visualização do visor do caminho está oculta
 * [Caminho] Copiar/colar diferentes propriedades da ferramenta no painel Caminho leva a propriedades instáveis
-* [Ferramenta] As predefinições da ferramenta Borrar nem sempre atualizam a seleção de canal
+* [Ferramenta] As predefinições da ferramenta Borracha e borrar nem sempre atualizam a seleção de canal
 * [Ferramenta] O valor pintado é cinza, mas a interface do usuário mostra branco após carregar a predefinição de ferramenta colorida na máscara
 * [Ferramenta] A predefinição criada a partir da máscara mantém os valores de canais carregados de outra predefinição
 * [Substance] A substituição do espaço da cor normal definida no gráfico não é levada em consideração

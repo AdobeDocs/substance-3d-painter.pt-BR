@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/uv-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use Projeção UV no Substance 3D Painter para projetar texturas com base em coordenadas UV para posicionamento preciso da textura.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > UV projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Projeção UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
-
 ---
-
 
 # Projeção UV
 
@@ -28,7 +20,7 @@ A Projeção UV do preenchimento é uma Projeção 2D que funciona apenas no esp
 
 | *Configuração* | *Descrição* |
 | --- | --- |
-| **Filtragem** | Controla como a textura ou o material será filtrado. Essas configurações podem afetar a aparência da textura quando repetidas várias vezes. Com valores de escala altos, o uso de um método de filtragem diferente do padrão pode produzir resultados com melhor aparência. Configurações disponíveis no momento:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>HQ </strong> bilinear `\|`: (padrão) Filtragem bilinear avançada que tenta melhorar a qualidade da textura quando os valores de divisão em blocos gráficos são altos.</li><li data-preserve-html="true"><strong>Bilinear `\|` Sharp </strong>: filtragem bilinear simples que suaviza ligeiramente a textura, mas tenta preservar os detalhes.</li><li data-preserve-html="true"><strong>Mais próximo </strong>: sem filtragem, útil se a filtragem Bilinear fornecer um resultado desfocado e quebrar detalhes finos. É possível introduzir suavização na textura.</li></ul> |
+| **Filtragem** | Controla como a textura ou o material será filtrado. Essas configurações podem afetar a aparência da textura quando repetidas várias vezes. Com valores de escala altos, o uso de um método de filtragem diferente do padrão pode produzir resultados com melhor aparência. Configurações disponíveis no momento:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>HQ </strong> bilinear `\|`: (padrão) Filtragem bilinear avançada que tenta melhorar a qualidade da textura quando os valores de divisão em blocos gráficos são altos.</li><li data-preserve-html="true"><strong>Bilinear `\|` Sharp </strong>: filtragem bilinear simples que suaviza ligeiramente a textura, mas tenta preservar os detalhes.</li><li data-preserve-html="true"><strong>Mais próximo </strong>: sem filtragem, útil se a filtragem Bilinear fornecer um resultado desfocado e quebrar detalhes finos. É possível introduzir suavização de serrilhado na textura.</li></ul> |
 | **Envoltório UV** | Controla como o Material/Imagem projetado deve se repetir dentro da forma de projeção. Os valores possíveis são:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nenhum</strong> : não há repetição da projeção.</li><li data-preserve-html="true"><strong>Repetir horizontalmente</strong> : repetir apenas horizontalmente.</li><li data-preserve-html="true"><strong>Repetir verticalmente</strong> : repetir apenas verticalmente.</li><li data-preserve-html="true"><strong>Repetir</strong> (padrão): repita horizontal e verticalmente.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-repeat.jpg" width="500px"/></div> |
 
 ### Transformação UV

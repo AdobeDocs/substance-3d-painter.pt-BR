@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/export/export-window/output-templates.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar modelos de saída na janela de exportação do Substance 3D Painter para configurar formatos e nomes de exportação de textura.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Modelos de saída
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 2%
-
 ---
-
 
 # Modelos de saída
 
@@ -111,12 +103,12 @@ Os mapas de malha são as texturas feitas bake:
 | **Normal** | mapa normal feito bake. |
 | **Espaço mundial normal** | Espaço mundial feito bake normal. |
 | **ID** | ID feita bake. |
-| **oclusão de ambiente** | oclusão de ambiente feita bake |
+| **Oclusão de ambiente** | oclusão de ambiente feita bake |
 | **Curvatura** | Curvatura feita bake. |
 | **Posição** | Posição feita bake. |
 | **Thickness** | thickness feito bake. |
 | **Height** | height feito bake. |
-| **Normais tortos** | Cozido normal curvado. |
+| **Dobras normais** | dobras normais feitas bake. |
 
 ### Mapas convertidos
 
@@ -126,11 +118,11 @@ Mapas convertidos são mapas gerados pelo aplicativo de outra origem:
 | --- | --- |
 | **OpenGL normal** | Mapa normal combinado no formato OpenGL do canal normal feito bake e do canal normal do conjunto de texturas. |
 | **DirectX normal** | Mapa normal combinado no formato de DirectX do canal normal feito bake e do canal normal do Conjunto de texturas. |
-| **AO misto** | Oclusão ambiente combinada da oclusão ambiente assada e do canal de oclusão ambiente do conjunto de texturas. |
-| **Difusa** | textura de Difusão gerada a partir do canal **Cor de base** e **Metálico** (as áreas metálicas são substituídas por uma cor preta). |
-| **Specular** | Textura de specular gerada do canal **Cor Base** e **Metálico**. |
+| **AO misto** | Oclusão de ambiente combinada da oclusão de ambiente feita bake e do canal de oclusão de ambiente do Conjunto de Texturas. |
+| **Difusões** | textura de Difusão gerada a partir do canal **Cor de base** e **Metálico** (as áreas metálicas são substituídas por uma cor preta). |
+| **Specular** | textura de specular gerada do canal **Cor de base** e do canal **Metálico**. |
 | **Textura reluzente** | Textura de textura reluzente gerada do inverso do canal de aspereza. |
-| **Difusão Unity4** | Descontinuado. Textura difusa gerada do canal **Cor base** para corresponder aos sombreadores da Unidade 4. |
+| **Difusão Unity4** | Descontinuado. textura de Difusão gerada do canal **Cor de base** para corresponder aos sombreadores do Unity 4. |
 | **Brilho da Unidade4** | Descontinuado. Textura de textura reluzente gerada do canal **Aspereza** e **Metálico** para corresponder aos sombreadores do Unity 4. |
 | **Reflexo** | Texturas em que branco indica um material dielétrico e outras cores como materiais metálicos. |
 | **1/i** | Textura contendo 1 dividido pelo valor **IOR**. **IOR** é gerado a partir do mapa metálico: 1.4 para dielétricos, 100 para metais (cor preta). |

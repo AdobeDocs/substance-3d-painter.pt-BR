@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2017.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2017.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2017.1
 
@@ -73,7 +65,7 @@ O novo conteúdo é abordado em nosso tutorial em vídeo mais recente:
 * [Prateleira] 230 novos Alpha (mistura de padrões, pincéis e digitalizações de impressão digital)
 * [Prateleira] 50 Novos Procedurals (Padrões de tecido de roupas medievais e contemporâneas)
 * [Prateleira] 2 Novos mapas ambientais (Mondarrain e Villa Nova Street)
-* [Prateleira] 9 Novos filtros (Edge Wear de detalhes MatFx, Suporte, HBAO, etc.)
+* [Prateleira] 9 Novos filtros (MatFx Detalhe Edge Wear, Restrinjo, HBAO, etc.)
 * [Prateleira] Mapa de ambiente de panorama padrão aprimorado
 * [Prateleira] Novas predefinições de exportação para Arnold 5
 * [Scripting] Permitir a importação de recursos para a Prateleira

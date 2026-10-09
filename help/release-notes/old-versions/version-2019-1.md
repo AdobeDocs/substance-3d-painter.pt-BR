@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2019.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2019.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2954'
 ht-degree: 1%
-
 ---
-
 
 # Versão 2019.1
 
@@ -240,7 +232,7 @@ Nesta versão, também adicionamos muito conteúdo novo: de predefinições a al
   * **Normas do Espaço Mundial** : Gerador de máscara que oferece controles sobre o mapa de Malha de Normas do Espaço Mundial. Com base no Editor de máscara.
   * **Posição** : Gerador de máscara que oferece controles sobre o mapa de Malha de Posição. Com base no Editor de máscara.
   * **Curvatura** : Gerador de máscara que oferece controles sobre o mapa de Malha de Curvatura. Com base no Editor de máscara.
-  * **Titcher automático** : gerador de máscara que cria pontos perto das bordas UV, da Curvatura de malha ou ao redor de uma entrada de máscara personalizada.
+  * **Titulador automático** : Gerador de máscara que cria pontos perto das bordas UV, da Curvatura de malha ou ao redor de uma entrada de máscara personalizada.
   * **Densidade de texel UV**: auxiliar que gera um gradiente colorido com base na Densidade de texel dos polígonos da malha.
   * **Cor Aleatória UV** : gera uma cor aleatória por Ilha UV (ou com base em uma entrada de gradiente personalizada).
 * **2 novos mapas de ambiente**
@@ -304,11 +296,11 @@ Resumo: **HotFix**
 
 * [Substance] Visível Se não for levado em consideração para Imagens de entrada
 * [SVT]&#x200B;[Mecanismo] Alterar a resolução do conjunto de texturas leva a uma falha em alguns casos
-* [Engine] Texturas pretas aleatórias aparecem em alguns casos
+* [Engine] texturas pretas aleatórias aparecem em alguns casos
 * [Pilha de camadas]&#x200B;[IU] Alternar uma máscara com SHIFT pode selecionar várias camadas ao mesmo tempo
-* [Pilha de camadas] A opacidade não tem efeito no efeito Pintura com o modo de mistura Passagem
-* [Pilha de camadas] A entrada do filtro Height para normal não é atualizada corretamente com o traçado do pincel de borracha
-* [LayersStack] Falha ao desfazer o soltar de uma máscara inteligente
+* [Pilha de camadas] A opacidade não tem efeito no efeito de Tinta com o modo de mistura Passagem
+* [Pilha de camadas] A entrada do filtro Height para normal não é atualizada corretamente com a pincelada de borracha
+* [LayersStack] Falha ao desfazer a queda de uma máscara inteligente
 * Wireframe piscando com sombras e suavização de borda temporal ativada
 * [Deslocamento] Atraso na AMD com algumas malhas pesadas
 * [Windows] Falha ao abrir alguns projetos por meio do explorador de arquivos
@@ -337,26 +329,26 @@ Resumo: **Traço dinâmico com novo conteúdo dedicado, Deslocamento e mosaico e
 * [Dynamic stroke]&#x200B;[Prateleira] Ajuda a encontrar um recurso de traçado dinâmico com novo ícone dedicado
 * Deslocamento e mosaico em viewport em tempo real
 * Deslocamento e mosaico em Irlanda
-* [Configurações do sombreador]&#x200B;[IU] Nova guia para controlar deslocamento e mosaico
-* [Pilha de camadas] Novo efeito CompareMask: gerar uma máscara comparando dois canais
+* [Configurações de Sombreador]&#x200B;[IU] Nova guia para controlar deslocamento e mosaico
+* [Pilha de camadas] Novo efeito Comparar máscara: gere uma máscara comparando dois canais
 * [Pilha de camadas]&#x200B;[IU] Nova entrada no menu do botão direito do mouse “Adicionar máscara com combinação de height” para inserir um efeito CompareMask
 * [Simetria] Novo modo de simetria: pintura radial
-* [Configurações de simetria] Expande as duas seções “Configurações” e “Exibição”
-* [Configurações de simetria]&#x200B;[IU] Visualização para pintura radial
+* [Configurações de Simetria] Expandir as duas seções “Configurações” e “Exibição”
+* [Configurações de Simetria]&#x200B;[IU] Visualização para pintura radial
 * Exponha dois novos modos de projeção: planar e esférico
 * [Proj] Novo modo de corte de forma para todas as projeções
-* [Proj] Modo planar com novo manipulador: ferramenta Superfície
+* [Proj] Modo Planar com a nova ferramenta manipulador: Superfície
 * [Proj]&#x200B;[Atalho] Atalho SHIFT+W para a ferramenta Superfície
-* [Proj] Máscara de projeção planar com seleção de profundidade e abate de backface
+* [Proj] Máscara de projeção Planar com seleção de profundidade e abate de backface
 * [Manipulador] Melhoria do manipulador de rotação nos três eixos para triplanar
 * [Tool]&#x200B;[UX] Clicar com a tecla Alt pressionada em um canal focaliza esse canal (ativa ou desativa todos os outros)
 * [Engine] Atualização para a versão mais recente do Substance Engine
 * [Conjunto de textura] Seleção múltipla e resolução de alteração
 * [Conjunto de textura] Ativação e desativação rápidas dos conjuntos de textura
 * [Conjunto de texturas] Combina solo e todas as opções em um novo menu
-* [Conjunto de texturas]&#x200B;[Pilha de camadas] Novo ícone para ativação e desativação
+* [Conjunto de textura]&#x200B;[Pilha de camadas] Novo ícone para ativação e desativação
 * [Pilha de camadas]&#x200B;[UX] Inserir efeitos acima dos já selecionados
-* [Pilha de camadas]&#x200B;[IU] Retrabalhar o estilo de seleção da exibição da pilha de camadas
+* [Pilha de camadas]&#x200B;[UI] Reprocessar estilo de seleção de exibição de pilha de camadas
 * [Pilha de camadas] O modo de mesclagem para camadas instanciadas agora está no modo de Passagem por padrão
 * [Exportar] Opção para ativar e desativar o pontilhamento
 * [Plug-in] Suporte ao modificador de precisão para controles deslizantes (SHIFT)
@@ -365,8 +357,8 @@ Resumo: **Traço dinâmico com novo conteúdo dedicado, Deslocamento e mosaico e
 * [Script] Permitir exclusão de arquivos
 * [Scripts] Ler todas as informações da pilha, inclusive os recursos usados
 * [Conteúdo]&#x200B;[Traçado dinâmico] Novas ferramentas e predefinições de pincel
-* [Conteúdo]&#x200B;[Traço dinâmico] Dois novos gradientes de procedimento: Matiz de gradiente e Construtor de gradiente
-* [Content] 11 novos filtros: Pintura de descascamento MatFx, gotas de água MatFx e muito mais
+* [Conteúdo]&#x200B;[Traçado dinâmico] Dois novos gradientes processuais: Matiz de gradiente e Construtor de gradiente
+* [Content] 11 novos filtros: Tinta de descascamento MatFx, gotas de água MatFx e muito mais
 * [Content] 7 novos geradores: Auto Stitcher, Cor aleatória UV, Densidade de texel UV e muito mais
 * [Content] 93 novos alfas: novos textos, setas e várias outras formas
 * [Conteúdo] 2 novos procedimentos: Matiz de gradiente, Construtor de gradiente e muito mais
@@ -377,7 +369,7 @@ Resumo: **Traço dinâmico com novo conteúdo dedicado, Deslocamento e mosaico e
 
 **Corrigido:**
 
-* [Pilha de camadas] A pilha de camadas continua arrastando para sempre
+* [Pilha de camadas] A Pilha de camadas arrasta para sempre
 * [Mac] “Mostrar no Finder” pode levar ao congelamento
 * [Script] As configurações salvas por meio da interface do usuário personalizada são perdidas se o arquivo de sombreador for movido
 * [Scripting] O número de versão da API está incorreto e não está atualizado

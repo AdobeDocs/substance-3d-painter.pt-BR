@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Analise os problemas conhecidos do Substance 3D Painter para se manter informado sobre as limitações atuais e as soluções alternativas da versão mais recente.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Problemas conhecidos
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -24,21 +18,21 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.5 do 
 * `[Baking]` Correspondência por interpretação de sufixo de nome incorreta
 * `[Baking]` emendas Uv não aparecem após a reimportação de mes
 * `[Baking]` artefatos tipo grade com algumas configurações
-* `[Baking]` A Oclusão do ambiente Ignorar a face de fundo pelo nome da malha não funciona
-* `[Baking]` `[AMD]` Dispositivo perdido ao assar com malhas pesadas de alta poli
+* A Oclusão de ambiente `[Baking]` Ignorar face de fundo pelo nome da malha não funciona
+* `[Baking]` `[AMD]` Dispositivo perdido ao fazer bake com malhas pesadas de alta poli
 
 * `[Substance]` Vários erros ortográficos nos recursos
 * `[Substance]` Espaço em branco interrompe a condição de visibilidade
 * `[Substance]` Predefinições para alguns materiais levam muito tempo para carregar
 * `[Substance]` Não é possível importar o recurso com usos mistos
 
-* `[Engine]` Erro ao usar materiais inteligentes se o Conjunto de texturas não tiver bloco 1001
-* `[Engine]` Pintura com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
+* `[Engine]` Erro ao usar Materiais inteligentes se o Conjunto de Textura não tiver bloco 1001
+* `[Engine]` Pintura com a ferramenta Clonar nas cores normais de mudança de canal incorreta
 * A máscara de geometria `[Engine]` mostra artefatos em bordas UV com camadas instanciadas
 
 * `[Color Management]` Associações incompatíveis com gerador não usadas na máscara
 * A saída do filtro `[Color Management]` não foi considerada corretamente
-* `[Color Management]` conversões de espaço de cores HDR com ACE no Linux produzem cores vivas
+* `[Color Management]` conversões de espaço de cores HDR com ACE no Linux produzem cores apertadas
 
 * `[USD]` Atribuição usda incorreta em alguns casos
 * `[USD]` A geometria USD exportada está deslizando ao longo das bordas UV

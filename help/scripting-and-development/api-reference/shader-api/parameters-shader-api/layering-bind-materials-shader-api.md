@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acesse a referência de API de sombreamento Materiais de vinculação de camada para que o Substance 3D Painter vincule materiais em fluxos de trabalho em camadas.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > Layering Bind Materials - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Materiais de vinculação de camada - API de sombreamento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
-
 ---
-
 
 # Materiais de vinculação de camada - API de sombreamento
 
@@ -25,7 +17,7 @@ ht-degree: 0%
 Um material é definido por um identificador exclusivo &#39;id&#39;. Parâmetros adicionais:
 
 * &#39;default&#39;: o nome do recurso de material padrão a ser usado.
-* &#39;size&#39;: o tamanho da textura dos mapas de materiais.
+* &#39;tamanho&#39;: o tamanho de textura dos mapas de material.
 * “group”: o grupo da interface do usuário do widget de seleção de material.
 
 Exemplo:

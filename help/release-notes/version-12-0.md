@@ -1,15 +1,11 @@
 ---
 title: Versão 12.0
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-12-0.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 
 # Versão 12.0
 
@@ -27,7 +23,7 @@ Data de lançamento: <b>9 de março de 2026</b>
 
 ![](../assets/v12_banner_flatten.jpg)
 
-Uma nova ação <b>Achatar</b> agora está disponível no menu de contexto do botão direito do mouse da pilha de camadas. É possível mesclar várias camadas rapidamente agrupando-as (<b>Ctrl/Cmd + G</b>) e criando uma cópia achatada (<b>Ctrl/Cmd + M</b>). O grupo de origem é desabilitado automaticamente, deixando a opção de excluí-lo ou salvá-lo como um <b>Material Inteligente</b> para edição posterior.
+Uma nova ação <b>Achatar</b> agora está disponível no menu de contexto do botão direito do mouse da pilha de camadas. É possível mesclar várias camadas rapidamente agrupando-as (<b>Ctrl/Cmd + G</b>) e criando uma cópia achatada (<b>Ctrl/Cmd + M</b>). O grupo de origem é desabilitado automaticamente, deixando a opção de excluí-lo ou salvá-lo como um <b>Material inteligente</b> para edição posterior.
 
 Elementos achatados da pilha de camadas também podem ser exportados diretamente para disco para iterações rápidas em outros aplicativos. Grupos, camadas ou máscaras podem ser exportados individualmente ou em lote por meio do menu de contexto da pilha de camadas.
 
@@ -36,7 +32,7 @@ Elementos achatados da pilha de camadas também podem ser exportados diretamente
 
   ![](../assets/v12_flatten_menu.jpg)
 * <b>Achatar e exportar texturas para o disco</b>\
-  Uma ação de exportação dedicada no menu do botão direito do mouse salva o resultado nivelado de uma camada, máscara ou grupo e o salva diretamente no disco. Isso é útil para transferir conteúdo feito bake para outros aplicativos sem passar pelo pipeline de exportação de textura completo.
+  Uma ação de exportação dedicada no menu do botão direito do mouse faz bake o resultado nivelado de uma camada, máscara ou grupo e o salva diretamente no disco. Isso é útil para transferir conteúdo feito bake para outros aplicativos sem passar pelo pipeline de exportação de textura completo.
 * <b>Operações em lote</b>\
   Várias camadas, grupos ou máscaras podem ser selecionados de uma só vez e nivelados ou exportados individualmente em uma única operação, tornando mais eficiente o processamento de grandes partes de uma pilha de camadas em uma só etapa.
 
@@ -93,7 +89,7 @@ Veja um exemplo do que você pode alcançar com os novos efeitos:
   * <b>Vinheta</b>: escurece os cantos e bordas da quadro para chamar a atenção para o centro.
   * <b>Nitidez</b>: aumenta o contraste da borda para tornar a imagem renderizada mais nítida.
   * <b>Granulação do filme</b>: sobrepõe um ruído sutil para replicar a textura de filme analógico.
-  * <b>Mapeamento de tons</b>: remapeia valores de luminância HDR para um intervalo exibível para uma aparência mais cinematográfica.
+  * <b>Mapeamento de tons</b>: remapeia valores de luminância de HDR em um intervalo exibível para uma aparência mais cinematográfica.
   * <b>Correção de cores</b>: ajusta o contraste, a saturação, o brilho e a temperatura para ajustar o equilíbrio geral de cores.
 
 >[!NOTE]
@@ -127,7 +123,7 @@ Resumo: <b>Esta é uma versão principal. Esta versão contém os recursos de ca
 * [Achatar camadas] Achatar camadas dentro da pilha de camadas
 * [Achatar camadas] Exportar camadas achatadas para disco
 * [Distorcer para geometria] Adicionar nova funcionalidade de distorção automática a Projeções de distorção
-* [Pós-efeitos] Substituir pós-efeitos pela adição de novos
+* [Pós-efeitos] Substituir pós-efeitos por novas
 * [Pós-efeitos] Atualizar mapeador de tom
 * [Pós-efeitos] Adicionar novo uso para ativos de Pós-efeitos
 * [Conteúdo]&#x200B;[Pós-efeitos] Integrar ativos de pós-efeitos padrão na biblioteca
@@ -135,7 +131,7 @@ Resumo: <b>Esta é uma versão principal. Esta versão contém os recursos de ca
 * [Novo projeto] Alterações na funcionalidade de malha de reimportação
 * [Novo projeto] Permitir que arquivos \*.geo.usd sejam abertos
 * [Configuração do projeto] Melhorar a interface do usuário para a configuração do projeto
-* Atualize a biblioteca do USD para a versão 25.05
+* Atualizar a biblioteca USD para a versão 25.05
 * Atualize o Substance Engine para a versão 9.3.4
 * Aumente o mínimo de drivers para 25.3.1/25.Q2 para GPUs AMD
 * Atualize o Qt para 6. 8. 6
@@ -145,8 +141,8 @@ Resumo: <b>Esta é uma versão principal. Esta versão contém os recursos de ca
 <b>Corrigido:</b>
 
 * [Falha] Alterar uma saída de canal de material em uma máscara pode falhar
-* [Import] As texturas EXR são forçadas para sRGB em vez de lineares ao importar arquivos USD
-* [Blocos UV] A sequência de imagens com uma única imagem também preenche outros blocos UV
-* [Preparação] O AO é diferente entre a CPU e a preparação de GPU
+* [Importar] As texturas EXR são forçadas para sRGB em vez de lineares ao importar arquivos USD
+* [Blocos UV] A sequência de imagens com uma única imagem também preenche outras Blocos UV
+* [Fazendo bake] O AO é diferente entre o fça bake de CPU e GPU
 * [Gerenciamento de cores]&#x200B;[MacOS] Viewport BaseColor não corresponde ao selecionador de cores
 * [USD] Valores uniformes não são importados em alguns casos

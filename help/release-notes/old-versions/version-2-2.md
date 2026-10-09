@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 2.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2.2
 
@@ -30,7 +22,7 @@ Data de lançamento: *21 de julho de 2016*
 
 ![](../../assets/dynamic-material-blending-materials-preview.jpg)
 
-Com esta nova versão, adicionamos um novo **fluxo de trabalho** chamado **Camada de material**. Os fluxos de trabalho de texturização tradicionais contam com a criação de texturas em **alta resolução** para **preservar detalhes**, mas isso **não é conveniente** para o caso de uso. Uma abordagem mais interessante é **criar um pequeno material de revestimento** e **repeti-lo dentro de um sombreador**. Permite preservar uma determinada qualidade e a capacidade de **aplicar zoom realmente próximo** ao objeto usando este sombreador **sem perder detalhes**. O único problema é que, para visualizar o resultado final, era anteriormente obrigatório ir ao motor de jogo/renderizador que exibia o sombreador final. Isso não é mais verdade, pois nesta nova versão agora é possível usar um sombreador semelhante dentro do Substance Painter, o que permite que você **visualize o resultado final e a tinta ao mesmo tempo**.
+Com esta nova versão, adicionamos um novo **fluxo de trabalho** chamado **Camada de material**. Os fluxos de trabalho de texturização tradicionais contam com a criação de texturas em **alta resolução** para **preservar detalhes**, mas isso **não é conveniente** para o caso de uso. Uma abordagem mais interessante é **criar um pequeno material de inclinação** e **repeti-lo dentro de um sombreador**. Permite preservar uma determinada qualidade e a capacidade de **aplicar zoom realmente próximo** ao objeto usando este sombreador **sem perder detalhes**. O único problema é que, para visualizar o resultado final, era anteriormente obrigatório ir ao motor de jogo/renderizador que exibia o sombreador final. Isso não é mais verdade, pois nesta nova versão agora é possível usar um sombreador semelhante dentro do Substance Painter, o que permite que você **visualize o resultado final e a tinta ao mesmo tempo**.
 
 Um **novo projeto de amostra** chamado “**FireHydrant**” foi adicionado para mostrar o novo fluxo de trabalho.
 
@@ -41,7 +33,7 @@ Esse novo fluxo de trabalho abre duas formas de trabalhar:
 * Os materiais são definidos no sombreador; você só pode tinta máscaras para mesclá-los
 * Materiais e máscaras podem ser pintados juntos
 
-Em qualquer caso, é possível definir cada vez uma nova pilha de camadas, o que dá mais liberdade ao criar as máscaras e os materiais. O gerenciamento de camadas é muito mais fácil dessa maneira e cada pilha pode ter seu próprio conjunto de canais específicos que podem ser mesclados no sombreador final.\
+Em qualquer caso, é possível definir uma nova pilha de camadas a cada vez, o que dá mais liberdade ao criar as máscaras e os materiais. O gerenciamento de camadas é muito mais fácil dessa maneira e cada pilha pode ter seu próprio conjunto de canais específicos que podem ser mesclados no sombreador final.\
 Nós também temos um sombreador especial para Unity 5 e Unreal Engine 4 disponível em Compartilhar:
 
 * [Unidade 5](https://share.allegorithmic.com/libraries/2126)
@@ -69,13 +61,13 @@ Nosso tutorial em vídeo mais recente aborda os novos recursos:
 
 * [Prateleira] Melhorar o sistema de pesquisa e as consultas
 * [Prateleira] Adicionar campo de pesquisa para miniprateleiras
-* [Shader] Permite definir a precisão da etapa para controles deslizantes
-* [Shader] Adiciona um botão Desfazer/Refazer para parâmetros de sombreador
-* [Shader] Recarregar um sombreador não deve redefinir seus parâmetros
+* [Sombreador] Permite definir a precisão da etapa para controles deslizantes
+* [Sombreador] Adicionar um botão Desfazer/Refazer para parâmetros de sombreador
+* [Sombreador] Recarregar um sombreador não deve redefinir seus parâmetros
 * [MatLayering] Adicionar suporte para Camadas de material dinâmico e subpilhas
-* [MatLayering] Permite importar arquivo json para definir as configurações do sombreador
-* [MatLayering] Limite de desbloqueio de classificadores de textura (alternar para texturas sem associação)
-* [Script] Permitir a definição de configurações de padeiros e iniciar seu cálculo
+* [MatLayering] Permite importar arquivo json para definir as configurações de sombreador
+* [MatLayering] Desbloquear limite de amostradores de textura (alternar para texturas sem associação)
+* [Script] Permitir a definição de configurações de baker e iniciar seu cálculo
 * [Substance] Usar “uso” para conexões de entradas/saídas, além de identificadores
 * [Ferramenta] Permite selecionar o canal de visualização no visor para a Ferramenta de projeção
 
@@ -83,12 +75,12 @@ Nosso tutorial em vídeo mais recente aborda os novos recursos:
 
 * Falha durante a inicialização se as substâncias estiverem localizadas na pasta errada
 * O relatório de falhas às vezes não funciona devido a um arquivo de log incorreto
-* [Iray] Os pós-efeitos não são atualizados quando o Iray está pausado
+* [Iray] Os Pós-efeitos não são atualizados quando o Iray está pausado
 * [Iray] O atalho de foco automático não funciona mais
 * [Iray] O comportamento do controle deslizante de abertura muda dependendo do tamanho do ativo
 * [Camadas] O primeiro canal de material não é ativado por padrão se estiver desativado
-* [Shader] Nenhum erro será impresso se um “param auto” estiver incorreto
+* [Sombreador] Nenhum erro será impresso se um “param auto” estiver incorreto
 
 **Problema Conhecido:**
 
-* [Mac] O limite de amostras de textura está bloqueado em 16 (problema do driver de GPU)
+* [Mac] O limite de amostras de Textura está bloqueado em 16 (problema do driver de GPU)

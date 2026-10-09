@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como usar a pilha de camadas no Substance 3D Painter para organizar e gerenciar várias camadas de pintura de textura.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pilha de camadas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 5%
-
 ---
-
 
 # Pilha de camadas
 
@@ -45,7 +37,7 @@ As camadas de exibição de pilha de camadas com uma hierarquia específica : a 
 
 **Tipos de camadas:**
 
-* **Camada de pintura** : este tipo de camada pode ser pintado com pincéis e partículas
+* **Camada de tinta**: este tipo de camada pode ser pintado com pincéis e partículas
 * **Camada de preenchimento**: esta camada não pode ser pintada; em vez disso, você pode carregar um material nela para preencher os canais. (Você também pode manipular a transformação para repetir o material, por exemplo.)
 * **Pasta** : este tipo de camada tem como única finalidade conter outras camadas, sendo usado principalmente para organizar a pilha de camadas
 

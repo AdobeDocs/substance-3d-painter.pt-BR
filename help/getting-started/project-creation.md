@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/project-creation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como criar um novo projeto no Substance 3D Painter para começar a pintar texturas em seus modelos 3D.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Criação de projeto
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
-
 ---
-
 
 # Criação de projeto
 
@@ -38,7 +30,7 @@ Veja abaixo uma explicação de todos os parâmetros disponíveis na janela Novo
 | --- | --- |
 | **Arquivo** | Clique no botão “Selecionar” para especificar um arquivo de modelo 3D a ser carregado. [Uma lista de formatos de arquivo com suporte está disponível aqui.](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
 | **Modelo** | Especifique um modelo que definirá as configurações padrão do projeto. Um modelo contém os seguintes parâmetros:<ul data-preserve-html="true"> <li data-preserve-html="true">Configurações do conjunto de texturas.</li> <li data-preserve-html="true">Configurações de exibição.</li> <li data-preserve-html="true">Fazendo bake configurações.</li> <li data-preserve-html="true">recursos de sombreador (incluindo texturas anexadas).</li> <li data-preserve-html="true">Arquivo de Mapa de Ambiente.</li> </ul>  **Observação:** os modelos são arquivos <b>\*.spt</b> criados a partir de um projeto existente por meio do [menu Arquivo](../interface/main-menu/file-menu.md) e salvos na pasta Ativos para serem facilmente compartilhados com os membros da equipe. |
-| <b>Resolução</b> | Defina a resolução de textura padrão do projeto para cada Conjunto de texturas. A resolução pode ir até 4K (4096x4096 pixels) ao trabalhar dentro do aplicativo e 8K (8192x8192 pixels) ao exportar. A resolução pode ser alterada posteriormente por meio das [configurações do Conjunto de Texturas](../interface/texture-set/texture-set-settings.md).  **Observação:** a exportação de 8K requer que pelo menos 2,5 GB de VRam na GPU estejam disponíveis. |
+| <b>Resolução</b> | Defina a resolução de textura padrão do projeto para cada conjunto de textura. A resolução pode ir até 4K (4096x4096 pixels) ao trabalhar dentro do aplicativo e 8K (8192x8192 pixels) ao exportar. A resolução pode ser alterada posteriormente por meio das [configurações do Conjunto de Texturas](../interface/texture-set/texture-set-settings.md).  **Observação:** a exportação de 8K requer que pelo menos 2,5 GB de VRam na GPU estejam disponíveis. |
 
 ### Configurações específicas do tipo de arquivo
 
@@ -46,7 +38,7 @@ Quando um USD é selecionado, outras configurações específicas do tipo de arq
 
 | *Parâmetro* | *Descrição* |
 | --- | --- |
-| <b>Escopo e variantes</b> | Selecione uma parte específica de um arquivo USD. Por padrão, é definido como “Raiz”, o que significa que o arquivo do USD inteiro será usado para criar o projeto do Painter.  <b>Alterar...</b> abre uma nova janela que exibe o conteúdo do USD. Se forem detectadas variantes, é possível selecionar uma variante específica para a criação do projeto. O escopo e as variantes podem ser alterados após a criação do projeto nas configurações do [Projeto](../interface/project-configuration.md). Observe que:<ul data-preserve-html="true"> <li data-preserve-html="true">Somente a seleção da variante de modelagem terá qualquer impacto no projeto.</li> <li data-preserve-html="true">Variantes aninhadas dentro de variantes não são detectadas no momento.</li> </ul> |
+| <b>Escopo e variantes</b> | Selecione uma parte específica de um arquivo USD. Por padrão, é definido como “Raiz”, o que significa que o arquivo USD inteiro será usado para criar o projeto do Painter.  <b>Alterar...</b> abre uma nova janela que exibe o conteúdo do USD. Se forem detectadas variantes, é possível selecionar uma variante específica para a criação do projeto. O escopo e as variantes podem ser alterados após a criação do projeto nas configurações do [Projeto](../interface/project-configuration.md). Observe que:<ul data-preserve-html="true"> <li data-preserve-html="true">Somente a seleção da variante de modelagem terá qualquer impacto no projeto.</li> <li data-preserve-html="true">Variantes aninhadas dentro de variantes não são detectadas no momento.</li> </ul> |
 | <b>Nível de subdivisão</b> | Para a geometria que deve ser subdividida, essa configuração permite especificar o quanto você deseja subdividir a malha para texturização no Painter. Se a subdivisão for explicitamente definida como &#39;nenhum&#39; no arquivo USD, essa configuração ficará acinzentada.  A subdivisão é aplicada após o desencapsulamento UV, portanto isso não altera a forma dos UVs da malha. Os níveis de subdivisão podem ser alterados após a criação do projeto nas configurações do [Projeto](../interface/project-configuration.md). |
 | <b>Quadro</b> | Para arquivos USD em que animações são detectadas, essa configuração permite selecionar a quadro que será usada para criar o projeto do Painter. Se não houver animação no arquivo USD selecionado, essa configuração ficará acinzentada. O quadro pode ser alterado após a criação do projeto nas configurações do [Projeto](../interface/project-configuration.md). |
 

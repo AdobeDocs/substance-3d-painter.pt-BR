@@ -1,15 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/viewport.html'
 description: Saiba como usar a viewport no Substance 3D Painter para visualizar texturas e modelos 3D durante o processo de pintura.
-helpx_description: Painter > Interface > Viewport
 title: Janela de visualização
-source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 2%
-
 ---
-
 
 # Janela de visualização
 
@@ -28,7 +24,7 @@ A viewport é dividida em quatro partes:
 
 Para obter mais detalhes, consulte as páginas dedicadas:
 
-* [Exibição 2D](2d-view.md)
+* [Visualização 2D](2d-view.md)
 * [Visualização 3D](3d-view.md)
 * [Gerenciamento de câmera](camera-management.md)
 

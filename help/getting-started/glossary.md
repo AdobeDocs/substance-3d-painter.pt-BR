@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/glossary.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acesse o glossário da Substance 3D Painter para entender termos e conceitos importantes usados em toda a documentação.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Glossary
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Glossário
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 6%
-
 ---
-
 
 # Glossário
 
@@ -27,7 +19,7 @@ Esta página lista as palavras-chave mais comuns usadas pelo aplicativo com uma 
 | --- | --- |
 | **Alinhamento** | O alinhamento é como um pincel será orientado em direção à malha 3D ao pintar. |
 | **Alpha** | Um alfa é uma máscara que pode ser usada para tinta detalhes ou formas complexas, como um código de barras ou um logotipo. |
-| **Fazer bake** | Cozimento (ou cozimento) refere-se à ação de computação de informações de uma malha 3D e salvá-las em uma textura com base nas informações UV de uma malha. |
+| **Fazer bake** | Um faço bake (ou fça bake) refere-se à ação de computação de informações de uma malha 3D e salvá-las em uma Textura com base nas informações UV de uma malha. |
 | **Profundidade de bits** | A profundidade de bits é a quantidade de informações que podem ser armazenadas em uma textura (por cor). Quanto maior o número, melhor a precisão da informação. Entretanto, o desempenho diminui com números altos ao realizar cálculos. |
 | **Pincel** | Um pincel é uma ferramenta para pintar em uma malha. Um pincel é definido por vários parâmetros que controlam seu comportamento (como tamanho e opacidade). |
 | **Câmera** | A câmera é o objeto que permite controlar a posição e a direção de onde você olha em um visor 3D ou 2D. |
@@ -56,7 +48,7 @@ Esta página lista as palavras-chave mais comuns usadas pelo aplicativo com uma 
 | **Malha de poli baixa/alta** | Uma malha baixa e uma alta são ambas malha 3D, uma é com uma baixa densidade de polígonos enquanto a outra é com uma quantidade maior de policontagem (muitas vezes 100 vezes maior). Normalmente, as informações de malha alta são feitas bake para a malha baixa. |
 | **Material** | Um material define as propriedades para representar um assunto específico. Em uma malha 3D, o material também é usado para definir grupos de faces poligonais. |
 | **Malha** | Uma malha é um objeto 3D definido por várias informações. No Substance 3D Painter, uma malha é definida por polígonos (geralmente triângulos). Uma malha pode ser criada em um aplicativo de modelagem 3D, como o **Blender** ou o **Autodesk Maya** . |
-| **Mapa de malha** | Um mapa de malha é um mapa cozido de uma malha que contém informações relativas à malha. Pode ser uma informação de posição ou uma informação de oclusão, por exemplo. |
+| **Mapa de malha** | Um mapa de malha é um mapa feito bake de uma malha que contém informações relativas à malha. Pode ser uma informação de posição ou uma informação de oclusão, por exemplo. |
 | **Mapa De Mip** | Um mip-map é uma textura pré-calculada, geralmente presente como uma sequência de imagens cada vez em uma resolução mais baixa do que a textura original. |
 | **Modo** | Um modo se refere à configuração da interface que dá acesso a um conjunto específico de ferramentas e controles, dependendo do modo. |
 | **Ruído** | Um ruído é uma imagem processual e aleatória, que geralmente representa formas orgânicas e valores de cor/escala de cinza. |

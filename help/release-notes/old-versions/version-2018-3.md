@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2018.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2018.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2018.3
 
@@ -35,9 +27,9 @@ Agora é possível **exportar a renderização** do Visualização 2D **como uma
 Vá para a **janela Exportar** e escolha a nova configuração denominada “**Visualização 2D**”:\
 ![](../../assets/2d-view-export-config.png)
 
-Um novo **Mapa Convertido** chamado “**Modo de Exibição 2D**” também está disponível na guia **Configuração** da janela Exportar, caso você queira criar sua própria **predefinição de exportação**.
+Um novo **Mapa Convertido** chamado “**Visualização 2D**” também está disponível na guia **Configuração** da janela de Exportação caso você queira criar sua própria **predefinição de exportação**.
 
-### Filtro de iluminação cozida aprimorado
+### Filtro de iluminação Feito bake aprimorado
 
 ![](../../assets/baked-lighting.jpg)
 
@@ -50,7 +42,7 @@ Agora, você pode replicar a iluminação da viewport (como vista na Visualizaç
 
 ![](../../assets/capture-optim.gif)
 
-Nesta nova versão, apresentamos um novo sombreador chamado “**pbr-metal-rough-anisotropia-angle**”. Este sombreador dá suporte a dois canais chamados “**Ângulo de Anisotropia**” e “**Nível de Anisotropia**”, que podem ser usados para criar reflexões de specular anisotrópicas. Este sombreador também será traduzido para o Iray sem a necessidade de qualquer conversão.
+Nesta nova versão, apresentamos um novo sombreador chamado “**pbr-metal-rough-anisotropia-angle**”. Este sombreador dá suporte a dois canais chamados “**Ângulo de anisotropia**” e “**Nível de anisotropia**”, que podem ser usados para criar reflexões de specular anisotrópicas. Este sombreador também será traduzido para o Iray sem a necessidade de qualquer conversão.
 
 Este novo sombreador pode ser acessado através da [Janela Sombreador](../../interface/shader-settings/shader-settings.md) clicando no botão sombreador e abrindo a miniprateleira:
 
@@ -122,7 +114,7 @@ Para obter mais informações sobre o SVT, dê uma olhada em nossa página de do
 
 ![](../../assets/symmetry-offset-optim.gif)
 
-A ferramenta de simetria foi reformulada e agora permite deslocar o ponto de origem. Quando um projeto é parcialmente simétrico ou descentralizado, o plano agora pode ser ajustado. O deslocamento será salvo dentro do projeto por eixo.
+A ferramenta simetria foi reformulada e agora permite deslocar o ponto de origem. Quando um projeto é parcialmente simétrico ou descentralizado, o plano agora pode ser ajustado. O deslocamento será salvo dentro do projeto por eixo.
 
 Também aproveitamos a oportunidade para dar um pouco de amor a esse recurso e agora temos novos feedbacks visuais:
 
@@ -137,7 +129,7 @@ Todos os novos elementos visuais podem ser ajustados pelo novo menu Simetria na 
 * **Deslocamento** : controla o valor de deslocamento por eixo. O ícone de Seta cruzada permite redefinir todos os deslocamentos de volta para 0.
 * **Plano de Simetria** : Mostrar Plano permite desenhar um plano que corta a malha. Mostrar interseção desenha uma linha na malha onde o plano corta a malha.
 * **Cursor de Simetria** :Show O cursor desenha um cursor de pincel secundário no local em que a simetria é aplicada. Ocultar enquanto a pintura somente mostrará esse cursor quando não estiver pintando.
-* **Manipulador**: o comando Mostrar Manipulador exibirá um manipulador na viewport para deslocar o plano de simetria. O **Tamanho do Manipulador** controla o tamanho do controlador no visor.
+* **Manipulador** : Mostrar Manipulador exibirá um manipulador na viewport para deslocar o plano de simetria. O **Tamanho do Manipulador** controla o tamanho do controlador no visor.
 
 Os mesmos **atalhos** para o manipulador Tri-Planar e UV podem ser usados para ocultar/mostrar o Manipulador de Simetria:
 
@@ -259,19 +251,19 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 
 **Adicionado:**
 
-* [Content] Integrar novo modelo de projeto: “PBR - Alpha de aspereza metálica”
+* [Content] Integrar novo modelo de projeto: “PBR - Aspereza metálica Alpha-blend”
 * A ordem de pesquisa da biblioteca dinâmica Linux foi alterada para priorizar as bibliotecas no diretório de instalação antes do que está instalado no sistema
 
 **Corrigido:**
 
 * A malha às vezes desaparece da viewport 3D (pressione F para redefinir a câmera)
 * [glTF] Atualize o carregador do Substance Painter Sketchfab com os novos tipos de licença do Sketchfab
-* [Import]&#x200B;[glTF] Manipulação incorreta de modulação de textura de entrada conforme definido nos arquivos glTF
+* [Import]&#x200B;[glTF] Manipulação incorreta da modulação de textura de entrada conforme definido nos arquivos glTF
 * [Import]&#x200B;[glTF] O plano horizontal é exibido incorretamente com a importação de glTF em alguns casos
-* [Export]&#x200B;[USD] A opacidade não funciona no Arkit
-* [Export]&#x200B;[USD] A exportação de USDz falha em alguns casos
-* [Export]&#x200B;[USD] Exportar para USD sem salvar leva a falha
-* [Export]&#x200B;[USD] Modo de divisão incorreto para texturas, modo de subdivisão para malhas e tipos de saída para sombreadores
+* A opacidade do [Export]&#x200B;[USD] não funciona no Arkit
+* [Export]&#x200B;[USD] A exportação para USDz trava em alguns casos
+* [Exportar]&#x200B;[USD] Exportar para USD sem salvar leva a um travamento
+* [Export]&#x200B;[USD] Modo de divisão em blocos gráficos incorreto para textura, modo de subdivisão para malhas e tipos de saída para sombreadores
 * [Export]&#x200B;[USD] Exportações esparsas de apenas alguns conjuntos de textura com toda a geometria
 * [Instância] Falha ao tentar excluir uma camada de instância quebrada
 * [Regressão]&#x200B;[Exportar] Alguns mapas não são exportados na profundidade de bits escolhida
@@ -302,7 +294,7 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 * Adicionar TAA em material solo
 * Ruído com sombra, TAA e sombreador de teste alfa com pontilhamento
 * Remover pontilhamento de specular para todos os sombreadores PBR clássicos
-* Falha nas configurações do sombreador em alguns casos
+* Falha nas configurações de sombreador em alguns casos
 * A ativação de dispersão não está sincronizada entre as renderizações OpenGL e Iray
 * As ferramentas Borrar e Clonar não funcionam mais em malhas específicas
 * Alguns conjuntos de texturas não podem aparecer na renderização Iray
@@ -324,11 +316,11 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 **Adicionado:**
 
 * Resumo: hotfix
-* [Simetria]&#x200B;[Janela de visualização] A pintura de simetria na exibição 2D está de volta e agora apresenta uma visualização de pincel de clone corrigida
+* [Simetria]&#x200B;[Janela de visualização] A pintura em Simetria na Visualização 2D está de volta e agora apresenta uma visualização do pincel de clone corrigida
 
 **Corrigido:**
 
-* [Exportar] A exportação de exibição 2D gera uma textura preta em alguns casos
+* [Exportar] A exportação do Visualização 2D gera uma textura preta em alguns casos
 * [Iray] Informações normais se tornam incorretas em Iray após instanciar uma camada de material
 * Conjuntos de textura não quadrada podem levar, em alguns casos, a falhas
 * [Desfazer] Várias teclas Ctrl+Z podem levar aleatoriamente, em alguns casos, a falhas
@@ -348,32 +340,32 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 
 * Resumo: atualizações de viewport, exportação adequada de Visualização 2D, novos auxiliares de interface, uma ferramenta de simetria aprimorada, novo conteúdo e um enorme aumento no desempenho
 * [Suavização de borda]&#x200B;[Janela de visualização] Nova filtragem de suavizações temporais para a janela de visualização 3D (através das Configurações de exibição)
-* [Exportar] Exporta o conteúdo da viewport 2D como uma textura única
+* [Exportar] Exporte o conteúdo da viewport 2D como uma textura única
 * [Exportar]&#x200B;[Pontilhamento] Expor pontilhamento na exportação
 * [Pilha de camadas] Cores em camadas e pastas
 * [Pilha de camadas] Ativação e desativação rápidas de várias camadas e efeitos
 * [Pilha de camadas] Navegação mais fácil para modos de mesclagem com teclas para cima e rolagem do mouse
-* [Proj]&#x200B;[UI] Manipulador de rotação adicional nos três eixos para triplanar
+* [Proj]&#x200B;[UI] manipulador de rotação adicional nos três eixos para triplanar
 * [Proj]&#x200B;[Atalhos] - e + para alterar o tamanho do manipulador de Projeção UV
-* [Shader] Controle os parâmetros de camada com canais no sombreador revestido por PBR
-* [Substance] Expor novas entradas de textura com base em malha para filtros e geradores
-* [Simetria]&#x200B;[Visor]&#x200B;[IU] Controla o deslocamento de simetria com manipuladores
+* [Sombreador] Controle os parâmetros da camada revestida com canais no sombreador revestido por PBR
+* [Substance] Expor novas entradas de textura baseadas em malha para filtros e geradores
+* [Simetria]&#x200B;[Viewport]&#x200B;[UI] Deslocamento da simetria de controle com manipuladores
 * [Simetria]&#x200B;[Barra de ferramentas contextual]&#x200B;[IU] Novo painel de simetria com opções
 * [Simetria] Novo modo de interseção de linha de simetria
 * [Simetria] Novo cursor de clone de simetria
 * [Simetria]&#x200B;[Atalhos] Q para ocultar e -, + para alterar o tamanho e shift para ajustar
-* [Log] Aprimorar mensagens de erro quando não for possível exportar texturas
+* [Log] Aprimorar as mensagens de erro quando não for possível exportar o textura
 * [Script] Permitir a alteração ou atualização dos recursos em Configurações de exibição
 * [Script] Permitir a criação ou a remoção de canais em Conjuntos de Textura
-* [Content]&#x200B;[Shaders] Adicionar suporte para anisotropia com um sombreador dedicado (pbr-metal-rough-anisotropia-angle)
+* [Content]&#x200B;[Shaders] Adicione suporte para anisotropia com um sombreador dedicado (pbr-metal-rough-anisotropia-angle)
 * [Conteúdo] Atualização da esfera de visualização com anisotropia e ângulo modificado
 * [Content] shutline matFx atualizado
 * [Content] New Texturing.XYZ varredura de rosto sem emenda
 * [Conteúdo] Novos procedimentos anisotrópicos
 * [Content] Novo filtro: ambiente de iluminação baked
 * [Content] Novo mapa ambiental: estúdio automotivo neutro
-* [Content] Novo modelo de projeto: PBR - ângulo de Anisotropia de aspereza metálica (com canais de anisotropia)
-* [Content] Novo modelo de projeto: PBR - aspereza metálica revestida
+* [Content] Novo modelo de projeto: PBR - Ângulo de anisotropia de aspereza metálica (com canais de anisotropia)
+* [Content] Novo modelo de projeto: PBR - aspereza metálica Coated
 * [SVT]&#x200B;[Engine] Texturas virtuais esparsas (SVT)
 * [SVT]&#x200B;[Preferências]&#x200B;[IU] Opção de aceleração de suporte a hardware SVT
 * [SVT]&#x200B;[Log] Informações adicionais para o recurso Texturização Virtual Esparsa (por exemplo, tamanho do disco)
@@ -383,7 +375,7 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 * [SVT] Nova variável de ambiente para ativar a aceleração de suporte de hardware SVT
 * [SVT] Detectar suporte esparso por hardware
 * [SVT]&#x200B;[Dispersão de hardware] Aumentar a versão mínima do driver para a GPU Nvidia
-* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Avisa o usuário se artefatos presentes com Texturização virtual esparsa na abertura do projeto
+* [SVT]&#x200B;[Sombreador]&#x200B;[Viewport]&#x200B;[UI] Avisa o usuário se artefatos presentes com Texturização Virtual Esparsa na abertura do projeto
 
 <b><b>Corrigido:</b>\
 </b>
@@ -399,9 +391,9 @@ Também atualizamos parte do conteúdo existente para refiná-lo:
 * O seletor de material está aplicando um traçado de pincel ao separar
 * Alternar a resolução para 128x128px leva a um travamento
 * Os links de mapas de malha não são atualizados corretamente ao reorganizar ou instanciar camadas
-* [Substance] O espaço de cor UserData não funciona no normal de malha cozida solicitado como entrada
+* [Substance] O espaço de cores UserData não funciona no normal de malha Feita bake solicitado como entrada
 * Incompatibilidade de associação MDL ao usar várias instâncias de sombreadores
-* [Simetria]&#x200B;[Camada de preenchimento] Plano de simetria e seu manipulador ativo na Camada de preenchimento
+* [Simetria]&#x200B;[Camada de preenchimento] Plano de Simetria e seu manipulador ativos na Camada de preenchimento
 * [Visor] O ponto dinâmico para tradução nem sempre é atualizado após clicar
 * [UI] Ícones corrigidos e remoção de espaços reservados para monitores HDPI
 

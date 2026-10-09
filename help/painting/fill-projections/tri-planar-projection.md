@@ -1,34 +1,26 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/tri-planar-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use a projeção tri-planar no Substance 3D Painter para projetar texturas de três planos ortogonais para uma cobertura contínua.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Tri-planar projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Projeção triplanar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 3%
-
 ---
-
 
 # Projeção triplanar
 
 ![](../../assets/triplanar.jpg)
 
-A projeção triplanar do preenchimento é uma projeção 3D que combina várias projeções planares juntas e as mescla para cobrir toda a malha 3D. É muito útil projetar ruídos e padrões sem criar emendas visíveis.
+A projeção tri-planar do preenchimento é uma projeção 3D que combina várias projeções planares e as mescla para cobrir toda a malha 3D. É muito útil projetar ruídos e padrões sem criar emendas visíveis.
 
 ## Propriedades
 
 | *Configuração* | *Descrição* |
 | --- | --- |
-| **Filtragem** | Controla como a textura ou o material será filtrado. Essa configuração pode afetar a aparência da textura quando repetida várias vezes. Com valores de dimensionamento altos, o uso de um filtro diferente do padrão pode produzir resultados com melhor aparência. Configurações atuais disponíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilinear - HQ</b> (padrão): filtragem bilinear avançada que tenta melhorar a qualidade da textura quando os valores de divisão em blocos gráficos estão altos.</li> <li data-preserve-html="true"><b>Bilinear - Nítido</b>: filtragem bilinear simples que suaviza ligeiramente a textura, mas tenta preservar os detalhes.</li> <li data-preserve-html="true"><b>Mais próximo</b>: sem filtragem, útil se a filtragem Bilinear fornecer um resultado desfocado e quebrar detalhes finos. É possível introduzir suavização na textura.</li> </ul> |
+| **Filtragem** | Controla como a textura ou o material será filtrado. Essa configuração pode afetar a aparência da textura quando repetida várias vezes. Com valores de dimensionamento altos, o uso de um filtro diferente do padrão pode produzir resultados com melhor aparência. Configurações atuais disponíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilinear - HQ</b> (padrão): filtragem bilinear avançada que tenta melhorar a qualidade da textura quando os valores de divisão em blocos gráficos estão altos.</li> <li data-preserve-html="true"><b>Bilinear - Nítido</b>: uma filtragem bilinear simples que suaviza ligeiramente a textura, mas tenta preservar os detalhes.</li> <li data-preserve-html="true"><b>Mais próximo</b>: sem filtragem, útil se a filtragem Bilinear fornecer um resultado desfocado e quebrar detalhes finos. É possível introduzir suavização de serrilhado na textura.</li> </ul> |
 | **Corte da forma** | Defina se a textura projetada deve ser visível fora da área de projeção. Os valores possíveis são:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Projeto cortado na forma</strong>: a projeção está confinada dentro da área de projeção.</li><li data-preserve-html="true"><strong>A projeção se estende para fora da forma</strong> (padrão): a projeção continua além da área de projeção.</li></ul>   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cropped.jpg" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/extend-1.jpg" width="200px"/></div>  </td> </tr> </table> |
 | **Dureza** | Controle a intensidade e a suavidade das transições entre planos da projeção. Um valor ou 1,0 significa que haverá um corte claro entre cada plano. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/hardness-fill.gif"/></div> **Observação:** a transição de cada plano é definida pelo vértice de malha normal (sem levar em conta o mapa de malha normal). Isso significa que normais de vértice abruptos ou quebrados podem levar a resultados inesperados ao mesclar planos juntos. |
 
@@ -59,7 +51,7 @@ Várias configurações e ferramentas estão disponíveis na [barra de ferrament
 | Ícone | Nome | Descrição |
 | --- | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_image" src="../../assets/icon-hide-manipulator.png" width="50px"/></div> | Mostrar/Ocultar manipulador | Se ativada, a manipulador fica visível e é controlável na viewport. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_image" src="../../assets/icon-manipulator-settings.png" width="50px"/></div> | Configurações do manipulador | Esse menu contém três configurações:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Tamanho do manipulador</strong>: controla o tamanho do manipulador no visor.</li><li data-preserve-html="true"><strong>Etapas de grade</strong>: defina o tamanho da etapa ao traduzir com uma restrição.</li><li data-preserve-html="true"><strong>Etapas de ângulo</strong>: defina o ângulo da etapa ao girar com uma restrição.</li></ul> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_image" src="../../assets/icon-manipulator-settings.png" width="50px"/></div> | Configurações do manipulador | Esse menu contém três configurações:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>tamanho do Manipulador</strong>: controle o tamanho do manipulador no visor.</li><li data-preserve-html="true"><strong>Etapas de grade</strong>: defina o tamanho da etapa ao traduzir com uma restrição.</li><li data-preserve-html="true"><strong>Etapas de ângulo</strong>: defina o ângulo da etapa ao girar com uma restrição.</li></ul> |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-translate.png" width="50px"/></div> | Manipulador de tradução | Permitir mover a projeção na cena ao longo dos eixos principais (X, Y, Z). |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-rotate.png" width="50px"/></div> | Manipulador de rotação | Permitir girar a projeção na cena ao longo dos eixos principais (X, Y, Z). |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-scale.png" width="50px"/></div> | Dimensionar manipulador | Permitir dimensionar a projeção na cena ao longo dos eixos principais (X, Y, Z). |
@@ -72,7 +64,7 @@ Várias configurações e ferramentas estão disponíveis na [barra de ferrament
 
 ## Manipulador
 
-Este manipulador de projeção só está disponível no [visor 3D](../../interface/viewport/3d-view.md).
+Este manipulador de projeção está disponível somente no [visor 3D](../../interface/viewport/3d-view.md).
 
 | Ação | Atalho | Descrição |
 | --- | --- | --- |
@@ -80,6 +72,6 @@ Este manipulador de projeção só está disponível no [visor 3D](../../interfa
 | **Tradução restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador Tradução, mova a projeção ao longo dos eixos selecionados, mas somente em intervalos específicos (revisão). O tamanho do intervalo é definido por meio das configurações do manipulador. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/3d-translate-step.gif" width="200px"/></div> |
 | **Rotação** | Clique do mouse | Com o manipulador de rotação, clique em um eixo para girar a projeção. Clique entre os eixos para girar todos os eixos ao mesmo tempo.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/3d-rotate.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/3d-rotate-3axes.gif" width="200px"/></div>  </td> </tr> </table> |
 | **Rotação restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador de rotação, clicar em um eixo para girar a projeção só acontecerá em intervalos específicos. A etapa é definida por um ângulo por meio das configurações do manipulador. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/3d-rotate-step.gif" width="200px"/></div> |
-| **Escala** | Clique do mouse | Com o manipulador de Escala, clique em uma alça de eixo para redimensionar a projeção ao longo do eixo fornecido.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_1881993640" src="../../assets/scale-one-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_518594828" src="../../assets/scale-two-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image" src="../../assets/scale-3-axes.gif" width="200px"/></div>  </td> </tr> </table> |
-| **Escala restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador de Escala, clicar em uma alça de eixo enquanto mantém o atalho redimensionará a projeção em etapas. O tamanho da etapa é o mesmo da manipulador de tradução. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/scale-1-axis-constrained.gif" width="200px"/></div> |
-| **Superfície** | Clique do mouse | Com o manipulador de Superfície, clicar e arrastar sobre o modelo 3D o ajustará à superfície. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/surface.gif" width="200px"/></div> **Observação:** este manipulador só está disponível com os tipos de projeção **Planar** e **Distorcer**. |
+| **Escala** | Clique do mouse | Com o manipulador de escala, clique em uma alça de eixo para redimensionar a projeção ao longo do eixo especificado.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_1881993640" src="../../assets/scale-one-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_518594828" src="../../assets/scale-two-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image" src="../../assets/scale-3-axes.gif" width="200px"/></div>  </td> </tr> </table> |
+| **Escala restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador de escala, clicar em uma alça de eixo enquanto mantém o atalho redimensionará a projeção em etapas. O tamanho da etapa é o mesmo da manipulador de tradução. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/scale-1-axis-constrained.gif" width="200px"/></div> |
+| **Superfície** | Clique do mouse | Com o manipulador Superfície, clicar e arrastar sobre o modelo 3D o encaixará na superfície. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/surface.gif" width="200px"/></div> **Observação:** este manipulador só está disponível com os tipos de projeção **Planar** e **Distorcer**. |

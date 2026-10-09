@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lens-distortion.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre como usar o pós-processamento de distorção de lente no Substance 3D Painter para simular os efeitos de lente da câmera no visor.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Lens Distortion
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Distorção da lente
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
-
 ---
-
 
 # Distorção da lente
 
@@ -29,5 +21,5 @@ Quanto melhor a lente da câmera, menos esses fenômenos ocorrerão. Esse efeito
 | --- | --- |
 | **Energia** | Controla a velocidade com que a distorção é aplicada a partir das bordas da tela. |
 | **CDV** | Controla a quantidade de distorção da lente (campo de visão simulado). |
-| **Arredondamento da borda** | Controla a forma redonda nas bordas ou na viewport. |
-| **Smoothness de borda** | Controla a dureza/smoothness das bordas pretas do visor. |
+| **Arredondamento de arestas** | Controla a forma redonda nas bordas ou na viewport. |
+| **Suavidade da borda** | Controla a dureza/smoothness das bordas pretas do visor. |

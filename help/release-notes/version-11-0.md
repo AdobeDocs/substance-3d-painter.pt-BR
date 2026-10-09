@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/version-11-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 11.0 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 11.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2707'
 ht-degree: 0%
-
 ---
-
 
 # Versão 11.0
 
@@ -298,33 +290,33 @@ Resumo: <b>Versão principal, novo recurso de atualização automática, ferrame
 * [Desempenho] Habilita somente o primeiro canal em novas camadas/efeitos de preenchimento
 * [Desempenho] Paralelizar o cálculo do traçado do pincel
 * Baking
-* [Cozimento] Adicione uma nova opção de geração de gaiola totalmente automática para assar com malhas de alto polietileno (experimental)
+* [Fazendo bake] Adicione uma nova opção de geração de gaiola totalmente automática para fazer bake com malhas de alto polígono (experimental)
 * Conteúdo
 * [Conteúdo] Adicione 6 novos filtros: estilização, quantize, kuwahara anisotrópico, suavização de chanfro, distância direcional, conversão em tons de cinza
 * [Conteúdo] Atualize Noises and Grunges para a versão mais recente do Designer (com o novo 2D Voronoi)
 * [Content] Adicione 3 novos geradores de textura (Tile Random, Triangle Grid, Scratches Generator)
 * [Conteúdo] Renomear modelo do Unreal Engine e exportar predefinições
 * Python
-* [Shelf]&#x200B;[Python] Salvar material inteligente ou máscara inteligente em disco do Python
-* [Python] Adicionar gaiola automática de cozimento à API do Python
-* [Python] Permitir a edição de nomes e descrições de Conjuntos de texturas/Blocos UV
+* [Shelf]&#x200B;[Python] Salvar material inteligente ou máscara inteligente em disco no Python
+* [Python] Adicionar gaiola automática de fça bake à API do Python
+* [Python] Permitir a edição de nomes e descrições de Conjuntos/Blocos UV de texturas
 * [Python] Compartilhar configurações de resolução em fontes vetoriais e de fonte
 * [Atualização automática]&#x200B;[Python] Expor as funcionalidades de atualização automática do projeto no Python
 * Diversos
 * [Exportar] Facilite o acesso às opções de Enviar para com um novo painel
 * [Nvidia] Adicionar aviso sobre os drivers Nvidia mais recentes (572.16)
 * O encaixe de ângulo deve ser afetado pela seleção de espaço Objeto/Mundo&#x200B;
-* [Lista de conjuntos de texturas] Permite adicionar um nome personalizado aos blocos UV e usá-los na exportação
+* [Lista de conjuntos de texturas] Permite adicionar um nome personalizado aos Blocos UV e usá-los na exportação
 * Mac
 * [Mac] Usar Metal em vez de OpenGL para renderização de gráficos
 * [Mac] Soltar o suporte ao Mac Intel
 
 <b>Corrigido</b>:
 
-* [Nvidia]&#x200B;[Preparação] Os resultados do padeiro de oclusão ambiente têm artefatos
+* [Nvidia]&#x200B;[Fazendo bake] os resultados do baker de Oclusão de ambiente têm artefatos
 * [Falha] Pressione a tecla Alt e clique para alternar a visibilidade de um conjunto de textura desativado leva a uma falha
 * [Fazendo bake] Gaiola é tida em conta com poli baixo como alto poli param
-* [Cozimento] A cor do material para o padeiro do mapa de ID não funciona com o formato de arquivo USD
+* [Fazendo bake] A cor do material para o baker do mapa de ID não funciona com o formato de arquivo USD
 * [Desempenho] Renderização lenta no visor com malhas e muitos objetos sobrepostos
 * [Qt] O seletor de cores personalizado não tem as configurações de gerenciamento de cores
 * [Visor] Os Manipuladores 3D piscam quando a Suavização de borda está ativada
@@ -337,9 +329,9 @@ Resumo: <b>Versão principal, novo recurso de atualização automática, ferrame
 
 <b>Problemas Conhecidos</b>:
 
-* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores vivas
+* [Gerenciamento de cores] As conversões do espaço de cores HDR com ACE no Linux produzem cores apertadas
 * [Regression]&#x200B;[UI] O menu do botão direito do mouse é muito pequeno em telas HD
 * [Crash]&#x200B;[Python] Exportação de USD acionada por TextureStateEvent
-* [Engine] Pintar com a ferramenta Clonar em cores normais de deslocamento de canal incorretamente
+* [Engine] A pintura com a ferramenta Clonar nas cores normais de mudança de canal é incorreta
 * [Python] O widget fantasma aparece excluído pelo script ainda em funcionamento
 * [RedHat] Problemas no seletor de cores

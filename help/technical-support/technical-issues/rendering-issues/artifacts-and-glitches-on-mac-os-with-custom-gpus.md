@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como corrigir artefatos e falhas de renderização no macOS com GPUs personalizadas no Substance 3D Painter para um desempenho estável.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Artifacts and glitches on Mac OS with Custom GPUs
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Artefatos e falhas no Mac OS com GPUs personalizadas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
-
 ---
-
 
 # Artefatos e falhas no Mac OS com GPUs personalizadas
 

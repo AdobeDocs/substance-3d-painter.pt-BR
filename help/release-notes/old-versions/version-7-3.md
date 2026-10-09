@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-7-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Painter versão 7.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 7.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
-
 ---
-
 
 # Versão 7.3
 
@@ -106,7 +98,7 @@ Para obter mais informações, consulte a [página de documentação dedicada](.
   ![](../../assets/improved-decal.gif)
 
 * **Aprimoramento do plug-in de salvamento automático**\
-  O salvamento automático não será mais acionado durante operações mais longas ou mais pesadas, como recarregamento de malha, cozimento ou exportação.
+  O salvamento automático não será mais acionado durante operações mais longas ou mais pesadas, como recarregamento de malha, fça bake ou exportação.
 
 * **Melhorias de desempenho**\
   Algumas operações de manutenção e otimização foram realizadas para manipulação de controles deslizantes e desempenho de pintura.
@@ -130,7 +122,7 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 **Adicionado:**
 
 * [Projeção]&#x200B;[Distorcer] Expor distorção 3D como um novo modo de projeção
-* [Projeção]&#x200B;[Distorcer] Permitir modo de decalque para Alpha, Texturas e Procedimentos com arrastar e soltar no visor
+* [Projeção]&#x200B;[Distorcer] Permitir modo de decalque para Alpha, Texturas e procedimentos com arrastar e soltar no visor
 * [Projeção]&#x200B;[Distorcer] Usar projeção de distorção com atalho de decalque (ALT)
 * [Projeção]&#x200B;[Distorcer]&#x200B;[Barra de ferramentas] Transformar distorção como um todo ou por vértices
 * [Projeção]&#x200B;[Distorcer]&#x200B;[Barra de ferramentas] Adicionar pontos de grade com opções dividir distorção cruzada, horizontal ou verticalmente
@@ -153,15 +145,15 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 * [Engine] Atualização para a nova versão do mecanismo de Substance (8.3.0)
 * [Scripting]&#x200B;[Python] Permite recarregar a malha do projeto atual
 * [Scripting]&#x200B;[Python] Permitir atualização de recursos em projetos
-* [Scripting]&#x200B;[Python] Permite definir e consultar a resolução de blocos UV
+* [Scripting]&#x200B;[Python] Permite definir e consultar a resolução de Blocos UV
 * [Interoperabilidade] Não disponível para as edições Steam e Substance
 * [Interoperabilidade] Receber vários recursos do Bridge
 
 **Corrigido:**
 
 * O seletor de cores não exibe a cor correta
-* [Preparação] A lista de conjuntos de texturas não está ordenada corretamente
-* [Importação de FBX] As transformações de tabela dinâmica de grupo 3ds Max não são levadas em consideração
+* [Fazendo bake] A lista de conjuntos de texturas não está ordenada corretamente
+* [Importação de FBX] As transformações de tabela dinâmica de grupo do 3ds Max não são levadas em consideração
 * [Substance Engine] Falha com importação de SBSAR corrompido
 * [MacOS] A opção de configuração do projeto em idiomas diferentes não está presente
 * Os salvamentos automáticos podem congelar o Painter durante processos longos
@@ -172,5 +164,5 @@ Resumo: **Versão principal. Contém uma nova projeção de distorção 3D, uma 
 * [Projeção]&#x200B;[Distorcer] O recurso Inverter não funciona quando a transformação está definida como espaço global
 * [Projeção]&#x200B;[Distorção] Linhas de artefato entre correções em alguns casos raros
 * [Projeção]&#x200B;[UV] O ponto dinâmico é redefinido ao inverter a projeção
-* [Mac M1] Os materiais inteligentes não são exibidos corretamente
+* [Mac M1] Os Materiais inteligentes não são exibidos corretamente
 * [M1]&#x200B;[Regressão] Camadas de material não funcionando

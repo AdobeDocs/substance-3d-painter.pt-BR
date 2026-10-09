@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como corrigir problemas de exibição de mapas normais nas propriedades de camada e ferramenta do Substance 3D Painter para obter detalhes precisos da superfície.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Tools Issues > Normal map looks incorrect when loaded in layer or tool properties
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: A mapa normal parece incorreta quando carregada nas propriedades de camada ou ferramenta
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
-
 ---
-
 
 # A mapa normal parece incorreta quando carregada nas propriedades de camada ou ferramenta
 

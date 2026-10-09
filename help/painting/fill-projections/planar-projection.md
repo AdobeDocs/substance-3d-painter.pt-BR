@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/fill-projections/planar-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use a projeção planar no Substance 3D Painter para projetar texturas de um plano para uma aplicação de textura simples.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Planar projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Projeção planar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 29a22566063902bf63e429790e7f5dcc65a2876b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 2%
-
 ---
-
 
 # Projeção planar
 
@@ -63,7 +55,7 @@ Várias configurações e ferramentas estão disponíveis na [barra de ferrament
 | Ícone | Nome | Descrição |
 | --- | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_image" src="../../assets/icon-hide-manipulator.png" width="50px"/></div> | Mostrar/Ocultar manipulador | Se ativada, a manipulador fica visível e é controlável na viewport. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_image" src="../../assets/icon-manipulator-settings.png" width="50px"/></div> | Configurações do manipulador | Esse menu contém três configurações:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Tamanho do manipulador</strong>: controla o tamanho do manipulador no visor.</li><li data-preserve-html="true"><strong>Etapas de grade</strong>: defina o tamanho da etapa ao traduzir com uma restrição.</li><li data-preserve-html="true"><strong>Etapas de ângulo</strong>: defina o ângulo da etapa ao girar com uma restrição.</li></ul> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_image" src="../../assets/icon-manipulator-settings.png" width="50px"/></div> | Configurações do manipulador | Esse menu contém três configurações:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>tamanho do Manipulador</strong>: controle o tamanho do manipulador no visor.</li><li data-preserve-html="true"><strong>Etapas de grade</strong>: defina o tamanho da etapa ao traduzir com uma restrição.</li><li data-preserve-html="true"><strong>Etapas de ângulo</strong>: defina o ângulo da etapa ao girar com uma restrição.</li></ul> |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-translate.png" width="50px"/></div> | Manipulador de tradução | Permitir mover a projeção na cena ao longo dos eixos principais (X, Y, Z). |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-rotate.png" width="50px"/></div> | Manipulador de rotação | Permitir girar a projeção na cena ao longo dos eixos principais (X, Y, Z). |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-scale.png" width="50px"/></div> | Dimensionar manipulador | Permitir dimensionar a projeção na cena ao longo dos eixos principais (X, Y, Z). |
@@ -76,7 +68,7 @@ Várias configurações e ferramentas estão disponíveis na [barra de ferrament
 
 ## Manipulador
 
-Este manipulador de projeção só está disponível no [visor 3D](../../interface/viewport/3d-view.md).
+Este manipulador de projeção está disponível somente no [visor 3D](../../interface/viewport/3d-view.md).
 
 | Ação | Atalho | Descrição |
 | --- | --- | --- |
@@ -84,6 +76,6 @@ Este manipulador de projeção só está disponível no [visor 3D](../../interfa
 | **Tradução restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador Tradução, mova a projeção ao longo dos eixos selecionados, mas somente em intervalos específicos (revisão). O tamanho do intervalo é definido por meio das configurações do manipulador.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c2_image" src="../../assets/3d-translate-step.gif" width="200px"/></div> |
 | **Rotação** | Clique do mouse | Com o manipulador de rotação, clique em um eixo para girar a projeção. Clique entre os eixos para girar todos os eixos ao mesmo tempo.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_image" src="../../assets/3d-rotate.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_image_1485982924" src="../../assets/3d-rotate-3axes.gif" width="200px"/></div>  </td> </tr> </table> |
 | **Rotação restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador de rotação, clicar em um eixo para girar a projeção só acontecerá em intervalos específicos. A etapa é definida por um ângulo por meio das configurações do manipulador.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c2_image" src="../../assets/3d-rotate-step.gif" width="200px"/></div> |
-| **Escala** | Clique do mouse | Com o manipulador de Escala, clique em uma alça de eixo para redimensionar a projeção ao longo do eixo fornecido.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image" src="../../assets/scale-one-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_322064801" src="../../assets/scale-two-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_49230186" src="../../assets/scale-3-axes.gif" width="200px"/></div>  </td> </tr> </table> |
-| **Escala restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador de Escala, clicar em uma alça de eixo enquanto mantém o atalho redimensionará a projeção em etapas. O tamanho da etapa é o mesmo da manipulador de tradução.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_image" src="../../assets/scale-1-axis-constrained.gif" width="200px"/></div> |
+| **Escala** | Clique do mouse | Com o manipulador de escala, clique em uma alça de eixo para redimensionar a projeção ao longo do eixo especificado.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image" src="../../assets/scale-one-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_322064801" src="../../assets/scale-two-axis.gif" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_image_49230186" src="../../assets/scale-3-axes.gif" width="200px"/></div>  </td> </tr> </table> |
+| **Escala restrita** | Clique com a tecla SHIFT pressionada | Com o manipulador de escala, clicar em uma alça de eixo enquanto mantém o atalho redimensionará a projeção em etapas. O tamanho da etapa é o mesmo da manipulador de tradução.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_image" src="../../assets/scale-1-axis-constrained.gif" width="200px"/></div> |
 | **Superfície** | Clique do mouse | Com o manipulador Superfície, clicar e arrastar sobre o modelo 3D o encaixará na superfície.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_image" src="../../assets/surface.gif" width="200px"/></div>  **Observação:** este manipulador só está disponível com os tipos de projeção **Planar** e **Distorcer**. |

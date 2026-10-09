@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como ativar o recurso de traçado dinâmico no Substance 3D Painter para criar traçados de pincel responsivos com efeitos variáveis.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Enabling Dynamic Stroke Feature
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ativação do recurso Traçado dinâmico
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 2%
-
 ---
-
 
 # Ativação do recurso Traçado dinâmico
 

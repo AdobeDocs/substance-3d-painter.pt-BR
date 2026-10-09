@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise as notas de versão do Substance 3D Painter versão 2019.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versão 2019.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 0%
-
 ---
-
 
 # Versão 2019.3
 
@@ -61,7 +53,7 @@ Para oferecer suporte aos pincéis do Photoshop, vários novos recursos foram ad
   Para **ativar esta configuração**, basta clicar com o botão direito do mouse em uma camada e escolher **Alfa/máscara corrigida por gama**. Um novo ícone aparecerá ao lado da camada para indicar quando essa configuração estiver ativada.\
   ![](../../assets/layer-menu.png) ![](../../assets/layer-icon.png)\
   ![](../../assets/gamma-correction-demo.png)
-* **Valor máximo aumentado para Espaçamento e Tremulação de Posição**\
+* **Valor máximo aumentado para Espaçamento e Tremulação da posição**\
   Para corresponder corretamente os parâmetros das predefinições de pincel do Photoshop, o valor máximo dos seguintes parâmetros foi aumentado:
 
   * **Espaçamento**: o máximo agora pode ser definido como 1000.
@@ -232,12 +224,12 @@ Nesta versão, muito conteúdo novo foi adicionado:
     * Pontos ondulados
     * Traçado Ondulado Com Divisão
     * Traçado sinuoso
-    * Pintar seta do cilindro
+    * Seta do Cilindro de tinta
     * Grampeamentos de rolos de tinta largos
     * Tinta de grampos de cilindro
     * Tinta pontos do cilindro
     * Stripe do cilindro de tinta
-    * Pintar veia do cilindro longa estreita
+    * Tinta veia do rolo longa estreita
     * Texto de aviso do cilindro de tinta
 
     ![](../../assets/shelf-presets-demo.jpg){width="500px"}
@@ -288,12 +280,12 @@ Resumo: **Correção de erro com atualização para o Iray 2019.3**
 **Adicionado:**
 
 * Atualização para o Iray 2019.3
-* [Log] Indica bios desatualizado para CPU Ryzen levando a falha durante a cozedura
+* [Log] Indica bios desatualizado para CPU Ryzen levando a falha durante fça bake
 * [ABR] Extrair alfa ABR para prateleira
 
 **Corrigido:**
 
-* [Baker] Falha na cozedura se a malha de alto-poli não tiver UVs
+* [Baker] Falha na Faz bake se a malha de alto polígono não tiver UVs
 * [Linux] Os atalhos de mouse personalizados não são salvos
 * [Pincel] O contorno desaparece com algumas formas alfa
 * [Tablet] Detecção incorreta ao mover controles deslizantes

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/getting-started/system-requirements.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Revise os requisitos de sistema do Substance 3D Painter para garantir que seu computador atenda às especificações de hardware e software.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > System requirements
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Requisitos do sistema
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 1%
-
 ---
-
 
 # Sistemas compatíveis
 
@@ -105,7 +97,7 @@ Para baixar novos drivers, consulte: [A GPU tem drivers desatualizados](../techn
 
 Para obter uma lista detalhada dos problemas dos drivers de GPU por construtor, consulte a [página de documentação dedicada](../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md).
 
-## Rastreamento de raios do GPU para panificação
+## Rastreamento de raios do GPU para fazer bake
 
 Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers mínimos recomendados acima devem ser instalados.
 

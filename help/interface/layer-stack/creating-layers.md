@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/layer-stack/creating-layers.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como criar novas camadas no Substance 3D Painter para criar texturas complexas com várias camadas de pintura.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Creating layers
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Criação de camadas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 16%
-
 ---
-
 
 # Criação de camadas
 
@@ -40,4 +32,4 @@ Arrastar e soltar recursos da prateleira também pode ser uma maneira de criar c
 | --- | --- |
 | Arraste e solte um **Material** de [Ativos](../assets/assets.md) na Pilha de camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-material.gif"/></div> |
 | Arraste e solte um **Material inteligente** dos [Ativos](../assets/assets.md) na Pilha de camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-smartmaterial.gif"/></div> |
-| Arraste e solte **Efeitos** dos [Ativos](../assets/assets.md) na Pilha de Camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-filter.gif"/></div> |
+| Arraste e solte **Efeitos** dos [Ativos](../assets/assets.md) na Pilha de camadas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-filter.gif"/></div> |

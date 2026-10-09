@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/settings/general-preferences.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como configurar preferências gerais no Substance 3D Painter para personalizar o comportamento do aplicativo e a experiência do usuário.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Settings > General preferences
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Preferências gerais
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 2%
-
 ---
-
 
 # Preferências gerais
 
@@ -37,7 +29,7 @@ Esta página explica as principais configurações do aplicativo.
 | **Exibir somente o material selecionado ao pintar** | Se esta opção estiver ativada, somente o Conjunto de texturas atualmente selecionado será exibido na visualização 3D ao pintar (ocultando temporariamente os outros Conjuntos de texturas).  **Observação:** é recomendável manter esta configuração desativada, pois alterar rapidamente a visibilidade na viewport pode afetar o desempenho das [Texturas Virtuais Esparsas](../../features/sparse-virtual-textures.md). |
 | **Dimensionamento do Visor** | Permite reduzir a resolução da viewport para telas HDPI/Retina para melhorar o desempenho.Valor possível:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Nenhum</strong>: sem dimensionamento, o visor é renderizado na resolução de tela nativa.</li><li data-preserve-html="true"><strong>Automático</strong>: divide a resolução da tela por duas (somente em telas HDPI).</li></ul> |
 
-## Opções de pilha de camadas
+## Opções de Pilha de camadas
 
 ![](../../assets/settings-layerstack.png)
 
@@ -63,8 +55,8 @@ Esta página explica as principais configurações do aplicativo.
 | Configuração | Descrição |
 | --- | --- |
 | **Salvar arquivos de cena pré-processados** | Se ativadas, as malhas de alto polígono pré-processadas usadas pelos baker serão salvas em disco para futura reutilização. Essa configuração permite fazer bake novamente mais rapidamente. |
-| **Habilitar processo de fça bake de visualização ao vivo** | Se ativadas, as portas de visualização 3D e 2D exibirão a textura atual do padeiro sendo computada na malha. |
-| **Habilitar Rastreamento de raios do GPU** | Se ativado, os Baker tentarão usar a GPU para executar o Rastreamento de raios em vez da CPU. O recurso permite que os padeiros tenham um desempenho mais rápido em geral.Isso só pode ser ativado em hardware compatível. Consulte os [Requisitos de sistema](../../getting-started/system-requirements.md) para obter mais detalhes. |
+| **Habilitar processo de fça bake de visualização ao vivo** | Se ativadas, as portas de visualização 3D e 2D exibirão a textura de baker atual que está sendo computada na malha. |
+| **Habilitar Rastreamento de raios do GPU** | Se ativado, os Baker tentarão usar a GPU para executar o Rastreamento de raios em vez da CPU. O recurso permite que os baker tenham um desempenho mais rápido em geral.Isso só pode ser ativado em hardware compatível. Consulte os [Requisitos de sistema](../../getting-started/system-requirements.md) para obter mais detalhes. |
 
 ## Opções de visualização
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/technical-support/project-resources.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acesse os recursos do projeto e a documentação técnica do Substance 3D Painter para aprimorar seu fluxo de trabalho e solução de problemas.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Recursos do projeto
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 
 # Recursos e configurações do projeto
 
@@ -30,7 +22,7 @@ O gerenciamento de recursos do projeto pode ajudar a estabelecer uma boa base pa
 +++Gerenciar bitmaps importados
 As imagens importadas podem afetar drasticamente o desempenho, por isso é importante ter cuidado com o que é importado. Se os seus Conjuntos de texturas estiverem definidos como 2k e não forem exportados com uma resolução mais alta, o uso de uma imagem de 8k não terá nenhum impacto positivo, sua qualidade será limitada em 2k, pois é a resolução do Conjunto de texturas.
 
-O formato também é importante - EXR, HDR e até mesmo PNG são muito mais pesados que um JPG, e nem todas as imagens podem precisar do nível de qualidade de um EXR (como cor base vs. detalhes do Height, por exemplo).
+O formato também é importante - EXR, HDR e até mesmo PNG são muito mais pesados do que um JPG, e nem todas as imagens podem precisar do nível de qualidade de um EXR (como Cor de base versus Height, por exemplo).
 
 +++
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/br/substance-3d-painter/interface/miscellaneous/update-checker.html'
 breadcrumb-title: ''
 description: Saiba como usar o verificador de atualizações no Substance 3D Painter para se manter informado sobre novas versões e recursos.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Miscellaneous > Update checker
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Atualizar verificador
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
-
 ---
-
 
 # Atualizar verificador
 

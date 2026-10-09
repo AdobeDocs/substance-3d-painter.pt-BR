@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/interface/texture-set.html"
-breadcrumb-title: ''
-description: Saiba como trabalhar com conjuntos de texturas no Substance 3D Painter para organizar texturas e gerenciar diferentes atribuições de material.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Saiba como trabalhar com conjuntos de texturas no Substance 3D Painter para organizar texturas e gerenciar diferentes atribuições de materiais.
 title: Conjunto de texturas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 4%
-
 ---
-
 
 # Conjunto de texturas
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como criar efeitos de filtro específicos do canal para que o Substance 3D Painter processe canais de textura individuais.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Channel specific filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Filtro específico do canal
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
-
 ---
-
 
 # Filtro específico do canal
 
@@ -53,9 +45,9 @@ Para gerar a saída desse componente alfa, crie um nó de saída com a mesma con
 | *Oclusão de ambiente* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
 | *Ângulo de anisotropia* | **anisotropyangle** | **anisotropyAngle / anisotropyAngle\_Alpha** |
 | *Nível de anisotropia* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
-| *Cor base* | **basecolor** | **baseColor / baseColor\_Alpha** |
+| *Cor de base* | **basecolor** | **baseColor / baseColor\_Alpha** |
 | *Máscara de mesclagem* | **máscara de mesclagem** | **blendingmask / blendingmask\_Alpha** |
-| *Difusa* | **difuso** | **difusa / difusa\_Alpha** |
+| *Difusões* | **difuso** | **difusa / difusa\_Alpha** |
 | *Deslocamento* | **deslocamento** | **deslocamento / deslocamento\_Alpha** |
 | *Emissivo* | **emissivo** | **emissivo / emissivo\_Alpha** |
 | *Textura reluzente* | **textura reluzente** | **glossiness / glossiness\_Alpha** |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre o editor de partículas no Substance 3D Painter para criar predefinições de pincel de partícula personalizadas para pintura de textura.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Overview of the particle editor
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Visão geral do editor de partículas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
-
 ---
-
 
 # Visão geral do editor de partículas
 
@@ -270,7 +262,7 @@ PopcornFX é um tipo de grande sistema de discretização, então maior é o dt,
 
 * Divisões CON
 
-Se o tempo delta for grande, o movimento de partículas entre quadros também será grande. No Substance 3D Painter, pequenas manchas podem aparecer em vez de linhas retas.
+Se o tempo delta for grande, o movimento de partículas entre quadros também é grande. No Substance 3D Painter, pequenas manchas podem aparecer em vez de linhas retas.
 
 Isso acontece porque o Substance 3D Painter desenhará um ponto de traçado para cada partícula no final de cada quadro e não desenhará linhas para cada partícula entre o último e o quadro atual.
 
