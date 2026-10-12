@@ -38,7 +38,7 @@ Para iniciar a pintura em gaiola:
 
 1. Alternar para [**modo de Fça bake**](baking.md).
 1. Verifique se você selecionou pelo menos um arquivo de **Cena de polígono alto** do qual fazer bake.
-1. No **painel** Configurações comuns ****, navegue até a **seção Gaiola**.
+1. No **painel** Configurações comuns **&#x200B;**, navegue até a **seção Gaiola**.
 1. Defina o **Tipo de caixa** como **com base na distância**.
 1. Clique em **Tinta compartimento**.
 
@@ -99,7 +99,7 @@ Geralmente, pode ser útil aplicar o mesmo valor de preenchimento de polígono a
 1. Cole o valor no controle deslizante **Intensidade** na parte superior da **Janela de visualização**.
 1. Selecione os conjuntos subsequentes de polígonos para o mesmo valor de intensidade a ser aplicado a cada um deles.
 
-O vídeo abaixo mostra este fluxo de trabalho em ação, usando a **ferramenta de** Preenchimento de polígono **** com o **Preenchimento de malha** selecionado.
+O vídeo abaixo mostra este fluxo de trabalho em ação, usando a **ferramenta de** Preenchimento de polígono **&#x200B;**&#x200B;com o **Preenchimento de malha** selecionado.
 
 TODO: VÍDEO
 
