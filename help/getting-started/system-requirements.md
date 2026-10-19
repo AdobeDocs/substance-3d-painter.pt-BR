@@ -4,9 +4,9 @@ description: Revise os requisitos de sistema do Substance 3D Painter para garant
 title: Requisitos do sistema
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '814'
 ht-degree: 1%
 ---
 
@@ -18,28 +18,32 @@ Veja abaixo uma lista de hardware e sistemas suportados pelo aplicativo:
 
 |  | Mínimo | Recomendado | Ideal |
 | --- | --- | --- | --- |
-| <b>SO</b> | Windows 11 64 bits versão 23H2 | Windows 11 64 bits versão 24H1 | Windows 11 64 bits versão 24H2 |
-| <b>CPU</b> | Intel Core i5 AMD Ryzen 5 | Intel Core i7 AMD Ryzen 7 | Intel Core i9 AMD Ryzen 9 |
-| <b>GPU</b> | NVIDIA GeForce RTX 2060 Super NVIDIA Quadro RTX 4000 AMD Radeon RX 5700 XT AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080 NVIDIA Quadro RTX A4000 AMD Radeon RX 6800 XT AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090 NVIDIA Quadro RTX 5000 Ada Generation AMD Radeon RX 7900 XTX AMD Radeon Pro W7800 |
-| <b>VRAM</b> | 8 GB | 16 GB | 24 GB |
-| <b>RAM</b> | 16 GB | 32 GB | 64 GB |
-| <b>Armazenamento</b> | SSD com 30 GB de espaço disponível | SSD com 50 GB de espaço disponível | SSD com 70 GB de espaço disponível |
+| **SO** | Windows 11 64 bits versão 23H2 | Windows 11 64 bits versão 24H1 | Windows 11 64 bits versão 24H2 |
+| **CPU** | Intel Core i5 AMD Ryzen 5 | Intel Core i7 AMD Ryzen 7 | Intel Core i9 AMD Ryzen 9 |
+| **GPU** | NVIDIA GeForce RTX 2060 Super NVIDIA Quadro RTX 4000 AMD Radeon RX 5700 XT AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080 NVIDIA Quadro RTX A4000 AMD Radeon RX 6800 XT AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090 NVIDIA Quadro RTX 5000 Ada Generation AMD Radeon RX 7900 XTX AMD Radeon Pro W7800 |
+| **VRAM** | 8 GB | 16 GB | 24 GB |
+| **RAM** | 16 GB | 32 GB | 64 GB |
+| **Armazenamento** | SSD com 30 GB de espaço disponível | SSD com 50 GB de espaço disponível | SSD com 70 GB de espaço disponível |
 
-### macos
+### macOS
 
 |  | Mínimo | Recomendado | Ideal |
 | --- | --- | --- | --- |
-| <b>SO</b> | macOS 12 Monterey | macOS 13 Ventura | macOS 14 Sonoma |
-| <b>CPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
-| <b>GPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
-| <b>RAM</b> | 16 GB | 32 GB | 64 GB |
-| <b>Armazenamento</b> | SSD com 30 GB de espaço disponível | SSD com 50 GB de espaço disponível | SSD com 70 GB de espaço disponível |
+| **SO** | macOS 15 Sequoia | Porta dourada do macOS 27 | macOS 27 Golden Gate |
+| **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **RAM** | 16 GB | 32 GB | 64 GB |
+| **Armazenamento** | SSD com 30 GB de espaço disponível | SSD com 50 GB de espaço disponível | SSD com 70 GB de espaço disponível |
+
+>[!WARNING]
+>
+> Para pipelines criados com a [Plataforma de Referência VFX](https://vfxplatform.com/) em mente, o Substance 3D Painter ainda pode ser instalado no macOS 14 Sonoma. No entanto, o Painter não é mais testado em versões do sistema operacional abaixo dos requisitos mínimos de sistema, portanto, a estabilidade não é garantida.
 
 ### Linux
 
 | Corporativo | Vapor |
 | --- | --- |
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## Recomendações gerais
 
@@ -53,28 +57,28 @@ Diversos:
 
 * Muitos aplicativos Substance dependem do OpenSSL 1.1.1 para compatibilidade com RHEL8/9. Para sistemas com versões mais recentes do OpenSSL, o cliente precisará fornecê-lo manualmente
 * Para trabalhar em condições confortáveis, recomendamos um monitor com uma resolução vertical superior a 1000 pixels e mais largo do que 1280 pixels.
-* Exportar a <b>8K</b> (8192\*8192 pixels) requer uma GPU com <b> mais de</b> 2 GB de VRam.
+* Exportar a **8K** (8192\*8192 pixels) requer uma GPU com **mais de** 2 GB de VRam.
 * Apenas as versões 2019.x e posteriores foram autenticadas para serem executadas no MacOS 10.15 (Catalina).
 * Para usar o software via RDP (Área de Trabalho Remota), consulte a [página de documentação](../pipeline-and-integration/configuration/remote-desktop.md) dedicada.
 * A falha na CPU Ryzen ao fazer bake pode ser corrigida com a atualização do BIOS.
 
 ## Configurações sem suporte
 
-<b>Windows</b>
+**Windows**
 
 * Não há suporte para máquinas virtuais.
 * Não há suporte para o Windows Server.
 
-<b>Mac</b>
+**Mac**
 
 * Somente configurações oficiais do Apple são compatíveis.
 * Atualmente, não há suporte para eGPUs e elas podem apresentar problemas de estabilidade.
 
-<b>Linux</b>
+**Linux**
 
 * Drivers Mesa no Linux não são suportados.
 
-<b>Qualquer plataforma</b>
+**Qualquer plataforma**
 
 * As GPUs integradas não são compatíveis com CPUs x86-64 (Intel, AMD).
 
@@ -86,8 +90,8 @@ Para baixar novos drivers, consulte: [A GPU tem drivers desatualizados](../techn
 
 | SO | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
-| <b>Windows</b> | GeForce 442,50 Quadro 442,50 | Radeon 19.7.1 Radeon Pro/FirePro 18.Q4 | 15.33 |
-| <b>Linux</b> | 535.171.04 ou posterior | Radeon 22.40.6 | Sem suporte |
+| **Windows** | GeForce 442,50 Quadro 442,50 | Radeon 19.7.1 Radeon Pro/FirePro 18.Q4 | 15.33 |
+| **Linux** | 535.171.04 ou posterior | Radeon 22.40.6 | Sem suporte |
 
 >[!NOTE]
 >
@@ -101,10 +105,10 @@ Para obter uma lista detalhada dos problemas dos drivers de GPU por construtor, 
 
 Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers mínimos recomendados acima devem ser instalados.
 
-<b>DXR</b> também requer a seguinte configuração mínima:
+**DXR** também requer a seguinte configuração mínima:
 
-* <b>Windows 10</b> versão 1809, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
-* GPU <b> com arquitetura Pascal</b> (Nvidia GeForce 10XX)
+* **Windows 10** versão 1809, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
+* **GPU com arquitetura Pascal** (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
@@ -112,63 +116,59 @@ Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers mínimos
 
 ## Tablets gráficos compatíveis
 
-Veja abaixo uma lista de tablets gráficos compatíveis que foram testados com o Substance 3D Painter versão <b>7.4.2</b>:
+Veja abaixo uma lista de tablets gráficos compatíveis que foram testados com o Substance 3D Painter versão **7.4.2**:
 
 +++Wacom
-<b>Modelos:</b> Intuos Pro (tamanho M), Intuos (tamanho S)
 
+**Modelos:** Intuos Pro (tamanho M), Intuos (tamanho S)
 
 | SO | Versão do driver |
 | --- | --- |
 | Windows | 6.3.45-1 |
 | macOS | 6.3.45-3 |
 
-
 +++
 
 +++XPen
-<b>Modelo:</b> Deco 01
 
+**Modelo:** Deco 01
 
 | SO | Versão do driver |
 | --- | --- |
-| Windows | XP-PENWin\_3.2.2.211027 |
-| macOS | XP-PENMac\_3.2.3\_211203 |
+| Windows | XP-PENWin_3.2.2.211027 |
+| macOS | XP-PENMac_3.2.3_211203 |
 | Linux | XP-PEN-pentablet-3.2.1.211019-1 |
-
 
 +++
 
 +++Huion
-<b>Modelo:</b> Q11K
 
+**Modelo:** Q11K
 
 | SO | Versão do driver |
 | --- | --- |
-| Windows | XP-PENWin\_3.2.2.211027 |
-| macOS | XP-PENMac\_3.2.3\_211203 |
-
+| Windows | XP-PENWin_3.2.2.211027 |
+| macOS | XP-PENMac_3.2.3_211203 |
 
 +++
 
 +++Xencelabs
-<b>Modelo:</b> Caneta Tablet Média
 
+**Modelo:** Caneta Tablet Média
 
 | SO | Versão do driver |
 | --- | --- |
-| Windows | XencelabsWin\_1.2.1-14 |
-| macOS | XencelabsMac\_1.2.1-18 |
-| Linux | XencelabsLinux\_1.1.0-2 |
-
+| Windows | XencelabsWin_1.2.1-14 |
+| macOS | XencelabsMac_1.2.1-18 |
+| Linux | XencelabsLinux_1.1.0-2 |
 
 +++
 
 ## Modelos compatíveis do 3Dconnection SpaceMouse
 
-Abaixo há uma lista de versões de driver compatíveis para o [3Dconnection Space Mouse](https://3dconnexion.com/us/spacemouse/) que foram testadas com o Substance 3D Painter versão <b>8.1.</b>
+Abaixo há uma lista de versões de driver compatíveis para o [3Dconnection Space Mouse](https://3dconnexion.com/us/spacemouse/) que foram testadas com o Substance 3D Painter versão **8.1.**
 
-As versões de driver aplicam-se aos modelos <b>Compactos</b>, <b>Pro</b> e <b>Corporativos</b>.
+As versões de driver aplicam-se aos modelos **Compactos**, **Pro** e **Corporativos**.
 
 | SO | Versão do driver |
 | --- | --- |
