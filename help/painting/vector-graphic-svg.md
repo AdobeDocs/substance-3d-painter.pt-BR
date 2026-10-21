@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Arquivos gráficos vetoriais (<b>.svg</b> e Illustrator <b>.ai</b>) podem ser importados como imagens regulares dentro do Painter. Algumas configurações estão disponíveis para ajustar a aparência do gráfico e ajustá-lo melhor ao restante da texturização.
 
-* Para obter mais informações sobre arquivos SVG, [veja esta página](https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html).
+* Para obter mais informações sobre arquivos SVG, [veja esta página](https://www.adobe.com/br/creativecloud/file-types/image/vector/svg-file.html).
 * Para obter mais informações sobre arquivos AI, [consulte esta página](https://www.adobe.com/ie/creativecloud/file-types/image/vector/ai-file.html).
 
 Os arquivos de SVG e AI são automaticamente convertidos em imagens de pixel quando usados dentro da [Pilha de camadas](../interface/layer-stack/layer-stack.md) (dependendo da configuração selecionada). Esse é um processo não destrutivo. Alterar a resolução ou atualizar o arquivo de origem atualizará o resultado final de acordo.
