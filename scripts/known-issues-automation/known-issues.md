@@ -1,25 +1,29 @@
 ---
+helpx_url: "https://helpx.adobe.com/br/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Analise os problemas conhecidos do Substance 3D Painter para se manter informado sobre as limitações atuais e as soluções alternativas da versão mais recente.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
 title: Problemas conhecidos
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '932'
 ht-degree: 0%
 ---
 
 # Problemas conhecidos
 
-Esta página lista todos os problemas conhecidos ativos presentes na v12.1.5 do Substance 3D Painter:
+Esta página lista todos os problemas conhecidos ativos presentes na v12.2.0 do Substance 3D Painter:
 
 * `[Baking]` AO incorreto em cubos simples
 * `[Baking]` Correspondência por interpretação de sufixo de nome incorreta
 * `[Baking]` emendas Uv não aparecem após a reimportação de mes
 * `[Baking]` artefatos tipo grade com algumas configurações
-* A Oclusão de ambiente `[Baking]` Ignorar face de fundo pelo nome da malha não funciona
-* `[Baking]` `[AMD]` Dispositivo perdido ao fazer bake com malhas pesadas de alta poli
 
 * `[Substance]` Vários erros ortográficos nos recursos
 * `[Substance]` Espaço em branco interrompe a condição de visibilidade
@@ -33,10 +37,6 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.5 do 
 * `[Color Management]` Associações incompatíveis com gerador não usadas na máscara
 * A saída do filtro `[Color Management]` não foi considerada corretamente
 * `[Color Management]` conversões de espaço de cores HDR com ACE no Linux produzem cores apertadas
-
-* `[USD]` Atribuição usda incorreta em alguns casos
-* `[USD]` A geometria USD exportada está deslizando ao longo das bordas UV
-* `[USD]` Congelamento ao carregar USDz malformado
 
 * Os recursos `[Shelf]` obtêm o uso incorreto se colocados em uma pasta com um nome específico
 * `[Shelf]` `[Substance]` Dados do usuário não levados em conta para geração de miniatura de prateleira
@@ -52,6 +52,12 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.5 do 
 
 * O projeto `[Single Channel View]` salvo na exibição de cor de base parece mais escuro após a atualização da versão do Painter
 * O projeto `[Single Channel View]` salvo na exibição de cor de base parece mais escuro após a atualização da versão do Painter
+
+* `[Viewport]` Atraso do cursor na parte inferior do visor do modo de fça bake
+* `[Viewport]` Arrastar a seleção de preenchimento de polígono de uma janela para outra pode causar atrasos do visor
+
+* `[Cage Painting]` Falhas de geometria do compartimento ao pintar em uma Ilha UV
+* Problema de desempenho do `[Cage Painting]` no visor do modo de fça bake no Mac
 
 * `[gltf]` Não é possível abrir arquivos exportados pelo Babylon Exportador
 * `[Displacement]` Falha ao pintar
@@ -89,12 +95,17 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.5 do 
 * A visualização do espaço de mistura de cores `[User Channels]` está incorreta
 * A seleção de geometria `[Mask]` ainda está ativa após alternar para o modo fazer bake
 * `[Sonoma]` Ícones não aparecem nos menus
+* `[USD]` Atribuição usda incorreta em alguns casos
 * `[Polygon Fill]` A alteração do espaço de cores da cor de base não atualiza o seletor de cores
 * `[UV Padding]` artefatos ao aumentar a textura de 4k para 8k na exportação
-* `[Performances]` Painter monopoliza o uso de VRAM
 * `[FBX]` problemas de dimensionamento
 * `[Texture set list]` Blocos UV podem ser selecionados ao mesmo tempo que um conjunto de texturas
-* `[Viewport]` Atraso do cursor na parte inferior do visor do modo de fça bake
+* `[Paint Properties]` Clicar com o botão direito do mouse na janela de propriedades da tinta não abre o menu pop-up de predefinições
+* `[MACOS]` `[Subsurface Scattering]` Ruído de memória com alguns valores de Escala de Raio SS
+* `[Mac]` Polarização de mipmap da filtragem de Textura nas Configurações de Exibição não tem efeito
+* `[Project]` Salvar pop-up aparece ao fechar mesmo quando o projeto não foi modificado
+* `[Library]` O Painter pode ficar travado ao gerar miniaturas de mapas de ambiente
+* `[Windows]` A geração `[Nvidia]` de exibições de pincel e material pode levar a um TDR.
 * Os recursos não quadrados são esticados quando usados nos slots do canal de pincel
 * Falha ao decodificar a substância
 * UVs não perfeitamente sobrepostos podem criar artefatos
@@ -113,6 +124,7 @@ Esta página lista todos os problemas conhecidos ativos presentes na v12.1.5 do 
 * As modificações dos parâmetros de pincel na barra de ferramentas contextual não aparecem no histórico
 * Não é possível renomear ou excluir predefinições de exportação se você já as excluiu e recriou nesta sessão
 * O mapeamento de canal não funciona para a visualização da ferramenta de projeção em alguns casos
+* O erro de correspondência de malha não ignora outras políticas altas quando a opção Corresponder por nome e a Textura selecionada estiverem ativadas apenas
 
 ## Estabilidade
 

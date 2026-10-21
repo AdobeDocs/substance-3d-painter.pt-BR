@@ -1,10 +1,9 @@
 ---
 title: Pintura em gaiola
 description: Saiba como evitar artefatos e personalizar a gaiola durante o processo de fça bake com a pintura em gaiola no Substance 3D Painter.
-hold: true
-source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1044'
 ht-degree: 0%
 ---
 
