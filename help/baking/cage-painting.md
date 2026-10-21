@@ -1,10 +1,9 @@
 ---
 title: Pintura em gaiola
 description: Saiba como evitar artefatos e personalizar a gaiola durante o processo de fça bake com a pintura em gaiola no Substance 3D Painter.
-hold: true
-source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1044'
 ht-degree: 0%
 ---
 
@@ -42,7 +41,7 @@ Para iniciar a pintura em gaiola:
 
 1. Alternar para [**modo de Fça bake**](baking.md).
 1. Verifique se você selecionou pelo menos um arquivo de **Cena de polígono alto** do qual fazer bake.
-1. No **painel** Configurações comuns **&#x200B;**, navegue até a **seção Gaiola**.
+1. No **painel** Configurações comuns ****, navegue até a **seção Gaiola**.
 1. Defina o **Tipo de caixa** como **com base na distância**.
 1. Clique em **Tinta compartimento**.
 
@@ -105,7 +104,7 @@ Geralmente, é útil aplicar o mesmo valor de pintura da caixa a várias áreas 
 1. Cole o valor no controle deslizante **Intensidade** na parte superior da **Janela de visualização**.
 1. Selecione os conjuntos subsequentes de polígonos para aplicar o mesmo valor de intensidade.
 
-O vídeo abaixo mostra este fluxo de trabalho em ação, usando a **ferramenta de** Preenchimento de polígono **&#x200B;**&#x200B;com o **Preenchimento de malha** selecionado.
+O vídeo abaixo mostra este fluxo de trabalho em ação, usando a **ferramenta de** Preenchimento de polígono **** com o **Preenchimento de malha** selecionado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504621?learn=on)
 
