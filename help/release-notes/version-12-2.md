@@ -94,7 +94,7 @@ A ferramenta **Preenchimento de polígono** foi reformulada com uma nova interfa
 
 >[!NOTE]
 >
-> Para obter mais informações sobre a ferramenta **Preenchimento de Polígono**, confira a [página de documentação dedicada](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
+> Para obter mais informações sobre a ferramenta **Preenchimento de Polígono**, confira a [página de documentação dedicada](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
 
 ### Nova pintura em gaiola no modo de Fça bake
 
@@ -158,7 +158,7 @@ O novo **modo de pintura de gaiola** é um deslocamento de gaiola por pixel que 
 
 >[!NOTE]
 >
-> Para obter mais informações sobre como fazer bake, confira a [página de documentação dedicada](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
+> Para obter mais informações sobre como fazer bake, confira a [página de documentação dedicada](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/baking/baking).
 
 ### Novo realce de conjunto de texturas no visor
 
@@ -228,7 +228,7 @@ Recursos e aprimoramentos adicionais foram adicionados nesta versão:
 
   Uma nova entrada de mapa de mecanismo `mesh_uv_neighbor` está disponível para materiais e filtros de Substance. Funciona como uma textura de advecção UV para encontrar o outro lado de uma costura de Ilha UV. Seus canais vermelho e verde armazenam a advecção UV usada para alcançar o pixel vizinho através de uma costura UV.
 
-  Para obter mais informações sobre essas texturas de mecanismo, consulte a [página de documentação dedicada](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  Para obter mais informações sobre essas texturas de mecanismo, consulte a [página de documentação dedicada](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Notas de versão
 
