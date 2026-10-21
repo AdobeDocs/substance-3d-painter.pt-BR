@@ -241,45 +241,45 @@ Resumo: **Esta atualização é uma versão principal. Ela adiciona um novo recu
 **Adicionado:**
 
 * Fazendo bake, pintura em gaiola
-* &amp;preto;Pintura em gaiola&amp;rbrack; Criar interface de Tinta básica em gaiola
-* &amp;preto;Pintura em gaiola&amp;rbrack; Novas opções de Visualização em gaiola
-* &amp;preto;Pintura em gaiola&amp;rbrack; Editável Ferramenta Selecionar / Preencher
-* &amp;preto;Pintura em gaiola&amp;rbrack; Mostrar Modo Combinar na barra de ferramentas
-* &amp;preto;Pintura em gaiola&amp;rbrack; Alterações na interface do controle deslizante HDR
-* &amp;preto;Pintura de gaiola&amp;rbrack; sombreador de visualização
-* &amp;preto;Pintura em gaiola&amp;rbrack; Redefinir opções da pilha
+* &preto;Pintura em gaiola&rbrack; Criar interface de Tinta básica em gaiola
+* &preto;Pintura em gaiola&rbrack; Novas opções de Visualização em gaiola
+* &preto;Pintura em gaiola&rbrack; Editável Ferramenta Selecionar / Preencher
+* &preto;Pintura em gaiola&rbrack; Mostrar Modo Combinar na barra de ferramentas
+* &preto;Pintura em gaiola&rbrack; Alterações na interface do controle deslizante HDR
+* &preto;Pintura de gaiola&rbrack; sombreador de visualização
+* &preto;Pintura em gaiola&rbrack; Redefinir opções da pilha
 * Melhorias na ferramenta Preenchimento de polígono
-* &amp;Preenchimento de polígono&amp;rbrack; Adicionar correção de polígono
-* &amp;Preenchimento de polígono&amp;rbrack; Adicionar loop de polígono
-* &amp;Preenchimento de polígono&amp;rbrack; suporte para Simetria com Loop/Correção
-* &amp;Preenchimento do polígono&amp;rbrack; visualização da borda da Simetria
-* &amp;Preenchimento de polígono&amp;rbrack; Remover triângulos com loops e loops parciais
-* &amp;preto;Preenchimento de polígono&amp;rbrack; Wireframe visível somente para o Conjunto de texturas ativo
-* &amp;preto;Preenchimento de polígono&amp;rbrack; Realce de borda vermelha em triângulos não clicáveis
-* &amp;preenchimento;Preenchimento de polígono&amp;rbrack; Não desative as opções do modo de preenchimento
-* &amp;Preenchimento de polígono&amp;rbrack; Permitir a definição de todas as propriedades de canal com o Preenchimento de polígono
-* &amp;Preenchimento de polígono&amp;rbrack; Retomar traçado anterior funciona com Preenchimento de polígono
-* &amp;preto;Preenchimento de polígono&amp;rbrack; Mostrar cursor proibido em conjuntos de texturas não ativos
-* &amp;Preenchimento do polígono&amp;rbrack; ALT visualização instantânea
-* &amp;Preenchimento de Polígono&amp;rbrack; Atalho para alternar temporariamente para Polyloop (SHIFT+A)
-* &amp;preto;Visor&amp;rbrack; Mostrar conjunto de texturas / realce de seleção de Bloco UV
-* &amp;lbrack;Visor&amp;rbrack; Adicionar suporte para Transparência Independente da Ordem no visor em tempo real
-* &amp;lbrack;Configurações de exibição&amp;rbrack; Reorganizar as configurações de exibição em novos grupos
-* &amp;lbrack;Tool&amp;brack; Adicionar suporte para mesclagem aditiva com pinceladas
-* &amp;lbrack;Tool&amp;brack; Adicionar suporte para mesclagem aditiva com Preenchimento de Polígono
-* &amp;lbrack;USD&amp;rbrack; O USD exportado com mapa de opacidade torna tudo transparente em Arnold
-* &amp;lbrack;Nvidia&amp;rbrack; Adicionar aviso sobre os drivers Nvidia mais recentes (616.56 a 617.14)
+* &amp;Preenchimento de polígono&rbrack; Adicionar correção de polígono
+* &amp;Preenchimento de polígono&rbrack; Adicionar loop de polígono
+* &amp;Preenchimento de polígono&rbrack; suporte para Simetria com Loop/Correção
+* &amp;Preenchimento do polígono&rbrack; visualização da borda da Simetria
+* &amp;Preenchimento de polígono&rbrack; Remover triângulos com loops e loops parciais
+* &preto;Preenchimento de polígono&rbrack; Wireframe visível somente para o Conjunto de texturas ativo
+* &preto;Preenchimento de polígono&rbrack; Realce de borda vermelha em triângulos não clicáveis
+* &preenchimento;Preenchimento de polígono&rbrack; Não desative as opções do modo de preenchimento
+* &amp;Preenchimento de polígono&rbrack; Permitir a definição de todas as propriedades de canal com o Preenchimento de polígono
+* &amp;Preenchimento de polígono&rbrack; Retomar traçado anterior funciona com Preenchimento de polígono
+* &preto;Preenchimento de polígono&rbrack; Mostrar cursor proibido em conjuntos de texturas não ativos
+* &amp;Preenchimento do polígono&rbrack; ALT visualização instantânea
+* &amp;Preenchimento de Polígono&rbrack; Atalho para alternar temporariamente para Polyloop (SHIFT+A)
+* &preto;Visor&rbrack; Mostrar conjunto de texturas / realce de seleção de Bloco UV
+* &lbrack;Visor&rbrack; Adicionar suporte para Transparência Independente da Ordem no visor em tempo real
+* &lbrack;Configurações de exibição&rbrack; Reorganizar as configurações de exibição em novos grupos
+* &lbrack;Tool&brack; Adicionar suporte para mesclagem aditiva com pinceladas
+* &lbrack;Tool&brack; Adicionar suporte para mesclagem aditiva com Preenchimento de Polígono
+* &lbrack;USD&rbrack; O USD exportado com mapa de opacidade torna tudo transparente em Arnold
+* &lbrack;Nvidia&rbrack; Adicionar aviso sobre os drivers Nvidia mais recentes (616.56 a 617.14)
 * Adicionar nova entrada de mapa do mecanismo “mesh_uv_neighbor”
 * Atualize os baker para a versão 3.23.0
 * Atualize o mecanismo de Substance para a versão 9.6.1
 
 **Corrigido:**
 
-* &amp;lbrack;Fazendo bake&amp;rbrack; A Oclusão de ambiente Ignorar face de fundo pelo nome da malha não funciona
-* &amp;lbrack;Fazendo bake&amp;rbrack; &amp;lbrack;AMD&amp;rbrack; Dispositivo perdido ao fazer bake com malhas pesadas de alta espessura
-* &amp;lbrack;Desempenho&amp;rbrack; Painter hogs VRAM uso
-* &amp;lbrack;Viewport&amp;rbrack; texturas ausentes ao abrir projetos em telas HDPI
-* O modo de mesclagem &amp;preto;Tool&amp;rbrack; fica esmaecido ao pintar em uma máscara
+* &lbrack;Fazendo bake&rbrack; A Oclusão de ambiente Ignorar face de fundo pelo nome da malha não funciona
+* &lbrack;Fazendo bake&rbrack; &lbrack;AMD&rbrack; Dispositivo perdido ao fazer bake com malhas pesadas de alta espessura
+* &lbrack;Desempenho&rbrack; Painter hogs VRAM uso
+* &lbrack;Viewport&rbrack; texturas ausentes ao abrir projetos em telas HDPI
+* O modo de mesclagem &preto;Tool&rbrack; fica esmaecido ao pintar em uma máscara
 * Pastas temporárias não excluídas após a exportação na rede
-* &amp;lbrack;USD&amp;rbrack; A geometria USD exportada é dividida ao longo das bordas UV
-* &amp;lbrack;USD&amp;rbrack; Congelar ao carregar USDz malformado
+* &lbrack;USD&rbrack; A geometria USD exportada é dividida ao longo das bordas UV
+* &lbrack;USD&rbrack; Congelar ao carregar USDz malformado
