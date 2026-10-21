@@ -76,7 +76,7 @@ Essas configurações controlam como o resultado do preenchimento é misturado a
 
 >[!NOTE]
 >
-> A ferramenta oferece suporte aos mesmos modos de mesclagem disponíveis na pilha de camadas. Para obter mais informações, consulte a [página de documentação sobre modos de mistura](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
+> A ferramenta oferece suporte aos mesmos modos de mesclagem disponíveis na pilha de camadas. Para obter mais informações, consulte a [página de documentação sobre modos de mistura](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
 
 ### Material
 
@@ -100,5 +100,5 @@ A ferramenta de preenchimento de polígono pode ser usada eficientemente com a a
 Algumas limitações se aplicam à ferramenta:
 
 * O **preenchimento de loop de polígono** e o **preenchimento parcial de loop de polígono** funcionam somente em quads, portanto, triângulos e n-gonos não podem ser preenchidos com esses modos.
-* O suporte a **simetria radial** também é limitado e pode não ser confiável. Para usar o simetria, prefira usar o modo de espelho. Consulte a [página de documentação do simetria](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/symmetry/symmetry) para obter mais informações.
+* O suporte a **simetria radial** também é limitado e pode não ser confiável. Para usar o simetria, prefira usar o modo de espelho. Consulte a [página de documentação do simetria](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/painting/symmetry/symmetry) para obter mais informações.
 * A ferramenta preenche a geometria somente a partir do **Conjunto de Texturas ativo**. O wireframe é exibido para esse conjunto de texturas e é atualizado quando o conjunto de texturas ativo é alterado.
