@@ -21,4 +21,4 @@ Adicionado:
 
 Corrigido:
 
-* &amp;lbrack;Fazendo bake&amp;rbrack; Problema de desempenho no visor do modo de fça bake no Mac com pintura em gaiola.
+* &lbrack;Fazendo bake&rbrack; Problema de desempenho no visor do modo de fça bake no Mac com pintura em gaiola.
