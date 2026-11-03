@@ -19,13 +19,13 @@ Data de lançamento: **29 de outubro de 2026**
 
 **Adicionado**:
 
-* &amp;lbrack;Fazendo bake&amp;rbrack; A visualização de Erro de Correspondência Máxima usa Correspondência por Nome
+* &lbrack;Fazendo bake&rbrack; A visualização de Erro de Correspondência Máxima usa Correspondência por Nome
 
 **Corrigido**:
 
-* &amp;lbrack;Python&amp;rbrack; Algumas funções obsoletas geram um aviso, mas não dizem quem são
-* A geometria da gaiola do &amp;lbrack;Fazendo bake&amp;rbrack; pode ter furos ao pintar em uma Ilha UV
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Fazendo bake&amp;rbrack; Problema de desempenho no visor do modo de fça bake com pintura em gaiola
+* &lbrack;Python&rbrack; Algumas funções obsoletas geram um aviso, mas não dizem quem são
+* A geometria da gaiola do &lbrack;Fazendo bake&rbrack; pode ter furos ao pintar em uma Ilha UV
+* &lbrack;Mac&rbrack;&lbrack;Fazendo bake&rbrack; Problema de desempenho no visor do modo de fça bake com pintura em gaiola
 
 ### **Compilação 1**
 
@@ -37,4 +37,4 @@ Data de lançamento: **21 de outubro de 2026**
 
 **Corrigido**:
 
-* &amp;lbrack;Fazendo bake&amp;rbrack; Problema de desempenho no visor do modo de fça bake no Mac com pintura em gaiola.
+* &lbrack;Fazendo bake&rbrack; Problema de desempenho no visor do modo de fça bake no Mac com pintura em gaiola.
