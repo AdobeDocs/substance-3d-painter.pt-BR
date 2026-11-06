@@ -17,9 +17,9 @@ Esta versão Beta do Substance 3D Painter adiciona suporte nativo para Windows e
 
 **Corrigido**:
 
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;OpenPBR&amp;rbrack; Textura artefatos em viewport com valores específicos de escala de raios de subsuperfície
-* &amp;lbrack;Mac&amp;rbrack; O viés do mapa de mipmap da filtragem de Textura nas Configurações de Exibição não tem efeito
-* &amp;lbrack;Windows&amp;rbrack;&amp;lbrack;Nvidia&amp;rbrack; A geração de visualizações de pincel e material pode levar a um TDR.
+* &lbrack;Mac&rbrack;&lbrack;OpenPBR&rbrack; Textura artefatos em viewport com valores específicos de escala de raios de subsuperfície
+* &lbrack;Mac&rbrack; O viés do mapa de mipmap da filtragem de Textura nas Configurações de Exibição não tem efeito
+* &lbrack;Windows&rbrack;&lbrack;Nvidia&rbrack; A geração de visualizações de pincel e material pode levar a um TDR.
 
 ### Build 2
 
@@ -27,13 +27,13 @@ Data de lançamento: **2 de novembro de 2026**
 
 **Adicionado**:
 
-* &amp;lbrack;Fazendo bake&amp;rbrack; A visualização de Erro de Correspondência Máxima usa Correspondência por Nome
+* &lbrack;Fazendo bake&rbrack; A visualização de Erro de Correspondência Máxima usa Correspondência por Nome
 
 **Corrigido**:
 
-* &amp;lbrack;Python&amp;rbrack; Algumas funções obsoletas geram um aviso, mas não dizem quem são
-* A geometria da gaiola do &amp;lbrack;Fazendo bake&amp;rbrack; pode ter furos ao pintar em uma Ilha UV
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Fazendo bake&amp;rbrack; Problema de desempenho no visor do modo de fça bake com pintura em gaiola
+* &lbrack;Python&rbrack; Algumas funções obsoletas geram um aviso, mas não dizem quem são
+* A geometria da gaiola do &lbrack;Fazendo bake&rbrack; pode ter furos ao pintar em uma Ilha UV
+* &lbrack;Mac&rbrack;&lbrack;Fazendo bake&rbrack; Problema de desempenho no visor do modo de fça bake com pintura em gaiola
 
 ### Build 1
 
@@ -45,4 +45,4 @@ Data de lançamento: **21 de outubro de 2026**
 
 **Corrigido**:
 
-* &amp;lbrack;Fazendo bake&amp;rbrack; Problema de desempenho no visor do modo de fça bake no Mac com pintura em gaiola.
+* &lbrack;Fazendo bake&rbrack; Problema de desempenho no visor do modo de fça bake no Mac com pintura em gaiola.
