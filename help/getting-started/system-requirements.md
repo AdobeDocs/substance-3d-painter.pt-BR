@@ -4,9 +4,9 @@ description: Revise os requisitos de sistema do Substance 3D Painter para garant
 title: Requisitos do sistema
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
+source-git-commit: 0937bc291815e86b7a33d804729dbef599748d13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '798'
 ht-degree: 1%
 ---
 
@@ -56,9 +56,8 @@ Para obter um bom desempenho ao usar o fluxo de trabalho do Bloco UV, recomendam
 Diversos:
 
 * Muitos aplicativos Substance dependem do OpenSSL 1.1.1 para compatibilidade com RHEL8/9. Para sistemas com versões mais recentes do OpenSSL, o cliente precisará fornecê-lo manualmente
-* Para trabalhar em condições confortáveis, recomendamos um monitor com uma resolução vertical superior a 1000 pixels e mais largo do que 1280 pixels.
-* Exportar a **8K** (8192\*8192 pixels) requer uma GPU com **mais de** 2 GB de VRam.
-* Apenas as versões 2019.x e posteriores foram autenticadas para serem executadas no MacOS 10.15 (Catalina).
+* Para condições de trabalho confortáveis, recomendamos um monitor com uma resolução vertical superior a 1000 pixels e mais largo do que 1280 pixels.
+* A exportação a **8K** (8192\*8192 pixels) não está disponível em GPUs com **menos de** 2 GB de VRAM.
 * Para usar o software via RDP (Área de Trabalho Remota), consulte a [página de documentação](../pipeline-and-integration/configuration/remote-desktop.md) dedicada.
 * A falha na CPU Ryzen ao fazer bake pode ser corrigida com a atualização do BIOS.
 
@@ -107,7 +106,7 @@ Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers mínimos
 
 **DXR** também requer a seguinte configuração mínima:
 
-* **Windows 10** versão 1809, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
+* **Windows 10** versão 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
 * **GPU com arquitetura Pascal** (Nvidia GeForce 10XX)
 
 >[!TIP]
