@@ -4,9 +4,9 @@ description: Analise os problemas conhecidos do Substance 3D Painter para se man
 title: Problemas conhecidos
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
+source-git-commit: a03b6eb503f036d0ea991ebffe4996fde2f0ffb9
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 0%
 Esta página lista todos os problemas conhecidos ativos presentes na v12.2.0 do Substance 3D Painter:
 
 * `[Baking]` AO incorreto em cubos simples
-* `[Baking]` Correspondência por interpretação de sufixo de nome incorreta
 * `[Baking]` emendas Uv não aparecem após a reimportação de mes
 * `[Baking]` artefatos tipo grade com algumas configurações
 
