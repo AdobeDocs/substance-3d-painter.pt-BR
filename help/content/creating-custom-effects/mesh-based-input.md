@@ -4,9 +4,9 @@ description: Saiba como usar entradas baseadas em malha em efeitos personalizado
 title: Entrada baseada em malha
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 4432887b652896f77fc3c99010436ef44aeb8a3e
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '279'
 ht-degree: 1%
 ---
 
@@ -28,3 +28,4 @@ A entrada baseada em malha é uma textura fornecida pelo mecanismo do Substance 
 | *Bitangent (RGB) do Espaço Mundial* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Recupera uma textura contendo o vértice bi-tangente (bi-normal) no espaço de mundo. |
 | *Tamanho do texel (tons de cinza)* | **malha\_texel\_size** | **meshTexelSize** | Recupere uma textura que contenha o tamanho do texel (diferença entre a densidade de pixel e a malha UV). |
 | *Máscara UV (Tons de Cinza)* | **malha\_uv\_mask** | **meshUVMask** | Recupere uma textura como uma máscara preta (externa) e branca (interna) das Ilhas UV de malha. |
+| *Vizinho UV (RGB)* | **malha\_uv\_vizinho** | **meshUVNeighbor** | Recuperar uma textura com duas informações. O interior das coordenadas UV regulares da Ilha UV Store. O exterior do Ilha UV armazena as coordenadas UV do pixel no outro lado de uma emenda UV. Essa textura pode ser usada para criar efeitos perfeitos. |
